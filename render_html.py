@@ -4,7 +4,7 @@ from pathlib import Path
 BASE = Path(__file__).parent
 JSON_PATH = BASE / "legal_directory.json"
 TEMPLATE_PATH = BASE / "legal_directory_template.html"
-OUT_PATH = BASE / "legal_directory.html"
+OUT_PATH = BASE / "index.html"
 
 
 def main():
