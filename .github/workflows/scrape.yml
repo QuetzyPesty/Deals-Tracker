@@ -1,8 +1,8 @@
-name: Weekly Bar & Bench Scrape
+name: Bar & Bench Scrape (every 2 days)
 
 on:
   schedule:
-    - cron: '30 17 * * 0'   # Sun 17:30 UTC = 23:00 IST
+    - cron: '30 17 */2 * *'   # every 2 days at 17:30 UTC = 23:00 IST
   workflow_dispatch: {}
 
 jobs:
@@ -35,5 +35,5 @@ jobs:
           git config user.email "actions@github.com"
           git add barandbench_deals.json scraper/seen_urls.json \
                   legal_directory.db legal_directory.json legal_directory.html
-          git diff --staged --quiet || git commit -m "Weekly scrape: $(date -u +%Y-%m-%d)"
+          git diff --staged --quiet || git commit -m "Scrape: $(date -u +%Y-%m-%d)"
           git push
