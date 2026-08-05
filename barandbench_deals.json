@@ -15,20 +15,59 @@
     ],
     "people": [
       {
-        "name": "Gavin Pereira",
-        "role": "Associate"
+        "name": "Hardik Bhatia",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
       },
       {
-        "name": "Damini Chouhan",
-        "role": "Associate"
+        "name": "Nishant Chris Mathews",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Rhythm Chopra",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Insaf Ahamad T K",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Siddharth Mody",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
       },
       {
         "name": "Anurag Shrivastav",
-        "role": "Associate"
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Esha Himadri",
+        "role": "Senior Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Gavin Pereira",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Damini Chouhan",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Tanmayee Sahoo",
+        "role": "Senior Associate",
+        "firm": "JSA Advocates & Solicitors"
       },
       {
         "name": "Prakhar Jain",
-        "role": "Associate"
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
       }
     ]
   },
@@ -48,28 +87,104 @@
     ],
     "people": [
       {
+        "name": "Devaki Mankad",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Rishav Buxi",
+        "role": "Principal Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Adwait Deshmukh",
+        "role": "Senior Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
         "name": "Archit Jain",
-        "role": "Associate"
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Arikta Shetty",
-        "role": "Associate"
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Janhavi Deshmukh",
-        "role": "Associate"
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Harsha Menon",
-        "role": "Associate"
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Akshat Sharma",
-        "role": "Associate"
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Sajal Soni",
-        "role": "Associate"
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Richa Choudhary",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Maitreya Rajurkar",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Avanti Kale",
+        "role": "Counsel",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Sanya Chaudhari",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Samruddhi Varma",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Harsh Handa",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Shreyansh Gupta",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Pallavi Gopinath Aney",
+        "role": "Partner",
+        "firm": "A&O Shearman"
+      },
+      {
+        "name": "Kyungwon Lee",
+        "role": "Partner",
+        "firm": "A&O Shearman"
+      },
+      {
+        "name": "Nabil Shadab",
+        "role": "Senior Associate",
+        "firm": "A&O Shearman"
+      },
+      {
+        "name": "Shinjan Alok",
+        "role": "Associate",
+        "firm": "A&O Shearman"
       }
     ]
   },
@@ -84,7 +199,53 @@
       "Khaitan & Co"
     ],
     "transaction_types": [],
-    "people": []
+    "people": [
+      {
+        "name": "Doug Kingston",
+        "role": "Partner",
+        "firm": "Morgan Lewis"
+      },
+      {
+        "name": "Andrew Hamilton",
+        "role": "Partner",
+        "firm": "Morgan Lewis"
+      },
+      {
+        "name": "Charles Condro",
+        "role": "Associate",
+        "firm": "Morgan Lewis"
+      },
+      {
+        "name": "Maha Ouni",
+        "role": "Associate",
+        "firm": "Morgan Lewis"
+      },
+      {
+        "name": "Monika Srivastava",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Sanchit Agarwal",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Romit Kohli",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Ritu Shaktawat",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Shabnam Shaikh",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      }
+    ]
   },
   {
     "headline": "Khaitan & Co, Shardul Amarchand Mangaldas act on BNP Paribas Cardif acquiring stake in IndiaFirst Life Insurance",
@@ -99,16 +260,139 @@
     "transaction_types": [],
     "people": [
       {
+        "name": "K Aishwarya",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Shishir Jose Vayttaden",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Niyati Dholakia",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Ambreen Rahman",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Aravind Venugopal",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Amrutha Alapati",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Mohit Kishore",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Bhaskar Vishwajeet",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Jahnavi Yalavarthi",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Anisha Chand",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Alisha Mehra",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Yatharth Vardhan Singh",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Vrinda Bhardwaj",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Nirupam Lodha",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Shivangi Narang",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Gautam Wadhwa",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Vinay Joy",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Aditya J Nair",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Shaaryl Dsouza",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Tanvi Uday Shetty",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Supratim Chakraborty",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Himeli Chatterjee",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Mayank Barman",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Shailaja Lall",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Suhaas Arora",
+        "role": "Senior Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
         "name": "Nidhi Lakhotia",
-        "role": "Associate"
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
       },
       {
         "name": "Aviral Bhardwaj",
-        "role": "Associate"
-      },
-      {
-        "name": "BNP Paribas",
-        "role": "Associate"
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
       }
     ]
   },
@@ -124,7 +408,33 @@
     "transaction_types": [
       "QIP"
     ],
-    "people": []
+    "people": [
+      {
+        "name": "Abhinav Maker",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Debarpita Pande",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Maniya Goyal",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Jayant Saxena",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Varda Saxena",
+        "role": "Associate",
+        "firm": "Trilegal"
+      }
+    ]
   },
   {
     "headline": "CMS INDUSLAW acts on Axis Finance $41 million NCD issuance",
@@ -136,7 +446,23 @@
       "CMS INDUSLAW"
     ],
     "transaction_types": [],
-    "people": []
+    "people": [
+      {
+        "name": "Abir Lal Dey",
+        "role": "Partner",
+        "firm": "CMS INDUSLAW"
+      },
+      {
+        "name": "Khushi Sharma",
+        "role": "Associate",
+        "firm": "CMS INDUSLAW"
+      },
+      {
+        "name": "Soham Dwibedi",
+        "role": "Associate",
+        "firm": "CMS INDUSLAW"
+      }
+    ]
   },
   {
     "headline": "Legacy Law Offices acts on Apar Advertisers IPO",
@@ -150,7 +476,38 @@
     "transaction_types": [
       "IPO"
     ],
-    "people": []
+    "people": [
+      {
+        "name": "Naman Anand",
+        "role": "Counsel",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Priya Kataria",
+        "role": "Associate Partner",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Meghna Shukla",
+        "role": "Associate",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Pavitra Balgi",
+        "role": "Associate",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Amarendra Gogoi",
+        "role": "Partner",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Pratishtha Gulati",
+        "role": "Associate",
+        "firm": "Legacy Law Offices"
+      }
+    ]
   },
   {
     "headline": "Trilegal, A&O Shearman, Cyril Amarchand Mangaldas, Linklaters act on ₹852 crore Shadowfax share sale",
@@ -165,7 +522,23 @@
       "Linklaters"
     ],
     "transaction_types": [],
-    "people": []
+    "people": [
+      {
+        "name": "Gokul Rajan",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Adwait Deshmukh",
+        "role": "Senior Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Zeb Burk",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      }
+    ]
   },
   {
     "headline": "DSK Legal, Troutman Pepper Locke advise Energage on merger with Engagedly",
@@ -182,20 +555,44 @@
     ],
     "people": [
       {
+        "name": "Sameena Chatrapathy",
+        "role": "Partner",
+        "firm": "DSK Legal"
+      },
+      {
+        "name": "Rohan Shiva",
+        "role": "Senior Associate",
+        "firm": "DSK Legal"
+      },
+      {
         "name": "Antonio Jennipher Harriet",
-        "role": "Associate"
+        "role": "Associate",
+        "firm": "DSK Legal"
       },
       {
         "name": "Roshini Arun Kumar",
-        "role": "Associate"
+        "role": "Associate",
+        "firm": "DSK Legal"
+      },
+      {
+        "name": "Brandon Raphael",
+        "role": "Partner",
+        "firm": "Troutman Pepper Locke"
+      },
+      {
+        "name": "Chris Miller",
+        "role": "Partner",
+        "firm": "Troutman Pepper Locke"
       },
       {
         "name": "Raffaele Cicala",
-        "role": "Associate"
+        "role": "Associate",
+        "firm": "Troutman Pepper Locke"
       },
       {
         "name": "Madison Fitzgerald",
-        "role": "Associate"
+        "role": "Associate",
+        "firm": "Troutman Pepper Locke"
       }
     ]
   },
@@ -209,7 +606,28 @@
       "Desai & Diwanji"
     ],
     "transaction_types": [],
-    "people": []
+    "people": [
+      {
+        "name": "Tushar Dey",
+        "role": "Senior Partner",
+        "firm": "Desai & Diwanji"
+      },
+      {
+        "name": "Vishal Mal",
+        "role": "Associate Partner",
+        "firm": "Desai & Diwanji"
+      },
+      {
+        "name": "Neha Agarwal",
+        "role": "Associate Partner",
+        "firm": "Desai & Diwanji"
+      },
+      {
+        "name": "Ayush Jain",
+        "role": "Associate",
+        "firm": "Desai & Diwanji"
+      }
+    ]
   },
   {
     "headline": "Khaitan & Co assists RPG Life Sciences on carve-out of its API business",
@@ -221,7 +639,58 @@
       "Khaitan & Co"
     ],
     "transaction_types": [],
-    "people": []
+    "people": [
+      {
+        "name": "Haigreve Khaitan",
+        "role": "Managing Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Shishir Jose Vayttaden",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Aditi Singhvi",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Bhaskar Vishwajeet",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Harsh Parikh",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Rahul Sunil Agarwal",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Raghav Manojkumar Pareek",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Nirupam Lodha",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Toshani Mukherjee",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Rebecca Cardoso",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      }
+    ]
   },
   {
     "headline": "Trilegal advises Sona Comstar on partnership with Japan's DENSO Corp",
@@ -233,7 +702,83 @@
       "Trilegal"
     ],
     "transaction_types": [],
-    "people": []
+    "people": [
+      {
+        "name": "Sneha Vardhan",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Shubhaang Sinha",
+        "role": "Counsel",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Archit Gupta",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Roopam Dadhich",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Sakshi Rajawat",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Tanay Saluja",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Gauri Chhabra",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Ujwala K Adikey",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Shobhit Shukla",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Bhabya Mahapatra",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Kirti Balasubramanian",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Paarth Samdani",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Mridul Kumbalath",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Ganashruthi M U",
+        "role": "Counsel",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Veda Nair",
+        "role": "Associate",
+        "firm": "Trilegal"
+      }
+    ]
   },
   {
     "headline": "TT&A, Paul Weiss, Avisen Legal act on Carrier acquiring 75F Inc.",
@@ -247,7 +792,123 @@
       "Avisen Legal"
     ],
     "transaction_types": [],
-    "people": []
+    "people": [
+      {
+        "name": "Neville Golwalla",
+        "role": "Partner",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Gayatri Chadha",
+        "role": "Partner",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Samiksha Kothari",
+        "role": "Senior Associate",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Pranav Kandada",
+        "role": "Associate",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Laura Turano",
+        "role": "Partner",
+        "firm": "Paul Weiss"
+      },
+      {
+        "name": "Michael Darby",
+        "role": "Partner",
+        "firm": "Paul Weiss"
+      },
+      {
+        "name": "Neil Goldman",
+        "role": "Partner",
+        "firm": "Paul Weiss"
+      },
+      {
+        "name": "Daniel Yip",
+        "role": "Partner",
+        "firm": "Paul Weiss"
+      },
+      {
+        "name": "Robert Holo",
+        "role": "Partner",
+        "firm": "Paul Weiss"
+      },
+      {
+        "name": "Bonnie Chen",
+        "role": "Partner",
+        "firm": "Paul Weiss"
+      },
+      {
+        "name": "Phil Grudzina",
+        "role": "Counsel",
+        "firm": "Paul Weiss"
+      },
+      {
+        "name": "Matthew Rosenberg",
+        "role": "Counsel",
+        "firm": "Paul Weiss"
+      },
+      {
+        "name": "Sean Kwak",
+        "role": "Counsel",
+        "firm": "Paul Weiss"
+      },
+      {
+        "name": "Jean McLoughlin",
+        "role": "Partner",
+        "firm": "Paul Weiss"
+      },
+      {
+        "name": "Sally Ye",
+        "role": "Partner",
+        "firm": "Paul Weiss"
+      },
+      {
+        "name": "John Carlin",
+        "role": "Partner",
+        "firm": "Paul Weiss"
+      },
+      {
+        "name": "Audrey Paquet",
+        "role": "Counsel",
+        "firm": "Paul Weiss"
+      },
+      {
+        "name": "Aubrey Smith",
+        "role": "Counsel",
+        "firm": "Paul Weiss"
+      },
+      {
+        "name": "Joshua Thompson",
+        "role": "Counsel",
+        "firm": "Paul Weiss"
+      },
+      {
+        "name": "Stefanie Gitler",
+        "role": "Partner",
+        "firm": "Paul Weiss"
+      },
+      {
+        "name": "Lauren O’Brien",
+        "role": "Partner",
+        "firm": "Paul Weiss"
+      },
+      {
+        "name": "Todd Hahn",
+        "role": "Partner",
+        "firm": "Paul Weiss"
+      },
+      {
+        "name": "Chad de Souza",
+        "role": "Partner",
+        "firm": "Paul Weiss"
+      }
+    ]
   },
   {
     "headline": "Dhir & Dhir Associates assists in Powertronix Engineering proposed IPO",
@@ -261,7 +922,23 @@
     "transaction_types": [
       "IPO"
     ],
-    "people": []
+    "people": [
+      {
+        "name": "Guranpreet Singh Sarna",
+        "role": "Partner",
+        "firm": "Dhir & Dhir Associates"
+      },
+      {
+        "name": "Harshita Asopa",
+        "role": "Senior Associate",
+        "firm": "Dhir & Dhir Associates"
+      },
+      {
+        "name": "Shubhangi Gupta",
+        "role": "Associate",
+        "firm": "Dhir & Dhir Associates"
+      }
+    ]
   },
   {
     "headline": "Cyril Amarchand Mangaldas, S&R Associates, Hogan Lovells Cadwalader act on Lohia Corp ₹1,101 crore IPO",
@@ -279,28 +956,74 @@
     ],
     "people": [
       {
+        "name": "Abhiroop Lahiri",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
         "name": "Aakash Rao",
-        "role": "Associate"
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Arnab Roy",
-        "role": "Associate"
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Vatsala Parashar",
-        "role": "Associate"
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Shvabh Chakarwarti",
-        "role": "Associate"
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Sanskar Modi",
-        "role": "Associate"
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
-        "name": "The Firm",
-        "role": "Associate"
+        "name": "Ravi Shah",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Bhakti Madan",
+        "role": "Principal Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Shaishavi Kadakia",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Pratyush Khanna",
+        "role": "Principal Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Bharath Reddy",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Kaustubh George",
+        "role": "Counsel",
+        "firm": "S&R Associates"
+      },
+      {
+        "name": "Suchisubhra Sarkar",
+        "role": "Senior Associate",
+        "firm": "S&R Associates"
+      },
+      {
+        "name": "Sanjana Ravjiani",
+        "role": "Associate",
+        "firm": "S&R Associates"
       }
     ]
   },
@@ -310,8 +1033,26 @@
     "source": "Bar & Bench",
     "url": "https://www.barandbench.com/dealstreet/touchstone-partners-secures-cci-clearance-for-amalgamation-of-go-digit-infoworks-with-go-digit-general-insurance",
     "snippet": "The Fairfax Group has obtained merger control clearance from the Competition Commission of India for the amalgamation of Go Digit Infoworks Services Pvt Ltd with Go Digit General Insurance Ltd such that Go Digit General Insurance will be the surviving entity. Touchstone Partners advised the Fairfax Group, Go Digit Infoworks and Go Digit General Insurance on obtaining the CCI clearance. The transaction team consisted of Vinod Dhall (Senior Advisor), Gaurav Desai (Partner), Shruti Bhat (Counsel), ",
-    "law_firms": [],
+    "law_firms": [
+      "Touchstone Partners"
+    ],
     "transaction_types": [],
-    "people": []
+    "people": [
+      {
+        "name": "Gaurav Desai",
+        "role": "Partner",
+        "firm": "Touchstone Partners"
+      },
+      {
+        "name": "Shruti Bhat",
+        "role": "Counsel",
+        "firm": "Touchstone Partners"
+      },
+      {
+        "name": "Rakshit Rana",
+        "role": "Associate",
+        "firm": "Touchstone Partners"
+      }
+    ]
   }
 ]

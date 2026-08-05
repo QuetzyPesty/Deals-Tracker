@@ -53,6 +53,7 @@ FIRM_ALIASES = {
     "ropes & gray": "Ropes & Gray",
     "weil gotshal": "Weil Gotshal",
     "paul weiss": "Paul Weiss",
+    "paul, weiss": "Paul Weiss",
     "davis polk": "Davis Polk",
     "sidley austin": "Sidley Austin",
     "jsa advocates and solicitors": "JSA Advocates & Solicitors",

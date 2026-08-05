@@ -1,5 +1,5 @@
 """
-Weekly scraper for Bar & Bench's Dealstreet section.
+Weekly (well, every-2-days) scraper for Bar & Bench's Dealstreet section.
 
 Fetches the listing page, finds article URLs not already in seen_urls.json,
 fetches each new article, extracts headline/firms/people/transaction info,
@@ -7,12 +7,22 @@ and appends results to barandbench_deals.json in the same schema as
 structured_deals.json entries so build_directory.py can merge both sources
 untouched.
 
-NOTE: the person/firm extraction regexes below are a first pass based on
-Bar & Bench's typical headline style ("X, Y act on <client> <deal>",
-"X advises <client> on <deal>") and common body phrasing ("led by Partner
-NAME", "assisted by Associates A and B"). Run this against a handful of
-real fetched articles and adjust EXTRACT_PATTERNS / ROLE_PATTERN before
-trusting the output at scale — do not assume it's correct out of the box.
+Person/role/firm extraction is based on inspecting ~20 real Bar & Bench
+articles directly (not guessed): the dominant, highly reliable format is
+literal "Name (Role)" pairs, e.g. "Hardik Bhatia (Partner), Nishant Chris
+Mathews (Principal Associate)". A secondary format lists several people
+under one plural role marker with no individual parens, e.g. "Associates
+Archit Jain, Arikta Shetty, Janhavi Deshmukh, Harsha Menon, Akshat Sharma
+and Sajal Soni." That second format is handled with plain word-by-word
+scanning instead of a bigger/fragile regex, since name-list length and
+separators vary unpredictably.
+
+Each article typically has one paragraph naming the advising firm ("Khaitan
+& Co advised Arboreal on this fundraise.") immediately followed by that
+firm's team-credit paragraph(s). We track this "current firm" per
+paragraph so each extracted person gets their real firm, not a deal-wide
+guess -- this fixes the earlier version, which only had one firm list per
+deal and could misattribute people from a multi-firm deal.
 """
 import json
 import re
@@ -37,19 +47,91 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; legal-directory-bot/1.0; +https://github.com/)"
 }
 
-# Headline verb patterns: "<firms> <verb> <client> <deal desc>"
+# Longest/most-specific phrases first, since regex alternation is
+# first-match, not longest-match -- "Associate Partner" must be tried
+# before "Partner" and "Associate" or it'd get chopped to just "Partner".
+ROLE_WORDS = [
+    "Joint Managing Partner",
+    "Managing Partner",
+    "Senior Partner",
+    "Associate Partner",
+    "Principal Associate",
+    "Senior Associate",
+    "Of Counsel",
+    "Counsel",
+    "Partner",
+    "Associate",
+]
+
+ROLE_ALTERNATION = "|".join(re.escape(r) for r in ROLE_WORDS)
+# Indian/international names commonly include bare middle initials
+# ("Ujwala K Adikey", "Aditya J Nair") and lowercase particles ("Chad de
+# Souza") -- both must be allowed as inner words, or the whole match breaks
+# at that word and only the trailing surname gets captured.
+_NAME_FIRST_WORD = r"[A-Z][A-Za-z’'-]*"
+_NAME_INNER_WORD = r"(?:[A-Z][A-Za-z’'-]*|de|van|bin|al|la|von|der|del)"
+# require >=2 name words -- a single capitalized word before "(Role)" is
+# almost always a stray leftover from a nickname-in-parens (see
+# _strip_nickname_parens), not a full name.
+NAME_PATTERN = rf"{_NAME_FIRST_WORD}(?:\s+{_NAME_INNER_WORD}){{1,4}}"
+
+# Primary, high-confidence extractor: "Name (Role)" or "Name (Role, extra
+# title text)" -- the extra-title suffix (e.g. "Partner, Regional Co-Head –
+# Capital Markets – West") is discarded, we only keep the matched role word.
+PAREN_ROLE_RE = re.compile(
+    rf"({NAME_PATTERN})\s*\(({ROLE_ALTERNATION})(?:,[^)]*)?\)"
+)
+
+# Mid-name nicknames like "Kyungwon (Won) Lee" break paren-role matching --
+# strip any single-word parenthetical that isn't one of our role words
+# before running extraction.
+_NICKNAME_PAREN_RE = re.compile(r"\s\(([A-Za-z]+)\)")
+
+
+def _strip_nickname_parens(text):
+    return _NICKNAME_PAREN_RE.sub(
+        lambda m: m.group(0) if m.group(1) in ROLE_WORDS else "", text
+    )
+
+# Plural role markers used when several names share one un-parenthesized
+# role mention, e.g. "Associates Archit Jain, Arikta Shetty ... and Sajal
+# Soni." Matched via plain word scanning below, not a single regex, since
+# the name-list length is unbounded and regex would get unreadable fast.
+PLURAL_ROLE_MARKERS = {
+    "Senior Partners": "Senior Partner",
+    "Associate Partners": "Associate Partner",
+    "Principal Associates": "Principal Associate",
+    "Senior Associates": "Senior Associate",
+    "Counsels": "Counsel",
+    "Associates": "Associate",
+    "Partners": "Partner",
+}
+# longest marker (by word count) checked first at each position
+PLURAL_MARKERS_BY_LENGTH = sorted(
+    PLURAL_ROLE_MARKERS, key=lambda k: -len(k.split())
+)
+
+# Firm-attribution sentence: "<Firm> advised <client> on ..." /
+# "<Firm> acted as ..." / "<Firm> represented ...". Kept deliberately
+# simple -- one line, literal keywords -- since it only needs to catch the
+# firm name at the *start* of a sentence, which is Bar & Bench's house style.
+FIRM_CONTEXT_RE = re.compile(
+    r"^([A-Z][\w &.,’'-]*?)\s+"
+    r"(advised|advises|is advising|represented|represents|is representing|"
+    r"acted for|acted as|acts for|acts as)\b"
+)
+
+# Headline verb pattern: "<firms> <verb> <client> <deal desc>"
 HEADLINE_VERB = re.compile(
     r"^(?P<firms>.+?)\s+(?:act(?:s)? on|advises|advise|assists|assist|represents|represent)\s+(?P<rest>.+)$",
     re.I,
 )
 
-# Body phrasing for named individuals, e.g. "led by Partner Rahul Sharma" or
-# "Associates Priya Mehta and Arjun Rao advised on the deal".
-ROLE_PATTERN = re.compile(
-    r"(?P<role>Partner|Senior Partner|Managing Partner|Counsel|Of Counsel|"
-    r"Senior Associate|Principal Associate|Associate)s?\s+"
-    r"(?P<names>[A-Z][a-zA-Z.'-]+(?:\s+[A-Z][a-zA-Z.'-]+){0,3}"
-    r"(?:(?:,|\s+and)\s+[A-Z][a-zA-Z.'-]+(?:\s+[A-Z][a-zA-Z.'-]+){0,3})*)"
+TXN_KEYWORDS = (
+    "IPO", "QIP", "Series A", "Series B", "Series C", "Series D", "Series E",
+    "acquisition", "stake acquisition", "merger", "amalgamation", "demerger",
+    "buyout", "divestment", "financing", "joint venture", "fundraise",
+    "investment", "restructuring",
 )
 
 
@@ -83,14 +165,10 @@ def find_article_links(listing_html):
         if not href.startswith(SITE_ROOT):
             continue
         text = a.get_text(strip=True)
-        # article links are long slugs with real headline text; skip nav/footer chrome
         if len(text) < 20:
             continue
-        if "/dealstreet/" not in href and re.search(r"-\d{5,}$", href) is None:
-            # Bar & Bench article URLs typically end in a numeric story id or
-            # live under /dealstreet/<slug>. Keep both patterns permissive.
-            if "/dealstreet" not in href:
-                continue
+        if "/dealstreet" not in href:
+            continue
         links[href] = text
     return links
 
@@ -115,36 +193,97 @@ def parse_headline(headline):
     firms = split_firm_list(m.group("firms"))
     rest = m.group("rest")
     client = rest.split(" on ")[0].strip() if " on " in rest else rest.strip()
-    # trim trailing deal-size/description noise: "Arboreal ₹230 crore Series A
-    # fundraise" -> "Arboreal" (cut at first currency symbol or digit)
+    # trim trailing deal-size/description noise: "Arboreal ₹230 crore Series
+    # A fundraise" -> "Arboreal" (cut at first currency symbol or digit)
     client = re.split(r"[₹$]|\s+\d", client)[0].strip()
-    txn_types = []
-    for key in ("IPO", "QIP", "Series A", "Series B", "Series C", "acquisition",
-                "stake acquisition", "merger", "amalgamation", "demerger",
-                "buyout", "divestment", "financing", "joint venture",
-                "fundraise", "investment", "restructuring"):
-        if key.lower() in headline.lower():
-            txn_types.append(key)
+    txn_types = [k for k in TXN_KEYWORDS if k.lower() in headline.lower()]
     return {"law_firms": firms, "client": client, "transaction_types": txn_types}
 
 
-def extract_people(body_text):
+def extract_paren_credits(paragraph):
+    return [(m.group(1).strip(), m.group(2)) for m in PAREN_ROLE_RE.finditer(paragraph)]
+
+
+_NAME_PARTICLES = {"de", "van", "bin", "al", "la", "von", "der", "del"}
+
+
+def _is_name_word(word):
+    bare = word.strip(".").replace("-", "")
+    if not bare.isalpha():
+        return False
+    return bare[:1].isupper() or bare.lower() in _NAME_PARTICLES
+
+
+def extract_plural_list_credits(paragraph):
+    """Plain word-by-word scan (no regex) for 'Associates A, B and C' style
+    credits, where several names share one plural role marker."""
+    tokens = paragraph.replace(",", " , ").split()
+    credits = []
+    i = 0
+    while i < len(tokens):
+        matched_marker = None
+        for marker in PLURAL_MARKERS_BY_LENGTH:
+            marker_words = marker.split()
+            if tokens[i:i + len(marker_words)] == marker_words:
+                matched_marker = marker
+                i += len(marker_words)
+                break
+        if not matched_marker:
+            i += 1
+            continue
+        role = PLURAL_ROLE_MARKERS[matched_marker]
+        names = []
+        current = []
+        while i < len(tokens):
+            w = tokens[i]
+            if w in (",", "and"):
+                if current:
+                    names.append(" ".join(current))
+                    current = []
+                i += 1
+                continue
+            if _is_name_word(w):
+                current.append(w.rstrip("."))
+                i += 1
+                continue
+            break
+        if current:
+            names.append(" ".join(current))
+        for name in names:
+            if len(name.split()) >= 2:
+                credits.append((name, role))
+    return credits
+
+
+def extract_firm_context(paragraph):
+    m = FIRM_CONTEXT_RE.match(paragraph.strip())
+    if not m:
+        return None
+    raw = m.group(1).strip()
+    # "The Firm also represented..." refers back to the previously named
+    # firm in this article -- it is not itself a firm name.
+    if raw.lower() in ("the firm", "the firm also"):
+        return None
+    return canonical_firm(raw)
+
+
+def extract_people(paragraphs, fallback_firm):
     seen = set()
     people = []
-    for m in ROLE_PATTERN.finditer(body_text):
-        role = m.group("role")
-        names_raw = m.group("names")
-        # split on commas/"and"/sentence-ending periods (a stray ". Capital"
-        # inside the match means the regex ran past the end of the sentence)
-        for name in re.split(r",\s*|\s+and\s+|\.\s+", names_raw):
-            name = name.strip().rstrip(".")
-            if len(name) < 4 or " " not in name:
-                continue
-            key = (name.lower(), role)
+    current_firm = fallback_firm
+    for raw_para in paragraphs:
+        para = _strip_nickname_parens(raw_para)
+        context_firm = extract_firm_context(para)
+        if context_firm:
+            current_firm = context_firm
+
+        credits = extract_paren_credits(para) + extract_plural_list_credits(para)
+        for name, role in credits:
+            key = (name.lower(), role, current_firm)
             if key in seen:
                 continue
             seen.add(key)
-            people.append({"name": name, "role": role})
+            people.append({"name": name, "role": role, "firm": current_firm})
     return people
 
 
@@ -153,11 +292,16 @@ def parse_article(url, headline):
     soup = BeautifulSoup(html, "lxml")
     article = soup.find("article") or soup.find(attrs={"itemprop": "articleBody"}) or soup
     paragraphs = [p.get_text(" ", strip=True) for p in article.find_all("p")]
-    body_text = " ".join(paragraphs)
-    snippet = body_text[:500]
+    snippet = " ".join(paragraphs)[:500]
 
     parsed = parse_headline(headline)
-    people = extract_people(body_text)
+    fallback_firm = parsed["law_firms"][0] if parsed["law_firms"] else None
+    people = extract_people(paragraphs, fallback_firm)
+
+    # merge any firms discovered via in-body firm-context sentences that
+    # weren't already picked up from the headline
+    body_firms = {p["firm"] for p in people if p["firm"]}
+    law_firms = list(dict.fromkeys(parsed["law_firms"] + sorted(body_firms)))
 
     return {
         "headline": headline,
@@ -165,7 +309,7 @@ def parse_article(url, headline):
         "source": "Bar & Bench",
         "url": url,
         "snippet": snippet,
-        "law_firms": parsed["law_firms"],
+        "law_firms": law_firms,
         "transaction_types": parsed["transaction_types"],
         "people": people,
     }
