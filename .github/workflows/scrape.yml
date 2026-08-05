@@ -1,0 +1,39 @@
+name: Weekly Bar & Bench Scrape
+
+on:
+  schedule:
+    - cron: '30 17 * * 0'   # Sun 17:30 UTC = 23:00 IST
+  workflow_dispatch: {}
+
+jobs:
+  scrape-and-rebuild:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Scrape new deals
+        run: python scraper/scrape_barandbench.py
+
+      - name: Rebuild directory DB + JSON
+        run: python build_directory.py
+
+      - name: Render HTML
+        run: python render_html.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "barandbench-bot"
+          git config user.email "actions@github.com"
+          git add barandbench_deals.json scraper/seen_urls.json \
+                  legal_directory.db legal_directory.json legal_directory.html
+          git diff --staged --quiet || git commit -m "Weekly scrape: $(date -u +%Y-%m-%d)"
+          git push
