@@ -2,3 +2,9 @@
 __pycache__/
 *.pyc
 .venv/
+
+# raw mbox export (4.5MB of personal Google Alert emails, not needed by the pipeline)
+External purposes-Corp Transactions.txt
+
+# superseded by legal_directory.json
+people_directory.json
