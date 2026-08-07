@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 3097,
-    "firms": 82,
-    "deals": 391,
+    "people": 3159,
+    "firms": 85,
+    "deals": 398,
     "practice_areas": 6
   },
   "firms": [
@@ -37,6 +37,7 @@
     "Equilex",
     "Fox & Mandal",
     "Gibson Dunn",
+    "Goodwin",
     "His chambers",
     "His chambers (former Attorney General)",
     "Hogan Lovells",
@@ -51,6 +52,7 @@
     "Kelley Drye",
     "Khaitan & Co",
     "Khaled Al-Marri & Partners",
+    "Kochhar & Co",
     "Latham & Watkins",
     "Legacy Law Offices",
     "Lex Consult",
@@ -62,6 +64,7 @@
     "Parinam Law Associates",
     "Paul Weiss",
     "Phoenix Legal",
+    "Pinac",
     "Pérez-Llorca",
     "Quadra Legal",
     "Rajani Associates",
@@ -770,7 +773,7 @@
     },
     {
       "firm": "Cyril Amarchand Mangaldas",
-      "people_count": 544,
+      "people_count": 548,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -989,6 +992,7 @@
             1155,
             1855,
             27,
+            3101,
             2596,
             1860,
             1692,
@@ -1039,8 +1043,10 @@
             1160,
             641,
             883,
+            3100,
             121,
             825,
+            1900,
             822,
             1157,
             1842,
@@ -1083,6 +1089,7 @@
             962,
             882,
             2454,
+            3098,
             968,
             2486,
             41,
@@ -1098,6 +1105,7 @@
             1861,
             479,
             2028,
+            3099,
             2161,
             1687,
             1460,
@@ -1685,6 +1693,44 @@
             2470,
             2469,
             2468
+          ]
+        }
+      ]
+    },
+    {
+      "firm": "Goodwin",
+      "people_count": 27,
+      "practice_groups": [
+        {
+          "area": "Private Equity & Venture Capital",
+          "person_ids": [
+            3153,
+            3152,
+            3134,
+            3151,
+            3131,
+            3130,
+            3140,
+            3146,
+            3136,
+            3138,
+            3156,
+            3145,
+            3155,
+            3147,
+            3150,
+            3148,
+            3139,
+            3141,
+            3132,
+            3133,
+            3137,
+            3154,
+            3149,
+            3142,
+            3144,
+            3135,
+            3143
           ]
         }
       ]
@@ -2398,7 +2444,7 @@
     },
     {
       "firm": "Khaitan & Co",
-      "people_count": 390,
+      "people_count": 408,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -2424,6 +2470,7 @@
             2306,
             1384,
             2314,
+            3158,
             2947,
             1383,
             1617,
@@ -2462,6 +2509,7 @@
             1196,
             2945,
             855,
+            3157,
             984,
             2312,
             683,
@@ -2513,6 +2561,7 @@
             1075,
             1071,
             2307,
+            3159,
             698,
             365,
             1386,
@@ -2686,9 +2735,12 @@
           "area": "Unclassified",
           "person_ids": [
             398,
+            3114,
             333,
             329,
+            3117,
             318,
+            3116,
             2723,
             3030,
             723,
@@ -2698,15 +2750,18 @@
             351,
             1034,
             3026,
+            3111,
             328,
             288,
             344,
             478,
             393,
             3029,
+            3112,
             400,
             284,
             1035,
+            3110,
             1036,
             1228,
             1029,
@@ -2720,7 +2775,9 @@
             327,
             322,
             1037,
+            3119,
             3022,
+            3115,
             1232,
             281,
             366,
@@ -2739,18 +2796,23 @@
             3024,
             291,
             349,
+            3123,
             394,
             345,
             2725,
+            3113,
+            3124,
             397,
             1030,
             2125,
             325,
+            3121,
             353,
             3060,
             3059,
             1060,
             282,
+            3118,
             1032,
             2721,
             1234,
@@ -2764,6 +2826,7 @@
             1062,
             1195,
             2719,
+            3122,
             354,
             3021,
             3023,
@@ -2785,6 +2848,7 @@
             290,
             2124,
             1235,
+            3120,
             357,
             3031
           ]
@@ -2867,6 +2931,20 @@
             1929,
             1928,
             1930
+          ]
+        }
+      ]
+    },
+    {
+      "firm": "Kochhar & Co",
+      "people_count": 3,
+      "practice_groups": [
+        {
+          "area": "Unclassified",
+          "person_ids": [
+            3108,
+            3107,
+            3109
           ]
         }
       ]
@@ -3149,6 +3227,11 @@
       ]
     },
     {
+      "firm": "Pinac",
+      "people_count": 0,
+      "practice_groups": []
+    },
+    {
       "firm": "Pérez-Llorca",
       "people_count": 18,
       "practice_groups": [
@@ -3194,8 +3277,19 @@
     },
     {
       "firm": "Rajani Associates",
-      "people_count": 11,
+      "people_count": 15,
       "practice_groups": [
+        {
+          "area": "Capital Markets",
+          "person_ids": [
+            3105,
+            3106,
+            2855,
+            2856,
+            3104,
+            3103
+          ]
+        },
         {
           "area": "Unclassified",
           "person_ids": [
@@ -3213,13 +3307,6 @@
             312,
             313,
             314
-          ]
-        },
-        {
-          "area": "Capital Markets",
-          "person_ids": [
-            2855,
-            2856
           ]
         }
       ]
@@ -3338,7 +3425,7 @@
     },
     {
       "firm": "Shardul Amarchand Mangaldas & Co",
-      "people_count": 399,
+      "people_count": 400,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -3588,6 +3675,7 @@
             409,
             1170,
             1486,
+            2235,
             1488,
             1495,
             2703,
@@ -3621,6 +3709,7 @@
             1490,
             1491,
             1768,
+            3102,
             2024,
             2253,
             508,
@@ -3640,6 +3729,7 @@
             2022,
             1493,
             141,
+            2238,
             1482,
             1476,
             1007
@@ -4153,7 +4243,7 @@
     },
     {
       "firm": "Trilegal",
-      "people_count": 461,
+      "people_count": 466,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -4385,6 +4475,7 @@
             1283,
             998,
             163,
+            169,
             2189,
             1352,
             738,
@@ -4392,6 +4483,8 @@
             1643,
             1279,
             1174,
+            3127,
+            3128,
             448,
             1274,
             275,
@@ -4400,9 +4493,11 @@
             9,
             280,
             544,
+            167,
             1285,
             514,
             452,
+            549,
             1278,
             1725,
             1348,
@@ -4412,14 +4507,18 @@
             174,
             279,
             270,
+            2359,
             1344,
             2736,
             1275,
+            548,
             1843,
+            176,
             274,
             739,
             2117,
             10,
+            175,
             545,
             1407,
             737,
@@ -4428,11 +4527,13 @@
             1286,
             1346,
             797,
+            168,
             127,
             278,
             450,
             1349,
             1263,
+            3129,
             1408,
             1020,
             271,
@@ -4449,6 +4550,7 @@
             1340,
             1022,
             520,
+            536,
             512,
             272,
             1001,
@@ -4477,6 +4579,8 @@
             516,
             736,
             453,
+            3126,
+            3125,
             451,
             733,
             277,
@@ -4490,7 +4594,9 @@
             1015,
             166,
             414,
-            1277
+            2388,
+            1277,
+            2387
           ]
         },
         {
@@ -7179,6 +7285,28 @@
       "snapshot": "CAM, SAM, JSA, Linklaters act on Shadowfax ₹1,907 crore IPO - Bar and Bench"
     },
     {
+      "id": 3114,
+      "name": "Abhiraj Gandhi",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Hindustan Composites"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business",
+          "client": "Hindustan Composites",
+          "url": "https://www.barandbench.com/dealstreet/khaitan-co-advises-hindustan-composites-on-370-crore-sale-of-its-friction-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business"
+    },
+    {
       "id": 507,
       "name": "Abhiroop Amitava Datta",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -7700,7 +7828,8 @@
         "Hornbill Capital",
         "Olam Group",
         "CA Sardo Investments/Carlyle",
-        "Novo Holdings"
+        "Novo Holdings",
+        "Oxane Partners securing investment from TA Associates"
       ],
       "deals": [
         {
@@ -7772,6 +7901,18 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
       "snapshot": "Trilegal, Sheppard act on $310 million acquisition of iMerit by EXL - Bar and Bench",
@@ -7832,7 +7973,7 @@
           "id": 163,
           "firm": "Trilegal",
           "role": "Partner",
-          "deal_count": 6
+          "deal_count": 7
         }
       ],
       "firm_verification": {
@@ -8639,15 +8780,18 @@
       "id": 169,
       "name": "Achintya Anupam",
       "firm": "Trilegal",
-      "role": "Associate (Labour & Employment)",
+      "role": "Associate",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "investment"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "iMerit and shareholders"
+        "iMerit and shareholders",
+        "Oxane Partners securing investment from TA Associates"
       ],
       "deals": [
         {
@@ -8660,6 +8804,18 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -8782,6 +8938,58 @@
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas advises SolarSquare on $53 million Series C fundraise"
+    },
+    {
+      "id": 3105,
+      "name": "Addvit Shrivastava",
+      "firm": "Rajani Associates",
+      "role": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Silver Storm Parks IPO"
+      ],
+      "deals": [
+        {
+          "headline": "Rajani Associates acts on Silver Storm Parks IPO",
+          "client": "Silver Storm Parks IPO",
+          "url": "https://www.barandbench.com/dealstreet/rajani-associates-acts-on-silver-storm-parks-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Rajani Associates acts on Silver Storm Parks IPO"
+    },
+    {
+      "id": 3117,
+      "name": "Adheesh Nargolkar",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Hindustan Composites"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business",
+          "client": "Hindustan Composites",
+          "url": "https://www.barandbench.com/dealstreet/khaitan-co-advises-hindustan-composites-on-370-crore-sale-of-its-friction-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business"
     },
     {
       "id": 2189,
@@ -11304,6 +11512,28 @@
       "snapshot": "Shardul Amarchand Mangaldas, Khaitan & Co act on Swara Baby Products ..."
     },
     {
+      "id": 3116,
+      "name": "Aishwarya Ashish Ghule",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Hindustan Composites"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business",
+          "client": "Hindustan Composites",
+          "url": "https://www.barandbench.com/dealstreet/khaitan-co-advises-hindustan-composites-on-370-crore-sale-of-its-friction-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business"
+    },
+    {
       "id": 2714,
       "name": "Aishwarya Joshi",
       "firm": "Cyril Amarchand Mangaldas",
@@ -12630,6 +12860,36 @@
       "snapshot": "JSA advises MO Alternates on minority stake acquisition in Sensa Core - Bar and Bench"
     },
     {
+      "id": 3153,
+      "name": "Akshay Chauhan",
+      "firm": "Goodwin",
+      "role": "Senior Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
+    },
+    {
       "id": 1748,
       "name": "Akshay Chudasama",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -13320,6 +13580,96 @@
         }
       ],
       "snapshot": "SAM advises Sembcorp Green on ~₹1,700 crore acquisition of ReNew Sun Bright"
+    },
+    {
+      "id": 3152,
+      "name": "Alex Fisher",
+      "firm": "Goodwin",
+      "role": "Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
+    },
+    {
+      "id": 3127,
+      "name": "Alexander Nagorny",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
+    },
+    {
+      "id": 3128,
+      "name": "Alice Drayton",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
     },
     {
       "id": 2174,
@@ -16083,6 +16433,36 @@
       "snapshot": "Shardul Amarchand Mangaldas, JSA, Hogan Lovells act on Craftsman Automation ₹2,000 crore QIP"
     },
     {
+      "id": 3134,
+      "name": "Ananth Lakshman",
+      "firm": "Goodwin",
+      "role": "Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
+    },
+    {
       "id": 1379,
       "name": "Anantha Iyer",
       "firm": "Argus Partners",
@@ -16623,6 +17003,36 @@
       "snapshot": "Morgan Lewis, Khaitan & Co advise Cambridge Mobile Telematics on securing $350 million from TPG, Allianz X"
     },
     {
+      "id": 3151,
+      "name": "Andrew Henderson",
+      "firm": "Goodwin",
+      "role": "Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
+    },
+    {
       "id": 557,
       "name": "Andri Shukla",
       "firm": "Cyril Amarchand Mangaldas",
@@ -16755,6 +17165,36 @@
         }
       ],
       "snapshot": "CAM advises Ministry of Petroleum and Natural Gas on drafting of Petroleum and ... - Bar and Bench"
+    },
+    {
+      "id": 3131,
+      "name": "Angus Simpson",
+      "firm": "Goodwin",
+      "role": "Counsel",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
     },
     {
       "id": 2074,
@@ -21554,15 +21994,18 @@
       "firm": "Trilegal",
       "role": "Partner",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "investment"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
         "iMerit and shareholders",
         "Bain Capital",
-        "Mahindra Lifespaces"
+        "Mahindra Lifespaces",
+        "Oxane Partners securing investment from TA Associates"
       ],
       "deals": [
         {
@@ -21592,6 +22035,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
       "snapshot": "Trilegal, Sheppard act on $310 million acquisition of iMerit by EXL - Bar and Bench"
@@ -23417,6 +23872,36 @@
       "snapshot": "Cyril Amarchand Mangaldas, S&R Associates, Hogan Lovells Cadwalader act on Lohia ..."
     },
     {
+      "id": 3158,
+      "name": "Arnav Bose",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Algonomy"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Algonomy on acquisition by Malaysia-based ADA",
+          "client": "Algonomy",
+          "url": "https://www.barandbench.com/dealstreet/khaitan-co-advises-algonomy-on-acquisition-by-malaysia-based-ada",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Algonomy on acquisition by Malaysia-based ADA"
+    },
+    {
       "id": 522,
       "name": "Arnav Dayal",
       "firm": "Trilegal",
@@ -24133,6 +24618,28 @@
       "snapshot": "SAM advises consortium of lenders on debt resolution of Karanja Terminal & Logistics"
     },
     {
+      "id": 3111,
+      "name": "Arushi Dokania",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Hindustan Composites"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business",
+          "client": "Hindustan Composites",
+          "url": "https://www.barandbench.com/dealstreet/khaitan-co-advises-hindustan-composites-on-370-crore-sale-of-its-friction-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business"
+    },
+    {
       "id": 27,
       "name": "Arushi Kankariya",
       "firm": "Cyril Amarchand Mangaldas",
@@ -24584,6 +25091,36 @@
         }
       ],
       "snapshot": "SAM, CAM act on Poonawalla Fincorp on ₹2,500 crore QIP - Bar and Bench"
+    },
+    {
+      "id": 3101,
+      "name": "Aryan Pandey",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Cube Highways Trust"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Shardul Amarchand Mangaldas, AZB & Partners, Sidley Austin act on Cube Highways Trust ₹5,000 crore IPO",
+          "client": "Cube Highways Trust",
+          "url": "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-azb-partners-sidley-austin-act-on-cube-highways-trust-5000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Shardul Amarchand Mangaldas, AZB & Partners, Sidley Austin act on Cube Highways..."
     },
     {
       "id": 2428,
@@ -27909,14 +28446,17 @@
       "role": "Associate",
       "transaction_types": [
         "acquisition",
+        "investment",
         "stake acquisition"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
         "Mittal Family",
-        "CA Sardo Investments/Carlyle (TMT law)"
+        "CA Sardo Investments/Carlyle (TMT law)",
+        "Oxane Partners securing investment from TA Associates"
       ],
       "deals": [
         {
@@ -27942,6 +28482,18 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -30505,6 +31057,36 @@
       "snapshot": "Trilegal, Cooley, AZB, Latham, SAM, CMS INDUSLAW act on CRED securing $900 million from Meta"
     },
     {
+      "id": 3130,
+      "name": "Carl Bradshaw",
+      "firm": "Goodwin",
+      "role": "Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
+    },
+    {
       "id": 2923,
       "name": "Carla G. Teodoro",
       "firm": "Sidley Austin",
@@ -30563,6 +31145,36 @@
         }
       ],
       "snapshot": "Trilegal, Sheppard act on $310 million acquisition of iMerit by EXL - Bar and Bench"
+    },
+    {
+      "id": 3140,
+      "name": "Carrie Miller",
+      "firm": "Goodwin",
+      "role": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
     },
     {
       "id": 3091,
@@ -30676,6 +31288,28 @@
         }
       ],
       "snapshot": "CAM, AZB act on Warburg Pincus acquiring stake in Fleur Hotels - Bar and Bench"
+    },
+    {
+      "id": 3112,
+      "name": "Chakrapani Misra",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Hindustan Composites"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business",
+          "client": "Hindustan Composites",
+          "url": "https://www.barandbench.com/dealstreet/khaitan-co-advises-hindustan-composites-on-370-crore-sale-of-its-friction-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business"
     },
     {
       "id": 1550,
@@ -31677,6 +32311,36 @@
       "snapshot": "Uría Menéndez, CAM, Pérez-Llorca, Weil, Khaitan act on €600 million acquisition of Ayesa ..."
     },
     {
+      "id": 3146,
+      "name": "Curtis McCluskey",
+      "firm": "Goodwin",
+      "role": "Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
+    },
+    {
       "id": 963,
       "name": "Cyril Shroff",
       "firm": "Cyril Amarchand Mangaldas",
@@ -32648,6 +33312,28 @@
       "snapshot": "Trilegal, CAM, Latham, AZB, Equilex, Macfarlanes advise on Mittal-Poonawalla consortium ..."
     },
     {
+      "id": 3110,
+      "name": "Deep Shah",
+      "firm": "Khaitan & Co",
+      "role": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Hindustan Composites"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business",
+          "client": "Hindustan Composites",
+          "url": "https://www.barandbench.com/dealstreet/khaitan-co-advises-hindustan-composites-on-370-crore-sale-of-its-friction-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business"
+    },
+    {
       "id": 1865,
       "name": "Deepa Pathak",
       "firm": "Cyril Amarchand Mangaldas",
@@ -32770,7 +33456,8 @@
         "Embio",
         "FMC India",
         "GEF Capital Partners",
-        "Advent International"
+        "Advent International",
+        "Hindustan Composites"
       ],
       "deals": [
         {
@@ -32852,6 +33539,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business",
+          "client": "Hindustan Composites",
+          "url": "https://www.barandbench.com/dealstreet/khaitan-co-advises-hindustan-composites-on-370-crore-sale-of-its-friction-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Uría Menéndez, CAM, Pérez-Llorca, Weil, Khaitan act on €600 million acquisition of Ayesa ..."
@@ -33036,6 +33731,28 @@
         }
       ],
       "snapshot": "CAM, AZB act on Warburg Pincus acquiring stake in Fleur Hotels - Bar and Bench"
+    },
+    {
+      "id": 3108,
+      "name": "Deepika Gautam",
+      "firm": "Kochhar & Co",
+      "role": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Novargi Group - Cerec Metalform JV"
+      ],
+      "deals": [
+        {
+          "headline": "Kochhar & Co acts on Novargi Group - Cerec Metalform JV",
+          "client": "Novargi Group - Cerec Metalform JV",
+          "url": "https://www.barandbench.com/dealstreet/kochhar-co-acts-on-novargi-group-cerec-metalform-jv",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Kochhar & Co acts on Novargi Group - Cerec Metalform JV"
     },
     {
       "id": 1479,
@@ -35195,7 +35912,8 @@
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "FMC India"
+        "FMC India",
+        "Algonomy"
       ],
       "deals": [
         {
@@ -35203,6 +35921,18 @@
           "client": "FMC India",
           "url": "https://www.barandbench.com/dealstreet/shardul-amarchand-mangaldas-khaitan-davis-polk-act-on-crystal-crop-protections-2268-crore-acquisition-of-fmc-india",
           "source": "Bar and Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co advises Algonomy on acquisition by Malaysia-based ADA",
+          "client": "Algonomy",
+          "url": "https://www.barandbench.com/dealstreet/khaitan-co-advises-algonomy-on-acquisition-by-malaysia-based-ada",
+          "source": "Bar & Bench",
           "types": [
             "acquisition"
           ],
@@ -36278,6 +37008,36 @@
       "snapshot": "Trilegal acts on Power Finance Corp ~₹1057 crore NCD issuance - Bar and Bench"
     },
     {
+      "id": 3136,
+      "name": "Dulcie Daly",
+      "firm": "Goodwin",
+      "role": "Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
+    },
+    {
       "id": 405,
       "name": "Dushyant Bagga",
       "firm": "Talwar Thakore & Associates",
@@ -37034,6 +37794,36 @@
       "snapshot": "Shardul Amarchand Mangaldas, Trilegal act on Ather Energy ₹1,300 crore QIP"
     },
     {
+      "id": 3138,
+      "name": "Eram Khan",
+      "firm": "Goodwin",
+      "role": "Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
+    },
+    {
       "id": 76,
       "name": "Eric Kadel",
       "firm": "Sullivan & Cromwell",
@@ -37768,6 +38558,36 @@
         }
       ],
       "snapshot": "Trilegal, Cooley, AZB, Latham, SAM, CMS INDUSLAW act on CRED securing $900 million from Meta"
+    },
+    {
+      "id": 3156,
+      "name": "Gabby Carusello",
+      "firm": "Goodwin",
+      "role": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
     },
     {
       "id": 1677,
@@ -38505,6 +39325,7 @@
         "Series B",
         "acquisition",
         "fundraise",
+        "investment",
         "merger",
         "stake acquisition"
       ],
@@ -38519,7 +39340,8 @@
         "CA Sardo Investments/Carlyle (competition law)",
         "Blackstone",
         "Körber Group",
-        "Sona Comstar"
+        "Sona Comstar",
+        "Oxane Partners securing investment from TA Associates"
       ],
       "deals": [
         {
@@ -38599,6 +39421,18 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
       "snapshot": "Trilegal, Sheppard act on $310 million acquisition of iMerit by EXL - Bar and Bench"
@@ -39989,6 +40823,36 @@
       "snapshot": "Trilegal, Sheppard act on $310 million acquisition of iMerit by EXL - Bar and Bench"
     },
     {
+      "id": 3145,
+      "name": "Gretchen Scott",
+      "firm": "Goodwin",
+      "role": "Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
+    },
+    {
       "id": 1728,
       "name": "Grigor Lynch",
       "firm": "Cooley",
@@ -40418,6 +41282,36 @@
       "snapshot": "Khaitan & Co, Trilegal act on Blackstone-backed EPL - Indovida Packaging merger"
     },
     {
+      "id": 3155,
+      "name": "Haley Carter",
+      "firm": "Goodwin",
+      "role": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
+    },
+    {
       "id": 1848,
       "name": "Hanna Vettoor",
       "firm": "Trilegal",
@@ -40763,7 +41657,8 @@
         "Bagmane REIT",
         "Anzen India Energy Yield Plus Trust",
         "Groww",
-        "Brookfield"
+        "Brookfield",
+        "Cube Highways Trust"
       ],
       "deals": [
         {
@@ -40809,6 +41704,18 @@
           "source": "Bar and Bench",
           "types": [
             "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Shardul Amarchand Mangaldas, AZB & Partners, Sidley Austin act on Cube Highways Trust ₹5,000 crore IPO",
+          "client": "Cube Highways Trust",
+          "url": "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-azb-partners-sidley-austin-act-on-cube-highways-trust-5000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -43114,16 +44021,19 @@
       "id": 2359,
       "name": "Hitarth Parikh",
       "firm": "Trilegal",
-      "role": "Associate",
+      "role": "Senior Associate",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "investment"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
         "Premji Invest and TPG NewQuest",
-        "Auro Pharma"
+        "Auro Pharma",
+        "Oxane Partners securing investment from TA Associates"
       ],
       "deals": [
         {
@@ -43144,6 +44054,18 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -45354,6 +46276,36 @@
       "snapshot": "Wilson Sonsini, JSA, Latham act on Marvell's acquisition of Celestial AI"
     },
     {
+      "id": 3147,
+      "name": "James Taylor",
+      "firm": "Goodwin",
+      "role": "Counsel",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
+    },
+    {
       "id": 369,
       "name": "Jamshed Bhumgara",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -45527,14 +46479,17 @@
       "role": "Senior Associate",
       "transaction_types": [
         "acquisition",
+        "investment",
         "stake acquisition"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
         "Mittal Family",
-        "CA Sardo Investments/Carlyle (TMT law)"
+        "CA Sardo Investments/Carlyle (TMT law)",
+        "Oxane Partners securing investment from TA Associates"
       ],
       "deals": [
         {
@@ -45560,6 +46515,18 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -45810,7 +46777,8 @@
       ],
       "clients": [
         "Canara Robeco and ORIX Corporation",
-        "KKR"
+        "KKR",
+        "Cube Highways Trust"
       ],
       "deals": [
         {
@@ -45836,6 +46804,18 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Shardul Amarchand Mangaldas, AZB & Partners, Sidley Austin act on Cube Highways Trust ₹5,000 crore IPO",
+          "client": "Cube Highways Trust",
+          "url": "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-azb-partners-sidley-austin-act-on-cube-highways-trust-5000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
           ]
         }
       ],
@@ -46195,6 +47175,36 @@
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Trilegal act on Brookfield India REIT ₹2,600 crore QIP"
+    },
+    {
+      "id": 3150,
+      "name": "Jason Yeoun",
+      "firm": "Goodwin",
+      "role": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
     },
     {
       "id": 2805,
@@ -47668,6 +48678,28 @@
       "snapshot": "Wilson Sonsini, JSA, Latham act on Marvell's acquisition of Celestial AI"
     },
     {
+      "id": 3119,
+      "name": "Jimmy Bhatt",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Hindustan Composites"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business",
+          "client": "Hindustan Composites",
+          "url": "https://www.barandbench.com/dealstreet/khaitan-co-advises-hindustan-composites-on-370-crore-sale-of-its-friction-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business"
+    },
+    {
       "id": 2959,
       "name": "Jinal Mehta",
       "firm": "Cyril Amarchand Mangaldas",
@@ -47900,15 +48932,18 @@
       "role": "Partner",
       "transaction_types": [
         "acquisition",
+        "investment",
         "stake acquisition"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
         "iMerit and shareholders",
         "Mittal Family",
-        "CA Sardo Investments/Carlyle (TMT law)"
+        "CA Sardo Investments/Carlyle (TMT law)",
+        "Oxane Partners securing investment from TA Associates"
       ],
       "deals": [
         {
@@ -47946,6 +48981,18 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -48397,6 +49444,36 @@
       "snapshot": "Trilegal advises Muthoot Finance on $150 million bond issuance in Gift City - Bar and Bench"
     },
     {
+      "id": 3148,
+      "name": "Joseph Ndep",
+      "firm": "Goodwin",
+      "role": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
+    },
+    {
       "id": 131,
       "name": "Joseph Wolpin",
       "firm": "Linklaters",
@@ -48841,6 +49918,36 @@
         }
       ],
       "snapshot": "White & Case, AZB, Sullivan, Cyril Amarchand Mangaldas, Linklaters act on Sun Pharma's ..."
+    },
+    {
+      "id": 3139,
+      "name": "Justin Pierce",
+      "firm": "Goodwin",
+      "role": "Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
     },
     {
       "id": 2429,
@@ -50025,7 +51132,8 @@
       ],
       "clients": [
         "Kaynes Semicon",
-        "Aditya Birla Renewables"
+        "Aditya Birla Renewables",
+        "Hindustan Composites"
       ],
       "deals": [
         {
@@ -50047,6 +51155,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business",
+          "client": "Hindustan Composites",
+          "url": "https://www.barandbench.com/dealstreet/khaitan-co-advises-hindustan-composites-on-370-crore-sale-of-its-friction-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Khaitan & Co advises Kaynes Semicon on Fiscal Support Agreement with India ..."
@@ -50102,6 +51218,28 @@
         }
       ],
       "snapshot": "Trilegal, Cooley, AZB, Latham, SAM, CMS INDUSLAW act on CRED securing $900 million from Meta"
+    },
+    {
+      "id": 3115,
+      "name": "Karan Dattani",
+      "firm": "Khaitan & Co",
+      "role": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Hindustan Composites"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business",
+          "client": "Hindustan Composites",
+          "url": "https://www.barandbench.com/dealstreet/khaitan-co-advises-hindustan-composites-on-370-crore-sale-of-its-friction-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business"
     },
     {
       "id": 1148,
@@ -51033,6 +52171,36 @@
         }
       ],
       "snapshot": "JSA advises Indigrid on ₹372 crore acquisition of Gadag Transmission - Bar and Bench"
+    },
+    {
+      "id": 3157,
+      "name": "Kartikeya Prakash",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Algonomy"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Algonomy on acquisition by Malaysia-based ADA",
+          "client": "Algonomy",
+          "url": "https://www.barandbench.com/dealstreet/khaitan-co-advises-algonomy-on-acquisition-by-malaysia-based-ada",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Algonomy on acquisition by Malaysia-based ADA"
     },
     {
       "id": 1730,
@@ -52123,6 +53291,28 @@
       "snapshot": "CMS INDUSLAW advises Shriram Pistons on €159 million acquisition of three companies ..."
     },
     {
+      "id": 3107,
+      "name": "Ketan Mukhija",
+      "firm": "Kochhar & Co",
+      "role": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Novargi Group - Cerec Metalform JV"
+      ],
+      "deals": [
+        {
+          "headline": "Kochhar & Co acts on Novargi Group - Cerec Metalform JV",
+          "client": "Novargi Group - Cerec Metalform JV",
+          "url": "https://www.barandbench.com/dealstreet/kochhar-co-acts-on-novargi-group-cerec-metalform-jv",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Kochhar & Co acts on Novargi Group - Cerec Metalform JV"
+    },
+    {
       "id": 531,
       "name": "Ketki Redkar",
       "firm": "Trilegal",
@@ -52231,6 +53421,36 @@
         }
       ],
       "snapshot": "Uría Menéndez, CAM, Pérez-Llorca, Weil, Khaitan act on €600 million acquisition of Ayesa ..."
+    },
+    {
+      "id": 3141,
+      "name": "Kevin Walsh",
+      "firm": "Goodwin",
+      "role": "Counsel",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
     },
     {
       "id": 468,
@@ -52967,10 +54187,12 @@
       "role": "Partner",
       "transaction_types": [
         "acquisition",
+        "investment",
         "stake acquisition"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
         "iMerit and shareholders",
@@ -52979,7 +54201,8 @@
         "Premji Invest and TPG NewQuest",
         "Auro Pharma",
         "CA Sardo Investments/Carlyle (IP law)",
-        "Sona Comstar"
+        "Sona Comstar",
+        "Oxane Partners securing investment from TA Associates"
       ],
       "deals": [
         {
@@ -53054,6 +54277,18 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
       "snapshot": "Trilegal, Sheppard act on $310 million acquisition of iMerit by EXL - Bar and Bench"
@@ -53552,7 +54787,7 @@
       "id": 1897,
       "name": "Kranti Mohan",
       "firm": "Cyril Amarchand Mangaldas",
-      "role": "Partner, Head REIT and InvITs",
+      "role": "Partner",
       "transaction_types": [
         "IPO",
         "fundraise"
@@ -53563,7 +54798,8 @@
       ],
       "clients": [
         "Lead Managers",
-        "Anantam Highways Trust"
+        "Anantam Highways Trust",
+        "Cube Highways Trust"
       ],
       "deals": [
         {
@@ -53583,6 +54819,18 @@
           "client": "Anantam Highways Trust",
           "url": "https://www.barandbench.com/dealstreet/cam-jsa-act-on-anantam-highways-trust-400-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Shardul Amarchand Mangaldas, AZB & Partners, Sidley Austin act on Cube Highways Trust ₹5,000 crore IPO",
+          "client": "Cube Highways Trust",
+          "url": "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-azb-partners-sidley-austin-act-on-cube-highways-trust-5000-crore-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -54030,7 +55278,8 @@
       ],
       "clients": [
         "Nexusmalls Whitefield",
-        "GEF Capital Partners"
+        "GEF Capital Partners",
+        "Hindustan Composites"
       ],
       "deals": [
         {
@@ -54052,6 +55301,14 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business",
+          "client": "Hindustan Composites",
+          "url": "https://www.barandbench.com/dealstreet/khaitan-co-advises-hindustan-composites-on-370-crore-sale-of-its-friction-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Blackstone-backed Nexus shops for Kolkata mall Diamond Plaza; Khaitan, SAM advise"
@@ -55863,6 +57120,36 @@
         }
       ],
       "snapshot": "ALMT Legal, Shardul Amarchand Mangaldas, Rajani Associates act on Bodycraft ₹120 ..."
+    },
+    {
+      "id": 3132,
+      "name": "Laura Antuna-Ortega",
+      "firm": "Goodwin",
+      "role": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
     },
     {
       "id": 644,
@@ -57931,16 +59218,19 @@
       "id": 168,
       "name": "Maitreya Sharma",
       "firm": "Trilegal",
-      "role": "Associate",
+      "role": "Senior Associate",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "investment"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
         "iMerit and shareholders",
-        "Bain Capital"
+        "Bain Capital",
+        "Oxane Partners securing investment from TA Associates"
       ],
       "deals": [
         {
@@ -57962,6 +59252,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
       "snapshot": "Trilegal, Sheppard act on $310 million acquisition of iMerit by EXL - Bar and Bench"
@@ -60430,6 +61732,36 @@
       "snapshot": "CAM, Clifford Chance act on FarmCarbon $53 million fundraise - Bar and Bench"
     },
     {
+      "id": 3133,
+      "name": "Marcus Walford",
+      "firm": "Goodwin",
+      "role": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
+    },
+    {
       "id": 971,
       "name": "Maria Palamattom",
       "firm": "Cyril Amarchand Mangaldas",
@@ -60739,6 +62071,36 @@
         }
       ],
       "snapshot": "Trilegal, Sheppard act on $310 million acquisition of iMerit by EXL - Bar and Bench"
+    },
+    {
+      "id": 3137,
+      "name": "Matt Rees",
+      "firm": "Goodwin",
+      "role": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
     },
     {
       "id": 91,
@@ -63929,7 +65291,8 @@
       ],
       "clients": [
         "Canara Robeco and ORIX Corporation",
-        "KKR"
+        "KKR",
+        "Cube Highways Trust"
       ],
       "deals": [
         {
@@ -63955,6 +65318,18 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Shardul Amarchand Mangaldas, AZB & Partners, Sidley Austin act on Cube Highways Trust ₹5,000 crore IPO",
+          "client": "Cube Highways Trust",
+          "url": "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-azb-partners-sidley-austin-act-on-cube-highways-trust-5000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
           ]
         }
       ],
@@ -64375,6 +65750,36 @@
         }
       ],
       "snapshot": "Trilegal, Sheppard act on $310 million acquisition of iMerit by EXL - Bar and Bench"
+    },
+    {
+      "id": 3129,
+      "name": "Myles Byron",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
     },
     {
       "id": 161,
@@ -65740,6 +67145,36 @@
       "snapshot": "SAM acts on Nazara's ₹918 crore stake acquisition in Bluetile Games and BestPlay Systems"
     },
     {
+      "id": 3154,
+      "name": "Nate Hsieh",
+      "firm": "Goodwin",
+      "role": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
+    },
+    {
       "id": 2915,
       "name": "Nathaniel Jordan Warjri",
       "firm": "Economic Laws Practice (ELP)",
@@ -66644,6 +68079,36 @@
         }
       ],
       "snapshot": "JSA, ELP act on TravelPlus ₹250 crore+ IPO filing - Bar and Bench"
+    },
+    {
+      "id": 3100,
+      "name": "Neha Jayesh",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Cube Highways Trust"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Shardul Amarchand Mangaldas, AZB & Partners, Sidley Austin act on Cube Highways Trust ₹5,000 crore IPO",
+          "client": "Cube Highways Trust",
+          "url": "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-azb-partners-sidley-austin-act-on-cube-highways-trust-5000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Shardul Amarchand Mangaldas, AZB & Partners, Sidley Austin act on Cube Highways..."
     },
     {
       "id": 2666,
@@ -67943,7 +69408,8 @@
         "Selling Shareholders",
         "WeWork India and Embassy Buildcon LLP",
         "Book Running Lead Managers",
-        "Aequs"
+        "Aequs",
+        "Cube Highways Trust"
       ],
       "deals": [
         {
@@ -68129,6 +69595,18 @@
           "source": "Bar and Bench",
           "types": [
             "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Shardul Amarchand Mangaldas, AZB & Partners, Sidley Austin act on Cube Highways Trust ₹5,000 crore IPO",
+          "client": "Cube Highways Trust",
+          "url": "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-azb-partners-sidley-austin-act-on-cube-highways-trust-5000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -68810,13 +70288,16 @@
       "firm": "Cyril Amarchand Mangaldas",
       "role": "Associate",
       "transaction_types": [
+        "IPO",
         "fundraise"
       ],
       "practice_areas": [
+        "Capital Markets",
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Lead Managers"
+        "Lead Managers",
+        "Cube Highways Trust"
       ],
       "deals": [
         {
@@ -68829,6 +70310,18 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Shardul Amarchand Mangaldas, AZB & Partners, Sidley Austin act on Cube Highways Trust ₹5,000 crore IPO",
+          "client": "Cube Highways Trust",
+          "url": "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-azb-partners-sidley-austin-act-on-cube-highways-trust-5000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
           ]
         }
       ],
@@ -70210,16 +71703,19 @@
       "firm": "Shardul Amarchand Mangaldas & Co",
       "role": "Partner",
       "transaction_types": [
+        "IPO",
         "acquisition",
         "stake acquisition"
       ],
       "practice_areas": [
+        "Capital Markets",
         "Mergers & Acquisitions"
       ],
       "clients": [
         "JK Paper",
         "Hyderabad Institute of Oncology (Omega Hospitals)",
-        "Eris Lifesciences"
+        "Eris Lifesciences",
+        "Cube Highways Trust"
       ],
       "deals": [
         {
@@ -70254,6 +71750,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Shardul Amarchand Mangaldas, AZB & Partners, Sidley Austin act on Cube Highways Trust ₹5,000 crore IPO",
+          "client": "Cube Highways Trust",
+          "url": "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-azb-partners-sidley-austin-act-on-cube-highways-trust-5000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
         }
       ],
       "snapshot": "SAM, Clove Legal act on JK Paper's ₹235 crore acquisition of Borkar Packaging",
@@ -70304,7 +71812,7 @@
           "id": 2235,
           "firm": "Shardul Amarchand Mangaldas & Co",
           "role": "Partner",
-          "deal_count": 3
+          "deal_count": 4
         }
       ],
       "firm_verification": {
@@ -72079,6 +73587,28 @@
       "snapshot": "SAM, Khaitan, A&O Shearman act on Tenneco India ₹3,600 crore IPO - Bar and Bench"
     },
     {
+      "id": 3123,
+      "name": "Partha Narendra Mansukhani",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Hindustan Composites"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business",
+          "client": "Hindustan Composites",
+          "url": "https://www.barandbench.com/dealstreet/khaitan-co-advises-hindustan-composites-on-370-crore-sale-of-its-friction-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business"
+    },
+    {
       "id": 550,
       "name": "Parvathy Tharamel",
       "firm": "Trilegal",
@@ -72211,6 +73741,36 @@
         }
       ],
       "snapshot": "Wilson Sonsini, JSA, Latham act on Marvell's acquisition of Celestial AI"
+    },
+    {
+      "id": 3149,
+      "name": "Paul Sigar",
+      "firm": "Goodwin",
+      "role": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
     },
     {
       "id": 1960,
@@ -74271,6 +75831,28 @@
       "snapshot": "CAM advises Hiranandani Financial Services on raising ₹800 crore from Vitruvian"
     },
     {
+      "id": 3113,
+      "name": "Pranali Ashish Vyas",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Hindustan Composites"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business",
+          "client": "Hindustan Composites",
+          "url": "https://www.barandbench.com/dealstreet/khaitan-co-advises-hindustan-composites-on-370-crore-sale-of-its-friction-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business"
+    },
+    {
       "id": 2076,
       "name": "Pranav Bajaj",
       "firm": "Cyril Amarchand Mangaldas",
@@ -74873,6 +76455,28 @@
         }
       ],
       "snapshot": "Axis Finance secures ₹750 crore from Kedaara Capital; Cyril Amarchand Mangaldas ..."
+    },
+    {
+      "id": 3124,
+      "name": "Prankul Boobana",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Hindustan Composites"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business",
+          "client": "Hindustan Composites",
+          "url": "https://www.barandbench.com/dealstreet/khaitan-co-advises-hindustan-composites-on-370-crore-sale-of-its-friction-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business"
     },
     {
       "id": 1129,
@@ -76345,6 +77949,28 @@
       "snapshot": "Shardul Amarchand Mangaldas advises SolarSquare on $53 million Series C fundraise"
     },
     {
+      "id": 3121,
+      "name": "Preet Bipinkumar Sanghavi",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Hindustan Composites"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business",
+          "client": "Hindustan Composites",
+          "url": "https://www.barandbench.com/dealstreet/khaitan-co-advises-hindustan-composites-on-370-crore-sale-of-its-friction-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business"
+    },
+    {
       "id": 748,
       "name": "Preetha Soman",
       "firm": "JSA Advocates & Solicitors",
@@ -76849,7 +78475,8 @@
       ],
       "clients": [
         "Bagmane REIT",
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Cube Highways Trust"
       ],
       "deals": [
         {
@@ -76869,6 +78496,18 @@
           "client": "Book Running Lead Managers",
           "url": "https://www.barandbench.com/amp/story/dealstreet/jsa-acts-on-raajmarg-infrastructure-invit-6000-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Shardul Amarchand Mangaldas, AZB & Partners, Sidley Austin act on Cube Highways Trust ₹5,000 crore IPO",
+          "client": "Cube Highways Trust",
+          "url": "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-azb-partners-sidley-austin-act-on-cube-highways-trust-5000-crore-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -77198,7 +78837,8 @@
         "Blackstone",
         "Anant Raj",
         "ICICI Prudential AMC",
-        "Anantam Highways Trust"
+        "Anantam Highways Trust",
+        "Cube Highways Trust"
       ],
       "deals": [
         {
@@ -77242,6 +78882,18 @@
           "client": "Anantam Highways Trust",
           "url": "https://www.barandbench.com/dealstreet/cam-jsa-act-on-anantam-highways-trust-400-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Shardul Amarchand Mangaldas, AZB & Partners, Sidley Austin act on Cube Highways Trust ₹5,000 crore IPO",
+          "client": "Cube Highways Trust",
+          "url": "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-azb-partners-sidley-austin-act-on-cube-highways-trust-5000-crore-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -81808,6 +83460,28 @@
       "snapshot": "JSA, JM+P act on Iscon Balaji Foods $215 million Series A fundraise"
     },
     {
+      "id": 3118,
+      "name": "Rashmee Kumar",
+      "firm": "Khaitan & Co",
+      "role": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Hindustan Composites"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business",
+          "client": "Hindustan Composites",
+          "url": "https://www.barandbench.com/dealstreet/khaitan-co-advises-hindustan-composites-on-370-crore-sale-of-its-friction-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business"
+    },
+    {
       "id": 1032,
       "name": "Rashneet Kaur",
       "firm": "Khaitan & Co",
@@ -83189,13 +84863,16 @@
       "firm": "Trilegal",
       "role": "Associate",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "investment"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Mittal Family"
+        "Mittal Family",
+        "Oxane Partners securing investment from TA Associates"
       ],
       "deals": [
         {
@@ -83208,6 +84885,18 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -84435,6 +86124,36 @@
         }
       ],
       "snapshot": "JSA advises CPP Group on ₹174 crore sale of Indian subsidiary - Bar and Bench"
+    },
+    {
+      "id": 3106,
+      "name": "Rishi Sharma",
+      "firm": "Rajani Associates",
+      "role": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Silver Storm Parks IPO"
+      ],
+      "deals": [
+        {
+          "headline": "Rajani Associates acts on Silver Storm Parks IPO",
+          "client": "Silver Storm Parks IPO",
+          "url": "https://www.barandbench.com/dealstreet/rajani-associates-acts-on-silver-storm-parks-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Rajani Associates acts on Silver Storm Parks IPO"
     },
     {
       "id": 1097,
@@ -90435,6 +92154,36 @@
       "snapshot": "CAM, Trilegal act on MEIL Energy acquiring a 250 MW thermal power project in Tamil Nadu ..."
     },
     {
+      "id": 3142,
+      "name": "Samuel Honnywill",
+      "firm": "Goodwin",
+      "role": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
+    },
+    {
       "id": 534,
       "name": "Samyak Jain",
       "firm": "Trilegal",
@@ -91036,7 +92785,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Selling Shareholders"
+        "Selling Shareholders",
+        "Silver Storm Parks IPO"
       ],
       "deals": [
         {
@@ -91044,6 +92794,18 @@
           "client": "Selling Shareholders",
           "url": "https://www.barandbench.com/dealstreet/sam-rajani-trilegal-act-on-aequs-1100-crore-ipo-and-pre-ipo-placement",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Rajani Associates acts on Silver Storm Parks IPO",
+          "client": "Silver Storm Parks IPO",
+          "url": "https://www.barandbench.com/dealstreet/rajani-associates-acts-on-silver-storm-parks-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -93355,6 +95117,28 @@
         }
       ],
       "snapshot": "Khaitan & Co, Trilegal, Hogan Lovells act on Milestone Gears ₹1,100 crore proposed IPO"
+    },
+    {
+      "id": 3122,
+      "name": "Sathyajith Nair",
+      "firm": "Khaitan & Co",
+      "role": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Hindustan Composites"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business",
+          "client": "Hindustan Composites",
+          "url": "https://www.barandbench.com/dealstreet/khaitan-co-advises-hindustan-composites-on-370-crore-sale-of-its-friction-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business"
     },
     {
       "id": 1506,
@@ -95700,6 +97484,36 @@
         }
       ],
       "snapshot": "JSA, Cyril Amarchand Mangaldas act on Allianz - Jio General Insurance JV"
+    },
+    {
+      "id": 3102,
+      "name": "Shariba Tasneem",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Cube Highways Trust"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Shardul Amarchand Mangaldas, AZB & Partners, Sidley Austin act on Cube Highways Trust ₹5,000 crore IPO",
+          "client": "Cube Highways Trust",
+          "url": "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-azb-partners-sidley-austin-act-on-cube-highways-trust-5000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Shardul Amarchand Mangaldas, AZB & Partners, Sidley Austin act on Cube Highways..."
     },
     {
       "id": 2772,
@@ -98077,6 +99891,36 @@
         }
       ],
       "snapshot": "Trilegal and Khaitan & Co lead on Aman Gupta's ₹100 Crore Seed Round for OFF/BEAT"
+    },
+    {
+      "id": 3159,
+      "name": "Shlok Patwa",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Algonomy"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Algonomy on acquisition by Malaysia-based ADA",
+          "client": "Algonomy",
+          "url": "https://www.barandbench.com/dealstreet/khaitan-co-advises-algonomy-on-acquisition-by-malaysia-based-ada",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Algonomy on acquisition by Malaysia-based ADA"
     },
     {
       "id": 2536,
@@ -100642,6 +102486,36 @@
       "snapshot": "Vritti Law, Trilegal act on Khandelwal Laboratories' ₹325 crore sale of business to Auro Pharma"
     },
     {
+      "id": 3104,
+      "name": "Shubh Poddar",
+      "firm": "Rajani Associates",
+      "role": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Silver Storm Parks IPO"
+      ],
+      "deals": [
+        {
+          "headline": "Rajani Associates acts on Silver Storm Parks IPO",
+          "client": "Silver Storm Parks IPO",
+          "url": "https://www.barandbench.com/dealstreet/rajani-associates-acts-on-silver-storm-parks-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Rajani Associates acts on Silver Storm Parks IPO"
+    },
+    {
       "id": 3062,
       "name": "Shubhaang Sinha",
       "firm": "Trilegal",
@@ -103162,6 +105036,36 @@
       "snapshot": "JSA, Khaitan act on Everstone investing $270 million in Apothecon Group"
     },
     {
+      "id": 3126,
+      "name": "Simon Cooke",
+      "firm": "Trilegal",
+      "role": "Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
+    },
+    {
       "id": 679,
       "name": "Simon Lyell",
       "firm": "Weil Gotshal",
@@ -103242,6 +105146,36 @@
         }
       ],
       "snapshot": "Anagram, SAM, Trilegal, AZB act on Mensa Group reverse merger to India"
+    },
+    {
+      "id": 3125,
+      "name": "Simran Chetwani",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
     },
     {
       "id": 2700,
@@ -104118,6 +106052,36 @@
       "snapshot": "Saraf, CasePro, Trilegal act on Megaport Limited acquiring Extreme IX platform"
     },
     {
+      "id": 3144,
+      "name": "Sofia Polishchuk",
+      "firm": "Goodwin",
+      "role": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
+    },
+    {
       "id": 1411,
       "name": "Soham Banerjee",
       "firm": "Khaitan & Co",
@@ -104250,6 +106214,36 @@
         }
       ],
       "snapshot": "CAM advises JP Morgan on setting up of Asia's largest GCC in Mumbai - Bar and Bench"
+    },
+    {
+      "id": 3103,
+      "name": "Sommya Khandelwal",
+      "firm": "Rajani Associates",
+      "role": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Silver Storm Parks IPO"
+      ],
+      "deals": [
+        {
+          "headline": "Rajani Associates acts on Silver Storm Parks IPO",
+          "client": "Silver Storm Parks IPO",
+          "url": "https://www.barandbench.com/dealstreet/rajani-associates-acts-on-silver-storm-parks-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Rajani Associates acts on Silver Storm Parks IPO"
     },
     {
       "id": 2858,
@@ -106540,6 +108534,36 @@
         }
       ],
       "snapshot": "Axis Finance secures ₹750 crore from Kedaara Capital; Cyril Amarchand Mangaldas ..."
+    },
+    {
+      "id": 3098,
+      "name": "Subham Jain",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Senior Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Cube Highways Trust"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Shardul Amarchand Mangaldas, AZB & Partners, Sidley Austin act on Cube Highways Trust ₹5,000 crore IPO",
+          "client": "Cube Highways Trust",
+          "url": "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-azb-partners-sidley-austin-act-on-cube-highways-trust-5000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Shardul Amarchand Mangaldas, AZB & Partners, Sidley Austin act on Cube Highways..."
     },
     {
       "id": 1466,
@@ -110076,6 +112100,36 @@
       "snapshot": "Trilegal advises Agrow Allied Ventures on raising ₹186 crore from ICICI Ventures"
     },
     {
+      "id": 3135,
+      "name": "Tanya Choudhary",
+      "firm": "Goodwin",
+      "role": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
+    },
+    {
       "id": 277,
       "name": "Tanya Nanda",
       "firm": "Trilegal",
@@ -110193,7 +112247,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "GEF Capital Partners"
+        "GEF Capital Partners",
+        "Hindustan Composites"
       ],
       "deals": [
         {
@@ -110207,6 +112262,14 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business",
+          "client": "Hindustan Composites",
+          "url": "https://www.barandbench.com/dealstreet/khaitan-co-advises-hindustan-composites-on-370-crore-sale-of-its-friction-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "JSA assists Arya.ag on raising ₹725 crore from GEF Capital - Bar and Bench"
@@ -110251,7 +112314,8 @@
         "iMerit and shareholders",
         "Carlyle Group",
         "CA Sardo Investments/Carlyle",
-        "Novo Holdings"
+        "Novo Holdings",
+        "Oxane Partners securing investment from TA Associates"
       ],
       "deals": [
         {
@@ -110292,6 +112356,18 @@
           "client": "Novo Holdings",
           "url": "https://www.barandbench.com/dealstreet/argus-partners-advises-surya-hospitals-on-securing-investment-from-novo-holdings",
           "source": "Bar and Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
           "types": [
             "investment"
           ],
@@ -110349,7 +112425,7 @@
           "id": 164,
           "firm": "Trilegal",
           "role": "Partner",
-          "deal_count": 4
+          "deal_count": 5
         }
       ],
       "firm_verification": {
@@ -112462,17 +114538,20 @@
       "id": 2238,
       "name": "Tweisha Mishra",
       "firm": "Shardul Amarchand Mangaldas & Co",
-      "role": "Senior Associate",
+      "role": "Principal Associate",
       "transaction_types": [
+        "IPO",
         "acquisition",
         "stake acquisition"
       ],
       "practice_areas": [
+        "Capital Markets",
         "Mergers & Acquisitions"
       ],
       "clients": [
         "JK Paper",
-        "Hyderabad Institute of Oncology (Omega Hospitals)"
+        "Hyderabad Institute of Oncology (Omega Hospitals)",
+        "Cube Highways Trust"
       ],
       "deals": [
         {
@@ -112498,6 +114577,18 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Shardul Amarchand Mangaldas, AZB & Partners, Sidley Austin act on Cube Highways Trust ₹5,000 crore IPO",
+          "client": "Cube Highways Trust",
+          "url": "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-azb-partners-sidley-austin-act-on-cube-highways-trust-5000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
           ]
         }
       ],
@@ -112548,8 +114639,8 @@
         {
           "id": 2238,
           "firm": "Shardul Amarchand Mangaldas & Co",
-          "role": "Senior Associate",
-          "deal_count": 2
+          "role": "Principal Associate",
+          "deal_count": 3
         }
       ],
       "firm_verification": {
@@ -116245,13 +118336,15 @@
       "firm": "Shardul Amarchand Mangaldas & Co",
       "role": "Senior Associate",
       "transaction_types": [
+        "IPO",
         "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
       ],
       "clients": [
-        "Craftsman Automation"
+        "Craftsman Automation",
+        "Cube Highways Trust"
       ],
       "deals": [
         {
@@ -116261,6 +118354,18 @@
           "source": "Bar and Bench",
           "types": [
             "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Shardul Amarchand Mangaldas, AZB & Partners, Sidley Austin act on Cube Highways Trust ₹5,000 crore IPO",
+          "client": "Cube Highways Trust",
+          "url": "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-azb-partners-sidley-austin-act-on-cube-highways-trust-5000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -116376,6 +118481,36 @@
         "verdict": "DIFFERENT_PEOPLE",
         "evidence": "Two separate LinkedIn profiles: JSA Principal Associate (Everstone/Apothecon deal) vs. Lex Consult Associate with a documented career through DSK Legal, Saraf and Partners, Rajaram Legal, Advaya Legal - no JSA mention."
       }
+    },
+    {
+      "id": 3143,
+      "name": "Vicky Ling",
+      "firm": "Goodwin",
+      "role": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Oxane Partners securing investment from TA Associates"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
     },
     {
       "id": 1783,
@@ -117106,7 +119241,8 @@
       "clients": [
         "iMerit and shareholders",
         "CA Sardo Investments/Carlyle",
-        "Novo Holdings"
+        "Novo Holdings",
+        "Oxane Partners securing investment from TA Associates"
       ],
       "deals": [
         {
@@ -117139,6 +119275,18 @@
           "client": "Novo Holdings",
           "url": "https://www.barandbench.com/dealstreet/argus-partners-advises-surya-hospitals-on-securing-investment-from-novo-holdings",
           "source": "Bar and Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
           "types": [
             "investment"
           ],
@@ -118365,13 +120513,16 @@
       "role": "Associate",
       "transaction_types": [
         "acquisition",
+        "investment",
         "stake acquisition"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "CA Sardo Investments/Carlyle"
+        "CA Sardo Investments/Carlyle",
+        "Oxane Partners securing investment from TA Associates"
       ],
       "deals": [
         {
@@ -118385,6 +120536,18 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -118609,6 +120772,28 @@
         }
       ],
       "snapshot": "Aditya Birla acquires Sprng Energy from Shell for $1.8 billion; Khaitan & Co, Trilegal advise"
+    },
+    {
+      "id": 3120,
+      "name": "Vishal Samnani",
+      "firm": "Khaitan & Co",
+      "role": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Hindustan Composites"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business",
+          "client": "Hindustan Composites",
+          "url": "https://www.barandbench.com/dealstreet/khaitan-co-advises-hindustan-composites-on-370-crore-sale-of-its-friction-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business"
     },
     {
       "id": 479,
@@ -119453,6 +121638,28 @@
       "snapshot": "Obhan Mason, Shardul Amarchand Mangaldas act on Pine Labs acquiring Shopflo"
     },
     {
+      "id": 3109,
+      "name": "Vrinda Taneja",
+      "firm": "Kochhar & Co",
+      "role": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Novargi Group - Cerec Metalform JV"
+      ],
+      "deals": [
+        {
+          "headline": "Kochhar & Co acts on Novargi Group - Cerec Metalform JV",
+          "client": "Novargi Group - Cerec Metalform JV",
+          "url": "https://www.barandbench.com/dealstreet/kochhar-co-acts-on-novargi-group-cerec-metalform-jv",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Kochhar & Co acts on Novargi Group - Cerec Metalform JV"
+    },
+    {
       "id": 221,
       "name": "Vrindesh Patel",
       "firm": "JSA Advocates & Solicitors",
@@ -120005,6 +122212,36 @@
       "snapshot": "Trilegal, K&L Gates, Baker & McKenzie, AZB act on Wipro's $375 million acquisition of ..."
     },
     {
+      "id": 3099,
+      "name": "Yash Bhale",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Cube Highways Trust"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Shardul Amarchand Mangaldas, AZB & Partners, Sidley Austin act on Cube Highways Trust ₹5,000 crore IPO",
+          "client": "Cube Highways Trust",
+          "url": "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-azb-partners-sidley-austin-act-on-cube-highways-trust-5000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Shardul Amarchand Mangaldas, AZB & Partners, Sidley Austin act on Cube Highways..."
+    },
+    {
       "id": 979,
       "name": "Yash Bhandari",
       "firm": "Talwar Thakore & Associates",
@@ -120340,13 +122577,16 @@
       "role": "Senior Associate",
       "transaction_types": [
         "acquisition",
+        "investment",
         "stake acquisition"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "CA Sardo Investments/Carlyle"
+        "CA Sardo Investments/Carlyle",
+        "Oxane Partners securing investment from TA Associates"
       ],
       "deals": [
         {
@@ -120360,6 +122600,18 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
+          "client": "Oxane Partners securing investment from TA Associates",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-latham-watkins-goodwin-act-on-oxane-partners-securing-investment-from-ta-associates",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -120411,7 +122663,7 @@
           "id": 2387,
           "firm": "Trilegal",
           "role": "Senior Associate",
-          "deal_count": 1
+          "deal_count": 2
         }
       ],
       "firm_verification": {
