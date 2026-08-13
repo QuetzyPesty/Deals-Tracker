@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 3229,
-    "firms": 97,
-    "deals": 422,
+    "people": 3271,
+    "firms": 104,
+    "deals": 430,
     "practice_areas": 6
   },
   "firms": [
@@ -19,6 +19,7 @@
     "Avisen Legal",
     "Baker & McKenzie",
     "Begur & Partners",
+    "Bharucha",
     "Bharucha & Partners",
     "CMS INDUSLAW",
     "Cam",
@@ -67,10 +68,12 @@
     "Latham & Watkins",
     "Legacy Law Offices",
     "Lex Consult",
+    "Lexygen",
     "Linklaters",
     "McDermott Will & Schulte",
     "Morgan Lewis",
     "Norton Rose Fulbright",
+    "NovoJuris Legal",
     "Obhan Mason",
     "Oravel Stays Limited (in-house)",
     "Parinam Law Associates",
@@ -84,6 +87,8 @@
     "SKS Advisor",
     "Samvād: Partners",
     "Saraf and Partners",
+    "Sequitur",
+    "Sequitur Advocates & Legal Consultants",
     "Shardul Amarchand Mangaldas & Co",
     "Sheppard",
     "Sidley Austin",
@@ -94,7 +99,9 @@
     "The Resolution Law Group",
     "Touchstone Partners",
     "Trilegal",
+    "Triumvir Law",
     "Troutman Pepper Locke",
+    "US law firms",
     "Uría Menéndez",
     "Verist Law",
     "Veritas Legal",
@@ -133,7 +140,7 @@
     },
     {
       "firm": "ALMT Legal",
-      "people_count": 10,
+      "people_count": 13,
       "practice_groups": [
         {
           "area": "Capital Markets",
@@ -146,11 +153,20 @@
           ]
         },
         {
+          "area": "Private Equity & Venture Capital",
+          "person_ids": [
+            1509,
+            3236,
+            3238,
+            1508,
+            3237
+          ]
+        },
+        {
           "area": "Unclassified",
           "person_ids": [
             1507,
             3169,
-            1508,
             1510,
             1506
           ]
@@ -592,8 +608,20 @@
       ]
     },
     {
+      "firm": "Bharucha",
+      "people_count": 1,
+      "practice_groups": [
+        {
+          "area": "Private Equity & Venture Capital",
+          "person_ids": [
+            3239
+          ]
+        }
+      ]
+    },
+    {
       "firm": "Bharucha & Partners",
-      "people_count": 5,
+      "people_count": 6,
       "practice_groups": [
         {
           "area": "Private Equity & Venture Capital",
@@ -602,6 +630,7 @@
             1146,
             1148,
             1145,
+            3240,
             1144
           ]
         }
@@ -828,7 +857,7 @@
     },
     {
       "firm": "Cyril Amarchand Mangaldas",
-      "people_count": 548,
+      "people_count": 551,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -1207,6 +1236,7 @@
             2159,
             2487,
             2708,
+            3231,
             2519,
             1777,
             2789,
@@ -1217,6 +1247,7 @@
             2658,
             2602,
             568,
+            3232,
             2154,
             2318,
             898,
@@ -1256,6 +1287,7 @@
             2666,
             1457,
             1455,
+            3230,
             943,
             2322,
             833,
@@ -2611,7 +2643,7 @@
     },
     {
       "firm": "Khaitan & Co",
-      "people_count": 410,
+      "people_count": 436,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -2626,7 +2658,9 @@
             695,
             694,
             324,
+            3266,
             2946,
+            3268,
             1073,
             685,
             1614,
@@ -2707,20 +2741,25 @@
             155,
             2313,
             1082,
+            3264,
             682,
             18,
             2316,
             985,
+            3267,
             1622,
             157,
             158,
             213,
             1061,
             1081,
+            3263,
             861,
             687,
             1624,
             2869,
+            2828,
+            2719,
             684,
             2873,
             692,
@@ -2737,6 +2776,7 @@
             704,
             2310,
             689,
+            3265,
             1619,
             359,
             700,
@@ -2755,6 +2795,7 @@
             1199,
             2216,
             16,
+            3262,
             759,
             1539,
             2217,
@@ -2782,6 +2823,7 @@
             2840,
             2761,
             2762,
+            3243,
             1540,
             1536,
             355,
@@ -2803,6 +2845,7 @@
             1389,
             696,
             1545,
+            3244,
             2182,
             980,
             2758,
@@ -2817,6 +2860,7 @@
             2755,
             1642,
             2825,
+            982,
             1537,
             1413,
             1971,
@@ -2828,6 +2872,7 @@
             1709,
             2842,
             1080,
+            3017,
             987,
             1409,
             703,
@@ -2845,6 +2890,7 @@
             1533,
             2826,
             2827,
+            3242,
             1639,
             1970,
             2285,
@@ -2856,6 +2902,7 @@
             2281,
             1534,
             1415,
+            3018,
             2280,
             687,
             2184,
@@ -2872,10 +2919,13 @@
             698,
             365,
             1542,
+            3241,
             1535,
             356,
             700,
+            289,
             1411,
+            3245,
             2845,
             1390,
             693,
@@ -2908,6 +2958,7 @@
             3117,
             318,
             3116,
+            3250,
             2723,
             3030,
             723,
@@ -2921,13 +2972,16 @@
             328,
             288,
             344,
+            3260,
             478,
+            3261,
             393,
             3029,
             3112,
             400,
             284,
             1035,
+            3248,
             3110,
             1036,
             1228,
@@ -2945,6 +2999,7 @@
             3119,
             3022,
             3115,
+            3252,
             1232,
             281,
             366,
@@ -2952,7 +3007,6 @@
             340,
             3028,
             350,
-            3017,
             2126,
             285,
             363,
@@ -2966,6 +3020,7 @@
             3123,
             394,
             345,
+            3251,
             2725,
             3113,
             3124,
@@ -2987,15 +3042,16 @@
             1197,
             3019,
             341,
-            3018,
+            3257,
             321,
             1033,
+            3255,
             1062,
             1195,
-            2719,
             3122,
             354,
             3021,
+            3253,
             3023,
             323,
             332,
@@ -3003,9 +3059,12 @@
             1809,
             1233,
             2720,
+            3249,
+            3256,
             331,
             2726,
             343,
+            3259,
             1063,
             319,
             395,
@@ -3015,6 +3074,8 @@
             1235,
             3120,
             357,
+            3258,
+            3254,
             3031
           ]
         },
@@ -3254,6 +3315,11 @@
       ]
     },
     {
+      "firm": "Lexygen",
+      "people_count": 0,
+      "practice_groups": []
+    },
+    {
       "firm": "Linklaters",
       "people_count": 8,
       "practice_groups": [
@@ -3331,6 +3397,20 @@
             2064,
             2063,
             2068
+          ]
+        }
+      ]
+    },
+    {
+      "firm": "NovoJuris Legal",
+      "people_count": 3,
+      "practice_groups": [
+        {
+          "area": "Private Equity & Venture Capital",
+          "person_ids": [
+            3270,
+            3271,
+            3269
           ]
         }
       ]
@@ -3624,6 +3704,24 @@
             2228,
             2231,
             2227
+          ]
+        }
+      ]
+    },
+    {
+      "firm": "Sequitur",
+      "people_count": 0,
+      "practice_groups": []
+    },
+    {
+      "firm": "Sequitur Advocates & Legal Consultants",
+      "people_count": 2,
+      "practice_groups": [
+        {
+          "area": "Private Equity & Venture Capital",
+          "person_ids": [
+            3247,
+            3246
           ]
         }
       ]
@@ -3997,7 +4095,6 @@
             2431,
             3033,
             2444,
-            2474,
             2424,
             2443,
             2417,
@@ -4063,6 +4160,7 @@
             2694,
             316,
             107,
+            2474,
             2874,
             2688,
             2838,
@@ -5057,6 +5155,20 @@
       ]
     },
     {
+      "firm": "Triumvir Law",
+      "people_count": 3,
+      "practice_groups": [
+        {
+          "area": "Unclassified",
+          "person_ids": [
+            3234,
+            3233,
+            3235
+          ]
+        }
+      ]
+    },
+    {
       "firm": "Troutman Pepper Locke",
       "people_count": 4,
       "practice_groups": [
@@ -5070,6 +5182,11 @@
           ]
         }
       ]
+    },
+    {
+      "firm": "US law firms",
+      "people_count": 0,
+      "practice_groups": []
     },
     {
       "firm": "Uría Menéndez",
@@ -9208,7 +9325,8 @@
       "clients": [
         "SolarSquare",
         "Z47 & NTTVC",
-        "OneAssist"
+        "OneAssist",
+        "River Mobility"
       ],
       "deals": [
         {
@@ -9239,6 +9357,19 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Bharucha, Shardul Amarchand Mangaldas, Khaitan & Co act on River Mobility $120 million Series C fundraise",
+          "client": "River Mobility",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/bharucha-partners-shardul-amarchand-mangaldas-khaitan-co-act-on-river-mobility-120-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas advises SolarSquare on $53 million Series C fundraise"
@@ -9355,14 +9486,17 @@
       "firm": "ALMT Legal",
       "role": "Associate",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "investment"
       ],
       "practice_areas": [
-        "Capital Markets"
+        "Capital Markets",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
         "Bodycraft and its promoters",
-        "Promoter Selling Shareholders"
+        "Promoter Selling Shareholders",
+        "Ascent Growth Trust"
       ],
       "deals": [
         {
@@ -9383,6 +9517,18 @@
           ],
           "practice_areas": [
             "Capital Markets"
+          ]
+        },
+        {
+          "headline": "ALMT Legal advises Ascent Growth Trust on majority stake investment in Pivot Path",
+          "client": "Ascent Growth Trust",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/almt-legal-advises-ascent-growth-trust-on-majority-stake-investment-in-pivot-path",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -11954,6 +12100,28 @@
       "snapshot": "CAM advises Hiranandani Financial Services on raising ₹800 crore from Vitruvian"
     },
     {
+      "id": 3250,
+      "name": "Aishwarya Nagpal",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+      ],
+      "deals": [
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+    },
+    {
       "id": 1781,
       "name": "Aishwarya Singh",
       "firm": "Cyril Amarchand Mangaldas",
@@ -12070,6 +12238,28 @@
         }
       ],
       "snapshot": "JSA advises CPP Group on ₹174 crore sale of Indian subsidiary - Bar and Bench"
+    },
+    {
+      "id": 3234,
+      "name": "Ajay Kumar",
+      "firm": "Triumvir Law",
+      "role": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Aidin Technologies controlling stake sale"
+      ],
+      "deals": [
+        {
+          "headline": "Triumvir Law, Khaitan & Co act on Aidin Technologies controlling stake sale",
+          "client": "Aidin Technologies controlling stake sale",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/triumvir-law-khaitan-co-act-on-aidin-technologies-controlling-stake-sale",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Triumvir Law, Khaitan & Co act on Aidin Technologies controlling stake sale"
     },
     {
       "id": 1123,
@@ -12725,6 +12915,36 @@
       "snapshot": "SAM acts on Tractor Junction ₹200 crore fundraise - Bar and Bench"
     },
     {
+      "id": 3266,
+      "name": "Akhil Wilson Thomas",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Standex’s acquisition of Amran/Narayan Group"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan, Lexygen, US law firms act on Standex’s acquisition of Amran/Narayan Group",
+          "client": "Standex’s acquisition of Amran/Narayan Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-lexygen-us-firms-act-on-standexs-acquisition-of-amrannarayan-group",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan, Lexygen, US law firms act on Standex’s acquisition of Amran/Narayan Group"
+    },
+    {
       "id": 2946,
       "name": "Akhila Deekshitha Baddepudi",
       "firm": "Khaitan & Co",
@@ -12794,7 +13014,8 @@
       "clients": [
         "Dixon Technologies",
         "Dixon Technologies (India) Limited",
-        "BNP Paribas"
+        "BNP Paribas",
+        "Guardian Life Insurance Company of America"
       ],
       "deals": [
         {
@@ -12826,6 +13047,14 @@
             "Private Equity & Venture Capital",
             "Restructuring & Insolvency"
           ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Guardian Life Insurance Company of America on selling Guardian India to HCL",
+          "client": "Guardian Life Insurance Company of America",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-guardian-life-insurance-company-of-america-on-selling-guardian-india-to-hcl",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas connects Dixon Technologies - vivo JV - Bar and Bench"
@@ -14594,6 +14823,36 @@
       "snapshot": "CAM advises Jindal Power on acquisition of 1320 MW thermal power plant in Haryana"
     },
     {
+      "id": 3268,
+      "name": "Alok Vajpeyi",
+      "firm": "Khaitan & Co",
+      "role": "Principal Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Standex’s acquisition of Amran/Narayan Group"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan, Lexygen, US law firms act on Standex’s acquisition of Amran/Narayan Group",
+          "client": "Standex’s acquisition of Amran/Narayan Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-lexygen-us-firms-act-on-standexs-acquisition-of-amrannarayan-group",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan, Lexygen, US law firms act on Standex’s acquisition of Amran/Narayan Group"
+    },
+    {
       "id": 2401,
       "name": "Amala G",
       "firm": "Trilegal",
@@ -14890,6 +15149,38 @@
         }
       ],
       "snapshot": "Anagram, SAM, Trilegal, AZB act on Mensa Group reverse merger to India"
+    },
+    {
+      "id": 3243,
+      "name": "Aman Yagnik",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "transaction_types": [
+        "Series C",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "River Mobility"
+      ],
+      "deals": [
+        {
+          "headline": "Bharucha, Shardul Amarchand Mangaldas, Khaitan & Co act on River Mobility $120 million Series C fundraise",
+          "client": "River Mobility",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/bharucha-partners-shardul-amarchand-mangaldas-khaitan-co-act-on-river-mobility-120-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Bharucha, Shardul Amarchand Mangaldas, Khaitan & Co act on River Mobility $120 million Series C fundraise"
     },
     {
       "id": 2471,
@@ -18608,7 +18899,8 @@
       "clients": [
         "VINCI Highways",
         "Just Climate",
-        "BNP Paribas Cardif acquiring stake in IndiaFirst Life Insurance"
+        "BNP Paribas Cardif acquiring stake in IndiaFirst Life Insurance",
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
       ],
       "deals": [
         {
@@ -18643,6 +18935,14 @@
           "headline": "Khaitan & Co, Shardul Amarchand Mangaldas act on BNP Paribas Cardif acquiring stake in IndiaFirst Life Insurance",
           "client": "BNP Paribas Cardif acquiring stake in IndiaFirst Life Insurance",
           "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-bnp-paribas-cardif-on-stake-acquisition-in-indiafirst-life-insurance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
@@ -21007,7 +21307,8 @@
       "clients": [
         "Aditya Birla Renewables",
         "FMC India",
-        "Vitruvian Partners"
+        "Vitruvian Partners",
+        "Standex’s acquisition of Amran/Narayan Group"
       ],
       "deals": [
         {
@@ -21041,6 +21342,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Khaitan, Lexygen, US law firms act on Standex’s acquisition of Amran/Narayan Group",
+          "client": "Standex’s acquisition of Amran/Narayan Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-lexygen-us-firms-act-on-standexs-acquisition-of-amrannarayan-group",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "Aditya Birla acquires Sprng Energy from Shell for $1.8 billion; Khaitan & Co, Trilegal advise"
@@ -21212,6 +21525,28 @@
         }
       ],
       "snapshot": "SAM, CAM, Hogan Lovells act on Billdesk's acquisition of Worldline"
+    },
+    {
+      "id": 3233,
+      "name": "Anubhab Sarkar",
+      "firm": "Triumvir Law",
+      "role": "Managing Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Aidin Technologies controlling stake sale"
+      ],
+      "deals": [
+        {
+          "headline": "Triumvir Law, Khaitan & Co act on Aidin Technologies controlling stake sale",
+          "client": "Aidin Technologies controlling stake sale",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/triumvir-law-khaitan-co-act-on-aidin-technologies-controlling-stake-sale",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Triumvir Law, Khaitan & Co act on Aidin Technologies controlling stake sale"
     },
     {
       "id": 1215,
@@ -26415,6 +26750,7 @@
         "IPO",
         "Series A",
         "Series B",
+        "Series C",
         "fundraise"
       ],
       "practice_areas": [
@@ -26427,7 +26763,8 @@
         "Z47 & NTTVC",
         "Sorin Investments, W Health Ventures, and Endiya Partners",
         "OneAssist",
-        "PhysicsWallah and the selling shareholders"
+        "PhysicsWallah and the selling shareholders",
+        "River Mobility"
       ],
       "deals": [
         {
@@ -26494,6 +26831,19 @@
           ],
           "practice_areas": [
             "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Bharucha, Shardul Amarchand Mangaldas, Khaitan & Co act on River Mobility $120 million Series C fundraise",
+          "client": "River Mobility",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/bharucha-partners-shardul-amarchand-mangaldas-khaitan-co-act-on-river-mobility-120-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -26840,7 +27190,8 @@
       ],
       "clients": [
         "Just Climate",
-        "GEF Capital Partners"
+        "GEF Capital Partners",
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
       ],
       "deals": [
         {
@@ -26866,6 +27217,14 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "JSA assists Continuum Green Energy on securing ₹1,350 crore from Chubu Electric Power Co."
@@ -27354,6 +27713,28 @@
         }
       ],
       "snapshot": "JSA, Trilegal act on Apax Partners investing ₹1,500 crore in iD Fresh Food - Bar and Bench"
+    },
+    {
+      "id": 3260,
+      "name": "Atman Jwalant Desai",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+      ],
+      "deals": [
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
     },
     {
       "id": 1289,
@@ -29081,6 +29462,28 @@
         }
       ],
       "snapshot": "JSA advises Bharat Value Fund on Incuspaze ₹150 crore fundraise - Bar and Bench"
+    },
+    {
+      "id": 3261,
+      "name": "Ayushi Chaudhary",
+      "firm": "Khaitan & Co",
+      "role": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+      ],
+      "deals": [
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
     },
     {
       "id": 1578,
@@ -32477,7 +32880,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Just Climate"
+        "Just Climate",
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
       ],
       "deals": [
         {
@@ -32491,6 +32895,14 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Trilegal advises Continuum Green Energy on securing $67.5 million from Just Climate"
@@ -33517,6 +33929,38 @@
       "snapshot": "Veritas Legal, Shardul Amarchand Mangaldas advise on 360 One Alternates ... - Bar and Bench"
     },
     {
+      "id": 3239,
+      "name": "Claypond Capital",
+      "firm": "Bharucha",
+      "role": "Partner",
+      "transaction_types": [
+        "Series C",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "River Mobility"
+      ],
+      "deals": [
+        {
+          "headline": "Bharucha, Shardul Amarchand Mangaldas, Khaitan & Co act on River Mobility $120 million Series C fundraise",
+          "client": "River Mobility",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/bharucha-partners-shardul-amarchand-mangaldas-khaitan-co-act-on-river-mobility-120-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Bharucha, Shardul Amarchand Mangaldas, Khaitan & Co act on River Mobility $120 million Series C fundraise"
+    },
+    {
       "id": 2336,
       "name": "Coral Shah",
       "firm": "Cyril Amarchand Mangaldas",
@@ -34387,6 +34831,28 @@
       "snapshot": "Khaitan & Co, JSA act on IIFL Finance updating its $1 billion Global Medium Term Note Programme"
     },
     {
+      "id": 3248,
+      "name": "Debottam Chattopadhyay",
+      "firm": "Khaitan & Co",
+      "role": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+      ],
+      "deals": [
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+    },
+    {
       "id": 509,
       "name": "Deeksha Dhingra",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -34768,7 +35234,8 @@
         "FMC India",
         "GEF Capital Partners",
         "Advent International",
-        "Hindustan Composites"
+        "Hindustan Composites",
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
       ],
       "deals": [
         {
@@ -34863,6 +35330,14 @@
           "headline": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business",
           "client": "Hindustan Composites",
           "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-hindustan-composites-on-370-crore-sale-of-its-friction-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
@@ -35496,6 +35971,28 @@
         }
       ],
       "snapshot": "SAM, CAM, Hogan Lovells act on Billdesk's acquisition of Worldline"
+    },
+    {
+      "id": 3231,
+      "name": "Devansh Dixit",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Guardian Life Insurance Company of America"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Guardian Life Insurance Company of America on selling Guardian India to HCL",
+          "client": "Guardian Life Insurance Company of America",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-guardian-life-insurance-company-of-america-on-selling-guardian-india-to-hcl",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas advises Guardian Life Insurance Company of America on selling Guardian India to HCL"
     },
     {
       "id": 2014,
@@ -36250,6 +36747,36 @@
       "snapshot": "JSA, Trilegal act on Apax Partners investing ₹1,500 crore in iD Fresh Food - Bar and Bench"
     },
     {
+      "id": 3236,
+      "name": "Dhanya Menon",
+      "firm": "ALMT Legal",
+      "role": "Senior Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Ascent Growth Trust"
+      ],
+      "deals": [
+        {
+          "headline": "ALMT Legal advises Ascent Growth Trust on majority stake investment in Pivot Path",
+          "client": "Ascent Growth Trust",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/almt-legal-advises-ascent-growth-trust-on-majority-stake-investment-in-pivot-path",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "ALMT Legal advises Ascent Growth Trust on majority stake investment in Pivot Path"
+    },
+    {
       "id": 1707,
       "name": "Dharini Shanker",
       "firm": "Khaitan & Co",
@@ -36553,7 +37080,8 @@
       "clients": [
         "Hexagon AB",
         "LeapFrog Investments Group, Ltd.",
-        "Zentiva (Indian aspects)"
+        "Zentiva (Indian aspects)",
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
       ],
       "deals": [
         {
@@ -36581,6 +37109,14 @@
           "client": "Zentiva (Indian aspects)",
           "url": "https://www.barandbench.com/dealstreet/jsa-white-case-act-on-gtcr-acquiring-zentiva-for-36600-crore",
           "source": "Bar and Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
         }
@@ -41265,6 +41801,38 @@
       "snapshot": "Cyril Amarchand Mangaldas advises Kotak Mahindra Bank on acquisition of Private ..."
     },
     {
+      "id": 3244,
+      "name": "Gautam Mudgal",
+      "firm": "Khaitan & Co",
+      "role": "Counsel",
+      "transaction_types": [
+        "Series C",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "River Mobility"
+      ],
+      "deals": [
+        {
+          "headline": "Bharucha, Shardul Amarchand Mangaldas, Khaitan & Co act on River Mobility $120 million Series C fundraise",
+          "client": "River Mobility",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/bharucha-partners-shardul-amarchand-mangaldas-khaitan-co-act-on-river-mobility-120-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Bharucha, Shardul Amarchand Mangaldas, Khaitan & Co act on River Mobility $120 million Series C fundraise"
+    },
+    {
       "id": 444,
       "name": "Gautam Saha",
       "firm": "Talwar Thakore & Associates",
@@ -43121,6 +43689,28 @@
       "snapshot": "Khaitan, CAM guide Saregama India's ₹325 crore investment in Sanjay Leela Bhansali's studio"
     },
     {
+      "id": 3232,
+      "name": "Hansujja Padhy",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Guardian Life Insurance Company of America"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Guardian Life Insurance Company of America on selling Guardian India to HCL",
+          "client": "Guardian Life Insurance Company of America",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-guardian-life-insurance-company-of-america-on-selling-guardian-india-to-hcl",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas advises Guardian Life Insurance Company of America on selling Guardian India to HCL"
+    },
+    {
       "id": 1543,
       "name": "Hanumant Chauhan",
       "firm": "Khaitan & Co",
@@ -43164,7 +43754,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Just Climate"
+        "Just Climate",
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
       ],
       "deals": [
         {
@@ -43190,6 +43781,14 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "JSA assists Continuum Green Energy on securing ₹1,350 crore from Chubu Electric Power Co."
@@ -46226,7 +46825,7 @@
       "id": 2278,
       "name": "Ifrazunnisa Khan",
       "firm": "Khaitan & Co",
-      "role": "Consultant",
+      "role": "Principal Associate",
       "transaction_types": [
         "fundraise"
       ],
@@ -46234,7 +46833,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "GEF Capital Partners"
+        "GEF Capital Partners",
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
       ],
       "deals": [
         {
@@ -46248,6 +46848,14 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "JSA assists Arya.ag on raising ₹725 crore from GEF Capital - Bar and Bench"
@@ -48249,13 +48857,17 @@
       "firm": "Khaitan & Co",
       "role": "Principal Associate",
       "transaction_types": [
+        "Series C",
+        "fundraise",
         "merger"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Indorama Ventures/Indovida"
+        "Indorama Ventures/Indovida",
+        "River Mobility"
       ],
       "deals": [
         {
@@ -48268,6 +48880,19 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Bharucha, Shardul Amarchand Mangaldas, Khaitan & Co act on River Mobility $120 million Series C fundraise",
+          "client": "River Mobility",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/bharucha-partners-shardul-amarchand-mangaldas-khaitan-co-act-on-river-mobility-120-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -50759,13 +51384,15 @@
       "firm": "Khaitan & Co",
       "role": "Senior Associate",
       "transaction_types": [
+        "Series C",
         "fundraise"
       ],
       "practice_areas": [
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Just Climate"
+        "Just Climate",
+        "River Mobility"
       ],
       "deals": [
         {
@@ -50774,6 +51401,19 @@
           "url": "https://www.barandbench.com/dealstreet/trilegal-advises-continuum-green-energy-on-securing-675-million-from-just-climate",
           "source": "Bar and Bench",
           "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Bharucha, Shardul Amarchand Mangaldas, Khaitan & Co act on River Mobility $120 million Series C fundraise",
+          "client": "River Mobility",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/bharucha-partners-shardul-amarchand-mangaldas-khaitan-co-act-on-river-mobility-120-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
             "fundraise"
           ],
           "practice_areas": [
@@ -51400,6 +52040,38 @@
         }
       ],
       "snapshot": "Trilegal advises Muthoot Finance on $150 million bond issuance in Gift City - Bar and Bench"
+    },
+    {
+      "id": 3270,
+      "name": "Joseph Mario Ritvik",
+      "firm": "NovoJuris Legal",
+      "role": "Senior Associate",
+      "transaction_types": [
+        "Series A",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "on PineGap.ai Series A fundraise"
+      ],
+      "deals": [
+        {
+          "headline": "NovoJuris Legal advises on PineGap.ai Series A fundraise",
+          "client": "on PineGap.ai Series A fundraise",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/novojuris-legal-advises-pinegapai-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "NovoJuris Legal advises on PineGap.ai Series A fundraise"
     },
     {
       "id": 3148,
@@ -53835,7 +54507,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Just Climate"
+        "Just Climate",
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
       ],
       "deals": [
         {
@@ -53861,6 +54534,14 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "JSA assists Continuum Green Energy on securing ₹1,350 crore from Chubu Electric Power Co."
@@ -54114,6 +54795,28 @@
         }
       ],
       "snapshot": "TPG-led consortium to acquire Aseem Infra Finance; CAM, Linklaters, Trilegal, SAM advise"
+    },
+    {
+      "id": 3252,
+      "name": "Kartik Shiv Kumar",
+      "firm": "Khaitan & Co",
+      "role": "Counsel",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+      ],
+      "deals": [
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
     },
     {
       "id": 739,
@@ -56617,7 +57320,8 @@
       "clients": [
         "Sabre Partners and Greenstone Capital",
         "iD Fresh Food",
-        "AgreeYa Solutions"
+        "AgreeYa Solutions",
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
       ],
       "deals": [
         {
@@ -56652,6 +57356,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "JSA acts on Bacancy Systems Series A fundraise - Bar and Bench"
@@ -58132,11 +58844,12 @@
       "id": 2326,
       "name": "Kumar Mangalam",
       "firm": "Cyril Amarchand Mangaldas",
-      "role": "Associate",
+      "role": "Senior Associate",
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "Statkraft A.S."
+        "Statkraft A.S.",
+        "Guardian Life Insurance Company of America"
       ],
       "deals": [
         {
@@ -58144,6 +58857,14 @@
           "client": "Statkraft A.S.",
           "url": "https://www.barandbench.com/dealstreet/cam-advises-statkraft-as-on-100-stake-sale-of-wholly-owned-subsidiary-mandakini-jal-urja",
           "source": "Bar and Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Guardian Life Insurance Company of America on selling Guardian India to HCL",
+          "client": "Guardian Life Insurance Company of America",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-guardian-life-insurance-company-of-america-on-selling-guardian-india-to-hcl",
+          "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
         }
@@ -60555,7 +61276,8 @@
       "clients": [
         "Just Climate",
         "Aditya Birla Renewables",
-        "GEF Capital Partners"
+        "GEF Capital Partners",
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
       ],
       "deals": [
         {
@@ -60593,6 +61315,14 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "JSA assists Continuum Green Energy on securing ₹1,350 crore from Chubu Electric Power Co."
@@ -62055,7 +62785,8 @@
       "clients": [
         "VINCI Highways",
         "Kaynes Semicon",
-        "FMC India"
+        "FMC India",
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
       ],
       "deals": [
         {
@@ -62085,6 +62816,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat"
@@ -62880,7 +63619,8 @@
       ],
       "clients": [
         "Mindspace Business Parks REIT",
-        "GEF Capital Partners"
+        "GEF Capital Partners",
+        "Standex’s acquisition of Amran/Narayan Group"
       ],
       "deals": [
         {
@@ -62905,6 +63645,18 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Khaitan, Lexygen, US law firms act on Standex’s acquisition of Amran/Narayan Group",
+          "client": "Standex’s acquisition of Amran/Narayan Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-lexygen-us-firms-act-on-standexs-acquisition-of-amrannarayan-group",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -63051,7 +63803,8 @@
         "Tractor Junction",
         "OneAssist",
         "Elevation Capital VIII Limited and Matrix Partners-India",
-        "PhysicsWallah and the selling shareholders"
+        "PhysicsWallah and the selling shareholders",
+        "River Mobility"
       ],
       "deals": [
         {
@@ -63180,6 +63933,19 @@
           ],
           "practice_areas": [
             "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Bharucha, Shardul Amarchand Mangaldas, Khaitan & Co act on River Mobility $120 million Series C fundraise",
+          "client": "River Mobility",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/bharucha-partners-shardul-amarchand-mangaldas-khaitan-co-act-on-river-mobility-120-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -65583,7 +66349,8 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "Dixon Technologies"
+        "Dixon Technologies",
+        "Guardian Life Insurance Company of America"
       ],
       "deals": [
         {
@@ -65591,6 +66358,14 @@
           "client": "Dixon Technologies",
           "url": "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-connects-dixon-technologies-vivo-jv",
           "source": "Bar and Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Guardian Life Insurance Company of America on selling Guardian India to HCL",
+          "client": "Guardian Life Insurance Company of America",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-guardian-life-insurance-company-of-america-on-selling-guardian-india-to-hcl",
+          "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
         }
@@ -67630,10 +68405,16 @@
       "name": "Monika Srivastava",
       "firm": "Khaitan & Co",
       "role": "Partner",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "Series C",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
       "clients": [
-        "Cambridge Mobile Telematics"
+        "Cambridge Mobile Telematics",
+        "River Mobility"
       ],
       "deals": [
         {
@@ -67651,6 +68432,19 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Bharucha, Shardul Amarchand Mangaldas, Khaitan & Co act on River Mobility $120 million Series C fundraise",
+          "client": "River Mobility",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/bharucha-partners-shardul-amarchand-mangaldas-khaitan-co-act-on-river-mobility-120-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
       "snapshot": "Morgan Lewis, Khaitan & Co advise Cambridge Mobile Telematics on securing $350 million from TPG, Allianz X"
@@ -67762,6 +68556,36 @@
         }
       ],
       "snapshot": "Khaitan & Co, Trilegal act on Blackstone-backed EPL - Indovida Packaging merger"
+    },
+    {
+      "id": 3238,
+      "name": "Mridula Ponappa",
+      "firm": "ALMT Legal",
+      "role": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Ascent Growth Trust"
+      ],
+      "deals": [
+        {
+          "headline": "ALMT Legal advises Ascent Growth Trust on majority stake investment in Pivot Path",
+          "client": "Ascent Growth Trust",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/almt-legal-advises-ascent-growth-trust-on-majority-stake-investment-in-pivot-path",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "ALMT Legal advises Ascent Growth Trust on majority stake investment in Pivot Path"
     },
     {
       "id": 777,
@@ -73551,7 +74375,8 @@
         "FMC India",
         "GEF Capital Partners",
         "BNP Paribas Cardif acquiring stake in IndiaFirst Life Insurance",
-        "RPG Life Sciences"
+        "RPG Life Sciences",
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
       ],
       "deals": [
         {
@@ -73614,6 +74439,14 @@
           "headline": "Khaitan & Co, Shardul Amarchand Mangaldas act on BNP Paribas Cardif acquiring stake in IndiaFirst Life Insurance",
           "client": "BNP Paribas Cardif acquiring stake in IndiaFirst Life Insurance",
           "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-bnp-paribas-cardif-on-stake-acquisition-in-indiafirst-life-insurance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
@@ -74540,6 +75373,38 @@
         }
       ],
       "snapshot": "CAM, SAM act on Devyani International – Sapphire Foods merger"
+    },
+    {
+      "id": 3271,
+      "name": "Nitin Thomas",
+      "firm": "NovoJuris Legal",
+      "role": "Associate",
+      "transaction_types": [
+        "Series A",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "on PineGap.ai Series A fundraise"
+      ],
+      "deals": [
+        {
+          "headline": "NovoJuris Legal advises on PineGap.ai Series A fundraise",
+          "client": "on PineGap.ai Series A fundraise",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/novojuris-legal-advises-pinegapai-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "NovoJuris Legal advises on PineGap.ai Series A fundraise"
     },
     {
       "id": 1031,
@@ -75751,6 +76616,28 @@
         }
       ],
       "snapshot": "Trilegal advises HDFC Capital Advisors on structuring and formation of HDream Fund"
+    },
+    {
+      "id": 3230,
+      "name": "Pallav Gupta",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Guardian Life Insurance Company of America"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Guardian Life Insurance Company of America on selling Guardian India to HCL",
+          "client": "Guardian Life Insurance Company of America",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-guardian-life-insurance-company-of-america-on-selling-guardian-india-to-hcl",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas advises Guardian Life Insurance Company of America on selling Guardian India to HCL"
     },
     {
       "id": 817,
@@ -77706,6 +78593,28 @@
       "snapshot": "Chandhiok & Mahajan advises Dalmia Cement on acquisition of cement business from Jaiprakash Associates"
     },
     {
+      "id": 3251,
+      "name": "Poojita Saxena",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+      ],
+      "deals": [
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+    },
+    {
       "id": 2293,
       "name": "Poornima Hatti",
       "firm": "Samvād: Partners",
@@ -78537,10 +79446,15 @@
       "name": "Prakhar Agarwal",
       "firm": "ALMT Legal",
       "role": "Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
       "clients": [
-        "Bodycraft and its promoters"
+        "Bodycraft and its promoters",
+        "Ascent Growth Trust"
       ],
       "deals": [
         {
@@ -78550,6 +79464,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "ALMT Legal advises Ascent Growth Trust on majority stake investment in Pivot Path",
+          "client": "Ascent Growth Trust",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/almt-legal-advises-ascent-growth-trust-on-majority-stake-investment-in-pivot-path",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
       "snapshot": "ALMT Legal, Shardul Amarchand Mangaldas, Rajani Associates act on Bodycraft ₹120 ..."
@@ -78804,7 +79730,8 @@
         "Sabre Partners and Greenstone Capital",
         "Zentiva (Indian aspects)",
         "iD Fresh Food",
-        "AgreeYa Solutions"
+        "AgreeYa Solutions",
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
       ],
       "deals": [
         {
@@ -78859,6 +79786,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "JSA acts on Shubham Housing Development Finance $96 million fundraise"
@@ -81420,6 +82355,38 @@
       "snapshot": "Trilegal advises Mahindra Lifespaces on JV with Mitsui Fudosan for Bengaluru housing project"
     },
     {
+      "id": 3242,
+      "name": "Prerna Kapur",
+      "firm": "Khaitan & Co",
+      "role": "Principal Associate",
+      "transaction_types": [
+        "Series C",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "River Mobility"
+      ],
+      "deals": [
+        {
+          "headline": "Bharucha, Shardul Amarchand Mangaldas, Khaitan & Co act on River Mobility $120 million Series C fundraise",
+          "client": "River Mobility",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/bharucha-partners-shardul-amarchand-mangaldas-khaitan-co-act-on-river-mobility-120-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Bharucha, Shardul Amarchand Mangaldas, Khaitan & Co act on River Mobility $120 million Series C fundraise"
+    },
+    {
       "id": 564,
       "name": "Prerna Khatri",
       "firm": "Equilex",
@@ -82204,6 +83171,36 @@
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Cyril Amarchand Mangaldas, White & Case act ... - Bar and Bench"
+    },
+    {
+      "id": 3264,
+      "name": "Priyal Reddy",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Standex’s acquisition of Amran/Narayan Group"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan, Lexygen, US law firms act on Standex’s acquisition of Amran/Narayan Group",
+          "client": "Standex’s acquisition of Amran/Narayan Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-lexygen-us-firms-act-on-standexs-acquisition-of-amrannarayan-group",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan, Lexygen, US law firms act on Standex’s acquisition of Amran/Narayan Group"
     },
     {
       "id": 353,
@@ -83926,7 +84923,8 @@
       ],
       "clients": [
         "Nexusmalls Whitefield",
-        "GEF Capital Partners"
+        "GEF Capital Partners",
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
       ],
       "deals": [
         {
@@ -83948,6 +84946,14 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Blackstone-backed Nexus shops for Kolkata mall Diamond Plaza; Khaitan, SAM advise"
@@ -84363,6 +85369,28 @@
         }
       ],
       "snapshot": "CAM, Trilegal, SAM act on Bharti Airtel, Carlyle, Alpha Wave investing $1 billion in Airtel's Nxtra Data"
+    },
+    {
+      "id": 3235,
+      "name": "Ragini Chakraborty",
+      "firm": "Triumvir Law",
+      "role": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Aidin Technologies controlling stake sale"
+      ],
+      "deals": [
+        {
+          "headline": "Triumvir Law, Khaitan & Co act on Aidin Technologies controlling stake sale",
+          "client": "Aidin Technologies controlling stake sale",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/triumvir-law-khaitan-co-act-on-aidin-technologies-controlling-stake-sale",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Triumvir Law, Khaitan & Co act on Aidin Technologies controlling stake sale"
     },
     {
       "id": 2493,
@@ -85549,7 +86577,8 @@
         "Adani Energy Solutions",
         "TPG",
         "Adani Road Transport Limited",
-        "Devyani International"
+        "Devyani International",
+        "Guardian Life Insurance Company of America"
       ],
       "deals": [
         {
@@ -85640,6 +86669,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Guardian Life Insurance Company of America on selling Guardian India to HCL",
+          "client": "Guardian Life Insurance Company of America",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-guardian-life-insurance-company-of-america-on-selling-guardian-india-to-hcl",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas advises Kotak Mahindra Bank on acquisition of Private ..."
@@ -87544,6 +88581,36 @@
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas advises SolarSquare on $53 million Series C fundraise"
+    },
+    {
+      "id": 3267,
+      "name": "Ravitej Chilumuri",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Standex’s acquisition of Amran/Narayan Group"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan, Lexygen, US law firms act on Standex’s acquisition of Amran/Narayan Group",
+          "client": "Standex’s acquisition of Amran/Narayan Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-lexygen-us-firms-act-on-standexs-acquisition-of-amrannarayan-group",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan, Lexygen, US law firms act on Standex’s acquisition of Amran/Narayan Group"
     },
     {
       "id": 2893,
@@ -89751,7 +90818,8 @@
       ],
       "clients": [
         "LeapFrog",
-        "AgreeYa Solutions"
+        "AgreeYa Solutions",
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
       ],
       "deals": [
         {
@@ -89777,6 +90845,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "JSA, TT&A advise LeapFrog on $95 million investment in ReNew Green Energy"
@@ -92725,6 +93801,36 @@
       "snapshot": "CAM, S&R, SAM, Sidley Austin act on ICICI Prudential AMC ₹10602 crore IPO"
     },
     {
+      "id": 3263,
+      "name": "Ruturaj Jere",
+      "firm": "Khaitan & Co",
+      "role": "Principal Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Standex’s acquisition of Amran/Narayan Group"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan, Lexygen, US law firms act on Standex’s acquisition of Amran/Narayan Group",
+          "client": "Standex’s acquisition of Amran/Narayan Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-lexygen-us-firms-act-on-standexs-acquisition-of-amrannarayan-group",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan, Lexygen, US law firms act on Standex’s acquisition of Amran/Narayan Group"
+    },
+    {
       "id": 2382,
       "name": "Rutvi Shrimankar",
       "firm": "Trilegal",
@@ -93027,7 +94133,7 @@
       "id": 36,
       "name": "SR Patnaik",
       "firm": "Cyril Amarchand Mangaldas",
-      "role": "Partner, Head - Taxation",
+      "role": "Partner",
       "transaction_types": [
         "acquisition",
         "fundraise",
@@ -93043,7 +94149,8 @@
         "Sistema India",
         "Megha Engineering / MEIL Energy",
         "McDonald's Corporation (taxation)",
-        "JM Financial Products Limited and Vodafone Idea Telecom"
+        "JM Financial Products Limited and Vodafone Idea Telecom",
+        "Guardian Life Insurance Company of America"
       ],
       "deals": [
         {
@@ -93095,6 +94202,14 @@
           "client": "JM Financial Products Limited and Vodafone Idea Telecom",
           "url": "https://www.barandbench.com/dealstreet/cam-acts-on-vodafone-idea-3300-crore-ncd-issuance",
           "source": "Bar and Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Guardian Life Insurance Company of America on selling Guardian India to HCL",
+          "client": "Guardian Life Insurance Company of America",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-guardian-life-insurance-company-of-america-on-selling-guardian-india-to-hcl",
+          "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
         }
@@ -94675,6 +95790,28 @@
       "snapshot": "TT&A, Paul Weiss, Avisen Legal act on Carrier acquiring 75F Inc."
     },
     {
+      "id": 3257,
+      "name": "Saloni Gupta",
+      "firm": "Khaitan & Co",
+      "role": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+      ],
+      "deals": [
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+    },
+    {
       "id": 2078,
       "name": "Saloni S",
       "firm": "Cyril Amarchand Mangaldas",
@@ -96111,10 +97248,16 @@
       "name": "Sanchit Agarwal",
       "firm": "Khaitan & Co",
       "role": "Partner",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "Series C",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
       "clients": [
-        "Cambridge Mobile Telematics"
+        "Cambridge Mobile Telematics",
+        "River Mobility"
       ],
       "deals": [
         {
@@ -96132,6 +97275,19 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Bharucha, Shardul Amarchand Mangaldas, Khaitan & Co act on River Mobility $120 million Series C fundraise",
+          "client": "River Mobility",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/bharucha-partners-shardul-amarchand-mangaldas-khaitan-co-act-on-river-mobility-120-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
       "snapshot": "Morgan Lewis, Khaitan & Co advise Cambridge Mobile Telematics on securing $350 million from TPG, Allianz X"
@@ -97263,6 +98419,28 @@
       "snapshot": "Khaitan & Co, Trilegal, Hogan Lovells act on Milestone Gears ₹1,100 crore proposed IPO"
     },
     {
+      "id": 3255,
+      "name": "Sanjeev K Kapoor",
+      "firm": "Khaitan & Co",
+      "role": "Senior Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+      ],
+      "deals": [
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+    },
+    {
       "id": 2131,
       "name": "Sanjeev Ramakrishnan",
       "firm": "Khaitan & Co",
@@ -98159,15 +99337,18 @@
       "id": 2828,
       "name": "Saranya Mishra",
       "firm": "Khaitan & Co",
-      "role": "Senior Associate",
+      "role": "Principal Associate",
       "transaction_types": [
+        "acquisition",
         "fundraise"
       ],
       "practice_areas": [
+        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Bessemer Venture Partners"
+        "Bessemer Venture Partners",
+        "Standex’s acquisition of Amran/Narayan Group"
       ],
       "deals": [
         {
@@ -98180,6 +99361,18 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Khaitan, Lexygen, US law firms act on Standex’s acquisition of Amran/Narayan Group",
+          "client": "Standex’s acquisition of Amran/Narayan Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-lexygen-us-firms-act-on-standexs-acquisition-of-amrannarayan-group",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -98693,10 +99886,15 @@
       "name": "Saswat Subasit",
       "firm": "Khaitan & Co",
       "role": "Partner",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "Vitruvian Partners"
+        "Vitruvian Partners",
+        "Standex’s acquisition of Amran/Narayan Group"
       ],
       "deals": [
         {
@@ -98706,6 +99904,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Khaitan, Lexygen, US law firms act on Standex’s acquisition of Amran/Narayan Group",
+          "client": "Standex’s acquisition of Amran/Narayan Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-lexygen-us-firms-act-on-standexs-acquisition-of-amrannarayan-group",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "CAM advises Hiranandani Financial Services on raising ₹800 crore from Vitruvian"
@@ -100452,6 +101662,28 @@
       "snapshot": "Snabbit snaps up $56 million from Series D fundraise; JSA, Shardul Amarchand Mangaldas ..."
     },
     {
+      "id": 3253,
+      "name": "Shambhavi Kashyap",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+      ],
+      "deals": [
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+    },
+    {
       "id": 780,
       "name": "Shambhavi Kumar",
       "firm": "CMS INDUSLAW",
@@ -100962,7 +102194,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Just Climate"
+        "Just Climate",
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
       ],
       "deals": [
         {
@@ -100988,6 +102221,14 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "JSA assists Continuum Green Energy on securing ₹1,350 crore from Chubu Electric Power Co."
@@ -103012,11 +104253,17 @@
       "name": "Shivangi Kumari",
       "firm": "Shardul Amarchand Mangaldas & Co",
       "role": "Senior Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "Series C",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
       "clients": [
         "Z47 & NTTVC",
-        "OneAssist"
+        "OneAssist",
+        "River Mobility"
       ],
       "deals": [
         {
@@ -103034,6 +104281,19 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Bharucha, Shardul Amarchand Mangaldas, Khaitan & Co act on River Mobility $120 million Series C fundraise",
+          "client": "River Mobility",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/bharucha-partners-shardul-amarchand-mangaldas-khaitan-co-act-on-river-mobility-120-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
       "snapshot": "TT&A, Trilegal, Gibson Dunn act on Neysa securing $1 billion+ funding from"
@@ -104226,7 +105486,8 @@
       "clients": [
         "VINCI Highways",
         "FMC India",
-        "GEF Capital Partners"
+        "GEF Capital Partners",
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
       ],
       "deals": [
         {
@@ -104260,6 +105521,14 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat"
@@ -106066,6 +107335,28 @@
       "snapshot": "CMS INDUSLAW advises Shriram Pistons on €159 million acquisition of three companies ..."
     },
     {
+      "id": 3249,
+      "name": "Shruti Jaju",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+      ],
+      "deals": [
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+    },
+    {
       "id": 1735,
       "name": "Shruti KP",
       "firm": "AZB & Partners",
@@ -106779,6 +108070,38 @@
       "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat"
     },
     {
+      "id": 3241,
+      "name": "Shubham Tejaswi Shahi",
+      "firm": "Khaitan & Co",
+      "role": "Principal Associate",
+      "transaction_types": [
+        "Series C",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "River Mobility"
+      ],
+      "deals": [
+        {
+          "headline": "Bharucha, Shardul Amarchand Mangaldas, Khaitan & Co act on River Mobility $120 million Series C fundraise",
+          "client": "River Mobility",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/bharucha-partners-shardul-amarchand-mangaldas-khaitan-co-act-on-river-mobility-120-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Bharucha, Shardul Amarchand Mangaldas, Khaitan & Co act on River Mobility $120 million Series C fundraise"
+    },
+    {
       "id": 2618,
       "name": "Shubham Toshniwal",
       "firm": "AZB & Partners",
@@ -107419,6 +108742,38 @@
       "snapshot": "CAM, AZB, Hogan Lovells act on Park Hospitals ₹920 crore IPO"
     },
     {
+      "id": 3247,
+      "name": "Siddhant Bhardwaj",
+      "firm": "Sequitur Advocates & Legal Consultants",
+      "role": "Associate",
+      "transaction_types": [
+        "Series A",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Solinas Integrity"
+      ],
+      "deals": [
+        {
+          "headline": "Sequitur advises Solinas Integrity on Series A fundraise",
+          "client": "Solinas Integrity",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/sequitur-advises-solinas-integrity-on-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Sequitur advises Solinas Integrity on Series A fundraise"
+    },
+    {
       "id": 1406,
       "name": "Siddhant Maheshwari",
       "firm": "Trilegal",
@@ -107601,6 +108956,36 @@
         }
       ],
       "snapshot": "JSA advises Indigrid on ₹372 crore acquisition of Gadag Transmission - Bar and Bench"
+    },
+    {
+      "id": 3265,
+      "name": "Siddharth Bagul",
+      "firm": "Khaitan & Co",
+      "role": "Principal Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Standex’s acquisition of Amran/Narayan Group"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan, Lexygen, US law firms act on Standex’s acquisition of Amran/Narayan Group",
+          "client": "Standex’s acquisition of Amran/Narayan Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-lexygen-us-firms-act-on-standexs-acquisition-of-amrannarayan-group",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan, Lexygen, US law firms act on Standex’s acquisition of Amran/Narayan Group"
     },
     {
       "id": 719,
@@ -108402,7 +109787,8 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "Dixon Technologies"
+        "Dixon Technologies",
+        "Guardian Life Insurance Company of America"
       ],
       "deals": [
         {
@@ -108410,6 +109796,14 @@
           "client": "Dixon Technologies",
           "url": "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-connects-dixon-technologies-vivo-jv",
           "source": "Bar and Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Guardian Life Insurance Company of America on selling Guardian India to HCL",
+          "client": "Guardian Life Insurance Company of America",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-guardian-life-insurance-company-of-america-on-selling-guardian-india-to-hcl",
+          "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
         }
@@ -108705,7 +110099,8 @@
         "LeapFrog",
         "LeapFrog Investments Group, Ltd.",
         "Zentiva (Indian aspects)",
-        "iD Fresh Food"
+        "iD Fresh Food",
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
       ],
       "deals": [
         {
@@ -108781,6 +110176,14 @@
           "client": "iD Fresh Food",
           "url": "https://www.barandbench.com/dealstreet/jsa-trilegal-act-on-apax-partners-investing-1500-crore-in-id-fresh-food",
           "source": "Bar and Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
         }
@@ -109021,6 +110424,38 @@
         }
       ],
       "snapshot": "JSA leads Coforge to close Cigniti acquisition - Bar and Bench"
+    },
+    {
+      "id": 3269,
+      "name": "Silicon Valley Quad",
+      "firm": "NovoJuris Legal",
+      "role": "Partner",
+      "transaction_types": [
+        "Series A",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "on PineGap.ai Series A fundraise"
+      ],
+      "deals": [
+        {
+          "headline": "NovoJuris Legal advises on PineGap.ai Series A fundraise",
+          "client": "on PineGap.ai Series A fundraise",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/novojuris-legal-advises-pinegapai-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "NovoJuris Legal advises on PineGap.ai Series A fundraise"
     },
     {
       "id": 392,
@@ -109774,14 +111209,19 @@
       "firm": "Khaitan & Co",
       "role": "Partner",
       "transaction_types": [
-        "acquisition"
+        "Series C",
+        "acquisition",
+        "fundraise"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
         "IIFL Finance",
-        "FMC India"
+        "FMC India",
+        "River Mobility",
+        "Standex’s acquisition of Amran/Narayan Group"
       ],
       "deals": [
         {
@@ -109803,9 +111243,56 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Bharucha, Shardul Amarchand Mangaldas, Khaitan & Co act on River Mobility $120 million Series C fundraise",
+          "client": "River Mobility",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/bharucha-partners-shardul-amarchand-mangaldas-khaitan-co-act-on-river-mobility-120-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Khaitan, Lexygen, US law firms act on Standex’s acquisition of Amran/Narayan Group",
+          "client": "Standex’s acquisition of Amran/Narayan Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-lexygen-us-firms-act-on-standexs-acquisition-of-amrannarayan-group",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "Khaitan & Co, JSA act on IIFL Finance updating its $1 billion Global Medium Term Note Programme"
+    },
+    {
+      "id": 3256,
+      "name": "Sneha Janakiraman",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+      ],
+      "deals": [
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
     },
     {
       "id": 2686,
@@ -110185,7 +111672,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Just Climate"
+        "Just Climate",
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
       ],
       "deals": [
         {
@@ -110199,6 +111687,14 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Trilegal advises Continuum Green Energy on securing $67.5 million from Just Climate"
@@ -110454,6 +111950,38 @@
         }
       ],
       "snapshot": "White & Case, AZB, Sullivan, Cyril Amarchand Mangaldas, Linklaters act on Sun Pharma's ..."
+    },
+    {
+      "id": 3245,
+      "name": "Sonalika Ahuja",
+      "firm": "Khaitan & Co",
+      "role": "Principal Associate",
+      "transaction_types": [
+        "Series C",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "River Mobility"
+      ],
+      "deals": [
+        {
+          "headline": "Bharucha, Shardul Amarchand Mangaldas, Khaitan & Co act on River Mobility $120 million Series C fundraise",
+          "client": "River Mobility",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/bharucha-partners-shardul-amarchand-mangaldas-khaitan-co-act-on-river-mobility-120-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Bharucha, Shardul Amarchand Mangaldas, Khaitan & Co act on River Mobility $120 million Series C fundraise"
     },
     {
       "id": 1354,
@@ -111092,7 +112620,8 @@
         "Statkraft A.S.",
         "Both parties",
         "Hiranandani Financial Services & Founders",
-        "Dixon Technologies (India) Limited"
+        "Dixon Technologies (India) Limited",
+        "Guardian Life Insurance Company of America"
       ],
       "deals": [
         {
@@ -111148,6 +112677,14 @@
           "client": "Dixon Technologies (India) Limited",
           "url": "https://www.barandbench.com/dealstreet/cam-advises-dixon-on-acquiring-51-shareholding-in-qtech-india",
           "source": "Bar and Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Guardian Life Insurance Company of America on selling Guardian India to HCL",
+          "client": "Guardian Life Insurance Company of America",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-guardian-life-insurance-company-of-america-on-selling-guardian-india-to-hcl",
+          "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
         }
@@ -111292,7 +112829,8 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "Statkraft A.S."
+        "Statkraft A.S.",
+        "Guardian Life Insurance Company of America"
       ],
       "deals": [
         {
@@ -111300,6 +112838,14 @@
           "client": "Statkraft A.S.",
           "url": "https://www.barandbench.com/dealstreet/cam-advises-statkraft-as-on-100-stake-sale-of-wholly-owned-subsidiary-mandakini-jal-urja",
           "source": "Bar and Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Guardian Life Insurance Company of America on selling Guardian India to HCL",
+          "client": "Guardian Life Insurance Company of America",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-guardian-life-insurance-company-of-america-on-selling-guardian-india-to-hcl",
+          "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
         }
@@ -113195,7 +114741,8 @@
       "clients": [
         "VINCI Highways",
         "Mindspace Business Parks REIT",
-        "Aditya Birla Renewables"
+        "Aditya Birla Renewables",
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
       ],
       "deals": [
         {
@@ -113229,6 +114776,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat"
@@ -113649,6 +115204,28 @@
       "snapshot": "CAM, Latham, Trilegal, JSA, Khaitan act on Manipal Hospitals ₹8,000 crore proposed IPO"
     },
     {
+      "id": 3259,
+      "name": "Sumantra Bose",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+      ],
+      "deals": [
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+    },
+    {
       "id": 931,
       "name": "Sumedha Tewari",
       "firm": "DSK Legal",
@@ -113939,7 +115516,8 @@
         "FMC India",
         "GEF Capital Partners",
         "Advent International",
-        "BNP Paribas Cardif acquiring stake in IndiaFirst Life Insurance"
+        "BNP Paribas Cardif acquiring stake in IndiaFirst Life Insurance",
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
       ],
       "deals": [
         {
@@ -114013,6 +115591,14 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat"
@@ -114055,6 +115641,36 @@
         }
       ],
       "snapshot": "JSA advises Renew Surya Roshni on securing $730 million for 320 MW RTC project"
+    },
+    {
+      "id": 3237,
+      "name": "Surabhi Srinivasan",
+      "firm": "ALMT Legal",
+      "role": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Ascent Growth Trust"
+      ],
+      "deals": [
+        {
+          "headline": "ALMT Legal advises Ascent Growth Trust on majority stake investment in Pivot Path",
+          "client": "Ascent Growth Trust",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/almt-legal-advises-ascent-growth-trust-on-majority-stake-investment-in-pivot-path",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "ALMT Legal advises Ascent Growth Trust on majority stake investment in Pivot Path"
     },
     {
       "id": 2231,
@@ -114967,6 +116583,38 @@
         }
       ],
       "snapshot": "KreditBee becomes Unicorn with $280 million Series E fundraise; Touchstone, Trilegal ..."
+    },
+    {
+      "id": 3240,
+      "name": "Swathi Ravi Girimaji",
+      "firm": "Bharucha & Partners",
+      "role": "Partner",
+      "transaction_types": [
+        "Series C",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "River Mobility"
+      ],
+      "deals": [
+        {
+          "headline": "Bharucha, Shardul Amarchand Mangaldas, Khaitan & Co act on River Mobility $120 million Series C fundraise",
+          "client": "River Mobility",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/bharucha-partners-shardul-amarchand-mangaldas-khaitan-co-act-on-river-mobility-120-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Bharucha, Shardul Amarchand Mangaldas, Khaitan & Co act on River Mobility $120 million Series C fundraise"
     },
     {
       "id": 1205,
@@ -119398,6 +121046,36 @@
       "snapshot": "Khaitan & Co acts on Adventz Group's joint venture with Nobilia"
     },
     {
+      "id": 3262,
+      "name": "Unnita Bhattacharya",
+      "firm": "Khaitan & Co",
+      "role": "Principal Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Standex’s acquisition of Amran/Narayan Group"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan, Lexygen, US law firms act on Standex’s acquisition of Amran/Narayan Group",
+          "client": "Standex’s acquisition of Amran/Narayan Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-lexygen-us-firms-act-on-standexs-acquisition-of-amrannarayan-group",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan, Lexygen, US law firms act on Standex’s acquisition of Amran/Narayan Group"
+    },
+    {
       "id": 1207,
       "name": "Upendra Nath Sharma",
       "firm": "JSA Advocates & Solicitors",
@@ -119650,6 +121328,38 @@
         }
       ],
       "snapshot": "Power Finance Corp to absorb REC Limited; Cyril Amarchand Mangaldas acts on merger"
+    },
+    {
+      "id": 3246,
+      "name": "Utpal Kant",
+      "firm": "Sequitur Advocates & Legal Consultants",
+      "role": "Managing Partner",
+      "transaction_types": [
+        "Series A",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Solinas Integrity"
+      ],
+      "deals": [
+        {
+          "headline": "Sequitur advises Solinas Integrity on Series A fundraise",
+          "client": "Solinas Integrity",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/sequitur-advises-solinas-integrity-on-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Sequitur advises Solinas Integrity on Series A fundraise"
     },
     {
       "id": 707,
@@ -121411,7 +123121,8 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "Nexusmalls Whitefield"
+        "Nexusmalls Whitefield",
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
       ],
       "deals": [
         {
@@ -121419,6 +123130,14 @@
           "client": "Nexusmalls Whitefield",
           "url": "https://www.barandbench.com/dealstreet/blackstone-backed-nexus-shops-for-kolkata-mall-diamond-plaza-khaitan-sam-advise",
           "source": "Bar and Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
         }
@@ -123944,7 +125663,8 @@
         "Axis Finance Limited and Axis Bank Limited",
         "Adani Ports",
         "Statkraft A.S.",
-        "Dixon Technologies (India) Limited"
+        "Dixon Technologies (India) Limited",
+        "Guardian Life Insurance Company of America"
       ],
       "deals": [
         {
@@ -123976,6 +125696,14 @@
           "client": "Dixon Technologies (India) Limited",
           "url": "https://www.barandbench.com/dealstreet/cam-advises-dixon-on-acquiring-51-shareholding-in-qtech-india",
           "source": "Bar and Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Guardian Life Insurance Company of America on selling Guardian India to HCL",
+          "client": "Guardian Life Insurance Company of America",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-guardian-life-insurance-company-of-america-on-selling-guardian-india-to-hcl",
+          "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
         }
@@ -125957,7 +127685,8 @@
       "clients": [
         "Existing Investors",
         "SolarSquare",
-        "Sorin Investments, W Health Ventures, and Endiya Partners"
+        "Sorin Investments, W Health Ventures, and Endiya Partners",
+        "River Mobility"
       ],
       "deals": [
         {
@@ -125994,6 +127723,19 @@
           "types": [
             "fundraise",
             "Series A"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Bharucha, Shardul Amarchand Mangaldas, Khaitan & Co act on River Mobility $120 million Series C fundraise",
+          "client": "River Mobility",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/bharucha-partners-shardul-amarchand-mangaldas-khaitan-co-act-on-river-mobility-120-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
@@ -127692,6 +129434,50 @@
         }
       ],
       "snapshot": "Trilegal advises Agrow Allied Ventures on raising ₹186 crore from ICICI Ventures"
+    },
+    {
+      "id": 3258,
+      "name": "Yashwant Gaggar",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+      ],
+      "deals": [
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+    },
+    {
+      "id": 3254,
+      "name": "Yatharth V Singh",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+      ],
+      "deals": [
+        {
+          "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
     },
     {
       "id": 3031,
