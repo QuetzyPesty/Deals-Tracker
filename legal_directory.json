@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 3271,
-    "firms": 104,
-    "deals": 430,
+    "people": 3303,
+    "firms": 107,
+    "deals": 439,
     "practice_areas": 6
   },
   "firms": [
@@ -43,8 +43,10 @@
     "Elp",
     "Emerge Legal",
     "Equilex",
+    "FBT Gibbons",
     "Fox & Mandal",
     "Fox Mandal & Associates",
+    "Fox Mandal & Associates has",
     "Gibson Dunn",
     "Goodwin",
     "His chambers",
@@ -65,6 +67,7 @@
     "Khaled Al-Marri & Partners",
     "Kochhar & Co",
     "Krishnamurthy & Co",
+    "LIC Stake Sale: Dentons Link Legal",
     "Latham & Watkins",
     "Legacy Law Offices",
     "Lex Consult",
@@ -175,7 +178,7 @@
     },
     {
       "firm": "AZB & Partners",
-      "people_count": 191,
+      "people_count": 193,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -256,6 +259,7 @@
         {
           "area": "Unclassified",
           "person_ids": [
+            3285,
             2611,
             2609,
             2612,
@@ -263,6 +267,7 @@
             2639,
             2622,
             2633,
+            3284,
             2533,
             2613,
             2502,
@@ -1665,7 +1670,7 @@
     },
     {
       "firm": "Dentons Link Legal",
-      "people_count": 22,
+      "people_count": 24,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -1692,6 +1697,13 @@
             837,
             851,
             853
+          ]
+        },
+        {
+          "area": "Unclassified",
+          "person_ids": [
+            3272,
+            3273
           ]
         }
       ]
@@ -1815,6 +1827,11 @@
       ]
     },
     {
+      "firm": "FBT Gibbons",
+      "people_count": 0,
+      "practice_groups": []
+    },
+    {
       "firm": "Fox & Mandal",
       "people_count": 2,
       "practice_groups": [
@@ -1841,6 +1858,24 @@
             3173,
             3175,
             3174
+          ]
+        }
+      ]
+    },
+    {
+      "firm": "Fox Mandal & Associates has",
+      "people_count": 7,
+      "practice_groups": [
+        {
+          "area": "Unclassified",
+          "person_ids": [
+            3303,
+            3302,
+            3301,
+            3300,
+            3297,
+            3299,
+            3298
           ]
         }
       ]
@@ -2069,7 +2104,7 @@
     },
     {
       "firm": "JSA Advocates & Solicitors",
-      "people_count": 348,
+      "people_count": 351,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -2479,6 +2514,8 @@
             2181,
             767,
             422,
+            3275,
+            3277,
             1802,
             1959,
             423,
@@ -2496,6 +2533,7 @@
             426,
             391,
             428,
+            3276,
             2354
           ]
         },
@@ -2643,7 +2681,7 @@
     },
     {
       "firm": "Khaitan & Co",
-      "people_count": 436,
+      "people_count": 442,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -2812,6 +2850,143 @@
           ]
         },
         {
+          "area": "Unclassified",
+          "person_ids": [
+            398,
+            3114,
+            333,
+            329,
+            3117,
+            318,
+            3116,
+            3250,
+            2723,
+            3030,
+            723,
+            2722,
+            3025,
+            3027,
+            3287,
+            351,
+            1034,
+            3026,
+            3281,
+            3111,
+            328,
+            288,
+            344,
+            3260,
+            478,
+            3261,
+            393,
+            3029,
+            3112,
+            400,
+            284,
+            1035,
+            3248,
+            3110,
+            1036,
+            1228,
+            1029,
+            3282,
+            347,
+            1064,
+            352,
+            320,
+            396,
+            401,
+            3032,
+            327,
+            322,
+            1037,
+            3119,
+            3022,
+            3115,
+            3252,
+            1232,
+            281,
+            366,
+            1230,
+            340,
+            3028,
+            350,
+            2126,
+            285,
+            363,
+            3286,
+            283,
+            2724,
+            1031,
+            726,
+            3024,
+            291,
+            349,
+            3123,
+            394,
+            345,
+            3251,
+            2725,
+            3113,
+            3124,
+            397,
+            1030,
+            2125,
+            325,
+            3121,
+            353,
+            3060,
+            3059,
+            1060,
+            282,
+            3118,
+            1032,
+            2721,
+            1234,
+            3020,
+            1197,
+            3019,
+            341,
+            3257,
+            321,
+            1033,
+            3255,
+            1062,
+            1195,
+            3122,
+            354,
+            3021,
+            3253,
+            3280,
+            3023,
+            323,
+            332,
+            286,
+            1809,
+            1233,
+            2720,
+            3249,
+            3283,
+            3256,
+            331,
+            2726,
+            343,
+            3259,
+            1063,
+            319,
+            395,
+            361,
+            290,
+            2124,
+            1235,
+            3120,
+            357,
+            3258,
+            3254,
+            3031
+          ]
+        },
+        {
           "area": "Private Equity & Venture Capital",
           "person_ids": [
             154,
@@ -2949,137 +3124,6 @@
           ]
         },
         {
-          "area": "Unclassified",
-          "person_ids": [
-            398,
-            3114,
-            333,
-            329,
-            3117,
-            318,
-            3116,
-            3250,
-            2723,
-            3030,
-            723,
-            2722,
-            3025,
-            3027,
-            351,
-            1034,
-            3026,
-            3111,
-            328,
-            288,
-            344,
-            3260,
-            478,
-            3261,
-            393,
-            3029,
-            3112,
-            400,
-            284,
-            1035,
-            3248,
-            3110,
-            1036,
-            1228,
-            1029,
-            347,
-            1064,
-            352,
-            320,
-            396,
-            401,
-            3032,
-            327,
-            322,
-            1037,
-            3119,
-            3022,
-            3115,
-            3252,
-            1232,
-            281,
-            366,
-            1230,
-            340,
-            3028,
-            350,
-            2126,
-            285,
-            363,
-            283,
-            2724,
-            1031,
-            726,
-            3024,
-            291,
-            349,
-            3123,
-            394,
-            345,
-            3251,
-            2725,
-            3113,
-            3124,
-            397,
-            1030,
-            2125,
-            325,
-            3121,
-            353,
-            3060,
-            3059,
-            1060,
-            282,
-            3118,
-            1032,
-            2721,
-            1234,
-            3020,
-            1197,
-            3019,
-            341,
-            3257,
-            321,
-            1033,
-            3255,
-            1062,
-            1195,
-            3122,
-            354,
-            3021,
-            3253,
-            3023,
-            323,
-            332,
-            286,
-            1809,
-            1233,
-            2720,
-            3249,
-            3256,
-            331,
-            2726,
-            343,
-            3259,
-            1063,
-            319,
-            395,
-            361,
-            290,
-            2124,
-            1235,
-            3120,
-            357,
-            3258,
-            3254,
-            3031
-          ]
-        },
-        {
           "area": "Capital Markets",
           "person_ids": [
             1756,
@@ -3174,11 +3218,13 @@
     },
     {
       "firm": "Kochhar & Co",
-      "people_count": 3,
+      "people_count": 5,
       "practice_groups": [
         {
           "area": "Unclassified",
           "person_ids": [
+            3279,
+            3278,
             3108,
             3107,
             3109
@@ -3199,6 +3245,11 @@
           ]
         }
       ]
+    },
+    {
+      "firm": "LIC Stake Sale: Dentons Link Legal",
+      "people_count": 0,
+      "practice_groups": []
     },
     {
       "firm": "Latham & Watkins",
@@ -4546,7 +4597,7 @@
     },
     {
       "firm": "Trilegal",
-      "people_count": 469,
+      "people_count": 479,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -4558,6 +4609,7 @@
             998,
             163,
             169,
+            1352,
             738,
             2087,
             1002,
@@ -4574,20 +4626,24 @@
             2264,
             448,
             1274,
+            3292,
             2083,
             1392,
             170,
             9,
             280,
+            3294,
             2399,
             539,
             2396,
             544,
             167,
+            3293,
             524,
             3001,
             992,
             522,
+            3295,
             2042,
             529,
             2047,
@@ -4598,6 +4654,7 @@
             452,
             549,
             2390,
+            3291,
             2997,
             2260,
             2084,
@@ -4653,6 +4710,7 @@
             1201,
             2940,
             1286,
+            1346,
             797,
             1092,
             1417,
@@ -4692,12 +4750,14 @@
             1139,
             2395,
             2266,
+            3289,
             993,
             2813,
             2263,
             1000,
             2816,
             13,
+            3290,
             2941,
             3003,
             2999,
@@ -4714,6 +4774,7 @@
             1203,
             1001,
             1088,
+            2020,
             1087,
             1446,
             2085,
@@ -4753,9 +4814,11 @@
             277,
             164,
             1093,
+            3296,
             2054,
             796,
             172,
+            2465,
             1287,
             2050,
             1276,
@@ -4768,6 +4831,7 @@
             414,
             2388,
             1391,
+            3288,
             1086,
             2387,
             2049
@@ -4906,118 +4970,6 @@
           ]
         },
         {
-          "area": "Unclassified",
-          "person_ids": [
-            2411,
-            1852,
-            1804,
-            868,
-            1850,
-            2561,
-            1847,
-            2749,
-            2144,
-            2464,
-            1822,
-            1024,
-            2018,
-            2139,
-            865,
-            2141,
-            2357,
-            2356,
-            2140,
-            1448,
-            2410,
-            1806,
-            3067,
-            1824,
-            492,
-            863,
-            2412,
-            1848,
-            1445,
-            2978,
-            2360,
-            1819,
-            2560,
-            2121,
-            864,
-            1726,
-            2152,
-            1444,
-            2577,
-            1849,
-            2751,
-            1019,
-            1028,
-            2146,
-            2576,
-            2750,
-            1447,
-            2559,
-            1724,
-            1026,
-            1820,
-            1018,
-            2409,
-            1443,
-            869,
-            2578,
-            2148,
-            2575,
-            2138,
-            2151,
-            2196,
-            1449,
-            1023,
-            2019,
-            2408,
-            2413,
-            2149,
-            2153,
-            2123,
-            3063,
-            2145,
-            2137,
-            1025,
-            2020,
-            3064,
-            1021,
-            2466,
-            1805,
-            2142,
-            2358,
-            867,
-            2147,
-            2136,
-            1851,
-            2977,
-            3062,
-            2407,
-            1818,
-            2150,
-            3061,
-            1823,
-            870,
-            1816,
-            3065,
-            2122,
-            1027,
-            1438,
-            1440,
-            2467,
-            2465,
-            3066,
-            2143,
-            3068,
-            1817,
-            866,
-            1821,
-            2558
-          ]
-        },
-        {
           "area": "Capital Markets",
           "person_ids": [
             710,
@@ -5127,6 +5079,117 @@
             1265,
             2685,
             518
+          ]
+        },
+        {
+          "area": "Unclassified",
+          "person_ids": [
+            2411,
+            1852,
+            1804,
+            868,
+            1850,
+            2561,
+            1847,
+            2749,
+            2144,
+            2464,
+            1822,
+            1024,
+            2018,
+            2139,
+            865,
+            3274,
+            2141,
+            2357,
+            2356,
+            2140,
+            1448,
+            2410,
+            1806,
+            3067,
+            1824,
+            492,
+            863,
+            2412,
+            1848,
+            1445,
+            2978,
+            2360,
+            1819,
+            2560,
+            2121,
+            864,
+            1726,
+            2152,
+            1444,
+            2577,
+            1849,
+            2751,
+            1019,
+            1028,
+            2146,
+            2576,
+            2750,
+            1447,
+            2559,
+            1724,
+            1026,
+            1820,
+            1018,
+            2409,
+            1443,
+            869,
+            2578,
+            2148,
+            2575,
+            2138,
+            2151,
+            2196,
+            1449,
+            1023,
+            2019,
+            2408,
+            2413,
+            2149,
+            2153,
+            2123,
+            3063,
+            2145,
+            2137,
+            1025,
+            3064,
+            1021,
+            2466,
+            1805,
+            2142,
+            2358,
+            867,
+            2147,
+            2136,
+            1851,
+            2977,
+            3062,
+            2407,
+            1818,
+            2150,
+            3061,
+            1823,
+            870,
+            1816,
+            3065,
+            2122,
+            1027,
+            1438,
+            1440,
+            2467,
+            3066,
+            2143,
+            3068,
+            1817,
+            866,
+            1821,
+            2558
           ]
         },
         {
@@ -8226,7 +8289,8 @@
         "Olam Group",
         "CA Sardo Investments/Carlyle",
         "Novo Holdings",
-        "Oxane Partners securing investment from TA Associates"
+        "Oxane Partners securing investment from TA Associates",
+        "strategic partnership between Jupiter Wagons and Lucchini RS"
       ],
       "deals": [
         {
@@ -8322,6 +8386,14 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "Trilegal, JSA act on strategic partnership between Jupiter Wagons and Lucchini RS",
+          "client": "strategic partnership between Jupiter Wagons and Lucchini RS",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-jupiter-tatravagonka-railwheel-factory-jupiter-wagons-on-strategic-partnership-with-lucchini-rs",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Trilegal, Sheppard act on $310 million acquisition of iMerit by EXL - Bar and Bench",
@@ -8382,7 +8454,7 @@
           "id": 163,
           "firm": "Trilegal",
           "role": "Partner",
-          "deal_count": 8
+          "deal_count": 9
         }
       ],
       "firm_verification": {
@@ -9156,6 +9228,26 @@
       "snapshot": "Capitaland sells ITPC Chennai to Mindspace, 360 One for ₹3000 crore - Bar and Bench"
     },
     {
+      "id": 3285,
+      "name": "Achin Goel",
+      "firm": "AZB & Partners",
+      "role": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Mahindra & Mahindra sells Trucks and Buses Division to SML Mahindra for ₹525 crore; Khaitan & Co, AZB advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/mahindra-mahindra-sells-trucks-and-buses-division-to-sml-mahindra-for-525-crore-khaitan-co-azb-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Mahindra & Mahindra sells Trucks and Buses Division to SML Mahindra for ₹525 crore; Khaitan & Co, AZB advise"
+    },
+    {
       "id": 1243,
       "name": "Achint Johri",
       "firm": "JSA Advocates & Solicitors",
@@ -9200,7 +9292,8 @@
       ],
       "clients": [
         "iMerit and shareholders",
-        "Oxane Partners securing investment from TA Associates"
+        "Oxane Partners securing investment from TA Associates",
+        "EAAA India Alternatives"
       ],
       "deals": [
         {
@@ -9237,6 +9330,18 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune",
+          "client": "EAAA India Alternatives",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-eaaa-india-alternatives-on-acquisition-of-1-million-sqft-office-park-in-pune",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -9593,13 +9698,16 @@
       "role": "Associate",
       "transaction_types": [
         "Series B",
+        "acquisition",
         "fundraise"
       ],
       "practice_areas": [
+        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Sarvam AI & Founders"
+        "Sarvam AI & Founders",
+        "EAAA India Alternatives"
       ],
       "deals": [
         {
@@ -9613,6 +9721,18 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune",
+          "client": "EAAA India Alternatives",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-eaaa-india-alternatives-on-acquisition-of-1-million-sqft-office-park-in-pune",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -10257,6 +10377,28 @@
         }
       ],
       "snapshot": "JSA assists Continuum Green Energy on securing ₹1,350 crore from Chubu Electric Power Co."
+    },
+    {
+      "id": 3272,
+      "name": "Aditya Bhardwaj",
+      "firm": "Dentons Link Legal",
+      "role": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "India’s Largest OFS of"
+      ],
+      "deals": [
+        {
+          "headline": "LIC Stake Sale: Dentons Link Legal, Trilegal, Sidley Austin and FBT Gibbons act on India’s Largest OFS of $3.3 Billion",
+          "client": "India’s Largest OFS of",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/dentons-link-legal-trilegal-sidley-austin-fbt-gibbons-act-on-33-billion-stake-sale-by-the-president-of-india-in-lic",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "LIC Stake Sale: Dentons Link Legal, Trilegal, Sidley Austin and FBT Gibbons act on India’s Largest OFS of..."
     },
     {
       "id": 1796,
@@ -12746,7 +12888,53 @@
           ]
         }
       ],
-      "snapshot": "Fox Mandal & Associates advises EXIM Bank on financing Jana Nayagan"
+      "snapshot": "Fox Mandal & Associates advises EXIM Bank on financing Jana Nayagan",
+      "same_name_elsewhere": [
+        {
+          "id": 3303,
+          "firm": "Fox Mandal & Associates has",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
+      "id": 3303,
+      "name": "Akash Patil",
+      "firm": "Fox Mandal & Associates has",
+      "role": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "landowners"
+      ],
+      "deals": [
+        {
+          "headline": "Fox Mandal & Associates advises landowners on revenue-sharing joint development with Puravankara",
+          "client": "landowners",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/fox-mandal-associates-advises-landowners-on-revenue-sharing-joint-development-with-puravankara",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Fox Mandal & Associates advises landowners on revenue-sharing joint development with Puravankara",
+      "same_name_elsewhere": [
+        {
+          "id": 3179,
+          "firm": "Fox Mandal & Associates",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 694,
@@ -17590,6 +17778,36 @@
       "snapshot": "SAM advises Anzen India on acquisition of majority stake in 12 Solar"
     },
     {
+      "id": 3292,
+      "name": "Ananya Satish",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "EAAA India Alternatives"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune",
+          "client": "EAAA India Alternatives",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-eaaa-india-alternatives-on-acquisition-of-1-million-sqft-office-park-in-pune",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune"
+    },
+    {
       "id": 1907,
       "name": "Ananya Vajpayee",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -18269,6 +18487,14 @@
           "client": "Warburg Pincus",
           "url": "https://www.barandbench.com/dealstreet/cam-azb-act-on-warburg-pincus-acquiring-stake-in-fleur-hotels",
           "source": "Bar and Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Mahindra & Mahindra sells Trucks and Buses Division to SML Mahindra for ₹525 crore; Khaitan & Co, AZB advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/mahindra-mahindra-sells-trucks-and-buses-division-to-sml-mahindra-for-525-crore-khaitan-co-azb-advise",
+          "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
         }
@@ -20500,6 +20726,36 @@
       "snapshot": "Wilson Sonsini, JSA, Latham act on Marvell's acquisition of Celestial AI"
     },
     {
+      "id": 3294,
+      "name": "Annika Bohra",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "EAAA India Alternatives"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune",
+          "client": "EAAA India Alternatives",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-eaaa-india-alternatives-on-acquisition-of-1-million-sqft-office-park-in-pune",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune"
+    },
+    {
       "id": 2166,
       "name": "Annika Randhawa",
       "firm": "White & Case",
@@ -21048,6 +21304,28 @@
       "snapshot": "JSA acts on E2E Networks ₹107 crore QIP - BarandBench"
     },
     {
+      "id": 3279,
+      "name": "Anshu Gupta",
+      "firm": "Kochhar & Co",
+      "role": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Grip FIO Advisors"
+      ],
+      "deals": [
+        {
+          "headline": "Kochhar & Co advises Grip FIO Advisors on launch of Grip PrimeYield – I",
+          "client": "Grip FIO Advisors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/kochhar-co-advises-grip-fio-advisors-on-launch-of-grip-primeyield-i",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Kochhar & Co advises Grip FIO Advisors on launch of Grip PrimeYield – I"
+    },
+    {
       "id": 1949,
       "name": "Anshul Bhuwalka",
       "firm": "CMS INDUSLAW",
@@ -21379,6 +21657,28 @@
         }
       ],
       "snapshot": "JSA advises Nuveen on Indian law aspects of £9.9 billion takeover of Schroders"
+    },
+    {
+      "id": 3287,
+      "name": "Ansif Latheef",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Belding India"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Belding India on Evolve IT Solutions",
+          "client": "Belding India",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-belding-india-on-evolve-it-solutions",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Belding India on Evolve IT Solutions"
     },
     {
       "id": 627,
@@ -22104,7 +22404,53 @@
           ]
         }
       ],
-      "snapshot": "Fox Mandal & Associates advises EXIM Bank on financing Jana Nayagan"
+      "snapshot": "Fox Mandal & Associates advises EXIM Bank on financing Jana Nayagan",
+      "same_name_elsewhere": [
+        {
+          "id": 3302,
+          "firm": "Fox Mandal & Associates has",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
+      "id": 3302,
+      "name": "Anurag Kumar",
+      "firm": "Fox Mandal & Associates has",
+      "role": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "landowners"
+      ],
+      "deals": [
+        {
+          "headline": "Fox Mandal & Associates advises landowners on revenue-sharing joint development with Puravankara",
+          "client": "landowners",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/fox-mandal-associates-advises-landowners-on-revenue-sharing-joint-development-with-puravankara",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Fox Mandal & Associates advises landowners on revenue-sharing joint development with Puravankara",
+      "same_name_elsewhere": [
+        {
+          "id": 3178,
+          "firm": "Fox Mandal & Associates",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 112,
@@ -22320,7 +22666,7 @@
           "id": 3212,
           "firm": "Economic Laws Practice",
           "role": "Associate",
-          "deal_count": 1
+          "deal_count": 2
         }
       ],
       "firm_verification": {
@@ -22336,13 +22682,22 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "Kajaria Ceramics"
+        "Kajaria Ceramics",
+        "TeamLease"
       ],
       "deals": [
         {
           "headline": "ELP advises Kajaria Ceramics on ₹296 crore share buyback",
           "client": "Kajaria Ceramics",
           "url": "https://www.barandbench.com/law-firms/dealstreet/elp-advises-kajaria-ceramics-on-296-crore-share-buyback",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "ELP advises TeamLease on ₹238 crore share buyback",
+          "client": "TeamLease",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/elp-advises-teamlease-on-238-crore-share-buyback",
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
@@ -23163,7 +23518,8 @@
         "iMerit and shareholders",
         "Bain Capital",
         "Mahindra Lifespaces",
-        "Oxane Partners securing investment from TA Associates"
+        "Oxane Partners securing investment from TA Associates",
+        "EAAA India Alternatives"
       ],
       "deals": [
         {
@@ -23216,6 +23572,18 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune",
+          "client": "EAAA India Alternatives",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-eaaa-india-alternatives-on-acquisition-of-1-million-sqft-office-park-in-pune",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -23750,6 +24118,36 @@
       "snapshot": "JSA, Collyer Law, Argus Partners, IC RegFin Legal act on Meesho's ₹202 crore acquisition ..."
     },
     {
+      "id": 3293,
+      "name": "Archi Jain",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "EAAA India Alternatives"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune",
+          "client": "EAAA India Alternatives",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-eaaa-india-alternatives-on-acquisition-of-1-million-sqft-office-park-in-pune",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune"
+    },
+    {
       "id": 1620,
       "name": "Archika Dudhwewala",
       "firm": "Khaitan & Co",
@@ -24230,6 +24628,26 @@
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Adani Enterprises ... - Bar and Bench"
+    },
+    {
+      "id": 3281,
+      "name": "Arindam Ghosh",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Mahindra & Mahindra sells Trucks and Buses Division to SML Mahindra for ₹525 crore; Khaitan & Co, AZB advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/mahindra-mahindra-sells-trucks-and-buses-division-to-sml-mahindra-for-525-crore-khaitan-co-azb-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Mahindra & Mahindra sells Trucks and Buses Division to SML Mahindra for ₹525 crore; Khaitan & Co, AZB advise"
     },
     {
       "id": 1465,
@@ -25569,6 +25987,58 @@
         }
       ],
       "snapshot": "Trilegal acts on GSP Crop Science ₹400 crore IPO - Bar and Bench"
+    },
+    {
+      "id": 3274,
+      "name": "Arsha Jha",
+      "firm": "Trilegal",
+      "role": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "strategic partnership between Jupiter Wagons and Lucchini RS"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, JSA act on strategic partnership between Jupiter Wagons and Lucchini RS",
+          "client": "strategic partnership between Jupiter Wagons and Lucchini RS",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-jupiter-tatravagonka-railwheel-factory-jupiter-wagons-on-strategic-partnership-with-lucchini-rs",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Trilegal, JSA act on strategic partnership between Jupiter Wagons and Lucchini RS"
+    },
+    {
+      "id": 3295,
+      "name": "Arshan Kazi The",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "EAAA India Alternatives"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune",
+          "client": "EAAA India Alternatives",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-eaaa-india-alternatives-on-acquisition-of-1-million-sqft-office-park-in-pune",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune"
     },
     {
       "id": 2435,
@@ -26957,6 +27427,26 @@
       "snapshot": "Khaitan & Co, JSA act on IIFL Finance updating its $1 billion Global Medium Term Note Programme"
     },
     {
+      "id": 3284,
+      "name": "Ashish Pareek",
+      "firm": "AZB & Partners",
+      "role": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Mahindra & Mahindra sells Trucks and Buses Division to SML Mahindra for ₹525 crore; Khaitan & Co, AZB advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/mahindra-mahindra-sells-trucks-and-buses-division-to-sml-mahindra-for-525-crore-khaitan-co-azb-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Mahindra & Mahindra sells Trucks and Buses Division to SML Mahindra for ₹525 crore; Khaitan & Co, AZB advise"
+    },
+    {
       "id": 1309,
       "name": "Ashna Mahajan",
       "firm": "AZB & Partners",
@@ -27111,6 +27601,14 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "Mahindra & Mahindra sells Trucks and Buses Division to SML Mahindra for ₹525 crore; Khaitan & Co, AZB advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/mahindra-mahindra-sells-trucks-and-buses-division-to-sml-mahindra-for-525-crore-khaitan-co-azb-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "CAM advises Hiranandani Financial Services on raising ₹800 crore from Vitruvian"
@@ -31397,6 +31895,36 @@
       "snapshot": "JSA, Verist Law, Duane Morris & Selvam act on Manorama Industries ₹500 crore QIP"
     },
     {
+      "id": 3291,
+      "name": "Bhavish Kaki",
+      "firm": "Trilegal",
+      "role": "Senior Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "EAAA India Alternatives"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune",
+          "client": "EAAA India Alternatives",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-eaaa-india-alternatives-on-acquisition-of-1-million-sqft-office-park-in-pune",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune"
+    },
+    {
       "id": 1162,
       "name": "Bhavna Sancheti",
       "firm": "JSA Advocates & Solicitors",
@@ -35456,6 +35984,28 @@
         }
       ],
       "snapshot": "SAM advises General Catalyst and Avataar on PB Healthcare $218 million fundraise"
+    },
+    {
+      "id": 3278,
+      "name": "Deepanshi Trivedi",
+      "firm": "Kochhar & Co",
+      "role": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Grip FIO Advisors"
+      ],
+      "deals": [
+        {
+          "headline": "Kochhar & Co advises Grip FIO Advisors on launch of Grip PrimeYield – I",
+          "client": "Grip FIO Advisors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/kochhar-co-advises-grip-fio-advisors-on-launch-of-grip-primeyield-i",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Kochhar & Co advises Grip FIO Advisors on launch of Grip PrimeYield – I"
     },
     {
       "id": 2128,
@@ -41349,6 +41899,26 @@
       "snapshot": "NSE IPO: Which law firms are advising the stock exchange on its public listing?"
     },
     {
+      "id": 3282,
+      "name": "Gaurav Malhotra",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Mahindra & Mahindra sells Trucks and Buses Division to SML Mahindra for ₹525 crore; Khaitan & Co, AZB advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/mahindra-mahindra-sells-trucks-and-buses-division-to-sml-mahindra-for-525-crore-khaitan-co-azb-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Mahindra & Mahindra sells Trucks and Buses Division to SML Mahindra for ₹525 crore; Khaitan & Co, AZB advise"
+    },
+    {
       "id": 2094,
       "name": "Gaurav Prathik G",
       "firm": "JSA Advocates & Solicitors",
@@ -41487,7 +42057,8 @@
         "Blackstone",
         "Körber Group",
         "Sona Comstar",
-        "Oxane Partners securing investment from TA Associates"
+        "Oxane Partners securing investment from TA Associates",
+        "EAAA India Alternatives"
       ],
       "deals": [
         {
@@ -41590,6 +42161,18 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune",
+          "client": "EAAA India Alternatives",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-eaaa-india-alternatives-on-acquisition-of-1-million-sqft-office-park-in-pune",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -42007,7 +42590,8 @@
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Mindspace Business Parks REIT"
+        "Mindspace Business Parks REIT",
+        "Belding India"
       ],
       "deals": [
         {
@@ -42021,6 +42605,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Khaitan & Co advises Belding India on Evolve IT Solutions",
+          "client": "Belding India",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-belding-india-on-evolve-it-solutions",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Capitaland sells ITPC Chennai to Mindspace, 360 One for ₹3000 crore - Bar and Bench"
@@ -42408,7 +43000,7 @@
           "id": 3210,
           "firm": "Economic Laws Practice",
           "role": "Partner",
-          "deal_count": 1
+          "deal_count": 2
         }
       ],
       "firm_verification": {
@@ -42424,13 +43016,22 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "Kajaria Ceramics"
+        "Kajaria Ceramics",
+        "TeamLease"
       ],
       "deals": [
         {
           "headline": "ELP advises Kajaria Ceramics on ₹296 crore share buyback",
           "client": "Kajaria Ceramics",
           "url": "https://www.barandbench.com/law-firms/dealstreet/elp-advises-kajaria-ceramics-on-296-crore-share-buyback",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "ELP advises TeamLease on ₹238 crore share buyback",
+          "client": "TeamLease",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/elp-advises-teamlease-on-238-crore-share-buyback",
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
@@ -43684,6 +44285,14 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "Mahindra & Mahindra sells Trucks and Buses Division to SML Mahindra for ₹525 crore; Khaitan & Co, AZB advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/mahindra-mahindra-sells-trucks-and-buses-division-to-sml-mahindra-for-525-crore-khaitan-co-azb-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Khaitan, CAM guide Saregama India's ₹325 crore investment in Sanjay Leela Bhansali's studio"
@@ -53446,13 +54055,14 @@
       "id": 864,
       "name": "Kaneeka Mehta",
       "firm": "Trilegal",
-      "role": "Counsel (Energy and Infrastructure)",
+      "role": "Counsel",
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
         "Patel Greentech Private Limited",
         "Apollo",
-        "JSW Group"
+        "JSW Group",
+        "strategic partnership between Jupiter Wagons and Lucchini RS"
       ],
       "deals": [
         {
@@ -53476,6 +54086,14 @@
           "client": "JSW Group",
           "url": "https://www.barandbench.com/dealstreet/trilegal-advises-jsw-group-on-strategic-partnership-with-the-sultanate-of-omans-subsidiary-minerals-development-oman",
           "source": "",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Trilegal, JSA act on strategic partnership between Jupiter Wagons and Lucchini RS",
+          "client": "strategic partnership between Jupiter Wagons and Lucchini RS",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-jupiter-tatravagonka-railwheel-factory-jupiter-wagons-on-strategic-partnership-with-lucchini-rs",
+          "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
         }
@@ -56189,7 +56807,8 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "Novargi Group - Cerec Metalform JV"
+        "Novargi Group - Cerec Metalform JV",
+        "Grip FIO Advisors"
       ],
       "deals": [
         {
@@ -56204,6 +56823,14 @@
           "headline": "Kochhar & Co acts on Novargi Group - Cerec Metalform JV",
           "client": "Novargi Group - Cerec Metalform JV",
           "url": "https://www.barandbench.com/law-firms/dealstreet/kochhar-co-acts-on-novargi-group-cerec-metalform-jv",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Kochhar & Co advises Grip FIO Advisors on launch of Grip PrimeYield – I",
+          "client": "Grip FIO Advisors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/kochhar-co-advises-grip-fio-advisors-on-launch-of-grip-primeyield-i",
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
@@ -58535,7 +59162,53 @@
           ]
         }
       ],
-      "snapshot": "Fox Mandal & Associates advises EXIM Bank on financing Jana Nayagan"
+      "snapshot": "Fox Mandal & Associates advises EXIM Bank on financing Jana Nayagan",
+      "same_name_elsewhere": [
+        {
+          "id": 3301,
+          "firm": "Fox Mandal & Associates has",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
+      "id": 3301,
+      "name": "Kritika Chaudhary",
+      "firm": "Fox Mandal & Associates has",
+      "role": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "landowners"
+      ],
+      "deals": [
+        {
+          "headline": "Fox Mandal & Associates advises landowners on revenue-sharing joint development with Puravankara",
+          "client": "landowners",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/fox-mandal-associates-advises-landowners-on-revenue-sharing-joint-development-with-puravankara",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Fox Mandal & Associates advises landowners on revenue-sharing joint development with Puravankara",
+      "same_name_elsewhere": [
+        {
+          "id": 3177,
+          "firm": "Fox Mandal & Associates",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 790,
@@ -61403,13 +62076,16 @@
       "role": "Counsel",
       "transaction_types": [
         "Series B",
+        "acquisition",
         "fundraise"
       ],
       "practice_areas": [
+        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Sarvam AI & Founders"
+        "Sarvam AI & Founders",
+        "EAAA India Alternatives"
       ],
       "deals": [
         {
@@ -61423,6 +62099,18 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune",
+          "client": "EAAA India Alternatives",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-eaaa-india-alternatives-on-acquisition-of-1-million-sqft-office-park-in-pune",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -62051,7 +62739,53 @@
           ]
         }
       ],
-      "snapshot": "Fox Mandal & Associates advises EXIM Bank on financing Jana Nayagan"
+      "snapshot": "Fox Mandal & Associates advises EXIM Bank on financing Jana Nayagan",
+      "same_name_elsewhere": [
+        {
+          "id": 3300,
+          "firm": "Fox Mandal & Associates has",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
+      "id": 3300,
+      "name": "Mahek Harichandan",
+      "firm": "Fox Mandal & Associates has",
+      "role": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "landowners"
+      ],
+      "deals": [
+        {
+          "headline": "Fox Mandal & Associates advises landowners on revenue-sharing joint development with Puravankara",
+          "client": "landowners",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/fox-mandal-associates-advises-landowners-on-revenue-sharing-joint-development-with-puravankara",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Fox Mandal & Associates advises landowners on revenue-sharing joint development with Puravankara",
+      "same_name_elsewhere": [
+        {
+          "id": 3176,
+          "firm": "Fox Mandal & Associates",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 2675,
@@ -62119,7 +62853,8 @@
       ],
       "clients": [
         "Olam Group",
-        "CA Sardo Investments/Carlyle"
+        "CA Sardo Investments/Carlyle",
+        "strategic partnership between Jupiter Wagons and Lucchini RS"
       ],
       "deals": [
         {
@@ -62146,6 +62881,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Trilegal, JSA act on strategic partnership between Jupiter Wagons and Lucchini RS",
+          "client": "strategic partnership between Jupiter Wagons and Lucchini RS",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-jupiter-tatravagonka-railwheel-factory-jupiter-wagons-on-strategic-partnership-with-lucchini-rs",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Trilegal, K&L Gates, Baker & McKenzie, AZB act on Wipro's $375 million acquisition of ..."
@@ -62389,7 +63132,8 @@
         "IIFL Securities Limited and Motilal Oswal Investment Advisors Limited",
         "Book Running Lead Managers",
         "Muthoot Finance",
-        "Adani Energy Solutions"
+        "Adani Energy Solutions",
+        "India’s Largest OFS of"
       ],
       "deals": [
         {
@@ -62515,6 +63259,14 @@
           "practice_areas": [
             "Capital Markets"
           ]
+        },
+        {
+          "headline": "LIC Stake Sale: Dentons Link Legal, Trilegal, Sidley Austin and FBT Gibbons act on India’s Largest OFS of $3.3 Billion",
+          "client": "India’s Largest OFS of",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/dentons-link-legal-trilegal-sidley-austin-fbt-gibbons-act-on-33-billion-stake-sale-by-the-president-of-india-in-lic",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Zepto lines up CAM, SAM, Latham & Watkins for IPO push - Bar and Bench"
@@ -62535,7 +63287,8 @@
       "clients": [
         "iMerit and shareholders",
         "Bain Capital",
-        "Oxane Partners securing investment from TA Associates"
+        "Oxane Partners securing investment from TA Associates",
+        "EAAA India Alternatives"
       ],
       "deals": [
         {
@@ -62580,6 +63333,18 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune",
+          "client": "EAAA India Alternatives",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-eaaa-india-alternatives-on-acquisition-of-1-million-sqft-office-park-in-pune",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -66816,6 +67581,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Mahindra & Mahindra sells Trucks and Buses Division to SML Mahindra for ₹525 crore; Khaitan & Co, AZB advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/mahindra-mahindra-sells-trucks-and-buses-division-to-sml-mahindra-for-525-crore-khaitan-co-azb-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat"
@@ -67383,7 +68156,8 @@
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Chubu Electric Power Co."
+        "Chubu Electric Power Co.",
+        "India’s Largest OFS of"
       ],
       "deals": [
         {
@@ -67397,6 +68171,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "LIC Stake Sale: Dentons Link Legal, Trilegal, Sidley Austin and FBT Gibbons act on India’s Largest OFS of $3.3 Billion",
+          "client": "India’s Largest OFS of",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/dentons-link-legal-trilegal-sidley-austin-fbt-gibbons-act-on-33-billion-stake-sale-by-the-president-of-india-in-lic",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "JSA assists Continuum Green Energy on securing ₹1,350 crore from Chubu Electric Power Co."
@@ -69814,7 +70596,8 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "Adani Enterprises Limited and lead managers"
+        "Adani Enterprises Limited and lead managers",
+        "India’s Largest OFS of"
       ],
       "deals": [
         {
@@ -69822,6 +70605,14 @@
           "client": "Adani Enterprises Limited and lead managers",
           "url": "https://www.barandbench.com/dealstreet/trilegal-acts-on-adani-enterprises-1000-crore-ncd-issue",
           "source": "Bar and Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "LIC Stake Sale: Dentons Link Legal, Trilegal, Sidley Austin and FBT Gibbons act on India’s Largest OFS of $3.3 Billion",
+          "client": "India’s Largest OFS of",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/dentons-link-legal-trilegal-sidley-austin-fbt-gibbons-act-on-33-billion-stake-sale-by-the-president-of-india-in-lic",
+          "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
         }
@@ -71284,6 +72075,28 @@
       "snapshot": "SAM advises Premier Energies on acquiring 51% stake in Ksolare Energy"
     },
     {
+      "id": 3286,
+      "name": "Neekesh Shetty",
+      "firm": "Khaitan & Co",
+      "role": "Counsel",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Belding India"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Belding India on Evolve IT Solutions",
+          "client": "Belding India",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-belding-india-on-evolve-it-solutions",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Belding India on Evolve IT Solutions"
+    },
+    {
       "id": 1610,
       "name": "Neeladri Chakrabarti",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -71525,7 +72338,8 @@
         "Patel Greentech Private Limited",
         "Edelweiss Infrastructure Yield Plus and SEPL Energy",
         "Apollo",
-        "Abu Dhabi National Energy Company (TAQA)"
+        "Abu Dhabi National Energy Company (TAQA)",
+        "strategic partnership between Jupiter Wagons and Lucchini RS"
       ],
       "deals": [
         {
@@ -71567,6 +72381,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Trilegal, JSA act on strategic partnership between Jupiter Wagons and Lucchini RS",
+          "client": "strategic partnership between Jupiter Wagons and Lucchini RS",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-jupiter-tatravagonka-railwheel-factory-jupiter-wagons-on-strategic-partnership-with-lucchini-rs",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Trilegal advised Patel Greentech on tender process for 700 MW solar project in Gujarat"
@@ -80580,6 +81402,36 @@
       "snapshot": "JSA, Khaitan act on Everstone investing $270 million in Apothecon Group"
     },
     {
+      "id": 3289,
+      "name": "Pranshul Joshi",
+      "firm": "Trilegal",
+      "role": "Senior Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "EAAA India Alternatives"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune",
+          "client": "EAAA India Alternatives",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-eaaa-india-alternatives-on-acquisition-of-1-million-sqft-office-park-in-pune",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune"
+    },
+    {
       "id": 2532,
       "name": "Prapti Parwani",
       "firm": "AZB & Partners",
@@ -81142,7 +81994,53 @@
           ]
         }
       ],
-      "snapshot": "Fox Mandal & Associates advises EXIM Bank on financing Jana Nayagan"
+      "snapshot": "Fox Mandal & Associates advises EXIM Bank on financing Jana Nayagan",
+      "same_name_elsewhere": [
+        {
+          "id": 3297,
+          "firm": "Fox Mandal & Associates has",
+          "role": "Senior Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
+      "id": 3297,
+      "name": "Prashantha Kumar",
+      "firm": "Fox Mandal & Associates has",
+      "role": "Senior Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "landowners"
+      ],
+      "deals": [
+        {
+          "headline": "Fox Mandal & Associates advises landowners on revenue-sharing joint development with Puravankara",
+          "client": "landowners",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/fox-mandal-associates-advises-landowners-on-revenue-sharing-joint-development-with-puravankara",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Fox Mandal & Associates advises landowners on revenue-sharing joint development with Puravankara",
+      "same_name_elsewhere": [
+        {
+          "id": 3173,
+          "firm": "Fox Mandal & Associates",
+          "role": "Senior Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1747,
@@ -81388,7 +82286,53 @@
           ]
         }
       ],
-      "snapshot": "Fox Mandal & Associates advises EXIM Bank on financing Jana Nayagan"
+      "snapshot": "Fox Mandal & Associates advises EXIM Bank on financing Jana Nayagan",
+      "same_name_elsewhere": [
+        {
+          "id": 3299,
+          "firm": "Fox Mandal & Associates has",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
+      "id": 3299,
+      "name": "Prateek Pandey",
+      "firm": "Fox Mandal & Associates has",
+      "role": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "landowners"
+      ],
+      "deals": [
+        {
+          "headline": "Fox Mandal & Associates advises landowners on revenue-sharing joint development with Puravankara",
+          "client": "landowners",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/fox-mandal-associates-advises-landowners-on-revenue-sharing-joint-development-with-puravankara",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Fox Mandal & Associates advises landowners on revenue-sharing joint development with Puravankara",
+      "same_name_elsewhere": [
+        {
+          "id": 3175,
+          "firm": "Fox Mandal & Associates",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1717,
@@ -84543,7 +85487,53 @@
           ]
         }
       ],
-      "snapshot": "Fox Mandal & Associates advises EXIM Bank on financing Jana Nayagan"
+      "snapshot": "Fox Mandal & Associates advises EXIM Bank on financing Jana Nayagan",
+      "same_name_elsewhere": [
+        {
+          "id": 3298,
+          "firm": "Fox Mandal & Associates has",
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
+      "id": 3298,
+      "name": "Raashmi Arun Prakash",
+      "firm": "Fox Mandal & Associates has",
+      "role": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "landowners"
+      ],
+      "deals": [
+        {
+          "headline": "Fox Mandal & Associates advises landowners on revenue-sharing joint development with Puravankara",
+          "client": "landowners",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/fox-mandal-associates-advises-landowners-on-revenue-sharing-joint-development-with-puravankara",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Fox Mandal & Associates advises landowners on revenue-sharing joint development with Puravankara",
+      "same_name_elsewhere": [
+        {
+          "id": 3174,
+          "firm": "Fox Mandal & Associates",
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 682,
@@ -86140,6 +87130,36 @@
         }
       ],
       "snapshot": "Khaitan, Shardul Amarchand Mangaldas act on Bajaj Electricals' ₹168 crore acquisition of ..."
+    },
+    {
+      "id": 3290,
+      "name": "Raina Mitra",
+      "firm": "Trilegal",
+      "role": "Senior Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "EAAA India Alternatives"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune",
+          "client": "EAAA India Alternatives",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-eaaa-india-alternatives-on-acquisition-of-1-million-sqft-office-park-in-pune",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune"
     },
     {
       "id": 1292,
@@ -89611,7 +90631,8 @@
         "Power Finance Corporation and lead managers",
         "Book Running Lead Managers",
         "Muthoot Finance",
-        "Adani Energy Solutions"
+        "Adani Energy Solutions",
+        "India’s Largest OFS of"
       ],
       "deals": [
         {
@@ -89797,6 +90818,14 @@
           "practice_areas": [
             "Capital Markets"
           ]
+        },
+        {
+          "headline": "LIC Stake Sale: Dentons Link Legal, Trilegal, Sidley Austin and FBT Gibbons act on India’s Largest OFS of $3.3 Billion",
+          "client": "India’s Largest OFS of",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/dentons-link-legal-trilegal-sidley-austin-fbt-gibbons-act-on-33-billion-stake-sale-by-the-president-of-india-in-lic",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Zepto lines up CAM, SAM, Latham & Watkins for IPO push - Bar and Bench"
@@ -90009,13 +91038,22 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "Kajaria Ceramics"
+        "Kajaria Ceramics",
+        "TeamLease"
       ],
       "deals": [
         {
           "headline": "ELP advises Kajaria Ceramics on ₹296 crore share buyback",
           "client": "Kajaria Ceramics",
           "url": "https://www.barandbench.com/law-firms/dealstreet/elp-advises-kajaria-ceramics-on-296-crore-share-buyback",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "ELP advises TeamLease on ₹238 crore share buyback",
+          "client": "TeamLease",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/elp-advises-teamlease-on-238-crore-share-buyback",
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
@@ -94929,11 +95967,16 @@
       "name": "Sai Krishna Bharathan",
       "firm": "Trilegal",
       "role": "Partner",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
         "Mahindra Lifespaces",
-        "HDFC Capital Advisors"
+        "HDFC Capital Advisors",
+        "EAAA India Alternatives"
       ],
       "deals": [
         {
@@ -94959,6 +96002,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune",
+          "client": "EAAA India Alternatives",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-eaaa-india-alternatives-on-acquisition-of-1-million-sqft-office-park-in-pune",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "S&R's Raya Hazarika joins Trilegal as Partner in Corporate practice - Bar and Bench"
@@ -97379,6 +98434,28 @@
       "snapshot": "JSA, ELP act on TravelPlus ₹250 crore+ IPO filing - Bar and Bench"
     },
     {
+      "id": 3275,
+      "name": "Sandeep Mehta",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "strategic partnership between Jupiter Wagons and Lucchini RS"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, JSA act on strategic partnership between Jupiter Wagons and Lucchini RS",
+          "client": "strategic partnership between Jupiter Wagons and Lucchini RS",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-jupiter-tatravagonka-railwheel-factory-jupiter-wagons-on-strategic-partnership-with-lucchini-rs",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Trilegal, JSA act on strategic partnership between Jupiter Wagons and Lucchini RS"
+    },
+    {
       "id": 42,
       "name": "Sandeep Pandey",
       "firm": "Cyril Amarchand Mangaldas",
@@ -98911,7 +99988,8 @@
         "Selling Shareholders",
         "Placement agents",
         "Capri Loans and Nuvama Wealth Management Limited",
-        "Adani Energy Solutions"
+        "Adani Energy Solutions",
+        "India’s Largest OFS of"
       ],
       "deals": [
         {
@@ -98969,6 +100047,14 @@
           "practice_areas": [
             "Capital Markets"
           ]
+        },
+        {
+          "headline": "LIC Stake Sale: Dentons Link Legal, Trilegal, Sidley Austin and FBT Gibbons act on India’s Largest OFS of $3.3 Billion",
+          "client": "India’s Largest OFS of",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/dentons-link-legal-trilegal-sidley-austin-fbt-gibbons-act-on-33-billion-stake-sale-by-the-president-of-india-in-lic",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Zepto lines up CAM, SAM, Latham & Watkins for IPO push - Bar and Bench"
@@ -101029,6 +102115,28 @@
       "snapshot": "Cyril Amarchand Mangaldas, Trilegal, Sidley Austin act on Belrise Industries ₹1,700 crore QIP"
     },
     {
+      "id": 3277,
+      "name": "Senior Associate Yash Shah",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "strategic partnership between Jupiter Wagons and Lucchini RS"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, JSA act on strategic partnership between Jupiter Wagons and Lucchini RS",
+          "client": "strategic partnership between Jupiter Wagons and Lucchini RS",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-jupiter-tatravagonka-railwheel-factory-jupiter-wagons-on-strategic-partnership-with-lucchini-rs",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Trilegal, JSA act on strategic partnership between Jupiter Wagons and Lucchini RS"
+    },
+    {
       "id": 2705,
       "name": "Serena Upadhyay",
       "firm": "A&O Shearman",
@@ -101355,6 +102463,28 @@
         }
       ],
       "snapshot": "Khaitan & Co, Shardul Amarchand Mangaldas act on BNP Paribas Cardif acquiring stake in IndiaFirst Life..."
+    },
+    {
+      "id": 3273,
+      "name": "Shailender Sharma",
+      "firm": "Dentons Link Legal",
+      "role": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "India’s Largest OFS of"
+      ],
+      "deals": [
+        {
+          "headline": "LIC Stake Sale: Dentons Link Legal, Trilegal, Sidley Austin and FBT Gibbons act on India’s Largest OFS of $3.3 Billion",
+          "client": "India’s Largest OFS of",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/dentons-link-legal-trilegal-sidley-austin-fbt-gibbons-act-on-33-billion-stake-sale-by-the-president-of-india-in-lic",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "LIC Stake Sale: Dentons Link Legal, Trilegal, Sidley Austin and FBT Gibbons act on India’s Largest OFS of..."
     },
     {
       "id": 692,
@@ -102316,6 +103446,26 @@
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Khaitan & Co act on Swara Baby Products ..."
+    },
+    {
+      "id": 3280,
+      "name": "Sharad Abhyankar",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Mahindra & Mahindra sells Trucks and Buses Division to SML Mahindra for ₹525 crore; Khaitan & Co, AZB advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/mahindra-mahindra-sells-trucks-and-buses-division-to-sml-mahindra-for-525-crore-khaitan-co-azb-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Mahindra & Mahindra sells Trucks and Buses Division to SML Mahindra for ₹525 crore; Khaitan & Co, AZB advise"
     },
     {
       "id": 1166,
@@ -105126,7 +106276,8 @@
       "clients": [
         "CA Sardo Investments/Carlyle (competition law)",
         "Körber Group",
-        "Sona Comstar"
+        "Sona Comstar",
+        "EAAA India Alternatives"
       ],
       "deals": [
         {
@@ -105161,6 +106312,18 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune",
+          "client": "EAAA India Alternatives",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-eaaa-india-alternatives-on-acquisition-of-1-million-sqft-office-park-in-pune",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "Trilegal advises Carlyle on ₹2,100 crore stake acquisition in Edelweiss's Nido Home Finance"
@@ -106434,7 +107597,7 @@
           "id": 3213,
           "firm": "Economic Laws Practice",
           "role": "Associate",
-          "deal_count": 1
+          "deal_count": 2
         }
       ],
       "firm_verification": {
@@ -106450,13 +107613,22 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "Kajaria Ceramics"
+        "Kajaria Ceramics",
+        "TeamLease"
       ],
       "deals": [
         {
           "headline": "ELP advises Kajaria Ceramics on ₹296 crore share buyback",
           "client": "Kajaria Ceramics",
           "url": "https://www.barandbench.com/law-firms/dealstreet/elp-advises-kajaria-ceramics-on-296-crore-share-buyback",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "ELP advises TeamLease on ₹238 crore share buyback",
+          "client": "TeamLease",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/elp-advises-teamlease-on-238-crore-share-buyback",
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
@@ -107456,6 +108628,26 @@
       "snapshot": "SAM, Khaitan act on Aica Kogyo Co acquiring controlling stake in Stylam Industries for $225 million"
     },
     {
+      "id": 3283,
+      "name": "Shruti Kunisetty",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Mahindra & Mahindra sells Trucks and Buses Division to SML Mahindra for ₹525 crore; Khaitan & Co, AZB advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/mahindra-mahindra-sells-trucks-and-buses-division-to-sml-mahindra-for-525-crore-khaitan-co-azb-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Mahindra & Mahindra sells Trucks and Buses Division to SML Mahindra for ₹525 crore; Khaitan & Co, AZB advise"
+    },
+    {
       "id": 1168,
       "name": "Shruti Maheshwari",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -108117,6 +109309,14 @@
           "client": "Warburg Pincus",
           "url": "https://www.barandbench.com/dealstreet/cam-azb-act-on-warburg-pincus-acquiring-stake-in-fleur-hotels",
           "source": "Bar and Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Mahindra & Mahindra sells Trucks and Buses Division to SML Mahindra for ₹525 crore; Khaitan & Co, AZB advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/mahindra-mahindra-sells-trucks-and-buses-division-to-sml-mahindra-for-525-crore-khaitan-co-azb-advise",
+          "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
         }
@@ -110615,7 +111815,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Oxane Partners securing investment from TA Associates"
+        "Oxane Partners securing investment from TA Associates",
+        "strategic partnership between Jupiter Wagons and Lucchini RS"
       ],
       "deals": [
         {
@@ -110641,6 +111842,14 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "Trilegal, JSA act on strategic partnership between Jupiter Wagons and Lucchini RS",
+          "client": "strategic partnership between Jupiter Wagons and Lucchini RS",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-jupiter-tatravagonka-railwheel-factory-jupiter-wagons-on-strategic-partnership-with-lucchini-rs",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
@@ -116262,6 +117471,14 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Mahindra & Mahindra sells Trucks and Buses Division to SML Mahindra for ₹525 crore; Khaitan & Co, AZB advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/mahindra-mahindra-sells-trucks-and-buses-division-to-sml-mahindra-for-525-crore-khaitan-co-azb-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "CAM, AZB act on Warburg Pincus acquiring stake in Fleur Hotels - Bar and Bench"
@@ -119486,6 +120703,36 @@
       "snapshot": "TT&A, Trilegal, Gibson Dunn act on Neysa securing $1 billion+ funding from"
     },
     {
+      "id": 3296,
+      "name": "Thomas Vallianeth",
+      "firm": "Trilegal",
+      "role": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "EAAA India Alternatives"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune",
+          "client": "EAAA India Alternatives",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-eaaa-india-alternatives-on-acquisition-of-1-million-sqft-office-park-in-pune",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune"
+    },
+    {
       "id": 1885,
       "name": "Tia Matthew",
       "firm": "JSA Advocates & Solicitors",
@@ -120845,10 +122092,15 @@
       "name": "Ujwala Adikey",
       "firm": "Trilegal",
       "role": "Senior Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "Blackstone"
+        "Blackstone",
+        "EAAA India Alternatives"
       ],
       "deals": [
         {
@@ -120858,6 +122110,18 @@
           "source": "",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune",
+          "client": "EAAA India Alternatives",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-eaaa-india-alternatives-on-acquisition-of-1-million-sqft-office-park-in-pune",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "TT&A, Trilegal, Gibson Dunn act on Neysa securing $1 billion+ funding from"
@@ -122104,6 +123368,14 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "Mahindra & Mahindra sells Trucks and Buses Division to SML Mahindra for ₹525 crore; Khaitan & Co, AZB advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/mahindra-mahindra-sells-trucks-and-buses-division-to-sml-mahindra-for-525-crore-khaitan-co-azb-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Khaitan, CAM guide Saregama India's ₹325 crore investment in Sanjay Leela Bhansali's studio"
@@ -125086,6 +126358,14 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "Mahindra & Mahindra sells Trucks and Buses Division to SML Mahindra for ₹525 crore; Khaitan & Co, AZB advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/mahindra-mahindra-sells-trucks-and-buses-division-to-sml-mahindra-for-525-crore-khaitan-co-azb-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Khaitan, CAM guide Saregama India's ₹325 crore investment in Sanjay Leela Bhansali's studio"
@@ -127033,6 +128313,28 @@
       "snapshot": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business"
     },
     {
+      "id": 3276,
+      "name": "Vishal Shah",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "strategic partnership between Jupiter Wagons and Lucchini RS"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, JSA act on strategic partnership between Jupiter Wagons and Lucchini RS",
+          "client": "strategic partnership between Jupiter Wagons and Lucchini RS",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-jupiter-tatravagonka-railwheel-factory-jupiter-wagons-on-strategic-partnership-with-lucchini-rs",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Trilegal, JSA act on strategic partnership between Jupiter Wagons and Lucchini RS"
+    },
+    {
       "id": 479,
       "name": "Vishal Yaduvanshi",
       "firm": "Cyril Amarchand Mangaldas",
@@ -127357,6 +128659,36 @@
         }
       ],
       "snapshot": "JSA advises Manipal Hospitals on ₹495 crore hospital acquisition in Mumbai"
+    },
+    {
+      "id": 3288,
+      "name": "Vivek Bajaj",
+      "firm": "Trilegal",
+      "role": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "EAAA India Alternatives"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune",
+          "client": "EAAA India Alternatives",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-eaaa-india-alternatives-on-acquisition-of-1-million-sqft-office-park-in-pune",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune"
     },
     {
       "id": 966,
@@ -128932,7 +130264,8 @@
       ],
       "clients": [
         "CA Sardo Investments/Carlyle",
-        "Oxane Partners securing investment from TA Associates"
+        "Oxane Partners securing investment from TA Associates",
+        "strategic partnership between Jupiter Wagons and Lucchini RS"
       ],
       "deals": [
         {
@@ -128971,6 +130304,14 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "Trilegal, JSA act on strategic partnership between Jupiter Wagons and Lucchini RS",
+          "client": "strategic partnership between Jupiter Wagons and Lucchini RS",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-jupiter-tatravagonka-railwheel-factory-jupiter-wagons-on-strategic-partnership-with-lucchini-rs",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Trilegal advises Carlyle on ₹2,100 crore stake acquisition in Edelweiss's Nido Home Finance",
@@ -129021,7 +130362,7 @@
           "id": 2387,
           "firm": "Trilegal",
           "role": "Senior Associate",
-          "deal_count": 3
+          "deal_count": 4
         }
       ],
       "firm_verification": {
@@ -129218,11 +130559,12 @@
       "id": 866,
       "name": "Yashaswi Belani",
       "firm": "Trilegal",
-      "role": "Associate (Energy and Infrastructure)",
+      "role": "Associate",
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "Patel Greentech Private Limited"
+        "Patel Greentech Private Limited",
+        "strategic partnership between Jupiter Wagons and Lucchini RS"
       ],
       "deals": [
         {
@@ -129230,6 +130572,14 @@
           "client": "Patel Greentech Private Limited",
           "url": "https://www.barandbench.com/amp/story/dealstreet/trilegal-advised-patel-greentech-on-tender-process-for-700-mw-solar-project-in-gujarat",
           "source": "Bar and Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Trilegal, JSA act on strategic partnership between Jupiter Wagons and Lucchini RS",
+          "client": "strategic partnership between Jupiter Wagons and Lucchini RS",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-jupiter-tatravagonka-railwheel-factory-jupiter-wagons-on-strategic-partnership-with-lucchini-rs",
+          "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
         }
