@@ -38,7 +38,12 @@ SCRAPER_DIR = Path(__file__).parent
 BASE = SCRAPER_DIR.parent
 sys.path.insert(0, str(BASE))
 sys.path.insert(0, str(SCRAPER_DIR))
-from build_directory import canonical_firm, is_personnel_move, normalize_name  # noqa: E402
+from build_directory import (  # noqa: E402
+    KNOWN_FIRMS,
+    canonical_firm,
+    is_personnel_move,
+    normalize_name,
+)
 import ner_supplement  # noqa: E402
 
 LISTING_URL = "https://www.barandbench.com/dealstreet"
@@ -82,7 +87,7 @@ NAME_PATTERN = rf"{_NAME_FIRST_WORD}(?:\s+{_NAME_INNER_WORD}){{1,4}}"
 # title text)" -- the extra-title suffix (e.g. "Partner, Regional Co-Head –
 # Capital Markets – West") is discarded, we only keep the matched role word.
 PAREN_ROLE_RE = re.compile(
-    rf"({NAME_PATTERN})\s*\(({ROLE_ALTERNATION})(?:,[^)]*)?\)"
+    rf"({NAME_PATTERN})\s*\(({ROLE_ALTERNATION})(?:[,;][^)]*)?\)"
 )
 
 # Mid-name nicknames like "Kyungwon (Won) Lee" break paren-role matching --
@@ -274,11 +279,17 @@ def parse_headline(headline):
     if not m:
         return {"law_firms": [], "client": None, "transaction_types": []}
     firms_raw = m.group("firms")
-    # some headlines carry a subtitle before the firm list, e.g. "LIC Stake
+    # Some headlines carry a subtitle before the firm list, e.g. "LIC Stake
     # Sale: Dentons Link Legal, Trilegal ..." -- drop everything up to and
-    # including the colon or the subtitle leaks in as a fake "firm"
+    # including the colon or the subtitle leaks in as a fake "firm". BUT at
+    # least one real firm name itself contains a colon ("Samvād: Partners"),
+    # so only strip when a comma or " and " follows the colon -- that's the
+    # subtitle-then-firm-LIST pattern; a single firm name with an internal
+    # colon has neither.
     if ":" in firms_raw:
-        firms_raw = firms_raw.rsplit(":", 1)[-1].strip()
+        before, after = firms_raw.rsplit(":", 1)
+        if "," in after or " and " in after.lower():
+            firms_raw = after.strip()
     firms = split_firm_list(firms_raw)
     rest = m.group("rest")
     client = rest.split(" on ")[0].strip() if " on " in rest else rest.strip()
@@ -329,18 +340,53 @@ PERSONNEL_HEADLINE_PATTERNS = [
 ]
 
 
+# Words that make an otherwise-matched "name" span untrustworthy: quantity
+# words ("Two lawyers join...") and the conjunction "and" (a two-person
+# headline like "Anchal Dhir and Shubham Rastogi join..." would otherwise
+# have both people's names captured as one garbled fake compound name --
+# found via adversarial testing, not a hypothetical).
+_PERSONNEL_NAME_REJECT_WORDS = {
+    "and", "two", "three", "four", "five", "six", "seven", "eight",
+    "several", "multiple", "many", "some", "few", "a", "the", "lawyers",
+    "partners", "associates", "advocates", "counsels",
+}
+
+
+def _looks_like_real_name(name):
+    words = name.split()
+    if len(words) < 2:
+        return False
+    if any(w.lower() in _PERSONNEL_NAME_REJECT_WORDS for w in words):
+        return False
+    for w in words:
+        bare = w.strip(".").replace("-", "")
+        if not bare:
+            return False
+        # a real name's words are capitalized/all-caps, except for known
+        # lowercase particles ("de", "van", ...) -- anything else in
+        # lowercase (like "lawyers" or "join") means we over-captured a
+        # sentence fragment, not an actual name
+        if bare[0].islower() and bare.lower() not in _NAME_PARTICLES:
+            return False
+    return True
+
+
 def parse_personnel_move_people(headline):
     """Best-effort name/firm/role extraction for a headline already
     classified as a personnel move (see build_directory.is_personnel_move).
-    Returns [] if the headline doesn't match a known shape -- the article
-    is still correctly excluded from the deal count either way."""
+    Returns [] if the headline doesn't match a known shape, or if the
+    matched "name" fails _looks_like_real_name() -- e.g. a multi-person
+    headline ("X and Y join...") or a quantity-word headline ("Two
+    lawyers join..."), both of which this best-effort parser isn't
+    sophisticated enough to split correctly, so it correctly abstains
+    rather than fabricating a single garbled/wrong person."""
     for pat in PERSONNEL_HEADLINE_PATTERNS:
         m = pat.match(headline.strip())
         if not m:
             continue
         gd = m.groupdict()
         name = normalize_name(gd.get("name") or "")
-        if not name or len(name.split()) < 2:
+        if not _looks_like_real_name(name):
             continue
         role = (gd.get("role") or "").strip().title() or None
         firm_raw = gd.get("firm")
@@ -464,6 +510,12 @@ def extract_people(paragraphs, fallback_firm, known_firms=()):
 
         credits = extract_paren_credits(para) + extract_plural_list_credits(para)
         for name, role in credits:
+            # a firm name sitting next to a role word ("Cyril Amarchand
+            # Mangaldas (Partner)", crediting the firm itself rather than
+            # a lawyer at it) would otherwise be captured as a fake person
+            # -- reject anything that matches our own known-firm corpus
+            if name.lower() in KNOWN_FIRMS:
+                continue
             key = (name.lower(), role, current_firm)
             if key in seen:
                 continue
@@ -499,7 +551,15 @@ def parse_article(url, headline):
     paragraphs = [p.get_text(" ", strip=True) for p in article.find_all("p")]
     snippet = " ".join(paragraphs)[:500]
 
-    if is_personnel_move(headline):
+    # Try deal-shaped parsing FIRST. A headline can be genuinely deal-shaped
+    # ("<Firm> advises <Client> on ...") while still containing a
+    # personnel-move trigger word incidentally (e.g. "... advises promoter
+    # as CEO steps down amid succession planning") -- found via adversarial
+    # testing. If parse_headline() actually found real firms, trust that
+    # over a keyword match; only fall back to the personnel-move extractor
+    # when deal-shaped parsing found nothing to work with.
+    parsed = parse_headline(headline)
+    if not parsed["law_firms"] and is_personnel_move(headline):
         # not a deal -- build_directory.py excludes these from the deals
         # table/count regardless, but extract what we can about the
         # person's (now-current) firm/role directly from the headline,
@@ -517,7 +577,6 @@ def parse_article(url, headline):
             "people": people,
         }
 
-    parsed = parse_headline(headline)
     fallback_firm = parsed["law_firms"][0] if parsed["law_firms"] else None
     people = extract_people(paragraphs, fallback_firm, known_firms=parsed["law_firms"])
 

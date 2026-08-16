@@ -154,6 +154,10 @@ def _clean_firm_string(name):
         name = m.group(1).strip()
     # drop trailing LLP/LLC suffix (keep the firm's base name for dedup)
     name = re.sub(r"\s+(LLP|LLC)\.?$", "", name, flags=re.I).strip()
+    # drop a stray trailing sentence-ending period/comma left over from
+    # extracting the firm name out of surrounding prose -- otherwise
+    # "Trilegal." and "Trilegal" register as two different firms
+    name = re.sub(r"[.,]+$", "", name).strip()
     return name
 
 
@@ -379,7 +383,13 @@ def main():
     skipped_personnel_moves = 0
 
     for d in deals:
-        personnel_move = is_personnel_move(d["headline"])
+        # A headline can be genuinely deal-shaped ("<Firm> advises <Client>
+        # on ...") while still containing a personnel-move trigger word
+        # incidentally (e.g. "... advises promoter as CEO steps down amid
+        # succession planning") -- found via adversarial testing. A
+        # populated client name is strong evidence this really is a deal,
+        # so it overrides the keyword match rather than the reverse.
+        personnel_move = is_personnel_move(d["headline"]) and not d.get("client")
         if personnel_move:
             skipped_personnel_moves += 1
             deal_id = None

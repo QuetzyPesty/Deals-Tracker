@@ -30,6 +30,11 @@ Missing a name here is an acceptable, expected outcome. Adding a wrong or
 duplicate one is not -- when in doubt, this module returns nothing.
 """
 import re
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from build_directory import KNOWN_FIRMS  # noqa: E402
 
 try:
     import spacy
@@ -45,7 +50,7 @@ ROLE_LOOKUP_WINDOW = 40
 def _full_role_after(text, end_char, role_words):
     tail = text[end_char: end_char + ROLE_LOOKUP_WINDOW]
     for r in role_words:
-        if re.match(rf"\s*\(\s*{re.escape(r)}\s*[,)]", tail):
+        if re.match(rf"\s*\(\s*{re.escape(r)}\s*[,;)]", tail):
             return r
     return None
 
@@ -73,6 +78,10 @@ def supplement_credits(paragraph, current_firm, known_firms, role_words, known_n
             continue
         name = ent.text.strip()
         if len(name.split()) < 2:
+            continue
+        if name.lower() in KNOWN_FIRMS:
+            # spaCy occasionally tags a firm name as PERSON -- reject it
+            # the same way the primary regex extractor does
             continue
         if _is_fragment_of_known_name(name, known_names_lower):
             continue
