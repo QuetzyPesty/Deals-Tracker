@@ -76,7 +76,7 @@
     "client": "Adani Energy Solutions",
     "source": "Bar & Bench",
     "url": "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-trilegal-ao-shearman-act-on-adani-energy-solutions-3500-crore-qip",
-    "snippet": "Adani Energy Solutions Limited has raised ₹3,500 crore from a qualified institutions placement. Cyril Amarchand Mangaldas advised Adani Energy Solutions on this QIP. The transaction was led by Devaki Mankad (Partner, Regional Co-Head – Capital Markets – West), with support from Rishav Buxi (Principal Associate), Adwait Deshmukh (Senior Associate), and Associates Archit Jain, Arikta Shetty, Janhavi Deshmukh, Harsha Menon, Akshat Sharma and Sajal Soni. Trilegal advised the placement agents, which ",
+    "snippet": "Adani Energy Solutions Limited has raised ₹3,500 crore from a qualified institutions placement. Cyril Amarchand Mangaldas advised Adani Energy Solutions on this QIP. The transaction was led by Devaki Mankad (Partner, Regional Co-Head – Capital Markets – West), with support from Rishav Buxi (Principal Associate), Anuj Gupta (Senior Associate), and Associates Archit Jain, Arikta Shetty, Aditya Maheshwari, Akshat Sharma and Aria Sheth. Trilegal advised the placement agents, which included SBI Capit",
     "law_firms": [
       "Cyril Amarchand Mangaldas",
       "Trilegal",
@@ -97,7 +97,7 @@
         "firm": "Cyril Amarchand Mangaldas"
       },
       {
-        "name": "Adwait Deshmukh",
+        "name": "Anuj Gupta",
         "role": "Senior Associate",
         "firm": "Cyril Amarchand Mangaldas"
       },
@@ -112,12 +112,7 @@
         "firm": "Cyril Amarchand Mangaldas"
       },
       {
-        "name": "Janhavi Deshmukh",
-        "role": "Associate",
-        "firm": "Cyril Amarchand Mangaldas"
-      },
-      {
-        "name": "Harsha Menon",
+        "name": "Aditya Maheshwari",
         "role": "Associate",
         "firm": "Cyril Amarchand Mangaldas"
       },
@@ -127,7 +122,7 @@
         "firm": "Cyril Amarchand Mangaldas"
       },
       {
-        "name": "Sajal Soni",
+        "name": "Aria Sheth",
         "role": "Associate",
         "firm": "Cyril Amarchand Mangaldas"
       },
@@ -393,6 +388,141 @@
         "name": "Aviral Bhardwaj",
         "role": "Associate",
         "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Ruetveij Pandya",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Jeeta Nayak",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Vishvas Bharadwaj",
+        "role": "Principal Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Amritya Singh",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Swati Narayanan",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Sameer Seshadri",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Indranath Bishnu",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Anirud Sudarsan R",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Subhalaxmi Hota",
+        "role": "Senior Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Anirban Mohapatra",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Bishen Jeswant",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Abhilasha Malpani",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Krithika Radhakrishnan",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Soumyashree Chowdhury",
+        "role": "Senior Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Nidhi Jhawar",
+        "role": "Senior Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Kanav Khanna",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Adhiraj Vikram Singh",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Raajash Kulmi",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Sanskruti Kulkarni",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Abhishek Chandel",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Saakshi Tibrewal",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Pooja V",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Tejas Chhura",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Keertesh Tripathi",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Avaantika Kakkar",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Surbhi Pareek",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Sunaina Sharma",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
       }
     ]
   },
@@ -634,7 +764,7 @@
     "client": "RPG Life Sciences",
     "source": "Bar & Bench",
     "url": "https://www.barandbench.com/dealstreet/khaitan-co-assists-rpg-life-sciences-on-carve-out-of-its-api-business",
-    "snippet": "RPG Life Sciences Limited has carved out its active pharmaceutical ingredients (API) business into a wholly-owned subsidiary company, RPG Active Pharma Limited. Khaitan & Co advised RPG Life Sciences on this business carve-out as well as on the subsequent investment by PE-investor InvAscent. The transaction team consisted of Haigreve Khaitan (Managing Partner), Shishir Jose Vayttaden (Partner), Aditi Singhvi (Partner) and Bhaskar Vishwajeet (Associate), with assistance from the following: Real e",
+    "snippet": "RPG Life Sciences Limited has carved out its active pharmaceutical ingredients (API) business into a wholly-owned subsidiary company, RPG Active Pharma Limited. Khaitan & Co advised RPG Life Sciences on this business carve-out as well as on the subsequent investment by PE-investor InvAscent. The transaction team consisted of Haigreve Khaitan (Managing Partner), Shishir Jose Vayttaden (Partner), Aditi Singhvi (Partner) and Bhaskar Vishwajeet (Associate), with assistance from the following: Corpor",
     "law_firms": [
       "Khaitan & Co"
     ],
@@ -661,23 +791,53 @@
         "firm": "Khaitan & Co"
       },
       {
-        "name": "Harsh Parikh",
+        "name": "Purti Minawala",
         "role": "Partner",
         "firm": "Khaitan & Co"
       },
       {
-        "name": "Rahul Sunil Agarwal",
+        "name": "Sweta Rao",
+        "role": "Counsel",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Harshita Jajodia",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Henna Kapadia",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Apurva Singhi",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Deepak Kumar",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Archika Dudhwewala",
         "role": "Principal Associate",
         "firm": "Khaitan & Co"
       },
       {
-        "name": "Raghav Manojkumar Pareek",
-        "role": "Associate",
+        "name": "Shailendra Bhandare",
+        "role": "Partner",
         "firm": "Khaitan & Co"
       },
       {
         "name": "Nirupam Lodha",
         "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Vaishali Adhikari",
+        "role": "Senior Associate",
         "firm": "Khaitan & Co"
       },
       {
@@ -687,6 +847,51 @@
       },
       {
         "name": "Rebecca Cardoso",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Jimmy Bhatt",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Gaurav Rajan",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Pranay Sahay",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Anvita Mishra",
+        "role": "Counsel",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Harsh Parikh",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Abhiraj Gandhi",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Rahul Agarwal",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Shrey Bheda",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Raghav Pareek",
         "role": "Associate",
         "firm": "Khaitan & Co"
       }
@@ -1033,25 +1238,23 @@
     "source": "Bar & Bench",
     "url": "https://www.barandbench.com/dealstreet/touchstone-partners-secures-cci-clearance-for-amalgamation-of-go-digit-infoworks-with-go-digit-general-insurance",
     "snippet": "The Fairfax Group has obtained merger control clearance from the Competition Commission of India for the amalgamation of Go Digit Infoworks Services Pvt Ltd with Go Digit General Insurance Ltd such that Go Digit General Insurance will be the surviving entity. Touchstone Partners advised the Fairfax Group, Go Digit Infoworks and Go Digit General Insurance on obtaining the CCI clearance. The transaction team consisted of Vinod Dhall (Senior Advisor), Gaurav Desai (Partner), Shruti Bhat (Counsel), ",
-    "law_firms": [
-      "Touchstone Partners"
-    ],
+    "law_firms": [],
     "transaction_types": [],
     "people": [
       {
         "name": "Gaurav Desai",
         "role": "Partner",
-        "firm": "Touchstone Partners"
+        "firm": null
       },
       {
         "name": "Shruti Bhat",
         "role": "Counsel",
-        "firm": "Touchstone Partners"
+        "firm": null
       },
       {
         "name": "Rakshit Rana",
         "role": "Associate",
-        "firm": "Touchstone Partners"
+        "firm": null
       }
     ]
   },
@@ -1636,45 +1839,43 @@
     "source": "Bar & Bench",
     "url": "https://www.barandbench.com/law-firms/dealstreet/imarticus-learning-acquires-singapores-bells-institute-of-higher-learning-for-800-crore-ic-regfin-legal-pioneer-legal-advise",
     "snippet": "Imarticus Learning Private Limited has acquired Singapore-based BELLS Institute of Higher Learning for an aggregate consideration of approximately ₹800 crore. IC RegFin Legal advised and assisted Imarticus Learning on the structuring, and finalization and execution of the transaction documents. The transaction was led by Vartika Koolwal (Partner) and Saket Pawar (Senior Associate). Pioneer Legal instructed Singapore firm Withers KhattarWong on the Singapore elements of the deal. The transaction ",
-    "law_firms": [
-      "IC RegFin Legal"
-    ],
+    "law_firms": [],
     "transaction_types": [],
     "people": [
       {
         "name": "Vartika Koolwal",
         "role": "Partner",
-        "firm": "IC RegFin Legal"
+        "firm": null
       },
       {
         "name": "Saket Pawar",
         "role": "Senior Associate",
-        "firm": "IC RegFin Legal"
+        "firm": null
       },
       {
         "name": "Anupam Shukla",
         "role": "Partner",
-        "firm": "IC RegFin Legal"
+        "firm": null
       },
       {
         "name": "Vedika Shah",
         "role": "Principal Associate",
-        "firm": "IC RegFin Legal"
+        "firm": null
       },
       {
         "name": "Manan Gosar",
         "role": "Associate",
-        "firm": "IC RegFin Legal"
+        "firm": null
       },
       {
         "name": "Mahima Choudhary",
         "role": "Associate",
-        "firm": "IC RegFin Legal"
+        "firm": null
       },
       {
         "name": "Pritha Jha",
         "role": "Partner",
-        "firm": "IC RegFin Legal"
+        "firm": null
       }
     ]
   },
@@ -1683,7 +1884,7 @@
     "client": "Globus Spirits",
     "source": "Bar & Bench",
     "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-cms-induslaw-duane-morris-selvam-act-on-globus-spirits-200-crore-qip",
-    "snippet": "Globus Spirits Limited has made a Qualified Institutions Placement of 23,80,952 equity shares aggregating to ₹200 crore. JSA Advocates & Solicitors advised Globus Spirits on this QIP. CMS INDUSLAW advised Nuvama Wealth Management Limited, the placement agent on this QIP. The transaction was led by Kaushik Mukherjee (Partner) and Kanika Sachdeva (Partner), with support from Pranav Gupta (Senior Associate), Associates Yash Chhikara, Biprojeet Talapatra, Khyaati Rajpoot, Aroosh Tarwani, Pratyanik C",
+    "snippet": "Globus Spirits Limited has made a Qualified Institutions Placement of 23,80,952 equity shares aggregating to ₹200 crore. JSA Advocates & Solicitors advised Globus Spirits on this QIP. The transaction was led by Madhurima Mukherjee Saha (Partner) and Anuj Pethia (Partner), with support from Bhavini Mohan (Senior Associate), Associates Shashwat Sharma, Shivani Agrawal, Tisa Padhy and Adnan Danish. CMS INDUSLAW advised Nuvama Wealth Management Limited, the placement agent on this QIP. The transacti",
     "law_firms": [
       "JSA Advocates & Solicitors",
       "CMS INDUSLAW",
@@ -1693,6 +1894,41 @@
       "QIP"
     ],
     "people": [
+      {
+        "name": "Madhurima Mukherjee Saha",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Anuj Pethia",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Bhavini Mohan",
+        "role": "Senior Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Shashwat Sharma",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Shivani Agrawal",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Tisa Padhy",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Adnan Danish",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
       {
         "name": "Kaushik Mukherjee",
         "role": "Partner",
@@ -1743,8 +1979,7 @@
     "snippet": "Kaapi Machines (India) Private Limited has secured ₹50 crore from Sedna Horeca Private Limited, while also entering into a strategic partnership. ALMT Legal, Bangalore advised Kaapi Machines and its shareholders and on the transaction. The transaction team consisted of Rajat Bopaiah (Senior Partner) and Gunjan Jain (Associate). Krishnamurthy & Co advised Sedna HoReCa on this transaction. The transaction was led by Shwetambari Rao (Co-Managing Partner) and Christopher Rao (Partner), along with Ni",
     "law_firms": [
       "ALMT Legal",
-      "K Law",
-      "Krishnamurthy & Co"
+      "K Law"
     ],
     "transaction_types": [],
     "people": [
@@ -1761,17 +1996,17 @@
       {
         "name": "Christopher Rao",
         "role": "Partner",
-        "firm": "Krishnamurthy & Co"
+        "firm": "ALMT Legal"
       },
       {
         "name": "Nidhi Acharya",
         "role": "Senior Associate",
-        "firm": "Krishnamurthy & Co"
+        "firm": "ALMT Legal"
       },
       {
         "name": "Shreya R Acharya",
         "role": "Associate",
-        "firm": "Krishnamurthy & Co"
+        "firm": "ALMT Legal"
       }
     ]
   },
@@ -1924,8 +2159,7 @@
     "law_firms": [
       "CMS INDUSLAW",
       "AZB & Partners",
-      "Duane Morris & Selvam",
-      "AZB & Partners and Duane Morris & Selvam"
+      "Duane Morris & Selvam"
     ],
     "transaction_types": [
       "QIP"
@@ -1979,7 +2213,7 @@
       {
         "name": "Duane Morris",
         "role": "Partner",
-        "firm": "AZB & Partners and Duane Morris & Selvam"
+        "firm": "CMS INDUSLAW"
       }
     ]
   },
@@ -2062,35 +2296,33 @@
     "source": "Bar & Bench",
     "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-secures-cci-approval-for-interglobe-accor-hospitality-merger",
     "snippet": "InterGlobe Enterprises Private Limited and AAPC India Hotel Management Private Limited (Accor) have secured the unconditional approval of the Competition Commission of India (CCI) for the merger of AAPC India Hotel Management, Caddie Hotels, Triguna Hospitality Ventures, and certain other group entities with and into InterGlobe Hotels. JSA Advocates & Solicitors secured the CCI approval for this merger. The Firm advised the parties throughout the merger control process before the CCI, including ",
-    "law_firms": [
-      "JSA Advocates & Solicitors secured the CCI approval for this merger. The Firm"
-    ],
+    "law_firms": [],
     "transaction_types": [],
     "people": [
       {
         "name": "Vaibhav Choukse",
         "role": "Partner",
-        "firm": "JSA Advocates & Solicitors secured the CCI approval for this merger. The Firm"
+        "firm": null
       },
       {
         "name": "Ela Bali",
         "role": "Partner",
-        "firm": "JSA Advocates & Solicitors secured the CCI approval for this merger. The Firm"
+        "firm": null
       },
       {
         "name": "Aditi Khanna",
         "role": "Principal Associate",
-        "firm": "JSA Advocates & Solicitors secured the CCI approval for this merger. The Firm"
+        "firm": null
       },
       {
         "name": "Faiz Siddiqui",
         "role": "Senior Associate",
-        "firm": "JSA Advocates & Solicitors secured the CCI approval for this merger. The Firm"
+        "firm": null
       },
       {
         "name": "Priyanshi Jain",
         "role": "Associate",
-        "firm": "JSA Advocates & Solicitors secured the CCI approval for this merger. The Firm"
+        "firm": null
       }
     ]
   },
@@ -2101,7 +2333,6 @@
     "url": "https://www.barandbench.com/law-firms/dealstreet/elp-advises-kajaria-ceramics-on-296-crore-share-buyback",
     "snippet": "Kajaria Ceramics Limited has made a buyback of 21,50,000 equity shares of the Company at a price of ₹1,380 per equity share, amounting to ₹296.70 crore. Economic Laws Practice advised Kajaria Ceramics and Nuvama Wealth Management Limited, the manager to the buyback. The transaction was led by Geeta Dhania (Partner), with assistance from Ridhi Jain (Senior Associate), Associates Anusha Agrawal and Shreya Prakash. Kajaria Ceramics, along with its subsidiaries, is engaged in the business of manufac",
     "law_firms": [
-      "Elp",
       "Economic Laws Practice"
     ],
     "transaction_types": [],
@@ -2171,10 +2402,9 @@
     "snippet": "KKR has acquired the entire stake held by Medicover in Sahrudaya Health Care Private Limited, the parent corporate entity behind Medicover Hospitals in India, for an equity consideration of approximately €1.2 billion. McDermott Will & Schulte served as the lead counsel for Medicover and some minority shareholders on the overall transaction. The transaction was led by Fatema Orjela (Partner) and Zoe Woodhouse (Counsel), with supported from Medicover’s Relationship Partner, Lisa Goransson (Corpora",
     "law_firms": [
       "McDermott Will & Schulte",
-      "Cam",
+      "Cyril Amarchand Mangaldas",
       "Trilegal",
-      "AZB & Partners",
-      "Cyril Amarchand Mangaldas also"
+      "AZB & Partners"
     ],
     "transaction_types": [
       "acquisition"
@@ -2203,42 +2433,42 @@
       {
         "name": "Reeba Chacko",
         "role": "Senior Partner",
-        "firm": "Cyril Amarchand Mangaldas also"
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Kota Chandan",
         "role": "Partner",
-        "firm": "Cyril Amarchand Mangaldas also"
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Yash Chadha",
         "role": "Associate",
-        "firm": "Cyril Amarchand Mangaldas also"
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Lakshmi Prakash",
         "role": "Partner",
-        "firm": "Cyril Amarchand Mangaldas also"
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Bharath Reddy",
         "role": "Partner",
-        "firm": "Cyril Amarchand Mangaldas also"
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Dipti Khatri",
         "role": "Principal Associate",
-        "firm": "Cyril Amarchand Mangaldas also"
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Arpita Sengupta",
         "role": "Partner",
-        "firm": "Cyril Amarchand Mangaldas also"
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Sharada Ramachandra",
         "role": "Partner",
-        "firm": "Cyril Amarchand Mangaldas also"
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Nishant Parikh",
@@ -3281,6 +3511,141 @@
         "name": "Aviral Bhardwaj",
         "role": "Associate",
         "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Ruetveij Pandya",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Jeeta Nayak",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Vishvas Bharadwaj",
+        "role": "Principal Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Amritya Singh",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Swati Narayanan",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Sameer Seshadri",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Indranath Bishnu",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Anirud Sudarsan R",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Subhalaxmi Hota",
+        "role": "Senior Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Anirban Mohapatra",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Bishen Jeswant",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Abhilasha Malpani",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Krithika Radhakrishnan",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Soumyashree Chowdhury",
+        "role": "Senior Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Nidhi Jhawar",
+        "role": "Senior Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Kanav Khanna",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Adhiraj Vikram Singh",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Raajash Kulmi",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Sanskruti Kulkarni",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Abhishek Chandel",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Saakshi Tibrewal",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Pooja V",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Tejas Chhura",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Keertesh Tripathi",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Avaantika Kakkar",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Surbhi Pareek",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Sunaina Sharma",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
       }
     ]
   },
@@ -3473,10 +3838,9 @@
     "url": "https://www.barandbench.com/law-firms/dealstreet/bharucha-partners-shardul-amarchand-mangaldas-khaitan-co-act-on-river-mobility-120-million-series-c-fundraise",
     "snippet": "River Mobility Private Limited has raised $120 million (approx ₹1,141 crore) from a Series C fundraise led by Elev8 Venture Partners and Claypond Capital. The round also saw participation from Singularity AMC, Anicut Capital, 360 ONE Asset, JIIF, and HDFC Asset Management Company, alongside marquee global partners, including Yamaha Motor Co., Ltd., Mitsui & Co., Ltd., Al-Futtaim, Marubeni Ventures Inc., Lowercarbon Capital, Toyota Ventures, and Maniv Mobility. Bharucha & Partners advised River M",
     "law_firms": [
-      "Bharucha",
+      "Bharucha & Partners",
       "Shardul Amarchand Mangaldas & Co",
-      "Khaitan & Co",
-      "Bharucha & Partners"
+      "Khaitan & Co"
     ],
     "transaction_types": [
       "Series C",
@@ -3486,7 +3850,7 @@
       {
         "name": "Claypond Capital",
         "role": "Partner",
-        "firm": "Bharucha"
+        "firm": "Bharucha & Partners"
       },
       {
         "name": "Swathi Ravi Girimaji",
@@ -3577,7 +3941,6 @@
     "url": "https://www.barandbench.com/law-firms/dealstreet/sequitur-advises-solinas-integrity-on-series-a-fundraise",
     "snippet": "Solinas Integrity Private Limited has raised $5.5 million from a Series A1 fundraise led by Hero Enterprise Partner Ventures and co-led by Mela Ventures, with participation from Luthra Group, and existing investors. Sequitur Advocates & Legal Consultants acted as the exclusive legal advisor to Solinas Integrity and its founders on the transaction. The Firm advised on the structuring of the transaction and the drafting, negotiation and finalisation of the definitive transaction documentation. The",
     "law_firms": [
-      "Sequitur",
       "Sequitur Advocates & Legal Consultants"
     ],
     "transaction_types": [
@@ -3799,8 +4162,7 @@
     "snippet": "Standex International Corporation has made two-stage cross-border acquisition of Amran, LLC (operating as Amran Instrument Transformers) and Narayan Powertech Private Limited. Khaitan & Co advised the Amran/Narayan Group, its founder shareholders and members and affiliates of the Shah family across both stages of the transaction. The Firm advised on Indian-law transaction structuring and implementation; Indian foreign-exchange regulations and RBI-related matters; Indian competition-law analysis ",
     "law_firms": [
       "Khaitan & Co",
-      "Lexygen",
-      "US law firms"
+      "Lexygen"
     ],
     "transaction_types": [
       "acquisition"
@@ -3906,11 +4268,10 @@
     "url": "https://www.barandbench.com/law-firms/dealstreet/dentons-link-legal-trilegal-sidley-austin-fbt-gibbons-act-on-33-billion-stake-sale-by-the-president-of-india-in-lic",
     "snippet": "President of India, acting through the Ministry of Finance has sold off 6.5% stake in Life Insurance Corporation of India (“ LIC ”), by way of an offer for sale through the stock exchange mechanism. The Government of India raised ₹31,552 crore (approximately US$3.3 billion), making the transaction India’s largest-ever offer for sale. Dentons Link Legal advised the President of India (Government) on this Offer for Sale. The transaction team consisted of Milind Jha (Partner), Aditya Bhardwaj (Part",
     "law_firms": [
-      "LIC Stake Sale: Dentons Link Legal",
+      "Dentons Link Legal",
       "Trilegal",
       "Sidley Austin",
-      "FBT Gibbons",
-      "Dentons Link Legal"
+      "FBT Gibbons"
     ],
     "transaction_types": [],
     "people": [
@@ -4054,81 +4415,78 @@
     "source": "Bar & Bench",
     "url": "https://www.barandbench.com/law-firms/dealstreet/mahindra-mahindra-sells-trucks-and-buses-division-to-sml-mahindra-for-525-crore-khaitan-co-azb-advise",
     "snippet": "Mahindra & Mahindra Limited has transferred its Trucks and Buses Division (along with its employees, assets, intellectual property, licences, permits, insurance policies, contracts, rights and liabilities), to SML Mahindra Limited, as a going concern on a slump sale basis, for a consideration of ₹525 crore, subject to working capital adjustments. Khaitan & Co advised Mahindra & Mahindra on this transaction. The Firm was the lead transaction counsel for the overall transaction, providing comprehe",
-    "law_firms": [
-      "AZB & Partners",
-      "Khaitan & Co"
-    ],
+    "law_firms": [],
     "transaction_types": [],
     "people": [
       {
         "name": "Ashraya Rao",
         "role": "Partner",
-        "firm": "Khaitan & Co"
+        "firm": null
       },
       {
         "name": "Vidur Sinha",
         "role": "Partner",
-        "firm": "Khaitan & Co"
+        "firm": null
       },
       {
         "name": "Vaishanshi Bhardwaj",
         "role": "Principal Associate",
-        "firm": "Khaitan & Co"
+        "firm": null
       },
       {
         "name": "Hansaja Pandya",
         "role": "Senior Associate",
-        "firm": "Khaitan & Co"
+        "firm": null
       },
       {
         "name": "Mehul Shah",
         "role": "Partner",
-        "firm": "Khaitan & Co"
+        "firm": null
       },
       {
         "name": "Sharad Abhyankar",
         "role": "Partner",
-        "firm": "Khaitan & Co"
+        "firm": null
       },
       {
         "name": "Arindam Ghosh",
         "role": "Partner",
-        "firm": "Khaitan & Co"
+        "firm": null
       },
       {
         "name": "Gaurav Malhotra",
         "role": "Partner",
-        "firm": "Khaitan & Co"
+        "firm": null
       },
       {
         "name": "Shruti Kunisetty",
         "role": "Associate",
-        "firm": "Khaitan & Co"
+        "firm": null
       },
       {
         "name": "Anil Kasturi",
         "role": "Senior Partner",
-        "firm": "AZB & Partners"
+        "firm": null
       },
       {
         "name": "Ashish Pareek",
         "role": "Partner",
-        "firm": "AZB & Partners"
+        "firm": null
       },
       {
         "name": "Achin Goel",
         "role": "Senior Associate",
-        "firm": "AZB & Partners"
+        "firm": null
       },
       {
         "name": "Shubham Toshniwal",
         "role": "Senior Associate",
-        "firm": "AZB & Partners"
+        "firm": null
       },
       {
         "name": "Sushil Joon",
         "role": "Associate",
-        "firm": "AZB & Partners"
+        "firm": null
       }
     ]
   },
@@ -4272,7 +4630,6 @@
     "url": "https://www.barandbench.com/law-firms/dealstreet/elp-advises-teamlease-on-238-crore-share-buyback",
     "snippet": "TeamLease Services Limited has made a buyback of 14,87,500 equity shares of the Company at a price of ₹1,600 per equity share, amounting to ₹238 crore. Economic Laws Practice advised TeamLease and Nuvama Wealth Management Limited, the manager to the buyback. The transaction was led by Geeta Dhania (Partner), with assistance from Ridhi Jain (Senior Associate), Associates Anusha Agrawal and Shreya Prakash. TeamLease is one of India’s leading providers of human resource services in the organized se",
     "law_firms": [
-      "Elp",
       "Economic Laws Practice"
     ],
     "transaction_types": [],
@@ -4306,45 +4663,44 @@
     "url": "https://www.barandbench.com/law-firms/dealstreet/fox-mandal-associates-advises-landowners-on-revenue-sharing-joint-development-with-puravankara",
     "snippet": "Fox Mandal & Associates has advised landowners in connection with a revenue-sharing joint development transaction with Puravankara Limited for the development of a 14-acre residential apartment project in East Bengaluru. The Firm acted as legal counsel to the landowners in structuring, negotiating and documenting the transaction. The transaction team consisted Prashantha Kumar (Senior Partner), Pooja Upadhya (Group Head), Raashmi Arun Prakash (Senior Associate), Associates Prateek Pandey, Mahek ",
     "law_firms": [
-      "Fox Mandal & Associates",
-      "Fox Mandal & Associates has"
+      "Fox Mandal & Associates"
     ],
     "transaction_types": [],
     "people": [
       {
         "name": "Prashantha Kumar",
         "role": "Senior Partner",
-        "firm": "Fox Mandal & Associates has"
+        "firm": "Fox Mandal & Associates"
       },
       {
         "name": "Raashmi Arun Prakash",
         "role": "Senior Associate",
-        "firm": "Fox Mandal & Associates has"
+        "firm": "Fox Mandal & Associates"
       },
       {
         "name": "Prateek Pandey",
         "role": "Associate",
-        "firm": "Fox Mandal & Associates has"
+        "firm": "Fox Mandal & Associates"
       },
       {
         "name": "Mahek Harichandan",
         "role": "Associate",
-        "firm": "Fox Mandal & Associates has"
+        "firm": "Fox Mandal & Associates"
       },
       {
         "name": "Kritika Chaudhary",
         "role": "Associate",
-        "firm": "Fox Mandal & Associates has"
+        "firm": "Fox Mandal & Associates"
       },
       {
         "name": "Anurag Kumar",
         "role": "Associate",
-        "firm": "Fox Mandal & Associates has"
+        "firm": "Fox Mandal & Associates"
       },
       {
         "name": "Akash Patil",
         "role": "Associate",
-        "firm": "Fox Mandal & Associates has"
+        "firm": "Fox Mandal & Associates"
       }
     ]
   },

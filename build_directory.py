@@ -58,7 +58,72 @@ FIRM_ALIASES = {
     "sidley austin": "Sidley Austin",
     "jsa advocates and solicitors": "JSA Advocates & Solicitors",
     "cms induslaw": "CMS INDUSLAW",
+
+    # short-form / abbreviation aliases that were producing near-duplicate
+    # firm entries (e.g. "Cam" and "Elp" as their own separate firms)
+    "cam": "Cyril Amarchand Mangaldas",
+    "elp": "Economic Laws Practice",
+    "economic laws practice (elp)": "Economic Laws Practice",
+    "economic laws practice": "Economic Laws Practice",
+    "bharucha": "Bharucha & Partners",
+    "bharucha & partners": "Bharucha & Partners",
+    "fox & mandal": "Fox Mandal & Associates",
+    "fox mandal & associates": "Fox Mandal & Associates",
+    "fox mandal associates": "Fox Mandal & Associates",
+    "sequitur": "Sequitur Advocates & Legal Consultants",
+    "sequitur advocates & legal consultants": "Sequitur Advocates & Legal Consultants",
+    "duane morris & selvam": "Duane Morris & Selvam",
+    "duane morris selvam": "Duane Morris & Selvam",
+    "hogan lovells": "Hogan Lovells",
+    "hogan lovells cadwalader": "Hogan Lovells Cadwalader",
+    "mcdermott will & schulte": "McDermott Will & Schulte",
+    "mcdermott will & emery": "McDermott Will & Emery",
+    "k law": "K Law",
+    "k&l gates": "K&L Gates",
+    "knm & partners": "KNM & Partners",
+    "chandhiok & mahajan": "Chandhiok & Mahajan",
+    "chandhiok mahajan": "Chandhiok & Mahajan",
+    "dentons link legal": "Dentons Link Legal",
+    "kochhar & co": "Kochhar & Co",
+    "kochhar and co": "Kochhar & Co",
+    "rajani associates": "Rajani Associates",
+    "almt legal": "ALMT Legal",
+    "vertices partners": "Vertices Partners",
+    "veritas legal": "Veritas Legal",
+    "phoenix legal": "Phoenix Legal",
+    "ikigai law": "Ikigai Law",
+    "novojuris legal": "NovoJuris Legal",
+    "touchstone partners": "Touchstone Partners",
+    "samvad partners": "Samvād: Partners",
+    "samvād: partners": "Samvād: Partners",
+    "triumvir law": "Triumvir Law",
+    "anagram partners": "Anagram Partners",
+    "krishnamurthy & co": "Krishnamurthy & Co",
+    "obhan & associates": "Obhan & Associates",
+    "gibson dunn": "Gibson Dunn",
+    "gibson dunn & crutcher": "Gibson Dunn",
+    "wilson sonsini goodrich & rosati": "Wilson Sonsini Goodrich & Rosati",
+    "wilson sonsini": "Wilson Sonsini Goodrich & Rosati",
+    "squire patton boggs": "Squire Patton Boggs",
+    "norton rose fulbright": "Norton Rose Fulbright",
+    "k&l gates llp": "K&L Gates",
+    "morgan lewis": "Morgan Lewis",
+    "morgan lewis & bockius": "Morgan Lewis",
+    "goodwin": "Goodwin",
+    "goodwin procter": "Goodwin",
+    "avisen legal": "Avisen Legal",
+    "legacy law offices": "Legacy Law Offices",
+    "dhir & dhir associates": "Dhir & Dhir Associates",
+    "troutman pepper locke": "Troutman Pepper Locke",
+    "a&o shearman": "A&O Shearman",
+    "allen & overy shearman": "A&O Shearman",
 }
+
+# Known-firm corpus: names we've confirmed are real law firms active in
+# Indian (or India-linked cross-border) M&A coverage, used to sanity-check
+# firm-like strings pulled from free text (headlines/body copy) before
+# they're accepted as a firm rather than discarded as noise.
+KNOWN_FIRMS = {v.lower() for v in FIRM_ALIASES.values()}
 
 CITY_SUFFIXES = {
     "bangalore", "bengaluru", "mumbai", "delhi", "new delhi", "gurugram",
@@ -66,6 +131,17 @@ CITY_SUFFIXES = {
 }
 
 _SMALL_WORDS = {"&", "of", "and", "the"}
+
+# Generic/non-specific references that show up in source text where no
+# actual firm is named (e.g. a headline saying "US law firms" instead of
+# naming them, or body text referring to "his chambers" / an in-house
+# team) -- these are not firms and must never become one.
+NON_FIRM_PHRASES = {
+    "us law firms", "international law firms", "foreign counsel",
+    "international counsel", "local counsel", "his chambers",
+    "her chambers", "independent chambers", "independent counsel",
+    "in-house", "in-house counsel", "the firm", "the firm also",
+}
 
 
 def _clean_firm_string(name):
@@ -98,6 +174,12 @@ def canonical_firm(name):
     if not cleaned:
         return None
     key = cleaned.lower()
+    if key in NON_FIRM_PHRASES or re.match(r"^(his|her)\s+chambers\b", key):
+        return None
+    # a client's own internal legal team, e.g. "Oravel Stays Limited
+    # (in-house)" -- that's the client, not an external law firm
+    if re.search(r"\(\s*in-?house\b", key):
+        return None
     if key in FIRM_ALIASES:
         return FIRM_ALIASES[key]
     return _smart_title(cleaned)

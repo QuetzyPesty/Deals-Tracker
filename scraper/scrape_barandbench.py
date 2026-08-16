@@ -190,7 +190,13 @@ def parse_headline(headline):
     m = HEADLINE_VERB.match(headline)
     if not m:
         return {"law_firms": [], "client": None, "transaction_types": []}
-    firms = split_firm_list(m.group("firms"))
+    firms_raw = m.group("firms")
+    # some headlines carry a subtitle before the firm list, e.g. "LIC Stake
+    # Sale: Dentons Link Legal, Trilegal ..." -- drop everything up to and
+    # including the colon or the subtitle leaks in as a fake "firm"
+    if ":" in firms_raw:
+        firms_raw = firms_raw.rsplit(":", 1)[-1].strip()
+    firms = split_firm_list(firms_raw)
     rest = m.group("rest")
     client = rest.split(" on ")[0].strip() if " on " in rest else rest.strip()
     # trim trailing deal-size/description noise: "Arboreal ₹230 crore Series
@@ -255,25 +261,47 @@ def extract_plural_list_credits(paragraph):
     return credits
 
 
-def extract_firm_context(paragraph):
+def extract_firm_context(paragraph, known_firms=()):
+    """Find a firm-attribution sentence and snap it onto one of the deal's
+    own headline-declared firms.
+
+    The raw regex match is not trustworthy on its own -- it can include
+    trailing junk ("Cyril Amarchand Mangaldas also", "Fox Mandal &
+    Associates has") or run on into an unrelated sentence ("JSA ... secured
+    the CCI approval for this merger. The Firm"), or pick up something
+    that isn't a firm at all ("His chambers", "Independent Chambers", "US
+    law firms", a client's in-house team). A headline like "Khaitan & Co,
+    JSA act on ..." already gives us the deal's real, clean firm list, so
+    body-text mentions are only trusted when they can be matched back onto
+    it. If the match is ambiguous (contains more than one known firm, e.g.
+    "AZB & Partners and Duane Morris & Selvam" in one sentence) or matches
+    none of them, it's discarded rather than stored as a new "firm".
+    """
     m = FIRM_CONTEXT_RE.match(paragraph.strip())
     if not m:
         return None
     raw = m.group(1).strip()
-    # "The Firm also represented..." refers back to the previously named
-    # firm in this article -- it is not itself a firm name.
     if raw.lower() in ("the firm", "the firm also"):
         return None
-    return canonical_firm(raw)
+    candidate = (canonical_firm(raw) or "").lower()
+    if not candidate:
+        return None
+    matches = {
+        hf for hf in known_firms
+        if hf.lower() in candidate or candidate in hf.lower()
+    }
+    if len(matches) == 1:
+        return next(iter(matches))
+    return None
 
 
-def extract_people(paragraphs, fallback_firm):
+def extract_people(paragraphs, fallback_firm, known_firms=()):
     seen = set()
     people = []
     current_firm = fallback_firm
     for raw_para in paragraphs:
         para = _strip_nickname_parens(raw_para)
-        context_firm = extract_firm_context(para)
+        context_firm = extract_firm_context(para, known_firms)
         if context_firm:
             current_firm = context_firm
 
@@ -296,12 +324,7 @@ def parse_article(url, headline):
 
     parsed = parse_headline(headline)
     fallback_firm = parsed["law_firms"][0] if parsed["law_firms"] else None
-    people = extract_people(paragraphs, fallback_firm)
-
-    # merge any firms discovered via in-body firm-context sentences that
-    # weren't already picked up from the headline
-    body_firms = {p["firm"] for p in people if p["firm"]}
-    law_firms = list(dict.fromkeys(parsed["law_firms"] + sorted(body_firms)))
+    people = extract_people(paragraphs, fallback_firm, known_firms=parsed["law_firms"])
 
     return {
         "headline": headline,
@@ -309,13 +332,40 @@ def parse_article(url, headline):
         "source": "Bar & Bench",
         "url": url,
         "snippet": snippet,
-        "law_firms": law_firms,
+        "law_firms": parsed["law_firms"],
         "transaction_types": parsed["transaction_types"],
         "people": people,
     }
 
 
+def reparse_all():
+    """Re-fetch and re-parse every already-scraped URL with the current
+    extraction logic, replacing barandbench_deals.json in place. Use this
+    whenever extraction rules change -- the seen_urls.json checkpoint (and
+    thus which articles have been scraped at all) is untouched, only the
+    quality of already-scraped entries improves."""
+    existing = load_existing_deals()
+    print(f"reparsing {len(existing)} existing deals...")
+    deals = []
+    for i, old in enumerate(existing, 1):
+        try:
+            deal = parse_article(old["url"], old["headline"])
+        except Exception as e:
+            print(f"failed to reparse {old['url']}: {e}")
+            deals.append(old)
+            continue
+        deals.append(deal)
+        if i % 10 == 0:
+            print(f"  {i}/{len(existing)}")
+    OUT_PATH.write_text(json.dumps(deals, indent=2, ensure_ascii=False))
+    print(f"reparsed {len(deals)} deals")
+
+
 def main():
+    if "--reparse-all" in sys.argv:
+        reparse_all()
+        return
+
     seen = load_seen()
     deals = load_existing_deals()
 
