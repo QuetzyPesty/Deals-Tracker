@@ -20,6 +20,9 @@ jobs:
       - name: Install deps
         run: pip install -r requirements.txt
 
+      - name: Install spaCy English model
+        run: python -m pip install "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl"
+
       - name: Scrape new deals
         run: python scraper/scrape_barandbench.py
 

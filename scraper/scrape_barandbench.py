@@ -36,7 +36,9 @@ from bs4 import BeautifulSoup
 SCRAPER_DIR = Path(__file__).parent
 BASE = SCRAPER_DIR.parent
 sys.path.insert(0, str(BASE))
+sys.path.insert(0, str(SCRAPER_DIR))
 from build_directory import canonical_firm  # noqa: E402
+import ner_supplement  # noqa: E402
 
 LISTING_URL = "https://www.barandbench.com/dealstreet"
 SITE_ROOT = "https://www.barandbench.com"
@@ -157,6 +159,14 @@ def fetch(url):
     return resp.text
 
 
+def _slug(url):
+    """Last path segment -- Bar & Bench restructured URLs at some point
+    (bare /dealstreet/<slug> vs newer /law-firms/dealstreet/<slug>) and the
+    same article can exist at both paths. Dedupe on this, not the full
+    URL, or the same deal gets scraped and counted twice."""
+    return url.rstrip("/").rsplit("/", 1)[-1]
+
+
 def find_article_links(listing_html):
     soup = BeautifulSoup(listing_html, "lxml")
     links = {}
@@ -249,8 +259,14 @@ def extract_plural_list_credits(paragraph):
                 i += 1
                 continue
             if _is_name_word(w):
+                sentence_ended = w.endswith(".")
                 current.append(w.rstrip("."))
                 i += 1
+                if sentence_ended:
+                    # e.g. "... and Arshan Kazi." -- stop here, don't let
+                    # the next sentence's capitalized first word ("The",
+                    # "Trilegal", ...) bleed into this name
+                    break
                 continue
             break
         if current:
@@ -298,12 +314,14 @@ def extract_firm_context(paragraph, known_firms=()):
 def extract_people(paragraphs, fallback_firm, known_firms=()):
     seen = set()
     people = []
+    para_firms = []  # (cleaned_paragraph, firm_in_effect) -- reused below
     current_firm = fallback_firm
     for raw_para in paragraphs:
         para = _strip_nickname_parens(raw_para)
         context_firm = extract_firm_context(para, known_firms)
         if context_firm:
             current_firm = context_firm
+        para_firms.append((para, current_firm))
 
         credits = extract_paren_credits(para) + extract_plural_list_credits(para)
         for name, role in credits:
@@ -312,6 +330,26 @@ def extract_people(paragraphs, fallback_firm, known_firms=()):
                 continue
             seen.add(key)
             people.append({"name": name, "role": role, "firm": current_firm})
+
+    # Secondary, precision-gated NER pass (see ner_supplement.py) -- only
+    # ever fills genuine gaps the regex above missed. Every candidate must
+    # independently satisfy: spaCy PERSON tag, a full "(Role)" match, a
+    # firm that resolves to one of this deal's own headline firms, and not
+    # be a fragment of a name already found above. Silently contributes
+    # nothing if spaCy isn't installed.
+    known_names_lower = {p["name"].lower() for p in people}
+    known_firms_set = set(known_firms)
+    for para, firm in para_firms:
+        for extra in ner_supplement.supplement_credits(
+            para, firm, known_firms_set, ROLE_WORDS, known_names_lower
+        ):
+            key = (extra["name"].lower(), extra["role"], extra["firm"])
+            if key in seen:
+                continue
+            seen.add(key)
+            known_names_lower.add(extra["name"].lower())
+            people.append(extra)
+
     return people
 
 
@@ -343,11 +381,27 @@ def reparse_all():
     extraction logic, replacing barandbench_deals.json in place. Use this
     whenever extraction rules change -- the seen_urls.json checkpoint (and
     thus which articles have been scraped at all) is untouched, only the
-    quality of already-scraped entries improves."""
+    quality of already-scraped entries improves.
+
+    Also drops slug duplicates (see _slug()) -- keeps the first occurrence
+    of each slug, since Bar & Bench's URL restructuring caused some
+    articles to be scraped twice under different paths."""
     existing = load_existing_deals()
-    print(f"reparsing {len(existing)} existing deals...")
+    seen_slugs = set()
+    to_parse = []
+    for old in existing:
+        slug = _slug(old["url"])
+        if slug in seen_slugs:
+            continue
+        seen_slugs.add(slug)
+        to_parse.append(old)
+    dropped = len(existing) - len(to_parse)
+    if dropped:
+        print(f"dropping {dropped} slug-duplicate deal(s)")
+
+    print(f"reparsing {len(to_parse)} existing deals...")
     deals = []
-    for i, old in enumerate(existing, 1):
+    for i, old in enumerate(to_parse, 1):
         try:
             deal = parse_article(old["url"], old["headline"])
         except Exception as e:
@@ -356,7 +410,7 @@ def reparse_all():
             continue
         deals.append(deal)
         if i % 10 == 0:
-            print(f"  {i}/{len(existing)}")
+            print(f"  {i}/{len(to_parse)}")
     OUT_PATH.write_text(json.dumps(deals, indent=2, ensure_ascii=False))
     print(f"reparsed {len(deals)} deals")
 
@@ -368,10 +422,14 @@ def main():
 
     seen = load_seen()
     deals = load_existing_deals()
+    seen_slugs = {_slug(u) for u in seen}
 
     listing_html = fetch(LISTING_URL)
     links = find_article_links(listing_html)
-    new_links = {url: text for url, text in links.items() if url not in seen}
+    new_links = {
+        url: text for url, text in links.items()
+        if url not in seen and _slug(url) not in seen_slugs
+    }
 
     print(f"found {len(links)} article links, {len(new_links)} new")
 
