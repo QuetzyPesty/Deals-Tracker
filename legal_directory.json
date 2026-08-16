@@ -2,7 +2,7 @@
   "stats": {
     "people": 3332,
     "firms": 90,
-    "deals": 427,
+    "deals": 405,
     "practice_areas": 6
   },
   "firms": [
@@ -429,9 +429,14 @@
             1826,
             1827,
             2819,
-            1122,
             1829,
             1825
+          ]
+        },
+        {
+          "area": "Unclassified",
+          "person_ids": [
+            1122
           ]
         }
       ]
@@ -714,7 +719,7 @@
       "people_count": 1,
       "practice_groups": [
         {
-          "area": "Mergers & Acquisitions",
+          "area": "Unclassified",
           "person_ids": [
             1400
           ]
@@ -1621,11 +1626,8 @@
           "person_ids": [
             842,
             841,
-            462,
             840,
-            460,
             854,
-            459,
             844,
             850,
             852,
@@ -1633,7 +1635,6 @@
             839,
             846,
             843,
-            461,
             849,
             847,
             838,
@@ -1647,6 +1648,10 @@
           "area": "Unclassified",
           "person_ids": [
             3300,
+            462,
+            460,
+            459,
+            461,
             3301
           ]
         }
@@ -1975,9 +1980,7 @@
             1598,
             2942,
             2,
-            769,
             304,
-            752,
             1498,
             301,
             1112,
@@ -2122,7 +2125,6 @@
             1700,
             2989,
             2988,
-            421,
             2277,
             2894,
             1108,
@@ -2131,7 +2133,6 @@
             1500,
             1103,
             1398,
-            2773,
             1916,
             502,
             1246
@@ -2238,7 +2239,6 @@
             1786,
             1244,
             1600,
-            1797,
             1976,
             2803,
             1113,
@@ -2268,7 +2268,6 @@
             499,
             835,
             1103,
-            966,
             768,
             1916,
             502,
@@ -2374,6 +2373,7 @@
             767,
             422,
             3303,
+            1797,
             3305,
             1802,
             1959,
@@ -2390,9 +2390,12 @@
             2496,
             438,
             426,
+            421,
             391,
             428,
             3304,
+            966,
+            2773,
             2354
           ]
         },
@@ -2403,7 +2406,6 @@
             1796,
             2091,
             769,
-            752,
             786,
             2093,
             1888,
@@ -2432,9 +2434,7 @@
             609,
             1886,
             2089,
-            421,
             835,
-            2773,
             768,
             221,
             2551
@@ -2466,9 +2466,7 @@
             137,
             7,
             1210,
-            1797,
             1207,
-            499,
             1209,
             1208
           ]
@@ -3499,20 +3497,9 @@
           "person_ids": [
             1222,
             1225,
+            751,
             1223,
             1224
-          ]
-        },
-        {
-          "area": "Corporate & Commercial",
-          "person_ids": [
-            751
-          ]
-        },
-        {
-          "area": "Private Equity & Venture Capital",
-          "person_ids": [
-            751
           ]
         }
       ]
@@ -3961,6 +3948,7 @@
             3035,
             2432,
             3058,
+            1747,
             2437,
             3054,
             2418,
@@ -4078,7 +4066,6 @@
             2366,
             2483,
             964,
-            1747,
             2439,
             1569,
             2370,
@@ -12311,18 +12298,6 @@
       ],
       "deals": [
         {
-          "headline": "CAM Partners Anchal Dhir and Shubham Rastogi resign to join Anagram Partners",
-          "client": null,
-          "url": "https://www.barandbench.com/amp/story/news/corporate/cam-partners-anchal-dhir-and-shubham-rastogi-have-resigned-to-join-anagram-partners",
-          "source": "Bar and Bench",
-          "types": [
-            "acquisition"
-          ],
-          "practice_areas": [
-            "Mergers & Acquisitions"
-          ]
-        },
-        {
           "headline": "CAM advises Inox Clean Energy on acquisition of SkyPower MENA - BarandBench",
           "client": "Inox Clean Energy",
           "url": "https://www.barandbench.com/dealstreet/cam-advises-inox-clean-energy-on-acquisition-of-skypower-mena",
@@ -12335,7 +12310,7 @@
           ]
         }
       ],
-      "snapshot": "CAM Partners Anchal Dhir and Shubham Rastogi resign to join Anagram Partners"
+      "snapshot": "CAM advises Inox Clean Energy on acquisition of SkyPower MENA - BarandBench"
     },
     {
       "id": 720,
@@ -13607,18 +13582,6 @@
       ],
       "deals": [
         {
-          "headline": "Khaitan's Prateek Bhandari joins Shardul Amarchand Mangaldas as Partner in Infrastructure ...",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/khaitan-counsel-prateek-bhandari-joins-shardul-amarchand-mangaldas-as-partner",
-          "source": "Bar and Bench",
-          "types": [
-            "financing"
-          ],
-          "practice_areas": [
-            "Banking & Finance"
-          ]
-        },
-        {
           "headline": "SAM, Khaitan act on Aica Kogyo Co acquiring controlling stake in Stylam Industries for $225 million",
           "client": "Aica Kogyo Co",
           "url": "https://www.barandbench.com/dealstreet/sam-khaitan-act-on-aica-kogyo-co-acquiring-225-million-controlling-stake-in-stylam-industries",
@@ -13645,7 +13608,7 @@
           ]
         }
       ],
-      "snapshot": "Khaitan's Prateek Bhandari joins Shardul Amarchand Mangaldas as Partner in Infrastructure ..."
+      "snapshot": "SAM, Khaitan act on Aica Kogyo Co acquiring controlling stake in Stylam Industries for $225 million"
     },
     {
       "id": 2453,
@@ -15292,14 +15255,11 @@
       "firm": "JSA Advocates & Solicitors",
       "role": "Joint Managing Partner",
       "transaction_types": [
-        "acquisition",
         "financing",
-        "investment",
-        "merger"
+        "investment"
       ],
       "practice_areas": [
         "Banking & Finance",
-        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [],
@@ -15308,50 +15268,6 @@
           "headline": "Rohit Ambast moves from CMS IndusLaw to JSA as Partner in Corporate practice",
           "client": null,
           "url": "https://www.barandbench.com/news/corporate/rohit-ambast-moves-from-cms-induslaw-to-jsa-as-partner-in-corporate-practice",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        },
-        {
-          "headline": "CAM Director Kushal Ramotre joins JSA as a Partner - Bar and Bench",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/cam-director-kushal-ramotre-joins-jsa-as-a-partner",
-          "source": "Bar and Bench",
-          "types": [
-            "investment"
-          ],
-          "practice_areas": [
-            "Private Equity & Venture Capital"
-          ]
-        },
-        {
-          "headline": "Shwetank Sharma from S&R joins JSA as Partner in the Capital Markets practice",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/shwetank-sharma-joins-jsa-as-partner-in-capital-markets-practice",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        },
-        {
-          "headline": "Nidhi Khadria joins JSA as Partner in Mumbai - Bar and Bench",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/nidhi-khadria-joins-jsa-as-partner-in-mumbai",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        },
-        {
-          "headline": "CAM Director Kushal Ramotre joins JSA as a Partner",
-          "client": null,
-          "url": "https://www.barandbench.com/amp/story/news/corporate/cam-director-kushal-ramotre-joins-jsa-as-a-partner",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        },
-        {
-          "headline": "Shashank Shekhar joins JSA as Partner in Bengaluru",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/shashank-shekhar-joins-jsa-as-partner-in-bengaluru",
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
@@ -15368,29 +15284,6 @@
           "practice_areas": [
             "Banking & Finance",
             "Private Equity & Venture Capital"
-          ]
-        },
-        {
-          "headline": "CAM Partner Saurabh Sharma joins JSA in Ahmedabad - Bar and Bench",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/cam-partner-saurabh-sharma-joins-jsa-to-strengthen-corporate-practice",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        },
-        {
-          "headline": "Amitabh Sharma rejoins JSA as Partner in Gurugram - BarandBench",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/amitabh-sharma-rejoins-jsa-as-partner-in-gurugram",
-          "source": "",
-          "types": [
-            "acquisition",
-            "merger",
-            "financing"
-          ],
-          "practice_areas": [
-            "Banking & Finance",
-            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -15476,14 +15369,6 @@
           "headline": "CAM, Trilegal, SAM act on Bharti Airtel, Carlyle, Alpha Wave investing $1 billion in Airtel's Nxtra Data",
           "client": "Bharti Airtel",
           "url": "https://www.barandbench.com/dealstreet/cam-trilegal-sam-act-on-bharti-airtel-carlyle-alpha-wave-investing-1-billion-in-nxtra-data",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        },
-        {
-          "headline": "Exclusive: Cyril Amarchand Mangaldas Senior Partner Ravindra Bandhakavi resigns with 3 ...",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/exclusive-cyril-amarchand-mangaldas-senior-partner-ravindra-bandhakavi-resigns-with-3-other-partners",
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
@@ -16196,14 +16081,9 @@
       "firm": "JSA Advocates & Solicitors",
       "role": "Partner, Transaction Lead",
       "transaction_types": [
-        "acquisition",
-        "financing",
-        "investment",
-        "merger"
+        "investment"
       ],
       "practice_areas": [
-        "Banking & Finance",
-        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
@@ -16220,21 +16100,6 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
-          ]
-        },
-        {
-          "headline": "Amitabh Sharma rejoins JSA as Partner in Gurugram - BarandBench",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/amitabh-sharma-rejoins-jsa-as-partner-in-gurugram",
-          "source": "",
-          "types": [
-            "acquisition",
-            "merger",
-            "financing"
-          ],
-          "practice_areas": [
-            "Banking & Finance",
-            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -17086,28 +16951,11 @@
       "name": "Anand Srivastava",
       "firm": "Dentons Link Legal",
       "role": "Managing Partner",
-      "transaction_types": [
-        "acquisition"
-      ],
-      "practice_areas": [
-        "Mergers & Acquisitions"
-      ],
+      "transaction_types": [],
+      "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "JSA's Farhana Malik joins Dentons Link Legal as Partner in Real Estate practice",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/jsas-farhana-malik-joins-dentons-link-legal-as-partner-in-real-estate-practice",
-          "source": "Bar and Bench",
-          "types": [
-            "acquisition"
-          ],
-          "practice_areas": [
-            "Mergers & Acquisitions"
-          ]
-        }
-      ],
-      "snapshot": "JSA's Farhana Malik joins Dentons Link Legal as Partner in Real Estate practice"
+      "deals": [],
+      "snapshot": null
     },
     {
       "id": 1828,
@@ -17750,7 +17598,6 @@
       "firm": "Cyril Amarchand Mangaldas",
       "role": "Partner",
       "transaction_types": [
-        "acquisition",
         "merger"
       ],
       "practice_areas": [
@@ -17761,18 +17608,6 @@
         "Aditya Birla Capital Limited"
       ],
       "deals": [
-        {
-          "headline": "CAM Partners Anchal Dhir and Shubham Rastogi resign to join Anagram Partners",
-          "client": null,
-          "url": "https://www.barandbench.com/amp/story/news/corporate/cam-partners-anchal-dhir-and-shubham-rastogi-have-resigned-to-join-anagram-partners",
-          "source": "Bar and Bench",
-          "types": [
-            "acquisition"
-          ],
-          "practice_areas": [
-            "Mergers & Acquisitions"
-          ]
-        },
         {
           "headline": "CAM, SAM act on Devyani International – Sapphire Foods merger",
           "client": "Devyani International",
@@ -17794,7 +17629,7 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "CAM Partners Anchal Dhir and Shubham Rastogi resign to join Anagram Partners"
+      "snapshot": "CAM, SAM act on Devyani International – Sapphire Foods merger"
     },
     {
       "id": 298,
@@ -20796,36 +20631,11 @@
       "name": "Anoopam N Prasad",
       "firm": "Chambers of Anoopam N Prasad",
       "role": "Advocate",
-      "transaction_types": [
-        "acquisition"
-      ],
-      "practice_areas": [
-        "Mergers & Acquisitions"
-      ],
+      "transaction_types": [],
+      "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "Former Shardul Amarchand Mangaldas lawyer Anoopam N Prasad sets up chambers",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/sam-counsel-anoopam-n-prasad-sets-up-chambers",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        },
-        {
-          "headline": "Former Shardul Amarchand Mangaldas lawyer Anoopam N Prasad sets up chambers",
-          "client": null,
-          "url": "https://www.barandbench.com/amp/story/news/corporate/sam-counsel-anoopam-n-prasad-sets-up-chambers",
-          "source": "Bar and Bench",
-          "types": [
-            "acquisition"
-          ],
-          "practice_areas": [
-            "Mergers & Acquisitions"
-          ]
-        }
-      ],
-      "snapshot": "Former Shardul Amarchand Mangaldas lawyer Anoopam N Prasad sets up chambers"
+      "deals": [],
+      "snapshot": null
     },
     {
       "id": 2735,
@@ -28151,28 +27961,11 @@
       "name": "Atul Sharma",
       "firm": "Dentons Link Legal",
       "role": "Executive Chairman",
-      "transaction_types": [
-        "acquisition"
-      ],
-      "practice_areas": [
-        "Mergers & Acquisitions"
-      ],
+      "transaction_types": [],
+      "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "JSA's Farhana Malik joins Dentons Link Legal as Partner in Real Estate practice",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/jsas-farhana-malik-joins-dentons-link-legal-as-partner-in-real-estate-practice",
-          "source": "Bar and Bench",
-          "types": [
-            "acquisition"
-          ],
-          "practice_areas": [
-            "Mergers & Acquisitions"
-          ]
-        }
-      ],
-      "snapshot": "JSA's Farhana Malik joins Dentons Link Legal as Partner in Real Estate practice"
+      "deals": [],
+      "snapshot": null
     },
     {
       "id": 3122,
@@ -28823,14 +28616,6 @@
       ],
       "deals": [
         {
-          "headline": "CAM Partner Faraz Alam Sagar joins CMS INDUSLAW as Equity Partner - Bar and Bench",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/cam-partner-faraz-alam-sagar-joins-cms-induslaw-as-equity-partner",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        },
-        {
           "headline": "CMS INDUSLAW advises Shriram Pistons on €159 million acquisition of three companies ...",
           "client": "Shriram Pistons",
           "url": "https://www.barandbench.com/amp/story/dealstreet/cms-induslaw-advises-shriram-pistons-on-159-million-acquisition-of-three-companies-from-grupo-antolin",
@@ -28843,7 +28628,7 @@
           ]
         }
       ],
-      "snapshot": "CAM Partner Faraz Alam Sagar joins CMS INDUSLAW as Equity Partner - Bar and Bench"
+      "snapshot": "CMS INDUSLAW advises Shriram Pistons on €159 million acquisition of three companies ..."
     },
     {
       "id": 2544,
@@ -34350,7 +34135,6 @@
       "role": "Managing Partner",
       "transaction_types": [
         "IPO",
-        "acquisition",
         "investment",
         "merger"
       ],
@@ -34365,26 +34149,6 @@
         "Both parties (strategic guidance)"
       ],
       "deals": [
-        {
-          "headline": "Exclusive: Cyril Amarchand Mangaldas Senior Partner Ravindra Bandhakavi resigns with 3 ...",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/exclusive-cyril-amarchand-mangaldas-senior-partner-ravindra-bandhakavi-resigns-with-3-other-partners",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        },
-        {
-          "headline": "CAM Partners Anchal Dhir and Shubham Rastogi resign to join Anagram Partners",
-          "client": null,
-          "url": "https://www.barandbench.com/amp/story/news/corporate/cam-partners-anchal-dhir-and-shubham-rastogi-have-resigned-to-join-anagram-partners",
-          "source": "Bar and Bench",
-          "types": [
-            "acquisition"
-          ],
-          "practice_areas": [
-            "Mergers & Acquisitions"
-          ]
-        },
         {
           "headline": "NSE IPO: Which law firms are advising the stock exchange on its public listing?",
           "client": "NSE",
@@ -34434,7 +34198,7 @@
           ]
         }
       ],
-      "snapshot": "Exclusive: Cyril Amarchand Mangaldas Senior Partner Ravindra Bandhakavi resigns with 3 ..."
+      "snapshot": "NSE IPO: Which law firms are advising the stock exchange on its public listing?"
     },
     {
       "id": 2956,
@@ -40653,17 +40417,8 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "CAM Partner Faraz Alam Sagar joins CMS INDUSLAW as Equity Partner - Bar and Bench",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/cam-partner-faraz-alam-sagar-joins-cms-induslaw-as-equity-partner",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        }
-      ],
-      "snapshot": "CAM Partner Faraz Alam Sagar joins CMS INDUSLAW as Equity Partner - Bar and Bench"
+      "deals": [],
+      "snapshot": null
     },
     {
       "id": 1806,
@@ -40692,28 +40447,11 @@
       "name": "Farhana Merchant Malik",
       "firm": "Dentons Link Legal",
       "role": "Partner, Real Estate practice",
-      "transaction_types": [
-        "acquisition"
-      ],
-      "practice_areas": [
-        "Mergers & Acquisitions"
-      ],
+      "transaction_types": [],
+      "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "JSA's Farhana Malik joins Dentons Link Legal as Partner in Real Estate practice",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/jsas-farhana-malik-joins-dentons-link-legal-as-partner-in-real-estate-practice",
-          "source": "Bar and Bench",
-          "types": [
-            "acquisition"
-          ],
-          "practice_areas": [
-            "Mergers & Acquisitions"
-          ]
-        }
-      ],
-      "snapshot": "JSA's Farhana Malik joins Dentons Link Legal as Partner in Real Estate practice"
+      "deals": [],
+      "snapshot": null
     },
     {
       "id": 1397,
@@ -41030,14 +40768,6 @@
       ],
       "deals": [
         {
-          "headline": "Nidhi Khadria joins JSA as Partner in Mumbai - Bar and Bench",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/nidhi-khadria-joins-jsa-as-partner-in-mumbai",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        },
-        {
           "headline": "Trilegal advises Agrow Allied Ventures on raising ₹186 crore from ICICI Ventures",
           "client": "ICICI Ventures",
           "url": "https://www.barandbench.com/dealstreet/trilegal-advises-agrow-allied-ventures-on-raising-186-crore-from-icici-ventures",
@@ -41050,7 +40780,7 @@
           ]
         }
       ],
-      "snapshot": "Nidhi Khadria joins JSA as Partner in Mumbai - Bar and Bench"
+      "snapshot": "Trilegal advises Agrow Allied Ventures on raising ₹186 crore from ICICI Ventures"
     },
     {
       "id": 2100,
@@ -42924,34 +42654,17 @@
       "name": "Goolam E Vahanvati",
       "firm": null,
       "role": "Former Attorney General",
-      "transaction_types": [
-        "acquisition"
-      ],
-      "practice_areas": [
-        "Mergers & Acquisitions"
-      ],
+      "transaction_types": [],
+      "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "Former Shardul Amarchand Mangaldas lawyer Anoopam N Prasad sets up chambers",
-          "client": null,
-          "url": "https://www.barandbench.com/amp/story/news/corporate/sam-counsel-anoopam-n-prasad-sets-up-chambers",
-          "source": "Bar and Bench",
-          "types": [
-            "acquisition"
-          ],
-          "practice_areas": [
-            "Mergers & Acquisitions"
-          ]
-        }
-      ],
-      "snapshot": "Former Shardul Amarchand Mangaldas lawyer Anoopam N Prasad sets up chambers",
+      "deals": [],
+      "snapshot": null,
       "same_name_elsewhere": [
         {
           "id": 1401,
           "firm": "Shardul Amarchand Mangaldas & Co",
           "role": "Former Attorney General / Senior Counsel",
-          "deal_count": 1
+          "deal_count": 0
         }
       ],
       "firm_verification": {
@@ -42968,23 +42681,14 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "Former Shardul Amarchand Mangaldas lawyer Anoopam N Prasad sets up chambers",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/sam-counsel-anoopam-n-prasad-sets-up-chambers",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        }
-      ],
-      "snapshot": "Former Shardul Amarchand Mangaldas lawyer Anoopam N Prasad sets up chambers",
+      "deals": [],
+      "snapshot": null,
       "same_name_elsewhere": [
         {
           "id": 1403,
           "firm": null,
           "role": "Former Attorney General",
-          "deal_count": 1
+          "deal_count": 0
         }
       ],
       "firm_verification": {
@@ -56661,8 +56365,7 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Signature Global and Gurugram Commercity Limited",
-        "Signature Global (India) Limited"
+        "Signature Global and Gurugram Commercity Limited"
       ],
       "deals": [
         {
@@ -56676,14 +56379,6 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
-        },
-        {
-          "headline": "Trilegal lawyer Khushboo Sukhwani joins Signature Global as General Counsel",
-          "client": "Signature Global (India) Limited",
-          "url": "https://www.barandbench.com/news/corporate/trilegal-lawyer-khushboo-sukhwani-joins-signature-global-as-general-counsel",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
         }
       ],
       "snapshot": "Trilegal advises Signature Global on ₹1,283 crore investment by RMZ FOR Gurugram project"
@@ -59814,26 +59509,6 @@
       ],
       "deals": [
         {
-          "headline": "CAM Director Kushal Ramotre joins JSA as a Partner - Bar and Bench",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/cam-director-kushal-ramotre-joins-jsa-as-a-partner",
-          "source": "Bar and Bench",
-          "types": [
-            "investment"
-          ],
-          "practice_areas": [
-            "Private Equity & Venture Capital"
-          ]
-        },
-        {
-          "headline": "CAM Director Kushal Ramotre joins JSA as a Partner",
-          "client": null,
-          "url": "https://www.barandbench.com/amp/story/news/corporate/cam-director-kushal-ramotre-joins-jsa-as-a-partner",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        },
-        {
           "headline": "JSA snaps up three CMS INDUSLAW Corporate Partners and a team of 19 lawyers",
           "client": null,
           "url": "https://www.barandbench.com/amp/story/news/corporate/jsa-snaps-up-three-cms-induslaw-corporate-partners",
@@ -59860,7 +59535,7 @@
           ]
         }
       ],
-      "snapshot": "CAM Director Kushal Ramotre joins JSA as a Partner - Bar and Bench"
+      "snapshot": "JSA snaps up three CMS INDUSLAW Corporate Partners and a team of 19 lawyers"
     },
     {
       "id": 495,
@@ -61870,14 +61545,6 @@
           "practice_areas": [
             "Capital Markets"
           ]
-        },
-        {
-          "headline": "Shwetank Sharma from S&R joins JSA as Partner in the Capital Markets practice",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/shwetank-sharma-joins-jsa-as-partner-in-capital-markets-practice",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
         },
         {
           "headline": "Trilegal, JSA, Hogan Lovells act on Studds ₹455 crore IPO - Bar and Bench",
@@ -64123,14 +63790,6 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
-        },
-        {
-          "headline": "Shashank Shekhar joins JSA as Partner in Bengaluru",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/shashank-shekhar-joins-jsa-as-partner-in-bengaluru",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
         }
       ],
       "snapshot": "JSA, Cyril Amarchand Mangaldas act on Allianz - Jio General Insurance JV"
@@ -72323,17 +71982,8 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "Nidhi Khadria joins JSA as Partner in Mumbai - Bar and Bench",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/nidhi-khadria-joins-jsa-as-partner-in-mumbai",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        }
-      ],
-      "snapshot": "Nidhi Khadria joins JSA as Partner in Mumbai - Bar and Bench",
+      "deals": [],
+      "snapshot": null,
       "same_name_elsewhere": [
         {
           "id": 2099,
@@ -72374,7 +72024,7 @@
           "id": 1527,
           "firm": "JSA Advocates & Solicitors",
           "role": "Partner",
-          "deal_count": 1
+          "deal_count": 0
         }
       ],
       "firm_verification": {
@@ -74796,14 +74446,6 @@
           ]
         },
         {
-          "headline": "S&R's Raya Hazarika joins Trilegal as Partner in Corporate practice - Bar and Bench",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/raya-hazarika-joins-trilegal-as-partner-in-corporate-practice",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        },
-        {
           "headline": "Shardul Amarchand Mangaldas Capital Markets Partner Rohit Tiwari moves to Trilegal",
           "client": null,
           "url": "https://www.barandbench.com/news/corporate/shardul-amarchand-mangaldas-capital-markets-partner-rohit-tiwari-moves-to-trilegal",
@@ -74816,14 +74458,6 @@
           "client": "Blackstone",
           "url": "https://www.barandbench.com/dealstreet/tta-trilegal-gibson-dunn-act-on-neysa-securing-1-billion-funding-from-blackstone",
           "source": "",
-          "types": [],
-          "practice_areas": []
-        },
-        {
-          "headline": "Umang Pathak joins Trilegal as Senior Specialist - Climate Change, ESG Disputes and Regulatory",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/umang-pathak-joins-trilegal-as-senior-specialist-climate-change-esg-disputes-and-regulatory",
-          "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
         },
@@ -75566,17 +75200,8 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "Trilegal counsel R V Goutham joins Samvād: Partners as Partner in Dispute Resolution practice",
-          "client": null,
-          "url": "https://www.barandbench.com/amp/story/news/corporate/trilegal-counsel-r-v-goutham-joins-samvd-partners-as-partner-in-dispute-resolution-practice",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        }
-      ],
-      "snapshot": "Trilegal counsel R V Goutham joins Samvād: Partners as Partner in Dispute Resolution practice"
+      "deals": [],
+      "snapshot": null
     },
     {
       "id": 2235,
@@ -76012,28 +75637,11 @@
       "name": "Nusrat Hassan",
       "firm": "Dentons Link Legal",
       "role": "Managing Partner",
-      "transaction_types": [
-        "acquisition"
-      ],
-      "practice_areas": [
-        "Mergers & Acquisitions"
-      ],
+      "transaction_types": [],
+      "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "JSA's Farhana Malik joins Dentons Link Legal as Partner in Real Estate practice",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/jsas-farhana-malik-joins-dentons-link-legal-as-partner-in-real-estate-practice",
-          "source": "Bar and Bench",
-          "types": [
-            "acquisition"
-          ],
-          "practice_areas": [
-            "Mergers & Acquisitions"
-          ]
-        }
-      ],
-      "snapshot": "JSA's Farhana Malik joins Dentons Link Legal as Partner in Real Estate practice"
+      "deals": [],
+      "snapshot": null
     },
     {
       "id": 2921,
@@ -76812,26 +76420,6 @@
       ],
       "deals": [
         {
-          "headline": "Exclusive: Cyril Amarchand Mangaldas Senior Partner Ravindra Bandhakavi resigns with 3 ...",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/exclusive-cyril-amarchand-mangaldas-senior-partner-ravindra-bandhakavi-resigns-with-3-other-partners",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        },
-        {
-          "headline": "Khaitan's Prateek Bhandari joins Shardul Amarchand Mangaldas as Partner in Infrastructure ...",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/khaitan-counsel-prateek-bhandari-joins-shardul-amarchand-mangaldas-as-partner",
-          "source": "Bar and Bench",
-          "types": [
-            "financing"
-          ],
-          "practice_areas": [
-            "Banking & Finance"
-          ]
-        },
-        {
           "headline": "Emirates NBD set to acquire 60% stake in RBL Bank, SAM, AZB advise - Bar and Bench",
           "client": "Emirates NBD",
           "url": "https://www.barandbench.com/dealstreet/emirates-nbd-set-to-acquire-60-stake-in-rbl-bank-sam-azb-advise",
@@ -76870,7 +76458,7 @@
           ]
         }
       ],
-      "snapshot": "Exclusive: Cyril Amarchand Mangaldas Senior Partner Ravindra Bandhakavi resigns with 3 ..."
+      "snapshot": "Emirates NBD set to acquire 60% stake in RBL Bank, SAM, AZB advise - Bar and Bench"
     },
     {
       "id": 1267,
@@ -77048,17 +76636,8 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "Former Bharucha Partner Parag Bhide joins AQUILAW to head Corporate and M&A practice ...",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/parag-bhide-joins-aquilaw-as-partner-to-head-corporate-and-ma-practice-in-mumbai",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        }
-      ],
-      "snapshot": "Former Bharucha Partner Parag Bhide joins AQUILAW to head Corporate and M&A practice ..."
+      "deals": [],
+      "snapshot": null
     },
     {
       "id": 1157,
@@ -78702,17 +78281,8 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "Trilegal counsel R V Goutham joins Samvād: Partners as Partner in Dispute Resolution practice",
-          "client": null,
-          "url": "https://www.barandbench.com/amp/story/news/corporate/trilegal-counsel-r-v-goutham-joins-samvd-partners-as-partner-in-dispute-resolution-practice",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        }
-      ],
-      "snapshot": "Trilegal counsel R V Goutham joins Samvād: Partners as Partner in Dispute Resolution practice"
+      "deals": [],
+      "snapshot": null
     },
     {
       "id": 961,
@@ -78730,14 +78300,6 @@
       ],
       "deals": [
         {
-          "headline": "Exclusive: Cyril Amarchand Mangaldas Senior Partner Ravindra Bandhakavi resigns with 3 ...",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/exclusive-cyril-amarchand-mangaldas-senior-partner-ravindra-bandhakavi-resigns-with-3-other-partners",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        },
-        {
           "headline": "SAM, Khaitan, CAM, Trilegal, Hogan Lovells act on NephroPlus ~₹871 crore IPO",
           "client": "International Finance Corporation",
           "url": "https://www.barandbench.com/dealstreet/sam-khaitan-cam-trilegal-act-on-nephroplus-871-crore-ipo",
@@ -78750,7 +78312,7 @@
           ]
         }
       ],
-      "snapshot": "Exclusive: Cyril Amarchand Mangaldas Senior Partner Ravindra Bandhakavi resigns with 3 ..."
+      "snapshot": "SAM, Khaitan, CAM, Trilegal, Hogan Lovells act on NephroPlus ~₹871 crore IPO"
     },
     {
       "id": 2835,
@@ -81261,28 +80823,11 @@
       "name": "Prateek Bhandari",
       "firm": "Shardul Amarchand Mangaldas & Co",
       "role": "Partner, Infrastructure, Energy and Project Finance Practice",
-      "transaction_types": [
-        "financing"
-      ],
-      "practice_areas": [
-        "Banking & Finance"
-      ],
+      "transaction_types": [],
+      "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "Khaitan's Prateek Bhandari joins Shardul Amarchand Mangaldas as Partner in Infrastructure ...",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/khaitan-counsel-prateek-bhandari-joins-shardul-amarchand-mangaldas-as-partner",
-          "source": "Bar and Bench",
-          "types": [
-            "financing"
-          ],
-          "practice_areas": [
-            "Banking & Finance"
-          ]
-        }
-      ],
-      "snapshot": "Khaitan's Prateek Bhandari joins Shardul Amarchand Mangaldas as Partner in Infrastructure ...",
+      "deals": [],
+      "snapshot": null,
       "same_name_elsewhere": [
         {
           "id": 325,
@@ -81323,7 +80868,7 @@
           "id": 1747,
           "firm": "Shardul Amarchand Mangaldas & Co",
           "role": "Partner, Infrastructure, Energy and Project Finance Practice",
-          "deal_count": 1
+          "deal_count": 0
         }
       ],
       "firm_verification": {
@@ -84566,17 +84111,8 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "Trilegal counsel R V Goutham joins Samvād: Partners as Partner in Dispute Resolution practice",
-          "client": null,
-          "url": "https://www.barandbench.com/amp/story/news/corporate/trilegal-counsel-r-v-goutham-joins-samvd-partners-as-partner-in-dispute-resolution-practice",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        }
-      ],
-      "snapshot": "Trilegal counsel R V Goutham joins Samvād: Partners as Partner in Dispute Resolution practice"
+      "deals": [],
+      "snapshot": null
     },
     {
       "id": 3054,
@@ -87237,14 +86773,6 @@
       ],
       "deals": [
         {
-          "headline": "CAM Partner Saurabh Sharma joins JSA in Ahmedabad - Bar and Bench",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/cam-partner-saurabh-sharma-joins-jsa-to-strengthen-corporate-practice",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        },
-        {
           "headline": "JSA advises Zydus Hospitals on acquisition of VINS Hospital - Bar and Bench",
           "client": "Zydus Hospitals",
           "url": "https://www.barandbench.com/dealstreet/jsa-advises-zydus-hospitals-on-acquisition-of-vins-hospital",
@@ -87257,7 +86785,7 @@
           ]
         }
       ],
-      "snapshot": "CAM Partner Saurabh Sharma joins JSA in Ahmedabad - Bar and Bench"
+      "snapshot": "JSA advises Zydus Hospitals on acquisition of VINS Hospital - Bar and Bench"
     },
     {
       "id": 1803,
@@ -87267,17 +86795,8 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "Shashank Shekhar joins JSA as Partner in Bengaluru",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/shashank-shekhar-joins-jsa-as-partner-in-bengaluru",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        }
-      ],
-      "snapshot": "Shashank Shekhar joins JSA as Partner in Bengaluru"
+      "deals": [],
+      "snapshot": null
     },
     {
       "id": 1520,
@@ -88654,14 +88173,6 @@
           "practice_areas": []
         },
         {
-          "headline": "Exclusive: Cyril Amarchand Mangaldas Senior Partner Ravindra Bandhakavi resigns with 3 ...",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/exclusive-cyril-amarchand-mangaldas-senior-partner-ravindra-bandhakavi-resigns-with-3-other-partners",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        },
-        {
           "headline": "SAM, Khaitan, CAM, Trilegal, Hogan Lovells act on NephroPlus ~₹871 crore IPO",
           "client": "International Finance Corporation",
           "url": "https://www.barandbench.com/dealstreet/sam-khaitan-cam-trilegal-act-on-nephroplus-871-crore-ipo",
@@ -88874,17 +88385,8 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "S&R's Raya Hazarika joins Trilegal as Partner in Corporate practice - Bar and Bench",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/raya-hazarika-joins-trilegal-as-partner-in-corporate-practice",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        }
-      ],
-      "snapshot": "S&R's Raya Hazarika joins Trilegal as Partner in Corporate practice - Bar and Bench"
+      "deals": [],
+      "snapshot": null
     },
     {
       "id": 1622,
@@ -95160,14 +94662,6 @@
       ],
       "deals": [
         {
-          "headline": "S&R's Raya Hazarika joins Trilegal as Partner in Corporate practice - Bar and Bench",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/raya-hazarika-joins-trilegal-as-partner-in-corporate-practice",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        },
-        {
           "headline": "Trilegal advises Mahindra Lifespaces on JV with Mitsui Fudosan for Bengaluru housing project",
           "client": "Mahindra Lifespaces",
           "url": "https://www.barandbench.com/dealstreet/trilegal-advises-mahindra-lifespaces-on-jv-with-mitsui-fudosan-for-bengaluru-housing-project",
@@ -95196,7 +94690,7 @@
           ]
         }
       ],
-      "snapshot": "S&R's Raya Hazarika joins Trilegal as Partner in Corporate practice - Bar and Bench"
+      "snapshot": "Trilegal advises Mahindra Lifespaces on JV with Mitsui Fudosan for Bengaluru housing project"
     },
     {
       "id": 2431,
@@ -100530,32 +100024,11 @@
       "name": "Saumya Kakar",
       "firm": "S&R Associates",
       "role": "Partner",
-      "transaction_types": [
-        "investment",
-        "joint venture"
-      ],
-      "practice_areas": [
-        "Corporate & Commercial",
-        "Private Equity & Venture Capital"
-      ],
+      "transaction_types": [],
+      "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "Trilegal's Saumya Kakar joins S&R Associates as Partner in Mumbai - Bar and Bench",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/saumya-kakar-joins-sr-associates-as-partner-in-mumbai",
-          "source": "Bar and Bench",
-          "types": [
-            "investment",
-            "joint venture"
-          ],
-          "practice_areas": [
-            "Corporate & Commercial",
-            "Private Equity & Venture Capital"
-          ]
-        }
-      ],
-      "snapshot": "Trilegal's Saumya Kakar joins S&R Associates as Partner in Mumbai - Bar and Bench"
+      "deals": [],
+      "snapshot": null
     },
     {
       "id": 24,
@@ -100729,14 +100202,6 @@
       ],
       "deals": [
         {
-          "headline": "CAM Partner Saurabh Sharma joins JSA in Ahmedabad - Bar and Bench",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/cam-partner-saurabh-sharma-joins-jsa-to-strengthen-corporate-practice",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        },
-        {
           "headline": "JSA advises Zydus Hospitals on acquisition of VINS Hospital - Bar and Bench",
           "client": "Zydus Hospitals",
           "url": "https://www.barandbench.com/dealstreet/jsa-advises-zydus-hospitals-on-acquisition-of-vins-hospital",
@@ -100749,7 +100214,7 @@
           ]
         }
       ],
-      "snapshot": "CAM Partner Saurabh Sharma joins JSA in Ahmedabad - Bar and Bench",
+      "snapshot": "JSA advises Zydus Hospitals on acquisition of VINS Hospital - Bar and Bench",
       "same_name_elsewhere": [
         {
           "id": 2565,
@@ -100797,7 +100262,7 @@
           "id": 2095,
           "firm": "JSA Advocates & Solicitors",
           "role": "Partner",
-          "deal_count": 2
+          "deal_count": 1
         }
       ],
       "firm_verification": {
@@ -100993,32 +100458,11 @@
       "name": "Sayan Ghose",
       "firm": "JSA Advocates & Solicitors",
       "role": "Partner, Corporate practice",
-      "transaction_types": [
-        "investment",
-        "joint venture"
-      ],
-      "practice_areas": [
-        "Corporate & Commercial",
-        "Private Equity & Venture Capital"
-      ],
+      "transaction_types": [],
+      "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "Trilegal's Sayan Ghose joins JSA as Partner in Corporate practice - Bar and Bench",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/sayan-ghose-joins-jsa-as-partner-in-corporate-practice",
-          "source": "Bar and Bench",
-          "types": [
-            "investment",
-            "joint venture"
-          ],
-          "practice_areas": [
-            "Corporate & Commercial",
-            "Private Equity & Venture Capital"
-          ]
-        }
-      ],
-      "snapshot": "Trilegal's Sayan Ghose joins JSA as Partner in Corporate practice - Bar and Bench"
+      "deals": [],
+      "snapshot": null
     },
     {
       "id": 684,
@@ -103122,17 +102566,8 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "Shashank Shekhar joins JSA as Partner in Bengaluru",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/shashank-shekhar-joins-jsa-as-partner-in-bengaluru",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        }
-      ],
-      "snapshot": "Shashank Shekhar joins JSA as Partner in Bengaluru"
+      "deals": [],
+      "snapshot": null
     },
     {
       "id": 2890,
@@ -108231,7 +107666,6 @@
       "firm": "Cyril Amarchand Mangaldas",
       "role": "Partner",
       "transaction_types": [
-        "acquisition",
         "merger"
       ],
       "practice_areas": [
@@ -108242,18 +107676,6 @@
         "Aditya Birla Capital Limited"
       ],
       "deals": [
-        {
-          "headline": "CAM Partners Anchal Dhir and Shubham Rastogi resign to join Anagram Partners",
-          "client": null,
-          "url": "https://www.barandbench.com/amp/story/news/corporate/cam-partners-anchal-dhir-and-shubham-rastogi-have-resigned-to-join-anagram-partners",
-          "source": "Bar and Bench",
-          "types": [
-            "acquisition"
-          ],
-          "practice_areas": [
-            "Mergers & Acquisitions"
-          ]
-        },
         {
           "headline": "CAM, SAM act on Devyani International – Sapphire Foods merger",
           "client": "Devyani International",
@@ -108275,7 +107697,7 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "CAM Partners Anchal Dhir and Shubham Rastogi resign to join Anagram Partners"
+      "snapshot": "CAM, SAM act on Devyani International – Sapphire Foods merger"
     },
     {
       "id": 729,
@@ -108684,28 +108106,11 @@
       "name": "Shuva Mandal",
       "firm": "Anagram Partners",
       "role": "Partner",
-      "transaction_types": [
-        "acquisition"
-      ],
-      "practice_areas": [
-        "Mergers & Acquisitions"
-      ],
+      "transaction_types": [],
+      "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "CAM Partners Anchal Dhir and Shubham Rastogi resign to join Anagram Partners",
-          "client": null,
-          "url": "https://www.barandbench.com/amp/story/news/corporate/cam-partners-anchal-dhir-and-shubham-rastogi-have-resigned-to-join-anagram-partners",
-          "source": "Bar and Bench",
-          "types": [
-            "acquisition"
-          ],
-          "practice_areas": [
-            "Mergers & Acquisitions"
-          ]
-        }
-      ],
-      "snapshot": "CAM Partners Anchal Dhir and Shubham Rastogi resign to join Anagram Partners"
+      "deals": [],
+      "snapshot": null
     },
     {
       "id": 1857,
@@ -108941,17 +108346,8 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "Shwetank Sharma from S&R joins JSA as Partner in the Capital Markets practice",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/shwetank-sharma-joins-jsa-as-partner-in-capital-markets-practice",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        }
-      ],
-      "snapshot": "Shwetank Sharma from S&R joins JSA as Partner in the Capital Markets practice",
+      "deals": [],
+      "snapshot": null,
       "same_name_elsewhere": [
         {
           "id": 2779,
@@ -109000,7 +108396,7 @@
           "id": 1371,
           "firm": "JSA Advocates & Solicitors",
           "role": "Partner, Capital Markets practice",
-          "deal_count": 1
+          "deal_count": 0
         }
       ],
       "firm_verification": {
@@ -109831,18 +109227,6 @@
           ]
         },
         {
-          "headline": "CAM Director Kushal Ramotre joins JSA as a Partner - Bar and Bench",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/cam-director-kushal-ramotre-joins-jsa-as-a-partner",
-          "source": "Bar and Bench",
-          "types": [
-            "investment"
-          ],
-          "practice_areas": [
-            "Private Equity & Venture Capital"
-          ]
-        },
-        {
           "headline": "JSA acts on Aerchain $13 million Series A fundraise",
           "client": "Pavestone Technology Fund",
           "url": "https://www.barandbench.com/amp/story/dealstreet/jsa-acts-on-aerchain-13-million-series-a-fundraise",
@@ -109879,14 +109263,6 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
-        },
-        {
-          "headline": "CAM Director Kushal Ramotre joins JSA as a Partner",
-          "client": null,
-          "url": "https://www.barandbench.com/amp/story/news/corporate/cam-director-kushal-ramotre-joins-jsa-as-a-partner",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
         },
         {
           "headline": "JSA advises Somerset Indus Capital Partners on Apex Hospitals Exit - Bar and Bench",
@@ -110603,34 +109979,17 @@
       "name": "Sidharth Luthra",
       "firm": null,
       "role": "Senior Advocate",
-      "transaction_types": [
-        "acquisition"
-      ],
-      "practice_areas": [
-        "Mergers & Acquisitions"
-      ],
+      "transaction_types": [],
+      "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "Former Shardul Amarchand Mangaldas lawyer Anoopam N Prasad sets up chambers",
-          "client": null,
-          "url": "https://www.barandbench.com/amp/story/news/corporate/sam-counsel-anoopam-n-prasad-sets-up-chambers",
-          "source": "Bar and Bench",
-          "types": [
-            "acquisition"
-          ],
-          "practice_areas": [
-            "Mergers & Acquisitions"
-          ]
-        }
-      ],
-      "snapshot": "Former Shardul Amarchand Mangaldas lawyer Anoopam N Prasad sets up chambers",
+      "deals": [],
+      "snapshot": null,
       "same_name_elsewhere": [
         {
           "id": 1402,
           "firm": "Shardul Amarchand Mangaldas & Co",
           "role": "Senior Advocate",
-          "deal_count": 1
+          "deal_count": 0
         }
       ],
       "firm_verification": {
@@ -110647,23 +110006,14 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "Former Shardul Amarchand Mangaldas lawyer Anoopam N Prasad sets up chambers",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/sam-counsel-anoopam-n-prasad-sets-up-chambers",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        }
-      ],
-      "snapshot": "Former Shardul Amarchand Mangaldas lawyer Anoopam N Prasad sets up chambers",
+      "deals": [],
+      "snapshot": null,
       "same_name_elsewhere": [
         {
           "id": 1404,
           "firm": null,
           "role": "Senior Advocate",
-          "deal_count": 1
+          "deal_count": 0
         }
       ],
       "firm_verification": {
@@ -113052,14 +112402,6 @@
       ],
       "deals": [
         {
-          "headline": "Exclusive: Cyril Amarchand Mangaldas Senior Partner Ravindra Bandhakavi resigns with 3 ...",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/exclusive-cyril-amarchand-mangaldas-senior-partner-ravindra-bandhakavi-resigns-with-3-other-partners",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        },
-        {
           "headline": "CAM, SAM, JSA, Linklaters act on Shadowfax ₹1,907 crore IPO - Bar and Bench",
           "client": "IFC",
           "url": "https://www.barandbench.com/dealstreet/cam-sam-jsa-linklaters-act-on-shadowfax-1907-crore-ipo",
@@ -113080,7 +112422,7 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "Exclusive: Cyril Amarchand Mangaldas Senior Partner Ravindra Bandhakavi resigns with 3 ..."
+      "snapshot": "CAM, SAM, JSA, Linklaters act on Shadowfax ₹1,907 crore IPO - Bar and Bench"
     },
     {
       "id": 882,
@@ -113246,25 +112588,9 @@
           "practice_areas": []
         },
         {
-          "headline": "S&R's Raya Hazarika joins Trilegal as Partner in Corporate practice - Bar and Bench",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/raya-hazarika-joins-trilegal-as-partner-in-corporate-practice",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        },
-        {
           "headline": "Shardul Amarchand Mangaldas Capital Markets Partner Rohit Tiwari moves to Trilegal",
           "client": null,
           "url": "https://www.barandbench.com/news/corporate/shardul-amarchand-mangaldas-capital-markets-partner-rohit-tiwari-moves-to-trilegal",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        },
-        {
-          "headline": "Umang Pathak joins Trilegal as Senior Specialist - Climate Change, ESG Disputes and Regulatory",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/umang-pathak-joins-trilegal-as-senior-specialist-climate-change-esg-disputes-and-regulatory",
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
@@ -114779,17 +114105,8 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "Former Bharucha Partner Parag Bhide joins AQUILAW to head Corporate and M&A practice ...",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/parag-bhide-joins-aquilaw-as-partner-to-head-corporate-and-ma-practice-in-mumbai",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        }
-      ],
-      "snapshot": "Former Bharucha Partner Parag Bhide joins AQUILAW to head Corporate and M&A practice ..."
+      "deals": [],
+      "snapshot": null
     },
     {
       "id": 1887,
@@ -115855,17 +115172,8 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "CAM Partner Faraz Alam Sagar joins CMS INDUSLAW as Equity Partner - Bar and Bench",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/cam-partner-faraz-alam-sagar-joins-cms-induslaw-as-equity-partner",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        }
-      ],
-      "snapshot": "CAM Partner Faraz Alam Sagar joins CMS INDUSLAW as Equity Partner - Bar and Bench"
+      "deals": [],
+      "snapshot": null
     },
     {
       "id": 300,
@@ -117128,17 +116436,8 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "Nidhi Khadria joins JSA as Partner in Mumbai - Bar and Bench",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/nidhi-khadria-joins-jsa-as-partner-in-mumbai",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        }
-      ],
-      "snapshot": "Nidhi Khadria joins JSA as Partner in Mumbai - Bar and Bench"
+      "deals": [],
+      "snapshot": null
     },
     {
       "id": 3041,
@@ -117360,7 +116659,6 @@
       "firm": "Cyril Amarchand Mangaldas",
       "role": "Senior Associate",
       "transaction_types": [
-        "acquisition",
         "merger"
       ],
       "practice_areas": [
@@ -117370,18 +116668,6 @@
         "Devyani International"
       ],
       "deals": [
-        {
-          "headline": "CAM Partners Anchal Dhir and Shubham Rastogi resign to join Anagram Partners",
-          "client": null,
-          "url": "https://www.barandbench.com/amp/story/news/corporate/cam-partners-anchal-dhir-and-shubham-rastogi-have-resigned-to-join-anagram-partners",
-          "source": "Bar and Bench",
-          "types": [
-            "acquisition"
-          ],
-          "practice_areas": [
-            "Mergers & Acquisitions"
-          ]
-        },
         {
           "headline": "CAM, SAM act on Devyani International – Sapphire Foods merger",
           "client": "Devyani International",
@@ -117395,7 +116681,7 @@
           ]
         }
       ],
-      "snapshot": "CAM Partners Anchal Dhir and Shubham Rastogi resign to join Anagram Partners"
+      "snapshot": "CAM, SAM act on Devyani International – Sapphire Foods merger"
     },
     {
       "id": 1262,
@@ -121533,14 +120819,6 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
-        },
-        {
-          "headline": "Umang Pathak joins Trilegal as Senior Specialist - Climate Change, ESG Disputes and Regulatory",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/umang-pathak-joins-trilegal-as-senior-specialist-climate-change-esg-disputes-and-regulatory",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
         }
       ],
       "snapshot": "JSA, JM+P act on Iscon Balaji Foods $215 million Series A fundraise"
@@ -124092,7 +123370,6 @@
       "firm": "Cyril Amarchand Mangaldas",
       "role": "Senior Associate",
       "transaction_types": [
-        "acquisition",
         "merger"
       ],
       "practice_areas": [
@@ -124103,18 +123380,6 @@
         "Aditya Birla Capital Limited"
       ],
       "deals": [
-        {
-          "headline": "CAM Partners Anchal Dhir and Shubham Rastogi resign to join Anagram Partners",
-          "client": null,
-          "url": "https://www.barandbench.com/amp/story/news/corporate/cam-partners-anchal-dhir-and-shubham-rastogi-have-resigned-to-join-anagram-partners",
-          "source": "Bar and Bench",
-          "types": [
-            "acquisition"
-          ],
-          "practice_areas": [
-            "Mergers & Acquisitions"
-          ]
-        },
         {
           "headline": "CAM, SAM act on Devyani International – Sapphire Foods merger",
           "client": "Devyani International",
@@ -124136,7 +123401,7 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "CAM Partners Anchal Dhir and Shubham Rastogi resign to join Anagram Partners"
+      "snapshot": "CAM, SAM act on Devyani International – Sapphire Foods merger"
     },
     {
       "id": 1759,
@@ -124986,15 +124251,8 @@
       "name": "Venkatesh Raman Prasad",
       "firm": "JSA Advocates & Solicitors",
       "role": "Partner",
-      "transaction_types": [
-        "acquisition",
-        "financing",
-        "merger"
-      ],
-      "practice_areas": [
-        "Banking & Finance",
-        "Mergers & Acquisitions"
-      ],
+      "transaction_types": [],
+      "practice_areas": [],
       "clients": [
         "Allianz Group"
       ],
@@ -125014,21 +124272,6 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
-        },
-        {
-          "headline": "Amitabh Sharma rejoins JSA as Partner in Gurugram - BarandBench",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/amitabh-sharma-rejoins-jsa-as-partner-in-gurugram",
-          "source": "",
-          "types": [
-            "acquisition",
-            "merger",
-            "financing"
-          ],
-          "practice_areas": [
-            "Banking & Finance",
-            "Mergers & Acquisitions"
-          ]
         }
       ],
       "snapshot": "JSA, Cyril Amarchand Mangaldas act on Allianz - Jio General Insurance JV"
@@ -126359,13 +125602,10 @@
         "Series A",
         "acquisition",
         "fundraise",
-        "investment",
-        "joint venture",
         "stake acquisition"
       ],
       "practice_areas": [
         "Capital Markets",
-        "Corporate & Commercial",
         "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
@@ -126430,20 +125670,6 @@
           ],
           "practice_areas": [
             "Capital Markets"
-          ]
-        },
-        {
-          "headline": "Trilegal's Sayan Ghose joins JSA as Partner in Corporate practice - Bar and Bench",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/sayan-ghose-joins-jsa-as-partner-in-corporate-practice",
-          "source": "Bar and Bench",
-          "types": [
-            "investment",
-            "joint venture"
-          ],
-          "practice_areas": [
-            "Corporate & Commercial",
-            "Private Equity & Venture Capital"
           ]
         },
         {
@@ -128018,86 +127244,22 @@
       "name": "Vivek Chandy",
       "firm": "JSA Advocates & Solicitors",
       "role": "Joint Managing Partner",
-      "transaction_types": [
-        "investment"
-      ],
-      "practice_areas": [
-        "Private Equity & Venture Capital"
-      ],
+      "transaction_types": [],
+      "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "CAM Director Kushal Ramotre joins JSA as a Partner - Bar and Bench",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/cam-director-kushal-ramotre-joins-jsa-as-a-partner",
-          "source": "Bar and Bench",
-          "types": [
-            "investment"
-          ],
-          "practice_areas": [
-            "Private Equity & Venture Capital"
-          ]
-        },
-        {
-          "headline": "CAM Director Kushal Ramotre joins JSA as a Partner",
-          "client": null,
-          "url": "https://www.barandbench.com/amp/story/news/corporate/cam-director-kushal-ramotre-joins-jsa-as-a-partner",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        },
-        {
-          "headline": "Shashank Shekhar joins JSA as Partner in Bengaluru",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/shashank-shekhar-joins-jsa-as-partner-in-bengaluru",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        },
-        {
-          "headline": "CAM Partner Saurabh Sharma joins JSA in Ahmedabad - Bar and Bench",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/cam-partner-saurabh-sharma-joins-jsa-to-strengthen-corporate-practice",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        }
-      ],
-      "snapshot": "CAM Director Kushal Ramotre joins JSA as a Partner - Bar and Bench"
+      "deals": [],
+      "snapshot": null
     },
     {
       "id": 2773,
       "name": "Vivek K Chandy",
       "firm": "JSA Advocates & Solicitors",
       "role": "Joint Managing Partner",
-      "transaction_types": [
-        "acquisition",
-        "financing",
-        "merger"
-      ],
-      "practice_areas": [
-        "Banking & Finance",
-        "Mergers & Acquisitions"
-      ],
+      "transaction_types": [],
+      "practice_areas": [],
       "clients": [],
-      "deals": [
-        {
-          "headline": "Amitabh Sharma rejoins JSA as Partner in Gurugram - BarandBench",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/amitabh-sharma-rejoins-jsa-as-partner-in-gurugram",
-          "source": "",
-          "types": [
-            "acquisition",
-            "merger",
-            "financing"
-          ],
-          "practice_areas": [
-            "Banking & Finance",
-            "Mergers & Acquisitions"
-          ]
-        }
-      ],
-      "snapshot": "Amitabh Sharma rejoins JSA as Partner in Gurugram - BarandBench"
+      "deals": [],
+      "snapshot": null
     },
     {
       "id": 768,
@@ -128118,22 +127280,6 @@
           "headline": "Rohit Ambast moves from CMS IndusLaw to JSA as Partner in Corporate practice",
           "client": null,
           "url": "https://www.barandbench.com/news/corporate/rohit-ambast-moves-from-cms-induslaw-to-jsa-as-partner-in-corporate-practice",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        },
-        {
-          "headline": "Shwetank Sharma from S&R joins JSA as Partner in the Capital Markets practice",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/shwetank-sharma-joins-jsa-as-partner-in-capital-markets-practice",
-          "source": "Bar and Bench",
-          "types": [],
-          "practice_areas": []
-        },
-        {
-          "headline": "Nidhi Khadria joins JSA as Partner in Mumbai - Bar and Bench",
-          "client": null,
-          "url": "https://www.barandbench.com/news/corporate/nidhi-khadria-joins-jsa-as-partner-in-mumbai",
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []

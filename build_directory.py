@@ -254,6 +254,32 @@ def practice_areas_for(types):
     return sorted(areas)
 
 
+# Headlines about a lawyer's career (joining/leaving a firm, being
+# promoted, setting up an independent practice) aren't M&A/transaction
+# deals -- they carry no client, no transaction type, and nothing that
+# should count as a "matter" on that person's record. But the person/firm/
+# role information in them is still real and worth keeping, so these are
+# excluded from the deals table (and deal counts) while the people
+# mentioned are still upserted with their current firm/role -- just with
+# no deal attached. Applied uniformly to every source (mbox-derived and
+# scraped) at this single consolidation point.
+PERSONNEL_MOVE_RE = re.compile(
+    r"\b(re-?joins?(?!\s+hands)|joins?(?!\s+hands)|quits?|resigns?|steps?\s+down|"
+    r"elevated\s+(to|as)|"
+    r"promoted\s+(to|as)|appointed\s+as|"
+    r"sets?\s+up\s+(his|her|their|own)?\s*(own\s+)?chambers|"
+    r"launches?\s+(his|her|their)?\s*own\s+(practice|firm|chambers)|"
+    r"starts?\s+(his|her|their)?\s*own\s+(practice|firm|chambers)|"
+    r"moves?\s+to\s+.+\s+as\s|named\s+partner|elevated\s+as\s+partner|"
+    r"hires?\s+.+\s+as\s+partner)\b",
+    re.I,
+)
+
+
+def is_personnel_move(headline):
+    return bool(PERSONNEL_MOVE_RE.search(headline))
+
+
 def main():
     deals = json.loads(SRC.read_text())
     if SCRAPED_SRC.exists():
@@ -350,42 +376,50 @@ def main():
 
     skipped_people = 0
 
-    for d in deals:
-        cur.execute(
-            "INSERT OR IGNORE INTO deals(headline, client, source, url, snippet) VALUES (?, ?, ?, ?, ?)",
-            (d["headline"], d.get("client"), d.get("source"), d.get("url"), d.get("snippet")),
-        )
-        cur.execute("SELECT id FROM deals WHERE url = ?", (d.get("url"),))
-        row = cur.fetchone()
-        if row is None:
-            # url was null/duplicate-less path fallback
-            cur.execute(
-                "SELECT id FROM deals WHERE headline = ? AND snippet IS ?",
-                (d["headline"], d.get("snippet")),
-            )
-            row = cur.fetchone()
-        deal_id = row[0]
+    skipped_personnel_moves = 0
 
-        types = d.get("transaction_types", [])
-        for t in types:
+    for d in deals:
+        personnel_move = is_personnel_move(d["headline"])
+        if personnel_move:
+            skipped_personnel_moves += 1
+            deal_id = None
+        else:
             cur.execute(
-                "INSERT INTO deal_types(deal_id, type) VALUES (?, ?)", (deal_id, t)
+                "INSERT OR IGNORE INTO deals(headline, client, source, url, snippet) VALUES (?, ?, ?, ?, ?)",
+                (d["headline"], d.get("client"), d.get("source"), d.get("url"), d.get("snippet")),
             )
-        for area in practice_areas_for(types):
-            cur.execute(
-                "INSERT INTO deal_practice_areas(deal_id, area) VALUES (?, ?)",
-                (deal_id, area),
-            )
+            cur.execute("SELECT id FROM deals WHERE url = ?", (d.get("url"),))
+            row = cur.fetchone()
+            if row is None:
+                # url was null/duplicate-less path fallback
+                cur.execute(
+                    "SELECT id FROM deals WHERE headline = ? AND snippet IS ?",
+                    (d["headline"], d.get("snippet")),
+                )
+                row = cur.fetchone()
+            deal_id = row[0]
+
+            types = d.get("transaction_types", [])
+            for t in types:
+                cur.execute(
+                    "INSERT INTO deal_types(deal_id, type) VALUES (?, ?)", (deal_id, t)
+                )
+            for area in practice_areas_for(types):
+                cur.execute(
+                    "INSERT INTO deal_practice_areas(deal_id, area) VALUES (?, ?)",
+                    (deal_id, area),
+                )
 
         deal_firm_ids = []
         for f in d.get("law_firms", []):
             fid = get_firm_id(f)
             if fid is not None:
                 deal_firm_ids.append(fid)
-                cur.execute(
-                    "INSERT INTO deal_firms(deal_id, firm_id) VALUES (?, ?)",
-                    (deal_id, fid),
-                )
+                if not personnel_move:
+                    cur.execute(
+                        "INSERT INTO deal_firms(deal_id, firm_id) VALUES (?, ?)",
+                        (deal_id, fid),
+                    )
 
         primary_firm_id = deal_firm_ids[0] if deal_firm_ids else None
 
@@ -398,10 +432,14 @@ def main():
             # priority over the deal-level guess of "first firm listed".
             person_firm_id = get_firm_id(p["firm"]) if p.get("firm") else primary_firm_id
             pid = get_person_id(pname, person_firm_id, p.get("role"))
-            cur.execute(
-                "INSERT OR IGNORE INTO person_deals(person_id, deal_id, client_override) VALUES (?, ?, ?)",
-                (pid, deal_id, p.get("client")),
-            )
+            # a personnel-move article isn't a matter -- record the
+            # person's (now-current) firm/role above, but don't link them
+            # to a "deal" that doesn't exist
+            if not personnel_move:
+                cur.execute(
+                    "INSERT OR IGNORE INTO person_deals(person_id, deal_id, client_override) VALUES (?, ?, ?)",
+                    (pid, deal_id, p.get("client")),
+                )
 
     conn.commit()
 
@@ -561,6 +599,7 @@ def main():
 
     print(f"people: {stats['people']}  firms: {stats['firms']}  deals: {stats['deals']}")
     print(f"skipped malformed person names: {skipped_people}")
+    print(f"personnel-move articles excluded from deal count: {skipped_personnel_moves}")
     print(f"wrote {DB_PATH.name} and {JSON_PATH.name}")
 
 
