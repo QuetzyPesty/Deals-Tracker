@@ -8,3 +8,7 @@ External purposes-Corp Transactions.txt
 
 # superseded by legal_directory.json
 people_directory.json
+
+# local-only NER experiment (spaCy) -- deliberately kept out of the repo,
+# not part of the production pipeline or CI
+local_tools/
