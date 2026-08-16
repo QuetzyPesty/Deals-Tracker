@@ -83,12 +83,15 @@
     flex:1; max-width:520px; position:relative;
   }
   header.top input[type=search]{
-    width:100%; padding:10px 14px 10px 40px;
+    width:100%; padding:10px 40px 10px 40px;
     border-radius:28px; border:1px solid var(--outline);
     background:var(--surface-2); color:var(--on-surface);
     font-size:14px; outline:none;
     transition: box-shadow .2s var(--md-easing), background .2s var(--md-easing);
   }
+  /* hide native browser clear-icon on type=search -- we render our own,
+     consistent one instead so it actually works the same in every browser */
+  header.top input[type=search]::-webkit-search-cancel-button{ -webkit-appearance:none; appearance:none; }
   header.top input[type=search]:focus{
     box-shadow: 0 0 0 3px var(--accent-container);
     background: var(--surface-1);
@@ -96,6 +99,44 @@
   header.top .search-wrap svg{
     position:absolute; left:12px; top:50%; transform:translateY(-50%);
     opacity:.6; pointer-events:none;
+  }
+  .search-clear-btn{
+    position:absolute; right:8px; top:50%; transform:translateY(-50%);
+    width:24px; height:24px; border-radius:50%; border:none;
+    background:var(--surface); color:var(--on-surface-var);
+    display:none; align-items:center; justify-content:center; cursor:pointer;
+    font-size:13px; line-height:1;
+  }
+  .search-clear-btn.visible{ display:flex; }
+  .search-clear-btn:hover{ background:var(--outline); }
+
+  .mobile-filters-btn{
+    display:none; align-items:center; gap:6px;
+    border:1px solid var(--outline); background:var(--surface-2); color:var(--on-surface);
+    border-radius:20px; padding:8px 14px; font-size:12.5px; font-weight:600; cursor:pointer;
+    position:relative;
+  }
+  .mobile-filters-btn .badge{
+    background:var(--accent); color:var(--surface-1); border-radius:10px;
+    font-size:10.5px; padding:1px 6px; font-variant-numeric: tabular-nums;
+  }
+  .rail-backdrop{
+    display:none; position:fixed; inset:0; background:var(--scrim); z-index:9;
+  }
+  .rail-backdrop.visible{ display:block; }
+  .rail-close-mobile{
+    display:none; border:none; background:var(--surface-2); color:var(--on-surface);
+    width:32px; height:32px; border-radius:50%; align-items:center; justify-content:center;
+    cursor:pointer; margin:0 10px 10px auto;
+  }
+
+  .sort-control{
+    display:flex; align-items:center; gap:8px; margin-left:auto;
+  }
+  .sort-control label{ font-size:11.5px; color:var(--on-surface-var); }
+  .sort-control select{
+    font-size:12px; padding:5px 8px; border-radius:10px; border:1px solid var(--outline);
+    background:var(--surface-1); color:var(--on-surface); cursor:pointer;
   }
   header.top .view-toggle{
     display:flex; background:var(--surface-2); border-radius:20px; padding:3px;
@@ -275,6 +316,7 @@
   }
   .detail-head .name{ font-size:20px; font-weight:800; }
   .detail-head .role-firm{ font-size:13px; color:var(--on-surface-var); margin-top:2px; }
+  .detail-head .full-title{ font-size:11.5px; color:var(--on-surface-var); opacity:.75; margin-top:2px; font-style:italic; }
   .detail-stats{
     display:flex; gap:18px; margin-top:16px; padding-top:14px; border-top:1px solid var(--outline);
   }
@@ -328,7 +370,18 @@
 
   @media (max-width: 860px){
     #app, #app.detail-open{ grid-template-columns: 1fr; }
-    nav.rail{ display:none; }
+    .mobile-filters-btn{ display:flex; }
+    header.top .stats{ display:none; }
+    nav.rail{
+      display:block;
+      position:fixed; top:0; left:0; bottom:0; z-index:10;
+      width:min(300px, 84vw); grid-row:unset;
+      transform: translateX(-105%);
+      transition: transform .25s var(--md-easing);
+      box-shadow: var(--elev-4);
+    }
+    nav.rail.mobile-open{ transform: translateX(0); }
+    .rail-close-mobile{ display:flex; }
     aside.detail{
       position:fixed; inset:0; z-index:20; grid-row: 1/-1;
       border-left:none;
@@ -359,9 +412,14 @@
       </svg>
       Brag-Brag<span class="dot">·</span>
     </div>
+    <button class="mobile-filters-btn" id="mobileFiltersBtn">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="6" x2="20" y2="6"/><line x1="7" y1="12" x2="17" y2="12"/><line x1="10" y1="18" x2="14" y2="18"/></svg>
+      Filters<span class="badge" id="mobileFiltersBadge" style="display:none;"></span>
+    </button>
     <div class="search-wrap">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
       <input id="search" type="search" placeholder="Search by name, firm, or client…">
+      <button class="search-clear-btn" id="searchClearBtn" title="Clear search">✕</button>
     </div>
     <div class="view-toggle">
       <button id="view-person" class="active">By person</button>
@@ -370,6 +428,7 @@
     <div class="stats" id="stats"></div>
   </header>
 
+  <div class="rail-backdrop" id="railBackdrop"></div>
   <nav class="rail" id="rail"></nav>
 
   <main class="list" id="list"></main>
@@ -409,12 +468,21 @@ let state = {
   collapsedSections: new Set(), // filter category headers folded shut: 'practice' | 'role' | 'txn'
   collapsedFirmGroups: new Set(), // firm headings folded shut in the "By firm" main view
   selectedId: null,
+  sortBy: 'deals', // 'deals' | 'name' | 'firm' -- ignored while a search query is active (relevance wins then)
 };
 
-const ALL_ROLES = Array.from(new Set(PEOPLE.map(p=>p.role).filter(Boolean))).sort();
+// Role filter chips are built from the simplified role_bucket (see
+// build_directory.py's role_bucket()) rather than the raw role string --
+// the raw dataset has 285 distinct role strings, 210 of them one-off
+// practice-area-qualified variants ("Partner (Head - Media, Education &
+// Gaming)"), which made the filter list unusable. The full original title
+// is still shown on that person's own detail page regardless.
+const ALL_ROLES = Array.from(new Set(PEOPLE.map(p=>p.role_bucket).filter(Boolean))).sort();
 const ALL_TXN = Array.from(new Set(PEOPLE.flatMap(p=>p.transaction_types))).sort();
 const ALL_PRACTICE = DATA.practice_areas || [];
 const ALL_FIRMS_WITH_GROUPS = FIRM_HIERARCHY.filter(h=>(h.practice_groups||[]).length).map(h=>h.firm);
+const FIRM_TOTAL_COUNTS = {};
+PEOPLE.forEach(p=>{ if(p.firm) FIRM_TOTAL_COUNTS[p.firm] = (FIRM_TOTAL_COUNTS[p.firm]||0)+1; });
 
 document.getElementById('stats').textContent =
   `${DATA.stats.people} people · ${DATA.stats.firms} firms · ${DATA.stats.practice_areas} practice areas · ${DATA.stats.deals} deals tracked`;
@@ -433,37 +501,98 @@ function clearAllFilters(){
   state.practiceFilters = new Set();
   state.query = '';
   document.getElementById('search').value = '';
+  if(typeof updateSearchClearBtn === 'function') updateSearchClearBtn();
   renderAll();
+}
+
+function matchesQuery(p, q){
+  if(!q) return true;
+  const hay = (
+    p.name + ' ' + (p.firm||'') + ' ' + p.clients.join(' ') + ' ' +
+    p.deals.map(d => d.headline + ' ' + (d.client||'')).join(' ')
+  ).toLowerCase();
+  return hay.includes(q);
 }
 
 function matchesFilters(p){
   if(state.firmFilter && p.firm !== state.firmFilter) return false;
   if(state.practiceFilterSet && !p.practice_areas.includes(state.practiceFilterSet)) return false;
-  if(state.roleFilters.size && !state.roleFilters.has(p.role)) return false;
+  if(state.roleFilters.size && !state.roleFilters.has(p.role_bucket)) return false;
   if(state.txnFilters.size && ![...state.txnFilters].some(t=>p.transaction_types.includes(t))) return false;
   if(state.practiceFilters.size && ![...state.practiceFilters].some(a=>p.practice_areas.includes(a))) return false;
-  if(state.query){
-    const hay = (
-      p.name + ' ' + (p.firm||'') + ' ' + p.clients.join(' ') + ' ' +
-      p.deals.map(d => d.headline + ' ' + (d.client||'')).join(' ')
-    ).toLowerCase();
-    if(!hay.includes(state.query.toLowerCase())) return false;
-  }
+  if(!matchesQuery(p, state.query.toLowerCase())) return false;
   return true;
+}
+
+// Faceted counts: "how many people would match if I also picked this
+// value", given every OTHER currently-active filter but not the one this
+// count is being computed for. Without this, sidebar counts stay frozen
+// at global totals even while filters/search are active, which is
+// confusing (e.g. a firm still showing "552" while a search is narrowing
+// the visible list to a handful of people).
+function countsExcluding(exclude){
+  return function(p){
+    if(exclude!=='firm' && state.firmFilter && p.firm !== state.firmFilter) return false;
+    if(exclude!=='practiceSet' && state.practiceFilterSet && !p.practice_areas.includes(state.practiceFilterSet)) return false;
+    if(exclude!=='role' && state.roleFilters.size && !state.roleFilters.has(p.role_bucket)) return false;
+    if(exclude!=='txn' && state.txnFilters.size && ![...state.txnFilters].some(t=>p.transaction_types.includes(t))) return false;
+    if(exclude!=='practice' && state.practiceFilters.size && ![...state.practiceFilters].some(a=>p.practice_areas.includes(a))) return false;
+    if(exclude!=='query' && !matchesQuery(p, state.query.toLowerCase())) return false;
+    return true;
+  };
+}
+
+// Search relevance: an exact/prefix name or firm match ranks far above a
+// person who merely co-appears in one matching deal headline (e.g. as
+// co-counsel) -- without this, results stayed sorted purely by raw deal
+// count and a search could look like it did nothing, since the top of
+// the list barely changed.
+function searchRelevance(p, q){
+  if(!q) return 0;
+  const nameL = p.name.toLowerCase();
+  const firmL = (p.firm||'').toLowerCase();
+  if(nameL === q) return 100;
+  if(nameL.startsWith(q)) return 90;
+  if(nameL.includes(q)) return 80;
+  if(firmL === q) return 70;
+  if(firmL.startsWith(q)) return 65;
+  if(firmL.includes(q)) return 60;
+  if(p.clients.some(c=>c.toLowerCase().includes(q))) return 40;
+  return 20; // only matched via deal-headline/client text
+}
+
+function sortPeople(list){
+  if(state.query){
+    const q = state.query.toLowerCase();
+    return list.slice().sort((a,b)=> searchRelevance(b,q)-searchRelevance(a,q) || b.deals.length-a.deals.length);
+  }
+  if(state.sortBy === 'name'){
+    return list.slice().sort((a,b)=> a.name.localeCompare(b.name));
+  }
+  if(state.sortBy === 'firm'){
+    return list.slice().sort((a,b)=>
+      (FIRM_TOTAL_COUNTS[b.firm]||0)-(FIRM_TOTAL_COUNTS[a.firm]||0) || b.deals.length-a.deals.length);
+  }
+  return list.slice().sort((a,b)=> b.deals.length-a.deals.length);
 }
 
 function renderRail(){
   const rail = document.getElementById('rail');
-  const firmCounts = {};
-  PEOPLE.forEach(p=>{ if(p.firm) firmCounts[p.firm] = (firmCounts[p.firm]||0)+1; });
   const hierarchyByFirm = Object.fromEntries(FIRM_HIERARCHY.map(h=>[h.firm, h]));
-  const firms = Object.keys(firmCounts).sort((a,b)=>firmCounts[b]-firmCounts[a]);
+  // Row ORDER stays stable (by global popularity) so the list doesn't
+  // reshuffle as filters change; only the COUNT next to each row updates
+  // live to reflect the other currently-active filters.
+  const firms = Object.keys(FIRM_TOTAL_COUNTS).sort((a,b)=>FIRM_TOTAL_COUNTS[b]-FIRM_TOTAL_COUNTS[a]);
+  const liveFirmCounts = {};
+  PEOPLE.filter(countsExcluding('firm')).forEach(p=>{ if(p.firm) liveFirmCounts[p.firm] = (liveFirmCounts[p.firm]||0)+1; });
+  const liveAllFirmsCount = PEOPLE.filter(countsExcluding('firm')).length;
 
   const allExpanded = ALL_FIRMS_WITH_GROUPS.length > 0 &&
     ALL_FIRMS_WITH_GROUPS.every(f=>state.expandedFirms.has(f));
 
   let html = '';
   const activeCount = activeFilterCount();
+  html += `<button class="rail-close-mobile" id="railCloseMobile" title="Close">✕</button>`;
   html += `<div class="clear-filters-wrap"><button class="clear-filters-btn" id="clearFiltersBtn" ${activeCount ? '' : 'disabled'}>
     Clear filters${activeCount ? `<span class="badge">${activeCount}</span>` : ''}
   </button></div>`;
@@ -474,14 +603,15 @@ function renderRail(){
     </button></div>`;
   html += `<div class="rail-item ${!state.firmFilter?'active':''}" data-firm="">
     <span class="swatch" style="background:var(--on-surface-var)"></span>All firms
-    <span class="count">${PEOPLE.length}</span></div>`;
+    <span class="count">${liveAllFirmsCount}</span></div>`;
   firms.forEach(f=>{
     const isExpanded = state.expandedFirms.has(f);
     const groups = (hierarchyByFirm[f] && hierarchyByFirm[f].practice_groups) || [];
-    html += `<div class="rail-item ${state.firmFilter===f && !state.practiceFilterSet?'active':''}" data-firm="${escAttr(f)}">
+    const live = liveFirmCounts[f] || 0;
+    html += `<div class="rail-item ${state.firmFilter===f && !state.practiceFilterSet?'active':''}" data-firm="${escAttr(f)}" style="${live?'':'opacity:.45'}">
       <span class="rail-expand ${isExpanded?'open':''}" data-expand-firm="${escAttr(f)}">${groups.length ? '▸' : ''}</span>
       <span class="swatch" style="background:${firmHsl(f,45)}"></span>${esc(f)}
-      <span class="count">${firmCounts[f]}</span></div>`;
+      <span class="count">${live}</span></div>`;
     if(isExpanded){
       groups.forEach(g=>{
         const active = state.firmFilter===f && state.practiceFilterSet===g.area;
@@ -492,9 +622,9 @@ function renderRail(){
   });
 
   const filterSections = [
-    {key:'practice', title:'Practice area', items:ALL_PRACTICE, selected:state.practiceFilters, attr:'data-practice-chip'},
-    {key:'role', title:'Role', items:ALL_ROLES, selected:state.roleFilters, attr:'data-role'},
-    {key:'txn', title:'Transaction type', items:ALL_TXN, selected:state.txnFilters, attr:'data-txn'},
+    {key:'practice', title:'Practice area', items:ALL_PRACTICE, selected:state.practiceFilters, attr:'data-practice-chip', excludeKey:'practice'},
+    {key:'role', title:'Role', items:ALL_ROLES, selected:state.roleFilters, attr:'data-role', excludeKey:'role'},
+    {key:'txn', title:'Transaction type', items:ALL_TXN, selected:state.txnFilters, attr:'data-txn', excludeKey:'txn'},
   ];
   filterSections.forEach(sec=>{
     const collapsed = state.collapsedSections.has(sec.key);
@@ -503,9 +633,16 @@ function renderRail(){
         <span class="arrow">▾</span>
       </button></div>`;
     if(!collapsed){
-      html += `<div class="chip-row">${sec.items.map(v=>
-        `<button class="chip ${sec.selected.has(v)?'active':''}" ${sec.attr}="${escAttr(v)}">${esc(v)}</button>`
-      ).join('')}</div>`;
+      const pool = PEOPLE.filter(countsExcluding(sec.excludeKey));
+      const liveCounts = {};
+      pool.forEach(p=>{
+        const values = sec.key==='role' ? [p.role_bucket] : sec.key==='txn' ? p.transaction_types : p.practice_areas;
+        (values||[]).forEach(v=>{ if(v) liveCounts[v] = (liveCounts[v]||0)+1; });
+      });
+      html += `<div class="chip-row">${sec.items.map(v=>{
+        const live = liveCounts[v] || 0;
+        return `<button class="chip ${sec.selected.has(v)?'active':''}" ${sec.attr}="${escAttr(v)}" style="${live||sec.selected.has(v)?'':'opacity:.45'}">${esc(v)} <span style="opacity:.65;font-size:10px;">${live}</span></button>`;
+      }).join('')}</div>`;
     }
   });
 
@@ -515,6 +652,8 @@ function renderRail(){
   if(clearBtn && activeCount){
     clearBtn.addEventListener('click', clearAllFilters);
   }
+
+  document.getElementById('railCloseMobile').addEventListener('click', closeMobileFilters);
 
   document.getElementById('expandAllFirms').addEventListener('click', ()=>{
     if(allExpanded) state.expandedFirms = new Set();
@@ -537,6 +676,7 @@ function renderRail(){
       state.firmFilter = v || null;
       state.practiceFilterSet = null;
       renderAll();
+      closeMobileFilters();
     });
   });
   rail.querySelectorAll('.rail-subitem').forEach(el=>{
@@ -544,6 +684,7 @@ function renderRail(){
       state.firmFilter = el.getAttribute('data-firm');
       state.practiceFilterSet = el.getAttribute('data-practice');
       renderAll();
+      closeMobileFilters();
     });
   });
   // Practice area, role, and transaction type are independent (non-overlapping)
@@ -591,7 +732,7 @@ function personRowHtml(p){
     <div class="person-main">
       <div class="name-line">
         <span class="name">${esc(p.name)}</span>
-        ${p.role ? `<span class="role">${esc(p.role)}</span>` : ''}
+        ${p.role_bucket ? `<span class="role">${esc(p.role_bucket)}</span>` : ''}
         <span class="firm-name">${state.view==='firm' ? '' : (p.firm? '· '+esc(p.firm) : '')}</span>
       </div>
       ${p.snapshot ? `<div class="snapshot">${esc(p.snapshot)}</div>` : ''}
@@ -601,12 +742,37 @@ function personRowHtml(p){
   </div>`;
 }
 
+function sortControlHtml(){
+  if(state.query){
+    return `<div class="sort-control"><span style="font-size:11.5px;color:var(--on-surface-var);">Sorted by relevance</span></div>`;
+  }
+  return `<div class="sort-control"><label for="sortSelect">Sort</label>
+    <select id="sortSelect">
+      <option value="deals" ${state.sortBy==='deals'?'selected':''}>Most deals</option>
+      <option value="name" ${state.sortBy==='name'?'selected':''}>Name (A–Z)</option>
+      <option value="firm" ${state.sortBy==='firm'?'selected':''}>Firm size</option>
+    </select></div>`;
+}
+
+function wireSortControl(){
+  const sel = document.getElementById('sortSelect');
+  if(sel){
+    sel.addEventListener('change', ()=>{
+      state.sortBy = sel.value;
+      renderList();
+      persistStateToHash();
+    });
+  }
+}
+
 function renderList(){
   const list = document.getElementById('list');
   const filtered = PEOPLE.filter(matchesFilters);
 
   if(filtered.length === 0){
-    list.innerHTML = `<div class="empty-state">No one matches these filters yet. Try clearing a filter or search term.</div>`;
+    list.innerHTML = `<div class="list-toolbar">${sortControlHtml()}</div>
+      <div class="empty-state">No one matches these filters yet. Try clearing a filter or search term.</div>`;
+    wireSortControl();
     return;
   }
 
@@ -619,17 +785,17 @@ function renderList(){
     const firmsSorted = Object.keys(byFirm).sort((a,b)=> byFirm[b].length - byFirm[a].length);
     const allCollapsed = firmsSorted.length > 0 && firmsSorted.every(f=>state.collapsedFirmGroups.has(f));
 
-    let html = `<div class="list-toolbar">
+    let html = `<div class="list-toolbar" style="display:flex;align-items:center;gap:14px;">
       <button class="expand-all-btn ${allCollapsed?'collapsed':''}" id="toggleAllFirmGroups" title="${allCollapsed?'Expand all':'Collapse all'}">
         <span class="arrow">▾</span>${allCollapsed?'Expand all firms':'Collapse all firms'}
-      </button></div>`;
+      </button>${sortControlHtml()}</div>`;
     firmsSorted.forEach(f=>{
       const collapsed = state.collapsedFirmGroups.has(f);
       html += `<div class="firm-heading" data-toggle-firm-group="${escAttr(f)}">
         <span class="rail-expand ${collapsed?'':'open'}">▸</span>
         <span class="swatch" style="background:${firmHsl(f,45)}"></span>${esc(f)} <span style="opacity:.6;font-weight:400">(${byFirm[f].length})</span></div>`;
       if(!collapsed){
-        byFirm[f].sort((a,b)=>b.deals.length-a.deals.length).forEach(p=>{ html += personRowHtml(p); });
+        sortPeople(byFirm[f]).forEach(p=>{ html += personRowHtml(p); });
       }
     });
     list.innerHTML = html;
@@ -646,9 +812,11 @@ function renderList(){
         renderList();
       });
     });
+    wireSortControl();
   } else {
-    const sorted = filtered.slice().sort((a,b)=>b.deals.length-a.deals.length);
-    list.innerHTML = sorted.map(personRowHtml).join('');
+    const sorted = sortPeople(filtered);
+    list.innerHTML = `<div class="list-toolbar">${sortControlHtml()}</div>` + sorted.map(personRowHtml).join('');
+    wireSortControl();
   }
 
   list.querySelectorAll('.person-row').forEach(el=>{
@@ -684,7 +852,8 @@ function renderDetail(){
     <button class="detail-close" id="closeDetail">✕</button>
     <div class="detail-avatar" style="background:${firmHsl(p.firm,45)}">${initials(p.name)}</div>
     <div class="name">${esc(p.name)}</div>
-    <div class="role-firm">${p.role ? esc(p.role)+' · ' : ''}${esc(p.firm || 'Firm unknown')}</div>
+    <div class="role-firm">${p.role_bucket ? esc(p.role_bucket)+' · ' : ''}${esc(p.firm || 'Firm unknown')}</div>
+    ${p.role && p.role !== p.role_bucket ? `<div class="full-title">${esc(p.role)}</div>` : ''}
     <div class="detail-stats">
       <div><b>${p.deals.length}</b>deals tracked</div>
       <div><b>${p.transaction_types.length}</b>txn types</div>
@@ -745,10 +914,19 @@ function renderDetail(){
   });
 }
 
+function updateMobileFiltersBadge(){
+  const badge = document.getElementById('mobileFiltersBadge');
+  const count = activeFilterCount();
+  badge.style.display = count ? 'inline-block' : 'none';
+  badge.textContent = count || '';
+}
+
 function renderAll(){
   renderRail();
   renderList();
   renderDetail();
+  updateMobileFiltersBadge();
+  persistStateToHash();
 }
 
 function esc(s){
@@ -756,23 +934,97 @@ function esc(s){
 }
 function escAttr(s){ return esc(s); }
 
-document.getElementById('search').addEventListener('input', (e)=>{
+// ---- Mobile filter drawer ----
+function openMobileFilters(){
+  document.getElementById('rail').classList.add('mobile-open');
+  document.getElementById('railBackdrop').classList.add('visible');
+}
+function closeMobileFilters(){
+  document.getElementById('rail').classList.remove('mobile-open');
+  document.getElementById('railBackdrop').classList.remove('visible');
+}
+document.getElementById('mobileFiltersBtn').addEventListener('click', openMobileFilters);
+document.getElementById('railBackdrop').addEventListener('click', closeMobileFilters);
+
+// ---- Search box: input handling + dedicated clear button ----
+const searchInput = document.getElementById('search');
+const searchClearBtn = document.getElementById('searchClearBtn');
+function updateSearchClearBtn(){
+  searchClearBtn.classList.toggle('visible', !!state.query);
+}
+searchInput.addEventListener('input', (e)=>{
   state.query = e.target.value;
+  updateSearchClearBtn();
+  renderRail(); // counts depend on the query too
   renderList();
+  updateMobileFiltersBadge();
+  persistStateToHash();
 });
+searchClearBtn.addEventListener('click', ()=>{
+  state.query = '';
+  searchInput.value = '';
+  updateSearchClearBtn();
+  searchInput.focus();
+  renderRail();
+  renderList();
+  updateMobileFiltersBadge();
+  persistStateToHash();
+});
+
 document.getElementById('view-person').addEventListener('click', ()=>{
   state.view = 'person';
   document.getElementById('view-person').classList.add('active');
   document.getElementById('view-firm').classList.remove('active');
   renderList();
+  persistStateToHash();
 });
 document.getElementById('view-firm').addEventListener('click', ()=>{
   state.view = 'firm';
   document.getElementById('view-firm').classList.add('active');
   document.getElementById('view-person').classList.remove('active');
   renderList();
+  persistStateToHash();
 });
 
+// ---- Shareable/bookmarkable filter state via the URL hash ----
+// Kept deliberately simple (a flat query-string-like format), and uses
+// replaceState (not pushState) so filtering doesn't spam browser history --
+// one back-button press shouldn't have to undo fifty checkbox clicks.
+function persistStateToHash(){
+  const parts = [];
+  if(state.query) parts.push('q=' + encodeURIComponent(state.query));
+  if(state.firmFilter) parts.push('firm=' + encodeURIComponent(state.firmFilter));
+  if(state.practiceFilterSet) parts.push('practiceSet=' + encodeURIComponent(state.practiceFilterSet));
+  if(state.roleFilters.size) parts.push('role=' + encodeURIComponent([...state.roleFilters].join('|')));
+  if(state.txnFilters.size) parts.push('txn=' + encodeURIComponent([...state.txnFilters].join('|')));
+  if(state.practiceFilters.size) parts.push('practice=' + encodeURIComponent([...state.practiceFilters].join('|')));
+  if(state.view !== 'person') parts.push('view=' + state.view);
+  if(state.sortBy !== 'deals') parts.push('sort=' + state.sortBy);
+  const hash = parts.length ? '#' + parts.join('&') : ' ';
+  history.replaceState(null, '', hash.trim() === '' ? location.pathname + location.search : hash);
+}
+
+function restoreStateFromHash(){
+  const raw = location.hash.replace(/^#/, '');
+  if(!raw) return;
+  const params = new URLSearchParams(raw);
+  if(params.has('q')) state.query = params.get('q');
+  if(params.has('firm')) state.firmFilter = params.get('firm');
+  if(params.has('practiceSet')) state.practiceFilterSet = params.get('practiceSet');
+  if(params.has('role')) state.roleFilters = new Set(params.get('role').split('|').filter(Boolean));
+  if(params.has('txn')) state.txnFilters = new Set(params.get('txn').split('|').filter(Boolean));
+  if(params.has('practice')) state.practiceFilters = new Set(params.get('practice').split('|').filter(Boolean));
+  if(params.has('view') && params.get('view')==='firm') state.view = 'firm';
+  if(params.has('sort')) state.sortBy = params.get('sort');
+  searchInput.value = state.query;
+  if(state.view === 'firm'){
+    document.getElementById('view-firm').classList.add('active');
+    document.getElementById('view-person').classList.remove('active');
+  }
+}
+
+restoreStateFromHash();
+updateSearchClearBtn();
 renderAll();
 </script>
 </body>

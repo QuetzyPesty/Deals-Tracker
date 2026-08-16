@@ -218,6 +218,52 @@ def best_role(existing, new):
     return existing if ROLE_RANK.get(existing, 0) >= ROLE_RANK.get(new, 0) else new
 
 
+# Simplified role taxonomy for filtering/browsing. The raw `role` field is
+# full of one-off practice-area-qualified variants ("Partner (Head - Media,
+# Education & Gaming)", "Associate (SEBI matters)", "Senior Associate,
+# Corporate law team") -- 285 distinct strings across the dataset, 210 of
+# them appearing for exactly one person. That's unusable as a filter list.
+# role_bucket() maps each raw title down to one of a small, fixed set of
+# seniority categories; the full original title is kept in `role` and
+# still shown on the person's own detail page -- only the filter/list
+# view uses the simplified bucket.
+#
+# Patterns are checked in order, most-specific-first, since e.g. "Founding
+# & Managing Partner" and "Associate Partner" both contain the substring
+# "partner" and must be caught by their own rule before the generic
+# Partner/Associate catch-alls would misfile them.
+ROLE_BUCKET_PATTERNS = [
+    ("Managing Partner", re.compile(r"managing partner", re.I)),
+    ("Senior Partner", re.compile(r"senior partner", re.I)),
+    ("Founder", re.compile(r"founder|founding", re.I)),
+    ("Associate Partner", re.compile(r"associate partner", re.I)),
+    ("Partner", re.compile(r"partner", re.I)),
+    ("Counsel", re.compile(r"counsel", re.I)),
+    ("Principal Associate", re.compile(r"principal associate", re.I)),
+    ("Senior Associate", re.compile(r"senior associate", re.I)),
+    ("Associate", re.compile(r"associate", re.I)),
+    ("Senior Advocate", re.compile(r"senior advocate", re.I)),
+    ("Advocate", re.compile(r"advocate", re.I)),
+    ("Consultant", re.compile(r"consultant", re.I)),
+]
+
+
+def role_bucket(role):
+    if not role:
+        return None
+    for bucket, pattern in ROLE_BUCKET_PATTERNS:
+        if pattern.search(role):
+            return bucket
+    # no known pattern matched (Company Secretary, Paralegal, Executive
+    # Chairman, "Head of India Practice" with no rank word, etc.) -- these
+    # don't sit on the standard associate/partner ladder at all, so they
+    # go in one "Other" bucket rather than each becoming its own filter
+    # chip. Nothing is lost: the full original title is still shown on
+    # that person's own profile regardless of which bucket they're filed
+    # under here.
+    return "Other"
+
+
 def shorten_snapshot(headline):
     h = re.sub(r"\s+", " ", headline).strip()
     h = h.rstrip(" -")
@@ -515,6 +561,7 @@ def main():
                 "name": name,
                 "firm": firm,
                 "role": role,
+                "role_bucket": role_bucket(role),
                 "transaction_types": sorted(txn_types),
                 "practice_areas": sorted(practice_areas),
                 "clients": clients,
