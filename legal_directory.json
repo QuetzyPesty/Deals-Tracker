@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 3332,
+    "people": 3335,
     "firms": 90,
-    "deals": 405,
+    "deals": 406,
     "practice_areas": 6
   },
   "firms": [
@@ -1967,7 +1967,7 @@
     },
     {
       "firm": "JSA Advocates & Solicitors",
-      "people_count": 352,
+      "people_count": 355,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -2178,7 +2178,9 @@
             500,
             1528,
             1256,
+            2268,
             1975,
+            2098,
             3006,
             753,
             1920,
@@ -2195,13 +2197,16 @@
             1054,
             430,
             742,
+            2097,
             1102,
             1917,
             1105,
             1053,
+            2862,
             3,
             385,
             383,
+            3335,
             113,
             747,
             1099,
@@ -2214,6 +2219,7 @@
             1247,
             1499,
             748,
+            3334,
             455,
             1107,
             427,
@@ -2242,6 +2248,8 @@
             1976,
             2803,
             1113,
+            3333,
+            2861,
             1096,
             1114,
             98,
@@ -32020,13 +32028,16 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
+        "Series B",
+        "fundraise",
         "investment"
       ],
       "practice_areas": [
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Embio"
+        "Embio",
+        "Matel"
       ],
       "deals": [
         {
@@ -32036,6 +32047,19 @@
           "source": "Bar and Bench",
           "types": [
             "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, JSA act on Matel ₹130 crore Series B fundraise",
+          "client": "Matel",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-matel-130-crore-series-b-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series B",
+            "fundraise"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
@@ -43422,14 +43446,18 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
-        "acquisition"
+        "Series B",
+        "acquisition",
+        "fundraise"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
         "Derive Trading and Resorts",
-        "Coforge"
+        "Coforge",
+        "Matel"
       ],
       "deals": [
         {
@@ -43454,6 +43482,19 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, JSA act on Matel ₹130 crore Series B fundraise",
+          "client": "Matel",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-matel-130-crore-series-b-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series B",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -46028,14 +46069,18 @@
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
-        "acquisition"
+        "Series B",
+        "acquisition",
+        "fundraise"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
         "Forus Health and its Co-founder & CEO",
-        "Derive Trading and Resorts"
+        "Derive Trading and Resorts",
+        "Matel"
       ],
       "deals": [
         {
@@ -46056,6 +46101,19 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, JSA act on Matel ₹130 crore Series B fundraise",
+          "client": "Matel",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-matel-130-crore-series-b-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series B",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -66309,14 +66367,18 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
-        "acquisition"
+        "Series B",
+        "acquisition",
+        "fundraise"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
         "Forus Health and its Co-founder & CEO",
-        "Derive Trading and Resorts"
+        "Derive Trading and Resorts",
+        "Matel"
       ],
       "deals": [
         {
@@ -66337,6 +66399,19 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, JSA act on Matel ₹130 crore Series B fundraise",
+          "client": "Matel",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-matel-130-crore-series-b-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series B",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -69923,16 +69998,20 @@
       "id": 2862,
       "name": "Moushami Nayak",
       "firm": "JSA Advocates & Solicitors",
-      "role": "Associate (Data Protection)",
+      "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "acquisition"
+        "Series B",
+        "acquisition",
+        "fundraise"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Coforge"
+        "Coforge",
+        "Matel"
       ],
       "deals": [
         {
@@ -69945,6 +70024,19 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, JSA act on Matel ₹130 crore Series B fundraise",
+          "client": "Matel",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-matel-130-crore-series-b-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series B",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -73407,6 +73499,39 @@
         }
       ],
       "snapshot": "Uría Menéndez, CAM, Pérez-Llorca, Weil, Khaitan act on €600 million acquisition of Ayesa ..."
+    },
+    {
+      "id": 3335,
+      "name": "Netra Vasudevan",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "Series B",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Matel"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co, JSA act on Matel ₹130 crore Series B fundraise",
+          "client": "Matel",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-matel-130-crore-series-b-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series B",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co, JSA act on Matel ₹130 crore Series B fundraise"
     },
     {
       "id": 3105,
@@ -80720,13 +80845,16 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "Series B",
+        "fundraise",
         "investment"
       ],
       "practice_areas": [
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Embio"
+        "Embio",
+        "Matel"
       ],
       "deals": [
         {
@@ -80736,6 +80864,19 @@
           "source": "Bar and Bench",
           "types": [
             "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, JSA act on Matel ₹130 crore Series B fundraise",
+          "client": "Matel",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-matel-130-crore-series-b-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series B",
+            "fundraise"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
@@ -84020,6 +84161,39 @@
       "snapshot": "AZB, JSA act on Canara Robeco ~₹1,326 crore IPO"
     },
     {
+      "id": 3334,
+      "name": "Prerana Damaraju",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "Series B",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Matel"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co, JSA act on Matel ₹130 crore Series B fundraise",
+          "client": "Matel",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-matel-130-crore-series-b-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series B",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co, JSA act on Matel ₹130 crore Series B fundraise"
+    },
+    {
       "id": 2437,
       "name": "Prerita Bhardwaj",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -85411,6 +85585,7 @@
       "role_bucket": "Partner",
       "transaction_types": [
         "Series A",
+        "Series B",
         "acquisition",
         "fundraise",
         "stake acquisition"
@@ -85423,7 +85598,8 @@
         "A91 Partners",
         "Marvell (India leg)",
         "Vobis Ventures",
-        "MO Alternates"
+        "MO Alternates",
+        "Matel"
       ],
       "deals": [
         {
@@ -85474,6 +85650,19 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, JSA act on Matel ₹130 crore Series B fundraise",
+          "client": "Matel",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-matel-130-crore-series-b-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series B",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -97664,13 +97853,16 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "Series B",
+        "fundraise",
         "investment"
       ],
       "practice_areas": [
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Embio"
+        "Embio",
+        "Matel"
       ],
       "deals": [
         {
@@ -97680,6 +97872,19 @@
           "source": "Bar and Bench",
           "types": [
             "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, JSA act on Matel ₹130 crore Series B fundraise",
+          "client": "Matel",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-matel-130-crore-series-b-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series B",
+            "fundraise"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
@@ -107574,6 +107779,39 @@
       "snapshot": "Trilegal advises Carlyle on ₹2,100 crore stake acquisition in Edelweiss's Nido Home Finance"
     },
     {
+      "id": 3333,
+      "name": "Shobika Veluprakash",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "Series B",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Matel"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co, JSA act on Matel ₹130 crore Series B fundraise",
+          "client": "Matel",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-matel-130-crore-series-b-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series B",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co, JSA act on Matel ₹130 crore Series B fundraise"
+    },
+    {
       "id": 2568,
       "name": "Shorya Choudhary",
       "firm": "Cyril Amarchand Mangaldas",
@@ -108207,16 +108445,20 @@
       "id": 2861,
       "name": "Shreeya Sucharita",
       "firm": "JSA Advocates & Solicitors",
-      "role": "Associate (Employment Law)",
+      "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "acquisition"
+        "Series B",
+        "acquisition",
+        "fundraise"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Coforge"
+        "Coforge",
+        "Matel"
       ],
       "deals": [
         {
@@ -108229,6 +108471,19 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, JSA act on Matel ₹130 crore Series B fundraise",
+          "client": "Matel",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-matel-130-crore-series-b-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series B",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],

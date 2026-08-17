@@ -3577,5 +3577,82 @@
     "law_firms": [],
     "transaction_types": [],
     "people": []
+  },
+  {
+    "headline": "Khaitan & Co, JSA act on Matel ₹130 crore Series B fundraise",
+    "client": "Matel",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-matel-130-crore-series-b-fundraise",
+    "snippet": "Matel Motion and Energy Solutions Private Limited has raised ₹130 crore from a Series B fundraise led by UC Impower, with Catamaran joining as a new investor and Transition VC continuing its support as an existing investor. Khaitan & Co advised Matel on this fundraise. The transaction team consisted of Bhavik Narsana (Partner), Shweta Dwivedi (Consultant), Pragya Mishra (Associate) and Sakshi Mehta (Associate). JSA Advocates and Solicitors advised UC Impower Fund, the lead investor, and Catamara",
+    "law_firms": [
+      "Khaitan & Co",
+      "JSA Advocates & Solicitors"
+    ],
+    "transaction_types": [
+      "Series B",
+      "fundraise"
+    ],
+    "people": [
+      {
+        "name": "Bhavik Narsana",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Pragya Mishra",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Sakshi Mehta",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Gerald Manoharan",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Manuel Jose",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Harshita Agarwal",
+        "role": "Senior Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Shobika Veluprakash",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Prerana Damaraju",
+        "role": "Senior Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Netra Vasudevan",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Shreeya Sucharita",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Probir Roy Chowdhury",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Moushami Nayak",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      }
+    ]
   }
 ]
