@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 3383,
-    "firms": 93,
-    "deals": 417,
+    "people": 3418,
+    "firms": 94,
+    "deals": 424,
     "practice_areas": 6
   },
   "firms": [
@@ -56,6 +56,7 @@
     "Khaitan & Co",
     "Khaled Al-Marri & Partners",
     "Kochhar & Co",
+    "Latham",
     "Latham & Watkins",
     "Legacy Law Offices",
     "Lex Consult",
@@ -848,7 +849,7 @@
     },
     {
       "firm": "Cyril Amarchand Mangaldas",
-      "people_count": 552,
+      "people_count": 560,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -1056,6 +1057,7 @@
             824,
             2811,
             1261,
+            3411,
             912,
             881,
             2668,
@@ -1085,6 +1087,7 @@
             1865,
             806,
             2667,
+            3407,
             1890,
             2597,
             1841,
@@ -1102,11 +1105,13 @@
             1154,
             914,
             2655,
+            3390,
             2029,
             2877,
             830,
             1691,
             1897,
+            3408,
             2456,
             1749,
             2675,
@@ -1119,6 +1124,7 @@
             640,
             1258,
             1891,
+            3389,
             1866,
             826,
             1160,
@@ -1153,7 +1159,9 @@
             1877,
             1752,
             1878,
+            3391,
             2116,
+            3410,
             804,
             2752,
             2670,
@@ -1164,10 +1172,12 @@
             1693,
             1858,
             1862,
+            553,
             2115,
             1857,
             2674,
             1689,
+            3409,
             962,
             882,
             2454,
@@ -1549,7 +1559,7 @@
     },
     {
       "firm": "DMD Advocates",
-      "people_count": 12,
+      "people_count": 14,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -1566,6 +1576,16 @@
             1254,
             1252,
             1186
+          ]
+        },
+        {
+          "area": "Private Equity & Venture Capital",
+          "person_ids": [
+            3395,
+            1253,
+            1255,
+            3394,
+            1254
           ]
         }
       ]
@@ -2393,7 +2413,6 @@
             429,
             2885,
             2494,
-            871,
             2480,
             2495,
             390,
@@ -2418,7 +2437,6 @@
             1797,
             3305,
             1802,
-            1959,
             423,
             2886,
             1958,
@@ -2448,7 +2466,9 @@
             1796,
             2091,
             769,
+            871,
             786,
+            2864,
             2093,
             1888,
             2094,
@@ -2469,6 +2489,7 @@
             2088,
             2550,
             458,
+            1959,
             98,
             1887,
             1272,
@@ -2564,7 +2585,7 @@
     },
     {
       "firm": "Khaitan & Co",
-      "people_count": 447,
+      "people_count": 457,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -2573,6 +2594,7 @@
             156,
             154,
             2315,
+            3387,
             722,
             1077,
             858,
@@ -2586,6 +2608,7 @@
             685,
             1614,
             1388,
+            3384,
             17,
             1004,
             1620,
@@ -2611,6 +2634,7 @@
             2311,
             701,
             1615,
+            3386,
             1389,
             696,
             1387,
@@ -2660,10 +2684,13 @@
             1003,
             2870,
             155,
+            3385,
             2313,
+            2125,
             1082,
             3292,
             682,
+            3388,
             18,
             2316,
             985,
@@ -2817,7 +2844,6 @@
             3161,
             397,
             1030,
-            2125,
             325,
             3158,
             353,
@@ -3024,13 +3050,17 @@
             2188,
             1762,
             1469,
+            3414,
+            3393,
             160,
             476,
             1470,
             1707,
             1708,
             2182,
+            3412,
             2187,
+            3413,
             725,
             1471,
             1757,
@@ -3052,6 +3082,7 @@
             2184,
             2131,
             1468,
+            3392,
             2183,
             3355,
             2133,
@@ -3121,8 +3152,13 @@
       ]
     },
     {
+      "firm": "Latham",
+      "people_count": 0,
+      "practice_groups": []
+    },
+    {
       "firm": "Latham & Watkins",
-      "people_count": 49,
+      "people_count": 53,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -3165,6 +3201,20 @@
           ]
         },
         {
+          "area": "Capital Markets",
+          "person_ids": [
+            3415,
+            604,
+            2030,
+            3418,
+            3416,
+            511,
+            3417,
+            605,
+            603
+          ]
+        },
+        {
           "area": "Unclassified",
           "person_ids": [
             2512,
@@ -3174,16 +3224,6 @@
             2511,
             1739,
             2514
-          ]
-        },
-        {
-          "area": "Capital Markets",
-          "person_ids": [
-            604,
-            2030,
-            511,
-            605,
-            603
           ]
         },
         {
@@ -3241,8 +3281,24 @@
     },
     {
       "firm": "Linklaters",
-      "people_count": 8,
+      "people_count": 19,
       "practice_groups": [
+        {
+          "area": "Private Equity & Venture Capital",
+          "person_ids": [
+            3400,
+            3403,
+            3404,
+            3399,
+            3398,
+            3406,
+            3405,
+            3397,
+            3401,
+            3402,
+            3396
+          ]
+        },
         {
           "area": "Capital Markets",
           "person_ids": [
@@ -3497,6 +3553,14 @@
             1056,
             1058,
             1059
+          ]
+        },
+        {
+          "area": "Mergers & Acquisitions",
+          "person_ids": [
+            312,
+            313,
+            314
           ]
         },
         {
@@ -5730,7 +5794,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Amagi"
+        "Amagi",
+        "Shiprocket"
       ],
       "deals": [
         {
@@ -5738,6 +5803,18 @@
           "client": "Amagi",
           "url": "https://www.barandbench.com/dealstreet/cam-sam-trilegal-act-on-amagi-media-labs-178862-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "CAM, Khaitan, SAM, Latham act on Shiprocket ₹1,617 crore IPO",
+          "client": "Shiprocket",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-khaitan-sam-latham-act-on-shiprocket-1617-crore-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -6005,7 +6082,8 @@
         "BNP Paribas Securities India and J.P. Morgan India",
         "Belrise Industries",
         "IFC",
-        "International Finance Corporation"
+        "International Finance Corporation",
+        "Shiprocket"
       ],
       "deals": [
         {
@@ -6045,6 +6123,18 @@
           "client": "International Finance Corporation",
           "url": "https://www.barandbench.com/dealstreet/sam-khaitan-cam-trilegal-act-on-nephroplus-871-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "CAM, Khaitan, SAM, Latham act on Shiprocket ₹1,617 crore IPO",
+          "client": "Shiprocket",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-khaitan-sam-latham-act-on-shiprocket-1617-crore-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -6504,7 +6594,8 @@
       ],
       "clients": [
         "VINCI Highways",
-        "Lead Managers"
+        "Lead Managers",
+        "Dhoot Transmission"
       ],
       "deals": [
         {
@@ -6520,6 +6611,18 @@
           "client": "Lead Managers",
           "url": "https://www.barandbench.com/dealstreet/cam-khaitan-sam-act-on-clean-max-enviro-energy-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+          "client": "Dhoot Transmission",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -6600,7 +6703,8 @@
       ],
       "clients": [
         "JM Financial Limited and Avendus Capital Private Limited (BRLMs)",
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Dhoot Transmission"
       ],
       "deals": [
         {
@@ -6620,6 +6724,18 @@
           "client": "Book Running Lead Managers",
           "url": "https://www.barandbench.com/dealstreet/sam-khaitan-ao-shearman-act-on-tenneco-india-3600-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+          "client": "Dhoot Transmission",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -7714,7 +7830,8 @@
       ],
       "clients": [
         "IFC",
-        "International Finance Corporation"
+        "International Finance Corporation",
+        "Shiprocket"
       ],
       "deals": [
         {
@@ -7734,6 +7851,18 @@
           "client": "International Finance Corporation",
           "url": "https://www.barandbench.com/dealstreet/sam-khaitan-cam-trilegal-act-on-nephroplus-871-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "CAM, Khaitan, SAM, Latham act on Shiprocket ₹1,617 crore IPO",
+          "client": "Shiprocket",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-khaitan-sam-latham-act-on-shiprocket-1617-crore-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -7858,7 +7987,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Lohia Corp"
+        "Lohia Corp",
+        "Dhoot Transmission"
       ],
       "deals": [
         {
@@ -7872,6 +8002,18 @@
           ],
           "practice_areas": [
             "Capital Markets",
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+          "client": "Dhoot Transmission",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
             "Capital Markets"
           ]
         }
@@ -8114,7 +8256,62 @@
           ]
         }
       ],
-      "snapshot": "SAM advises Oriental Structural Engineers on divestment of Rajiv – Chowk (Sohna) Highway"
+      "snapshot": "SAM advises Oriental Structural Engineers on divestment of Rajiv – Chowk (Sohna) Highway",
+      "same_name_elsewhere": [
+        {
+          "id": 3387,
+          "firm": "Khaitan & Co",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
+      "id": 3387,
+      "name": "Abhishek Choudhary",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Purvah Green Power"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Purvah Green Power on acquisition of 6 Renewable Energy SPVs from ReNew",
+          "client": "Purvah Green Power",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-purvah-green-power-on-acquisition-of-6-renewable-energy-spvs-from-renew",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Purvah Green Power on acquisition of 6 Renewable Energy SPVs from ReNew",
+      "same_name_elsewhere": [
+        {
+          "id": 2645,
+          "firm": "Shardul Amarchand Mangaldas & Co",
+          "role": "Associate",
+          "deal_count": 2
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 722,
@@ -16175,6 +16372,37 @@
       "snapshot": "CAM, Trilegal, SAM act on Bharti Airtel, Carlyle, Alpha Wave investing $1 billion in Airtel's Nxtra Data"
     },
     {
+      "id": 3411,
+      "name": "Amartya Mukherjee",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Dhoot Transmission"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+          "client": "Dhoot Transmission",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO"
+    },
+    {
       "id": 2044,
       "name": "Amartya Srivastava",
       "firm": "Trilegal",
@@ -16498,13 +16726,16 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
+        "acquisition",
         "fundraise"
       ],
       "practice_areas": [
+        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Bajaj Finserv"
+        "Bajaj Finserv",
+        "Modepro"
       ],
       "deals": [
         {
@@ -16517,6 +16748,18 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Rajani Associates advises Modepro on acquisition by Refex",
+          "client": "Modepro",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/rajani-associates-advises-modepro-on-acquisition-by-refex",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -16977,7 +17220,9 @@
         "Sterlite Technologies Limited",
         "Goldman Sachs (India) Finance Private Limited",
         "Shadowfax",
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Shiprocket",
+        "Dhoot Transmission"
       ],
       "deals": [
         {
@@ -17017,6 +17262,30 @@
           "client": "Book Running Lead Managers",
           "url": "https://www.barandbench.com/dealstreet/sam-cam-latham-act-on-physicswallah-3480-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "CAM, Khaitan, SAM, Latham act on Shiprocket ₹1,617 crore IPO",
+          "client": "Shiprocket",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-khaitan-sam-latham-act-on-shiprocket-1617-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+          "client": "Dhoot Transmission",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -19652,11 +19921,16 @@
       "firm": "JSA Advocates & Solicitors",
       "role": "Partner",
       "role_bucket": "Partner",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "financing"
+      ],
+      "practice_areas": [
+        "Banking & Finance"
+      ],
       "clients": [
         "Aptus Value Housing Finance",
-        "RAK Ceramics India"
+        "RAK Ceramics India",
+        "IndusInd Bank"
       ],
       "deals": [
         {
@@ -19682,6 +19956,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "JSA advises IndusInd Bank on sanctioning ₹2,501 crore financing to Lightstorm",
+          "client": "IndusInd Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-indusind-bank-on-sanctioning-2501-crore-financing-to-lightstorm",
+          "source": "Bar & Bench",
+          "types": [
+            "financing"
+          ],
+          "practice_areas": [
+            "Banking & Finance"
+          ]
         }
       ],
       "snapshot": "JSA acts on Aptus Value Housing Finance ₹100 crore NCD issuance"
@@ -22964,6 +23250,37 @@
       "snapshot": "JSA, A&G, Gibson Dunn, AZB, Simpson Thacher, Latham, CAM act on SingTel - KKR billion ..."
     },
     {
+      "id": 3384,
+      "name": "Anuj Singh Chauhan",
+      "firm": "Khaitan & Co",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Purvah Green Power"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Purvah Green Power on acquisition of 6 Renewable Energy SPVs from ReNew",
+          "client": "Purvah Green Power",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-purvah-green-power-on-acquisition-of-6-renewable-energy-spvs-from-renew",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Purvah Green Power on acquisition of 6 Renewable Energy SPVs from ReNew"
+    },
+    {
       "id": 1298,
       "name": "Anuja Tiwari",
       "firm": "AZB & Partners",
@@ -24991,6 +25308,37 @@
       "snapshot": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune"
     },
     {
+      "id": 3400,
+      "name": "Archie Prew",
+      "firm": "Linklaters",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "ReNew"
+      ],
+      "deals": [
+        {
+          "headline": "Linklaters advises ReNew on the recommended offer by a consortium led by CPP Investments",
+          "client": "ReNew",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/linklaters-advises-renew-on-the-recommended-offer-by-a-consortium-led-by-cpp-investments",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Linklaters advises ReNew on the recommended offer by a consortium led by CPP Investments"
+    },
+    {
       "id": 1620,
       "name": "Archika Dudhwewala",
       "firm": "Khaitan & Co",
@@ -26724,16 +27072,19 @@
       "id": 2864,
       "name": "Arpita Mittal",
       "firm": "JSA Advocates & Solicitors",
-      "role": "Associate (Finance)",
+      "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "financing"
       ],
       "practice_areas": [
+        "Banking & Finance",
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Coforge"
+        "Coforge",
+        "IndusInd Bank"
       ],
       "deals": [
         {
@@ -26746,6 +27097,18 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "JSA advises IndusInd Bank on sanctioning ₹2,501 crore financing to Lightstorm",
+          "client": "IndusInd Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-indusind-bank-on-sanctioning-2501-crore-financing-to-lightstorm",
+          "source": "Bar & Bench",
+          "types": [
+            "financing"
+          ],
+          "practice_areas": [
+            "Banking & Finance"
           ]
         }
       ],
@@ -27797,6 +28160,37 @@
         }
       ],
       "snapshot": "JSA, Verist Law, Duane Morris & Selvam act on Manorama Industries ₹500 crore QIP"
+    },
+    {
+      "id": 3414,
+      "name": "Aryan Agarwal",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Dhoot Transmission"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+          "client": "Dhoot Transmission",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO"
     },
     {
       "id": 529,
@@ -30122,7 +30516,62 @@
           ]
         }
       ],
-      "snapshot": "CAM, Trilegal, Hogan Lovells acts on Anant Raj ₹1,100 crore QIP - Bar and Bench"
+      "snapshot": "CAM, Trilegal, Hogan Lovells acts on Anant Raj ₹1,100 crore QIP - Bar and Bench",
+      "same_name_elsewhere": [
+        {
+          "id": 3393,
+          "firm": "Khaitan & Co",
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
+      "id": 3393,
+      "name": "Avinash Gautam",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Shiprocket"
+      ],
+      "deals": [
+        {
+          "headline": "CAM, Khaitan, SAM, Latham act on Shiprocket ₹1,617 crore IPO",
+          "client": "Shiprocket",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-khaitan-sam-latham-act-on-shiprocket-1617-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "CAM, Khaitan, SAM, Latham act on Shiprocket ₹1,617 crore IPO",
+      "same_name_elsewhere": [
+        {
+          "id": 2457,
+          "firm": "Trilegal",
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 2768,
@@ -32158,7 +32607,9 @@
         "Amagi",
         "McDonald's Corporation (corporate, forex, contracts)",
         "ICICI Prudential AMC",
-        "KKR's €1.2 billion acquisition of Medicover India"
+        "KKR's €1.2 billion acquisition of Medicover India",
+        "Shiprocket",
+        "Dhoot Transmission"
       ],
       "deals": [
         {
@@ -32241,6 +32692,30 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "CAM, Khaitan, SAM, Latham act on Shiprocket ₹1,617 crore IPO",
+          "client": "Shiprocket",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-khaitan-sam-latham-act-on-shiprocket-1617-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+          "client": "Dhoot Transmission",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
           ]
         }
       ],
@@ -34143,6 +34618,37 @@
       "snapshot": "TT&A, Paul Weiss, Avisen Legal act on Carrier acquiring 75F Inc."
     },
     {
+      "id": 3403,
+      "name": "Bonnie Yeung",
+      "firm": "Linklaters",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "ReNew"
+      ],
+      "deals": [
+        {
+          "headline": "Linklaters advises ReNew on the recommended offer by a consortium led by CPP Investments",
+          "client": "ReNew",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/linklaters-advises-renew-on-the-recommended-offer-by-a-consortium-led-by-cpp-investments",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Linklaters advises ReNew on the recommended offer by a consortium led by CPP Investments"
+    },
+    {
       "id": 126,
       "name": "Brajendu Bhaskar",
       "firm": "Trilegal",
@@ -34354,6 +34860,37 @@
         }
       ],
       "snapshot": "Trilegal, Cooley, AZB, Latham, SAM, CMS INDUSLAW act on CRED securing $900 million from Meta"
+    },
+    {
+      "id": 3404,
+      "name": "Cara Hegarty",
+      "firm": "Linklaters",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "ReNew"
+      ],
+      "deals": [
+        {
+          "headline": "Linklaters advises ReNew on the recommended offer by a consortium led by CPP Investments",
+          "client": "ReNew",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/linklaters-advises-renew-on-the-recommended-offer-by-a-consortium-led-by-cpp-investments",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Linklaters advises ReNew on the recommended offer by a consortium led by CPP Investments"
     },
     {
       "id": 3167,
@@ -38761,6 +39298,37 @@
       "snapshot": "Trilegal advises Allana Group on JV with Captain Fresh to launch India's largest ... - Bar and Bench"
     },
     {
+      "id": 3407,
+      "name": "Dhawal Nirash",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Dhoot Transmission"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+          "client": "Dhoot Transmission",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO"
+    },
+    {
       "id": 390,
       "name": "Dheeraj Nair",
       "firm": "JSA Advocates & Solicitors",
@@ -39730,7 +40298,8 @@
       ],
       "clients": [
         "Amagi",
-        "KKR's €1.2 billion acquisition of Medicover India"
+        "KKR's €1.2 billion acquisition of Medicover India",
+        "Dhoot Transmission"
       ],
       "deals": [
         {
@@ -39755,6 +40324,18 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+          "client": "Dhoot Transmission",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
           ]
         }
       ],
@@ -39853,6 +40434,37 @@
         }
       ],
       "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat"
+    },
+    {
+      "id": 3395,
+      "name": "Disha Jain",
+      "firm": "DMD Advocates",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "investors"
+      ],
+      "deals": [
+        {
+          "headline": "DMD Advocates advises investors on Tenet Diagnostics $30 million fundraise",
+          "client": "investors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/dmd-advocates-advises-investors-on-tenet-diagnostics-30-million-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "DMD Advocates advises investors on Tenet Diagnostics $30 million fundraise"
     },
     {
       "id": 2364,
@@ -40024,6 +40636,37 @@
         }
       ],
       "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat"
+    },
+    {
+      "id": 3386,
+      "name": "Divisha Dwivedi",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Purvah Green Power"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Purvah Green Power on acquisition of 6 Renewable Energy SPVs from ReNew",
+          "client": "Purvah Green Power",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-purvah-green-power-on-acquisition-of-6-renewable-energy-spvs-from-renew",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Purvah Green Power on acquisition of 6 Renewable Energy SPVs from ReNew"
     },
     {
       "id": 2793,
@@ -40711,6 +41354,37 @@
         }
       ],
       "snapshot": "Trilegal, Sheppard act on $310 million acquisition of iMerit by EXL - Bar and Bench"
+    },
+    {
+      "id": 3415,
+      "name": "Dominik Sklenar",
+      "firm": "Latham & Watkins",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Dhoot Transmission"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+          "client": "Dhoot Transmission",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO"
     },
     {
       "id": 2168,
@@ -41740,13 +42414,15 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
+        "IPO",
         "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
       ],
       "clients": [
-        "Lead Managers"
+        "Lead Managers",
+        "Dhoot Transmission"
       ],
       "deals": [
         {
@@ -41756,6 +42432,18 @@
           "source": "Bar and Bench",
           "types": [
             "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+          "client": "Dhoot Transmission",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -42002,8 +42690,8 @@
       "id": 2030,
       "name": "Esha Goel",
       "firm": "Latham & Watkins",
-      "role": "Senior Associate",
-      "role_bucket": "Senior Associate",
+      "role": "Counsel",
+      "role_bucket": "Counsel",
       "transaction_types": [
         "IPO"
       ],
@@ -42011,7 +42699,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "BRLMs (International counsel)"
+        "BRLMs (International counsel)",
+        "Dhoot Transmission"
       ],
       "deals": [
         {
@@ -42019,6 +42708,18 @@
           "client": "BRLMs (International counsel)",
           "url": "https://www.barandbench.com/dealstreet/sam-cam-latham-act-on-groww-6632-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+          "client": "Dhoot Transmission",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -42246,6 +42947,37 @@
         }
       ],
       "snapshot": "SAM advises Anzen India on acquisition of majority stake in 12 Solar"
+    },
+    {
+      "id": 3418,
+      "name": "Ethan Lee",
+      "firm": "Latham & Watkins",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Dhoot Transmission"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+          "client": "Dhoot Transmission",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO"
     },
     {
       "id": 1648,
@@ -42554,6 +43286,37 @@
         }
       ],
       "snapshot": "McDermott Will & Schulte, CAM, Trilegal, AZB act on KKR's €1.2 billion acquisition of Medicover India"
+    },
+    {
+      "id": 3399,
+      "name": "Fionna Ng",
+      "firm": "Linklaters",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "ReNew"
+      ],
+      "deals": [
+        {
+          "headline": "Linklaters advises ReNew on the recommended offer by a consortium led by CPP Investments",
+          "client": "ReNew",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/linklaters-advises-renew-on-the-recommended-offer-by-a-consortium-led-by-cpp-investments",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Linklaters advises ReNew on the recommended offer by a consortium led by CPP Investments"
     },
     {
       "id": 715,
@@ -44115,7 +44878,8 @@
       ],
       "clients": [
         "Milestone Gears",
-        "Molbio Diagnostics"
+        "Molbio Diagnostics",
+        "Shiprocket"
       ],
       "deals": [
         {
@@ -44136,6 +44900,18 @@
           "headline": "Khaitan & Co, Cyril Amarchand Mangaldas, Hogan Lovells Cadwalader act on Molbio Diagnostics ₹939 crore IPO",
           "client": "Molbio Diagnostics",
           "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-cyril-amarchand-mangaldas-hogan-lovells-cadwalader-act-on-molbio-diagnostics-939-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "CAM, Khaitan, SAM, Latham act on Shiprocket ₹1,617 crore IPO",
+          "client": "Shiprocket",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-khaitan-sam-latham-act-on-shiprocket-1617-crore-ipo",
           "source": "Bar & Bench",
           "types": [
             "IPO"
@@ -47237,6 +48013,37 @@
       "snapshot": "JSA acts on ~₹241 crore greenfield project financing for BluPine Energy's 150 MW FDRE ..."
     },
     {
+      "id": 3412,
+      "name": "Harshit Singh",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Dhoot Transmission"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+          "client": "Dhoot Transmission",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO"
+    },
+    {
       "id": 2098,
       "name": "Harshita Agarwal",
       "firm": "JSA Advocates & Solicitors",
@@ -48816,6 +49623,37 @@
       "snapshot": "CMS INDUSLAW advises Shriram Pistons on €159 million acquisition of three companies ..."
     },
     {
+      "id": 3413,
+      "name": "Hrishi Kapadia",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Dhoot Transmission"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+          "client": "Dhoot Transmission",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO"
+    },
+    {
       "id": 2369,
       "name": "Hrishikesh Gayakwad",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -49126,6 +49964,37 @@
         }
       ],
       "snapshot": "Uría Menéndez, CAM, Pérez-Llorca, Weil, Khaitan act on €600 million acquisition of Ayesa ..."
+    },
+    {
+      "id": 3398,
+      "name": "Igor Rogovoy",
+      "firm": "Linklaters",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "ReNew"
+      ],
+      "deals": [
+        {
+          "headline": "Linklaters advises ReNew on the recommended offer by a consortium led by CPP Investments",
+          "client": "ReNew",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/linklaters-advises-renew-on-the-recommended-offer-by-a-consortium-led-by-cpp-investments",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Linklaters advises ReNew on the recommended offer by a consortium led by CPP Investments"
     },
     {
       "id": 2632,
@@ -54185,8 +55054,8 @@
       "id": 1467,
       "name": "Johann Valladares",
       "firm": "Khaitan & Co",
-      "role": "Senior Associate",
-      "role_bucket": "Senior Associate",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
       "transaction_types": [
         "IPO"
       ],
@@ -54194,7 +55063,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Lead Managers"
+        "Lead Managers",
+        "Dhoot Transmission"
       ],
       "deals": [
         {
@@ -54202,6 +55072,18 @@
           "client": "Lead Managers",
           "url": "https://www.barandbench.com/dealstreet/cam-khaitan-sam-act-on-clean-max-enviro-energy-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+          "client": "Dhoot Transmission",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -56005,6 +56887,37 @@
       "snapshot": "Trilegal advised Patel Greentech on tender process for 700 MW solar project in Gujarat"
     },
     {
+      "id": 3390,
+      "name": "Kanika Bhakhna",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Shiprocket"
+      ],
+      "deals": [
+        {
+          "headline": "CAM, Khaitan, SAM, Latham act on Shiprocket ₹1,617 crore IPO",
+          "client": "Shiprocket",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-khaitan-sam-latham-act-on-shiprocket-1617-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "CAM, Khaitan, SAM, Latham act on Shiprocket ₹1,617 crore IPO"
+    },
+    {
       "id": 2907,
       "name": "Kanika Kulkarni",
       "firm": "Trilegal",
@@ -56541,7 +57454,8 @@
         "YES Bank",
         "Clean Max Enviro Energy Solutions Limited",
         "Clean Max Atlas Private Limited",
-        "VEH Green Energy"
+        "VEH Green Energy",
+        "IndusInd Bank"
       ],
       "deals": [
         {
@@ -56695,6 +57609,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "JSA advises IndusInd Bank on sanctioning ₹2,501 crore financing to Lightstorm",
+          "client": "IndusInd Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-indusind-bank-on-sanctioning-2501-crore-financing-to-lightstorm",
+          "source": "Bar & Bench",
+          "types": [
+            "financing"
+          ],
+          "practice_areas": [
+            "Banking & Finance"
+          ]
         }
       ],
       "snapshot": "JSA advises Tata Capital on ₹305 crore financing extended to Enerparc Group"
@@ -56830,13 +57756,16 @@
       "role": "Principal Associate",
       "role_bucket": "Principal Associate",
       "transaction_types": [
+        "acquisition",
         "fundraise"
       ],
       "practice_areas": [
+        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Bajaj Finserv"
+        "Bajaj Finserv",
+        "Modepro"
       ],
       "deals": [
         {
@@ -56849,6 +57778,18 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Rajani Associates advises Modepro on acquisition by Refex",
+          "client": "Modepro",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/rajani-associates-advises-modepro-on-acquisition-by-refex",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -57780,6 +58721,37 @@
       "snapshot": "CAM, Khaitan, SAM act on Clean Max Enviro Energy IPO"
     },
     {
+      "id": 3406,
+      "name": "Kathy Choi",
+      "firm": "Linklaters",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "ReNew"
+      ],
+      "deals": [
+        {
+          "headline": "Linklaters advises ReNew on the recommended offer by a consortium led by CPP Investments",
+          "client": "ReNew",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/linklaters-advises-renew-on-the-recommended-offer-by-a-consortium-led-by-cpp-investments",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Linklaters advises ReNew on the recommended offer by a consortium led by CPP Investments"
+    },
+    {
       "id": 22,
       "name": "Kaumudi Sharma",
       "firm": "IC RegFin Legal",
@@ -58391,6 +59363,37 @@
         }
       ],
       "snapshot": "CAM, TT&A, WvT, Trowers & Hamlins act on ACEN India securing ₹751 crore funding for ..."
+    },
+    {
+      "id": 3416,
+      "name": "Kay Howe Lee",
+      "firm": "Latham & Watkins",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Dhoot Transmission"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+          "client": "Dhoot Transmission",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO"
     },
     {
       "id": 2930,
@@ -60571,6 +61574,37 @@
         }
       ],
       "snapshot": "SAM acts on JSW Energy ₹3,000 crore preferential issue - Bar and Bench"
+    },
+    {
+      "id": 3408,
+      "name": "Krishanu Paul",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Dhoot Transmission"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+          "client": "Dhoot Transmission",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO"
     },
     {
       "id": 743,
@@ -65036,7 +66070,8 @@
       "clients": [
         "BRLMs",
         "Milestone Gears",
-        "Molbio Diagnostics"
+        "Molbio Diagnostics",
+        "Shiprocket"
       ],
       "deals": [
         {
@@ -65069,6 +66104,18 @@
           "headline": "Khaitan & Co, Cyril Amarchand Mangaldas, Hogan Lovells Cadwalader act on Molbio Diagnostics ₹939 crore IPO",
           "client": "Molbio Diagnostics",
           "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-cyril-amarchand-mangaldas-hogan-lovells-cadwalader-act-on-molbio-diagnostics-939-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "CAM, Khaitan, SAM, Latham act on Shiprocket ₹1,617 crore IPO",
+          "client": "Shiprocket",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-khaitan-sam-latham-act-on-shiprocket-1617-crore-ipo",
           "source": "Bar & Bench",
           "types": [
             "IPO"
@@ -65909,7 +66956,7 @@
       "id": 117,
       "name": "Manan Lahoty",
       "firm": "Cyril Amarchand Mangaldas",
-      "role": "Partner & Head, Capital Markets",
+      "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
         "IPO",
@@ -65926,7 +66973,8 @@
         "Book Running Lead Managers",
         "Amagi",
         "ICICI Prudential AMC",
-        "Park Hospitals"
+        "Park Hospitals",
+        "Dhoot Transmission"
       ],
       "deals": [
         {
@@ -66030,6 +67078,18 @@
           "client": "Park Hospitals",
           "url": "https://www.barandbench.com/dealstreet/cam-azb-hogan-lovells-act-on-park-hospitals-920-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+          "client": "Dhoot Transmission",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -68022,6 +69082,37 @@
         }
       ],
       "snapshot": "Wilson Sonsini, JSA, Latham act on Marvell's acquisition of Celestial AI"
+    },
+    {
+      "id": 3405,
+      "name": "Mark Daniel",
+      "firm": "Linklaters",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "ReNew"
+      ],
+      "deals": [
+        {
+          "headline": "Linklaters advises ReNew on the recommended offer by a consortium led by CPP Investments",
+          "client": "ReNew",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/linklaters-advises-renew-on-the-recommended-offer-by-a-consortium-led-by-cpp-investments",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Linklaters advises ReNew on the recommended offer by a consortium led by CPP Investments"
     },
     {
       "id": 1526,
@@ -70199,6 +71290,37 @@
       "snapshot": "SAM advises on ₹2,300 crore refinancing of Jayaswal Neco Industries - Bar and Bench"
     },
     {
+      "id": 3389,
+      "name": "Mihir Mathur",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Shiprocket"
+      ],
+      "deals": [
+        {
+          "headline": "CAM, Khaitan, SAM, Latham act on Shiprocket ₹1,617 crore IPO",
+          "client": "Shiprocket",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-khaitan-sam-latham-act-on-shiprocket-1617-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "CAM, Khaitan, SAM, Latham act on Shiprocket ₹1,617 crore IPO"
+    },
+    {
       "id": 848,
       "name": "Mihir Roy",
       "firm": "Dentons Link Legal",
@@ -70292,6 +71414,37 @@
         }
       ],
       "snapshot": "SAM advises Aye Finance on ₹1,010 Crore IPO - Bar and Bench"
+    },
+    {
+      "id": 3397,
+      "name": "Mike Bienenfeld",
+      "firm": "Linklaters",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "ReNew"
+      ],
+      "deals": [
+        {
+          "headline": "Linklaters advises ReNew on the recommended offer by a consortium led by CPP Investments",
+          "client": "ReNew",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/linklaters-advises-renew-on-the-recommended-offer-by-a-consortium-led-by-cpp-investments",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Linklaters advises ReNew on the recommended offer by a consortium led by CPP Investments"
     },
     {
       "id": 839,
@@ -71268,6 +72421,37 @@
       "snapshot": "CAM, AZB act on Warburg Pincus acquiring stake in Fleur Hotels - Bar and Bench"
     },
     {
+      "id": 3401,
+      "name": "Mona Zhang",
+      "firm": "Linklaters",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "ReNew"
+      ],
+      "deals": [
+        {
+          "headline": "Linklaters advises ReNew on the recommended offer by a consortium led by CPP Investments",
+          "client": "ReNew",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/linklaters-advises-renew-on-the-recommended-offer-by-a-consortium-led-by-cpp-investments",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Linklaters advises ReNew on the recommended offer by a consortium led by CPP Investments"
+    },
+    {
       "id": 1447,
       "name": "Monik Damania",
       "firm": "Trilegal",
@@ -71328,13 +72512,16 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "fundraise"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Noble Seeds"
+        "Noble Seeds",
+        "investors"
       ],
       "deals": [
         {
@@ -71347,6 +72534,18 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "DMD Advocates advises investors on Tenet Diagnostics $30 million fundraise",
+          "client": "investors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/dmd-advocates-advises-investors-on-tenet-diagnostics-30-million-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -73548,13 +74747,16 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "fundraise"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Noble Seeds"
+        "Noble Seeds",
+        "investors"
       ],
       "deals": [
         {
@@ -73567,6 +74769,18 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "DMD Advocates advises investors on Tenet Diagnostics $30 million fundraise",
+          "client": "investors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/dmd-advocates-advises-investors-on-tenet-diagnostics-30-million-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -81717,6 +82931,68 @@
       "snapshot": "SAM, Khaitan act on Aica Kogyo Co acquiring controlling stake in Stylam Industries for $225 million"
     },
     {
+      "id": 3385,
+      "name": "Pooja Ravikrishnan",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Purvah Green Power"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Purvah Green Power on acquisition of 6 Renewable Energy SPVs from ReNew",
+          "client": "Purvah Green Power",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-purvah-green-power-on-acquisition-of-6-renewable-energy-spvs-from-renew",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Purvah Green Power on acquisition of 6 Renewable Energy SPVs from ReNew"
+    },
+    {
+      "id": 3394,
+      "name": "Pooja Shah",
+      "firm": "DMD Advocates",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "investors"
+      ],
+      "deals": [
+        {
+          "headline": "DMD Advocates advises investors on Tenet Diagnostics $30 million fundraise",
+          "client": "investors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/dmd-advocates-advises-investors-on-tenet-diagnostics-30-million-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "DMD Advocates advises investors on Tenet Diagnostics $30 million fundraise"
+    },
+    {
       "id": 2127,
       "name": "Pooja Tada",
       "firm": "Trilegal",
@@ -84386,7 +85662,7 @@
           "id": 2125,
           "firm": "Khaitan & Co",
           "role": "Partner",
-          "deal_count": 1
+          "deal_count": 2
         }
       ],
       "firm_verification": {
@@ -84401,9 +85677,15 @@
       "firm": "Khaitan & Co",
       "role": "Partner",
       "role_bucket": "Partner",
-      "transaction_types": [],
-      "practice_areas": [],
-      "clients": [],
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Purvah Green Power"
+      ],
       "deals": [
         {
           "headline": "Shardul Amarchand Mangaldas Capital Markets Partner Rohit Tiwari moves to Trilegal",
@@ -84412,6 +85694,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Khaitan & Co advises Purvah Green Power on acquisition of 6 Renewable Energy SPVs from ReNew",
+          "client": "Purvah Green Power",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-purvah-green-power-on-acquisition-of-6-renewable-energy-spvs-from-renew",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas Capital Markets Partner Rohit Tiwari moves to Trilegal",
@@ -88920,6 +90214,37 @@
       "snapshot": "DSK Legal, Troutman Pepper Locke advise Energage on merger with Engagedly"
     },
     {
+      "id": 3388,
+      "name": "Raghav Bajaj",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Purvah Green Power"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Purvah Green Power on acquisition of 6 Renewable Energy SPVs from ReNew",
+          "client": "Purvah Green Power",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-purvah-green-power-on-acquisition-of-6-renewable-energy-spvs-from-renew",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Purvah Green Power on acquisition of 6 Renewable Energy SPVs from ReNew"
+    },
+    {
       "id": 3096,
       "name": "Raghav Pareek",
       "firm": "Khaitan & Co",
@@ -90638,7 +91963,7 @@
           "id": 511,
           "firm": "Latham & Watkins",
           "role": "Partner",
-          "deal_count": 4
+          "deal_count": 5
         }
       ],
       "firm_verification": {
@@ -90663,7 +91988,8 @@
         "Book Running Lead Managers",
         "Lead Managers",
         "NSE (international counsel)",
-        "BRLMs (International counsel)"
+        "BRLMs (International counsel)",
+        "Dhoot Transmission"
       ],
       "deals": [
         {
@@ -90707,6 +92033,18 @@
           "client": "BRLMs (International counsel)",
           "url": "https://www.barandbench.com/dealstreet/sam-cam-latham-act-on-groww-6632-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+          "client": "Dhoot Transmission",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -94535,7 +95873,8 @@
       "clients": [
         "Placement Agents",
         "IFC",
-        "International Finance Corporation"
+        "International Finance Corporation",
+        "Shiprocket"
       ],
       "deals": [
         {
@@ -94567,6 +95906,18 @@
           "client": "International Finance Corporation",
           "url": "https://www.barandbench.com/dealstreet/sam-khaitan-cam-trilegal-act-on-nephroplus-871-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "CAM, Khaitan, SAM, Latham act on Shiprocket ₹1,617 crore IPO",
+          "client": "Shiprocket",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-khaitan-sam-latham-act-on-shiprocket-1617-crore-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -95277,6 +96628,37 @@
       "snapshot": "Shardul, Cyril Amarchand Mangaldas, Hogan Lovells act on ACME Solar ₹2800 crore"
     },
     {
+      "id": 3391,
+      "name": "Ritvik Maheswari",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Shiprocket"
+      ],
+      "deals": [
+        {
+          "headline": "CAM, Khaitan, SAM, Latham act on Shiprocket ₹1,617 crore IPO",
+          "client": "Shiprocket",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-khaitan-sam-latham-act-on-shiprocket-1617-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "CAM, Khaitan, SAM, Latham act on Shiprocket ₹1,617 crore IPO"
+    },
+    {
       "id": 1723,
       "name": "Ritwik Sekhri",
       "firm": "Talwar Thakore & Associates",
@@ -95936,6 +97318,37 @@
         }
       ],
       "snapshot": "White & Case, AZB, Sullivan, Cyril Amarchand Mangaldas, Linklaters act on Sun Pharma's ..."
+    },
+    {
+      "id": 3410,
+      "name": "Rohan Roy",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Dhoot Transmission"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+          "client": "Dhoot Transmission",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO"
     },
     {
       "id": 3075,
@@ -96896,13 +98309,16 @@
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
+        "acquisition",
         "fundraise"
       ],
       "practice_areas": [
+        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Bajaj Finserv"
+        "Bajaj Finserv",
+        "Modepro"
       ],
       "deals": [
         {
@@ -96915,6 +98331,18 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Rajani Associates advises Modepro on acquisition by Refex",
+          "client": "Modepro",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/rajani-associates-advises-modepro-on-acquisition-by-refex",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -100084,6 +101512,68 @@
       "snapshot": "JSA acts on Raajmarg Infrastructure InvIT ₹6,000 crore IPO - Bar and Bench"
     },
     {
+      "id": 3402,
+      "name": "Sam Lintonbon",
+      "firm": "Linklaters",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "ReNew"
+      ],
+      "deals": [
+        {
+          "headline": "Linklaters advises ReNew on the recommended offer by a consortium led by CPP Investments",
+          "client": "ReNew",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/linklaters-advises-renew-on-the-recommended-offer-by-a-consortium-led-by-cpp-investments",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Linklaters advises ReNew on the recommended offer by a consortium led by CPP Investments"
+    },
+    {
+      "id": 3417,
+      "name": "Sam Yang",
+      "firm": "Latham & Watkins",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Dhoot Transmission"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+          "client": "Dhoot Transmission",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO"
+    },
+    {
       "id": 2586,
       "name": "Samantha Seiden",
       "firm": "Hogan Lovells",
@@ -102672,7 +104162,8 @@
       ],
       "clients": [
         "Milestone Gears",
-        "Molbio Diagnostics"
+        "Molbio Diagnostics",
+        "Shiprocket"
       ],
       "deals": [
         {
@@ -102693,6 +104184,18 @@
           "headline": "Khaitan & Co, Cyril Amarchand Mangaldas, Hogan Lovells Cadwalader act on Molbio Diagnostics ₹939 crore IPO",
           "client": "Molbio Diagnostics",
           "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-cyril-amarchand-mangaldas-hogan-lovells-cadwalader-act-on-molbio-diagnostics-939-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "CAM, Khaitan, SAM, Latham act on Shiprocket ₹1,617 crore IPO",
+          "client": "Shiprocket",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-khaitan-sam-latham-act-on-shiprocket-1617-crore-ipo",
           "source": "Bar & Bench",
           "types": [
             "IPO"
@@ -103930,7 +105433,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Lead Managers"
+        "Lead Managers",
+        "Dhoot Transmission"
       ],
       "deals": [
         {
@@ -103938,6 +105442,18 @@
           "client": "Lead Managers",
           "url": "https://www.barandbench.com/dealstreet/cam-khaitan-sam-act-on-clean-max-enviro-energy-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+          "client": "Dhoot Transmission",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -104222,6 +105738,37 @@
         }
       ],
       "snapshot": "DMD Advocates advises Rabyte on majority stake acquisition by Hakuto - Bar and Bench"
+    },
+    {
+      "id": 3392,
+      "name": "Sarvesh Sharma",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Shiprocket"
+      ],
+      "deals": [
+        {
+          "headline": "CAM, Khaitan, SAM, Latham act on Shiprocket ₹1,617 crore IPO",
+          "client": "Shiprocket",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-khaitan-sam-latham-act-on-shiprocket-1617-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "CAM, Khaitan, SAM, Latham act on Shiprocket ₹1,617 crore IPO"
     },
     {
       "id": 1898,
@@ -107751,13 +109298,16 @@
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
+        "IPO",
         "acquisition"
       ],
       "practice_areas": [
+        "Capital Markets",
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Adar Poonawalla"
+        "Adar Poonawalla",
+        "Dhoot Transmission"
       ],
       "deals": [
         {
@@ -107770,6 +109320,18 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+          "client": "Dhoot Transmission",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
           ]
         }
       ],
@@ -107906,10 +109468,15 @@
       "firm": "JSA Advocates & Solicitors",
       "role": "Counsel",
       "role_bucket": "Counsel",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "financing"
+      ],
+      "practice_areas": [
+        "Banking & Finance"
+      ],
       "clients": [
-        "FMO"
+        "FMO",
+        "IndusInd Bank"
       ],
       "deals": [
         {
@@ -107919,6 +109486,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "JSA advises IndusInd Bank on sanctioning ₹2,501 crore financing to Lightstorm",
+          "client": "IndusInd Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-indusind-bank-on-sanctioning-2501-crore-financing-to-lightstorm",
+          "source": "Bar & Bench",
+          "types": [
+            "financing"
+          ],
+          "practice_areas": [
+            "Banking & Finance"
+          ]
         }
       ],
       "snapshot": "JSA advises FMO on subscription to Sahyadri FPC NCDs - Bar and Bench"
@@ -113212,7 +114791,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Lohia Corp"
+        "Lohia Corp",
+        "Shiprocket"
       ],
       "deals": [
         {
@@ -113226,6 +114806,18 @@
           ],
           "practice_areas": [
             "Capital Markets",
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "CAM, Khaitan, SAM, Latham act on Shiprocket ₹1,617 crore IPO",
+          "client": "Shiprocket",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-khaitan-sam-latham-act-on-shiprocket-1617-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
             "Capital Markets"
           ]
         }
@@ -115557,6 +117149,12 @@
           "deal_count": 2
         },
         {
+          "id": 3409,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Associate",
+          "deal_count": 1
+        },
+        {
           "id": 1930,
           "firm": "Khaled Al-Marri & Partners",
           "role": "Associate",
@@ -115617,6 +117215,67 @@
           "deal_count": 1
         },
         {
+          "id": 3409,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Associate",
+          "deal_count": 1
+        },
+        {
+          "id": 1930,
+          "firm": "Khaled Al-Marri & Partners",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "DIFFERENT_PEOPLE",
+        "evidence": "Three distinct LinkedIn/press profiles found: Khaitan & Co Senior Associate (Employment & Labour), a separate JSA Associate (Capital Markets), and a third confirmed via Bar & Bench at Khaled Al-Marri & Partners (Dubai, Inox Clean Energy-SkyPower deal)."
+      }
+    },
+    {
+      "id": 3409,
+      "name": "Simran Sharma",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Dhoot Transmission"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+          "client": "Dhoot Transmission",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+      "same_name_elsewhere": [
+        {
+          "id": 2900,
+          "firm": "JSA Advocates & Solicitors",
+          "role": "Associate",
+          "deal_count": 1
+        },
+        {
+          "id": 359,
+          "firm": "Khaitan & Co",
+          "role": "Senior Associate",
+          "deal_count": 2
+        },
+        {
           "id": 1930,
           "firm": "Khaled Al-Marri & Partners",
           "role": "Associate",
@@ -115670,6 +117329,12 @@
           "firm": "Khaitan & Co",
           "role": "Senior Associate",
           "deal_count": 2
+        },
+        {
+          "id": 3409,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Associate",
+          "deal_count": 1
         }
       ],
       "firm_verification": {
@@ -119314,7 +120979,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Lead Managers"
+        "Lead Managers",
+        "Dhoot Transmission"
       ],
       "deals": [
         {
@@ -119322,6 +120988,18 @@
           "client": "Lead Managers",
           "url": "https://www.barandbench.com/dealstreet/cam-khaitan-sam-act-on-clean-max-enviro-energy-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+          "client": "Dhoot Transmission",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -121439,6 +123117,37 @@
         }
       ],
       "snapshot": "JSA assists Arya.ag on raising ₹725 crore from GEF Capital - Bar and Bench"
+    },
+    {
+      "id": 3396,
+      "name": "Sushil Jacob",
+      "firm": "Linklaters",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "ReNew"
+      ],
+      "deals": [
+        {
+          "headline": "Linklaters advises ReNew on the recommended offer by a consortium led by CPP Investments",
+          "client": "ReNew",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/linklaters-advises-renew-on-the-recommended-offer-by-a-consortium-led-by-cpp-investments",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Linklaters advises ReNew on the recommended offer by a consortium led by CPP Investments"
     },
     {
       "id": 3321,
@@ -127426,6 +129135,7 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
+        "IPO",
         "QIP",
         "acquisition"
       ],
@@ -127435,7 +129145,8 @@
       ],
       "clients": [
         "JSW Infrastructure",
-        "Advent International"
+        "Advent International",
+        "Shiprocket"
       ],
       "deals": [
         {
@@ -127460,6 +129171,18 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "CAM, Khaitan, SAM, Latham act on Shiprocket ₹1,617 crore IPO",
+          "client": "Shiprocket",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-khaitan-sam-latham-act-on-shiprocket-1617-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
           ]
         }
       ],
@@ -128524,13 +130247,16 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "fundraise"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Noble Seeds"
+        "Noble Seeds",
+        "investors"
       ],
       "deals": [
         {
@@ -128543,6 +130269,18 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "DMD Advocates advises investors on Tenet Diagnostics $30 million fundraise",
+          "client": "investors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/dmd-advocates-advises-investors-on-tenet-diagnostics-30-million-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -129536,7 +131274,8 @@
       ],
       "clients": [
         "Lohia Corp",
-        "Placement Agents"
+        "Placement Agents",
+        "Dhoot Transmission"
       ],
       "deals": [
         {
@@ -129560,6 +131299,18 @@
           "source": "Bar and Bench",
           "types": [
             "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
+          "client": "Dhoot Transmission",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -132809,8 +134560,8 @@
       "id": 479,
       "name": "Vishal Yaduvanshi",
       "firm": "Cyril Amarchand Mangaldas",
-      "role": "Regional Co-head Capital Markets North",
-      "role_bucket": "Other",
+      "role": "Partner",
+      "role_bucket": "Partner",
       "transaction_types": [
         "IPO",
         "QIP"
@@ -132824,7 +134575,8 @@
         "Rentomojo & Promoter Selling Shareholder",
         "Placement Agents",
         "Anant Raj",
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Shiprocket"
       ],
       "deals": [
         {
@@ -132900,6 +134652,18 @@
           "client": "Book Running Lead Managers",
           "url": "https://www.barandbench.com/dealstreet/sam-cam-latham-act-on-physicswallah-3480-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "CAM, Khaitan, SAM, Latham act on Shiprocket ₹1,617 crore IPO",
+          "client": "Shiprocket",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-khaitan-sam-latham-act-on-shiprocket-1617-crore-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -134555,7 +136319,8 @@
         "ICICI Prudential AMC",
         "Swiggy",
         "Cube Highways Trust",
-        "Molbio Diagnostics"
+        "Molbio Diagnostics",
+        "Shiprocket"
       ],
       "deals": [
         {
@@ -134626,6 +136391,18 @@
           "headline": "Khaitan & Co, Cyril Amarchand Mangaldas, Hogan Lovells Cadwalader act on Molbio Diagnostics ₹939 crore IPO",
           "client": "Molbio Diagnostics",
           "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-cyril-amarchand-mangaldas-hogan-lovells-cadwalader-act-on-molbio-diagnostics-939-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "CAM, Khaitan, SAM, Latham act on Shiprocket ₹1,617 crore IPO",
+          "client": "Shiprocket",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-khaitan-sam-latham-act-on-shiprocket-1617-crore-ipo",
           "source": "Bar & Bench",
           "types": [
             "IPO"
