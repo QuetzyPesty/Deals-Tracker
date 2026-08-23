@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 3418,
-    "firms": 94,
-    "deals": 424,
+    "people": 3433,
+    "firms": 95,
+    "deals": 428,
     "practice_areas": 6
   },
   "firms": [
@@ -59,6 +59,7 @@
     "Latham",
     "Latham & Watkins",
     "Legacy Law Offices",
+    "Legalics",
     "Lex Consult",
     "Lexygen",
     "Linklaters",
@@ -1703,14 +1704,21 @@
     },
     {
       "firm": "Desai & Diwanji",
-      "people_count": 6,
+      "people_count": 8,
       "practice_groups": [
+        {
+          "area": "Private Equity & Venture Capital",
+          "person_ids": [
+            1873,
+            3425,
+            1872,
+            3424
+          ]
+        },
         {
           "area": "Unclassified",
           "person_ids": [
-            1873,
             3085,
-            1872,
             3084,
             3082,
             3083
@@ -1739,7 +1747,7 @@
     },
     {
       "firm": "Economic Laws Practice",
-      "people_count": 12,
+      "people_count": 17,
       "practice_groups": [
         {
           "area": "Capital Markets",
@@ -1772,7 +1780,12 @@
         {
           "area": "Unclassified",
           "person_ids": [
-            3248
+            3428,
+            3426,
+            3427,
+            3429,
+            3248,
+            3430
           ]
         }
       ]
@@ -2585,7 +2598,7 @@
     },
     {
       "firm": "Khaitan & Co",
-      "people_count": 457,
+      "people_count": 462,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -2594,8 +2607,10 @@
             156,
             154,
             2315,
+            3094,
             3387,
             722,
+            3419,
             1077,
             858,
             695,
@@ -2632,11 +2647,13 @@
             1069,
             686,
             2311,
+            3420,
             701,
             1615,
             3386,
             1389,
             696,
+            1228,
             1387,
             724,
             986,
@@ -2690,14 +2707,18 @@
             1082,
             3292,
             682,
+            1229,
             3388,
+            3422,
             18,
             2316,
             985,
             3295,
             1622,
+            3421,
             157,
             158,
+            1234,
             213,
             1061,
             1081,
@@ -2719,6 +2740,7 @@
             698,
             365,
             1386,
+            1233,
             2871,
             699,
             704,
@@ -2734,6 +2756,7 @@
             159,
             1390,
             693,
+            3423,
             362,
             364,
             981,
@@ -2757,145 +2780,6 @@
             2949,
             335,
             2944
-          ]
-        },
-        {
-          "area": "Unclassified",
-          "person_ids": [
-            398,
-            3094,
-            333,
-            329,
-            3155,
-            318,
-            3154,
-            3278,
-            2723,
-            3030,
-            723,
-            2722,
-            3025,
-            3027,
-            3323,
-            351,
-            3093,
-            1034,
-            3026,
-            3150,
-            328,
-            288,
-            344,
-            3288,
-            478,
-            3289,
-            393,
-            3029,
-            3151,
-            400,
-            284,
-            1035,
-            3276,
-            3149,
-            1036,
-            1228,
-            1029,
-            3091,
-            347,
-            1064,
-            352,
-            320,
-            3088,
-            396,
-            401,
-            3089,
-            3032,
-            327,
-            322,
-            1037,
-            3090,
-            3022,
-            3153,
-            3280,
-            1232,
-            281,
-            366,
-            1230,
-            340,
-            3028,
-            350,
-            2126,
-            285,
-            363,
-            3322,
-            283,
-            2724,
-            1031,
-            726,
-            3024,
-            291,
-            349,
-            3160,
-            394,
-            345,
-            3279,
-            2725,
-            3152,
-            3092,
-            3161,
-            397,
-            1030,
-            325,
-            3158,
-            353,
-            3086,
-            3096,
-            3095,
-            1060,
-            282,
-            3156,
-            1032,
-            2721,
-            1234,
-            3020,
-            1197,
-            3019,
-            341,
-            3285,
-            321,
-            1033,
-            3283,
-            1062,
-            1195,
-            3159,
-            354,
-            3021,
-            3281,
-            3023,
-            323,
-            332,
-            286,
-            1809,
-            1233,
-            2720,
-            3277,
-            3284,
-            331,
-            2726,
-            343,
-            3287,
-            1063,
-            319,
-            3087,
-            395,
-            361,
-            290,
-            2124,
-            1235,
-            3157,
-            357,
-            3286,
-            3282,
-            3031
           ]
         },
         {
@@ -3033,6 +2917,141 @@
             2185,
             1416,
             287
+          ]
+        },
+        {
+          "area": "Unclassified",
+          "person_ids": [
+            398,
+            333,
+            329,
+            3155,
+            318,
+            3154,
+            3278,
+            2723,
+            3030,
+            723,
+            2722,
+            3025,
+            3027,
+            3323,
+            351,
+            3093,
+            1034,
+            3026,
+            3150,
+            328,
+            288,
+            344,
+            3288,
+            478,
+            3289,
+            393,
+            3029,
+            3151,
+            400,
+            284,
+            1035,
+            3276,
+            3149,
+            1036,
+            1029,
+            3091,
+            347,
+            1064,
+            352,
+            320,
+            3088,
+            396,
+            401,
+            3089,
+            3032,
+            327,
+            322,
+            1037,
+            3090,
+            3022,
+            3153,
+            3280,
+            1232,
+            281,
+            366,
+            1230,
+            340,
+            3028,
+            350,
+            2126,
+            285,
+            363,
+            3322,
+            283,
+            2724,
+            1031,
+            726,
+            3024,
+            291,
+            349,
+            3160,
+            394,
+            345,
+            3279,
+            2725,
+            3152,
+            3092,
+            3161,
+            397,
+            1030,
+            325,
+            3158,
+            353,
+            3086,
+            3096,
+            3095,
+            1060,
+            282,
+            3156,
+            1032,
+            2721,
+            3020,
+            1197,
+            3019,
+            341,
+            3285,
+            321,
+            1033,
+            3283,
+            1062,
+            1195,
+            3159,
+            354,
+            3021,
+            3281,
+            3023,
+            323,
+            332,
+            286,
+            1809,
+            2720,
+            3277,
+            3284,
+            331,
+            2726,
+            343,
+            3287,
+            1063,
+            319,
+            3087,
+            395,
+            361,
+            290,
+            2124,
+            1235,
+            3157,
+            357,
+            3286,
+            3282,
+            3031
           ]
         },
         {
@@ -3248,6 +3267,20 @@
             3070,
             3072,
             3068
+          ]
+        }
+      ]
+    },
+    {
+      "firm": "Legalics",
+      "people_count": 3,
+      "practice_groups": [
+        {
+          "area": "Private Equity & Venture Capital",
+          "person_ids": [
+            3432,
+            3431,
+            3433
           ]
         }
       ]
@@ -4401,6 +4434,7 @@
             447,
             1356,
             1359,
+            1722,
             407,
             1942,
             1360,
@@ -7879,11 +7913,16 @@
       "firm": "Khaitan & Co",
       "role": "Partner",
       "role_bucket": "Partner",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
         "RPG Life Sciences",
-        "Hindustan Composites"
+        "Hindustan Composites",
+        "Logicap"
       ],
       "deals": [
         {
@@ -7901,6 +7940,18 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Khaitan & Co advises Logicap on acquisition of warehousing assets from Xander",
+          "client": "Logicap",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-logicap-on-acquisition-of-warehousing-assets-from-xander",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "Khaitan & Co assists RPG Life Sciences on carve-out of its API business"
@@ -9395,6 +9446,37 @@
         }
       ],
       "snapshot": "CMS INDUSLAW acts on Axis Finance $41 million NCD issuance"
+    },
+    {
+      "id": 3419,
+      "name": "Abir Sarkar",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Logicap"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Logicap on acquisition of warehousing assets from Xander",
+          "client": "Logicap",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-logicap-on-acquisition-of-warehousing-assets-from-xander",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Logicap on acquisition of warehousing assets from Xander"
     },
     {
       "id": 823,
@@ -14040,6 +14122,29 @@
       "snapshot": "Khaitan, CAM guide Saregama India's ₹325 crore investment in Sanjay Leela Bhansali's studio"
     },
     {
+      "id": 3428,
+      "name": "Akshaan Kanuga",
+      "firm": "Economic Laws Practice",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Birla Estates"
+      ],
+      "deals": [
+        {
+          "headline": "ELP advises Birla Estates on redevelopment project of Shiv-Sai Co-operative Housing Society",
+          "client": "Birla Estates",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/elp-advises-birla-estates-on-redevelopment-project-of-shiv-sai-co-operative-housing-society",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "ELP advises Birla Estates on redevelopment project of Shiv-Sai Co-operative Housing Society"
+    },
+    {
       "id": 1433,
       "name": "Akshat Jain",
       "firm": "AZB & Partners",
@@ -15514,10 +15619,16 @@
       "firm": "Desai & Diwanji",
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "Series A",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
       "clients": [
-        "RideVision"
+        "RideVision",
+        "NeoGeo"
       ],
       "deals": [
         {
@@ -15527,6 +15638,19 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Desai & Diwanji, TT&A act on NeoGeo $20 million Series A fundraise",
+          "client": "NeoGeo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/desai-diwanji-tta-act-on-neogeo-20-million-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Desai & Diwanji act on Dhoot Transmission"
@@ -17385,6 +17509,37 @@
         }
       ],
       "snapshot": "Trilegal, CAM set up Bain Capital - Sattva Group $100 million co-living platform under 'Colive' brand"
+    },
+    {
+      "id": 3432,
+      "name": "Amol Raj",
+      "firm": "Legalics",
+      "role": "Counsel",
+      "role_bucket": "Counsel",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "TAS"
+      ],
+      "deals": [
+        {
+          "headline": "Legalics advises TAS on investment in RGD Dental",
+          "client": "TAS",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legalics-advises-tas-on-investment-in-rgd-dental",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Legalics advises TAS on investment in RGD Dental"
     },
     {
       "id": 1106,
@@ -22587,6 +22742,29 @@
         }
       ],
       "snapshot": "TT&A, Trilegal, Gibson Dunn act on Neysa securing $1 billion+ funding from"
+    },
+    {
+      "id": 3426,
+      "name": "Anshuman Jagtap",
+      "firm": "Economic Laws Practice",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Birla Estates"
+      ],
+      "deals": [
+        {
+          "headline": "ELP advises Birla Estates on redevelopment project of Shiv-Sai Co-operative Housing Society",
+          "client": "Birla Estates",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/elp-advises-birla-estates-on-redevelopment-project-of-shiv-sai-co-operative-housing-society",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "ELP advises Birla Estates on redevelopment project of Shiv-Sai Co-operative Housing Society"
     },
     {
       "id": 1614,
@@ -37431,7 +37609,8 @@
       ],
       "clients": [
         "Mindspace Business Parks REIT",
-        "Nexusmalls Whitefield"
+        "Nexusmalls Whitefield",
+        "Logicap"
       ],
       "deals": [
         {
@@ -37453,6 +37632,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Khaitan & Co advises Logicap on acquisition of warehousing assets from Xander",
+          "client": "Logicap",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-logicap-on-acquisition-of-warehousing-assets-from-xander",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "Capitaland sells ITPC Chennai to Mindspace, 360 One for ₹3000 crore - Bar and Bench"
@@ -38923,6 +39114,37 @@
         }
       ],
       "snapshot": "DSK Legal, Cyril Amarchand Mangaldas act on TiL investing $1 billion in Adani Vizhinjam Port"
+    },
+    {
+      "id": 3420,
+      "name": "Devyani Modi",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Logicap"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Logicap on acquisition of warehousing assets from Xander",
+          "client": "Logicap",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-logicap-on-acquisition-of-warehousing-assets-from-xander",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Logicap on acquisition of warehousing assets from Xander"
     },
     {
       "id": 2361,
@@ -41057,10 +41279,15 @@
       "firm": "Khaitan & Co",
       "role": "Principal Associate",
       "role_bucket": "Principal Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "Nexusmalls Whitefield"
+        "Nexusmalls Whitefield",
+        "Logicap"
       ],
       "deals": [
         {
@@ -41070,6 +41297,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Khaitan & Co advises Logicap on acquisition of warehousing assets from Xander",
+          "client": "Logicap",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-logicap-on-acquisition-of-warehousing-assets-from-xander",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "Blackstone-backed Nexus shops for Kolkata mall Diamond Plaza; Khaitan, SAM advise"
@@ -43836,6 +44075,7 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
+        "acquisition",
         "merger"
       ],
       "practice_areas": [
@@ -43843,7 +44083,8 @@
       ],
       "clients": [
         "Indorama Ventures/Indovida",
-        "Nexusmalls Whitefield"
+        "Nexusmalls Whitefield",
+        "Logicap"
       ],
       "deals": [
         {
@@ -43865,6 +44106,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Khaitan & Co advises Logicap on acquisition of warehousing assets from Xander",
+          "client": "Logicap",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-logicap-on-acquisition-of-warehousing-assets-from-xander",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "Khaitan & Co, Trilegal act on Blackstone-backed EPL - Indovida Packaging merger"
@@ -47095,6 +47348,39 @@
         }
       ],
       "snapshot": "CAM, Trilegal, SAM act on Bharti Airtel, Carlyle, Alpha Wave investing $1 billion in Airtel's Nxtra Data"
+    },
+    {
+      "id": 3425,
+      "name": "Harsh Desai",
+      "firm": "Desai & Diwanji",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "Series A",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "NeoGeo"
+      ],
+      "deals": [
+        {
+          "headline": "Desai & Diwanji, TT&A act on NeoGeo $20 million Series A fundraise",
+          "client": "NeoGeo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/desai-diwanji-tta-act-on-neogeo-20-million-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Desai & Diwanji, TT&A act on NeoGeo $20 million Series A fundraise"
     },
     {
       "id": 607,
@@ -65825,6 +66111,37 @@
       "snapshot": "Trilegal advises HDFC Capital Advisors on structuring and formation of HDream Fund"
     },
     {
+      "id": 3431,
+      "name": "Mahesh Kumar",
+      "firm": "Legalics",
+      "role": "Managing Partner",
+      "role_bucket": "Managing Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "TAS"
+      ],
+      "deals": [
+        {
+          "headline": "Legalics advises TAS on investment in RGD Dental",
+          "client": "TAS",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legalics-advises-tas-on-investment-in-rgd-dental",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Legalics advises TAS on investment in RGD Dental"
+    },
+    {
       "id": 1417,
       "name": "Mahesh Wasadikar",
       "firm": "Trilegal",
@@ -74877,12 +75194,18 @@
       "id": 1872,
       "name": "Natasha Treasurywala",
       "firm": "Desai & Diwanji",
-      "role": "Partner",
-      "role_bucket": "Partner",
-      "transaction_types": [],
-      "practice_areas": [],
+      "role": "Senior Partner",
+      "role_bucket": "Senior Partner",
+      "transaction_types": [
+        "Series A",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
       "clients": [
-        "RideVision"
+        "RideVision",
+        "NeoGeo"
       ],
       "deals": [
         {
@@ -74892,6 +75215,19 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Desai & Diwanji, TT&A act on NeoGeo $20 million Series A fundraise",
+          "client": "NeoGeo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/desai-diwanji-tta-act-on-neogeo-20-million-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Desai & Diwanji act on Dhoot Transmission"
@@ -82698,6 +83034,7 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
+        "Series A",
         "acquisition",
         "fundraise"
       ],
@@ -82708,7 +83045,8 @@
       "clients": [
         "Tata Motors",
         "IFC and Fullerton",
-        "KNI India AS"
+        "KNI India AS",
+        "NeoGeo"
       ],
       "deals": [
         {
@@ -82741,6 +83079,19 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Desai & Diwanji, TT&A act on NeoGeo $20 million Series A fundraise",
+          "client": "NeoGeo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/desai-diwanji-tta-act-on-neogeo-20-million-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -86974,6 +87325,29 @@
       "snapshot": "SAM, Khaitan act on Aica Kogyo Co acquiring controlling stake in Stylam Industries for $225 million"
     },
     {
+      "id": 3427,
+      "name": "Preksha Kanungo",
+      "firm": "Economic Laws Practice",
+      "role": "Associate Partner",
+      "role_bucket": "Associate Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Birla Estates"
+      ],
+      "deals": [
+        {
+          "headline": "ELP advises Birla Estates on redevelopment project of Shiv-Sai Co-operative Housing Society",
+          "client": "Birla Estates",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/elp-advises-birla-estates-on-redevelopment-project-of-shiv-sai-co-operative-housing-society",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "ELP advises Birla Estates on redevelopment project of Shiv-Sai Co-operative Housing Society"
+    },
+    {
       "id": 1056,
       "name": "Prem Rajani",
       "firm": "Rajani Associates",
@@ -89865,15 +90239,18 @@
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
+        "acquisition",
         "fundraise"
       ],
       "practice_areas": [
+        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
         "Nexusmalls Whitefield",
         "GEF Capital Partners",
-        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+        "Logicap"
       ],
       "deals": [
         {
@@ -89903,6 +90280,18 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Khaitan & Co advises Logicap on acquisition of warehousing assets from Xander",
+          "client": "Logicap",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-logicap-on-acquisition-of-warehousing-assets-from-xander",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "Blackstone-backed Nexus shops for Kolkata mall Diamond Plaza; Khaitan, SAM advise"
@@ -91076,6 +91465,37 @@
       "snapshot": "Anagram, SAM, Trilegal, AZB act on Mensa Group reverse merger to India"
     },
     {
+      "id": 3422,
+      "name": "Rahul Sunil Agarwal",
+      "firm": "Khaitan & Co",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Logicap"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Logicap on acquisition of warehousing assets from Xander",
+          "client": "Logicap",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-logicap-on-acquisition-of-warehousing-assets-from-xander",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Logicap on acquisition of warehousing assets from Xander"
+    },
+    {
       "id": 217,
       "name": "Rahul Yadav",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -91830,6 +92250,29 @@
         }
       ],
       "snapshot": "Rajani Associates assists Associated Power Structures on securing ₹1,225 crore from ..."
+    },
+    {
+      "id": 3429,
+      "name": "Rajendra Bothre",
+      "firm": "Economic Laws Practice",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Birla Estates"
+      ],
+      "deals": [
+        {
+          "headline": "ELP advises Birla Estates on redevelopment project of Shiv-Sai Co-operative Housing Society",
+          "client": "Birla Estates",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/elp-advises-birla-estates-on-redevelopment-project-of-shiv-sai-co-operative-housing-society",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "ELP advises Birla Estates on redevelopment project of Shiv-Sai Co-operative Housing Society"
     },
     {
       "id": 995,
@@ -94314,6 +94757,37 @@
       "snapshot": "Trilegal acts on Capital Infra Trust ₹1,250 crore QIP and ₹345 crore preferential issue"
     },
     {
+      "id": 3421,
+      "name": "Reshma Abraham",
+      "firm": "Khaitan & Co",
+      "role": "Counsel",
+      "role_bucket": "Counsel",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Logicap"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Logicap on acquisition of warehousing assets from Xander",
+          "client": "Logicap",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-logicap-on-acquisition-of-warehousing-assets-from-xander",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Logicap on acquisition of warehousing assets from Xander"
+    },
+    {
       "id": 157,
       "name": "Reshmi Prabhakar",
       "firm": "Khaitan & Co",
@@ -95060,10 +95534,15 @@
       "firm": "Khaitan & Co",
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "Nexusmalls Whitefield"
+        "Nexusmalls Whitefield",
+        "Logicap"
       ],
       "deals": [
         {
@@ -95073,6 +95552,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Khaitan & Co advises Logicap on acquisition of warehousing assets from Xander",
+          "client": "Logicap",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-logicap-on-acquisition-of-warehousing-assets-from-xander",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "Blackstone-backed Nexus shops for Kolkata mall Diamond Plaza; Khaitan, SAM advise"
@@ -101351,6 +101842,29 @@
       "snapshot": "TT&A, Paul Weiss, Avisen Legal act on Carrier acquiring 75F Inc."
     },
     {
+      "id": 3430,
+      "name": "Salon Stephen Lopez",
+      "firm": "Economic Laws Practice",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Birla Estates"
+      ],
+      "deals": [
+        {
+          "headline": "ELP advises Birla Estates on redevelopment project of Shiv-Sai Co-operative Housing Society",
+          "client": "Birla Estates",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/elp-advises-birla-estates-on-redevelopment-project-of-shiv-sai-co-operative-housing-society",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "ELP advises Birla Estates on redevelopment project of Shiv-Sai Co-operative Housing Society"
+    },
+    {
       "id": 3285,
       "name": "Saloni Gupta",
       "firm": "Khaitan & Co",
@@ -103421,15 +103935,19 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "acquisition"
+        "Series A",
+        "acquisition",
+        "fundraise"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
         "MUFG Bank and SMBC",
         "IntelliSmart",
-        "Neysa & Nexus Venture Partners"
+        "Neysa & Nexus Venture Partners",
+        "NeoGeo"
       ],
       "deals": [
         {
@@ -103459,6 +103977,19 @@
           "source": "",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Desai & Diwanji, TT&A act on NeoGeo $20 million Series A fundraise",
+          "client": "NeoGeo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/desai-diwanji-tta-act-on-neogeo-20-million-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
       "snapshot": "CAM, TT&A, WvT, Trowers & Hamlins act on ACEN India securing ₹751 crore funding for ..."
@@ -109825,6 +110356,39 @@
       "snapshot": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Adani Enterprises ... - Bar and Bench"
     },
     {
+      "id": 3424,
+      "name": "Shireen Langrana",
+      "firm": "Desai & Diwanji",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "Series A",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "NeoGeo"
+      ],
+      "deals": [
+        {
+          "headline": "Desai & Diwanji, TT&A act on NeoGeo $20 million Series A fundraise",
+          "client": "NeoGeo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/desai-diwanji-tta-act-on-neogeo-20-million-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Desai & Diwanji, TT&A act on NeoGeo $20 million Series A fundraise"
+    },
+    {
       "id": 2229,
       "name": "Shirin Singh",
       "firm": "Saraf and Partners",
@@ -111987,10 +112551,15 @@
       "firm": "Khaitan & Co",
       "role": "Principal Associate",
       "role_bucket": "Principal Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "Nexusmalls Whitefield"
+        "Nexusmalls Whitefield",
+        "Logicap"
       ],
       "deals": [
         {
@@ -112000,6 +112569,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Khaitan & Co advises Logicap on acquisition of warehousing assets from Xander",
+          "client": "Logicap",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-logicap-on-acquisition-of-warehousing-assets-from-xander",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "Blackstone-backed Nexus shops for Kolkata mall Diamond Plaza; Khaitan, SAM advise"
@@ -120769,6 +121350,37 @@
         }
       ],
       "snapshot": "TPG-led consortium to acquire Aseem Infra Finance; CAM, Linklaters, Trilegal, SAM advise"
+    },
+    {
+      "id": 3423,
+      "name": "Subhadip Choudhuri",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Logicap"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Logicap on acquisition of warehousing assets from Xander",
+          "client": "Logicap",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-logicap-on-acquisition-of-warehousing-assets-from-xander",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Logicap on acquisition of warehousing assets from Xander"
     },
     {
       "id": 2454,
@@ -130216,6 +130828,37 @@
         }
       ],
       "snapshot": "CAM, Latham, Trilegal, JSA, Khaitan act on Manipal Hospitals ₹8,000 crore proposed IPO"
+    },
+    {
+      "id": 3433,
+      "name": "Vanshika Gargava",
+      "firm": "Legalics",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "TAS"
+      ],
+      "deals": [
+        {
+          "headline": "Legalics advises TAS on investment in RGD Dental",
+          "client": "TAS",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legalics-advises-tas-on-investment-in-rgd-dental",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Legalics advises TAS on investment in RGD Dental"
     },
     {
       "id": 939,
