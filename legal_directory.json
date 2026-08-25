@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 3433,
-    "firms": 95,
-    "deals": 428,
+    "people": 3480,
+    "firms": 96,
+    "deals": 432,
     "practice_areas": 6
   },
   "firms": [
@@ -93,6 +93,7 @@
     "Trilegal",
     "Triumvir Law",
     "Troutman Pepper Locke",
+    "Universal Legal",
     "Uría Menéndez",
     "Verist Law",
     "Veritas Legal",
@@ -170,7 +171,7 @@
     },
     {
       "firm": "AZB & Partners",
-      "people_count": 191,
+      "people_count": 194,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -328,6 +329,7 @@
             1288,
             1289,
             1306,
+            3441,
             2070,
             1297,
             1291,
@@ -342,6 +344,7 @@
             1292,
             1300,
             2557,
+            240,
             1305,
             2075,
             1310,
@@ -349,6 +352,7 @@
             1734,
             2071,
             1293,
+            3440,
             1296,
             43,
             1295,
@@ -356,7 +360,8 @@
             2472,
             1434,
             1290,
-            2556
+            2556,
+            3439
           ]
         },
         {
@@ -2033,7 +2038,7 @@
     },
     {
       "firm": "JSA Advocates & Solicitors",
-      "people_count": 356,
+      "people_count": 357,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -2272,6 +2277,7 @@
             3,
             385,
             383,
+            3477,
             3335,
             113,
             747,
@@ -3256,17 +3262,19 @@
     },
     {
       "firm": "Legacy Law Offices",
-      "people_count": 6,
+      "people_count": 8,
       "practice_groups": [
         {
           "area": "Capital Markets",
           "person_ids": [
             3071,
+            3479,
             3069,
             3067,
             3070,
             3072,
-            3068
+            3068,
+            3480
           ]
         }
       ]
@@ -4574,7 +4582,7 @@
     },
     {
       "firm": "Trilegal",
-      "people_count": 485,
+      "people_count": 490,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -4848,6 +4856,7 @@
             1278,
             1725,
             1348,
+            3438,
             2574,
             1142,
             1140,
@@ -4879,16 +4888,19 @@
             278,
             450,
             1349,
+            3437,
             1263,
             3166,
             1408,
             1020,
+            3435,
             271,
             1341,
             449,
             1204,
             2446,
             1139,
+            2196,
             735,
             11,
             1342,
@@ -4900,6 +4912,8 @@
             536,
             512,
             272,
+            3436,
+            2938,
             1001,
             1280,
             764,
@@ -4914,6 +4928,7 @@
             1645,
             2445,
             1202,
+            3434,
             14,
             1284,
             1347,
@@ -5012,7 +5027,6 @@
             2575,
             2138,
             2151,
-            2196,
             1449,
             1023,
             2019,
@@ -5225,6 +5239,20 @@
             3079,
             3081,
             3080
+          ]
+        }
+      ]
+    },
+    {
+      "firm": "Universal Legal",
+      "people_count": 3,
+      "practice_groups": [
+        {
+          "area": "Private Equity & Venture Capital",
+          "person_ids": [
+            3475,
+            3478,
+            3476
           ]
         }
       ]
@@ -7373,6 +7401,27 @@
         }
       ],
       "snapshot": "SAM, Clove Legal act on JK Paper's ₹235 crore acquisition of Borkar Packaging"
+    },
+    {
+      "id": 3468,
+      "name": "Abhimanyu Pal",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise"
     },
     {
       "id": 2406,
@@ -13234,6 +13283,27 @@
       "snapshot": "AZB, JSA act on Canara Robeco ~₹1,326 crore IPO"
     },
     {
+      "id": 3472,
+      "name": "Ajeta Anand",
+      "firm": null,
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise"
+    },
+    {
       "id": 2035,
       "name": "Ajo Jomy",
       "firm": "Trilegal",
@@ -13796,6 +13866,39 @@
       "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat"
     },
     {
+      "id": 3459,
+      "name": "Akhil Kumar",
+      "firm": null,
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+      "same_name_elsewhere": [
+        {
+          "id": 2723,
+          "firm": "Khaitan & Co",
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 2723,
       "name": "Akhil Kumar",
       "firm": "Khaitan & Co",
@@ -13816,7 +13919,19 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "CAM advises Hiranandani Financial Services on raising ₹800 crore from Vitruvian"
+      "snapshot": "CAM advises Hiranandani Financial Services on raising ₹800 crore from Vitruvian",
+      "same_name_elsewhere": [
+        {
+          "id": 3459,
+          "firm": null,
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 2840,
@@ -15046,6 +15161,39 @@
       "snapshot": "Trilegal, TT&A, Hogan Lovells Cadwalader act on APAR Industries ₹2,500 crore QIP"
     },
     {
+      "id": 3463,
+      "name": "Alankrita Singh",
+      "firm": null,
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+      "same_name_elsewhere": [
+        {
+          "id": 2762,
+          "firm": "Khaitan & Co",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 2762,
       "name": "Alankrita Singh",
       "firm": "Khaitan & Co",
@@ -15074,7 +15222,19 @@
           ]
         }
       ],
-      "snapshot": "Khaitan, CAM guide Saregama India's ₹325 crore investment in Sanjay Leela Bhansali's studio"
+      "snapshot": "Khaitan, CAM guide Saregama India's ₹325 crore investment in Sanjay Leela Bhansali's studio",
+      "same_name_elsewhere": [
+        {
+          "id": 3463,
+          "firm": null,
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1174,
@@ -16999,7 +17159,8 @@
         "CRED",
         "OFF/BEAT and Aman Gupta",
         "Blackstone",
-        "Digantara and its founders"
+        "Digantara and its founders",
+        "BookMyShow securing investment from KKR"
       ],
       "deals": [
         {
@@ -17074,6 +17235,18 @@
           "types": [
             "fundraise",
             "Series B"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR",
+          "client": "BookMyShow securing investment from KKR",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-azb-partners-act-on-bookmyshow-securing-investment-from-kkr",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
@@ -17836,6 +18009,39 @@
       "snapshot": "Wilson Sonsini, JSA, Latham act on Marvell's acquisition of Celestial AI"
     },
     {
+      "id": 3451,
+      "name": "Anam Chowdhary",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+      "same_name_elsewhere": [
+        {
+          "id": 1558,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 1558,
       "name": "Anam Chowdhary",
       "firm": "Cyril Amarchand Mangaldas",
@@ -17864,7 +18070,19 @@
           ]
         }
       ],
-      "snapshot": "Khaitan & Co, Cyril Amarchand Mangaldas act on Embio securing investment from True North"
+      "snapshot": "Khaitan & Co, Cyril Amarchand Mangaldas act on Embio securing investment from True North",
+      "same_name_elsewhere": [
+        {
+          "id": 3451,
+          "firm": null,
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 592,
@@ -22609,6 +22827,27 @@
       "snapshot": "SAM, Khaitan, A&O Shearman act on Tenneco India ₹3,600 crore IPO - Bar and Bench"
     },
     {
+      "id": 3467,
+      "name": "Anshul Prakash",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise"
+    },
+    {
       "id": 118,
       "name": "Anshul Roy",
       "firm": "Cyril Amarchand Mangaldas",
@@ -27324,6 +27563,39 @@
       "snapshot": "CMS INDUSLAW, ELP act on Avtar Steel ₹585 crore+ proposed IPO"
     },
     {
+      "id": 3449,
+      "name": "Arpita Sengupta",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+      "same_name_elsewhere": [
+        {
+          "id": 1362,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Partner",
+          "deal_count": 2
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 1362,
       "name": "Arpita Sengupta",
       "firm": "Cyril Amarchand Mangaldas",
@@ -27369,7 +27641,19 @@
           ]
         }
       ],
-      "snapshot": "Trilegal, TT&A, Cyril Amarchand Mangaldas act on Sarvam AI $300 million Series B fundraise"
+      "snapshot": "Trilegal, TT&A, Cyril Amarchand Mangaldas act on Sarvam AI $300 million Series B fundraise",
+      "same_name_elsewhere": [
+        {
+          "id": 3449,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 865,
@@ -31758,6 +32042,27 @@
       "snapshot": "JSA, ELP act on TravelPlus ₹250 crore+ IPO filing - Bar and Bench"
     },
     {
+      "id": 3446,
+      "name": "Ayushi Jhawar",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise"
+    },
+    {
       "id": 1163,
       "name": "Ayushi Pandit",
       "firm": "JSA Advocates & Solicitors",
@@ -34199,6 +34504,39 @@
       "snapshot": "JSA, Khaitan act on Coforge's $2.35 billion acquisition of Encora - Bar and Bench"
     },
     {
+      "id": 3450,
+      "name": "Biplab Lenin",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+      "same_name_elsewhere": [
+        {
+          "id": 1557,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 1557,
       "name": "Biplab Lenin",
       "firm": "Cyril Amarchand Mangaldas",
@@ -34227,7 +34565,19 @@
           ]
         }
       ],
-      "snapshot": "Khaitan & Co, Cyril Amarchand Mangaldas act on Embio securing investment from True North"
+      "snapshot": "Khaitan & Co, Cyril Amarchand Mangaldas act on Embio securing investment from True North",
+      "same_name_elsewhere": [
+        {
+          "id": 3450,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 2660,
@@ -38641,6 +38991,37 @@
       "snapshot": "Saraf, CasePro, Trilegal act on Megaport Limited acquiring Extreme IX platform"
     },
     {
+      "id": 3441,
+      "name": "Devanshi Patel",
+      "firm": "AZB & Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "BookMyShow securing investment from KKR"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR",
+          "client": "BookMyShow securing investment from KKR",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-azb-partners-act-on-bookmyshow-securing-investment-from-kkr",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR"
+    },
+    {
       "id": 2519,
       "name": "Devanshi Soni",
       "firm": "Cyril Amarchand Mangaldas",
@@ -39582,6 +39963,39 @@
       "snapshot": "JSA, Khaitan act on Everstone investing $270 million in Apothecon Group"
     },
     {
+      "id": 3445,
+      "name": "Dhrumil Sanghvi",
+      "firm": null,
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+      "same_name_elsewhere": [
+        {
+          "id": 2983,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 2983,
       "name": "Dhrumil Sanghvi",
       "firm": "Cyril Amarchand Mangaldas",
@@ -39602,7 +40016,19 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "Cyril Amarchand Mangaldas advises True North on sale of majority stake in Shree Digvijay Cement"
+      "snapshot": "Cyril Amarchand Mangaldas advises True North on sale of majority stake in Shree Digvijay Cement",
+      "same_name_elsewhere": [
+        {
+          "id": 3445,
+          "firm": null,
+          "role": "Principal Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 496,
@@ -41496,6 +41922,37 @@
         }
       ],
       "snapshot": "JSA assists Continuum Green Energy on securing ₹1,350 crore from Chubu Electric Power Co."
+    },
+    {
+      "id": 3438,
+      "name": "Divye Sharma",
+      "firm": "Trilegal",
+      "role": "Counsel",
+      "role_bucket": "Counsel",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "BookMyShow securing investment from KKR"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR",
+          "client": "BookMyShow securing investment from KKR",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-azb-partners-act-on-bookmyshow-securing-investment-from-kkr",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR"
     },
     {
       "id": 1679,
@@ -45515,6 +45972,37 @@
         }
       ],
       "snapshot": "JSA, ELP act on TravelPlus ₹250 crore+ IPO filing - Bar and Bench"
+    },
+    {
+      "id": 3479,
+      "name": "Geetika Joshi",
+      "firm": "Legacy Law Offices",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Dain Colour Chem IPO"
+      ],
+      "deals": [
+        {
+          "headline": "Legacy Law Offices acts on Dain Colour Chem IPO",
+          "client": "Dain Colour Chem IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-dain-colour-chem-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Legacy Law Offices acts on Dain Colour Chem IPO"
     },
     {
       "id": 2337,
@@ -62066,6 +62554,45 @@
       "snapshot": "Trilegal, TT&A, Cyril Amarchand Mangaldas act on Sarvam AI $300 million Series B fundraise"
     },
     {
+      "id": 3452,
+      "name": "Krithika Radhakrishnan",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+      "same_name_elsewhere": [
+        {
+          "id": 3049,
+          "firm": "Shardul Amarchand Mangaldas & Co",
+          "role": "Partner",
+          "deal_count": 1
+        },
+        {
+          "id": 2982,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Principal Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 3049,
       "name": "Krithika Radhakrishnan",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -62088,6 +62615,12 @@
       ],
       "snapshot": "Khaitan & Co, Shardul Amarchand Mangaldas act on BNP Paribas Cardif acquiring stake in IndiaFirst Life...",
       "same_name_elsewhere": [
+        {
+          "id": 3452,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        },
         {
           "id": 2982,
           "firm": "Cyril Amarchand Mangaldas",
@@ -62123,6 +62656,12 @@
       ],
       "snapshot": "Cyril Amarchand Mangaldas advises True North on sale of majority stake in Shree Digvijay Cement",
       "same_name_elsewhere": [
+        {
+          "id": 3452,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        },
         {
           "id": 3049,
           "firm": "Shardul Amarchand Mangaldas & Co",
@@ -62581,6 +63120,27 @@
         }
       ],
       "snapshot": "CAM, Khaitan, SAM act on Clean Max Enviro Energy IPO"
+    },
+    {
+      "id": 3470,
+      "name": "Kruthi Murthy",
+      "firm": null,
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise"
     },
     {
       "id": 1399,
@@ -70780,13 +71340,26 @@
         "Capital Markets"
       ],
       "clients": [
-        "Apar Advertisers IPO"
+        "Apar Advertisers IPO",
+        "Dain Colour Chem IPO"
       ],
       "deals": [
         {
           "headline": "Legacy Law Offices acts on Apar Advertisers IPO",
           "client": "Apar Advertisers IPO",
           "url": "https://www.barandbench.com/dealstreet/legacylawoffices-acts-on-apar-advertisers-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Legacy Law Offices acts on Dain Colour Chem IPO",
+          "client": "Dain Colour Chem IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-dain-colour-chem-ipo",
           "source": "Bar & Bench",
           "types": [
             "IPO"
@@ -73543,6 +74116,37 @@
       "snapshot": "SAM, Khaitan act on Aica Kogyo Co acquiring controlling stake in Stylam Industries for $225 million"
     },
     {
+      "id": 3437,
+      "name": "Mukund Agarwal",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "BookMyShow securing investment from KKR"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR",
+          "client": "BookMyShow securing investment from KKR",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-azb-partners-act-on-bookmyshow-securing-investment-from-kkr",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR"
+    },
+    {
       "id": 1178,
       "name": "Mukund Bali",
       "firm": "Trilegal",
@@ -74149,13 +74753,26 @@
         "Capital Markets"
       ],
       "clients": [
-        "Apar Advertisers IPO"
+        "Apar Advertisers IPO",
+        "Dain Colour Chem IPO"
       ],
       "deals": [
         {
           "headline": "Legacy Law Offices acts on Apar Advertisers IPO",
           "client": "Apar Advertisers IPO",
           "url": "https://www.barandbench.com/dealstreet/legacylawoffices-acts-on-apar-advertisers-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Legacy Law Offices acts on Dain Colour Chem IPO",
+          "client": "Dain Colour Chem IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-dain-colour-chem-ipo",
           "source": "Bar & Bench",
           "types": [
             "IPO"
@@ -76352,6 +76969,70 @@
       "snapshot": "Cyril Amarchand Mangaldas, Shardul Amarchand Mangaldas, AZB & Partners, Sidley Austin act on Cube Highways..."
     },
     {
+      "id": 3435,
+      "name": "Neha Koppu",
+      "firm": "Trilegal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "BookMyShow securing investment from KKR"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR",
+          "client": "BookMyShow securing investment from KKR",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-azb-partners-act-on-bookmyshow-securing-investment-from-kkr",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR"
+    },
+    {
+      "id": 3475,
+      "name": "Neha Sehgal",
+      "firm": "Universal Legal",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "Series A",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Peeko Series A fundraise"
+      ],
+      "deals": [
+        {
+          "headline": "Universal Legal, JSA act on Peeko Series A fundraise",
+          "client": "Peeko Series A fundraise",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/universal-legal-jsa-act-on-peeko-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Universal Legal, JSA act on Peeko Series A fundraise"
+    },
+    {
       "id": 2666,
       "name": "Neha Shivhare",
       "firm": "Cyril Amarchand Mangaldas",
@@ -76428,6 +77109,39 @@
         }
       ],
       "snapshot": "TPG-led consortium to acquire Aseem Infra Finance; CAM, Linklaters, Trilegal, SAM advise"
+    },
+    {
+      "id": 3477,
+      "name": "Nehal Kharyal",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "Series A",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Peeko Series A fundraise"
+      ],
+      "deals": [
+        {
+          "headline": "Universal Legal, JSA act on Peeko Series A fundraise",
+          "client": "Peeko Series A fundraise",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/universal-legal-jsa-act-on-peeko-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Universal Legal, JSA act on Peeko Series A fundraise"
     },
     {
       "id": 2848,
@@ -79046,6 +79760,39 @@
       "snapshot": "Trilegal advises Edelweiss Infrastructure, SEPL Energy on divestment of stake in 12 solar ..."
     },
     {
+      "id": 3456,
+      "name": "Niren Patel",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+      "same_name_elsewhere": [
+        {
+          "id": 2724,
+          "firm": "Khaitan & Co",
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 2724,
       "name": "Niren Patel",
       "firm": "Khaitan & Co",
@@ -79066,7 +79813,19 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "CAM advises Hiranandani Financial Services on raising ₹800 crore from Vitruvian"
+      "snapshot": "CAM advises Hiranandani Financial Services on raising ₹800 crore from Vitruvian",
+      "same_name_elsewhere": [
+        {
+          "id": 3456,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1486,
@@ -80513,6 +81272,39 @@
         }
       ],
       "snapshot": "JSA, Khaitan act on Coforge's $2.35 billion acquisition of Encora - Bar and Bench"
+    },
+    {
+      "id": 3478,
+      "name": "Noopur T",
+      "firm": "Universal Legal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "Series A",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Peeko Series A fundraise"
+      ],
+      "deals": [
+        {
+          "headline": "Universal Legal, JSA act on Peeko Series A fundraise",
+          "client": "Peeko Series A fundraise",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/universal-legal-jsa-act-on-peeko-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Universal Legal, JSA act on Peeko Series A fundraise"
     },
     {
       "id": 1303,
@@ -82595,13 +83387,26 @@
         "Capital Markets"
       ],
       "clients": [
-        "Apar Advertisers IPO"
+        "Apar Advertisers IPO",
+        "Dain Colour Chem IPO"
       ],
       "deals": [
         {
           "headline": "Legacy Law Offices acts on Apar Advertisers IPO",
           "client": "Apar Advertisers IPO",
           "url": "https://www.barandbench.com/dealstreet/legacylawoffices-acts-on-apar-advertisers-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Legacy Law Offices acts on Dain Colour Chem IPO",
+          "client": "Dain Colour Chem IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-dain-colour-chem-ipo",
           "source": "Bar & Bench",
           "types": [
             "IPO"
@@ -87056,11 +87861,17 @@
       "id": 2196,
       "name": "Pratyush Singh",
       "firm": "Trilegal",
-      "role": null,
-      "role_bucket": null,
-      "transaction_types": [],
-      "practice_areas": [],
-      "clients": [],
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "BookMyShow securing investment from KKR"
+      ],
       "deals": [
         {
           "headline": "Good PE/VC team in Trilegal GGN - Legally India",
@@ -87069,6 +87880,18 @@
           "source": "Legally India",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR",
+          "client": "BookMyShow securing investment from KKR",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-azb-partners-act-on-bookmyshow-securing-investment-from-kkr",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
       "snapshot": "Good PE/VC team in Trilegal GGN - Legally India"
@@ -87767,6 +88590,27 @@
       "snapshot": "SAM advises Power Finance Corp on sanctioning ₹2,046 crore for Acme Urja One's 380 ..."
     },
     {
+      "id": 3448,
+      "name": "Princy D’souza",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise"
+    },
+    {
       "id": 2813,
       "name": "Pritali Patil",
       "firm": "Trilegal",
@@ -88068,13 +88912,26 @@
         "Capital Markets"
       ],
       "clients": [
-        "Apar Advertisers IPO"
+        "Apar Advertisers IPO",
+        "Dain Colour Chem IPO"
       ],
       "deals": [
         {
           "headline": "Legacy Law Offices acts on Apar Advertisers IPO",
           "client": "Apar Advertisers IPO",
           "url": "https://www.barandbench.com/dealstreet/legacylawoffices-acts-on-apar-advertisers-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Legacy Law Offices acts on Dain Colour Chem IPO",
+          "client": "Dain Colour Chem IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-dain-colour-chem-ipo",
           "source": "Bar & Bench",
           "types": [
             "IPO"
@@ -88333,6 +89190,14 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Mahindra Last Mile Mobility becomes Unicorn with ₹322 crore fundraise; Khaitan & Co advises",
@@ -88384,7 +89249,7 @@
           "id": 3372,
           "firm": null,
           "role": "Senior Associate",
-          "deal_count": 1
+          "deal_count": 2
         }
       ],
       "firm_verification": {
@@ -93270,7 +94135,8 @@
         "Unilever Ventures",
         "Continuum Green Energy",
         "M1xchange",
-        "BlissClub"
+        "BlissClub",
+        "Peeko Series A fundraise"
       ],
       "deals": [
         {
@@ -93331,6 +94197,19 @@
           "source": "Bar & Bench",
           "types": [
             "Series B",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Universal Legal, JSA act on Peeko Series A fundraise",
+          "client": "Peeko Series A fundraise",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/universal-legal-jsa-act-on-peeko-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
             "fundraise"
           ],
           "practice_areas": [
@@ -93702,6 +94581,39 @@
       "snapshot": "Uría Menéndez, CAM, Pérez-Llorca, Weil, Khaitan act on €600 million acquisition of Ayesa ..."
     },
     {
+      "id": 3462,
+      "name": "Ravali Rayaprolu",
+      "firm": null,
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+      "same_name_elsewhere": [
+        {
+          "id": 2721,
+          "firm": "Khaitan & Co",
+          "role": "Principal Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 2721,
       "name": "Ravali Rayaprolu",
       "firm": "Khaitan & Co",
@@ -93722,7 +94634,19 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "CAM advises Hiranandani Financial Services on raising ₹800 crore from Vitruvian"
+      "snapshot": "CAM advises Hiranandani Financial Services on raising ₹800 crore from Vitruvian",
+      "same_name_elsewhere": [
+        {
+          "id": 3462,
+          "firm": null,
+          "role": "Principal Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1449,
@@ -94468,6 +95392,39 @@
       "snapshot": "JSA acts on Goyaz Jewellery ₹130 crore Series A Fundraise"
     },
     {
+      "id": 3442,
+      "name": "Reeba Chacko",
+      "firm": null,
+      "role": "Senior Partner",
+      "role_bucket": "Senior Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+      "same_name_elsewhere": [
+        {
+          "id": 1690,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Senior Partner",
+          "deal_count": 2
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 1690,
       "name": "Reeba Chacko",
       "firm": "Cyril Amarchand Mangaldas",
@@ -94511,7 +95468,19 @@
           ]
         }
       ],
-      "snapshot": "CAM, Latham, Trilegal, JSA, Khaitan act on Manipal Hospitals ₹8,000 crore proposed IPO"
+      "snapshot": "CAM, Latham, Trilegal, JSA, Khaitan act on Manipal Hospitals ₹8,000 crore proposed IPO",
+      "same_name_elsewhere": [
+        {
+          "id": 3442,
+          "firm": null,
+          "role": "Senior Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 622,
@@ -97202,6 +98171,7 @@
       "role": "Principal Associate",
       "role_bucket": "Principal Associate",
       "transaction_types": [
+        "Series A",
         "Series B",
         "fundraise"
       ],
@@ -97209,7 +98179,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "OrbiMed Asia V Mauritius Limited"
+        "OrbiMed Asia V Mauritius Limited",
+        "Peeko Series A fundraise"
       ],
       "deals": [
         {
@@ -97220,6 +98191,19 @@
           "types": [
             "fundraise",
             "Series B"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Universal Legal, JSA act on Peeko Series A fundraise",
+          "client": "Peeko Series A fundraise",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/universal-legal-jsa-act-on-peeko-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
@@ -97267,7 +98251,7 @@
           "id": 1784,
           "firm": "JSA Advocates & Solicitors",
           "role": "Principal Associate",
-          "deal_count": 1
+          "deal_count": 2
         }
       ],
       "firm_verification": {
@@ -97390,6 +98374,37 @@
         }
       ],
       "snapshot": "JSA leads Coforge to close Cigniti acquisition - Bar and Bench"
+    },
+    {
+      "id": 3436,
+      "name": "Riya Thawani",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "BookMyShow securing investment from KKR"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR",
+          "client": "BookMyShow securing investment from KKR",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-azb-partners-act-on-bookmyshow-securing-investment-from-kkr",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR"
     },
     {
       "id": 771,
@@ -98735,16 +99750,19 @@
       "id": 240,
       "name": "Roxanne Anderson",
       "firm": "AZB & Partners",
-      "role": "Senior Partner, Team Lead",
+      "role": "Senior Partner",
       "role_bucket": "Senior Partner",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "investment"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Deutsche Bank"
+        "Deutsche Bank",
+        "BookMyShow securing investment from KKR"
       ],
       "deals": [
         {
@@ -98757,6 +99775,18 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR",
+          "client": "BookMyShow securing investment from KKR",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-azb-partners-act-on-bookmyshow-securing-investment-from-kkr",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -98936,6 +99966,39 @@
       "snapshot": "CAM advises Jindal Power on acquisition of 1320 MW thermal power plant in Haryana"
     },
     {
+      "id": 3476,
+      "name": "Ruchita Krishnan",
+      "firm": "Universal Legal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "Series A",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Peeko Series A fundraise"
+      ],
+      "deals": [
+        {
+          "headline": "Universal Legal, JSA act on Peeko Series A fundraise",
+          "client": "Peeko Series A fundraise",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/universal-legal-jsa-act-on-peeko-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Universal Legal, JSA act on Peeko Series A fundraise"
+    },
+    {
       "id": 1504,
       "name": "Ruchita Modi",
       "firm": "JSA Advocates & Solicitors",
@@ -99113,18 +100176,21 @@
       "id": 2938,
       "name": "Rudresh Singh",
       "firm": "Trilegal",
-      "role": "Partner (Competition law)",
+      "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
         "QIP",
-        "acquisition"
+        "acquisition",
+        "investment"
       ],
       "practice_areas": [
         "Capital Markets",
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Capital Infra Trust"
+        "Capital Infra Trust",
+        "BookMyShow securing investment from KKR"
       ],
       "deals": [
         {
@@ -99139,6 +100205,18 @@
           "practice_areas": [
             "Capital Markets",
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR",
+          "client": "BookMyShow securing investment from KKR",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-azb-partners-act-on-bookmyshow-securing-investment-from-kkr",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -99715,6 +100793,39 @@
       "snapshot": "CAM, S&R, SAM, Sidley Austin act on ICICI Prudential AMC ₹10602 crore IPO"
     },
     {
+      "id": 3458,
+      "name": "Ruturaj Jere",
+      "firm": null,
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+      "same_name_elsewhere": [
+        {
+          "id": 3291,
+          "firm": "Khaitan & Co",
+          "role": "Principal Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 3291,
       "name": "Ruturaj Jere",
       "firm": "Khaitan & Co",
@@ -99743,7 +100854,19 @@
           ]
         }
       ],
-      "snapshot": "Khaitan, Lexygen, US law firms act on Standex’s acquisition of Amran/Narayan Group"
+      "snapshot": "Khaitan, Lexygen, US law firms act on Standex’s acquisition of Amran/Narayan Group",
+      "same_name_elsewhere": [
+        {
+          "id": 3458,
+          "firm": null,
+          "role": "Principal Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 2382,
@@ -102088,6 +103211,27 @@
       "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO"
     },
     {
+      "id": 3464,
+      "name": "Sama Sushma Reddy",
+      "firm": null,
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise"
+    },
+    {
       "id": 2586,
       "name": "Samantha Seiden",
       "firm": "Hogan Lovells",
@@ -102389,6 +103533,27 @@
         }
       ],
       "snapshot": "JSA advises Mamaearth on ₹135 crore majority stake acquisition in Fluence Pharma"
+    },
+    {
+      "id": 3461,
+      "name": "Sameer Sah",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise"
     },
     {
       "id": 1194,
@@ -105473,6 +106638,39 @@
       "snapshot": "JSA, White & Case act on GTCR acquiring Zentiva for ₹36,600 crore"
     },
     {
+      "id": 3455,
+      "name": "Sara Sundaram",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+      "same_name_elsewhere": [
+        {
+          "id": 659,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 659,
       "name": "Sara Sundaram",
       "firm": "Cyril Amarchand Mangaldas",
@@ -105501,7 +106699,19 @@
           ]
         }
       ],
-      "snapshot": "Uría Menéndez, CAM, Pérez-Llorca, Weil, Khaitan act on €600 million acquisition of Ayesa ..."
+      "snapshot": "Uría Menéndez, CAM, Pérez-Llorca, Weil, Khaitan act on €600 million acquisition of Ayesa ...",
+      "same_name_elsewhere": [
+        {
+          "id": 3455,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 2510,
@@ -106333,6 +107543,39 @@
       "snapshot": "JSA, CAM act on NHIT ₹6,591 crore fundraise"
     },
     {
+      "id": 3457,
+      "name": "Saswat Subasit",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+      "same_name_elsewhere": [
+        {
+          "id": 2719,
+          "firm": "Khaitan & Co",
+          "role": "Partner",
+          "deal_count": 2
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 2719,
       "name": "Saswat Subasit",
       "firm": "Khaitan & Co",
@@ -106370,7 +107613,19 @@
           ]
         }
       ],
-      "snapshot": "CAM advises Hiranandani Financial Services on raising ₹800 crore from Vitruvian"
+      "snapshot": "CAM advises Hiranandani Financial Services on raising ₹800 crore from Vitruvian",
+      "same_name_elsewhere": [
+        {
+          "id": 3457,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 2696,
@@ -109608,6 +110863,37 @@
       "snapshot": "JSA advises Volvo on NBFC joint venture with Eicher Motors - Bar and Bench"
     },
     {
+      "id": 3434,
+      "name": "Shaurya Jain",
+      "firm": "Trilegal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "BookMyShow securing investment from KKR"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR",
+          "client": "BookMyShow securing investment from KKR",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-azb-partners-act-on-bookmyshow-securing-investment-from-kkr",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR"
+    },
+    {
       "id": 1213,
       "name": "Shaurya Jakher",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -111210,6 +112496,27 @@
       "snapshot": "JSA, Cyril Amarchand Mangaldas act on Allianz - Jio General Insurance JV"
     },
     {
+      "id": 3471,
+      "name": "Shivani Devpura",
+      "firm": null,
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise"
+    },
+    {
       "id": 2886,
       "name": "Shivani Jain",
       "firm": "JSA Advocates & Solicitors",
@@ -111598,6 +112905,39 @@
       "snapshot": "Power Finance Corp to absorb REC Limited; Cyril Amarchand Mangaldas acts on merger"
     },
     {
+      "id": 3453,
+      "name": "Shivika Gupta",
+      "firm": null,
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+      "same_name_elsewhere": [
+        {
+          "id": 232,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Associate",
+          "deal_count": 3
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 232,
       "name": "Shivika Gupta",
       "firm": "Cyril Amarchand Mangaldas",
@@ -111644,7 +112984,19 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "Cyril Amarchand Mangaldas advises Kotak Mahindra Bank on acquisition of Private ..."
+      "snapshot": "Cyril Amarchand Mangaldas advises Kotak Mahindra Bank on acquisition of Private ...",
+      "same_name_elsewhere": [
+        {
+          "id": 3453,
+          "firm": null,
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 445,
@@ -111960,6 +113312,39 @@
       "snapshot": "CAM advises Jindal Power on acquisition of 1320 MW thermal power plant in Haryana"
     },
     {
+      "id": 3474,
+      "name": "Shouraseni Chakraborty",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+      "same_name_elsewhere": [
+        {
+          "id": 698,
+          "firm": "Khaitan & Co",
+          "role": "Associate",
+          "deal_count": 2
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 698,
       "name": "Shouraseni Chakraborty",
       "firm": "Khaitan & Co",
@@ -112003,7 +113388,19 @@
           ]
         }
       ],
-      "snapshot": "Khaitan, JSA act on Weavers acquiring majority stake in Centrum Housing Finance"
+      "snapshot": "Khaitan, JSA act on Weavers acquiring majority stake in Centrum Housing Finance",
+      "same_name_elsewhere": [
+        {
+          "id": 3474,
+          "firm": null,
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1284,
@@ -113912,6 +115309,27 @@
         }
       ],
       "snapshot": "Trilegal, CAM, Latham, AZB, Equilex, Macfarlanes advise on Mittal-Poonawalla consortium ..."
+    },
+    {
+      "id": 3465,
+      "name": "Shrishti Mishra",
+      "firm": null,
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise"
     },
     {
       "id": 109,
@@ -116888,6 +118306,39 @@
       "snapshot": "SAM, CAM, Latham act on Groww ₹6,632 crore IPO - Bar and Bench"
     },
     {
+      "id": 3444,
+      "name": "Siddharth Vedula",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+      "same_name_elsewhere": [
+        {
+          "id": 2980,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Partner",
+          "deal_count": 2
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 2980,
       "name": "Siddharth Vedula",
       "firm": "Cyril Amarchand Mangaldas",
@@ -116925,7 +118376,19 @@
           ]
         }
       ],
-      "snapshot": "Cyril Amarchand Mangaldas advises True North on sale of majority stake in Shree Digvijay Cement"
+      "snapshot": "Cyril Amarchand Mangaldas advises True North on sale of majority stake in Shree Digvijay Cement",
+      "same_name_elsewhere": [
+        {
+          "id": 3444,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1010,
@@ -118064,6 +119527,27 @@
       "snapshot": "Trilegal advises JM Financial on ₹150 crore investment in NG Electro - Bar and Bench"
     },
     {
+      "id": 3454,
+      "name": "Sindhushri Badarinath",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise"
+    },
+    {
       "id": 603,
       "name": "Sirada Chayabunjonglerd",
       "firm": "Latham & Watkins",
@@ -118093,6 +119577,37 @@
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Trilegal act on Ather Energy ₹1,300 crore QIP"
+    },
+    {
+      "id": 3440,
+      "name": "Siri Harish",
+      "firm": "AZB & Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "BookMyShow securing investment from KKR"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR",
+          "client": "BookMyShow securing investment from KKR",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-azb-partners-act-on-bookmyshow-securing-investment-from-kkr",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR"
     },
     {
       "id": 700,
@@ -119427,6 +120942,39 @@
       "snapshot": "Aritra Partners, JSA act on Ethereal Machines $28.5 million Series B fundraise"
     },
     {
+      "id": 3469,
+      "name": "Sourav Dan",
+      "firm": null,
+      "role": "Counsel",
+      "role_bucket": "Counsel",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+      "same_name_elsewhere": [
+        {
+          "id": 2845,
+          "firm": "Khaitan & Co",
+          "role": "Counsel",
+          "deal_count": 3
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 2845,
       "name": "Sourav Dan",
       "firm": "Khaitan & Co",
@@ -119487,7 +121035,19 @@
           ]
         }
       ],
-      "snapshot": "SAM acts on Tractor Junction ₹200 crore fundraise - Bar and Bench"
+      "snapshot": "SAM acts on Tractor Junction ₹200 crore fundraise - Bar and Bench",
+      "same_name_elsewhere": [
+        {
+          "id": 3469,
+          "firm": null,
+          "role": "Counsel",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1013,
@@ -121579,6 +123139,27 @@
       "snapshot": "Cyril Amarchand Mangaldas, Shardul Amarchand Mangaldas, AZB & Partners, Sidley Austin act on Cube Highways..."
     },
     {
+      "id": 3447,
+      "name": "Subhankar Pasalapudi",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise"
+    },
+    {
       "id": 1466,
       "name": "Subhayu Sen",
       "firm": "Khaitan & Co",
@@ -123348,6 +124929,37 @@
         }
       ],
       "snapshot": "Antares, SAM guide IHCL acquisition of 51% stake in Brij Hotels - Bar and Bench"
+    },
+    {
+      "id": 3480,
+      "name": "Surbhi Narang",
+      "firm": "Legacy Law Offices",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Dain Colour Chem IPO"
+      ],
+      "deals": [
+        {
+          "headline": "Legacy Law Offices acts on Dain Colour Chem IPO",
+          "client": "Dain Colour Chem IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-dain-colour-chem-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Legacy Law Offices acts on Dain Colour Chem IPO"
     },
     {
       "id": 3062,
@@ -127460,6 +129072,14 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Mahindra Last Mile Mobility becomes Unicorn with ₹322 crore fundraise; Khaitan & Co advises",
@@ -127511,7 +129131,7 @@
           "id": 3374,
           "firm": null,
           "role": "Associate",
-          "deal_count": 1
+          "deal_count": 2
         }
       ],
       "firm_verification": {
@@ -127713,6 +129333,27 @@
         }
       ],
       "snapshot": "Khaitan & Co advises Kaynes Semicon on Fiscal Support Agreement with India ..."
+    },
+    {
+      "id": 3473,
+      "name": "Toshika Soni",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise"
     },
     {
       "id": 188,
@@ -130617,6 +132258,39 @@
       "snapshot": "KreditBee becomes Unicorn with $280 million Series E fundraise; Touchstone, Trilegal ..."
     },
     {
+      "id": 3443,
+      "name": "Vandana Sekhri",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+      "same_name_elsewhere": [
+        {
+          "id": 2485,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Partner",
+          "deal_count": 4
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 2485,
       "name": "Vandana Sekhri",
       "firm": "Cyril Amarchand Mangaldas",
@@ -130672,7 +132346,19 @@
           ]
         }
       ],
-      "snapshot": "CAM, TT&A assist in Juspay securing $50 million from Westbridge Capital"
+      "snapshot": "CAM, TT&A assist in Juspay securing $50 million from Westbridge Capital",
+      "same_name_elsewhere": [
+        {
+          "id": 3443,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 420,
@@ -134599,6 +136285,27 @@
       "snapshot": "JSA assists Continuum Green Energy on securing ₹1,350 crore from Chubu Electric Power Co."
     },
     {
+      "id": 3466,
+      "name": "Vinita Jagtiani",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise"
+    },
+    {
       "id": 287,
       "name": "Vinita Krishnan",
       "firm": "Khaitan & Co",
@@ -136745,6 +138452,7 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "Series A",
         "Series B",
         "fundraise"
       ],
@@ -136752,7 +138460,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "OrbiMed Asia V Mauritius Limited"
+        "OrbiMed Asia V Mauritius Limited",
+        "Peeko Series A fundraise"
       ],
       "deals": [
         {
@@ -136763,6 +138472,19 @@
           "types": [
             "fundraise",
             "Series B"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Universal Legal, JSA act on Peeko Series A fundraise",
+          "client": "Peeko Series A fundraise",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/universal-legal-jsa-act-on-peeko-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
@@ -136869,6 +138591,27 @@
         }
       ],
       "snapshot": "JSA acts on Davaindia ₹350 crore QIP - Bar and Bench"
+    },
+    {
+      "id": 3460,
+      "name": "Yash Dawda",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise"
     },
     {
       "id": 1687,
@@ -137467,6 +139210,37 @@
         }
       ],
       "snapshot": "Trilegal advises Apollo on subscribing to $500 million notes issued by an Adani Energy ..."
+    },
+    {
+      "id": 3439,
+      "name": "Yashaswi Rohra",
+      "firm": "AZB & Partners",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "BookMyShow securing investment from KKR"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR",
+          "client": "BookMyShow securing investment from KKR",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-azb-partners-act-on-bookmyshow-securing-investment-from-kkr",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR"
     },
     {
       "id": 2631,
