@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 3480,
-    "firms": 96,
-    "deals": 432,
+    "people": 3520,
+    "firms": 100,
+    "deals": 444,
     "practice_areas": 6
   },
   "firms": [
@@ -26,6 +26,7 @@
     "Clove Legal",
     "Collyer Law",
     "Cooley",
+    "Crawford Bayley",
     "Cyril",
     "Cyril Amarchand Mangaldas",
     "DMD Advocates",
@@ -63,6 +64,7 @@
     "Lex Consult",
     "Lexygen",
     "Linklaters",
+    "Luthra",
     "McDermott",
     "McDermott Will & Schulte",
     "Morgan Lewis",
@@ -87,6 +89,7 @@
     "Simpson Thacher",
     "Squire Patton Boggs",
     "Sullivan & Cromwell",
+    "TLH Advocates",
     "Talwar Thakore & Associates",
     "The Resolution Law Group",
     "Touchstone Partners",
@@ -98,6 +101,7 @@
     "Verist Law",
     "Veritas Legal",
     "Vertices Partners",
+    "Vidhigya Associates",
     "Vritti Law Partners",
     "Weil Gotshal",
     "White & Case",
@@ -700,6 +704,7 @@
             1955,
             1950,
             1951,
+            151,
             1914,
             1954,
             1957,
@@ -835,6 +840,18 @@
       ]
     },
     {
+      "firm": "Crawford Bayley",
+      "people_count": 1,
+      "practice_groups": [
+        {
+          "area": "Capital Markets",
+          "person_ids": [
+            3503
+          ]
+        }
+      ]
+    },
+    {
       "firm": "Cyril",
       "people_count": 8,
       "practice_groups": [
@@ -855,7 +872,7 @@
     },
     {
       "firm": "Cyril Amarchand Mangaldas",
-      "people_count": 560,
+      "people_count": 562,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -1295,6 +1312,7 @@
             2331,
             2729,
             2524,
+            3506,
             2317,
             2727,
             832,
@@ -1324,6 +1342,7 @@
             2953,
             2731,
             569,
+            3507,
             1712,
             2713,
             574,
@@ -1752,7 +1771,7 @@
     },
     {
       "firm": "Economic Laws Practice",
-      "people_count": 17,
+      "people_count": 21,
       "practice_groups": [
         {
           "area": "Capital Markets",
@@ -1791,6 +1810,15 @@
             3429,
             3248,
             3430
+          ]
+        },
+        {
+          "area": "Private Equity & Venture Capital",
+          "person_ids": [
+            3492,
+            3491,
+            3489,
+            3490
           ]
         }
       ]
@@ -2604,7 +2632,7 @@
     },
     {
       "firm": "Khaitan & Co",
-      "people_count": 462,
+      "people_count": 467,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -3070,6 +3098,7 @@
             154,
             2186,
             858,
+            3499,
             2548,
             2704,
             2188,
@@ -3081,6 +3110,7 @@
             476,
             1470,
             1707,
+            3497,
             1708,
             2182,
             3412,
@@ -3094,6 +3124,7 @@
             2547,
             1760,
             758,
+            3498,
             1709,
             1754,
             1763,
@@ -3101,7 +3132,9 @@
             1705,
             2835,
             1755,
+            3518,
             158,
+            3519,
             1761,
             760,
             2184,
@@ -3368,6 +3401,11 @@
           ]
         }
       ]
+    },
+    {
+      "firm": "Luthra",
+      "people_count": 0,
+      "practice_groups": []
     },
     {
       "firm": "McDermott",
@@ -4417,6 +4455,19 @@
       ]
     },
     {
+      "firm": "TLH Advocates",
+      "people_count": 2,
+      "practice_groups": [
+        {
+          "area": "Unclassified",
+          "person_ids": [
+            3504,
+            3505
+          ]
+        }
+      ]
+    },
+    {
       "firm": "Talwar Thakore & Associates",
       "people_count": 63,
       "practice_groups": [
@@ -4582,12 +4633,13 @@
     },
     {
       "firm": "Trilegal",
-      "people_count": 490,
+      "people_count": 499,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
           "person_ids": [
             2814,
+            3486,
             474,
             710,
             2057,
@@ -4599,6 +4651,7 @@
             2087,
             1002,
             2051,
+            3485,
             2035,
             528,
             1090,
@@ -4621,6 +4674,7 @@
             2399,
             539,
             2396,
+            3488,
             544,
             167,
             3329,
@@ -4672,6 +4726,7 @@
             176,
             2055,
             3002,
+            3484,
             2059,
             778,
             2936,
@@ -4725,12 +4780,15 @@
             1204,
             521,
             2397,
+            3483,
             1396,
             2446,
             2267,
+            2148,
             2060,
             2447,
             1016,
+            3482,
             550,
             1139,
             2395,
@@ -4792,6 +4850,7 @@
             2381,
             453,
             451,
+            3487,
             526,
             1089,
             1205,
@@ -4818,6 +4877,7 @@
             1391,
             3324,
             1086,
+            3481,
             2387,
             2049
           ]
@@ -4962,120 +5022,6 @@
           ]
         },
         {
-          "area": "Unclassified",
-          "person_ids": [
-            2411,
-            1852,
-            1804,
-            868,
-            1850,
-            2561,
-            1847,
-            2749,
-            2144,
-            2464,
-            1822,
-            1024,
-            2018,
-            2139,
-            865,
-            3302,
-            2141,
-            2357,
-            2356,
-            2140,
-            1448,
-            2410,
-            1806,
-            3103,
-            1824,
-            492,
-            863,
-            2412,
-            1848,
-            1445,
-            2978,
-            2360,
-            1819,
-            2560,
-            2121,
-            864,
-            1726,
-            2152,
-            1444,
-            2577,
-            1849,
-            3364,
-            2751,
-            1019,
-            1028,
-            2146,
-            2576,
-            2750,
-            1447,
-            2559,
-            1724,
-            1026,
-            1820,
-            1018,
-            2409,
-            1443,
-            869,
-            2578,
-            2148,
-            3366,
-            2575,
-            2138,
-            2151,
-            1449,
-            1023,
-            2019,
-            2408,
-            2413,
-            2149,
-            2153,
-            2123,
-            3099,
-            2145,
-            2137,
-            1025,
-            3100,
-            1021,
-            2466,
-            1805,
-            2142,
-            2358,
-            867,
-            2147,
-            2136,
-            1851,
-            2977,
-            3098,
-            2407,
-            1818,
-            2150,
-            3097,
-            1823,
-            870,
-            1816,
-            3367,
-            3101,
-            2122,
-            1027,
-            1438,
-            1440,
-            2467,
-            3102,
-            2143,
-            3104,
-            1817,
-            3365,
-            866,
-            1821,
-            2558
-          ]
-        },
-        {
           "area": "Capital Markets",
           "person_ids": [
             710,
@@ -5161,6 +5107,7 @@
             2857,
             517,
             1789,
+            3520,
             2190,
             515,
             600,
@@ -5187,6 +5134,119 @@
             1265,
             2685,
             518
+          ]
+        },
+        {
+          "area": "Unclassified",
+          "person_ids": [
+            2411,
+            1852,
+            1804,
+            868,
+            1850,
+            2561,
+            1847,
+            2749,
+            2144,
+            2464,
+            1822,
+            1024,
+            2018,
+            2139,
+            865,
+            3302,
+            2141,
+            2357,
+            2356,
+            2140,
+            1448,
+            2410,
+            1806,
+            3103,
+            1824,
+            492,
+            863,
+            2412,
+            1848,
+            1445,
+            2978,
+            2360,
+            1819,
+            2560,
+            2121,
+            864,
+            1726,
+            2152,
+            1444,
+            2577,
+            1849,
+            3364,
+            2751,
+            1019,
+            1028,
+            2146,
+            2576,
+            2750,
+            1447,
+            2559,
+            1724,
+            1026,
+            1820,
+            1018,
+            2409,
+            1443,
+            869,
+            2578,
+            3366,
+            2575,
+            2138,
+            2151,
+            1449,
+            1023,
+            2019,
+            2408,
+            2413,
+            2149,
+            2153,
+            2123,
+            3099,
+            2145,
+            2137,
+            1025,
+            3100,
+            1021,
+            2466,
+            1805,
+            2142,
+            2358,
+            867,
+            2147,
+            2136,
+            1851,
+            2977,
+            3098,
+            2407,
+            1818,
+            2150,
+            3097,
+            1823,
+            870,
+            1816,
+            3367,
+            3101,
+            2122,
+            1027,
+            1438,
+            1440,
+            2467,
+            3102,
+            2143,
+            3104,
+            1817,
+            3365,
+            866,
+            1821,
+            2558
           ]
         },
         {
@@ -5370,6 +5430,21 @@
           "person_ids": [
             3357,
             3356
+          ]
+        }
+      ]
+    },
+    {
+      "firm": "Vidhigya Associates",
+      "people_count": 4,
+      "practice_groups": [
+        {
+          "area": "Capital Markets",
+          "person_ids": [
+            3511,
+            3509,
+            3508,
+            3510
           ]
         }
       ]
@@ -6126,6 +6201,37 @@
         }
       ],
       "snapshot": "JSA, Khaitan act on Everstone investing $270 million in Apothecon Group"
+    },
+    {
+      "id": 3486,
+      "name": "Aaryana Anand",
+      "firm": "Trilegal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Berry Street - Healthify merger"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal acts on Berry Street - Healthify merger",
+          "client": "Berry Street - Healthify merger",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-berry-street-healthify-merger",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal acts on Berry Street - Healthify merger"
     },
     {
       "id": 480,
@@ -10164,7 +10270,8 @@
       "transaction_types": [
         "Series B",
         "acquisition",
-        "fundraise"
+        "fundraise",
+        "merger"
       ],
       "practice_areas": [
         "Mergers & Acquisitions",
@@ -10172,7 +10279,8 @@
       ],
       "clients": [
         "Sarvam AI & Founders",
-        "EAAA India Alternatives"
+        "EAAA India Alternatives",
+        "Berry Street - Healthify merger"
       ],
       "deals": [
         {
@@ -10199,9 +10307,52 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Trilegal acts on Berry Street - Healthify merger",
+          "client": "Berry Street - Healthify merger",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-berry-street-healthify-merger",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "Trilegal, TT&A, Cyril Amarchand Mangaldas act on Sarvam AI $300 million Series B fundraise"
+    },
+    {
+      "id": 3492,
+      "name": "Aditi Banthia",
+      "firm": "Economic Laws Practice",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Transworld"
+      ],
+      "deals": [
+        {
+          "headline": "ELP advises Transworld on investment in ETPL team Dublin Guardians",
+          "client": "Transworld",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/elp-advises-transworld-on-investment-in-etpl-team-dublin-guardians",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "ELP advises Transworld on investment in ETPL team Dublin Guardians"
     },
     {
       "id": 2186,
@@ -10242,12 +10393,13 @@
       "id": 738,
       "name": "Aditi Goyal",
       "firm": "Trilegal",
-      "role": "Partner (Tax law)",
+      "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
         "Series A",
         "acquisition",
-        "fundraise"
+        "fundraise",
+        "merger"
       ],
       "practice_areas": [
         "Mergers & Acquisitions",
@@ -10255,7 +10407,8 @@
       ],
       "clients": [
         "Iscon Balaji Foods, Promoters & Selling Shareholders",
-        "Cherry Bekaert Advisory LLC"
+        "Cherry Bekaert Advisory LLC",
+        "Berry Street - Healthify merger"
       ],
       "deals": [
         {
@@ -10278,6 +10431,18 @@
           "source": "Bar and Bench",
           "types": [
             "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Trilegal acts on Berry Street - Healthify merger",
+          "client": "Berry Street - Healthify merger",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-berry-street-healthify-merger",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
@@ -12800,6 +12965,37 @@
       "snapshot": "SAM advises Consortium of Lenders on ₹2,623 crore transmission project financing"
     },
     {
+      "id": 3499,
+      "name": "Ahana Mukherjee",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "QIP"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Netweb Technologies"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co, Hogan Lovells Cadwalader act on Netweb Technologies ₹1,200 crore QIP",
+          "client": "Netweb Technologies",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-hogan-lovells-cadwalader-act-on-netweb-technologies-1200-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co, Hogan Lovells Cadwalader act on Netweb Technologies ₹1,200 crore QIP"
+    },
+    {
       "id": 2091,
       "name": "Ahona Pal",
       "firm": "JSA Advocates & Solicitors",
@@ -13030,6 +13226,37 @@
         }
       ],
       "snapshot": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+    },
+    {
+      "id": 3485,
+      "name": "Aishwarya Palan",
+      "firm": "Trilegal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Berry Street - Healthify merger"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal acts on Berry Street - Healthify merger",
+          "client": "Berry Street - Healthify merger",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-berry-street-healthify-merger",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal acts on Berry Street - Healthify merger"
     },
     {
       "id": 1781,
@@ -13302,6 +13529,27 @@
         }
       ],
       "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise"
+    },
+    {
+      "id": 3515,
+      "name": "Ajitesh Arya",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Oriental Hotels merges into The Indian Hotel Company; Cyril Amarchand Mangaldas advises",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/oriental-hotels-merges-into-the-indian-hotel-company-cyril-amarchand-mangaldas-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Oriental Hotels merges into The Indian Hotel Company; Cyril Amarchand Mangaldas advises"
     },
     {
       "id": 2035,
@@ -14962,6 +15210,37 @@
         }
       ],
       "snapshot": "SAM advises Jinyoung Electro-Mechanics on acquiring entire stake in Jinyoung Sandhar ..."
+    },
+    {
+      "id": 3503,
+      "name": "Akshit Kapoor",
+      "firm": "Crawford Bayley",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Master Chains & Jewels"
+      ],
+      "deals": [
+        {
+          "headline": "Crawford Bayley, Luthra and Luthra act on Master Chains & Jewels ₹400 crore+ proposed IPO",
+          "client": "Master Chains & Jewels",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/crawford-bayley-luthra-and-luthra-act-on-master-chains-jewels-400-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Crawford Bayley, Luthra and Luthra act on Master Chains & Jewels ₹400 crore+ proposed IPO"
     },
     {
       "id": 1281,
@@ -18842,6 +19121,39 @@
       "snapshot": "JSA, JM+P act on Iscon Balaji Foods $215 million Series A fundraise"
     },
     {
+      "id": 3517,
+      "name": "Ananya Mahant",
+      "firm": null,
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Oriental Hotels merges into The Indian Hotel Company; Cyril Amarchand Mangaldas advises",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/oriental-hotels-merges-into-the-indian-hotel-company-cyril-amarchand-mangaldas-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Oriental Hotels merges into The Indian Hotel Company; Cyril Amarchand Mangaldas advises",
+      "same_name_elsewhere": [
+        {
+          "id": 236,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Senior Associate",
+          "deal_count": 5
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 236,
       "name": "Ananya Mahant",
       "firm": "Cyril Amarchand Mangaldas",
@@ -18910,7 +19222,19 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "Cyril Amarchand Mangaldas advises Kotak Mahindra Bank on acquisition of Private ..."
+      "snapshot": "Cyril Amarchand Mangaldas advises Kotak Mahindra Bank on acquisition of Private ...",
+      "same_name_elsewhere": [
+        {
+          "id": 3517,
+          "firm": null,
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1585,
@@ -20933,7 +21257,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Anantam Highways Trust"
+        "Anantam Highways Trust",
+        "Nxt-Infra Trust"
       ],
       "deals": [
         {
@@ -20947,6 +21272,14 @@
           "practice_areas": [
             "Capital Markets"
           ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas acts on Nxt-Infra Trust ₹700 crore institutional placement of units",
+          "client": "Nxt-Infra Trust",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-acts-on-nxt-infra-trust-700-crore-institutional-placement-of-units",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "CAM, JSA act on Anantam Highways Trust ₹400 crore IPO - Bar and Bench"
@@ -23582,6 +23915,37 @@
       "snapshot": "SAM advises on ₹2,300 crore refinancing of Jayaswal Neco Industries - Bar and Bench"
     },
     {
+      "id": 3488,
+      "name": "Anuj Nikhil Joglekar",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Berry Street - Healthify merger"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal acts on Berry Street - Healthify merger",
+          "client": "Berry Street - Healthify merger",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-berry-street-healthify-merger",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal acts on Berry Street - Healthify merger"
+    },
+    {
       "id": 2037,
       "name": "Anuj Pethia",
       "firm": "JSA Advocates & Solicitors",
@@ -24305,6 +24669,7 @@
       "role_bucket": "Associate",
       "transaction_types": [
         "IPO",
+        "QIP",
         "investment"
       ],
       "practice_areas": [
@@ -24312,7 +24677,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Milestone Gears"
+        "Milestone Gears",
+        "SPR Auto Technologies"
       ],
       "deals": [
         {
@@ -24327,6 +24693,18 @@
           "practice_areas": [
             "Capital Markets",
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, Trilegal act on SPR Auto Technologies ₹1,000 crore QIP",
+          "client": "SPR Auto Technologies",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-trilegal-act-on-spr-auto-technologies-1000-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
           ]
         }
       ],
@@ -25626,6 +26004,39 @@
       "snapshot": "Khaitan & Co, Shardul Amarchand Mangaldas act on BNP Paribas Cardif acquiring stake in IndiaFirst Life..."
     },
     {
+      "id": 3493,
+      "name": "Archana Tewary",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "FleetX acquires Pando.ai; JSA, CMS INDUSLAW advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/fleetx-acquires-pandoai-jsa-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "FleetX acquires Pando.ai; JSA, CMS INDUSLAW advise",
+      "same_name_elsewhere": [
+        {
+          "id": 1372,
+          "firm": "JSA Advocates & Solicitors",
+          "role": "Partner",
+          "deal_count": 4
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 1372,
       "name": "Archana Tewary",
       "firm": "JSA Advocates & Solicitors",
@@ -25691,7 +26102,19 @@
           ]
         }
       ],
-      "snapshot": "JSA, Collyer Law, Argus Partners, IC RegFin Legal act on Meesho's ₹202 crore acquisition ..."
+      "snapshot": "JSA, Collyer Law, Argus Partners, IC RegFin Legal act on Meesho's ₹202 crore acquisition ...",
+      "same_name_elsewhere": [
+        {
+          "id": 3493,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 3329,
@@ -28729,7 +29152,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Cube Highways Trust"
+        "Cube Highways Trust",
+        "Nxt-Infra Trust"
       ],
       "deals": [
         {
@@ -28743,6 +29167,14 @@
           "practice_areas": [
             "Capital Markets"
           ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas acts on Nxt-Infra Trust ₹700 crore institutional placement of units",
+          "client": "Nxt-Infra Trust",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-acts-on-nxt-infra-trust-700-crore-institutional-placement-of-units",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas, Shardul Amarchand Mangaldas, AZB & Partners, Sidley Austin act on Cube Highways..."
@@ -30288,6 +30720,45 @@
       "snapshot": "TT&A, Paul Weiss, Avisen Legal act on Carrier acquiring 75F Inc."
     },
     {
+      "id": 3516,
+      "name": "Avaantika Kakkar",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Oriental Hotels merges into The Indian Hotel Company; Cyril Amarchand Mangaldas advises",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/oriental-hotels-merges-into-the-indian-hotel-company-cyril-amarchand-mangaldas-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Oriental Hotels merges into The Indian Hotel Company; Cyril Amarchand Mangaldas advises",
+      "same_name_elsewhere": [
+        {
+          "id": 3061,
+          "firm": "Shardul Amarchand Mangaldas & Co",
+          "role": "Partner",
+          "deal_count": 1
+        },
+        {
+          "id": 39,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Partner, Head - Competition",
+          "deal_count": 10
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 3061,
       "name": "Avaantika Kakkar",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -30310,6 +30781,12 @@
       ],
       "snapshot": "Khaitan & Co, Shardul Amarchand Mangaldas act on BNP Paribas Cardif acquiring stake in IndiaFirst Life...",
       "same_name_elsewhere": [
+        {
+          "id": 3516,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        },
         {
           "id": 39,
           "firm": "Cyril Amarchand Mangaldas",
@@ -30468,6 +30945,12 @@
       ],
       "snapshot": "Cyril Amarchand Mangaldas advises as Hyundai and TVS join hands to develop electric 3 ...",
       "same_name_elsewhere": [
+        {
+          "id": 3516,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        },
         {
           "id": 3061,
           "firm": "Shardul Amarchand Mangaldas & Co",
@@ -30984,7 +31467,7 @@
           "id": 3393,
           "firm": "Khaitan & Co",
           "role": "Senior Associate",
-          "deal_count": 1
+          "deal_count": 2
         }
       ],
       "firm_verification": {
@@ -30999,13 +31482,15 @@
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
       ],
       "clients": [
-        "Shiprocket"
+        "Shiprocket",
+        "SPR Auto Technologies"
       ],
       "deals": [
         {
@@ -31015,6 +31500,18 @@
           "source": "Bar & Bench",
           "types": [
             "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, Trilegal act on SPR Auto Technologies ₹1,000 crore QIP",
+          "client": "SPR Auto Technologies",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-trilegal-act-on-spr-auto-technologies-1000-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -31418,7 +31915,8 @@
       ],
       "clients": [
         "JM Financial Limited and Avendus Capital Private Limited (BRLMs)",
-        "JSW Infrastructure"
+        "JSW Infrastructure",
+        "Netweb Technologies"
       ],
       "deals": [
         {
@@ -31438,6 +31936,18 @@
           "client": "JSW Infrastructure",
           "url": "https://www.barandbench.com/dealstreet/khaitan-co-trilegal-linklaters-act-on-jsw-infrastructure-7502-crore-qip",
           "source": "Bar and Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, Hogan Lovells Cadwalader act on Netweb Technologies ₹1,200 crore QIP",
+          "client": "Netweb Technologies",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-hogan-lovells-cadwalader-act-on-netweb-technologies-1200-crore-qip",
+          "source": "Bar & Bench",
           "types": [
             "QIP"
           ],
@@ -37267,6 +37777,37 @@
       "snapshot": "VERTICES PARTNERS assists Ledgers on entry into UAE"
     },
     {
+      "id": 3511,
+      "name": "Darshi Shah",
+      "firm": "Vidhigya Associates",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Sunshine Pictures"
+      ],
+      "deals": [
+        {
+          "headline": "Vidhigya Associates acts on Sunshine Pictures ₹282 crore IPO",
+          "client": "Sunshine Pictures",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/vidhigya-associates-acts-on-sunshine-pictures-282-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Vidhigya Associates acts on Sunshine Pictures ₹282 crore IPO"
+    },
+    {
       "id": 2159,
       "name": "Darshna G. Vyas",
       "firm": "Cyril Amarchand Mangaldas",
@@ -40854,6 +41395,37 @@
         }
       ],
       "snapshot": "Blackstone-backed Nexus shops for Kolkata mall Diamond Plaza; Khaitan, SAM advise"
+    },
+    {
+      "id": 3497,
+      "name": "Dipen Chatterjee",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "QIP"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Netweb Technologies"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co, Hogan Lovells Cadwalader act on Netweb Technologies ₹1,200 crore QIP",
+          "client": "Netweb Technologies",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-hogan-lovells-cadwalader-act-on-netweb-technologies-1200-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co, Hogan Lovells Cadwalader act on Netweb Technologies ₹1,200 crore QIP"
     },
     {
       "id": 1708,
@@ -45580,6 +46152,7 @@
       "role_bucket": "Partner",
       "transaction_types": [
         "IPO",
+        "QIP",
         "investment"
       ],
       "practice_areas": [
@@ -45589,7 +46162,8 @@
       "clients": [
         "Milestone Gears",
         "Molbio Diagnostics",
-        "Shiprocket"
+        "Shiprocket",
+        "SPR Auto Technologies"
       ],
       "deals": [
         {
@@ -45625,6 +46199,18 @@
           "source": "Bar & Bench",
           "types": [
             "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, Trilegal act on SPR Auto Technologies ₹1,000 crore QIP",
+          "client": "SPR Auto Technologies",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-trilegal-act-on-spr-auto-technologies-1000-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -48793,13 +49379,15 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
       ],
       "clients": [
-        "Dhoot Transmission"
+        "Dhoot Transmission",
+        "Netweb Technologies"
       ],
       "deals": [
         {
@@ -48809,6 +49397,18 @@
           "source": "Bar & Bench",
           "types": [
             "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, Hogan Lovells Cadwalader act on Netweb Technologies ₹1,200 crore QIP",
+          "client": "Netweb Technologies",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-hogan-lovells-cadwalader-act-on-netweb-technologies-1200-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -49974,6 +50574,37 @@
         }
       ],
       "snapshot": "CAM advises Inox Clean Energy on acquisition of SkyPower MENA - BarandBench"
+    },
+    {
+      "id": 3509,
+      "name": "Himanshu Pandey",
+      "firm": "Vidhigya Associates",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Sunshine Pictures"
+      ],
+      "deals": [
+        {
+          "headline": "Vidhigya Associates acts on Sunshine Pictures ₹282 crore IPO",
+          "client": "Sunshine Pictures",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/vidhigya-associates-acts-on-sunshine-pictures-282-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Vidhigya Associates acts on Sunshine Pictures ₹282 crore IPO"
     },
     {
       "id": 2419,
@@ -53199,7 +53830,8 @@
       ],
       "clients": [
         "Book Running Lead Managers",
-        "Manipal Hospitals"
+        "Manipal Hospitals",
+        "Nxt-Infra Trust"
       ],
       "deals": [
         {
@@ -53225,6 +53857,14 @@
           "practice_areas": [
             "Capital Markets"
           ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas acts on Nxt-Infra Trust ₹700 crore institutional placement of units",
+          "client": "Nxt-Infra Trust",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-acts-on-nxt-infra-trust-700-crore-institutional-placement-of-units",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Cyril Amarchand Mangaldas, White & Case act ... - Bar and Bench"
@@ -56602,6 +57242,37 @@
       "snapshot": "OYO IPO 3.0: The law firms behind its ₹6650 crore public issue"
     },
     {
+      "id": 3484,
+      "name": "Juhi Wadhwani",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Berry Street - Healthify merger"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal acts on Berry Street - Healthify merger",
+          "client": "Berry Street - Healthify merger",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-berry-street-healthify-merger",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal acts on Berry Street - Healthify merger"
+    },
+    {
       "id": 661,
       "name": "Julio Lujambio",
       "firm": "Pérez-Llorca",
@@ -56802,7 +57473,8 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "merger"
       ],
       "practice_areas": [
         "Mergers & Acquisitions"
@@ -56810,7 +57482,8 @@
       "clients": [
         "Abu Dhabi National Energy Company (TAQA)",
         "Bain Capital",
-        "Blackstone"
+        "Blackstone",
+        "Berry Street - Healthify merger"
       ],
       "deals": [
         {
@@ -56840,6 +57513,18 @@
           "source": "",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Trilegal acts on Berry Street - Healthify merger",
+          "client": "Berry Street - Healthify merger",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-berry-street-healthify-merger",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "CAM, Trilegal act on MEIL Energy acquiring a 250 MW thermal power project in Tamil Nadu ..."
@@ -58021,6 +58706,29 @@
       "snapshot": "SMBC acquires further stake in YES Bank from Carlyle, JSA, SAM advise - Bar and Bench"
     },
     {
+      "id": 3504,
+      "name": "Kapil Devnani",
+      "firm": "TLH Advocates",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Arete Hospitals"
+      ],
+      "deals": [
+        {
+          "headline": "TLH Advocates advises Arete Hospitals on sale of hospital business to Aurevia Hospitals",
+          "client": "Arete Hospitals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tlh-advocates-advises-arete-hospitals-on-sale-of-hospital-business-to-aurevia-hospitals",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "TLH Advocates advises Arete Hospitals on sale of hospital business to Aurevia Hospitals"
+    },
+    {
       "id": 2430,
       "name": "Kapil Vats",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -59082,7 +59790,8 @@
       "transaction_types": [
         "Series A",
         "acquisition",
-        "fundraise"
+        "fundraise",
+        "merger"
       ],
       "practice_areas": [
         "Mergers & Acquisitions",
@@ -59090,7 +59799,8 @@
       ],
       "clients": [
         "Iscon Balaji Foods, Promoters & Selling Shareholders",
-        "Abu Dhabi National Energy Company (TAQA)"
+        "Abu Dhabi National Energy Company (TAQA)",
+        "Berry Street - Healthify merger"
       ],
       "deals": [
         {
@@ -59113,6 +59823,18 @@
           "source": "Bar and Bench",
           "types": [
             "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Trilegal acts on Berry Street - Healthify merger",
+          "client": "Berry Street - Healthify merger",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-berry-street-healthify-merger",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
@@ -61509,6 +62231,7 @@
       "transaction_types": [
         "acquisition",
         "investment",
+        "merger",
         "stake acquisition"
       ],
       "practice_areas": [
@@ -61523,7 +62246,8 @@
         "Auro Pharma",
         "CA Sardo Investments/Carlyle (IP law)",
         "Sona Comstar",
-        "Oxane Partners securing investment from TA Associates"
+        "Oxane Partners securing investment from TA Associates",
+        "Berry Street - Healthify merger"
       ],
       "deals": [
         {
@@ -61609,6 +62333,18 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Trilegal acts on Berry Street - Healthify merger",
+          "client": "Berry Street - Healthify merger",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-berry-street-healthify-merger",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -62719,6 +63455,37 @@
         }
       ],
       "snapshot": "Trilegal, CAM, Latham, AZB, Equilex, Macfarlanes advise on Mittal-Poonawalla consortium ..."
+    },
+    {
+      "id": 3491,
+      "name": "Kriti Bhattacharya",
+      "firm": "Economic Laws Practice",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Transworld"
+      ],
+      "deals": [
+        {
+          "headline": "ELP advises Transworld on investment in ETPL team Dublin Guardians",
+          "client": "Transworld",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/elp-advises-transworld-on-investment-in-etpl-team-dublin-guardians",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "ELP advises Transworld on investment in ETPL team Dublin Guardians"
     },
     {
       "id": 1407,
@@ -65930,7 +66697,8 @@
       "transaction_types": [
         "Series B",
         "acquisition",
-        "fundraise"
+        "fundraise",
+        "merger"
       ],
       "practice_areas": [
         "Mergers & Acquisitions",
@@ -65938,7 +66706,8 @@
       ],
       "clients": [
         "Sarvam AI & Founders",
-        "EAAA India Alternatives"
+        "EAAA India Alternatives",
+        "Berry Street - Healthify merger"
       ],
       "deals": [
         {
@@ -65961,6 +66730,18 @@
           "source": "Bar & Bench",
           "types": [
             "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Trilegal acts on Berry Street - Healthify merger",
+          "client": "Berry Street - Healthify merger",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-berry-street-healthify-merger",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
@@ -66931,6 +67712,37 @@
       "snapshot": "SAM, Khaitan act on Aica Kogyo Co acquiring controlling stake in Stylam Industries for $225 million"
     },
     {
+      "id": 3498,
+      "name": "Mainak Pal",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "QIP"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Netweb Technologies"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co, Hogan Lovells Cadwalader act on Netweb Technologies ₹1,200 crore QIP",
+          "client": "Netweb Technologies",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-hogan-lovells-cadwalader-act-on-netweb-technologies-1200-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co, Hogan Lovells Cadwalader act on Netweb Technologies ₹1,200 crore QIP"
+    },
+    {
       "id": 1709,
       "name": "Mainak Pani",
       "firm": "Khaitan & Co",
@@ -67003,6 +67815,39 @@
         }
       ],
       "snapshot": "CAM, Latham, Trilegal, JSA, Khaitan act on Manipal Hospitals ₹8,000 crore proposed IPO"
+    },
+    {
+      "id": 3501,
+      "name": "Maitreya Rajurkar",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Trilegal advised broker on $309 million block sale of Paytm shares",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advised-broker-on-309-million-block-sale-of-paytm-shares",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Trilegal advised broker on $309 million block sale of Paytm shares",
+      "same_name_elsewhere": [
+        {
+          "id": 513,
+          "firm": "Trilegal",
+          "role": "Partner",
+          "deal_count": 13
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 513,
@@ -67162,7 +68007,19 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "Zepto lines up CAM, SAM, Latham & Watkins for IPO push - Bar and Bench"
+      "snapshot": "Zepto lines up CAM, SAM, Latham & Watkins for IPO push - Bar and Bench",
+      "same_name_elsewhere": [
+        {
+          "id": 3501,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 168,
@@ -69911,7 +70768,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Rentomojo & Promoter Selling Shareholder"
+        "Rentomojo & Promoter Selling Shareholder",
+        "Nxt-Infra Trust"
       ],
       "deals": [
         {
@@ -69925,6 +70783,14 @@
           "practice_areas": [
             "Capital Markets"
           ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas acts on Nxt-Infra Trust ₹700 crore institutional placement of units",
+          "client": "Nxt-Infra Trust",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-acts-on-nxt-infra-trust-700-crore-institutional-placement-of-units",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "CAM, Trilegal, TT&A, Hogan Lovells act on Rentomojo proposed ₹150 crore+ IPO"
@@ -73243,7 +74109,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Blackstone"
+        "Blackstone",
+        "Nxt-Infra Trust"
       ],
       "deals": [
         {
@@ -73257,6 +74124,14 @@
           "practice_areas": [
             "Capital Markets"
           ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas acts on Nxt-Infra Trust ₹700 crore institutional placement of units",
+          "client": "Nxt-Infra Trust",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-acts-on-nxt-infra-trust-700-crore-institutional-placement-of-units",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Cyril Amarchand Mangaldas, White & Case act ... - Bar and Bench"
@@ -73513,6 +74388,29 @@
         }
       ],
       "snapshot": "CAM, S&R, Hogan Lovells act on Sudeep Pharma ₹895 crore IPO - BarandBench"
+    },
+    {
+      "id": 3506,
+      "name": "Monusha Nambiar",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Nxt-Infra Trust"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas acts on Nxt-Infra Trust ₹700 crore institutional placement of units",
+          "client": "Nxt-Infra Trust",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-acts-on-nxt-infra-trust-700-crore-institutional-placement-of-units",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas acts on Nxt-Infra Trust ₹700 crore institutional placement of units"
     },
     {
       "id": 2862,
@@ -74783,6 +75681,27 @@
         }
       ],
       "snapshot": "Legacy Law Offices acts on Apar Advertisers IPO"
+    },
+    {
+      "id": 3514,
+      "name": "Naman Jain",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Oriental Hotels merges into The Indian Hotel Company; Cyril Amarchand Mangaldas advises",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/oriental-hotels-merges-into-the-indian-hotel-company-cyril-amarchand-mangaldas-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Oriental Hotels merges into The Indian Hotel Company; Cyril Amarchand Mangaldas advises"
     },
     {
       "id": 641,
@@ -80545,6 +81464,37 @@
       "snapshot": "Trilegal advises Carlyle on ₹2,100 crore stake acquisition in Edelweiss's Nido Home Finance"
     },
     {
+      "id": 3483,
+      "name": "Nishka Tyagi",
+      "firm": "Trilegal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Berry Street - Healthify merger"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal acts on Berry Street - Healthify merger",
+          "client": "Berry Street - Healthify merger",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-berry-street-healthify-merger",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal acts on Berry Street - Healthify merger"
+    },
+    {
       "id": 2564,
       "name": "Nishra Sejpal",
       "firm": "Cyril Amarchand Mangaldas",
@@ -81504,6 +82454,7 @@
       "role_bucket": "Partner",
       "transaction_types": [
         "IPO",
+        "QIP",
         "acquisition"
       ],
       "practice_areas": [
@@ -81512,7 +82463,8 @@
       ],
       "clients": [
         "JM Financial Limited and Avendus Capital Private Limited (BRLMs)",
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Netweb Technologies"
       ],
       "deals": [
         {
@@ -81534,6 +82486,18 @@
           "source": "Bar and Bench",
           "types": [
             "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, Hogan Lovells Cadwalader act on Netweb Technologies ₹1,200 crore QIP",
+          "client": "Netweb Technologies",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-hogan-lovells-cadwalader-act-on-netweb-technologies-1200-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -81656,6 +82620,7 @@
       "role_bucket": "Associate",
       "transaction_types": [
         "IPO",
+        "QIP",
         "merger"
       ],
       "practice_areas": [
@@ -81664,7 +82629,8 @@
       ],
       "clients": [
         "Piramal Enterprises Limited and Piramal Finance Limited",
-        "Book running lead managers"
+        "Book running lead managers",
+        "SPR Auto Technologies"
       ],
       "deals": [
         {
@@ -81686,6 +82652,18 @@
           "source": "Bar and Bench",
           "types": [
             "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, Trilegal act on SPR Auto Technologies ₹1,000 crore QIP",
+          "client": "SPR Auto Technologies",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-trilegal-act-on-spr-auto-technologies-1000-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -81754,11 +82732,16 @@
       "firm": "Trilegal",
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
         "Bain Capital",
-        "Sona Comstar"
+        "Sona Comstar",
+        "Berry Street - Healthify merger"
       ],
       "deals": [
         {
@@ -81776,6 +82759,18 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Trilegal acts on Berry Street - Healthify merger",
+          "client": "Berry Street - Healthify merger",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-berry-street-healthify-merger",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "Trilegal, CAM set up Bain Capital - Sattva Group $100 million co-living platform under 'Colive' brand"
@@ -81863,17 +82858,19 @@
       "id": 2060,
       "name": "Padmavathi Prasad",
       "firm": "Trilegal",
-      "role": "Associate",
-      "role_bucket": "Associate",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "merger"
       ],
       "practice_areas": [
         "Mergers & Acquisitions"
       ],
       "clients": [
         "Abu Dhabi National Energy Company (TAQA)",
-        "Bain Capital"
+        "Bain Capital",
+        "Berry Street - Healthify merger"
       ],
       "deals": [
         {
@@ -81895,6 +82892,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Trilegal acts on Berry Street - Healthify merger",
+          "client": "Berry Street - Healthify merger",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-berry-street-healthify-merger",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "CAM, Trilegal act on MEIL Energy acquiring a 250 MW thermal power project in Tamil Nadu ..."
@@ -82594,16 +83603,18 @@
       "id": 2447,
       "name": "Paras Arora",
       "firm": "Trilegal",
-      "role": "Associate (Tax Law)",
+      "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "merger"
       ],
       "practice_areas": [
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Cherry Bekaert Advisory LLC"
+        "Cherry Bekaert Advisory LLC",
+        "Berry Street - Healthify merger"
       ],
       "deals": [
         {
@@ -82613,6 +83624,18 @@
           "source": "Bar and Bench",
           "types": [
             "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Trilegal acts on Berry Street - Healthify merger",
+          "client": "Berry Street - Healthify merger",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-berry-street-healthify-merger",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
@@ -82834,6 +83857,37 @@
         }
       ],
       "snapshot": "Trilegal, Khaitan & Co act on JBM Ecolife Mobility securing ₹750 crore from Motilal Oswal"
+    },
+    {
+      "id": 3482,
+      "name": "Parmeshwar Prapann",
+      "firm": "Trilegal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Berry Street - Healthify merger"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal acts on Berry Street - Healthify merger",
+          "client": "Berry Street - Healthify merger",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-berry-street-healthify-merger",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal acts on Berry Street - Healthify merger"
     },
     {
       "id": 1939,
@@ -85819,6 +86873,39 @@
       "snapshot": "JSA, TT&A advise LeapFrog on $95 million investment in ReNew Green Energy"
     },
     {
+      "id": 3513,
+      "name": "Pranav Sharma",
+      "firm": null,
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Oriental Hotels merges into The Indian Hotel Company; Cyril Amarchand Mangaldas advises",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/oriental-hotels-merges-into-the-indian-hotel-company-cyril-amarchand-mangaldas-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Oriental Hotels merges into The Indian Hotel Company; Cyril Amarchand Mangaldas advises",
+      "same_name_elsewhere": [
+        {
+          "id": 255,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Partner",
+          "deal_count": 3
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 255,
       "name": "Pranav Sharma",
       "firm": "Cyril Amarchand Mangaldas",
@@ -85877,7 +86964,19 @@
           ]
         }
       ],
-      "snapshot": "TPG-led consortium to acquire Aseem Infra Finance; CAM, Linklaters, Trilegal, SAM advise"
+      "snapshot": "TPG-led consortium to acquire Aseem Infra Finance; CAM, Linklaters, Trilegal, SAM advise",
+      "same_name_elsewhere": [
+        {
+          "id": 3513,
+          "firm": null,
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 248,
@@ -86003,6 +87102,27 @@
         }
       ],
       "snapshot": "KreditBee becomes Unicorn with $280 million Series E fundraise; Touchstone, Trilegal ..."
+    },
+    {
+      "id": 3512,
+      "name": "Pranay Chandran",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Oriental Hotels merges into The Indian Hotel Company; Cyril Amarchand Mangaldas advises",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/oriental-hotels-merges-into-the-indian-hotel-company-cyril-amarchand-mangaldas-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Oriental Hotels merges into The Indian Hotel Company; Cyril Amarchand Mangaldas advises"
     },
     {
       "id": 2151,
@@ -87398,7 +88518,7 @@
       "id": 602,
       "name": "Pratik Basistha",
       "firm": "Trilegal",
-      "role": "Trainee Associate",
+      "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
         "QIP"
@@ -87407,7 +88527,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Lead Managers"
+        "Lead Managers",
+        "SPR Auto Technologies"
       ],
       "deals": [
         {
@@ -87415,6 +88536,18 @@
           "client": "Lead Managers",
           "url": "https://www.barandbench.com/dealstreet/shardul-amarchand-mangaldas-trilegal-act-on-ather-energy-1300-crore-qip",
           "source": "Bar and Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, Trilegal act on SPR Auto Technologies ₹1,000 crore QIP",
+          "client": "SPR Auto Technologies",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-trilegal-act-on-spr-auto-technologies-1000-crore-qip",
+          "source": "Bar & Bench",
           "types": [
             "QIP"
           ],
@@ -89997,6 +91130,37 @@
       "snapshot": "Khaitan, CAM guide Saregama India's ₹325 crore investment in Sanjay Leela Bhansali's studio"
     },
     {
+      "id": 3518,
+      "name": "Pulkit Singh Rahangdale",
+      "firm": "Khaitan & Co",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [
+        "QIP"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "SPR Auto Technologies"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co, Trilegal act on SPR Auto Technologies ₹1,000 crore QIP",
+          "client": "SPR Auto Technologies",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-trilegal-act-on-spr-auto-technologies-1000-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co, Trilegal act on SPR Auto Technologies ₹1,000 crore QIP"
+    },
+    {
       "id": 2479,
       "name": "Pulkit Sukhramani",
       "firm": "JSA Advocates & Solicitors",
@@ -92229,6 +93393,37 @@
         }
       ],
       "snapshot": "SAM advises Power Finance Corp on sanctioning ₹2,046 crore for Acme Urja One's 380 ..."
+    },
+    {
+      "id": 3508,
+      "name": "Rahul Pandey",
+      "firm": "Vidhigya Associates",
+      "role": "Managing Partner",
+      "role_bucket": "Managing Partner",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Sunshine Pictures"
+      ],
+      "deals": [
+        {
+          "headline": "Vidhigya Associates acts on Sunshine Pictures ₹282 crore IPO",
+          "client": "Sunshine Pictures",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/vidhigya-associates-acts-on-sunshine-pictures-282-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Vidhigya Associates acts on Sunshine Pictures ₹282 crore IPO"
     },
     {
       "id": 1040,
@@ -94562,7 +95757,8 @@
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Colliers"
+        "Colliers",
+        "Nxt-Infra Trust"
       ],
       "deals": [
         {
@@ -94576,6 +95772,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas acts on Nxt-Infra Trust ₹700 crore institutional placement of units",
+          "client": "Nxt-Infra Trust",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-acts-on-nxt-infra-trust-700-crore-institutional-placement-of-units",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Uría Menéndez, CAM, Pérez-Llorca, Weil, Khaitan act on €600 million acquisition of Ayesa ..."
@@ -95134,12 +96338,46 @@
       "snapshot": "Zepto lines up CAM, SAM, Latham & Watkins for IPO push - Bar and Bench"
     },
     {
+      "id": 3496,
+      "name": "Ravishankar M",
+      "firm": null,
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "FleetX acquires Pando.ai; JSA, CMS INDUSLAW advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/fleetx-acquires-pandoai-jsa-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "FleetX acquires Pando.ai; JSA, CMS INDUSLAW advise",
+      "same_name_elsewhere": [
+        {
+          "id": 1910,
+          "firm": "CMS INDUSLAW",
+          "role": "Senior Associate",
+          "deal_count": 2
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 1910,
       "name": "Ravishankar M",
       "firm": "CMS INDUSLAW",
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
+        "Series B",
         "Series C",
         "fundraise"
       ],
@@ -95147,7 +96385,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "B Capital"
+        "B Capital",
+        "Freehand"
       ],
       "deals": [
         {
@@ -95162,9 +96401,34 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "CMS INDUSLAW acts on Freehand $75 million Series B fundraise",
+          "client": "Freehand",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cms-induslaw-act-on-freehand-75-million-series-b-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series B",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
-      "snapshot": "Shardul Amarchand Mangaldas advises SolarSquare on $53 million Series C fundraise"
+      "snapshot": "Shardul Amarchand Mangaldas advises SolarSquare on $53 million Series C fundraise",
+      "same_name_elsewhere": [
+        {
+          "id": 3496,
+          "firm": null,
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 3295,
@@ -96194,6 +97458,39 @@
       "snapshot": "Argus Partners, Trilegal act on Surya Hospitals securing investment from Novo Holdings"
     },
     {
+      "id": 3500,
+      "name": "Richa Choudhary",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Trilegal advised broker on $309 million block sale of Paytm shares",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advised-broker-on-309-million-block-sale-of-paytm-shares",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Trilegal advised broker on $309 million block sale of Paytm shares",
+      "same_name_elsewhere": [
+        {
+          "id": 512,
+          "firm": "Trilegal",
+          "role": "Partner",
+          "deal_count": 19
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 512,
       "name": "Richa Choudhary",
       "firm": "Trilegal",
@@ -96419,7 +97716,19 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "Zepto lines up CAM, SAM, Latham & Watkins for IPO push - Bar and Bench"
+      "snapshot": "Zepto lines up CAM, SAM, Latham & Watkins for IPO push - Bar and Bench",
+      "same_name_elsewhere": [
+        {
+          "id": 3500,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 2249,
@@ -97237,6 +98546,37 @@
         }
       ],
       "snapshot": "CAM advises Cerberus and IFC on ₹1,600 crore NCD subscription - Bar and Bench"
+    },
+    {
+      "id": 3519,
+      "name": "Rishav Khetan",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "QIP"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "SPR Auto Technologies"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co, Trilegal act on SPR Auto Technologies ₹1,000 crore QIP",
+          "client": "SPR Auto Technologies",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-trilegal-act-on-spr-auto-technologies-1000-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co, Trilegal act on SPR Auto Technologies ₹1,000 crore QIP"
     },
     {
       "id": 519,
@@ -102593,7 +103933,8 @@
       ],
       "clients": [
         "Blackstone",
-        "Lead Managers"
+        "Lead Managers",
+        "Nxt-Infra Trust"
       ],
       "deals": [
         {
@@ -102619,6 +103960,14 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas acts on Nxt-Infra Trust ₹700 crore institutional placement of units",
+          "client": "Nxt-Infra Trust",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-acts-on-nxt-infra-trust-700-crore-institutional-placement-of-units",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Cyril Amarchand Mangaldas, White & Case act ... - Bar and Bench"
@@ -104651,6 +106000,37 @@
       "snapshot": "Morgan Lewis, Khaitan & Co advise Cambridge Mobile Telematics on securing $350 million from TPG, Allianz X"
     },
     {
+      "id": 3520,
+      "name": "Sanchit Gupta",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "QIP"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "SPR Auto Technologies"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co, Trilegal act on SPR Auto Technologies ₹1,000 crore QIP",
+          "client": "SPR Auto Technologies",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-trilegal-act-on-spr-auto-technologies-1000-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co, Trilegal act on SPR Auto Technologies ₹1,000 crore QIP"
+    },
+    {
       "id": 2383,
       "name": "Sanchit Thapliyal",
       "firm": "Trilegal",
@@ -105427,7 +106807,8 @@
       ],
       "clients": [
         "Book Running Lead Managers",
-        "Anantam Highways Trust"
+        "Anantam Highways Trust",
+        "Nxt-Infra Trust"
       ],
       "deals": [
         {
@@ -105453,6 +106834,14 @@
           "practice_areas": [
             "Capital Markets"
           ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas acts on Nxt-Infra Trust ₹700 crore institutional placement of units",
+          "client": "Nxt-Infra Trust",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-acts-on-nxt-infra-trust-700-crore-institutional-placement-of-units",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Cyril Amarchand Mangaldas, White & Case act ... - Bar and Bench"
@@ -106442,6 +107831,39 @@
       "snapshot": "Trilegal, TT&A, Cyril Amarchand Mangaldas act on Sarvam AI $300 million Series B fundraise"
     },
     {
+      "id": 3502,
+      "name": "Sanya Chaudhari",
+      "firm": null,
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Trilegal advised broker on $309 million block sale of Paytm shares",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advised-broker-on-309-million-block-sale-of-paytm-shares",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Trilegal advised broker on $309 million block sale of Paytm shares",
+      "same_name_elsewhere": [
+        {
+          "id": 515,
+          "firm": "Trilegal",
+          "role": "Senior Associate",
+          "deal_count": 5
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 515,
       "name": "Sanya Chaudhari",
       "firm": "Trilegal",
@@ -106515,7 +107937,19 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "Zepto lines up CAM, SAM, Latham & Watkins for IPO push - Bar and Bench"
+      "snapshot": "Zepto lines up CAM, SAM, Latham & Watkins for IPO push - Bar and Bench",
+      "same_name_elsewhere": [
+        {
+          "id": 3502,
+          "firm": null,
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 316,
@@ -107697,6 +109131,7 @@
       "role_bucket": "Partner",
       "transaction_types": [
         "IPO",
+        "QIP",
         "investment"
       ],
       "practice_areas": [
@@ -107705,7 +109140,8 @@
       ],
       "clients": [
         "Milestone Gears",
-        "Molbio Diagnostics"
+        "Molbio Diagnostics",
+        "SPR Auto Technologies"
       ],
       "deals": [
         {
@@ -107729,6 +109165,18 @@
           "source": "Bar & Bench",
           "types": [
             "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, Trilegal act on SPR Auto Technologies ₹1,000 crore QIP",
+          "client": "SPR Auto Technologies",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-trilegal-act-on-spr-auto-technologies-1000-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -109422,13 +110870,15 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
       ],
       "clients": [
-        "Molbio Diagnostics"
+        "Molbio Diagnostics",
+        "SPR Auto Technologies"
       ],
       "deals": [
         {
@@ -109438,6 +110888,18 @@
           "source": "Bar & Bench",
           "types": [
             "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, Trilegal act on SPR Auto Technologies ₹1,000 crore QIP",
+          "client": "SPR Auto Technologies",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-trilegal-act-on-spr-auto-technologies-1000-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -110080,20 +111542,57 @@
       "snapshot": "Trilegal advises Iswarya Health on securing ₹355 crore investment from OrbiMed"
     },
     {
+      "id": 3495,
+      "name": "Shantanu Singh",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "FleetX acquires Pando.ai; JSA, CMS INDUSLAW advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/fleetx-acquires-pandoai-jsa-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "FleetX acquires Pando.ai; JSA, CMS INDUSLAW advise",
+      "same_name_elsewhere": [
+        {
+          "id": 151,
+          "firm": "CMS INDUSLAW",
+          "role": "Partner",
+          "deal_count": 3
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 151,
       "name": "Shantanu Singh",
       "firm": "CMS INDUSLAW",
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
-        "acquisition"
+        "Series B",
+        "acquisition",
+        "fundraise"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
         "Brainbees Solutions Limited (selling shareholder)",
-        "Ribbit Capital"
+        "Ribbit Capital",
+        "Freehand"
       ],
       "deals": [
         {
@@ -110115,9 +111614,34 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "CMS INDUSLAW acts on Freehand $75 million Series B fundraise",
+          "client": "Freehand",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cms-induslaw-act-on-freehand-75-million-series-b-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series B",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
-      "snapshot": "Shardul Amarchand Mangaldas, Khaitan & Co act on Swara Baby Products ..."
+      "snapshot": "Shardul Amarchand Mangaldas, Khaitan & Co act on Swara Baby Products ...",
+      "same_name_elsewhere": [
+        {
+          "id": 3495,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 3313,
@@ -110720,8 +112244,8 @@
       "id": 416,
       "name": "Shashwat Raj Solanki",
       "firm": "Trilegal",
-      "role": "Associate",
-      "role_bucket": "Associate",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
       "transaction_types": [
         "IPO",
         "QIP"
@@ -110732,7 +112256,8 @@
       "clients": [
         "Book running lead managers",
         "MEMG Group",
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "SPR Auto Technologies"
       ],
       "deals": [
         {
@@ -110776,6 +112301,18 @@
           "client": "Book Running Lead Managers",
           "url": "https://www.barandbench.com/dealstreet/sam-sidley-austin-trilegal-act-on-brookfield-india-reit-3500-crore-qip",
           "source": "Bar and Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, Trilegal act on SPR Auto Technologies ₹1,000 crore QIP",
+          "client": "SPR Auto Technologies",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-trilegal-act-on-spr-auto-technologies-1000-crore-qip",
+          "source": "Bar & Bench",
           "types": [
             "QIP"
           ],
@@ -110861,6 +112398,29 @@
         }
       ],
       "snapshot": "JSA advises Volvo on NBFC joint venture with Eicher Motors - Bar and Bench"
+    },
+    {
+      "id": 3507,
+      "name": "Shaunak Choudhury",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Nxt-Infra Trust"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas acts on Nxt-Infra Trust ₹700 crore institutional placement of units",
+          "client": "Nxt-Infra Trust",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-acts-on-nxt-infra-trust-700-crore-institutional-placement-of-units",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas acts on Nxt-Infra Trust ₹700 crore institutional placement of units"
     },
     {
       "id": 3434,
@@ -111007,7 +112567,8 @@
         "Piramal Enterprises Limited and Piramal Finance Limited",
         "Book Running Lead Managers",
         "Duroflex",
-        "Marri Retail"
+        "Marri Retail",
+        "SPR Auto Technologies"
       ],
       "deals": [
         {
@@ -111077,6 +112638,18 @@
           "source": "Bar and Bench",
           "types": [
             "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, Trilegal act on SPR Auto Technologies ₹1,000 crore QIP",
+          "client": "SPR Auto Technologies",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-trilegal-act-on-spr-auto-technologies-1000-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -120313,6 +121886,37 @@
       "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
     },
     {
+      "id": 3487,
+      "name": "Sohail Hafesjee",
+      "firm": "Trilegal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Berry Street - Healthify merger"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal acts on Berry Street - Healthify merger",
+          "client": "Berry Street - Healthify merger",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-berry-street-healthify-merger",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal acts on Berry Street - Healthify merger"
+    },
+    {
       "id": 1411,
       "name": "Soham Banerjee",
       "firm": "Khaitan & Co",
@@ -122553,6 +124157,29 @@
         }
       ],
       "snapshot": "SAM, CAM, Hogan Lovells act on Billdesk's acquisition of Worldline"
+    },
+    {
+      "id": 3505,
+      "name": "Srujana Kuchimanchi",
+      "firm": "TLH Advocates",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Arete Hospitals"
+      ],
+      "deals": [
+        {
+          "headline": "TLH Advocates advises Arete Hospitals on sale of hospital business to Aurevia Hospitals",
+          "client": "Arete Hospitals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tlh-advocates-advises-arete-hospitals-on-sale-of-hospital-business-to-aurevia-hospitals",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "TLH Advocates advises Arete Hospitals on sale of hospital business to Aurevia Hospitals"
     },
     {
       "id": 1640,
@@ -135909,6 +137536,37 @@
       "snapshot": "VERTICES PARTNERS, Cyril Amarchand Mangaldas act on Elevate Education ₹170 crore ..."
     },
     {
+      "id": 3489,
+      "name": "Vinay Butani",
+      "firm": "Economic Laws Practice",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Transworld"
+      ],
+      "deals": [
+        {
+          "headline": "ELP advises Transworld on investment in ETPL team Dublin Guardians",
+          "client": "Transworld",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/elp-advises-transworld-on-investment-in-etpl-team-dublin-guardians",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "ELP advises Transworld on investment in ETPL team Dublin Guardians"
+    },
+    {
       "id": 358,
       "name": "Vinay Joy",
       "firm": "Khaitan & Co",
@@ -135979,7 +137637,8 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
@@ -135988,7 +137647,8 @@
         "Selling Shareholders",
         "INDO-MIM",
         "Zetwerk",
-        "Marri Retail"
+        "Marri Retail",
+        "SPR Auto Technologies"
       ],
       "deals": [
         {
@@ -136042,6 +137702,18 @@
           "source": "Bar and Bench",
           "types": [
             "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, Trilegal act on SPR Auto Technologies ₹1,000 crore QIP",
+          "client": "SPR Auto Technologies",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-trilegal-act-on-spr-auto-technologies-1000-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -136283,6 +137955,37 @@
         }
       ],
       "snapshot": "JSA assists Continuum Green Energy on securing ₹1,350 crore from Chubu Electric Power Co."
+    },
+    {
+      "id": 3490,
+      "name": "Vinit Shah",
+      "firm": "Economic Laws Practice",
+      "role": "Associate Partner",
+      "role_bucket": "Associate Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Transworld"
+      ],
+      "deals": [
+        {
+          "headline": "ELP advises Transworld on investment in ETPL team Dublin Guardians",
+          "client": "Transworld",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/elp-advises-transworld-on-investment-in-etpl-team-dublin-guardians",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "ELP advises Transworld on investment in ETPL team Dublin Guardians"
     },
     {
       "id": 3466,
@@ -138079,12 +139782,46 @@
       "snapshot": "Aritra Partners, JSA act on Ethereal Machines $28.5 million Series B fundraise"
     },
     {
+      "id": 3494,
+      "name": "Winnie Shekhar",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "FleetX acquires Pando.ai; JSA, CMS INDUSLAW advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/fleetx-acquires-pandoai-jsa-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "FleetX acquires Pando.ai; JSA, CMS INDUSLAW advise",
+      "same_name_elsewhere": [
+        {
+          "id": 1745,
+          "firm": "CMS INDUSLAW",
+          "role": "Partner",
+          "deal_count": 3
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 1745,
       "name": "Winnie Shekhar",
       "firm": "CMS INDUSLAW",
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
+        "Series B",
         "Series C",
         "fundraise"
       ],
@@ -138093,7 +139830,8 @@
       ],
       "clients": [
         "Ribbit Capital",
-        "B Capital"
+        "B Capital",
+        "Freehand"
       ],
       "deals": [
         {
@@ -138116,9 +139854,65 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "CMS INDUSLAW acts on Freehand $75 million Series B fundraise",
+          "client": "Freehand",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cms-induslaw-act-on-freehand-75-million-series-b-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series B",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
-      "snapshot": "Trilegal, Cooley, AZB, Latham, SAM, CMS INDUSLAW act on CRED securing $900 million from Meta"
+      "snapshot": "Trilegal, Cooley, AZB, Latham, SAM, CMS INDUSLAW act on CRED securing $900 million from Meta",
+      "same_name_elsewhere": [
+        {
+          "id": 3494,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
+      "id": 3481,
+      "name": "Wiseroy Damodaran",
+      "firm": "Trilegal",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Berry Street - Healthify merger"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal acts on Berry Street - Healthify merger",
+          "client": "Berry Street - Healthify merger",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-berry-street-healthify-merger",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal acts on Berry Street - Healthify merger"
     },
     {
       "id": 1333,
@@ -138612,6 +140406,37 @@
         }
       ],
       "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise"
+    },
+    {
+      "id": 3510,
+      "name": "Yash Desai",
+      "firm": "Vidhigya Associates",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Sunshine Pictures"
+      ],
+      "deals": [
+        {
+          "headline": "Vidhigya Associates acts on Sunshine Pictures ₹282 crore IPO",
+          "client": "Sunshine Pictures",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/vidhigya-associates-acts-on-sunshine-pictures-282-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Vidhigya Associates acts on Sunshine Pictures ₹282 crore IPO"
     },
     {
       "id": 1687,
