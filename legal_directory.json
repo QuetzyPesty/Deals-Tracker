@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 3520,
+    "people": 3531,
     "firms": 100,
-    "deals": 444,
+    "deals": 450,
     "practice_areas": 6
   },
   "firms": [
@@ -2632,7 +2632,7 @@
     },
     {
       "firm": "Khaitan & Co",
-      "people_count": 467,
+      "people_count": 473,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -3073,6 +3073,7 @@
             2726,
             343,
             3287,
+            3526,
             1063,
             319,
             3087,
@@ -3096,6 +3097,7 @@
             156,
             1710,
             154,
+            3094,
             2186,
             858,
             3499,
@@ -3103,6 +3105,7 @@
             2704,
             2188,
             1762,
+            3527,
             1469,
             3414,
             3393,
@@ -3112,7 +3115,9 @@
             1707,
             3497,
             1708,
+            3530,
             2182,
+            1068,
             3412,
             2187,
             3413,
@@ -3126,13 +3131,16 @@
             758,
             3498,
             1709,
+            3528,
             1754,
             1763,
+            3529,
             155,
             1705,
             2835,
             1755,
             3518,
+            157,
             158,
             3519,
             1761,
@@ -3150,6 +3158,7 @@
             1703,
             761,
             1766,
+            3531,
             159,
             1466,
             757,
@@ -3463,14 +3472,16 @@
     },
     {
       "firm": "NovoJuris Legal",
-      "people_count": 3,
+      "people_count": 5,
       "practice_groups": [
         {
           "area": "Private Equity & Venture Capital",
           "person_ids": [
             3298,
+            3522,
             3299,
-            3297
+            3297,
+            3521
           ]
         }
       ]
@@ -3610,8 +3621,21 @@
     },
     {
       "firm": "Rajani Associates",
-      "people_count": 15,
+      "people_count": 17,
       "practice_groups": [
+        {
+          "area": "Unclassified",
+          "person_ids": [
+            1514,
+            3524,
+            1515,
+            1057,
+            1056,
+            3523,
+            1058,
+            1059
+          ]
+        },
         {
           "area": "Capital Markets",
           "person_ids": [
@@ -3621,17 +3645,6 @@
             2856,
             3143,
             3142
-          ]
-        },
-        {
-          "area": "Unclassified",
-          "person_ids": [
-            1514,
-            1515,
-            1057,
-            1056,
-            1058,
-            1059
           ]
         },
         {
@@ -4633,7 +4646,7 @@
     },
     {
       "firm": "Trilegal",
-      "people_count": 499,
+      "people_count": 500,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -5096,6 +5109,7 @@
             602,
             1264,
             2967,
+            3525,
             2941,
             520,
             2939,
@@ -8069,15 +8083,18 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
+        "IPO",
         "acquisition"
       ],
       "practice_areas": [
+        "Capital Markets",
         "Mergers & Acquisitions"
       ],
       "clients": [
         "RPG Life Sciences",
         "Hindustan Composites",
-        "Logicap"
+        "Logicap",
+        "Horizon Industrial Parks"
       ],
       "deals": [
         {
@@ -8106,6 +8123,18 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on Horizon Industrial Parks ₹2,600 crore IPO",
+          "client": "Horizon Industrial Parks",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-horizon-industrial-parks-2600-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
           ]
         }
       ],
@@ -15250,6 +15279,7 @@
       "role_bucket": "Counsel",
       "transaction_types": [
         "IPO",
+        "Series C",
         "fundraise",
         "investment"
       ],
@@ -15259,7 +15289,8 @@
       ],
       "clients": [
         "Playbook India Fund II",
-        "WestBridge selling shareholders"
+        "WestBridge selling shareholders",
+        "Yulu Bikes"
       ],
       "deals": [
         {
@@ -15285,6 +15316,19 @@
           ],
           "practice_areas": [
             "Capital Markets"
+          ]
+        },
+        {
+          "headline": "CMS INDUSLAW, SAM, TT&A, CAM act on Yulu Bikes $93 million Series C fundraise",
+          "client": "Yulu Bikes",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cms-induslaw-sam-tta-cam-act-on-yulu-bikes-93-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -25332,6 +25376,37 @@
         }
       ],
       "snapshot": "Snabbit snaps up $56 million from Series D fundraise; JSA, Shardul Amarchand Mangaldas ..."
+    },
+    {
+      "id": 3527,
+      "name": "Aparna Bagree",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Horizon Industrial Parks"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on Horizon Industrial Parks ₹2,600 crore IPO",
+          "client": "Horizon Industrial Parks",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-horizon-industrial-parks-2600-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on Horizon Industrial Parks ₹2,600 crore IPO"
     },
     {
       "id": 544,
@@ -43454,6 +43529,37 @@
       "snapshot": "Trilegal, Resolution Law act on Prosus' $28 million stake acquisition in"
     },
     {
+      "id": 3530,
+      "name": "Ekta Sawant",
+      "firm": "Khaitan & Co",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Horizon Industrial Parks"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on Horizon Industrial Parks ₹2,600 crore IPO",
+          "client": "Horizon Industrial Parks",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-horizon-industrial-parks-2600-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on Horizon Industrial Parks ₹2,600 crore IPO"
+    },
+    {
       "id": 3244,
       "name": "Ela Bali",
       "firm": null,
@@ -46801,6 +46907,29 @@
       "snapshot": "White & Case, AZB, Sullivan, Cyril Amarchand Mangaldas, Linklaters act on Sun Pharma's ..."
     },
     {
+      "id": 3524,
+      "name": "Gitika Makhija",
+      "firm": "Rajani Associates",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Wanbury"
+      ],
+      "deals": [
+        {
+          "headline": "Rajani Associates advises Wanbury on ₹205 crore redemption of debentures",
+          "client": "Wanbury",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/rajani-associates-advises-wanbury-on-205-crore-redemption-of-debentures",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Rajani Associates advises Wanbury on ₹205 crore redemption of debentures"
+    },
+    {
       "id": 911,
       "name": "Gokul Rajan",
       "firm": "Cyril Amarchand Mangaldas",
@@ -48892,14 +49021,17 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
+        "IPO",
         "acquisition"
       ],
       "practice_areas": [
+        "Capital Markets",
         "Mergers & Acquisitions"
       ],
       "clients": [
         "Mindspace Business Parks REIT",
-        "RPG Life Sciences"
+        "RPG Life Sciences",
+        "Horizon Industrial Parks"
       ],
       "deals": [
         {
@@ -48921,6 +49053,18 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on Horizon Industrial Parks ₹2,600 crore IPO",
+          "client": "Horizon Industrial Parks",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-horizon-industrial-parks-2600-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
         }
       ],
       "snapshot": "Capitaland sells ITPC Chennai to Mindspace, 360 One for ₹3000 crore - Bar and Bench"
@@ -52352,7 +52496,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "IDfy and promoter"
+        "IDfy and promoter",
+        "Texmaco Defence securing funds from Texmaco Rail, Calculus Defence Fund"
       ],
       "deals": [
         {
@@ -52366,6 +52511,14 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "Khaitan & Co acts on Texmaco Defence securing funds from Texmaco Rail, Calculus Defence Fund",
+          "client": "Texmaco Defence securing funds from Texmaco Rail, Calculus Defence Fund",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-texmaco-defence-securing-funds-from-texmaco-rail-calculus-defence-fund",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Trilegal acts on IDfy ₹476 crore Series F fundraise - Bar and Bench"
@@ -56478,7 +56631,8 @@
       ],
       "clients": [
         "Lead Managers",
-        "Dhoot Transmission"
+        "Dhoot Transmission",
+        "Horizon Industrial Parks"
       ],
       "deals": [
         {
@@ -56497,6 +56651,18 @@
           "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
           "client": "Dhoot Transmission",
           "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on Horizon Industrial Parks ₹2,600 crore IPO",
+          "client": "Horizon Industrial Parks",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-horizon-industrial-parks-2600-crore-ipo",
           "source": "Bar & Bench",
           "types": [
             "IPO"
@@ -57021,7 +57187,8 @@
         "Corporate & Commercial"
       ],
       "clients": [
-        "Adventz Group's joint venture with Nobilia"
+        "Adventz Group's joint venture with Nobilia",
+        "Texmaco Defence securing funds from Texmaco Rail, Calculus Defence Fund"
       ],
       "deals": [
         {
@@ -57035,6 +57202,14 @@
           "practice_areas": [
             "Corporate & Commercial"
           ]
+        },
+        {
+          "headline": "Khaitan & Co acts on Texmaco Defence securing funds from Texmaco Rail, Calculus Defence Fund",
+          "client": "Texmaco Defence securing funds from Texmaco Rail, Calculus Defence Fund",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-texmaco-defence-securing-funds-from-texmaco-rail-calculus-defence-fund",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Khaitan & Co acts on Adventz Group's joint venture with Nobilia"
@@ -69523,6 +69698,39 @@
       "snapshot": "Trilegal, TT&A, Cyril Amarchand Mangaldas act on Sarvam AI $300 million Series B fundraise"
     },
     {
+      "id": 3522,
+      "name": "Manish Krishnagiri",
+      "firm": "NovoJuris Legal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "Series A",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "IndiaQuotient"
+      ],
+      "deals": [
+        {
+          "headline": "NovoJuris Legal advises IndiaQuotient on Utsav App Series A fundraise",
+          "client": "IndiaQuotient",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/novojuris-legal-advises-indiaquotient-on-utsav-app-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "NovoJuris Legal advises IndiaQuotient on Utsav App Series A fundraise"
+    },
+    {
       "id": 430,
       "name": "Manish Mishra",
       "firm": "JSA Advocates & Solicitors",
@@ -72323,6 +72531,37 @@
       "snapshot": "CAM advises Adani on ₹1,342 crore acquisition of D P Jain TOT Toll Roads"
     },
     {
+      "id": 3528,
+      "name": "Mehar Sharma",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Horizon Industrial Parks"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on Horizon Industrial Parks ₹2,600 crore IPO",
+          "client": "Horizon Industrial Parks",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-horizon-industrial-parks-2600-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on Horizon Industrial Parks ₹2,600 crore IPO"
+    },
+    {
       "id": 1105,
       "name": "Mehar Vasant",
       "firm": "JSA Advocates & Solicitors",
@@ -75109,7 +75348,8 @@
         "Deutsche Bank",
         "Lead Managers",
         "Power Finance Corporation and lead managers",
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Gaja Capital"
       ],
       "deals": [
         {
@@ -75161,6 +75401,18 @@
           "client": "Book Running Lead Managers",
           "url": "https://www.barandbench.com/dealstreet/sam-khaitan-cam-trilegal-act-on-nephroplus-871-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "S&R Associates, Trilegal act on Gaja Capital ₹550 crore IPO",
+          "client": "Gaja Capital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/sr-associates-trilegal-act-on-gaja-capital-550-crore-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -78237,6 +78489,37 @@
         }
       ],
       "snapshot": "Fox & Mandal, VERTICES PARTNERS, Shardul Amarchand Mangaldas act on Gnani.AI ..."
+    },
+    {
+      "id": 3529,
+      "name": "Nibha Yadav",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Horizon Industrial Parks"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on Horizon Industrial Parks ₹2,600 crore IPO",
+          "client": "Horizon Industrial Parks",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-horizon-industrial-parks-2600-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on Horizon Industrial Parks ₹2,600 crore IPO"
     },
     {
       "id": 2924,
@@ -89484,7 +89767,9 @@
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
+        "Series C",
         "acquisition",
+        "fundraise",
         "investment"
       ],
       "practice_areas": [
@@ -89497,7 +89782,8 @@
         "JSW Energy",
         "Lohia Aerospace Systems",
         "WestBridge Capital",
-        "KNI India AS"
+        "KNI India AS",
+        "Yulu Bikes"
       ],
       "deals": [
         {
@@ -89562,6 +89848,19 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "CMS INDUSLAW, SAM, TT&A, CAM act on Yulu Bikes $93 million Series C fundraise",
+          "client": "Yulu Bikes",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cms-induslaw-sam-tta-cam-act-on-yulu-bikes-93-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -91362,6 +91661,7 @@
       "transaction_types": [
         "IPO",
         "Series B",
+        "Series C",
         "acquisition",
         "fundraise"
       ],
@@ -91375,7 +91675,8 @@
         "IntelliSmart",
         "JSW Energy",
         "Neysa & Nexus Venture Partners",
-        "WestBridge selling shareholders"
+        "WestBridge selling shareholders",
+        "Yulu Bikes"
       ],
       "deals": [
         {
@@ -91433,6 +91734,19 @@
           ],
           "practice_areas": [
             "Capital Markets"
+          ]
+        },
+        {
+          "headline": "CMS INDUSLAW, SAM, TT&A, CAM act on Yulu Bikes $93 million Series C fundraise",
+          "client": "Yulu Bikes",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cms-induslaw-sam-tta-cam-act-on-yulu-bikes-93-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -93728,7 +94042,8 @@
       ],
       "clients": [
         "Jefferies India Private Limited",
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Gaja Capital"
       ],
       "deals": [
         {
@@ -93748,6 +94063,18 @@
           "client": "Book Running Lead Managers",
           "url": "https://www.barandbench.com/dealstreet/sam-khaitan-cam-trilegal-act-on-nephroplus-871-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "S&R Associates, Trilegal act on Gaja Capital ₹550 crore IPO",
+          "client": "Gaja Capital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/sr-associates-trilegal-act-on-gaja-capital-550-crore-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -94027,6 +94354,37 @@
       "snapshot": "CAM, AZB, Hogan Lovells act on Park Hospitals ₹920 crore IPO"
     },
     {
+      "id": 3525,
+      "name": "Rajat Chauksey",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Gaja Capital"
+      ],
+      "deals": [
+        {
+          "headline": "S&R Associates, Trilegal act on Gaja Capital ₹550 crore IPO",
+          "client": "Gaja Capital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/sr-associates-trilegal-act-on-gaja-capital-550-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "S&R Associates, Trilegal act on Gaja Capital ₹550 crore IPO"
+    },
+    {
       "id": 152,
       "name": "Rajat Jain",
       "firm": "CMS INDUSLAW",
@@ -94287,6 +94645,29 @@
         }
       ],
       "snapshot": "Trilegal advises Allana Group on JV with Captain Fresh to launch India's largest ... - Bar and Bench"
+    },
+    {
+      "id": 3523,
+      "name": "Rajeev Nair",
+      "firm": "Rajani Associates",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Wanbury"
+      ],
+      "deals": [
+        {
+          "headline": "Rajani Associates advises Wanbury on ₹205 crore redemption of debentures",
+          "client": "Wanbury",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/rajani-associates-advises-wanbury-on-205-crore-redemption-of-debentures",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Rajani Associates advises Wanbury on ₹205 crore redemption of debentures"
     },
     {
       "id": 1060,
@@ -97027,13 +97408,16 @@
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
+        "IPO",
         "acquisition"
       ],
       "practice_areas": [
+        "Capital Markets",
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "JM Financial Limited and Avendus Capital Private Limited (BRLMs)"
+        "JM Financial Limited and Avendus Capital Private Limited (BRLMs)",
+        "Horizon Industrial Parks"
       ],
       "deals": [
         {
@@ -97046,6 +97430,18 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on Horizon Industrial Parks ₹2,600 crore IPO",
+          "client": "Horizon Industrial Parks",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-horizon-industrial-parks-2600-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
           ]
         }
       ],
@@ -97482,7 +97878,7 @@
           "id": 512,
           "firm": "Trilegal",
           "role": "Partner",
-          "deal_count": 19
+          "deal_count": 20
         }
       ],
       "firm_verification": {
@@ -97524,7 +97920,8 @@
         "Muthoot Finance",
         "Adani Energy Solutions",
         "India’s Largest OFS of",
-        "Motilal Oswal Group"
+        "Motilal Oswal Group",
+        "Gaja Capital"
       ],
       "deals": [
         {
@@ -97714,6 +98111,18 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "S&R Associates, Trilegal act on Gaja Capital ₹550 crore IPO",
+          "client": "Gaja Capital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/sr-associates-trilegal-act-on-gaja-capital-550-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
         }
       ],
       "snapshot": "Zepto lines up CAM, SAM, Latham & Watkins for IPO push - Bar and Bench",
@@ -115064,7 +115473,7 @@
           "id": 1226,
           "firm": "Khaitan & Co",
           "role": "Partner",
-          "deal_count": 2
+          "deal_count": 3
         }
       ],
       "firm_verification": {
@@ -115086,7 +115495,8 @@
       ],
       "clients": [
         "Nexusmalls Whitefield",
-        "Adventz Group's joint venture with Nobilia"
+        "Adventz Group's joint venture with Nobilia",
+        "Texmaco Defence securing funds from Texmaco Rail, Calculus Defence Fund"
       ],
       "deals": [
         {
@@ -115108,6 +115518,14 @@
           "practice_areas": [
             "Corporate & Commercial"
           ]
+        },
+        {
+          "headline": "Khaitan & Co acts on Texmaco Defence securing funds from Texmaco Rail, Calculus Defence Fund",
+          "client": "Texmaco Defence securing funds from Texmaco Rail, Calculus Defence Fund",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-texmaco-defence-securing-funds-from-texmaco-rail-calculus-defence-fund",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Blackstone-backed Nexus shops for Kolkata mall Diamond Plaza; Khaitan, SAM advise",
@@ -121755,6 +122173,37 @@
       "snapshot": "CAM advises Statkraft A.S. on 100% stake sale of wholly owned subsidiary, Mandakini Jal Urja"
     },
     {
+      "id": 3531,
+      "name": "Snehil Singhvi",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Horizon Industrial Parks"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on Horizon Industrial Parks ₹2,600 crore IPO",
+          "client": "Horizon Industrial Parks",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-horizon-industrial-parks-2600-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on Horizon Industrial Parks ₹2,600 crore IPO"
+    },
+    {
       "id": 331,
       "name": "Snigdha Ande",
       "firm": "Khaitan & Co",
@@ -124800,7 +125249,8 @@
       ],
       "clients": [
         "Lead Managers",
-        "Dhoot Transmission"
+        "Dhoot Transmission",
+        "Horizon Industrial Parks"
       ],
       "deals": [
         {
@@ -124819,6 +125269,18 @@
           "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
           "client": "Dhoot Transmission",
           "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on Horizon Industrial Parks ₹2,600 crore IPO",
+          "client": "Horizon Industrial Parks",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-horizon-industrial-parks-2600-crore-ipo",
           "source": "Bar & Bench",
           "types": [
             "IPO"
@@ -126120,6 +126582,29 @@
         }
       ],
       "snapshot": "Khaitan & Co, JSA act on IIFL Finance updating its $1 billion Global Medium Term Note Programme"
+    },
+    {
+      "id": 3526,
+      "name": "Supallab Chakraborty",
+      "firm": "Khaitan & Co",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Texmaco Defence securing funds from Texmaco Rail, Calculus Defence Fund"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co acts on Texmaco Defence securing funds from Texmaco Rail, Calculus Defence Fund",
+          "client": "Texmaco Defence securing funds from Texmaco Rail, Calculus Defence Fund",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-texmaco-defence-securing-funds-from-texmaco-rail-calculus-defence-fund",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co acts on Texmaco Defence securing funds from Texmaco Rail, Calculus Defence Fund"
     },
     {
       "id": 364,
@@ -138827,6 +139312,39 @@
       "snapshot": "JSA, TT&A advise LeapFrog on $95 million investment in ReNew Green Energy"
     },
     {
+      "id": 3521,
+      "name": "Vishnu Sudarshan",
+      "firm": "NovoJuris Legal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "Series A",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "IndiaQuotient"
+      ],
+      "deals": [
+        {
+          "headline": "NovoJuris Legal advises IndiaQuotient on Utsav App Series A fundraise",
+          "client": "IndiaQuotient",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/novojuris-legal-advises-indiaquotient-on-utsav-app-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "NovoJuris Legal advises IndiaQuotient on Utsav App Series A fundraise"
+    },
+    {
       "id": 2949,
       "name": "Vishnu Vasudevan Chengath",
       "firm": "Khaitan & Co",
@@ -141326,6 +141844,7 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "IPO",
         "QIP"
       ],
       "practice_areas": [
@@ -141333,7 +141852,8 @@
       ],
       "clients": [
         "Jefferies India Private Limited",
-        "Lead Managers"
+        "Lead Managers",
+        "Gaja Capital"
       ],
       "deals": [
         {
@@ -141355,6 +141875,18 @@
           "source": "Bar and Bench",
           "types": [
             "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "S&R Associates, Trilegal act on Gaja Capital ₹550 crore IPO",
+          "client": "Gaja Capital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/sr-associates-trilegal-act-on-gaja-capital-550-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
           ],
           "practice_areas": [
             "Capital Markets"
