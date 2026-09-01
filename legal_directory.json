@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 3531,
-    "firms": 100,
-    "deals": 450,
+    "people": 3556,
+    "firms": 103,
+    "deals": 458,
     "practice_areas": 6
   },
   "firms": [
@@ -41,6 +41,7 @@
     "Equilex",
     "FBT Gibbons",
     "Fox Mandal & Associates",
+    "GameChanger Law",
     "Gibson Dunn",
     "Goodwin",
     "Greenberg Traurig",
@@ -68,6 +69,7 @@
     "McDermott",
     "McDermott Will & Schulte",
     "Morgan Lewis",
+    "Noerr",
     "Norton Rose Fulbright",
     "NovoJuris Legal",
     "Obhan Mason",
@@ -90,6 +92,7 @@
     "Squire Patton Boggs",
     "Sullivan & Cromwell",
     "TLH Advocates",
+    "TRD Associates",
     "Talwar Thakore & Associates",
     "The Resolution Law Group",
     "Touchstone Partners",
@@ -175,13 +178,14 @@
     },
     {
       "firm": "AZB & Partners",
-      "people_count": 194,
+      "people_count": 200,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
           "person_ids": [
             2403,
             1840,
+            3533,
             2406,
             2463,
             2404,
@@ -189,6 +193,7 @@
             1294,
             1431,
             1426,
+            3534,
             1433,
             205,
             1731,
@@ -204,6 +209,7 @@
             1425,
             1839,
             206,
+            3537,
             239,
             1297,
             1838,
@@ -217,6 +223,8 @@
             1127,
             245,
             46,
+            3536,
+            3538,
             1987,
             1729,
             1126,
@@ -224,6 +232,7 @@
             47,
             1129,
             1128,
+            1982,
             244,
             48,
             207,
@@ -245,6 +254,7 @@
             43,
             2571,
             1434,
+            3535,
             49,
             2402,
             1290,
@@ -1886,6 +1896,19 @@
       ]
     },
     {
+      "firm": "GameChanger Law",
+      "people_count": 2,
+      "practice_groups": [
+        {
+          "area": "Private Equity & Venture Capital",
+          "person_ids": [
+            3554,
+            3555
+          ]
+        }
+      ]
+    },
+    {
       "firm": "Gibson Dunn",
       "people_count": 4,
       "practice_groups": [
@@ -2066,7 +2089,7 @@
     },
     {
       "firm": "JSA Advocates & Solicitors",
-      "people_count": 357,
+      "people_count": 366,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -2099,11 +2122,14 @@
             1502,
             887,
             741,
+            3549,
             1888,
             306,
             2859,
             705,
             435,
+            3546,
+            3545,
             500,
             1397,
             1256,
@@ -2128,10 +2154,12 @@
             749,
             133,
             1943,
+            3544,
             430,
             742,
             2097,
             2770,
+            3547,
             836,
             708,
             1105,
@@ -2153,6 +2181,7 @@
             1099,
             1883,
             1437,
+            3548,
             294,
             116,
             1242,
@@ -2185,9 +2214,11 @@
             1194,
             744,
             1375,
+            3542,
             1188,
             1600,
             2095,
+            3541,
             1646,
             2991,
             431,
@@ -2196,6 +2227,7 @@
             1881,
             2040,
             2943,
+            3543,
             2861,
             303,
             2990,
@@ -2632,7 +2664,7 @@
     },
     {
       "firm": "Khaitan & Co",
-      "people_count": 473,
+      "people_count": 475,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -2817,6 +2849,144 @@
           ]
         },
         {
+          "area": "Unclassified",
+          "person_ids": [
+            398,
+            333,
+            329,
+            3155,
+            318,
+            3550,
+            3154,
+            3278,
+            2723,
+            3030,
+            723,
+            2722,
+            3025,
+            3027,
+            3323,
+            351,
+            3093,
+            1034,
+            3026,
+            3150,
+            328,
+            288,
+            344,
+            3288,
+            478,
+            3289,
+            393,
+            3029,
+            3151,
+            400,
+            284,
+            1035,
+            3276,
+            3149,
+            1036,
+            1029,
+            3091,
+            347,
+            1064,
+            352,
+            320,
+            3088,
+            396,
+            401,
+            3089,
+            3032,
+            327,
+            322,
+            1037,
+            3090,
+            3022,
+            3153,
+            3280,
+            1232,
+            281,
+            366,
+            1230,
+            340,
+            3028,
+            350,
+            2126,
+            285,
+            363,
+            3322,
+            283,
+            2724,
+            1031,
+            726,
+            3024,
+            291,
+            349,
+            3160,
+            394,
+            345,
+            3279,
+            2725,
+            3152,
+            3092,
+            3161,
+            397,
+            1030,
+            325,
+            3158,
+            353,
+            3086,
+            3096,
+            3095,
+            1060,
+            282,
+            3156,
+            1032,
+            2721,
+            3020,
+            1197,
+            3019,
+            341,
+            3285,
+            321,
+            1033,
+            3283,
+            1062,
+            1195,
+            3159,
+            354,
+            3021,
+            3281,
+            3023,
+            323,
+            332,
+            286,
+            1809,
+            2720,
+            3551,
+            3277,
+            3284,
+            331,
+            2726,
+            343,
+            3287,
+            3526,
+            1063,
+            319,
+            3087,
+            395,
+            361,
+            290,
+            2124,
+            1235,
+            3157,
+            357,
+            3286,
+            3282,
+            3031
+          ]
+        },
+        {
           "area": "Private Equity & Venture Capital",
           "person_ids": [
             154,
@@ -2951,142 +3121,6 @@
             2185,
             1416,
             287
-          ]
-        },
-        {
-          "area": "Unclassified",
-          "person_ids": [
-            398,
-            333,
-            329,
-            3155,
-            318,
-            3154,
-            3278,
-            2723,
-            3030,
-            723,
-            2722,
-            3025,
-            3027,
-            3323,
-            351,
-            3093,
-            1034,
-            3026,
-            3150,
-            328,
-            288,
-            344,
-            3288,
-            478,
-            3289,
-            393,
-            3029,
-            3151,
-            400,
-            284,
-            1035,
-            3276,
-            3149,
-            1036,
-            1029,
-            3091,
-            347,
-            1064,
-            352,
-            320,
-            3088,
-            396,
-            401,
-            3089,
-            3032,
-            327,
-            322,
-            1037,
-            3090,
-            3022,
-            3153,
-            3280,
-            1232,
-            281,
-            366,
-            1230,
-            340,
-            3028,
-            350,
-            2126,
-            285,
-            363,
-            3322,
-            283,
-            2724,
-            1031,
-            726,
-            3024,
-            291,
-            349,
-            3160,
-            394,
-            345,
-            3279,
-            2725,
-            3152,
-            3092,
-            3161,
-            397,
-            1030,
-            325,
-            3158,
-            353,
-            3086,
-            3096,
-            3095,
-            1060,
-            282,
-            3156,
-            1032,
-            2721,
-            3020,
-            1197,
-            3019,
-            341,
-            3285,
-            321,
-            1033,
-            3283,
-            1062,
-            1195,
-            3159,
-            354,
-            3021,
-            3281,
-            3023,
-            323,
-            332,
-            286,
-            1809,
-            2720,
-            3277,
-            3284,
-            331,
-            2726,
-            343,
-            3287,
-            3526,
-            1063,
-            319,
-            3087,
-            395,
-            361,
-            290,
-            2124,
-            1235,
-            3157,
-            357,
-            3286,
-            3282,
-            3031
           ]
         },
         {
@@ -3364,7 +3398,7 @@
     },
     {
       "firm": "Linklaters",
-      "people_count": 19,
+      "people_count": 21,
       "practice_groups": [
         {
           "area": "Private Equity & Venture Capital",
@@ -3394,15 +3428,17 @@
           ]
         },
         {
-          "area": "Banking & Finance",
+          "area": "Mergers & Acquisitions",
           "person_ids": [
             97,
+            3540,
             95,
-            96
+            96,
+            3539
           ]
         },
         {
-          "area": "Mergers & Acquisitions",
+          "area": "Banking & Finance",
           "person_ids": [
             97,
             95,
@@ -3450,6 +3486,11 @@
           ]
         }
       ]
+    },
+    {
+      "firm": "Noerr",
+      "people_count": 0,
+      "practice_groups": []
     },
     {
       "firm": "Norton Rose Fulbright",
@@ -3621,7 +3662,7 @@
     },
     {
       "firm": "Rajani Associates",
-      "people_count": 17,
+      "people_count": 18,
       "practice_groups": [
         {
           "area": "Unclassified",
@@ -3633,7 +3674,8 @@
             1056,
             3523,
             1058,
-            1059
+            1059,
+            3556
           ]
         },
         {
@@ -4481,6 +4523,18 @@
       ]
     },
     {
+      "firm": "TRD Associates",
+      "people_count": 1,
+      "practice_groups": [
+        {
+          "area": "Mergers & Acquisitions",
+          "person_ids": [
+            3553
+          ]
+        }
+      ]
+    },
+    {
       "firm": "Talwar Thakore & Associates",
       "people_count": 63,
       "practice_groups": [
@@ -4646,7 +4700,7 @@
     },
     {
       "firm": "Trilegal",
-      "people_count": 500,
+      "people_count": 502,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -5047,6 +5101,7 @@
             3359,
             2968,
             2908,
+            3532,
             2601,
             2194,
             9,
@@ -5158,6 +5213,7 @@
             1804,
             868,
             1850,
+            3552,
             2561,
             1847,
             2749,
@@ -7060,6 +7116,37 @@
         }
       ],
       "snapshot": "Chandhiok & Mahajan advises Dalmia Cement on acquisition of cement business from Jaiprakash Associates"
+    },
+    {
+      "id": 3533,
+      "name": "Abhay Raj Singh Bundela",
+      "firm": "AZB & Partners",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "TCS' €320 million acquisition of MHP from Porsche"
+      ],
+      "deals": [
+        {
+          "headline": "AZB & Partners, Noerr, Linklaters act on TCS' €320 million acquisition of MHP from Porsche",
+          "client": "TCS' €320 million acquisition of MHP from Porsche",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/azb-partners-advises-tcs-on-320-million-acquisition-of-mhp-from-porsche",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "AZB & Partners, Noerr, Linklaters act on TCS' €320 million acquisition of MHP from Porsche"
     },
     {
       "id": 2367,
@@ -10260,6 +10347,29 @@
       "snapshot": "Trilegal assists Zetwerk on DRHP filing - Bar and Bench"
     },
     {
+      "id": 3552,
+      "name": "Adi Kidambi",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Energeia - August Energy"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal acts on Energeia - August Energy $100 million partnership",
+          "client": "Energeia - August Energy",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-energeia-august-energy-100-million-partnership",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Trilegal acts on Energeia - August Energy $100 million partnership"
+    },
+    {
       "id": 1793,
       "name": "Adita Rajput",
       "firm": "Hogan Lovells Cadwalader",
@@ -10908,6 +11018,29 @@
         }
       ],
       "snapshot": "Trilegal, TT&A, Cyril Amarchand Mangaldas act on Sarvam AI $300 million Series B fundraise"
+    },
+    {
+      "id": 3550,
+      "name": "Aditi Swapnil Rathi",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "TVS Group"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises TVS Group on consolidation of financial services entities",
+          "client": "TVS Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-tvs-group-on-consolidation-of-financial-services-entities",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co advises TVS Group on consolidation of financial services entities"
     },
     {
       "id": 2579,
@@ -13984,6 +14117,37 @@
         "verdict": "UNVERIFIED",
         "evidence": "Not yet researched."
       }
+    },
+    {
+      "id": 3534,
+      "name": "Akash Kumar Prasad",
+      "firm": "AZB & Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "TCS' €320 million acquisition of MHP from Porsche"
+      ],
+      "deals": [
+        {
+          "headline": "AZB & Partners, Noerr, Linklaters act on TCS' €320 million acquisition of MHP from Porsche",
+          "client": "TCS' €320 million acquisition of MHP from Porsche",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/azb-partners-advises-tcs-on-320-million-acquisition-of-mhp-from-porsche",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "AZB & Partners, Noerr, Linklaters act on TCS' €320 million acquisition of MHP from Porsche"
     },
     {
       "id": 3217,
@@ -17379,13 +17543,15 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "IPO",
         "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
       ],
       "clients": [
-        "APAR Industries"
+        "APAR Industries",
+        "Tempsens Instruments"
       ],
       "deals": [
         {
@@ -17395,6 +17561,18 @@
           "source": "Bar & Bench",
           "types": [
             "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "S&R Associates, Trilegal act on Tempsens Instruments ₹650 crore IPO",
+          "client": "Tempsens Instruments",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/sr-associates-trilegal-act-on-tempsens-instruments-650-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -18576,6 +18754,37 @@
       "snapshot": "CAM advises Healthcare Global Enterprises on ₹424 crore rights issue"
     },
     {
+      "id": 3532,
+      "name": "Anand Kumar",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Tempsens Instruments"
+      ],
+      "deals": [
+        {
+          "headline": "S&R Associates, Trilegal act on Tempsens Instruments ₹650 crore IPO",
+          "client": "Tempsens Instruments",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/sr-associates-trilegal-act-on-tempsens-instruments-650-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "S&R Associates, Trilegal act on Tempsens Instruments ₹650 crore IPO"
+    },
+    {
       "id": 301,
       "name": "Anand Lakra",
       "firm": "JSA Advocates & Solicitors",
@@ -19570,6 +19779,37 @@
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Cyril Amarchand Mangaldas, White & Case act ... - Bar and Bench"
+    },
+    {
+      "id": 3540,
+      "name": "Andreas Zenner",
+      "firm": "Linklaters",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "TCS' €320 million acquisition of MHP from Porsche"
+      ],
+      "deals": [
+        {
+          "headline": "AZB & Partners, Noerr, Linklaters act on TCS' €320 million acquisition of MHP from Porsche",
+          "client": "TCS' €320 million acquisition of MHP from Porsche",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/azb-partners-advises-tcs-on-320-million-acquisition-of-mhp-from-porsche",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "AZB & Partners, Noerr, Linklaters act on TCS' €320 million acquisition of MHP from Porsche"
     },
     {
       "id": 1682,
@@ -23438,7 +23678,7 @@
           "id": 1388,
           "firm": "Khaitan & Co",
           "role": "Partner",
-          "deal_count": 4
+          "deal_count": 5
         }
       ],
       "firm_verification": {
@@ -23462,7 +23702,8 @@
         "Aditya Birla Renewables",
         "FMC India",
         "Vitruvian Partners",
-        "Standex’s acquisition of Amran/Narayan Group"
+        "Standex’s acquisition of Amran/Narayan Group",
+        "TVS Group"
       ],
       "deals": [
         {
@@ -23508,6 +23749,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Khaitan & Co advises TVS Group on consolidation of financial services entities",
+          "client": "TVS Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-tvs-group-on-consolidation-of-financial-services-entities",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Aditya Birla acquires Sprng Energy from Shell for $1.8 billion; Khaitan & Co, Trilegal advise",
@@ -27544,8 +27793,8 @@
       "id": 2314,
       "name": "Armaan Gupta",
       "firm": "Khaitan & Co",
-      "role": "Senior Associate",
-      "role_bucket": "Senior Associate",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
       "transaction_types": [
         "acquisition"
       ],
@@ -27554,7 +27803,8 @@
       ],
       "clients": [
         "Grupo Antolin",
-        "Vitruvian Partners"
+        "Vitruvian Partners",
+        "TVS Group"
       ],
       "deals": [
         {
@@ -27574,6 +27824,14 @@
           "client": "Vitruvian Partners",
           "url": "https://www.barandbench.com/dealstreet/cam-advises-hiranandani-financial-services-on-raising-800-crore-from-vitruvian",
           "source": "Bar and Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Khaitan & Co advises TVS Group on consolidation of financial services entities",
+          "client": "TVS Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-tvs-group-on-consolidation-of-financial-services-entities",
+          "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
         }
@@ -30098,7 +30356,8 @@
       "clients": [
         "KKR",
         "Tiger Global",
-        "Edelweiss Group/Nido Home Finance"
+        "Edelweiss Group/Nido Home Finance",
+        "TCS' €320 million acquisition of MHP from Porsche"
       ],
       "deals": [
         {
@@ -30154,6 +30413,18 @@
           "types": [
             "acquisition",
             "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "AZB & Partners, Noerr, Linklaters act on TCS' €320 million acquisition of MHP from Porsche",
+          "client": "TCS' €320 million acquisition of MHP from Porsche",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/azb-partners-advises-tcs-on-320-million-acquisition-of-mhp-from-porsche",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
@@ -31415,7 +31686,8 @@
       ],
       "clients": [
         "Mittal Family",
-        "KKR's €1.2 billion acquisition of Medicover India"
+        "KKR's €1.2 billion acquisition of Medicover India",
+        "Energeia - August Energy"
       ],
       "deals": [
         {
@@ -31441,6 +31713,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Trilegal acts on Energeia - August Energy $100 million partnership",
+          "client": "Energeia - August Energy",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-energeia-august-energy-100-million-partnership",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Trilegal, CAM, Latham, AZB, Equilex, Macfarlanes advise on Mittal-Poonawalla consortium ..."
@@ -32227,6 +32507,37 @@
         "verdict": "UNVERIFIED",
         "evidence": "Not yet researched."
       }
+    },
+    {
+      "id": 3553,
+      "name": "Ayush Khandelwal",
+      "firm": "TRD Associates",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Ravin Group"
+      ],
+      "deals": [
+        {
+          "headline": "TRD Associates advises Ravin Group on acquisition of Cable Corporation of India",
+          "client": "Ravin Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trd-associates-advises-ravin-group-on-acquisition-of-cable-corporation-of-india",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "TRD Associates advises Ravin Group on acquisition of Cable Corporation of India"
     },
     {
       "id": 1618,
@@ -33195,7 +33506,8 @@
       "clients": [
         "Book Running Lead Managers",
         "GSP Crop Science",
-        "APAR Industries"
+        "APAR Industries",
+        "Tempsens Instruments"
       ],
       "deals": [
         {
@@ -33253,6 +33565,18 @@
           "source": "Bar & Bench",
           "types": [
             "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "S&R Associates, Trilegal act on Tempsens Instruments ₹650 crore IPO",
+          "client": "Tempsens Instruments",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/sr-associates-trilegal-act-on-tempsens-instruments-650-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -35774,7 +36098,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Tempsens Instruments"
       ],
       "deals": [
         {
@@ -35782,6 +36107,18 @@
           "client": "Book Running Lead Managers",
           "url": "https://www.barandbench.com/dealstreet/cam-trilegal-act-on-sedemac-mechatronics-1087-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "S&R Associates, Trilegal act on Tempsens Instruments ₹650 crore IPO",
+          "client": "Tempsens Instruments",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/sr-associates-trilegal-act-on-tempsens-instruments-650-crore-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -35853,6 +36190,37 @@
         }
       ],
       "snapshot": "DSK Legal, Troutman Pepper Locke advise Energage on merger with Engagedly"
+    },
+    {
+      "id": 3549,
+      "name": "Bret J. Stancil",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "India leg of SAP Inc's acquisition of Reltio"
+      ],
+      "deals": [
+        {
+          "headline": "JSA acts on India leg of SAP Inc's acquisition of Reltio",
+          "client": "India leg of SAP Inc's acquisition of Reltio",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-india-leg-of-sap-incs-acquisition-of-reltio",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "JSA acts on India leg of SAP Inc's acquisition of Reltio"
     },
     {
       "id": 190,
@@ -36488,7 +36856,8 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "Everstone Capital"
+        "Everstone Capital",
+        "TVS Group"
       ],
       "deals": [
         {
@@ -36496,6 +36865,14 @@
           "client": "Everstone Capital",
           "url": "https://www.barandbench.com/dealstreet/jsa-khaitan-act-on-everstone-investing-270-million-in-apothecon-group",
           "source": "Bar and Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Khaitan & Co advises TVS Group on consolidation of financial services entities",
+          "client": "TVS Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-tvs-group-on-consolidation-of-financial-services-entities",
+          "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
         }
@@ -42699,6 +43076,37 @@
       "snapshot": "Trilegal, Sheppard act on $310 million acquisition of iMerit by EXL - Bar and Bench"
     },
     {
+      "id": 3537,
+      "name": "Dominik Rompza",
+      "firm": "AZB & Partners",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "TCS' €320 million acquisition of MHP from Porsche"
+      ],
+      "deals": [
+        {
+          "headline": "AZB & Partners, Noerr, Linklaters act on TCS' €320 million acquisition of MHP from Porsche",
+          "client": "TCS' €320 million acquisition of MHP from Porsche",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/azb-partners-advises-tcs-on-320-million-acquisition-of-mhp-from-porsche",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "AZB & Partners, Noerr, Linklaters act on TCS' €320 million acquisition of MHP from Porsche"
+    },
+    {
       "id": 3415,
       "name": "Dominik Sklenar",
       "firm": "Latham & Watkins",
@@ -43990,6 +44398,37 @@
       "snapshot": "Wilson Sonsini, JSA, Latham act on Marvell's acquisition of Celestial AI"
     },
     {
+      "id": 3546,
+      "name": "Erin Malone-Shkurkin",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "India leg of SAP Inc's acquisition of Reltio"
+      ],
+      "deals": [
+        {
+          "headline": "JSA acts on India leg of SAP Inc's acquisition of Reltio",
+          "client": "India leg of SAP Inc's acquisition of Reltio",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-india-leg-of-sap-incs-acquisition-of-reltio",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "JSA acts on India leg of SAP Inc's acquisition of Reltio"
+    },
+    {
       "id": 418,
       "name": "Esha Alex",
       "firm": "Trilegal",
@@ -44354,6 +44793,49 @@
       "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO"
     },
     {
+      "id": 3545,
+      "name": "Ethan Lutske",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "India leg of SAP Inc's acquisition of Reltio"
+      ],
+      "deals": [
+        {
+          "headline": "JSA acts on India leg of SAP Inc's acquisition of Reltio",
+          "client": "India leg of SAP Inc's acquisition of Reltio",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-india-leg-of-sap-incs-acquisition-of-reltio",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "JSA acts on India leg of SAP Inc's acquisition of Reltio",
+      "same_name_elsewhere": [
+        {
+          "id": 1648,
+          "firm": "Wilson Sonsini Goodrich & Rosati",
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 1648,
       "name": "Ethan Lutske",
       "firm": "Wilson Sonsini Goodrich & Rosati",
@@ -44382,7 +44864,19 @@
           ]
         }
       ],
-      "snapshot": "Wilson Sonsini, JSA, Latham act on Marvell's acquisition of Celestial AI"
+      "snapshot": "Wilson Sonsini, JSA, Latham act on Marvell's acquisition of Celestial AI",
+      "same_name_elsewhere": [
+        {
+          "id": 3545,
+          "firm": "JSA Advocates & Solicitors",
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 3246,
@@ -53631,7 +54125,8 @@
       ],
       "clients": [
         "Indorama Ventures/Indovida",
-        "River Mobility"
+        "River Mobility",
+        "TVS Group"
       ],
       "deals": [
         {
@@ -53658,6 +54153,14 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "Khaitan & Co advises TVS Group on consolidation of financial services entities",
+          "client": "TVS Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-tvs-group-on-consolidation-of-financial-services-entities",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Khaitan & Co, Trilegal act on Blackstone-backed EPL - Indovida Packaging merger"
@@ -60329,7 +60832,8 @@
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Indorama Ventures/Indovida"
+        "Indorama Ventures/Indovida",
+        "TVS Group"
       ],
       "deals": [
         {
@@ -60343,6 +60847,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Khaitan & Co advises TVS Group on consolidation of financial services entities",
+          "client": "TVS Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-tvs-group-on-consolidation-of-financial-services-entities",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Khaitan & Co, Trilegal act on Blackstone-backed EPL - Indovida Packaging merger"
@@ -66992,8 +67504,8 @@
       "id": 749,
       "name": "Madhur Khandelwal",
       "firm": "JSA Advocates & Solicitors",
-      "role": "Senior Associate",
-      "role_bucket": "Senior Associate",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
       "transaction_types": [
         "Series A",
         "acquisition",
@@ -67007,7 +67519,8 @@
       "clients": [
         "Advent International",
         "Vobis Ventures",
-        "MO Alternates"
+        "MO Alternates",
+        "India leg of SAP Inc's acquisition of Reltio"
       ],
       "deals": [
         {
@@ -67043,6 +67556,18 @@
           "types": [
             "acquisition",
             "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "JSA acts on India leg of SAP Inc's acquisition of Reltio",
+          "client": "India leg of SAP Inc's acquisition of Reltio",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-india-leg-of-sap-incs-acquisition-of-reltio",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
@@ -68265,6 +68790,37 @@
       "snapshot": "Trilegal, Sheppard act on $310 million acquisition of iMerit by EXL - Bar and Bench"
     },
     {
+      "id": 3544,
+      "name": "Maitri Gala",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "India leg of SAP Inc's acquisition of Reltio"
+      ],
+      "deals": [
+        {
+          "headline": "JSA acts on India leg of SAP Inc's acquisition of Reltio",
+          "client": "India leg of SAP Inc's acquisition of Reltio",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-india-leg-of-sap-incs-acquisition-of-reltio",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "JSA acts on India leg of SAP Inc's acquisition of Reltio"
+    },
+    {
       "id": 1054,
       "name": "Maitri Parekh",
       "firm": "JSA Advocates & Solicitors",
@@ -68382,7 +68938,8 @@
       "clients": [
         "Book Running Lead Managers",
         "Piramal Enterprises Limited and Piramal Finance Limited",
-        "APAR Industries"
+        "APAR Industries",
+        "Tempsens Instruments"
       ],
       "deals": [
         {
@@ -68430,6 +68987,18 @@
           "source": "Bar & Bench",
           "types": [
             "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "S&R Associates, Trilegal act on Tempsens Instruments ₹650 crore IPO",
+          "client": "Tempsens Instruments",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/sr-associates-trilegal-act-on-tempsens-instruments-650-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -69045,7 +69614,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Tempsens Instruments"
       ],
       "deals": [
         {
@@ -69053,6 +69623,18 @@
           "client": "Book Running Lead Managers",
           "url": "https://www.barandbench.com/dealstreet/cam-trilegal-hogan-lovells-act-on-runwall-realty-2000-crore-proposed-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "S&R Associates, Trilegal act on Tempsens Instruments ₹650 crore IPO",
+          "client": "Tempsens Instruments",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/sr-associates-trilegal-act-on-tempsens-instruments-650-crore-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -71004,6 +71586,37 @@
       "snapshot": "CAM, Trilegal, TT&A, Hogan Lovells act on Rentomojo proposed ₹150 crore+ IPO"
     },
     {
+      "id": 3547,
+      "name": "Mark Baudler",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "India leg of SAP Inc's acquisition of Reltio"
+      ],
+      "deals": [
+        {
+          "headline": "JSA acts on India leg of SAP Inc's acquisition of Reltio",
+          "client": "India leg of SAP Inc's acquisition of Reltio",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-india-leg-of-sap-incs-acquisition-of-reltio",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "JSA acts on India leg of SAP Inc's acquisition of Reltio"
+    },
+    {
       "id": 1652,
       "name": "Mark Bekheit",
       "firm": "Latham & Watkins",
@@ -72232,7 +72845,7 @@
       "id": 1394,
       "name": "Megha Kaladharan",
       "firm": "Trilegal",
-      "role": "Partner (Projects)",
+      "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
         "acquisition"
@@ -72241,7 +72854,8 @@
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Shell"
+        "Shell",
+        "Energeia - August Energy"
       ],
       "deals": [
         {
@@ -72255,6 +72869,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Trilegal acts on Energeia - August Energy $100 million partnership",
+          "client": "Energeia - August Energy",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-energeia-august-energy-100-million-partnership",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Aditya Birla acquires Sprng Energy from Shell for $1.8 billion; Khaitan & Co, Trilegal advise"
@@ -72531,6 +73153,37 @@
       "snapshot": "CAM advises Adani on ₹1,342 crore acquisition of D P Jain TOT Toll Roads"
     },
     {
+      "id": 3536,
+      "name": "Mehar Kalra",
+      "firm": "AZB & Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "TCS' €320 million acquisition of MHP from Porsche"
+      ],
+      "deals": [
+        {
+          "headline": "AZB & Partners, Noerr, Linklaters act on TCS' €320 million acquisition of MHP from Porsche",
+          "client": "TCS' €320 million acquisition of MHP from Porsche",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/azb-partners-advises-tcs-on-320-million-acquisition-of-mhp-from-porsche",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "AZB & Partners, Noerr, Linklaters act on TCS' €320 million acquisition of MHP from Porsche"
+    },
+    {
       "id": 3528,
       "name": "Mehar Sharma",
       "firm": "Khaitan & Co",
@@ -72719,7 +73372,7 @@
           "id": 334,
           "firm": "Khaitan & Co",
           "role": "Partner",
-          "deal_count": 2
+          "deal_count": 3
         }
       ],
       "firm_verification": {
@@ -72741,7 +73394,8 @@
       ],
       "clients": [
         "VINCI Highways",
-        "Indorama Ventures/Indovida"
+        "Indorama Ventures/Indovida",
+        "TVS Group"
       ],
       "deals": [
         {
@@ -72763,6 +73417,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Khaitan & Co advises TVS Group on consolidation of financial services entities",
+          "client": "TVS Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-tvs-group-on-consolidation-of-financial-services-entities",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat",
@@ -72871,6 +73533,37 @@
         }
       ],
       "snapshot": "Trilegal, K&L Gates, Baker & McKenzie, AZB act on Wipro's $375 million acquisition of ..."
+    },
+    {
+      "id": 3538,
+      "name": "Meret Pettirsch",
+      "firm": "AZB & Partners",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "TCS' €320 million acquisition of MHP from Porsche"
+      ],
+      "deals": [
+        {
+          "headline": "AZB & Partners, Noerr, Linklaters act on TCS' €320 million acquisition of MHP from Porsche",
+          "client": "TCS' €320 million acquisition of MHP from Porsche",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/azb-partners-advises-tcs-on-320-million-acquisition-of-mhp-from-porsche",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "AZB & Partners, Noerr, Linklaters act on TCS' €320 million acquisition of MHP from Porsche"
     },
     {
       "id": 187,
@@ -74230,7 +74923,8 @@
       ],
       "clients": [
         "Everstone Capital",
-        "Aditya Birla Renewables"
+        "Aditya Birla Renewables",
+        "TVS Group"
       ],
       "deals": [
         {
@@ -74252,6 +74946,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Khaitan & Co advises TVS Group on consolidation of financial services entities",
+          "client": "TVS Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-tvs-group-on-consolidation-of-financial-services-entities",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "JSA, Khaitan act on Everstone investing $270 million in Apothecon Group"
@@ -79309,7 +80011,8 @@
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Abu Dhabi National Energy Company (TAQA)"
+        "Abu Dhabi National Energy Company (TAQA)",
+        "Energeia - August Energy"
       ],
       "deals": [
         {
@@ -79323,6 +80026,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Trilegal acts on Energeia - August Energy $100 million partnership",
+          "client": "Energeia - August Energy",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-energeia-august-energy-100-million-partnership",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "CAM, Trilegal act on MEIL Energy acquiring a 250 MW thermal power project in Tamil Nadu ..."
@@ -85025,6 +85736,37 @@
       "snapshot": "Khaitan & Co, JSA act on IIFL Finance updating its $1 billion Global Medium Term Note Programme"
     },
     {
+      "id": 3548,
+      "name": "Philipp Werner",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "India leg of SAP Inc's acquisition of Reltio"
+      ],
+      "deals": [
+        {
+          "headline": "JSA acts on India leg of SAP Inc's acquisition of Reltio",
+          "client": "India leg of SAP Inc's acquisition of Reltio",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-india-leg-of-sap-incs-acquisition-of-reltio",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "JSA acts on India leg of SAP Inc's acquisition of Reltio"
+    },
+    {
       "id": 2322,
       "name": "Piyush Langde",
       "firm": "Cyril Amarchand Mangaldas",
@@ -89417,7 +90159,8 @@
         "Advent International",
         "Vobis Ventures",
         "Goyaz Jewellery",
-        "MO Alternates"
+        "MO Alternates",
+        "India leg of SAP Inc's acquisition of Reltio"
       ],
       "deals": [
         {
@@ -89466,6 +90209,18 @@
           "types": [
             "acquisition",
             "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "JSA acts on India leg of SAP Inc's acquisition of Reltio",
+          "client": "India leg of SAP Inc's acquisition of Reltio",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-india-leg-of-sap-incs-acquisition-of-reltio",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
@@ -89616,13 +90371,16 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "acquisition"
       ],
       "practice_areas": [
-        "Capital Markets"
+        "Capital Markets",
+        "Mergers & Acquisitions"
       ],
       "clients": [
-        "Canara Robeco and ORIX Corporation"
+        "Canara Robeco and ORIX Corporation",
+        "TCS' €320 million acquisition of MHP from Porsche"
       ],
       "deals": [
         {
@@ -89635,6 +90393,18 @@
           ],
           "practice_areas": [
             "Capital Markets"
+          ]
+        },
+        {
+          "headline": "AZB & Partners, Noerr, Linklaters act on TCS' €320 million acquisition of MHP from Porsche",
+          "client": "TCS' €320 million acquisition of MHP from Porsche",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/azb-partners-advises-tcs-on-320-million-acquisition-of-mhp-from-porsche",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -95346,6 +96116,37 @@
         }
       ],
       "snapshot": "CAM, Trilegal act on iValue Infosolutions ~₹560 crore IPO - Bar and Bench"
+    },
+    {
+      "id": 3539,
+      "name": "Ralph Wollburg",
+      "firm": "Linklaters",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "TCS' €320 million acquisition of MHP from Porsche"
+      ],
+      "deals": [
+        {
+          "headline": "AZB & Partners, Noerr, Linklaters act on TCS' €320 million acquisition of MHP from Porsche",
+          "client": "TCS' €320 million acquisition of MHP from Porsche",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/azb-partners-advises-tcs-on-320-million-acquisition-of-mhp-from-porsche",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "AZB & Partners, Noerr, Linklaters act on TCS' €320 million acquisition of MHP from Porsche"
     },
     {
       "id": 1736,
@@ -101761,7 +102562,8 @@
       ],
       "clients": [
         "GeBBS Healthcare Solutions Inc.",
-        "Coforge"
+        "Coforge",
+        "India leg of SAP Inc's acquisition of Reltio"
       ],
       "deals": [
         {
@@ -101781,6 +102583,18 @@
           "client": "Coforge",
           "url": "https://www.barandbench.com/dealstreet/jsa-khaitan-act-on-coforges-235-billion-acquisition-of-encora",
           "source": "Bar and Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "JSA acts on India leg of SAP Inc's acquisition of Reltio",
+          "client": "India leg of SAP Inc's acquisition of Reltio",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-india-leg-of-sap-incs-acquisition-of-reltio",
+          "source": "Bar & Bench",
           "types": [
             "acquisition"
           ],
@@ -105448,6 +106262,39 @@
       "snapshot": "DSK Legal, Cyril Amarchand Mangaldas act on TiL investing $1 billion in Adani Vizhinjam Port"
     },
     {
+      "id": 3554,
+      "name": "Samheeta Rao",
+      "firm": "GameChanger Law",
+      "role": "Senior Partner",
+      "role_bucket": "Senior Partner",
+      "transaction_types": [
+        "Series A",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "investors"
+      ],
+      "deals": [
+        {
+          "headline": "GameChanger Law advises investors on InspeCity ₹100 crore pre-Series A fundraise",
+          "client": "investors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/gamechanger-law-advises-investors-on-inspecity-100-crore-pre-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "GameChanger Law advises investors on InspeCity ₹100 crore pre-Series A fundraise"
+    },
+    {
       "id": 744,
       "name": "Samika Pachouly",
       "firm": "JSA Advocates & Solicitors",
@@ -106771,7 +107618,8 @@
       ],
       "clients": [
         "Selling Shareholders",
-        "Silver Storm Parks IPO"
+        "Silver Storm Parks IPO",
+        "Genesys International Corp"
       ],
       "deals": [
         {
@@ -106797,6 +107645,14 @@
           "practice_areas": [
             "Capital Markets"
           ]
+        },
+        {
+          "headline": "Rajani Associates advises Genesys International Corp on ₹125 crore rights issue",
+          "client": "Genesys International Corp",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/rajani-associates-advises-genesys-international-corp-on-125-crore-rights-issue",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "SAM, Rajani, Trilegal act on Aequs ₹1,100 crore IPO and pre-IPO placement"
@@ -107254,6 +108110,39 @@
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Cyril Amarchand Mangaldas, White & Case act ... - Bar and Bench"
+    },
+    {
+      "id": 3555,
+      "name": "Sanjana Rao",
+      "firm": "GameChanger Law",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "Series A",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "investors"
+      ],
+      "deals": [
+        {
+          "headline": "GameChanger Law advises investors on InspeCity ₹100 crore pre-Series A fundraise",
+          "client": "investors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/gamechanger-law-advises-investors-on-inspecity-100-crore-pre-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "GameChanger Law advises investors on InspeCity ₹100 crore pre-Series A fundraise"
     },
     {
       "id": 3133,
@@ -108425,6 +109314,37 @@
         }
       ],
       "snapshot": "CAM acts on Lighthouse Learning - Early Learning Village partnership"
+    },
+    {
+      "id": 3542,
+      "name": "Sapna Kataria",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "India leg of SAP Inc's acquisition of Reltio"
+      ],
+      "deals": [
+        {
+          "headline": "JSA acts on India leg of SAP Inc's acquisition of Reltio",
+          "client": "India leg of SAP Inc's acquisition of Reltio",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-india-leg-of-sap-incs-acquisition-of-reltio",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "JSA acts on India leg of SAP Inc's acquisition of Reltio"
     },
     {
       "id": 645,
@@ -110195,6 +111115,37 @@
         }
       ],
       "snapshot": "Trilegal, CAM set up Bain Capital - Sattva Group $100 million co-living platform under 'Colive' brand"
+    },
+    {
+      "id": 3541,
+      "name": "Saurya Bhattacharya",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "India leg of SAP Inc's acquisition of Reltio"
+      ],
+      "deals": [
+        {
+          "headline": "JSA acts on India leg of SAP Inc's acquisition of Reltio",
+          "client": "India leg of SAP Inc's acquisition of Reltio",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-india-leg-of-sap-incs-acquisition-of-reltio",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "JSA acts on India leg of SAP Inc's acquisition of Reltio"
     },
     {
       "id": 3223,
@@ -112256,7 +113207,8 @@
       "clients": [
         "Allianz Group",
         "GeBBS Healthcare Solutions Inc.",
-        "Coforge"
+        "Coforge",
+        "India leg of SAP Inc's acquisition of Reltio"
       ],
       "deals": [
         {
@@ -112284,6 +113236,18 @@
           "client": "Coforge",
           "url": "https://www.barandbench.com/dealstreet/jsa-khaitan-act-on-coforges-235-billion-acquisition-of-encora",
           "source": "Bar and Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "JSA acts on India leg of SAP Inc's acquisition of Reltio",
+          "client": "India leg of SAP Inc's acquisition of Reltio",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-india-leg-of-sap-incs-acquisition-of-reltio",
+          "source": "Bar & Bench",
           "types": [
             "acquisition"
           ],
@@ -115543,6 +116507,37 @@
       }
     },
     {
+      "id": 3543,
+      "name": "Shraddha Kotiya",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "India leg of SAP Inc's acquisition of Reltio"
+      ],
+      "deals": [
+        {
+          "headline": "JSA acts on India leg of SAP Inc's acquisition of Reltio",
+          "client": "India leg of SAP Inc's acquisition of Reltio",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-india-leg-of-sap-incs-acquisition-of-reltio",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "JSA acts on India leg of SAP Inc's acquisition of Reltio"
+    },
+    {
       "id": 130,
       "name": "Shraddha S",
       "firm": "Trilegal",
@@ -117430,7 +118425,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Selling Shareholders"
+        "Selling Shareholders",
+        "Genesys International Corp"
       ],
       "deals": [
         {
@@ -117444,6 +118440,14 @@
           "practice_areas": [
             "Capital Markets"
           ]
+        },
+        {
+          "headline": "Rajani Associates advises Genesys International Corp on ₹125 crore rights issue",
+          "client": "Genesys International Corp",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/rajani-associates-advises-genesys-international-corp-on-125-crore-rights-issue",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "SAM, Rajani, Trilegal act on Aequs ₹1,100 crore IPO and pre-IPO placement"
@@ -117478,6 +118482,29 @@
         }
       ],
       "snapshot": "Trilegal advises Pluxee Group on acquisition of ProEves - Bar and Bench"
+    },
+    {
+      "id": 3551,
+      "name": "Shrudula S Murthy",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "TVS Group"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises TVS Group on consolidation of financial services entities",
+          "client": "TVS Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-tvs-group-on-consolidation-of-financial-services-entities",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co advises TVS Group on consolidation of financial services entities"
     },
     {
       "id": 2156,
@@ -122379,7 +123406,8 @@
       ],
       "clients": [
         "Just Climate",
-        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+        "TVS Group"
       ],
       "deals": [
         {
@@ -122398,6 +123426,14 @@
           "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
           "client": "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
           "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Khaitan & Co advises TVS Group on consolidation of financial services entities",
+          "client": "TVS Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-tvs-group-on-consolidation-of-financial-services-entities",
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
@@ -125720,6 +126756,29 @@
       "snapshot": "AZB, JSA act on Canara Robeco ~₹1,326 crore IPO"
     },
     {
+      "id": 3556,
+      "name": "Sudhanshu Kulkarni",
+      "firm": "Rajani Associates",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Genesys International Corp"
+      ],
+      "deals": [
+        {
+          "headline": "Rajani Associates advises Genesys International Corp on ₹125 crore rights issue",
+          "client": "Genesys International Corp",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/rajani-associates-advises-genesys-international-corp-on-125-crore-rights-issue",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Rajani Associates advises Genesys International Corp on ₹125 crore rights issue"
+    },
+    {
       "id": 3379,
       "name": "Sudheer Madamaiah",
       "firm": null,
@@ -126831,7 +127890,8 @@
         "Honasa Consumer Limited",
         "JSW Green Mobility",
         "Robert Bosch Investment Nederland B.V. and Robert Bosch LLC (US)",
-        "CPP Group"
+        "CPP Group",
+        "India leg of SAP Inc's acquisition of Reltio"
       ],
       "deals": [
         {
@@ -126878,6 +127938,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "JSA acts on India leg of SAP Inc's acquisition of Reltio",
+          "client": "India leg of SAP Inc's acquisition of Reltio",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-india-leg-of-sap-incs-acquisition-of-reltio",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "JSA advises Mamaearth on ₹135 crore majority stake acquisition in Fluence Pharma"
@@ -136526,6 +137598,37 @@
       }
     },
     {
+      "id": 3535,
+      "name": "Vibhuti Kaushik",
+      "firm": "AZB & Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "TCS' €320 million acquisition of MHP from Porsche"
+      ],
+      "deals": [
+        {
+          "headline": "AZB & Partners, Noerr, Linklaters act on TCS' €320 million acquisition of MHP from Porsche",
+          "client": "TCS' €320 million acquisition of MHP from Porsche",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/azb-partners-advises-tcs-on-320-million-acquisition-of-mhp-from-porsche",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "AZB & Partners, Noerr, Linklaters act on TCS' €320 million acquisition of MHP from Porsche"
+    },
+    {
       "id": 3180,
       "name": "Vicky Ling",
       "firm": "Goodwin",
@@ -139017,7 +140120,8 @@
       ],
       "clients": [
         "Shell",
-        "OTPP"
+        "OTPP",
+        "Energeia - August Energy"
       ],
       "deals": [
         {
@@ -139044,6 +140148,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Trilegal acts on Energeia - August Energy $100 million partnership",
+          "client": "Energeia - August Energy",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-energeia-august-energy-100-million-partnership",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Aditya Birla acquires Sprng Energy from Shell for $1.8 billion; Khaitan & Co, Trilegal advise"
