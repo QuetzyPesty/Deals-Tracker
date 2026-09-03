@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 3556,
-    "firms": 103,
-    "deals": 458,
+    "people": 3590,
+    "firms": 104,
+    "deals": 467,
     "practice_areas": 6
   },
   "firms": [
@@ -79,6 +79,7 @@
     "Pinac",
     "Pérez-Llorca",
     "Quadra Legal",
+    "Quillon Partners",
     "Rajani Associates",
     "S&R Associates",
     "SKS Advisor",
@@ -882,7 +883,7 @@
     },
     {
       "firm": "Cyril Amarchand Mangaldas",
-      "people_count": 562,
+      "people_count": 563,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -1150,6 +1151,7 @@
             2675,
             2847,
             117,
+            3572,
             635,
             1257,
             971,
@@ -2664,7 +2666,7 @@
     },
     {
       "firm": "Khaitan & Co",
-      "people_count": 475,
+      "people_count": 483,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -2890,12 +2892,12 @@
             3091,
             347,
             1064,
-            352,
             320,
             3088,
             396,
             401,
             3089,
+            3582,
             3032,
             327,
             322,
@@ -2912,10 +2914,9 @@
             3028,
             350,
             2126,
-            285,
             363,
             3322,
-            283,
+            3584,
             2724,
             1031,
             726,
@@ -2938,6 +2939,7 @@
             3086,
             3096,
             3095,
+            3581,
             1060,
             282,
             3156,
@@ -2975,6 +2977,7 @@
             319,
             3087,
             395,
+            3583,
             361,
             290,
             2124,
@@ -3142,6 +3145,7 @@
             3527,
             1469,
             3414,
+            3560,
             3393,
             160,
             476,
@@ -3151,6 +3155,7 @@
             1708,
             3530,
             2182,
+            352,
             1068,
             3412,
             2187,
@@ -3166,13 +3171,17 @@
             3498,
             1709,
             3528,
+            3558,
             1754,
+            285,
             1763,
             3529,
+            283,
             155,
             1705,
             2835,
             1755,
+            3559,
             3518,
             157,
             158,
@@ -3193,6 +3202,7 @@
             761,
             1766,
             3531,
+            3557,
             159,
             1466,
             757,
@@ -3657,6 +3667,27 @@
             101,
             102
           ]
+        },
+        {
+          "area": "Mergers & Acquisitions",
+          "person_ids": [
+            104,
+            103,
+            102
+          ]
+        }
+      ]
+    },
+    {
+      "firm": "Quillon Partners",
+      "people_count": 2,
+      "practice_groups": [
+        {
+          "area": "Private Equity & Venture Capital",
+          "person_ids": [
+            3588,
+            3589
+          ]
         }
       ]
     },
@@ -3823,7 +3854,7 @@
     },
     {
       "firm": "Shardul Amarchand Mangaldas & Co",
-      "people_count": 429,
+      "people_count": 434,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -4143,6 +4174,7 @@
             2433,
             2423,
             2415,
+            3569,
             2440,
             3040,
             3046,
@@ -4170,6 +4202,7 @@
             1237,
             375,
             371,
+            3571,
             1401,
             2425,
             379,
@@ -4191,6 +4224,7 @@
             2436,
             2421,
             1869,
+            3568,
             3051,
             3035,
             2432,
@@ -4208,6 +4242,7 @@
             3057,
             2431,
             3042,
+            3590,
             3055,
             3033,
             2444,
@@ -4234,6 +4269,7 @@
             1513,
             2434,
             3039,
+            3570,
             1743
           ]
         },
@@ -4524,8 +4560,16 @@
     },
     {
       "firm": "TRD Associates",
-      "people_count": 1,
+      "people_count": 4,
       "practice_groups": [
+        {
+          "area": "Unclassified",
+          "person_ids": [
+            3580,
+            3579,
+            3578
+          ]
+        },
         {
           "area": "Mergers & Acquisitions",
           "person_ids": [
@@ -4536,7 +4580,7 @@
     },
     {
       "firm": "Talwar Thakore & Associates",
-      "people_count": 63,
+      "people_count": 67,
       "practice_groups": [
         {
           "area": "Private Equity & Venture Capital",
@@ -4635,10 +4679,14 @@
             1716,
             3108,
             1717,
+            3565,
+            3564,
             1723,
             1221,
             1218,
             3107,
+            3566,
+            3567,
             1720
           ]
         },
@@ -4672,7 +4720,7 @@
     },
     {
       "firm": "Touchstone Partners",
-      "people_count": 12,
+      "people_count": 15,
       "practice_groups": [
         {
           "area": "Private Equity & Venture Capital",
@@ -4695,12 +4743,20 @@
             1772,
             1771
           ]
+        },
+        {
+          "area": "Unclassified",
+          "person_ids": [
+            3563,
+            3562,
+            3561
+          ]
         }
       ]
     },
     {
       "firm": "Trilegal",
-      "people_count": 502,
+      "people_count": 510,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -4955,6 +5011,7 @@
             12,
             813,
             1283,
+            1804,
             998,
             163,
             169,
@@ -4964,6 +5021,7 @@
             1002,
             1643,
             1279,
+            3585,
             1174,
             3164,
             3165,
@@ -5040,6 +5098,7 @@
             512,
             272,
             3436,
+            3586,
             2938,
             1001,
             1280,
@@ -5085,12 +5144,14 @@
             414,
             2388,
             1277,
-            2387
+            2387,
+            3587
           ]
         },
         {
           "area": "Capital Markets",
           "person_ids": [
+            3575,
             710,
             2189,
             2600,
@@ -5132,6 +5193,7 @@
             419,
             2193,
             1694,
+            3576,
             713,
             778,
             2936,
@@ -5146,6 +5208,7 @@
             513,
             127,
             2118,
+            3577,
             711,
             1269,
             2119,
@@ -5170,6 +5233,7 @@
             2939,
             2937,
             512,
+            3573,
             519,
             2938,
             764,
@@ -5183,6 +5247,7 @@
             1268,
             416,
             417,
+            3574,
             762,
             130,
             1697,
@@ -5210,7 +5275,6 @@
           "person_ids": [
             2411,
             1852,
-            1804,
             868,
             1850,
             3552,
@@ -6064,6 +6128,49 @@
       "snapshot": "S&R Associates, JSA act on Euro Pratik ₹451 crore IPO - Bar and Bench"
     },
     {
+      "id": 3575,
+      "name": "Aarushi Jain",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "QIP"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Piramal Finance"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Piramal Finance ₹2,100 crore QIP",
+          "client": "Piramal Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-linklaters-act-on-piramal-finance-2100-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Piramal Finance ₹2,100 crore QIP",
+      "same_name_elsewhere": [
+        {
+          "id": 900,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Partner (Head - Media, Education & Gaming)",
+          "deal_count": 4
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 900,
       "name": "Aarushi Jain",
       "firm": "Cyril Amarchand Mangaldas",
@@ -6125,7 +6232,19 @@
           ]
         }
       ],
-      "snapshot": "Cyril Amarchand Mangaldas advises University of New South Wales on setting up campus ..."
+      "snapshot": "Cyril Amarchand Mangaldas advises University of New South Wales on setting up campus ...",
+      "same_name_elsewhere": [
+        {
+          "id": 3575,
+          "firm": "Trilegal",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 2881,
@@ -6908,10 +7027,15 @@
       "firm": "Trilegal",
       "role": "Counsel",
       "role_bucket": "Counsel",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
       "clients": [
-        "OFF/BEAT and Aman Gupta"
+        "OFF/BEAT and Aman Gupta",
+        "Tynor securing"
       ],
       "deals": [
         {
@@ -6921,6 +7045,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Trilegal, Quillon Partners act on Tynor securing $200 million investment from Kedaara Capital",
+          "client": "Tynor securing",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-quillon-partners-act-on-tynor-securing-200-million-investment-from-kedaara-capital",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
       "snapshot": "Trilegal and Khaitan & Co lead on Aman Gupta's ₹100 Crore Seed Round for OFF/BEAT"
@@ -9468,13 +9604,17 @@
       "role_bucket": "Associate",
       "transaction_types": [
         "Series D",
-        "fundraise"
+        "acquisition",
+        "fundraise",
+        "stake acquisition"
       ],
       "practice_areas": [
+        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Susquehanna Venture Capital"
+        "Susquehanna Venture Capital",
+        "Wipro"
       ],
       "deals": [
         {
@@ -9488,6 +9628,19 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Quadra Legal advises Wipro on majority stake acquisition in Dermatouch",
+          "client": "Wipro",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/quadra-legal-advises-wipro-on-majority-stake-acquisition-in-dermatouch",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -12673,7 +12826,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Skyroot"
+        "Skyroot",
+        "Tynor securing"
       ],
       "deals": [
         {
@@ -12683,6 +12837,18 @@
           "source": "Bar and Bench",
           "types": [
             "fundraise",
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Trilegal, Quillon Partners act on Tynor securing $200 million investment from Kedaara Capital",
+          "client": "Tynor securing",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-quillon-partners-act-on-tynor-securing-200-million-investment-from-kedaara-capital",
+          "source": "Bar & Bench",
+          "types": [
             "investment"
           ],
           "practice_areas": [
@@ -14701,6 +14867,49 @@
       "snapshot": "ELP advises Birla Estates on redevelopment project of Shiv-Sai Co-operative Housing Society"
     },
     {
+      "id": 3585,
+      "name": "Akshat Jain",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Tynor securing"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Quillon Partners act on Tynor securing $200 million investment from Kedaara Capital",
+          "client": "Tynor securing",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-quillon-partners-act-on-tynor-securing-200-million-investment-from-kedaara-capital",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Quillon Partners act on Tynor securing $200 million investment from Kedaara Capital",
+      "same_name_elsewhere": [
+        {
+          "id": 1433,
+          "firm": "AZB & Partners",
+          "role": "Senior Associate",
+          "deal_count": 2
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 1433,
       "name": "Akshat Jain",
       "firm": "AZB & Partners",
@@ -14738,7 +14947,19 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "Trilegal, K&L Gates, Baker & McKenzie, AZB act on Wipro's $375 million acquisition of ..."
+      "snapshot": "Trilegal, K&L Gates, Baker & McKenzie, AZB act on Wipro's $375 million acquisition of ...",
+      "same_name_elsewhere": [
+        {
+          "id": 3585,
+          "firm": "Trilegal",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 528,
@@ -17661,7 +17882,8 @@
         "OFF/BEAT and Aman Gupta",
         "Blackstone",
         "Digantara and its founders",
-        "BookMyShow securing investment from KKR"
+        "BookMyShow securing investment from KKR",
+        "Tynor securing"
       ],
       "deals": [
         {
@@ -17752,6 +17974,18 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "Trilegal, Quillon Partners act on Tynor securing $200 million investment from Kedaara Capital",
+          "client": "Tynor securing",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-quillon-partners-act-on-tynor-securing-200-million-investment-from-kedaara-capital",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
       "snapshot": "Trilegal advises JM Financial on ₹150 crore investment in NG Electro - Bar and Bench"
@@ -17790,6 +18024,41 @@
         }
       ],
       "snapshot": "JSA, ELP act on TravelPlus ₹250 crore+ IPO filing - Bar and Bench"
+    },
+    {
+      "id": 3569,
+      "name": "Amit Singh",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "IDFC FIRST Bank"
+      ],
+      "deals": [
+        {
+          "headline": "TT&A, Shardul Amarchand Mangaldas, Linklaters act on IDFC FIRST Bank $600 million senior notes issuance",
+          "client": "IDFC FIRST Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-shardul-amarchand-mangaldas-linklaters-act-on-idfc-first-bank-600-million-senior-notes-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "TT&A, Shardul Amarchand Mangaldas, Linklaters act on IDFC FIRST Bank $600 million senior notes issuance",
+      "same_name_elsewhere": [
+        {
+          "id": 97,
+          "firm": "Linklaters",
+          "role": "Head of India Practice",
+          "deal_count": 8
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 97,
@@ -17914,7 +18183,19 @@
           ]
         }
       ],
-      "snapshot": "White & Case, AZB, Sullivan, Cyril Amarchand Mangaldas, Linklaters act on Sun Pharma's ..."
+      "snapshot": "White & Case, AZB, Sullivan, Cyril Amarchand Mangaldas, Linklaters act on Sun Pharma's ...",
+      "same_name_elsewhere": [
+        {
+          "id": 3569,
+          "firm": "Shardul Amarchand Mangaldas & Co",
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1540,
@@ -18020,7 +18301,8 @@
         "Shadowfax",
         "Book Running Lead Managers",
         "Shiprocket",
-        "Dhoot Transmission"
+        "Dhoot Transmission",
+        "Piramal Finance"
       ],
       "deals": [
         {
@@ -18086,6 +18368,18 @@
           "source": "Bar & Bench",
           "types": [
             "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Piramal Finance ₹2,100 crore QIP",
+          "client": "Piramal Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-linklaters-act-on-piramal-finance-2100-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -21510,7 +21804,9 @@
         "Capital Markets"
       ],
       "clients": [
-        "Poonawalla Fincorp (issuer)"
+        "Poonawalla Fincorp (issuer)",
+        "IDFC FIRST Bank",
+        "Union Bank of India"
       ],
       "deals": [
         {
@@ -21524,6 +21820,22 @@
           "practice_areas": [
             "Capital Markets"
           ]
+        },
+        {
+          "headline": "TT&A, Shardul Amarchand Mangaldas, Linklaters act on IDFC FIRST Bank $600 million senior notes issuance",
+          "client": "IDFC FIRST Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-shardul-amarchand-mangaldas-linklaters-act-on-idfc-first-bank-600-million-senior-notes-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas acts on Union Bank of India $600 million senior notes issuance",
+          "client": "Union Bank of India",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-acts-on-union-bank-of-india-600-million-senior-notes-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "SAM, CAM act on Poonawalla Fincorp on ₹2,500 crore QIP - Bar and Bench"
@@ -21728,6 +22040,37 @@
         }
       ],
       "snapshot": "Trilegal advises Signature Global on ₹1,283 crore investment by RMZ FOR Gurugram project"
+    },
+    {
+      "id": 3588,
+      "name": "Ankit Majmudar",
+      "firm": "Quillon Partners",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Tynor securing"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Quillon Partners act on Tynor securing $200 million investment from Kedaara Capital",
+          "client": "Tynor securing",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-quillon-partners-act-on-tynor-securing-200-million-investment-from-kedaara-capital",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Quillon Partners act on Tynor securing $200 million investment from Kedaara Capital"
     },
     {
       "id": 2340,
@@ -30929,6 +31272,37 @@
       "snapshot": "Trilegal, AZB & Partners act on PMI Electro Mobility securing $310 million investment from KKR"
     },
     {
+      "id": 3560,
+      "name": "Atri Mukherjee",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Muthoot FinCorp"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co acts on Muthoot FinCorp ₹3,000 crore IPO",
+          "client": "Muthoot FinCorp",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-muthoot-fincorp-3000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co acts on Muthoot FinCorp ₹3,000 crore IPO"
+    },
+    {
       "id": 115,
       "name": "Atul Mohta",
       "firm": "JSA Advocates & Solicitors",
@@ -32521,7 +32895,8 @@
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Ravin Group"
+        "Ravin Group",
+        "Ravin Infraproject"
       ],
       "deals": [
         {
@@ -32535,6 +32910,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "TRD Associates advises Ravin Infraproject on acquiring majority control in Ravin Cables from JV partner Prysmian",
+          "client": "Ravin Infraproject",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trd-associates-advises-ravin-infraproject-on-acquiring-majority-control-in-ravin-cables-from-jv-partner-prysmian",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "TRD Associates advises Ravin Group on acquisition of Cable Corporation of India"
@@ -33953,13 +34336,17 @@
       "role_bucket": "Associate",
       "transaction_types": [
         "Series D",
-        "fundraise"
+        "acquisition",
+        "fundraise",
+        "stake acquisition"
       ],
       "practice_areas": [
+        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Susquehanna Venture Capital"
+        "Susquehanna Venture Capital",
+        "Wipro"
       ],
       "deals": [
         {
@@ -33973,6 +34360,19 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Quadra Legal advises Wipro on majority stake acquisition in Dermatouch",
+          "client": "Wipro",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/quadra-legal-advises-wipro-on-majority-stake-acquisition-in-dermatouch",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -39695,7 +40095,8 @@
         "NSE",
         "Adani Enterprises Limited",
         "NDTV",
-        "Adani Energy Solutions"
+        "Adani Energy Solutions",
+        "Piramal Finance"
       ],
       "deals": [
         {
@@ -39746,6 +40147,18 @@
           "headline": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Adani Energy Solutions ₹3,500 crore QIP",
           "client": "Adani Energy Solutions",
           "url": "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-trilegal-ao-shearman-act-on-adani-energy-solutions-3500-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Piramal Finance ₹2,100 crore QIP",
+          "client": "Piramal Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-linklaters-act-on-piramal-finance-2100-crore-qip",
           "source": "Bar & Bench",
           "types": [
             "QIP"
@@ -39804,7 +40217,7 @@
           "id": 806,
           "firm": "Cyril Amarchand Mangaldas",
           "role": "Partner",
-          "deal_count": 6
+          "deal_count": 7
         }
       ],
       "firm_verification": {
@@ -41508,7 +41921,8 @@
       ],
       "clients": [
         "Poonawalla Fincorp (issuer)",
-        "Groww"
+        "Groww",
+        "Union Bank of India"
       ],
       "deals": [
         {
@@ -41534,6 +41948,14 @@
           "practice_areas": [
             "Capital Markets"
           ]
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas acts on Union Bank of India $600 million senior notes issuance",
+          "client": "Union Bank of India",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-acts-on-union-bank-of-india-600-million-senior-notes-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "SAM, CAM act on Poonawalla Fincorp on ₹2,500 crore QIP - Bar and Bench"
@@ -43570,14 +43992,16 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
       ],
       "clients": [
         "Kwality Wall's",
-        "Runwal Realty"
+        "Runwal Realty",
+        "Piramal Finance"
       ],
       "deals": [
         {
@@ -43595,6 +44019,18 @@
           "source": "Bar and Bench",
           "types": [
             "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Piramal Finance ₹2,100 crore QIP",
+          "client": "Piramal Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-linklaters-act-on-piramal-finance-2100-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -43648,6 +44084,41 @@
       "snapshot": "Shardul Amarchand Mangaldas advises Krishna Institute of Medical Sciences on ₹1,500 crore QIP"
     },
     {
+      "id": 3571,
+      "name": "Edward Lee",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "IDFC FIRST Bank"
+      ],
+      "deals": [
+        {
+          "headline": "TT&A, Shardul Amarchand Mangaldas, Linklaters act on IDFC FIRST Bank $600 million senior notes issuance",
+          "client": "IDFC FIRST Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-shardul-amarchand-mangaldas-linklaters-act-on-idfc-first-bank-600-million-senior-notes-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "TT&A, Shardul Amarchand Mangaldas, Linklaters act on IDFC FIRST Bank $600 million senior notes issuance",
+      "same_name_elsewhere": [
+        {
+          "id": 2919,
+          "firm": "Sidley Austin",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 2919,
       "name": "Edward Lee",
       "firm": "Sidley Austin",
@@ -43676,7 +44147,19 @@
           ]
         }
       ],
-      "snapshot": "SAM, Sidley Austin, Trilegal act on Brookfield India REIT ₹3,500 crore QIP"
+      "snapshot": "SAM, Sidley Austin, Trilegal act on Brookfield India REIT ₹3,500 crore QIP",
+      "same_name_elsewhere": [
+        {
+          "id": 3571,
+          "firm": "Shardul Amarchand Mangaldas & Co",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1142,
@@ -45679,7 +46162,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Poonawalla Fincorp (issuer)"
+        "Poonawalla Fincorp (issuer)",
+        "IDFC FIRST Bank"
       ],
       "deals": [
         {
@@ -45693,6 +46177,14 @@
           "practice_areas": [
             "Capital Markets"
           ]
+        },
+        {
+          "headline": "TT&A, Shardul Amarchand Mangaldas, Linklaters act on IDFC FIRST Bank $600 million senior notes issuance",
+          "client": "IDFC FIRST Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-shardul-amarchand-mangaldas-linklaters-act-on-idfc-first-bank-600-million-senior-notes-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "SAM, CAM act on Poonawalla Fincorp on ₹2,500 crore QIP - Bar and Bench"
@@ -47615,7 +48107,9 @@
         "the sellers",
         "Billdesk",
         "Crystal Crop Protection",
-        "Eris Lifesciences"
+        "Eris Lifesciences",
+        "IDFC FIRST Bank",
+        "Union Bank of India"
       ],
       "deals": [
         {
@@ -47672,6 +48166,22 @@
           "client": "Eris Lifesciences",
           "url": "https://www.barandbench.com/dealstreet/sam-advises-eris-lifesciences-on-acquiring-remaining-stake-in-swiss-parenterals",
           "source": "Bar and Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "TT&A, Shardul Amarchand Mangaldas, Linklaters act on IDFC FIRST Bank $600 million senior notes issuance",
+          "client": "IDFC FIRST Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-shardul-amarchand-mangaldas-linklaters-act-on-idfc-first-bank-600-million-senior-notes-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas acts on Union Bank of India $600 million senior notes issuance",
+          "client": "Union Bank of India",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-acts-on-union-bank-of-india-600-million-senior-notes-issuance",
+          "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
         }
@@ -48226,12 +48736,17 @@
       "id": 352,
       "name": "Gyana Pathak",
       "firm": "Khaitan & Co",
-      "role": "Associate",
-      "role_bucket": "Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
       "clients": [
-        "VINCI Highways"
+        "VINCI Highways",
+        "Muthoot FinCorp"
       ],
       "deals": [
         {
@@ -48241,6 +48756,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Khaitan & Co acts on Muthoot FinCorp ₹3,000 crore IPO",
+          "client": "Muthoot FinCorp",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-muthoot-fincorp-3000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
         }
       ],
       "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat"
@@ -51109,7 +51636,54 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "Reliance brings SKIMS to India; Khaitan & Co advises"
+      "snapshot": "Reliance brings SKIMS to India; Khaitan & Co advises",
+      "same_name_elsewhere": [
+        {
+          "id": 3582,
+          "firm": "Khaitan & Co",
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
+      "id": 3582,
+      "name": "Hetal Thakkar",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Reliance"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Reliance on exclusive India partnership with Fabletics",
+          "client": "Reliance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-reliance-on-exclusive-india-partnership-with-fabletics",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Reliance on exclusive India partnership with Fabletics",
+      "same_name_elsewhere": [
+        {
+          "id": 3351,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 850,
@@ -54373,14 +54947,16 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
       ],
       "clients": [
         "Adani Enterprises",
-        "Molbio Diagnostics"
+        "Molbio Diagnostics",
+        "Piramal Finance"
       ],
       "deals": [
         {
@@ -54398,6 +54974,18 @@
           "source": "Bar & Bench",
           "types": [
             "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Piramal Finance ₹2,100 crore QIP",
+          "client": "Piramal Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-linklaters-act-on-piramal-finance-2100-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -57346,13 +57934,15 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
       ],
       "clients": [
-        "MEMG Group"
+        "MEMG Group",
+        "Piramal Finance"
       ],
       "deals": [
         {
@@ -57362,6 +57952,18 @@
           "source": "Bar and Bench",
           "types": [
             "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Piramal Finance ₹2,100 crore QIP",
+          "client": "Piramal Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-linklaters-act-on-piramal-finance-2100-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -57499,6 +58101,49 @@
       "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
     },
     {
+      "id": 3576,
+      "name": "Joseph Wolpin",
+      "firm": "Trilegal",
+      "role": "Counsel",
+      "role_bucket": "Counsel",
+      "transaction_types": [
+        "QIP"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Piramal Finance"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Piramal Finance ₹2,100 crore QIP",
+          "client": "Piramal Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-linklaters-act-on-piramal-finance-2100-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Piramal Finance ₹2,100 crore QIP",
+      "same_name_elsewhere": [
+        {
+          "id": 131,
+          "firm": "Linklaters",
+          "role": "Counsel",
+          "deal_count": 4
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 131,
       "name": "Joseph Wolpin",
       "firm": "Linklaters",
@@ -57567,7 +58212,19 @@
           ]
         }
       ],
-      "snapshot": "CAM, Trilegal act on SEDEMAC Mechatronics ~₹1,087 crore IPO - Bar and Bench"
+      "snapshot": "CAM, Trilegal act on SEDEMAC Mechatronics ~₹1,087 crore IPO - Bar and Bench",
+      "same_name_elsewhere": [
+        {
+          "id": 3576,
+          "firm": "Trilegal",
+          "role": "Counsel",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1668,
@@ -57770,6 +58427,29 @@
         }
       ],
       "snapshot": "JSA advises Nuveen on Indian law aspects of £9.9 billion takeover of Schroders"
+    },
+    {
+      "id": 3563,
+      "name": "Jubin Malawat",
+      "firm": "Touchstone Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "HDFC Capital Advisors"
+      ],
+      "deals": [
+        {
+          "headline": "Touchstone Partners advises HDFC Capital Advisors on setting up GIFT City AIF",
+          "client": "HDFC Capital Advisors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/touchstone-partners-advises-hdfc-capital-advisors-on-setting-up-gift-city-aif",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Touchstone Partners advises HDFC Capital Advisors on setting up GIFT City AIF"
     },
     {
       "id": 2338,
@@ -64475,6 +65155,29 @@
       "snapshot": "Fox Mandal & Associates advises EXIM Bank on financing Jana Nayagan"
     },
     {
+      "id": 3580,
+      "name": "Kritika Mundra",
+      "firm": "TRD Associates",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Ravin Infraproject"
+      ],
+      "deals": [
+        {
+          "headline": "TRD Associates advises Ravin Infraproject on acquiring majority control in Ravin Cables from JV partner Prysmian",
+          "client": "Ravin Infraproject",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trd-associates-advises-ravin-infraproject-on-acquiring-majority-control-in-ravin-cables-from-jv-partner-prysmian",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "TRD Associates advises Ravin Infraproject on acquiring majority control in Ravin Cables from JV partner..."
+    },
+    {
       "id": 790,
       "name": "Kritvi Kumar",
       "firm": "Veritas Legal",
@@ -65964,7 +66667,8 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
@@ -65972,7 +66676,8 @@
       "clients": [
         "Zetwerk",
         "Duroflex",
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Piramal Finance"
       ],
       "deals": [
         {
@@ -66002,6 +66707,18 @@
           "source": "Bar and Bench",
           "types": [
             "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Piramal Finance ₹2,100 crore QIP",
+          "client": "Piramal Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-linklaters-act-on-piramal-finance-2100-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -70370,6 +71087,49 @@
       "snapshot": "JSA, Cyril Amarchand Mangaldas act on Allianz - Jio General Insurance JV"
     },
     {
+      "id": 3577,
+      "name": "Manish Soni",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "QIP"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Piramal Finance"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Piramal Finance ₹2,100 crore QIP",
+          "client": "Piramal Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-linklaters-act-on-piramal-finance-2100-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Piramal Finance ₹2,100 crore QIP",
+      "same_name_elsewhere": [
+        {
+          "id": 2251,
+          "firm": "Shardul Amarchand Mangaldas & Co",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 2251,
       "name": "Manish Soni",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -70398,7 +71158,19 @@
           ]
         }
       ],
-      "snapshot": "SAM, S&R Associates act on Orkla India ₹1667 crore IPO - Bar and Bench"
+      "snapshot": "SAM, S&R Associates act on Orkla India ₹1667 crore IPO - Bar and Bench",
+      "same_name_elsewhere": [
+        {
+          "id": 3577,
+          "firm": "Trilegal",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 281,
@@ -70815,6 +71587,37 @@
         }
       ],
       "snapshot": "CAM advises Jindal Power on acquisition of 1320 MW thermal power plant in Haryana"
+    },
+    {
+      "id": 3572,
+      "name": "Mann Agrawal",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "QIP"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Piramal Finance"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Piramal Finance ₹2,100 crore QIP",
+          "client": "Piramal Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-linklaters-act-on-piramal-finance-2100-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Piramal Finance ₹2,100 crore QIP"
     },
     {
       "id": 1871,
@@ -72663,6 +73466,29 @@
       "snapshot": "Cyril Amarchand Mangaldas, Trilegal, Sidley Austin act on Belrise Industries ₹1,700 crore QIP"
     },
     {
+      "id": 3579,
+      "name": "Meenakshi Pahuja",
+      "firm": "TRD Associates",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Ravin Infraproject"
+      ],
+      "deals": [
+        {
+          "headline": "TRD Associates advises Ravin Infraproject on acquiring majority control in Ravin Cables from JV partner Prysmian",
+          "client": "Ravin Infraproject",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trd-associates-advises-ravin-infraproject-on-acquiring-majority-control-in-ravin-cables-from-jv-partner-prysmian",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "TRD Associates advises Ravin Infraproject on acquiring majority control in Ravin Cables from JV partner..."
+    },
+    {
       "id": 378,
       "name": "Meera Menon",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -74352,6 +75178,37 @@
       "snapshot": "Aritra Partners, JSA act on Ethereal Machines $28.5 million Series B fundraise"
     },
     {
+      "id": 3558,
+      "name": "Mishi Malhotra",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Muthoot FinCorp"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co acts on Muthoot FinCorp ₹3,000 crore IPO",
+          "client": "Muthoot FinCorp",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-muthoot-fincorp-3000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co acts on Muthoot FinCorp ₹3,000 crore IPO"
+    },
+    {
       "id": 2436,
       "name": "Mitakshara Kapoor",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -74481,7 +75338,8 @@
       "clients": [
         "Placement agents",
         "IIFL Capital Services Limited and Jefferies India Private Limited",
-        "IIFL Capital Services and Jefferies India"
+        "IIFL Capital Services and Jefferies India",
+        "Piramal Finance"
       ],
       "deals": [
         {
@@ -74515,6 +75373,18 @@
           "client": "IIFL Capital Services and Jefferies India",
           "url": "https://www.barandbench.com/dealstreet/shardul-amarchand-mangaldas-advises-krishna-institute-of-medical-sciences-on-1500-crore-qip",
           "source": "Bar and Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Piramal Finance ₹2,100 crore QIP",
+          "client": "Piramal Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-linklaters-act-on-piramal-finance-2100-crore-qip",
+          "source": "Bar & Bench",
           "types": [
             "QIP"
           ],
@@ -74683,6 +75553,29 @@
         }
       ],
       "snapshot": "Trilegal, K&L Gates, Baker & McKenzie, AZB act on Wipro's $375 million acquisition of ..."
+    },
+    {
+      "id": 3578,
+      "name": "Mohanish Patkar",
+      "firm": "TRD Associates",
+      "role": "Associate Partner",
+      "role_bucket": "Associate Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Ravin Infraproject"
+      ],
+      "deals": [
+        {
+          "headline": "TRD Associates advises Ravin Infraproject on acquiring majority control in Ravin Cables from JV partner Prysmian",
+          "client": "Ravin Infraproject",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trd-associates-advises-ravin-infraproject-on-acquiring-majority-control-in-ravin-cables-from-jv-partner-prysmian",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "TRD Associates advises Ravin Infraproject on acquiring majority control in Ravin Cables from JV partner..."
     },
     {
       "id": 2339,
@@ -75967,13 +76860,26 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "BookMyShow securing investment from KKR"
+        "BookMyShow securing investment from KKR",
+        "Tynor securing"
       ],
       "deals": [
         {
           "headline": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR",
           "client": "BookMyShow securing investment from KKR",
           "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-azb-partners-act-on-bookmyshow-securing-investment-from-kkr",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Trilegal, Quillon Partners act on Tynor securing $200 million investment from Kedaara Capital",
+          "client": "Tynor securing",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-quillon-partners-act-on-tynor-securing-200-million-investment-from-kedaara-capital",
           "source": "Bar & Bench",
           "types": [
             "investment"
@@ -77153,10 +78059,15 @@
       "firm": "Khaitan & Co",
       "role": "Associate",
       "role_bucket": "Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
       "clients": [
-        "IIFL Finance"
+        "IIFL Finance",
+        "Muthoot FinCorp"
       ],
       "deals": [
         {
@@ -77166,6 +78077,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Khaitan & Co acts on Muthoot FinCorp ₹3,000 crore IPO",
+          "client": "Muthoot FinCorp",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-muthoot-fincorp-3000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
         }
       ],
       "snapshot": "Khaitan & Co, JSA act on IIFL Finance updating its $1 billion Global Medium Term Note Programme"
@@ -78584,6 +79507,29 @@
       "snapshot": "White & Case, AZB, Sullivan, Cyril Amarchand Mangaldas, Linklaters act on Sun Pharma's ..."
     },
     {
+      "id": 3584,
+      "name": "Neelayadakshi Suresh",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Reliance"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Reliance on exclusive India partnership with Fabletics",
+          "client": "Reliance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-reliance-on-exclusive-india-partnership-with-fabletics",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Reliance on exclusive India partnership with Fabletics"
+    },
+    {
       "id": 1772,
       "name": "Neelima Hande",
       "firm": "Touchstone Partners",
@@ -78854,13 +79800,26 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "BookMyShow securing investment from KKR"
+        "BookMyShow securing investment from KKR",
+        "Tynor securing"
       ],
       "deals": [
         {
           "headline": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR",
           "client": "BookMyShow securing investment from KKR",
           "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-azb-partners-act-on-bookmyshow-securing-investment-from-kkr",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Trilegal, Quillon Partners act on Tynor securing $200 million investment from Kedaara Capital",
+          "client": "Tynor securing",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-quillon-partners-act-on-tynor-securing-200-million-investment-from-kedaara-capital",
           "source": "Bar & Bench",
           "types": [
             "investment"
@@ -79160,6 +80119,29 @@
         }
       ],
       "snapshot": "TT&A, Paul Weiss, Avisen Legal act on Carrier acquiring 75F Inc."
+    },
+    {
+      "id": 3568,
+      "name": "Neville Tata",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "IDFC FIRST Bank"
+      ],
+      "deals": [
+        {
+          "headline": "TT&A, Shardul Amarchand Mangaldas, Linklaters act on IDFC FIRST Bank $600 million senior notes issuance",
+          "client": "IDFC FIRST Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-shardul-amarchand-mangaldas-linklaters-act-on-idfc-first-bank-600-million-senior-notes-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "TT&A, Shardul Amarchand Mangaldas, Linklaters act on IDFC FIRST Bank $600 million senior notes issuance"
     },
     {
       "id": 1810,
@@ -79947,7 +80929,7 @@
           "id": 121,
           "firm": "Cyril Amarchand Mangaldas",
           "role": "Associate",
-          "deal_count": 1
+          "deal_count": 2
         }
       ],
       "firm_verification": {
@@ -79962,13 +80944,15 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
       ],
       "clients": [
-        "SEDEMAC"
+        "SEDEMAC",
+        "Piramal Finance"
       ],
       "deals": [
         {
@@ -79978,6 +80962,18 @@
           "source": "Bar and Bench",
           "types": [
             "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Piramal Finance ₹2,100 crore QIP",
+          "client": "Piramal Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-linklaters-act-on-piramal-finance-2100-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -81148,10 +82144,15 @@
       "firm": "Khaitan & Co",
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
       "clients": [
-        "IIFL Finance"
+        "IIFL Finance",
+        "Muthoot FinCorp"
       ],
       "deals": [
         {
@@ -81161,6 +82162,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Khaitan & Co acts on Muthoot FinCorp ₹3,000 crore IPO",
+          "client": "Muthoot FinCorp",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-muthoot-fincorp-3000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
         }
       ],
       "snapshot": "Khaitan & Co, JSA act on IIFL Finance updating its $1 billion Global Medium Term Note Programme"
@@ -81391,7 +82404,9 @@
         "Crystal Crop Protection",
         "Sembcorp Green",
         "Eris Lifesciences",
-        "Steadview Capital Mauritius Limited"
+        "Steadview Capital Mauritius Limited",
+        "IDFC FIRST Bank",
+        "Union Bank of India"
       ],
       "deals": [
         {
@@ -81474,6 +82489,22 @@
           "practice_areas": [
             "Capital Markets"
           ]
+        },
+        {
+          "headline": "TT&A, Shardul Amarchand Mangaldas, Linklaters act on IDFC FIRST Bank $600 million senior notes issuance",
+          "client": "IDFC FIRST Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-shardul-amarchand-mangaldas-linklaters-act-on-idfc-first-bank-600-million-senior-notes-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas acts on Union Bank of India $600 million senior notes issuance",
+          "client": "Union Bank of India",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-acts-on-union-bank-of-india-600-million-senior-notes-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "SAM acts on Nazara's ₹918 crore stake acquisition in Bluetile Games and BestPlay Systems"
@@ -89771,6 +90802,37 @@
       "snapshot": "Legacy Law Offices acts on Apar Advertisers IPO"
     },
     {
+      "id": 3559,
+      "name": "Pratishthit Mittal",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Muthoot FinCorp"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co acts on Muthoot FinCorp ₹3,000 crore IPO",
+          "client": "Muthoot FinCorp",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-muthoot-fincorp-3000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co acts on Muthoot FinCorp ₹3,000 crore IPO"
+    },
+    {
       "id": 2563,
       "name": "Pratiti Shah",
       "firm": "Cyril Amarchand Mangaldas",
@@ -90028,7 +91090,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "BookMyShow securing investment from KKR"
+        "BookMyShow securing investment from KKR",
+        "Tynor securing"
       ],
       "deals": [
         {
@@ -90043,6 +91106,18 @@
           "headline": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR",
           "client": "BookMyShow securing investment from KKR",
           "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-azb-partners-act-on-bookmyshow-securing-investment-from-kkr",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Trilegal, Quillon Partners act on Tynor securing $200 million investment from Kedaara Capital",
+          "client": "Tynor securing",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-quillon-partners-act-on-tynor-securing-200-million-investment-from-kedaara-capital",
           "source": "Bar & Bench",
           "types": [
             "investment"
@@ -91606,6 +92681,29 @@
         }
       ],
       "snapshot": "JSA, TT&A advise LeapFrog on $95 million investment in ReNew Green Energy"
+    },
+    {
+      "id": 3565,
+      "name": "Priyanka Kumar",
+      "firm": "Talwar Thakore & Associates",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "IDFC FIRST Bank"
+      ],
+      "deals": [
+        {
+          "headline": "TT&A, Shardul Amarchand Mangaldas, Linklaters act on IDFC FIRST Bank $600 million senior notes issuance",
+          "client": "IDFC FIRST Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-shardul-amarchand-mangaldas-linklaters-act-on-idfc-first-bank-600-million-senior-notes-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "TT&A, Shardul Amarchand Mangaldas, Linklaters act on IDFC FIRST Bank $600 million senior notes issuance"
     },
     {
       "id": 1634,
@@ -94050,7 +95148,8 @@
       "clients": [
         "Signature Global and Gurugram Commercity Limited",
         "Shell",
-        "Abu Dhabi National Energy Company (TAQA)"
+        "Abu Dhabi National Energy Company (TAQA)",
+        "Tynor securing"
       ],
       "deals": [
         {
@@ -94087,6 +95186,18 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Trilegal, Quillon Partners act on Tynor securing $200 million investment from Kedaara Capital",
+          "client": "Tynor securing",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-quillon-partners-act-on-tynor-securing-200-million-investment-from-kedaara-capital",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -94243,7 +95354,77 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "Reliance brings SKIMS to India; Khaitan & Co advises"
+      "snapshot": "Reliance brings SKIMS to India; Khaitan & Co advises",
+      "same_name_elsewhere": [
+        {
+          "id": 3581,
+          "firm": "Khaitan & Co",
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
+      "id": 3581,
+      "name": "Rahul Dutt",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Reliance"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Reliance on exclusive India partnership with Fabletics",
+          "client": "Reliance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-reliance-on-exclusive-india-partnership-with-fabletics",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Reliance on exclusive India partnership with Fabletics",
+      "same_name_elsewhere": [
+        {
+          "id": 3350,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
+      "id": 3564,
+      "name": "Rahul Gulati",
+      "firm": "Talwar Thakore & Associates",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "IDFC FIRST Bank"
+      ],
+      "deals": [
+        {
+          "headline": "TT&A, Shardul Amarchand Mangaldas, Linklaters act on IDFC FIRST Bank $600 million senior notes issuance",
+          "client": "IDFC FIRST Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-shardul-amarchand-mangaldas-linklaters-act-on-idfc-first-bank-600-million-senior-notes-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "TT&A, Shardul Amarchand Mangaldas, Linklaters act on IDFC FIRST Bank $600 million senior notes issuance"
     },
     {
       "id": 2929,
@@ -97644,6 +98825,29 @@
       "snapshot": "Khaitan, Lexygen, US law firms act on Standex’s acquisition of Amran/Narayan Group"
     },
     {
+      "id": 3562,
+      "name": "Ravleen Chhabra",
+      "firm": "Touchstone Partners",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "HDFC Capital Advisors"
+      ],
+      "deals": [
+        {
+          "headline": "Touchstone Partners advises HDFC Capital Advisors on setting up GIFT City AIF",
+          "client": "HDFC Capital Advisors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/touchstone-partners-advises-hdfc-capital-advisors-on-setting-up-gift-city-aif",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Touchstone Partners advises HDFC Capital Advisors on setting up GIFT City AIF"
+    },
+    {
       "id": 2893,
       "name": "Ravneet Singh Gill",
       "firm": "JSA Advocates & Solicitors",
@@ -99562,6 +100766,37 @@
       "snapshot": "JSA advises Snitch Apparels on acquisition of Berrylush - Bar and Bench"
     },
     {
+      "id": 3573,
+      "name": "Rishabh Shah",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "QIP"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Piramal Finance"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Piramal Finance ₹2,100 crore QIP",
+          "client": "Piramal Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-linklaters-act-on-piramal-finance-2100-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Piramal Finance ₹2,100 crore QIP"
+    },
+    {
       "id": 305,
       "name": "Rishabh Sharma",
       "firm": "JSA Advocates & Solicitors",
@@ -100847,13 +102082,15 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
       ],
       "clients": [
-        "Runwal Realty"
+        "Runwal Realty",
+        "Piramal Finance"
       ],
       "deals": [
         {
@@ -100863,6 +102100,18 @@
           "source": "Bar and Bench",
           "types": [
             "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Piramal Finance ₹2,100 crore QIP",
+          "client": "Piramal Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-linklaters-act-on-piramal-finance-2100-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -101467,6 +102716,37 @@
         }
       ],
       "snapshot": "Vritti Law, Trilegal act on Khandelwal Laboratories' ₹325 crore sale of business to Auro Pharma"
+    },
+    {
+      "id": 3586,
+      "name": "Rohan Tolani",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Tynor securing"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Quillon Partners act on Tynor securing $200 million investment from Kedaara Capital",
+          "client": "Tynor securing",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-quillon-partners-act-on-tynor-securing-200-million-investment-from-kedaara-capital",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Quillon Partners act on Tynor securing $200 million investment from Kedaara Capital"
     },
     {
       "id": 1933,
@@ -106009,6 +107289,29 @@
       "snapshot": "JSA advises YES Bank on ₹519 crore financing provided to First Energy group"
     },
     {
+      "id": 3561,
+      "name": "Sameeksha Chowla",
+      "firm": "Touchstone Partners",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "HDFC Capital Advisors"
+      ],
+      "deals": [
+        {
+          "headline": "Touchstone Partners advises HDFC Capital Advisors on setting up GIFT City AIF",
+          "client": "HDFC Capital Advisors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/touchstone-partners-advises-hdfc-capital-advisors-on-setting-up-gift-city-aif",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Touchstone Partners advises HDFC Capital Advisors on setting up GIFT City AIF"
+    },
+    {
       "id": 3074,
       "name": "Sameena Chatrapathy",
       "firm": "DSK Legal",
@@ -106420,13 +107723,17 @@
       "role_bucket": "Partner",
       "transaction_types": [
         "Series D",
-        "fundraise"
+        "acquisition",
+        "fundraise",
+        "stake acquisition"
       ],
       "practice_areas": [
+        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Susquehanna Venture Capital"
+        "Susquehanna Venture Capital",
+        "Wipro"
       ],
       "deals": [
         {
@@ -106440,6 +107747,19 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Quadra Legal advises Wipro on majority stake acquisition in Dermatouch",
+          "client": "Wipro",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/quadra-legal-advises-wipro-on-majority-stake-acquisition-in-dermatouch",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -107339,6 +108659,29 @@
         }
       ],
       "snapshot": "Trilegal and Khaitan & Co lead on Aman Gupta's ₹100 Crore Seed Round for OFF/BEAT"
+    },
+    {
+      "id": 3590,
+      "name": "Sandeep Grewal",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Union Bank of India"
+      ],
+      "deals": [
+        {
+          "headline": "Shardul Amarchand Mangaldas acts on Union Bank of India $600 million senior notes issuance",
+          "client": "Union Bank of India",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-acts-on-union-bank-of-india-600-million-senior-notes-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Shardul Amarchand Mangaldas acts on Union Bank of India $600 million senior notes issuance"
     },
     {
       "id": 2902,
@@ -111024,7 +112367,8 @@
         "Lead Managers",
         "Kimbal Private Limited",
         "Book Running Lead Managers",
-        "Marri Retail"
+        "Marri Retail",
+        "Piramal Finance"
       ],
       "deals": [
         {
@@ -111085,6 +112429,18 @@
           "source": "Bar and Bench",
           "types": [
             "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Piramal Finance ₹2,100 crore QIP",
+          "client": "Piramal Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-linklaters-act-on-piramal-finance-2100-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -115463,6 +116819,29 @@
       "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise"
     },
     {
+      "id": 3566,
+      "name": "Shivani Iyer",
+      "firm": "Talwar Thakore & Associates",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "IDFC FIRST Bank"
+      ],
+      "deals": [
+        {
+          "headline": "TT&A, Shardul Amarchand Mangaldas, Linklaters act on IDFC FIRST Bank $600 million senior notes issuance",
+          "client": "IDFC FIRST Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-shardul-amarchand-mangaldas-linklaters-act-on-idfc-first-bank-600-million-senior-notes-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "TT&A, Shardul Amarchand Mangaldas, Linklaters act on IDFC FIRST Bank $600 million senior notes issuance"
+    },
+    {
       "id": 2886,
       "name": "Shivani Jain",
       "firm": "JSA Advocates & Solicitors",
@@ -115623,6 +117002,37 @@
         }
       ],
       "snapshot": "Trilegal, K&L Gates, Baker & McKenzie, AZB act on Wipro's $375 million acquisition of ..."
+    },
+    {
+      "id": 3574,
+      "name": "Shivansh Anand",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "QIP"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Piramal Finance"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Piramal Finance ₹2,100 crore QIP",
+          "client": "Piramal Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-linklaters-act-on-piramal-finance-2100-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Piramal Finance ₹2,100 crore QIP"
     },
     {
       "id": 286,
@@ -118212,6 +119622,29 @@
       "snapshot": "SAM, Clove Legal act on JK Paper's ₹235 crore acquisition of Borkar Packaging"
     },
     {
+      "id": 3567,
+      "name": "Shrijaya Singh",
+      "firm": "Talwar Thakore & Associates",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "IDFC FIRST Bank"
+      ],
+      "deals": [
+        {
+          "headline": "TT&A, Shardul Amarchand Mangaldas, Linklaters act on IDFC FIRST Bank $600 million senior notes issuance",
+          "client": "IDFC FIRST Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-shardul-amarchand-mangaldas-linklaters-act-on-idfc-first-bank-600-million-senior-notes-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "TT&A, Shardul Amarchand Mangaldas, Linklaters act on IDFC FIRST Bank $600 million senior notes issuance"
+    },
+    {
       "id": 1958,
       "name": "Shrijita Bhattacharya",
       "firm": "JSA Advocates & Solicitors",
@@ -118380,6 +119813,37 @@
         }
       ],
       "snapshot": "JSA assists Continuum Green Energy on securing ₹1,350 crore from Chubu Electric Power Co."
+    },
+    {
+      "id": 3589,
+      "name": "Shriti Shah",
+      "firm": "Quillon Partners",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Tynor securing"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Quillon Partners act on Tynor securing $200 million investment from Kedaara Capital",
+          "client": "Tynor securing",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-quillon-partners-act-on-tynor-securing-200-million-investment-from-kedaara-capital",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Quillon Partners act on Tynor securing $200 million investment from Kedaara Capital"
     },
     {
       "id": 704,
@@ -119682,7 +121146,9 @@
         "Capital Markets"
       ],
       "clients": [
-        "Poonawalla Fincorp (issuer)"
+        "Poonawalla Fincorp (issuer)",
+        "IDFC FIRST Bank",
+        "Union Bank of India"
       ],
       "deals": [
         {
@@ -119696,6 +121162,22 @@
           "practice_areas": [
             "Capital Markets"
           ]
+        },
+        {
+          "headline": "TT&A, Shardul Amarchand Mangaldas, Linklaters act on IDFC FIRST Bank $600 million senior notes issuance",
+          "client": "IDFC FIRST Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-shardul-amarchand-mangaldas-linklaters-act-on-idfc-first-bank-600-million-senior-notes-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas acts on Union Bank of India $600 million senior notes issuance",
+          "client": "Union Bank of India",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-acts-on-union-bank-of-india-600-million-senior-notes-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "SAM, CAM act on Poonawalla Fincorp on ₹2,500 crore QIP - Bar and Bench"
@@ -123877,6 +125359,37 @@
         }
       ],
       "snapshot": "CAM advises Statkraft A.S. on 100% stake sale of wholly owned subsidiary, Mandakini Jal Urja"
+    },
+    {
+      "id": 3557,
+      "name": "Soumya Mohapatra",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Muthoot FinCorp"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co acts on Muthoot FinCorp ₹3,000 crore IPO",
+          "client": "Muthoot FinCorp",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-muthoot-fincorp-3000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co acts on Muthoot FinCorp ₹3,000 crore IPO"
     },
     {
       "id": 1575,
@@ -130401,7 +131914,54 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "Reliance brings SKIMS to India; Khaitan & Co advises"
+      "snapshot": "Reliance brings SKIMS to India; Khaitan & Co advises",
+      "same_name_elsewhere": [
+        {
+          "id": 3583,
+          "firm": "Khaitan & Co",
+          "role": "Principal Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
+      "id": 3583,
+      "name": "Tanvi Tekriwal",
+      "firm": "Khaitan & Co",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Reliance"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Reliance on exclusive India partnership with Fabletics",
+          "client": "Reliance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-reliance-on-exclusive-india-partnership-with-fabletics",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Reliance on exclusive India partnership with Fabletics",
+      "same_name_elsewhere": [
+        {
+          "id": 3352,
+          "firm": null,
+          "role": "Principal Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 361,
@@ -138547,7 +140107,8 @@
         "Piramal Enterprises Limited and Piramal Finance Limited",
         "Book Running Lead Managers",
         "Duroflex",
-        "Book running lead managers"
+        "Book running lead managers",
+        "Piramal Finance"
       ],
       "deals": [
         {
@@ -138694,6 +140255,18 @@
           "client": "Book Running Lead Managers",
           "url": "https://www.barandbench.com/dealstreet/sam-sidley-austin-trilegal-act-on-brookfield-india-reit-3500-crore-qip",
           "source": "Bar and Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Piramal Finance ₹2,100 crore QIP",
+          "client": "Piramal Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-linklaters-act-on-piramal-finance-2100-crore-qip",
+          "source": "Bar & Bench",
           "types": [
             "QIP"
           ],
@@ -140527,7 +142100,8 @@
       ],
       "clients": [
         "Skyroot",
-        "OFF/BEAT and Aman Gupta"
+        "OFF/BEAT and Aman Gupta",
+        "Tynor securing"
       ],
       "deals": [
         {
@@ -140550,6 +142124,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Trilegal, Quillon Partners act on Tynor securing $200 million investment from Kedaara Capital",
+          "client": "Tynor securing",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-quillon-partners-act-on-tynor-securing-200-million-investment-from-kedaara-capital",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
       "snapshot": "Skyroot rockets to Unicorn status with $60 million fundraise; Trilegal, TT&A, CAM advise"
@@ -141576,6 +143162,29 @@
       "snapshot": "SAM, CAM, Hogan Lovells act on Billdesk's acquisition of Worldline"
     },
     {
+      "id": 3570,
+      "name": "Xunming Lim",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "IDFC FIRST Bank"
+      ],
+      "deals": [
+        {
+          "headline": "TT&A, Shardul Amarchand Mangaldas, Linklaters act on IDFC FIRST Bank $600 million senior notes issuance",
+          "client": "IDFC FIRST Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-shardul-amarchand-mangaldas-linklaters-act-on-idfc-first-bank-600-million-senior-notes-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "TT&A, Shardul Amarchand Mangaldas, Linklaters act on IDFC FIRST Bank $600 million senior notes issuance"
+    },
+    {
       "id": 2245,
       "name": "Yaggya Kapoor",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -142161,7 +143770,8 @@
         "Swiggy",
         "Cube Highways Trust",
         "Molbio Diagnostics",
-        "Shiprocket"
+        "Shiprocket",
+        "Piramal Finance"
       ],
       "deals": [
         {
@@ -142247,6 +143857,18 @@
           "source": "Bar & Bench",
           "types": [
             "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Piramal Finance ₹2,100 crore QIP",
+          "client": "Piramal Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-linklaters-act-on-piramal-finance-2100-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -142579,6 +144201,37 @@
         }
       ],
       "snapshot": "DSK Legal, Cyril Amarchand Mangaldas act on TiL investing $1 billion in Adani Vizhinjam Port"
+    },
+    {
+      "id": 3587,
+      "name": "Yashasvi Gupta",
+      "firm": "Trilegal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Tynor securing"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Quillon Partners act on Tynor securing $200 million investment from Kedaara Capital",
+          "client": "Tynor securing",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-quillon-partners-act-on-tynor-securing-200-million-investment-from-kedaara-capital",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, Quillon Partners act on Tynor securing $200 million investment from Kedaara Capital"
     },
     {
       "id": 1934,
