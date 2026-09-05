@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 3590,
-    "firms": 104,
-    "deals": 467,
+    "people": 3668,
+    "firms": 106,
+    "deals": 478,
     "practice_areas": 6
   },
   "firms": [
@@ -19,6 +19,7 @@
     "Baker & McKenzie",
     "Begur & Partners",
     "Bharucha & Partners",
+    "C&S Partners",
     "CMS INDUSLAW",
     "Chambers of Anoopam N Prasad",
     "Chandhiok & Mahajan",
@@ -81,6 +82,7 @@
     "Quadra Legal",
     "Quillon Partners",
     "Rajani Associates",
+    "River Law",
     "S&R Associates",
     "SKS Advisor",
     "Samvād: Partners",
@@ -440,7 +442,7 @@
     },
     {
       "firm": "Anagram Partners",
-      "people_count": 13,
+      "people_count": 18,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -449,9 +451,14 @@
             1830,
             2820,
             1831,
+            3651,
+            3649,
             2818,
+            3652,
+            3653,
             1832,
             2817,
+            3650,
             1826,
             1827,
             2819,
@@ -634,9 +641,62 @@
       ]
     },
     {
-      "firm": "CMS INDUSLAW",
-      "people_count": 73,
+      "firm": "C&S Partners",
+      "people_count": 9,
       "practice_groups": [
+        {
+          "area": "Unclassified",
+          "person_ids": [
+            3667,
+            3663,
+            3668,
+            3662,
+            3660,
+            3664,
+            3665,
+            3661,
+            3666
+          ]
+        }
+      ]
+    },
+    {
+      "firm": "CMS INDUSLAW",
+      "people_count": 77,
+      "practice_groups": [
+        {
+          "area": "Capital Markets",
+          "person_ids": [
+            3233,
+            150,
+            783,
+            3236,
+            2226,
+            3593,
+            2223,
+            3592,
+            3237,
+            3594,
+            2221,
+            2009,
+            781,
+            2225,
+            3234,
+            2224,
+            149,
+            784,
+            3205,
+            3206,
+            3235,
+            782,
+            785,
+            3336,
+            780,
+            2012,
+            3591,
+            2222
+          ]
+        },
         {
           "area": "Mergers & Acquisitions",
           "person_ids": [
@@ -666,34 +726,6 @@
             2303,
             2301,
             2298
-          ]
-        },
-        {
-          "area": "Capital Markets",
-          "person_ids": [
-            3233,
-            150,
-            783,
-            3236,
-            2226,
-            2223,
-            3237,
-            2221,
-            2009,
-            781,
-            2225,
-            3234,
-            2224,
-            149,
-            784,
-            3205,
-            3206,
-            3235,
-            782,
-            785,
-            3336,
-            780,
-            2222
           ]
         },
         {
@@ -736,8 +768,7 @@
             2011,
             2015,
             3066,
-            617,
-            2012
+            617
           ]
         }
       ]
@@ -883,7 +914,7 @@
     },
     {
       "firm": "Cyril Amarchand Mangaldas",
-      "people_count": 563,
+      "people_count": 565,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -1162,6 +1193,7 @@
             3389,
             1866,
             826,
+            3647,
             1160,
             641,
             883,
@@ -1223,6 +1255,7 @@
             1262,
             1525,
             1461,
+            3646,
             1688,
             2155,
             1750,
@@ -2091,7 +2124,7 @@
     },
     {
       "firm": "JSA Advocates & Solicitors",
-      "people_count": 366,
+      "people_count": 367,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -2432,6 +2465,7 @@
             1701,
             139,
             1563,
+            3659,
             2037,
             1566,
             727,
@@ -2666,7 +2700,7 @@
     },
     {
       "firm": "Khaitan & Co",
-      "people_count": 483,
+      "people_count": 490,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -2851,6 +2885,149 @@
           ]
         },
         {
+          "area": "Private Equity & Venture Capital",
+          "person_ids": [
+            154,
+            1538,
+            2186,
+            2283,
+            858,
+            3656,
+            694,
+            2840,
+            2761,
+            2762,
+            3271,
+            1540,
+            1536,
+            355,
+            1808,
+            3658,
+            2188,
+            2718,
+            857,
+            1548,
+            1969,
+            1530,
+            2829,
+            3657,
+            1410,
+            1550,
+            2286,
+            2290,
+            686,
+            2289,
+            336,
+            1389,
+            696,
+            1545,
+            3655,
+            3272,
+            2182,
+            980,
+            2758,
+            1543,
+            860,
+            1807,
+            2187,
+            2844,
+            2278,
+            3009,
+            1531,
+            2755,
+            1642,
+            2825,
+            982,
+            1537,
+            1413,
+            1971,
+            1532,
+            855,
+            339,
+            1231,
+            690,
+            859,
+            1709,
+            2842,
+            1080,
+            3017,
+            987,
+            1409,
+            703,
+            1544,
+            2839,
+            2843,
+            2284,
+            346,
+            3007,
+            1549,
+            1541,
+            2760,
+            1547,
+            2287,
+            1533,
+            2826,
+            2827,
+            3270,
+            1639,
+            1970,
+            2285,
+            2763,
+            1229,
+            1412,
+            1546,
+            3008,
+            2281,
+            1534,
+            1415,
+            3018,
+            2280,
+            687,
+            2184,
+            2828,
+            2183,
+            2830,
+            360,
+            692,
+            856,
+            2756,
+            1414,
+            2841,
+            2291,
+            1809,
+            698,
+            365,
+            1542,
+            3269,
+            1535,
+            356,
+            700,
+            289,
+            1411,
+            3273,
+            2845,
+            1390,
+            693,
+            1640,
+            757,
+            364,
+            2288,
+            2279,
+            2831,
+            2764,
+            1199,
+            2759,
+            1539,
+            2757,
+            1641,
+            2754,
+            2282,
+            2185,
+            1416,
+            287
+          ]
+        },
+        {
           "area": "Unclassified",
           "person_ids": [
             398,
@@ -2963,7 +3140,6 @@
             323,
             332,
             286,
-            1809,
             2720,
             3551,
             3277,
@@ -2987,143 +3163,6 @@
             3286,
             3282,
             3031
-          ]
-        },
-        {
-          "area": "Private Equity & Venture Capital",
-          "person_ids": [
-            154,
-            1538,
-            2186,
-            2283,
-            858,
-            694,
-            2840,
-            2761,
-            2762,
-            3271,
-            1540,
-            1536,
-            355,
-            1808,
-            2188,
-            2718,
-            857,
-            1548,
-            1969,
-            1530,
-            2829,
-            1410,
-            1550,
-            2286,
-            2290,
-            686,
-            2289,
-            336,
-            1389,
-            696,
-            1545,
-            3272,
-            2182,
-            980,
-            2758,
-            1543,
-            860,
-            1807,
-            2187,
-            2844,
-            2278,
-            3009,
-            1531,
-            2755,
-            1642,
-            2825,
-            982,
-            1537,
-            1413,
-            1971,
-            1532,
-            855,
-            339,
-            1231,
-            859,
-            1709,
-            2842,
-            1080,
-            3017,
-            987,
-            1409,
-            703,
-            1544,
-            2839,
-            2843,
-            2284,
-            346,
-            3007,
-            1549,
-            1541,
-            2760,
-            1547,
-            2287,
-            1533,
-            2826,
-            2827,
-            3270,
-            1639,
-            1970,
-            2285,
-            2763,
-            1229,
-            1412,
-            1546,
-            3008,
-            2281,
-            1534,
-            1415,
-            3018,
-            2280,
-            687,
-            2184,
-            2828,
-            2183,
-            2830,
-            360,
-            692,
-            856,
-            2756,
-            1414,
-            2841,
-            2291,
-            698,
-            365,
-            1542,
-            3269,
-            1535,
-            356,
-            700,
-            289,
-            1411,
-            3273,
-            2845,
-            1390,
-            693,
-            1640,
-            757,
-            364,
-            2288,
-            2279,
-            2831,
-            2764,
-            1199,
-            2759,
-            1539,
-            2757,
-            1641,
-            2754,
-            2282,
-            2185,
-            1416,
-            287
           ]
         },
         {
@@ -3164,6 +3203,7 @@
             1471,
             1757,
             1467,
+            3595,
             1706,
             2547,
             1760,
@@ -3204,6 +3244,7 @@
             3531,
             3557,
             159,
+            3597,
             1466,
             757,
             1702,
@@ -3214,6 +3255,7 @@
             759,
             3354,
             1704,
+            3596,
             1759,
             1790,
             2185
@@ -3734,6 +3776,18 @@
             312,
             313,
             314
+          ]
+        }
+      ]
+    },
+    {
+      "firm": "River Law",
+      "people_count": 1,
+      "practice_groups": [
+        {
+          "area": "Mergers & Acquisitions",
+          "person_ids": [
+            3654
           ]
         }
       ]
@@ -4656,6 +4710,7 @@
             2973,
             444,
             977,
+            2796,
             2976,
             2974,
             3362,
@@ -4672,7 +4727,6 @@
             1719,
             1718,
             3106,
-            2796,
             1721,
             3105,
             1715,
@@ -4756,7 +4810,7 @@
     },
     {
       "firm": "Trilegal",
-      "people_count": 510,
+      "people_count": 523,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -4788,6 +4842,7 @@
             448,
             1274,
             3328,
+            3607,
             2083,
             1392,
             170,
@@ -4795,6 +4850,7 @@
             280,
             3330,
             2399,
+            3604,
             539,
             2396,
             3488,
@@ -4824,6 +4880,7 @@
             2128,
             2812,
             1695,
+            3605,
             1142,
             2775,
             2389,
@@ -4852,6 +4909,7 @@
             3484,
             2059,
             778,
+            3603,
             2936,
             2056,
             3255,
@@ -4899,6 +4957,7 @@
             523,
             2045,
             2393,
+            1341,
             449,
             1204,
             521,
@@ -4916,12 +4975,15 @@
             1139,
             2395,
             2266,
+            3602,
             3325,
             993,
+            3598,
             2813,
             2263,
             1000,
             2816,
+            3606,
             13,
             3326,
             2941,
@@ -4931,6 +4993,7 @@
             2937,
             536,
             2815,
+            3599,
             1085,
             2384,
             2398,
@@ -4950,9 +5013,11 @@
             534,
             2383,
             1273,
+            1350,
             2058,
             547,
             999,
+            3601,
             600,
             1645,
             2445,
@@ -4971,10 +5036,13 @@
             2385,
             532,
             2381,
+            1818,
             453,
             451,
             3487,
             526,
+            3600,
+            3608,
             1089,
             1205,
             2086,
@@ -4988,6 +5056,7 @@
             2465,
             1287,
             2050,
+            3609,
             1276,
             1015,
             1095,
@@ -5183,6 +5252,7 @@
             418,
             3012,
             270,
+            3648,
             2599,
             973,
             2180,
@@ -5360,7 +5430,6 @@
             2977,
             3098,
             2407,
-            1818,
             2150,
             3097,
             1823,
@@ -7370,6 +7439,29 @@
       "snapshot": "Axis Finance secures ₹750 crore from Kedaara Capital; Cyril Amarchand Mangaldas ..."
     },
     {
+      "id": 3667,
+      "name": "Abhijit Kumar",
+      "firm": "C&S Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Mahajan Imaging"
+      ],
+      "deals": [
+        {
+          "headline": "C&S Partners advises Mahajan Imaging on JV with Neuberg Diagnostics",
+          "client": "Mahajan Imaging",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cs-partners-advises-mahajan-imaging-on-joint-venture-with-neuberg-diagnostics",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "C&S Partners advises Mahajan Imaging on JV with Neuberg Diagnostics"
+    },
+    {
       "id": 925,
       "name": "Abhikalpa Ghosh",
       "firm": "DSK Legal",
@@ -7943,7 +8035,9 @@
         "Jefferies India",
         "WestBridge selling shareholders",
         "Book Running Lead Managers",
-        "APAR Industries"
+        "APAR Industries",
+        "Aragen Life Sciences",
+        "Nobel Hygiene"
       ],
       "deals": [
         {
@@ -8013,6 +8107,30 @@
           "source": "Bar & Bench",
           "types": [
             "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, TT&A, Trilegal act on Aragen Life Sciences ₹800 crore+ proposed IPO",
+          "client": "Aragen Life Sciences",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-tta-trilegal-act-on-aragen-life-sciences-800-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, TT&A, JSA act on Nobel Hygiene ₹150 crore+ proposed IPO",
+          "client": "Nobel Hygiene",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-jsa-act-on-nobel-hygiene-150-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -8181,6 +8299,39 @@
       "snapshot": "CAM, Trilegal act on MEIL Energy acquiring a 250 MW thermal power project in Tamil Nadu ..."
     },
     {
+      "id": 3638,
+      "name": "Abhinav Rastogi",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha...",
+      "same_name_elsewhere": [
+        {
+          "id": 2315,
+          "firm": "Khaitan & Co",
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 2315,
       "name": "Abhinav Rastogi",
       "firm": "Khaitan & Co",
@@ -8209,7 +8360,19 @@
           ]
         }
       ],
-      "snapshot": "CMS INDUSLAW advises Shriram Pistons on €159 million acquisition of three companies ..."
+      "snapshot": "CMS INDUSLAW advises Shriram Pistons on €159 million acquisition of three companies ...",
+      "same_name_elsewhere": [
+        {
+          "id": 3638,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 2463,
@@ -10744,6 +10907,39 @@
       "snapshot": "JSA, JM+P act on Iscon Balaji Foods $215 million Series A fundraise"
     },
     {
+      "id": 3624,
+      "name": "Aditi Gupta",
+      "firm": null,
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha...",
+      "same_name_elsewhere": [
+        {
+          "id": 2023,
+          "firm": "Shardul Amarchand Mangaldas & Co",
+          "role": "Principal Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 2023,
       "name": "Aditi Gupta",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -10772,7 +10968,19 @@
           ]
         }
       ],
-      "snapshot": "SAM, CAM, Latham act on Groww ₹6,632 crore IPO - Bar and Bench"
+      "snapshot": "SAM, CAM, Latham act on Groww ₹6,632 crore IPO - Bar and Bench",
+      "same_name_elsewhere": [
+        {
+          "id": 3624,
+          "firm": null,
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 2283,
@@ -11649,6 +11857,45 @@
       "snapshot": "Khaitan, JSA act on Weavers acquiring majority stake in Centrum Housing Finance"
     },
     {
+      "id": 3614,
+      "name": "Aditya Jain",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha...",
+      "same_name_elsewhere": [
+        {
+          "id": 3360,
+          "firm": "Talwar Thakore & Associates",
+          "role": "Senior Associate",
+          "deal_count": 1
+        },
+        {
+          "id": 2879,
+          "firm": "S&R Associates",
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 3360,
       "name": "Aditya Jain",
       "firm": "Talwar Thakore & Associates",
@@ -11679,6 +11926,12 @@
       ],
       "snapshot": "Trilegal, TT&A, Hogan Lovells Cadwalader act on APAR Industries ₹2,500 crore QIP",
       "same_name_elsewhere": [
+        {
+          "id": 3614,
+          "firm": null,
+          "role": "Associate",
+          "deal_count": 1
+        },
         {
           "id": 2879,
           "firm": "S&R Associates",
@@ -11722,6 +11975,12 @@
       ],
       "snapshot": "CAM, S&R, Hogan Lovells act on Sudeep Pharma ₹895 crore IPO - BarandBench",
       "same_name_elsewhere": [
+        {
+          "id": 3614,
+          "firm": null,
+          "role": "Associate",
+          "deal_count": 1
+        },
         {
           "id": 3360,
           "firm": "Talwar Thakore & Associates",
@@ -11821,6 +12080,27 @@
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Trilegal act on Ather Energy ₹1,300 crore QIP"
+    },
+    {
+      "id": 3617,
+      "name": "Aditya Kumar",
+      "firm": null,
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha..."
     },
     {
       "id": 2348,
@@ -12374,6 +12654,12 @@
           "firm": "Dentons Link Legal",
           "role": "Partner",
           "deal_count": 1
+        },
+        {
+          "id": 3663,
+          "firm": "C&S Partners",
+          "role": "Associate",
+          "deal_count": 1
         }
       ],
       "firm_verification": {
@@ -12416,6 +12702,53 @@
           "id": 913,
           "firm": "Cyril Amarchand Mangaldas",
           "role": "Senior Associate",
+          "deal_count": 1
+        },
+        {
+          "id": 3663,
+          "firm": "C&S Partners",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Dentons Link Legal's partner is specifically 'Aditya K. Singh' (Projects/Energy/Regulatory). CAM has several similarly-named people (Aditya Singh Rathore, Aditya Sinha). No source links a CAM 'Aditya Singh' to a later Dentons Link Legal move."
+      }
+    },
+    {
+      "id": 3663,
+      "name": "Aditya Singh",
+      "firm": "C&S Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Mahajan Imaging"
+      ],
+      "deals": [
+        {
+          "headline": "C&S Partners advises Mahajan Imaging on JV with Neuberg Diagnostics",
+          "client": "Mahajan Imaging",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cs-partners-advises-mahajan-imaging-on-joint-venture-with-neuberg-diagnostics",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "C&S Partners advises Mahajan Imaging on JV with Neuberg Diagnostics",
+      "same_name_elsewhere": [
+        {
+          "id": 913,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Senior Associate",
+          "deal_count": 1
+        },
+        {
+          "id": 841,
+          "firm": "Dentons Link Legal",
+          "role": "Partner",
           "deal_count": 1
         }
       ],
@@ -12703,13 +13036,15 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "IPO",
         "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
       ],
       "clients": [
-        "Globus Spirits"
+        "Globus Spirits",
+        "Nobel Hygiene"
       ],
       "deals": [
         {
@@ -12719,6 +13054,18 @@
           "source": "Bar & Bench",
           "types": [
             "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, TT&A, JSA act on Nobel Hygiene ₹150 crore+ proposed IPO",
+          "client": "Nobel Hygiene",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-jsa-act-on-nobel-hygiene-150-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -12908,7 +13255,8 @@
         "Elevation Capital and its affiliates",
         "JSW Energy",
         "ICICI Prudential AMC",
-        "Swiggy"
+        "Swiggy",
+        "Atomberg"
       ],
       "deals": [
         {
@@ -12974,6 +13322,18 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, Khaitan & Co act on Atomberg ₹450 crore+ proposed IPO",
+          "client": "Atomberg",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-khaitan-co-act-on-atomberg-450-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
         }
       ],
       "snapshot": "Khaitan & Co, Cyril Amarchand Mangaldas act on FILA Group's ₹934 crore stake sale in DOMS",
@@ -13025,7 +13385,7 @@
           "id": 481,
           "firm": "Cyril Amarchand Mangaldas",
           "role": "Senior Associate",
-          "deal_count": 7
+          "deal_count": 8
         }
       ],
       "firm_verification": {
@@ -13854,6 +14214,14 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise"
@@ -14012,6 +14380,27 @@
       }
     },
     {
+      "id": 3627,
+      "name": "Akanksha Agrahari",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha..."
+    },
+    {
       "id": 714,
       "name": "Akanksha Dubey",
       "firm": "DSK Legal",
@@ -14054,6 +14443,39 @@
         }
       ],
       "snapshot": "Trilegal, DSK Legal act on Laser Power & Infra ₹742 crore IPO - Bar and Bench"
+    },
+    {
+      "id": 3656,
+      "name": "Akanksha G Prabhu",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "Series D",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Third Wave Coffee"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Third Wave Coffee on ₹408 crore Series D fundraise",
+          "client": "Third Wave Coffee",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-third-wave-coffee-on-408-crore-series-d-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series D",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Third Wave Coffee on ₹408 crore Series D fundraise"
     },
     {
       "id": 1177,
@@ -14193,8 +14615,8 @@
       "id": 2027,
       "name": "Akash Joshi",
       "firm": "Cyril Amarchand Mangaldas",
-      "role": "Senior Associate",
-      "role_bucket": "Senior Associate",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
       "transaction_types": [
         "IPO"
       ],
@@ -14203,7 +14625,8 @@
       ],
       "clients": [
         "Book Running Lead Managers",
-        "NDTV"
+        "NDTV",
+        "Atomberg"
       ],
       "deals": [
         {
@@ -14225,6 +14648,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, Khaitan & Co act on Atomberg ₹450 crore+ proposed IPO",
+          "client": "Atomberg",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-khaitan-co-act-on-atomberg-450-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
         }
       ],
       "snapshot": "SAM, CAM, Latham act on Groww ₹6,632 crore IPO - Bar and Bench",
@@ -14275,8 +14710,8 @@
         {
           "id": 2027,
           "firm": "Cyril Amarchand Mangaldas",
-          "role": "Senior Associate",
-          "deal_count": 2
+          "role": "Principal Associate",
+          "deal_count": 3
         }
       ],
       "firm_verification": {
@@ -15738,7 +16173,8 @@
         "Placement agents",
         "Clean Max/Promoters",
         "Book Running Lead Managers",
-        "Powerica & Promoter Selling Shareholders"
+        "Powerica & Promoter Selling Shareholders",
+        "Aragen Life Sciences"
       ],
       "deals": [
         {
@@ -15784,6 +16220,18 @@
           "client": "Powerica & Promoter Selling Shareholders",
           "url": "https://www.barandbench.com/dealstreet/cam-trilegal-act-on-powerica-1100-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, TT&A, Trilegal act on Aragen Life Sciences ₹800 crore+ proposed IPO",
+          "client": "Aragen Life Sciences",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-tta-trilegal-act-on-aragen-life-sciences-800-crore-proposed-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -15968,7 +16416,8 @@
         "Book Running Lead Managers",
         "Piramal Enterprises Limited and Piramal Finance Limited",
         "Goldman Sachs-affiliated selling shareholders",
-        "APAR Industries"
+        "APAR Industries",
+        "Aragen Life Sciences"
       ],
       "deals": [
         {
@@ -16054,6 +16503,18 @@
           "source": "Bar & Bench",
           "types": [
             "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, TT&A, Trilegal act on Aragen Life Sciences ₹800 crore+ proposed IPO",
+          "client": "Aragen Life Sciences",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-tta-trilegal-act-on-aragen-life-sciences-800-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -16412,6 +16873,39 @@
       "snapshot": "JSA acts on Wishlink ₹157 crore Series B fundraise - BarandBench"
     },
     {
+      "id": 3635,
+      "name": "Alisha Mehra",
+      "firm": null,
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha...",
+      "same_name_elsewhere": [
+        {
+          "id": 3030,
+          "firm": "Khaitan & Co",
+          "role": "Principal Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 3030,
       "name": "Alisha Mehra",
       "firm": "Khaitan & Co",
@@ -16432,7 +16926,19 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "Khaitan & Co, Shardul Amarchand Mangaldas act on BNP Paribas Cardif acquiring stake in IndiaFirst Life..."
+      "snapshot": "Khaitan & Co, Shardul Amarchand Mangaldas act on BNP Paribas Cardif acquiring stake in IndiaFirst Life...",
+      "same_name_elsewhere": [
+        {
+          "id": 3635,
+          "firm": null,
+          "role": "Principal Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 63,
@@ -19369,6 +19875,29 @@
       "snapshot": "CAM, Trilegal, SAM act on Bharti Airtel, Carlyle, Alpha Wave investing $1 billion in Airtel's Nxtra Data"
     },
     {
+      "id": 3668,
+      "name": "Anant Garg",
+      "firm": "C&S Partners",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Mahajan Imaging"
+      ],
+      "deals": [
+        {
+          "headline": "C&S Partners advises Mahajan Imaging on JV with Neuberg Diagnostics",
+          "client": "Mahajan Imaging",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cs-partners-advises-mahajan-imaging-on-joint-venture-with-neuberg-diagnostics",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "C&S Partners advises Mahajan Imaging on JV with Neuberg Diagnostics"
+    },
+    {
       "id": 2545,
       "name": "Anant Misra",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -20295,6 +20824,37 @@
         }
       ],
       "snapshot": "CAM, Clifford Chance act on FarmCarbon $53 million fundraise - Bar and Bench"
+    },
+    {
+      "id": 3607,
+      "name": "Angeline Priety Franklyn",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "DSP Finance"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises DSP Finance on its merger with Volt Money",
+          "client": "DSP Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-dsp-finance-on-its-merger-with-volt-money",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises DSP Finance on its merger with Volt Money"
     },
     {
       "id": 1451,
@@ -23756,6 +24316,39 @@
       "snapshot": "TPG-led consortium to acquire Aseem Infra Finance; CAM, Linklaters, Trilegal, SAM advise"
     },
     {
+      "id": 3658,
+      "name": "Anshul Khemuka",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "Series D",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Third Wave Coffee"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Third Wave Coffee on ₹408 crore Series D fundraise",
+          "client": "Third Wave Coffee",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-third-wave-coffee-on-408-crore-series-d-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series D",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Third Wave Coffee on ₹408 crore Series D fundraise"
+    },
+    {
       "id": 2704,
       "name": "Anshul Mordia",
       "firm": "Khaitan & Co",
@@ -23768,7 +24361,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Atomberg"
       ],
       "deals": [
         {
@@ -23776,6 +24370,18 @@
           "client": "Book Running Lead Managers",
           "url": "https://www.barandbench.com/dealstreet/sam-khaitan-ao-shearman-act-on-tenneco-india-3600-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, Khaitan & Co act on Atomberg ₹450 crore+ proposed IPO",
+          "client": "Atomberg",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-khaitan-co-act-on-atomberg-450-crore-proposed-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -24117,6 +24723,37 @@
       }
     },
     {
+      "id": 3659,
+      "name": "Anshuman Singh",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Nobel Hygiene"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co, TT&A, JSA act on Nobel Hygiene ₹150 crore+ proposed IPO",
+          "client": "Nobel Hygiene",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-jsa-act-on-nobel-hygiene-150-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co, TT&A, JSA act on Nobel Hygiene ₹150 crore+ proposed IPO"
+    },
+    {
       "id": 2480,
       "name": "Anshuman Sugla",
       "firm": "JSA Advocates & Solicitors",
@@ -24365,6 +25002,37 @@
         }
       ],
       "snapshot": "JSA advises Volvo on NBFC joint venture with Eicher Motors - Bar and Bench"
+    },
+    {
+      "id": 3604,
+      "name": "Anubhav Ghosh",
+      "firm": "Trilegal",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "DSP Finance"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises DSP Finance on its merger with Volt Money",
+          "client": "DSP Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-dsp-finance-on-its-merger-with-volt-money",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises DSP Finance on its merger with Volt Money"
     },
     {
       "id": 539,
@@ -24821,13 +25489,15 @@
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
+        "acquisition",
         "merger"
       ],
       "practice_areas": [
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Mensa Group"
+        "Mensa Group",
+        "Investcorp's"
       ],
       "deals": [
         {
@@ -24837,6 +25507,18 @@
           "source": "Bar and Bench",
           "types": [
             "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Anagram Partners, River Law act on Investcorp's ₹500 crore acquisition of 20Cube",
+          "client": "Investcorp's",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/anagram-partners-river-law-act-on-investcorps-500-crore-acquisition-of-20cube",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
@@ -25922,6 +26604,39 @@
       "snapshot": "Khaitan & Co assists RPG Life Sciences on carve-out of its API business"
     },
     {
+      "id": 3612,
+      "name": "Aparimita Choudhary",
+      "firm": null,
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha...",
+      "same_name_elsewhere": [
+        {
+          "id": 99,
+          "firm": "JSA Advocates & Solicitors",
+          "role": "Senior Associate",
+          "deal_count": 2
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 99,
       "name": "Aparimita Choudhary",
       "firm": "JSA Advocates & Solicitors",
@@ -25967,7 +26682,19 @@
           ]
         }
       ],
-      "snapshot": "Snabbit snaps up $56 million from Series D fundraise; JSA, Shardul Amarchand Mangaldas ..."
+      "snapshot": "Snabbit snaps up $56 million from Series D fundraise; JSA, Shardul Amarchand Mangaldas ...",
+      "same_name_elsewhere": [
+        {
+          "id": 3612,
+          "firm": null,
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 3527,
@@ -27878,7 +28605,8 @@
         "Zota Health Care Limited",
         "BRLMs",
         "Book Running Lead Managers (Axis Capital Limited and DAM Capital Advisors Limited)",
-        "Nuvama Wealth Management Limited (Lead Manager)"
+        "Nuvama Wealth Management Limited (Lead Manager)",
+        "Atomberg"
       ],
       "deals": [
         {
@@ -28091,6 +28819,18 @@
           "client": "Nuvama Wealth Management Limited (Lead Manager)",
           "url": "https://www.barandbench.com/dealstreet/cam-jsa-act-on-anantam-highways-trust-400-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, Khaitan & Co act on Atomberg ₹450 crore+ proposed IPO",
+          "client": "Atomberg",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-khaitan-co-act-on-atomberg-450-crore-proposed-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -28523,7 +29263,8 @@
       ],
       "clients": [
         "ICICI Securities Limited",
-        "Globus Spirits"
+        "Globus Spirits",
+        "Gujarat Themis Biosyn"
       ],
       "deals": [
         {
@@ -28542,6 +29283,18 @@
           "headline": "JSA, CMS INDUSLAW, Duane Morris & Selvam act on Globus Spirits ₹200 crore QIP",
           "client": "Globus Spirits",
           "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-cms-induslaw-duane-morris-selvam-act-on-globus-spirits-200-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Trilegal, CMS INDUSLAW act on Gujarat Themis Biosyn ₹750 crore QIP",
+          "client": "Gujarat Themis Biosyn",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cms-induslaw-act-on-gujarat-themis-biosyn-750-crore-qip",
           "source": "Bar & Bench",
           "types": [
             "QIP"
@@ -29522,6 +30275,29 @@
         }
       ],
       "snapshot": "BEGUR & PARTNERS assists Kriscore Capital on investment in RoamPrime"
+    },
+    {
+      "id": 3662,
+      "name": "Arya Sharma",
+      "firm": "C&S Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Mahajan Imaging"
+      ],
+      "deals": [
+        {
+          "headline": "C&S Partners advises Mahajan Imaging on JV with Neuberg Diagnostics",
+          "client": "Mahajan Imaging",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cs-partners-advises-mahajan-imaging-on-joint-venture-with-neuberg-diagnostics",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "C&S Partners advises Mahajan Imaging on JV with Neuberg Diagnostics"
     },
     {
       "id": 1458,
@@ -30999,6 +31775,37 @@
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas, TT&A act on Adani's ₹3,050 crore acquisition of IntelliSmart"
+    },
+    {
+      "id": 3593,
+      "name": "Associate Trainees Roshan Bali",
+      "firm": "CMS INDUSLAW",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "QIP"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Gujarat Themis Biosyn"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, CMS INDUSLAW act on Gujarat Themis Biosyn ₹750 crore QIP",
+          "client": "Gujarat Themis Biosyn",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cms-induslaw-act-on-gujarat-themis-biosyn-750-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, CMS INDUSLAW act on Gujarat Themis Biosyn ₹750 crore QIP"
     },
     {
       "id": 1893,
@@ -32805,6 +33612,45 @@
       "snapshot": "Cyril Amarchand Mangaldas advises University of New South Wales on setting up campus ..."
     },
     {
+      "id": 3645,
+      "name": "Ayush Jain",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha...",
+      "same_name_elsewhere": [
+        {
+          "id": 1548,
+          "firm": "Khaitan & Co",
+          "role": "Senior Associate",
+          "deal_count": 1
+        },
+        {
+          "id": 3085,
+          "firm": "Desai & Diwanji",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 1548,
       "name": "Ayush Jain",
       "firm": "Khaitan & Co",
@@ -32835,6 +33681,12 @@
       ],
       "snapshot": "Khaitan & Co, Cyril Amarchand Mangaldas act on Embio securing investment from True North",
       "same_name_elsewhere": [
+        {
+          "id": 3645,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        },
         {
           "id": 3085,
           "firm": "Desai & Diwanji",
@@ -32870,6 +33722,12 @@
       ],
       "snapshot": "Desai & Diwanji advises PNB-led consortium on sanctioning ₹2,150 crore to LCC Projects",
       "same_name_elsewhere": [
+        {
+          "id": 3645,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        },
         {
           "id": 1548,
           "firm": "Khaitan & Co",
@@ -33537,6 +34395,7 @@
       "role_bucket": "Partner",
       "transaction_types": [
         "Series B",
+        "Series D",
         "fundraise"
       ],
       "practice_areas": [
@@ -33544,7 +34403,8 @@
       ],
       "clients": [
         "WestBridge Capital",
-        "Bessemer Venture Partners"
+        "Bessemer Venture Partners",
+        "Third Wave Coffee"
       ],
       "deals": [
         {
@@ -33566,6 +34426,19 @@
           "url": "https://www.barandbench.com/dealstreet/sam-phoenix-legal-act-on-seekho-28-million-series-b-fundraise",
           "source": "Bar and Bench",
           "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co advises Third Wave Coffee on ₹408 crore Series D fundraise",
+          "client": "Third Wave Coffee",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-third-wave-coffee-on-408-crore-series-d-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series D",
             "fundraise"
           ],
           "practice_areas": [
@@ -33890,7 +34763,8 @@
         "Book Running Lead Managers",
         "GSP Crop Science",
         "APAR Industries",
-        "Tempsens Instruments"
+        "Tempsens Instruments",
+        "Aragen Life Sciences"
       ],
       "deals": [
         {
@@ -33957,6 +34831,18 @@
           "headline": "S&R Associates, Trilegal act on Tempsens Instruments ₹650 crore IPO",
           "client": "Tempsens Instruments",
           "url": "https://www.barandbench.com/law-firms/dealstreet/sr-associates-trilegal-act-on-tempsens-instruments-650-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, TT&A, Trilegal act on Aragen Life Sciences ₹800 crore+ proposed IPO",
+          "client": "Aragen Life Sciences",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-tta-trilegal-act-on-aragen-life-sciences-800-crore-proposed-ipo",
           "source": "Bar & Bench",
           "types": [
             "IPO"
@@ -34826,7 +35712,8 @@
       "clients": [
         "GSP Crop Science",
         "Book Running Lead Managers",
-        "Goldman Sachs-affiliated selling shareholders"
+        "Goldman Sachs-affiliated selling shareholders",
+        "Aragen Life Sciences"
       ],
       "deals": [
         {
@@ -34865,6 +35752,18 @@
           "practice_areas": [
             "Capital Markets",
             "Restructuring & Insolvency"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, TT&A, Trilegal act on Aragen Life Sciences ₹800 crore+ proposed IPO",
+          "client": "Aragen Life Sciences",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-tta-trilegal-act-on-aragen-life-sciences-800-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
           ]
         }
       ],
@@ -35333,13 +36232,15 @@
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
+        "IPO",
         "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
       ],
       "clients": [
-        "Manorama Industries"
+        "Manorama Industries",
+        "Nobel Hygiene"
       ],
       "deals": [
         {
@@ -35349,6 +36250,18 @@
           "source": "Bar and Bench",
           "types": [
             "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, TT&A, JSA act on Nobel Hygiene ₹150 crore+ proposed IPO",
+          "client": "Nobel Hygiene",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-jsa-act-on-nobel-hygiene-150-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -35727,7 +36640,8 @@
       "clients": [
         "Raajmarg InvIT, NHAI, and Investment Manager",
         "Sathya Agencies Limited",
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Atomberg"
       ],
       "deals": [
         {
@@ -35771,6 +36685,18 @@
           "client": "Book Running Lead Managers",
           "url": "https://www.barandbench.com/dealstreet/trilegal-jsa-act-on-atlanta-electricals-687-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, Khaitan & Co act on Atomberg ₹450 crore+ proposed IPO",
+          "client": "Atomberg",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-khaitan-co-act-on-atomberg-450-crore-proposed-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -36401,6 +37327,29 @@
       }
     },
     {
+      "id": 3660,
+      "name": "Bobby’ Chandhoke",
+      "firm": "C&S Partners",
+      "role": "Senior Partner",
+      "role_bucket": "Senior Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Mahajan Imaging"
+      ],
+      "deals": [
+        {
+          "headline": "C&S Partners advises Mahajan Imaging on JV with Neuberg Diagnostics",
+          "client": "Mahajan Imaging",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cs-partners-advises-mahajan-imaging-on-joint-venture-with-neuberg-diagnostics",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "C&S Partners advises Mahajan Imaging on JV with Neuberg Diagnostics"
+    },
+    {
       "id": 663,
       "name": "Bojan Radovanovic",
       "firm": "Pérez-Llorca",
@@ -36921,6 +37870,39 @@
       "snapshot": "TT&A, Paul Weiss, Avisen Legal act on Carrier acquiring 75F Inc."
     },
     {
+      "id": 3657,
+      "name": "Chaitanya Jitendra Acharya",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "Series D",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Third Wave Coffee"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Third Wave Coffee on ₹408 crore Series D fundraise",
+          "client": "Third Wave Coffee",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-third-wave-coffee-on-408-crore-series-d-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series D",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Third Wave Coffee on ₹408 crore Series D fundraise"
+    },
+    {
       "id": 2442,
       "name": "Chaitanya Kashyap",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -37421,7 +38403,8 @@
       ],
       "clients": [
         "SEDEMAC",
-        "Placement agents"
+        "Placement agents",
+        "Atomberg"
       ],
       "deals": [
         {
@@ -37448,6 +38431,18 @@
           "practice_areas": [
             "Capital Markets",
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, Khaitan & Co act on Atomberg ₹450 crore+ proposed IPO",
+          "client": "Atomberg",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-khaitan-co-act-on-atomberg-450-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
           ]
         }
       ],
@@ -37483,6 +38478,27 @@
         }
       ],
       "snapshot": "SAM, S&R Associates act on Orkla India ₹1667 crore IPO - Bar and Bench"
+    },
+    {
+      "id": 3621,
+      "name": "Chirag Mangal",
+      "firm": null,
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha..."
     },
     {
       "id": 2286,
@@ -38269,6 +39285,27 @@
         }
       ],
       "snapshot": "CAM advises Zenrock Chemicals and EAAA India on acquiring promoter stake in Indo Borax ..."
+    },
+    {
+      "id": 3625,
+      "name": "Daanish Dube",
+      "firm": null,
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha..."
     },
     {
       "id": 1782,
@@ -39604,6 +40641,29 @@
       "snapshot": "Trilegal, Sheppard act on $310 million acquisition of iMerit by EXL - Bar and Bench"
     },
     {
+      "id": 3664,
+      "name": "Deepali Chandhoke",
+      "firm": "C&S Partners",
+      "role": "Senior Partner",
+      "role_bucket": "Senior Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Mahajan Imaging"
+      ],
+      "deals": [
+        {
+          "headline": "C&S Partners advises Mahajan Imaging on JV with Neuberg Diagnostics",
+          "client": "Mahajan Imaging",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cs-partners-advises-mahajan-imaging-on-joint-venture-with-neuberg-diagnostics",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "C&S Partners advises Mahajan Imaging on JV with Neuberg Diagnostics"
+    },
+    {
       "id": 306,
       "name": "Deepank Anand",
       "firm": "JSA Advocates & Solicitors",
@@ -39635,6 +40695,39 @@
       "snapshot": "JSA leads Coforge to close Cigniti acquisition - Bar and Bench"
     },
     {
+      "id": 3622,
+      "name": "Deepansh Goyal",
+      "firm": null,
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha...",
+      "same_name_elsewhere": [
+        {
+          "id": 1746,
+          "firm": "CMS INDUSLAW",
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 1746,
       "name": "Deepansh Goyal",
       "firm": "CMS INDUSLAW",
@@ -39655,7 +40748,19 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "Trilegal, Cooley, AZB, Latham, SAM, CMS INDUSLAW act on CRED securing $900 million from Meta"
+      "snapshot": "Trilegal, Cooley, AZB, Latham, SAM, CMS INDUSLAW act on CRED securing $900 million from Meta",
+      "same_name_elsewhere": [
+        {
+          "id": 3622,
+          "firm": null,
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 2192,
@@ -40347,7 +41452,8 @@
       ],
       "clients": [
         "ICICI Prudential AMC",
-        "NDTV"
+        "NDTV",
+        "Atomberg"
       ],
       "deals": [
         {
@@ -40369,6 +41475,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, Khaitan & Co act on Atomberg ₹450 crore+ proposed IPO",
+          "client": "Atomberg",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-khaitan-co-act-on-atomberg-450-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
         }
       ],
       "snapshot": "CAM, S&R, SAM, Sidley Austin act on ICICI Prudential AMC ₹10602 crore IPO"
@@ -40688,6 +41806,27 @@
       "snapshot": "JSA acts on Deccan AI $25 million Series A fundraise - Bar and Bench"
     },
     {
+      "id": 3629,
+      "name": "Devika Garg",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha..."
+    },
+    {
       "id": 2070,
       "name": "Devika Nayak",
       "firm": "AZB & Partners",
@@ -40932,6 +42071,37 @@
         }
       ],
       "snapshot": "Khaitan & Co advises Logicap on acquisition of warehousing assets from Xander"
+    },
+    {
+      "id": 3592,
+      "name": "Dhairya Gawde",
+      "firm": "CMS INDUSLAW",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "QIP"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Gujarat Themis Biosyn"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, CMS INDUSLAW act on Gujarat Themis Biosyn ₹750 crore QIP",
+          "client": "Gujarat Themis Biosyn",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cms-induslaw-act-on-gujarat-themis-biosyn-750-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, CMS INDUSLAW act on Gujarat Themis Biosyn ₹750 crore QIP"
     },
     {
       "id": 2361,
@@ -42314,7 +43484,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "BRLMs"
+        "BRLMs",
+        "Atomberg"
       ],
       "deals": [
         {
@@ -42322,6 +43493,18 @@
           "client": "BRLMs",
           "url": "https://www.barandbench.com/dealstreet/cam-latham-trilegal-khaitan-act-on-manipal-hospitals-8000-crore-proposed-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, Khaitan & Co act on Atomberg ₹450 crore+ proposed IPO",
+          "client": "Atomberg",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-khaitan-co-act-on-atomberg-450-crore-proposed-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -43036,6 +44219,7 @@
       "role_bucket": "Senior Associate",
       "transaction_types": [
         "Series B",
+        "Series D",
         "acquisition",
         "fundraise"
       ],
@@ -43045,7 +44229,8 @@
       ],
       "clients": [
         "Weavers",
-        "WestBridge Capital"
+        "WestBridge Capital",
+        "Third Wave Coffee"
       ],
       "deals": [
         {
@@ -43068,6 +44253,19 @@
           "types": [
             "fundraise",
             "Series B"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co advises Third Wave Coffee on ₹408 crore Series D fundraise",
+          "client": "Third Wave Coffee",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-third-wave-coffee-on-408-crore-series-d-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series D",
+            "fundraise"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
@@ -43238,6 +44436,27 @@
         }
       ],
       "snapshot": "Antares, SAM guide IHCL acquisition of 51% stake in Brij Hotels - Bar and Bench"
+    },
+    {
+      "id": 3628,
+      "name": "Divyanshu Sharma",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha..."
     },
     {
       "id": 1841,
@@ -43698,6 +44917,37 @@
         }
       ],
       "snapshot": "Trilegal, Khaitan & Co act on JBM Ecolife Mobility securing ₹750 crore from Motilal Oswal"
+    },
+    {
+      "id": 3605,
+      "name": "Drishti Kapadia",
+      "firm": "Trilegal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "DSP Finance"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises DSP Finance on its merger with Volt Money",
+          "client": "DSP Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-dsp-finance-on-its-merger-with-volt-money",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises DSP Finance on its merger with Volt Money"
     },
     {
       "id": 2574,
@@ -45853,6 +47103,39 @@
       "snapshot": "Trilegal advises Sona Comstar on partnership with Japan's DENSO Corp"
     },
     {
+      "id": 3655,
+      "name": "Ganesh Prasad",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "Series D",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Third Wave Coffee"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Third Wave Coffee on ₹408 crore Series D fundraise",
+          "client": "Third Wave Coffee",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-third-wave-coffee-on-408-crore-series-d-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series D",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Third Wave Coffee on ₹408 crore Series D fundraise"
+    },
+    {
       "id": 2232,
       "name": "Gangesh Verma",
       "firm": "Saraf and Partners",
@@ -47481,13 +48764,22 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "Carrier acquiring"
+        "Carrier acquiring",
+        "Carrier"
       ],
       "deals": [
         {
           "headline": "TT&A, Paul Weiss, Avisen Legal act on Carrier acquiring 75F Inc.",
           "client": "Carrier acquiring",
           "url": "https://www.barandbench.com/dealstreet/tta-paul-weiss-avisen-legal-act-on-carrier-acquiring-75f-inc",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "TT&A advises Carrier on acquiring land for manufacturing facility in Andhra Pradesh",
+          "client": "Carrier",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-advises-carrier-on-acquiring-land-for-manufacturing-facility-in-andhra-pradesh",
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
@@ -50298,6 +51590,37 @@
       "snapshot": "CAM advises JP Morgan on setting up of Asia's largest GCC in Mumbai - Bar and Bench"
     },
     {
+      "id": 3648,
+      "name": "Harshali Srivastava",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Aragen Life Sciences"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, TT&A, Trilegal act on Aragen Life Sciences ₹800 crore+ proposed IPO",
+          "client": "Aragen Life Sciences",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-tta-trilegal-act-on-aragen-life-sciences-800-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, TT&A, Trilegal act on Aragen Life Sciences ₹800 crore+ proposed IPO"
+    },
+    {
       "id": 787,
       "name": "Harshil Kakkar",
       "firm": "JSA Advocates & Solicitors",
@@ -52209,6 +53532,39 @@
       "snapshot": "Cyril Amarchand Mangaldas advises University of New South Wales on setting up campus ..."
     },
     {
+      "id": 3616,
+      "name": "Hrishav Kumar",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha...",
+      "same_name_elsewhere": [
+        {
+          "id": 2304,
+          "firm": "CMS INDUSLAW",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 2304,
       "name": "Hrishav Kumar",
       "firm": "CMS INDUSLAW",
@@ -52237,7 +53593,19 @@
           ]
         }
       ],
-      "snapshot": "CMS INDUSLAW advises Shriram Pistons on €159 million acquisition of three companies ..."
+      "snapshot": "CMS INDUSLAW advises Shriram Pistons on €159 million acquisition of three companies ...",
+      "same_name_elsewhere": [
+        {
+          "id": 3616,
+          "firm": null,
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 3413,
@@ -52665,10 +54033,16 @@
       "firm": "Talwar Thakore & Associates",
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
       "clients": [
-        "Jefferies India"
+        "Jefferies India",
+        "Aragen Life Sciences",
+        "Nobel Hygiene"
       ],
       "deals": [
         {
@@ -52678,6 +54052,30 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, TT&A, Trilegal act on Aragen Life Sciences ₹800 crore+ proposed IPO",
+          "client": "Aragen Life Sciences",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-tta-trilegal-act-on-aragen-life-sciences-800-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, TT&A, JSA act on Nobel Hygiene ₹150 crore+ proposed IPO",
+          "client": "Nobel Hygiene",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-jsa-act-on-nobel-hygiene-150-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
         }
       ],
       "snapshot": "JSA, TT&A, Ashurst act on SMBC sale of shares in Kotak Mahindra Bank for Rs 6,256 crore"
@@ -54117,6 +55515,37 @@
       "snapshot": "SAM, CAM, Latham act on Groww ₹6,632 crore IPO - Bar and Bench"
     },
     {
+      "id": 3654,
+      "name": "Jacob George",
+      "firm": "River Law",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Investcorp's"
+      ],
+      "deals": [
+        {
+          "headline": "Anagram Partners, River Law act on Investcorp's ₹500 crore acquisition of 20Cube",
+          "client": "Investcorp's",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/anagram-partners-river-law-act-on-investcorps-500-crore-acquisition-of-20cube",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Anagram Partners, River Law act on Investcorp's ₹500 crore acquisition of 20Cube"
+    },
+    {
       "id": 1666,
       "name": "Jacob Meninga",
       "firm": "Latham & Watkins",
@@ -54941,6 +56370,37 @@
       "snapshot": "Accelerating India's AI Adoption: SAM, Hogan Lovells, Cooley act on $100 million Reliance–Meta JV"
     },
     {
+      "id": 3594,
+      "name": "Janhavi Deo Yadav",
+      "firm": "CMS INDUSLAW",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "QIP"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Gujarat Themis Biosyn"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, CMS INDUSLAW act on Gujarat Themis Biosyn ₹750 crore QIP",
+          "client": "Gujarat Themis Biosyn",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cms-induslaw-act-on-gujarat-themis-biosyn-750-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, CMS INDUSLAW act on Gujarat Themis Biosyn ₹750 crore QIP"
+    },
+    {
       "id": 809,
       "name": "Janhavi Deshmukh",
       "firm": "Cyril Amarchand Mangaldas",
@@ -55215,7 +56675,8 @@
       ],
       "clients": [
         "Book Running Lead Managers",
-        "Piramal Enterprises Limited and Piramal Finance Limited"
+        "Piramal Enterprises Limited and Piramal Finance Limited",
+        "Aragen Life Sciences"
       ],
       "deals": [
         {
@@ -55266,6 +56727,18 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, TT&A, Trilegal act on Aragen Life Sciences ₹800 crore+ proposed IPO",
+          "client": "Aragen Life Sciences",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-tta-trilegal-act-on-aragen-life-sciences-800-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
           ]
         }
       ],
@@ -56214,8 +57687,8 @@
       "id": 1161,
       "name": "Jeebitesh Bhattacharya",
       "firm": "JSA Advocates & Solicitors",
-      "role": "Associate",
-      "role_bucket": "Associate",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
       "transaction_types": [
         "IPO",
         "fundraise"
@@ -56228,7 +57701,8 @@
         "Raajmarg InvIT, NHAI, and Investment Manager",
         "NHIT",
         "BRLMs",
-        "Nuvama Wealth Management Limited (Lead Manager)"
+        "Nuvama Wealth Management Limited (Lead Manager)",
+        "Atomberg"
       ],
       "deals": [
         {
@@ -56272,6 +57746,18 @@
           "client": "Nuvama Wealth Management Limited (Lead Manager)",
           "url": "https://www.barandbench.com/dealstreet/cam-jsa-act-on-anantam-highways-trust-400-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, Khaitan & Co act on Atomberg ₹450 crore+ proposed IPO",
+          "client": "Atomberg",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-khaitan-co-act-on-atomberg-450-crore-proposed-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -57449,6 +58935,7 @@
       "transaction_types": [
         "acquisition",
         "investment",
+        "merger",
         "stake acquisition"
       ],
       "practice_areas": [
@@ -57459,7 +58946,8 @@
         "iMerit and shareholders",
         "Mittal Family",
         "CA Sardo Investments/Carlyle (TMT law)",
-        "Oxane Partners securing investment from TA Associates"
+        "Oxane Partners securing investment from TA Associates",
+        "DSP Finance"
       ],
       "deals": [
         {
@@ -57509,6 +58997,18 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Trilegal advises DSP Finance on its merger with Volt Money",
+          "client": "DSP Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-dsp-finance-on-its-merger-with-volt-money",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -58258,6 +59758,27 @@
       "snapshot": "Wilson Sonsini, JSA, Latham act on Marvell's acquisition of Celestial AI"
     },
     {
+      "id": 3637,
+      "name": "Joshua Joseph",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha..."
+    },
+    {
       "id": 3123,
       "name": "Joshua Thompson",
       "firm": "Paul Weiss",
@@ -58427,6 +59948,27 @@
         }
       ],
       "snapshot": "JSA advises Nuveen on Indian law aspects of £9.9 billion takeover of Schroders"
+    },
+    {
+      "id": 3620,
+      "name": "Jubin Jay",
+      "firm": null,
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha..."
     },
     {
       "id": 3563,
@@ -59066,6 +60608,37 @@
       "snapshot": "Trilegal, CMS INDUSLAW act on EMI Metals ₹500 crore+ proposed IPO - Bar and Bench"
     },
     {
+      "id": 3603,
+      "name": "Kaazvin Kapadia",
+      "firm": "Trilegal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "DSP Finance"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises DSP Finance on its merger with Volt Money",
+          "client": "DSP Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-dsp-finance-on-its-merger-with-volt-money",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises DSP Finance on its merger with Volt Money"
+    },
+    {
       "id": 2710,
       "name": "Kabeer Jay",
       "firm": "Cyril Amarchand Mangaldas",
@@ -59189,8 +60762,8 @@
       "id": 1564,
       "name": "Kairav Parikh",
       "firm": "JSA Advocates & Solicitors",
-      "role": "Principal Associate",
-      "role_bucket": "Principal Associate",
+      "role": "Partner",
+      "role_bucket": "Partner",
       "transaction_types": [
         "IPO",
         "QIP"
@@ -59202,7 +60775,8 @@
         "E2E Networks",
         "Book Running Lead Managers",
         "Zota Health Care Limited",
-        "BRLMs"
+        "BRLMs",
+        "Atomberg"
       ],
       "deals": [
         {
@@ -59258,6 +60832,18 @@
           "client": "Book Running Lead Managers",
           "url": "https://www.barandbench.com/dealstreet/sam-jsa-act-on-corona-remedies-655-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, Khaitan & Co act on Atomberg ₹450 crore+ proposed IPO",
+          "client": "Atomberg",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-khaitan-co-act-on-atomberg-450-crore-proposed-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -59623,6 +61209,49 @@
       }
     },
     {
+      "id": 3595,
+      "name": "Kanchi Malhotra",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Atomberg"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, Khaitan & Co act on Atomberg ₹450 crore+ proposed IPO",
+          "client": "Atomberg",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-khaitan-co-act-on-atomberg-450-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, JSA, Khaitan & Co act on Atomberg ₹450 crore+ proposed IPO",
+      "same_name_elsewhere": [
+        {
+          "id": 2971,
+          "firm": "Verist Law",
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 2971,
       "name": "Kanchi Malhotra",
       "firm": "Verist Law",
@@ -59651,7 +61280,19 @@
           ]
         }
       ],
-      "snapshot": "Trilegal, Verist Law, TT&A, Hogan Lovells act on Marri Retail ₹522 crore+ proposed IPO"
+      "snapshot": "Trilegal, Verist Law, TT&A, Hogan Lovells act on Marri Retail ₹522 crore+ proposed IPO",
+      "same_name_elsewhere": [
+        {
+          "id": 3595,
+          "firm": "Khaitan & Co",
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 864,
@@ -59816,7 +61457,8 @@
       ],
       "clients": [
         "ICICI Securities Limited",
-        "Globus Spirits"
+        "Globus Spirits",
+        "Gujarat Themis Biosyn"
       ],
       "deals": [
         {
@@ -59835,6 +61477,18 @@
           "headline": "JSA, CMS INDUSLAW, Duane Morris & Selvam act on Globus Spirits ₹200 crore QIP",
           "client": "Globus Spirits",
           "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-cms-induslaw-duane-morris-selvam-act-on-globus-spirits-200-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Trilegal, CMS INDUSLAW act on Gujarat Themis Biosyn ₹750 crore QIP",
+          "client": "Gujarat Themis Biosyn",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cms-induslaw-act-on-gujarat-themis-biosyn-750-crore-qip",
           "source": "Bar & Bench",
           "types": [
             "QIP"
@@ -59878,6 +61532,37 @@
         }
       ],
       "snapshot": "VERTICES, Argus, JSA, Antares act on FlipSpaces $50 million Series C fundraise"
+    },
+    {
+      "id": 3651,
+      "name": "Kanishka Gunjiyal",
+      "firm": "Anagram Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Investcorp's"
+      ],
+      "deals": [
+        {
+          "headline": "Anagram Partners, River Law act on Investcorp's ₹500 crore acquisition of 20Cube",
+          "client": "Investcorp's",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/anagram-partners-river-law-act-on-investcorps-500-crore-acquisition-of-20cube",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Anagram Partners, River Law act on Investcorp's ₹500 crore acquisition of 20Cube"
     },
     {
       "id": 2711,
@@ -60295,7 +61980,8 @@
         "Clean Max Enviro Energy Solutions Limited",
         "Clean Max Atlas Private Limited",
         "VEH Green Energy",
-        "IndusInd Bank"
+        "IndusInd Bank",
+        "Gelos Solren"
       ],
       "deals": [
         {
@@ -60461,6 +62147,14 @@
           "practice_areas": [
             "Banking & Finance"
           ]
+        },
+        {
+          "headline": "JSA advises Gelos Solren on availing ₹875 crore from EXIM Bank",
+          "client": "Gelos Solren",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-gelos-solren-on-availing-875-crore-from-exim-bank",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "JSA advises Tata Capital on ₹305 crore financing extended to Enerparc Group"
@@ -61693,7 +63387,8 @@
       "clients": [
         "Sammaan Capital",
         "ICICI Securities Limited",
-        "Globus Spirits"
+        "Globus Spirits",
+        "Gujarat Themis Biosyn"
       ],
       "deals": [
         {
@@ -61720,6 +63415,18 @@
           "headline": "JSA, CMS INDUSLAW, Duane Morris & Selvam act on Globus Spirits ₹200 crore QIP",
           "client": "Globus Spirits",
           "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-cms-induslaw-duane-morris-selvam-act-on-globus-spirits-200-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Trilegal, CMS INDUSLAW act on Gujarat Themis Biosyn ₹750 crore QIP",
+          "client": "Gujarat Themis Biosyn",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cms-induslaw-act-on-gujarat-themis-biosyn-750-crore-qip",
           "source": "Bar & Bench",
           "types": [
             "QIP"
@@ -62228,6 +63935,37 @@
       "snapshot": "CAM, TT&A, WvT, Trowers & Hamlins act on ACEN India securing ₹751 crore funding for ..."
     },
     {
+      "id": 3649,
+      "name": "Kavya Nagamangala",
+      "firm": "Anagram Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Investcorp's"
+      ],
+      "deals": [
+        {
+          "headline": "Anagram Partners, River Law act on Investcorp's ₹500 crore acquisition of 20Cube",
+          "client": "Investcorp's",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/anagram-partners-river-law-act-on-investcorps-500-crore-acquisition-of-20cube",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Anagram Partners, River Law act on Investcorp's ₹500 crore acquisition of 20Cube"
+    },
+    {
       "id": 3416,
       "name": "Kay Howe Lee",
       "firm": "Latham & Watkins",
@@ -62516,7 +64254,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Nobel Hygiene"
       ],
       "deals": [
         {
@@ -62524,6 +64263,18 @@
           "client": "Book Running Lead Managers",
           "url": "https://www.barandbench.com/dealstreet/trilegal-verist-law-tta-hogan-lovells-act-on-marri-retail-522-crore-proposed-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, TT&A, JSA act on Nobel Hygiene ₹150 crore+ proposed IPO",
+          "client": "Nobel Hygiene",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-jsa-act-on-nobel-hygiene-150-crore-proposed-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -65380,6 +67131,37 @@
       "snapshot": "TPG-led consortium to acquire Aseem Infra Finance; CAM, Linklaters, Trilegal, SAM advise"
     },
     {
+      "id": 3652,
+      "name": "Kshitij Nair",
+      "firm": "Anagram Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Investcorp's"
+      ],
+      "deals": [
+        {
+          "headline": "Anagram Partners, River Law act on Investcorp's ₹500 crore acquisition of 20Cube",
+          "client": "Investcorp's",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/anagram-partners-river-law-act-on-investcorps-500-crore-acquisition-of-20cube",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Anagram Partners, River Law act on Investcorp's ₹500 crore acquisition of 20Cube"
+    },
+    {
       "id": 737,
       "name": "Kshitij Sharma",
       "firm": "Trilegal",
@@ -66728,6 +68510,27 @@
       "snapshot": "Trilegal assists Zetwerk on DRHP filing - Bar and Bench"
     },
     {
+      "id": 3632,
+      "name": "Laksh Sharma",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha..."
+    },
+    {
       "id": 2603,
       "name": "Lakshmi Prakash",
       "firm": "Cyril Amarchand Mangaldas",
@@ -67920,14 +69723,18 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "acquisition"
+        "Series D",
+        "acquisition",
+        "fundraise"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
         "Weavers",
-        "Bessemer Venture Partners"
+        "Bessemer Venture Partners",
+        "Third Wave Coffee"
       ],
       "deals": [
         {
@@ -67949,6 +69756,19 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Khaitan & Co advises Third Wave Coffee on ₹408 crore Series D fundraise",
+          "client": "Third Wave Coffee",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-third-wave-coffee-on-408-crore-series-d-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series D",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
       "snapshot": "Khaitan, JSA act on Weavers acquiring majority stake in Centrum Housing Finance"
@@ -68308,7 +70128,8 @@
       ],
       "clients": [
         "JSW Infrastructure",
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Atomberg"
       ],
       "deals": [
         {
@@ -68328,6 +70149,18 @@
           "client": "Book Running Lead Managers",
           "url": "https://www.barandbench.com/dealstreet/nses-ipo-which-law-firms-are-advising-the-stock-exchange-on-its-public-listing",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, Khaitan & Co act on Atomberg ₹450 crore+ proposed IPO",
+          "client": "Atomberg",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-khaitan-co-act-on-atomberg-450-crore-proposed-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -68492,7 +70325,8 @@
         "Manorama Industries",
         "Book Running Lead Managers",
         "Travelstack and founder promoters",
-        "Globus Spirits"
+        "Globus Spirits",
+        "Nobel Hygiene"
       ],
       "deals": [
         {
@@ -68566,6 +70400,18 @@
           "source": "Bar & Bench",
           "types": [
             "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, TT&A, JSA act on Nobel Hygiene ₹150 crore+ proposed IPO",
+          "client": "Nobel Hygiene",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-jsa-act-on-nobel-hygiene-150-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -68743,8 +70589,8 @@
       "id": 2901,
       "name": "Mahaveer Singh",
       "firm": "JSA Advocates & Solicitors",
-      "role": "Company Secretary",
-      "role_bucket": "Other",
+      "role": "Associate",
+      "role_bucket": "Associate",
       "transaction_types": [
         "IPO",
         "restructuring"
@@ -68754,7 +70600,8 @@
         "Restructuring & Insolvency"
       ],
       "clients": [
-        "Travelstack and founder promoters"
+        "Travelstack and founder promoters",
+        "Nobel Hygiene"
       ],
       "deals": [
         {
@@ -68769,6 +70616,18 @@
           "practice_areas": [
             "Capital Markets",
             "Restructuring & Insolvency"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, TT&A, JSA act on Nobel Hygiene ₹150 crore+ proposed IPO",
+          "client": "Nobel Hygiene",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-jsa-act-on-nobel-hygiene-150-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
           ]
         }
       ],
@@ -72362,7 +74221,8 @@
       ],
       "clients": [
         "Rentomojo & Promoter Selling Shareholder",
-        "Nxt-Infra Trust"
+        "Nxt-Infra Trust",
+        "Aragen Life Sciences"
       ],
       "deals": [
         {
@@ -72384,6 +74244,18 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, TT&A, Trilegal act on Aragen Life Sciences ₹800 crore+ proposed IPO",
+          "client": "Aragen Life Sciences",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-tta-trilegal-act-on-aragen-life-sciences-800-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
         }
       ],
       "snapshot": "CAM, Trilegal, TT&A, Hogan Lovells act on Rentomojo proposed ₹150 crore+ IPO"
@@ -73263,6 +75135,37 @@
         }
       ],
       "snapshot": "Trilegal advises JM Financial on ₹150 crore investment in NG Electro - Bar and Bench"
+    },
+    {
+      "id": 3653,
+      "name": "Mayuri Kalelkar",
+      "firm": "Anagram Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Investcorp's"
+      ],
+      "deals": [
+        {
+          "headline": "Anagram Partners, River Law act on Investcorp's ₹500 crore acquisition of 20Cube",
+          "client": "Investcorp's",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/anagram-partners-river-law-act-on-investcorps-500-crore-acquisition-of-20cube",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Anagram Partners, River Law act on Investcorp's ₹500 crore acquisition of 20Cube"
     },
     {
       "id": 640,
@@ -75505,7 +77408,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Aragen Life Sciences"
       ],
       "deals": [
         {
@@ -75513,6 +77417,18 @@
           "client": "Book Running Lead Managers",
           "url": "https://www.barandbench.com/dealstreet/cam-trilegal-hogan-lovells-act-on-runwall-realty-2000-crore-proposed-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, TT&A, Trilegal act on Aragen Life Sciences ₹800 crore+ proposed IPO",
+          "client": "Aragen Life Sciences",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-tta-trilegal-act-on-aragen-life-sciences-800-crore-proposed-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -75553,6 +77469,37 @@
         }
       ],
       "snapshot": "Trilegal, K&L Gates, Baker & McKenzie, AZB act on Wipro's $375 million acquisition of ..."
+    },
+    {
+      "id": 3647,
+      "name": "Mohammed Khadri",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Aragen Life Sciences"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, TT&A, Trilegal act on Aragen Life Sciences ₹800 crore+ proposed IPO",
+          "client": "Aragen Life Sciences",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-tta-trilegal-act-on-aragen-life-sciences-800-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, TT&A, Trilegal act on Aragen Life Sciences ₹800 crore+ proposed IPO"
     },
     {
       "id": 3578,
@@ -76151,6 +78098,39 @@
       "snapshot": "DMD Advocates, JSA act on acquisition of Noble Seeds by BASF | Nunhems"
     },
     {
+      "id": 3618,
+      "name": "Monika Srivastava",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha...",
+      "same_name_elsewhere": [
+        {
+          "id": 3017,
+          "firm": "Khaitan & Co",
+          "role": "Partner",
+          "deal_count": 2
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 3017,
       "name": "Monika Srivastava",
       "firm": "Khaitan & Co",
@@ -76190,7 +78170,19 @@
           ]
         }
       ],
-      "snapshot": "Morgan Lewis, Khaitan & Co advise Cambridge Mobile Telematics on securing $350 million from TPG, Allianz X"
+      "snapshot": "Morgan Lewis, Khaitan & Co advise Cambridge Mobile Telematics on securing $350 million from TPG, Allianz X",
+      "same_name_elsewhere": [
+        {
+          "id": 3618,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 2882,
@@ -79284,6 +81276,29 @@
       "snapshot": "SAM advises Premier Energies on acquiring 51% stake in Ksolare Energy"
     },
     {
+      "id": 3665,
+      "name": "Neeharika Chauhan",
+      "firm": "C&S Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Mahajan Imaging"
+      ],
+      "deals": [
+        {
+          "headline": "C&S Partners advises Mahajan Imaging on JV with Neuberg Diagnostics",
+          "client": "Mahajan Imaging",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cs-partners-advises-mahajan-imaging-on-joint-venture-with-neuberg-diagnostics",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "C&S Partners advises Mahajan Imaging on JV with Neuberg Diagnostics"
+    },
+    {
       "id": 3322,
       "name": "Neekesh Shetty",
       "firm": "Khaitan & Co",
@@ -80106,13 +82121,22 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "Carrier acquiring"
+        "Carrier acquiring",
+        "Carrier"
       ],
       "deals": [
         {
           "headline": "TT&A, Paul Weiss, Avisen Legal act on Carrier acquiring 75F Inc.",
           "client": "Carrier acquiring",
           "url": "https://www.barandbench.com/dealstreet/tta-paul-weiss-avisen-legal-act-on-carrier-acquiring-75f-inc",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "TT&A advises Carrier on acquiring land for manufacturing facility in Andhra Pradesh",
+          "client": "Carrier",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-advises-carrier-on-acquiring-land-for-manufacturing-facility-in-andhra-pradesh",
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
@@ -81627,17 +83651,20 @@
       "id": 1341,
       "name": "Nikhil Narendran",
       "firm": "Trilegal",
-      "role": "Partner, TMT",
+      "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
         "Series B",
-        "fundraise"
+        "fundraise",
+        "merger"
       ],
       "practice_areas": [
+        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Sarvam AI & Founders"
+        "Sarvam AI & Founders",
+        "DSP Finance"
       ],
       "deals": [
         {
@@ -81651,6 +83678,18 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Trilegal advises DSP Finance on its merger with Volt Money",
+          "client": "DSP Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-dsp-finance-on-its-merger-with-volt-money",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -84549,7 +86588,8 @@
       "clients": [
         "Placement agents",
         "NSE",
-        "Runwal Realty"
+        "Runwal Realty",
+        "Atomberg"
       ],
       "deals": [
         {
@@ -84583,6 +86623,18 @@
           "client": "Runwal Realty",
           "url": "https://www.barandbench.com/dealstreet/cam-trilegal-hogan-lovells-act-on-runwall-realty-2000-crore-proposed-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, Khaitan & Co act on Atomberg ₹450 crore+ proposed IPO",
+          "client": "Atomberg",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-khaitan-co-act-on-atomberg-450-crore-proposed-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -85168,7 +87220,8 @@
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Godrej & Boyce Manufacturing"
+        "Godrej & Boyce Manufacturing",
+        "Investcorp's"
       ],
       "deals": [
         {
@@ -85176,6 +87229,18 @@
           "client": "Godrej & Boyce Manufacturing",
           "url": "https://www.barandbench.com/dealstreet/trilegal-advises-krber-on-acquiring-100-ownership-of-godrej-krber-supply-chain",
           "source": "Bar and Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Anagram Partners, River Law act on Investcorp's ₹500 crore acquisition of 20Cube",
+          "client": "Investcorp's",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/anagram-partners-river-law-act-on-investcorps-500-crore-acquisition-of-20cube",
+          "source": "Bar & Bench",
           "types": [
             "acquisition"
           ],
@@ -87582,7 +89647,8 @@
         "NHIT",
         "Book Running Lead Managers",
         "Zota Health Care Limited",
-        "BRLMs"
+        "BRLMs",
+        "Atomberg"
       ],
       "deals": [
         {
@@ -87691,6 +89757,18 @@
           "client": "BRLMs",
           "url": "https://www.barandbench.com/dealstreet/cam-sam-jsa-linklaters-act-on-shadowfax-1907-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, Khaitan & Co act on Atomberg ₹450 crore+ proposed IPO",
+          "client": "Atomberg",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-khaitan-co-act-on-atomberg-450-crore-proposed-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -88672,6 +90750,37 @@
       "snapshot": "CAM advises Hiranandani Financial Services on raising ₹800 crore from Vitruvian"
     },
     {
+      "id": 3602,
+      "name": "Prakshal Jain",
+      "firm": "Trilegal",
+      "role": "Counsel",
+      "role_bucket": "Counsel",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "DSP Finance"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises DSP Finance on its merger with Volt Money",
+          "client": "DSP Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-dsp-finance-on-its-merger-with-volt-money",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises DSP Finance on its merger with Volt Money"
+    },
+    {
       "id": 3152,
       "name": "Pranali Ashish Vyas",
       "firm": "Khaitan & Co",
@@ -88765,13 +90874,22 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "Carrier acquiring"
+        "Carrier acquiring",
+        "Carrier"
       ],
       "deals": [
         {
           "headline": "TT&A, Paul Weiss, Avisen Legal act on Carrier acquiring 75F Inc.",
           "client": "Carrier acquiring",
           "url": "https://www.barandbench.com/dealstreet/tta-paul-weiss-avisen-legal-act-on-carrier-acquiring-75f-inc",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "TT&A advises Carrier on acquiring land for manufacturing facility in Andhra Pradesh",
+          "client": "Carrier",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-advises-carrier-on-acquiring-land-for-manufacturing-facility-in-andhra-pradesh",
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
@@ -89289,6 +91407,39 @@
       "snapshot": "NSE IPO: Which law firms are advising the stock exchange on its public listing?"
     },
     {
+      "id": 3634,
+      "name": "Pranjal Prateek",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha...",
+      "same_name_elsewhere": [
+        {
+          "id": 2313,
+          "firm": "Khaitan & Co",
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 2313,
       "name": "Pranjal Prateek",
       "firm": "Khaitan & Co",
@@ -89317,7 +91468,19 @@
           ]
         }
       ],
-      "snapshot": "CMS INDUSLAW advises Shriram Pistons on €159 million acquisition of three companies ..."
+      "snapshot": "CMS INDUSLAW advises Shriram Pistons on €159 million acquisition of three companies ...",
+      "same_name_elsewhere": [
+        {
+          "id": 3634,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1499,
@@ -90328,6 +92491,37 @@
         }
       ],
       "snapshot": "JSA advises TIL on rights issue and stake acquisition in Tulip Compression - Bar and Bench"
+    },
+    {
+      "id": 3598,
+      "name": "Prateek Lala",
+      "firm": "Trilegal",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "DSP Finance"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises DSP Finance on its merger with Volt Money",
+          "client": "DSP Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-dsp-finance-on-its-merger-with-volt-money",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises DSP Finance on its merger with Volt Money"
     },
     {
       "id": 1880,
@@ -92897,7 +95091,8 @@
         "Restructuring & Insolvency"
       ],
       "clients": [
-        "Travelstack and founder promoters"
+        "Travelstack and founder promoters",
+        "Nobel Hygiene"
       ],
       "deals": [
         {
@@ -92912,6 +95107,18 @@
           "practice_areas": [
             "Capital Markets",
             "Restructuring & Insolvency"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, TT&A, JSA act on Nobel Hygiene ₹150 crore+ proposed IPO",
+          "client": "Nobel Hygiene",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-jsa-act-on-nobel-hygiene-150-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
           ]
         }
       ],
@@ -93793,7 +96000,8 @@
         "Banking & Finance"
       ],
       "clients": [
-        "YES Bank"
+        "YES Bank",
+        "Gelos Solren"
       ],
       "deals": [
         {
@@ -93807,6 +96015,14 @@
           "practice_areas": [
             "Banking & Finance"
           ]
+        },
+        {
+          "headline": "JSA advises Gelos Solren on availing ₹875 crore from EXIM Bank",
+          "client": "Gelos Solren",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-gelos-solren-on-availing-875-crore-from-exim-bank",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "JSA advises YES Bank on ₹519 crore financing provided to First Energy group"
@@ -94380,6 +96596,37 @@
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas advises Advent on Indian leg of acquisition of Sapiens International"
+    },
+    {
+      "id": 3606,
+      "name": "Rachna Chhabria",
+      "firm": "Trilegal",
+      "role": "Counsel",
+      "role_bucket": "Counsel",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "DSP Finance"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises DSP Finance on its merger with Volt Money",
+          "client": "DSP Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-dsp-finance-on-its-merger-with-volt-money",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises DSP Finance on its merger with Volt Money"
     },
     {
       "id": 2918,
@@ -95074,6 +97321,37 @@
         }
       ],
       "snapshot": "Bosch buys Bosch from Bosch in $970 million acquisition: JSA acts - Bar and Bench"
+    },
+    {
+      "id": 3650,
+      "name": "Rahil Arora",
+      "firm": "Anagram Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Investcorp's"
+      ],
+      "deals": [
+        {
+          "headline": "Anagram Partners, River Law act on Investcorp's ₹500 crore acquisition of 20Cube",
+          "client": "Investcorp's",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/anagram-partners-river-law-act-on-investcorps-500-crore-acquisition-of-20cube",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Anagram Partners, River Law act on Investcorp's ₹500 crore acquisition of 20Cube"
     },
     {
       "id": 1342,
@@ -96739,13 +99017,15 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
+        "acquisition",
         "merger"
       ],
       "practice_areas": [
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Mensa Group"
+        "Mensa Group",
+        "Investcorp's"
       ],
       "deals": [
         {
@@ -96755,6 +99035,18 @@
           "source": "Bar and Bench",
           "types": [
             "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Anagram Partners, River Law act on Investcorp's ₹500 crore acquisition of 20Cube",
+          "client": "Investcorp's",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/anagram-partners-river-law-act-on-investcorps-500-crore-acquisition-of-20cube",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
@@ -101598,6 +103890,27 @@
       "snapshot": "TPG-led consortium to acquire Aseem Infra Finance; CAM, Linklaters, Trilegal, SAM advise"
     },
     {
+      "id": 3636,
+      "name": "Ritika Ghosh",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha..."
+    },
+    {
       "id": 876,
       "name": "Ritika Khare",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -101904,6 +104217,37 @@
       "snapshot": "CAM, Khaitan, SAM, Latham act on Shiprocket ₹1,617 crore IPO"
     },
     {
+      "id": 3599,
+      "name": "Ritwik Mukherjee",
+      "firm": "Trilegal",
+      "role": "Counsel",
+      "role_bucket": "Counsel",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "DSP Finance"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises DSP Finance on its merger with Volt Money",
+          "client": "DSP Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-dsp-finance-on-its-merger-with-volt-money",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises DSP Finance on its merger with Volt Money"
+    },
+    {
       "id": 1723,
       "name": "Ritwik Sekhri",
       "firm": "Talwar Thakore & Associates",
@@ -101948,6 +104292,45 @@
         }
       ],
       "snapshot": "Khaitan & Co advises Kaynes Semicon on Fiscal Support Agreement with India ..."
+    },
+    {
+      "id": 3611,
+      "name": "Riya Gupta",
+      "firm": null,
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha...",
+      "same_name_elsewhere": [
+        {
+          "id": 1784,
+          "firm": "JSA Advocates & Solicitors",
+          "role": "Principal Associate",
+          "deal_count": 2
+        },
+        {
+          "id": 2635,
+          "firm": "AZB & Partners",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Multiple 'Riya Gupta' lawyers exist elsewhere (Chadha & Chadha IP, IndusLaw, others) but none clearly matches the JSA or AZB & Partners records in the dataset."
+      }
     },
     {
       "id": 1784,
@@ -101998,6 +104381,12 @@
       "snapshot": "Shardul Amarchand Mangaldas, JSA act on TruNativ $30 million Series B fundraise",
       "same_name_elsewhere": [
         {
+          "id": 3611,
+          "firm": null,
+          "role": "Principal Associate",
+          "deal_count": 1
+        },
+        {
           "id": 2635,
           "firm": "AZB & Partners",
           "role": "Associate",
@@ -102032,6 +104421,12 @@
       ],
       "snapshot": "CAM, AZB act on Warburg Pincus acquiring stake in Fleur Hotels - Bar and Bench",
       "same_name_elsewhere": [
+        {
+          "id": 3611,
+          "firm": null,
+          "role": "Principal Associate",
+          "deal_count": 1
+        },
         {
           "id": 1784,
           "firm": "JSA Advocates & Solicitors",
@@ -107410,6 +109805,27 @@
       "snapshot": "JSA advises Mamaearth on ₹135 crore majority stake acquisition in Fluence Pharma"
     },
     {
+      "id": 3633,
+      "name": "Sameer Parihar",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha..."
+    },
+    {
       "id": 3461,
       "name": "Sameer Sah",
       "firm": null,
@@ -108534,6 +110950,39 @@
       "snapshot": "JSA, Collyer Law, Argus Partners, IC RegFin Legal act on Meesho's ₹202 crore acquisition ..."
     },
     {
+      "id": 3619,
+      "name": "Sanchit Agarwal",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha...",
+      "same_name_elsewhere": [
+        {
+          "id": 3018,
+          "firm": "Khaitan & Co",
+          "role": "Partner",
+          "deal_count": 2
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 3018,
       "name": "Sanchit Agarwal",
       "firm": "Khaitan & Co",
@@ -108573,7 +111022,19 @@
           ]
         }
       ],
-      "snapshot": "Morgan Lewis, Khaitan & Co advise Cambridge Mobile Telematics on securing $350 million from TPG, Allianz X"
+      "snapshot": "Morgan Lewis, Khaitan & Co advise Cambridge Mobile Telematics on securing $350 million from TPG, Allianz X",
+      "same_name_elsewhere": [
+        {
+          "id": 3619,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 3520,
@@ -111126,13 +113587,16 @@
       "role_bucket": "Associate",
       "transaction_types": [
         "Series B",
-        "fundraise"
+        "fundraise",
+        "merger"
       ],
       "practice_areas": [
+        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Sarvam AI & Founders"
+        "Sarvam AI & Founders",
+        "DSP Finance"
       ],
       "deals": [
         {
@@ -111146,6 +113610,18 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Trilegal advises DSP Finance on its merger with Volt Money",
+          "client": "DSP Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-dsp-finance-on-its-merger-with-volt-money",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -111377,8 +113853,8 @@
       "id": 2819,
       "name": "Sarthak Parnami",
       "firm": "Anagram Partners",
-      "role": "Principal",
-      "role_bucket": "Other",
+      "role": "Partner",
+      "role_bucket": "Partner",
       "transaction_types": [
         "acquisition"
       ],
@@ -111386,7 +113862,8 @@
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Godrej & Boyce Manufacturing"
+        "Godrej & Boyce Manufacturing",
+        "Investcorp's"
       ],
       "deals": [
         {
@@ -111394,6 +113871,18 @@
           "client": "Godrej & Boyce Manufacturing",
           "url": "https://www.barandbench.com/dealstreet/trilegal-advises-krber-on-acquiring-100-ownership-of-godrej-krber-supply-chain",
           "source": "Bar and Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Anagram Partners, River Law act on Investcorp's ₹500 crore acquisition of 20Cube",
+          "client": "Investcorp's",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/anagram-partners-river-law-act-on-investcorps-500-crore-acquisition-of-20cube",
+          "source": "Bar & Bench",
           "types": [
             "acquisition"
           ],
@@ -112260,6 +114749,37 @@
       "snapshot": "JSA advises Snitch Apparels on acquisition of Berrylush - Bar and Bench"
     },
     {
+      "id": 3601,
+      "name": "Saurabh Saket",
+      "firm": "Trilegal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "DSP Finance"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises DSP Finance on its merger with Volt Money",
+          "client": "DSP Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-dsp-finance-on-its-merger-with-volt-money",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises DSP Finance on its merger with Volt Money"
+    },
+    {
       "id": 2095,
       "name": "Saurabh Sharma",
       "firm": "JSA Advocates & Solicitors",
@@ -112344,6 +114864,29 @@
         "verdict": "DIFFERENT_PEOPLE",
         "evidence": "Re-fetched the exact CAM source article (Jindal Power/1320MW thermal plant deal, barandbench.com): it explicitly and unambiguously credits 'Saurabh Sharma, Associate' doing due-diligence support under Partner Manasvini Raj's team, alongside other named Associates (Apoorv Jain, Pratiti Shah, Nishra Sejpal) - not a scraping error. The real CAM Partner Saurabh Sharma (nearly a decade at CAM, confirmed via Bar & Bench/Lexology to have joined JSA as Partner, Ahmedabad, Corporate/GIFT City practice) would not be credited as a junior Associate on a different partner's due-diligence team. These are two distinct people sharing a name: a senior CAM-Partner-turned-JSA-Partner, and an unrelated, more junior CAM Associate."
       }
+    },
+    {
+      "id": 3661,
+      "name": "Saurabh Tiwari",
+      "firm": "C&S Partners",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Mahajan Imaging"
+      ],
+      "deals": [
+        {
+          "headline": "C&S Partners advises Mahajan Imaging on JV with Neuberg Diagnostics",
+          "client": "Mahajan Imaging",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cs-partners-advises-mahajan-imaging-on-joint-venture-with-neuberg-diagnostics",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "C&S Partners advises Mahajan Imaging on JV with Neuberg Diagnostics"
     },
     {
       "id": 600,
@@ -113063,6 +115606,39 @@
       "snapshot": "JSA, Khaitan act on Coforge's $2.35 billion acquisition of Encora - Bar and Bench"
     },
     {
+      "id": 3643,
+      "name": "Shabnam Shaikh",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha...",
+      "same_name_elsewhere": [
+        {
+          "id": 3021,
+          "firm": "Khaitan & Co",
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 3021,
       "name": "Shabnam Shaikh",
       "firm": "Khaitan & Co",
@@ -113083,7 +115659,19 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "Morgan Lewis, Khaitan & Co advise Cambridge Mobile Telematics on securing $350 million from TPG, Allianz X"
+      "snapshot": "Morgan Lewis, Khaitan & Co advise Cambridge Mobile Telematics on securing $350 million from TPG, Allianz X",
+      "same_name_elsewhere": [
+        {
+          "id": 3643,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1768,
@@ -113258,6 +115846,39 @@
       "snapshot": "LIC Stake Sale: Dentons Link Legal, Trilegal, Sidley Austin and FBT Gibbons act on India’s Largest OFS of..."
     },
     {
+      "id": 3639,
+      "name": "Shailendra Bhandare",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha...",
+      "same_name_elsewhere": [
+        {
+          "id": 692,
+          "firm": "Khaitan & Co",
+          "role": "Partner",
+          "deal_count": 8
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 692,
       "name": "Shailendra Bhandare",
       "firm": "Khaitan & Co",
@@ -113380,7 +116001,19 @@
           ]
         }
       ],
-      "snapshot": "Khaitan, JSA act on Weavers acquiring majority stake in Centrum Housing Finance"
+      "snapshot": "Khaitan, JSA act on Weavers acquiring majority stake in Centrum Housing Finance",
+      "same_name_elsewhere": [
+        {
+          "id": 3639,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 2731,
@@ -114103,7 +116736,8 @@
         "Tata Capital Limited",
         "Six SPVs of Gemstar Infra Pte. Ltd.",
         "India Infradebt Limited",
-        "YES Bank"
+        "YES Bank",
+        "Gelos Solren"
       ],
       "deals": [
         {
@@ -114153,6 +116787,14 @@
           "practice_areas": [
             "Banking & Finance"
           ]
+        },
+        {
+          "headline": "JSA advises Gelos Solren on availing ₹875 crore from EXIM Bank",
+          "client": "Gelos Solren",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-gelos-solren-on-availing-875-crore-from-exim-bank",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "JSA advises Tata Capital on ₹305 crore financing extended to Enerparc Group"
@@ -114274,6 +116916,14 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "FleetX acquires Pando.ai; JSA, CMS INDUSLAW advise",
@@ -114351,7 +117001,7 @@
           "id": 3495,
           "firm": null,
           "role": "Partner",
-          "deal_count": 1
+          "deal_count": 2
         }
       ],
       "firm_verification": {
@@ -114675,6 +117325,29 @@
         }
       ],
       "snapshot": "JSA advises Hintastica on sale of Telangana manufacturing facility to Racold"
+    },
+    {
+      "id": 3666,
+      "name": "Sharmishtha Dube",
+      "firm": "C&S Partners",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Mahajan Imaging"
+      ],
+      "deals": [
+        {
+          "headline": "C&S Partners advises Mahajan Imaging on JV with Neuberg Diagnostics",
+          "client": "Mahajan Imaging",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cs-partners-advises-mahajan-imaging-on-joint-venture-with-neuberg-diagnostics",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "C&S Partners advises Mahajan Imaging on JV with Neuberg Diagnostics"
     },
     {
       "id": 1202,
@@ -116235,7 +118908,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Investor Selling Shareholders"
+        "Investor Selling Shareholders",
+        "Nobel Hygiene"
       ],
       "deals": [
         {
@@ -116243,6 +118917,18 @@
           "client": "Investor Selling Shareholders",
           "url": "https://www.barandbench.com/dealstreet/cam-trilegal-act-on-sedemac-mechatronics-1087-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, TT&A, JSA act on Nobel Hygiene ₹150 crore+ proposed IPO",
+          "client": "Nobel Hygiene",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-jsa-act-on-nobel-hygiene-150-crore-proposed-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -116566,6 +119252,27 @@
         }
       ],
       "snapshot": "TT&A, Trilegal, Gibson Dunn act on Neysa securing $1 billion+ funding from"
+    },
+    {
+      "id": 3626,
+      "name": "Shivangi Mishra",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha..."
     },
     {
       "id": 2291,
@@ -117406,10 +120113,16 @@
       "firm": "Khaitan & Co",
       "role": "Associate",
       "role_bucket": "Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "Series D",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
       "clients": [
-        "Bessemer Venture Partners"
+        "Bessemer Venture Partners",
+        "Third Wave Coffee"
       ],
       "deals": [
         {
@@ -117419,6 +120132,19 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Khaitan & Co advises Third Wave Coffee on ₹408 crore Series D fundraise",
+          "client": "Third Wave Coffee",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-third-wave-coffee-on-408-crore-series-d-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series D",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
       "snapshot": "Trilegal and Khaitan & Co lead on Aman Gupta's ₹100 Crore Seed Round for OFF/BEAT"
@@ -118081,6 +120807,39 @@
       "snapshot": "Trilegal acts on Power Finance Corp ~₹1057 crore NCD issuance - Bar and Bench"
     },
     {
+      "id": 3642,
+      "name": "Shramana Dwibedi",
+      "firm": null,
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha...",
+      "same_name_elsewhere": [
+        {
+          "id": 365,
+          "firm": "Khaitan & Co",
+          "role": "Principal Associate",
+          "deal_count": 4
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 365,
       "name": "Shramana Dwibedi",
       "firm": "Khaitan & Co",
@@ -118142,7 +120901,19 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat"
+      "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat",
+      "same_name_elsewhere": [
+        {
+          "id": 3642,
+          "firm": null,
+          "role": "Principal Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 574,
@@ -119846,6 +122617,27 @@
       "snapshot": "Trilegal, Quillon Partners act on Tynor securing $200 million investment from Kedaara Capital"
     },
     {
+      "id": 3630,
+      "name": "Shriya Garg",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha..."
+    },
+    {
       "id": 704,
       "name": "Shriya Kamat",
       "firm": "Khaitan & Co",
@@ -120373,6 +123165,7 @@
       "transaction_types": [
         "acquisition",
         "fundraise",
+        "merger",
         "stake acquisition"
       ],
       "practice_areas": [
@@ -120381,7 +123174,8 @@
       ],
       "clients": [
         "GIC",
-        "CA Sardo Investments/Carlyle (compliance/regulatory)"
+        "CA Sardo Investments/Carlyle (compliance/regulatory)",
+        "DSP Finance"
       ],
       "deals": [
         {
@@ -120404,6 +123198,18 @@
           "types": [
             "acquisition",
             "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Trilegal advises DSP Finance on its merger with Volt Money",
+          "client": "DSP Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-dsp-finance-on-its-merger-with-volt-money",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
@@ -121101,6 +123907,27 @@
       "snapshot": "Trilegal, TT&A, Cyril Amarchand Mangaldas act on Sarvam AI $300 million Series B fundraise"
     },
     {
+      "id": 3623,
+      "name": "Shubhang Upadhyay",
+      "firm": null,
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha..."
+    },
+    {
       "id": 1181,
       "name": "Shubhangi Bhatnagar",
       "firm": "DMD Advocates",
@@ -121499,13 +124326,15 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
+        "acquisition",
         "merger"
       ],
       "practice_areas": [
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Mensa Group"
+        "Mensa Group",
+        "Investcorp's"
       ],
       "deals": [
         {
@@ -121515,6 +124344,18 @@
           "source": "Bar and Bench",
           "types": [
             "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Anagram Partners, River Law act on Investcorp's ₹500 crore acquisition of 20Cube",
+          "client": "Investcorp's",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/anagram-partners-river-law-act-on-investcorps-500-crore-acquisition-of-20cube",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
@@ -122310,6 +125151,39 @@
       "snapshot": "CAM, Latham, Trilegal, JSA, Khaitan act on Manipal Hospitals ₹8,000 crore proposed IPO"
     },
     {
+      "id": 3610,
+      "name": "Siddharth Manchanda",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha...",
+      "same_name_elsewhere": [
+        {
+          "id": 98,
+          "firm": "JSA Advocates & Solicitors",
+          "role": "Partner",
+          "deal_count": 2
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 98,
       "name": "Siddharth Manchanda",
       "firm": "JSA Advocates & Solicitors",
@@ -122357,7 +125231,19 @@
           ]
         }
       ],
-      "snapshot": "Snabbit snaps up $56 million from Series D fundraise; JSA, Shardul Amarchand Mangaldas ..."
+      "snapshot": "Snabbit snaps up $56 million from Series D fundraise; JSA, Shardul Amarchand Mangaldas ...",
+      "same_name_elsewhere": [
+        {
+          "id": 3610,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 111,
@@ -122602,12 +125488,17 @@
       "id": 1818,
       "name": "Siddharth Ranade",
       "firm": "Trilegal",
-      "role": "Partner (Disputes)",
+      "role": "Partner",
       "role_bucket": "Partner",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "Apollo"
+        "Apollo",
+        "DSP Finance"
       ],
       "deals": [
         {
@@ -122617,6 +125508,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Trilegal advises DSP Finance on its merger with Volt Money",
+          "client": "DSP Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-dsp-finance-on-its-merger-with-volt-money",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "Trilegal advises Apollo on subscribing to $500 million notes issued by an Adani Energy ..."
@@ -123556,13 +126459,15 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
+        "acquisition",
         "merger"
       ],
       "practice_areas": [
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Mensa Group"
+        "Mensa Group",
+        "Investcorp's"
       ],
       "deals": [
         {
@@ -123572,6 +126477,18 @@
           "source": "Bar and Bench",
           "types": [
             "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Anagram Partners, River Law act on Investcorp's ₹500 crore acquisition of 20Cube",
+          "client": "Investcorp's",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/anagram-partners-river-law-act-on-investcorps-500-crore-acquisition-of-20cube",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
@@ -123666,7 +126583,8 @@
         "Restructuring & Insolvency"
       ],
       "clients": [
-        "Travelstack and founder promoters"
+        "Travelstack and founder promoters",
+        "Nobel Hygiene"
       ],
       "deals": [
         {
@@ -123681,6 +126599,18 @@
           "practice_areas": [
             "Capital Markets",
             "Restructuring & Insolvency"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, TT&A, JSA act on Nobel Hygiene ₹150 crore+ proposed IPO",
+          "client": "Nobel Hygiene",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-jsa-act-on-nobel-hygiene-150-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
           ]
         }
       ],
@@ -123756,7 +126686,7 @@
           "id": 2900,
           "firm": "JSA Advocates & Solicitors",
           "role": "Associate",
-          "deal_count": 1
+          "deal_count": 2
         },
         {
           "id": 3409,
@@ -123811,7 +126741,7 @@
           "id": 2900,
           "firm": "JSA Advocates & Solicitors",
           "role": "Associate",
-          "deal_count": 1
+          "deal_count": 2
         },
         {
           "id": 359,
@@ -123866,7 +126796,7 @@
           "id": 2900,
           "firm": "JSA Advocates & Solicitors",
           "role": "Associate",
-          "deal_count": 1
+          "deal_count": 2
         },
         {
           "id": 359,
@@ -124581,7 +127511,8 @@
       "clients": [
         "Book Running Lead Managers",
         "GSP Crop Science",
-        "APAR Industries"
+        "APAR Industries",
+        "Aragen Life Sciences"
       ],
       "deals": [
         {
@@ -124627,6 +127558,18 @@
           "source": "Bar & Bench",
           "types": [
             "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, TT&A, Trilegal act on Aragen Life Sciences ₹800 crore+ proposed IPO",
+          "client": "Aragen Life Sciences",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-tta-trilegal-act-on-aragen-life-sciences-800-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -125030,6 +127973,37 @@
         }
       ],
       "snapshot": "CAM advises JP Morgan on setting up of Asia's largest GCC in Mumbai - Bar and Bench"
+    },
+    {
+      "id": 3600,
+      "name": "Someny Singhal",
+      "firm": "Trilegal",
+      "role": "Counsel",
+      "role_bucket": "Counsel",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "DSP Finance"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises DSP Finance on its merger with Volt Money",
+          "client": "DSP Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-dsp-finance-on-its-merger-with-volt-money",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises DSP Finance on its merger with Volt Money"
     },
     {
       "id": 3142,
@@ -126643,7 +129617,8 @@
       "clients": [
         "JM Financial Limited and Avendus Capital Private Limited (BRLMs)",
         "Lead Managers",
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Atomberg"
       ],
       "deals": [
         {
@@ -126675,6 +129650,18 @@
           "client": "Book Running Lead Managers",
           "url": "https://www.barandbench.com/dealstreet/sam-khaitan-ao-shearman-act-on-tenneco-india-3600-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, Khaitan & Co act on Atomberg ₹450 crore+ proposed IPO",
+          "client": "Atomberg",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-khaitan-co-act-on-atomberg-450-crore-proposed-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -127491,6 +130478,37 @@
       "snapshot": "CAM advises Hiranandani Financial Services on raising ₹800 crore from Vitruvian"
     },
     {
+      "id": 3597,
+      "name": "Subah Hindaria",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Atomberg"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, Khaitan & Co act on Atomberg ₹450 crore+ proposed IPO",
+          "client": "Atomberg",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-khaitan-co-act-on-atomberg-450-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, JSA, Khaitan & Co act on Atomberg ₹450 crore+ proposed IPO"
+    },
+    {
       "id": 249,
       "name": "Subbalaxmi S",
       "firm": "Cyril Amarchand Mangaldas",
@@ -127574,13 +130592,15 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "IPO",
         "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
       ],
       "clients": [
-        "Anant Raj"
+        "Anant Raj",
+        "Atomberg"
       ],
       "deals": [
         {
@@ -127590,6 +130610,18 @@
           "source": "Bar and Bench",
           "types": [
             "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, Khaitan & Co act on Atomberg ₹450 crore+ proposed IPO",
+          "client": "Atomberg",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-khaitan-co-act-on-atomberg-450-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -128581,6 +131613,37 @@
       "snapshot": "Trilegal, K&L Gates, Baker & McKenzie, AZB act on Wipro's $375 million acquisition of ..."
     },
     {
+      "id": 3608,
+      "name": "Suhan S",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "DSP Finance"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises DSP Finance on its merger with Volt Money",
+          "client": "DSP Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-dsp-finance-on-its-merger-with-volt-money",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises DSP Finance on its merger with Volt Money"
+    },
+    {
       "id": 343,
       "name": "Suhel Qureshi",
       "firm": "Khaitan & Co",
@@ -129179,6 +132242,39 @@
       "snapshot": "Khaitan & Co acts on Texmaco Defence securing funds from Texmaco Rail, Calculus Defence Fund"
     },
     {
+      "id": 3641,
+      "name": "Supratim Chakraborty",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha...",
+      "same_name_elsewhere": [
+        {
+          "id": 364,
+          "firm": "Khaitan & Co",
+          "role": "Partner",
+          "deal_count": 7
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 364,
       "name": "Supratim Chakraborty",
       "firm": "Khaitan & Co",
@@ -129275,7 +132371,19 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat"
+      "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat",
+      "same_name_elsewhere": [
+        {
+          "id": 3641,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1272,
@@ -129764,8 +132872,8 @@
       "id": 968,
       "name": "Surya Rajkumar",
       "firm": "Cyril Amarchand Mangaldas",
-      "role": "Associate",
-      "role_bucket": "Associate",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
       "transaction_types": [
         "IPO"
       ],
@@ -129775,7 +132883,8 @@
       "clients": [
         "Rentomojo & Promoter Selling Shareholder",
         "Healthcare Global Enterprises",
-        "Shadowfax"
+        "Shadowfax",
+        "Aragen Life Sciences"
       ],
       "deals": [
         {
@@ -129803,6 +132912,18 @@
           "client": "Shadowfax",
           "url": "https://www.barandbench.com/dealstreet/cam-sam-jsa-linklaters-act-on-shadowfax-1907-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, TT&A, Trilegal act on Aragen Life Sciences ₹800 crore+ proposed IPO",
+          "client": "Aragen Life Sciences",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-tta-trilegal-act-on-aragen-life-sciences-800-crore-proposed-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -130848,7 +133969,8 @@
       ],
       "clients": [
         "Belrise Industries",
-        "ICICI Prudential AMC"
+        "ICICI Prudential AMC",
+        "Atomberg"
       ],
       "deals": [
         {
@@ -130868,6 +133990,18 @@
           "client": "ICICI Prudential AMC",
           "url": "https://www.barandbench.com/dealstreet/cam-sr-sam-sidley-austin-act-on-icici-prudential-amc-10600-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, Khaitan & Co act on Atomberg ₹450 crore+ proposed IPO",
+          "client": "Atomberg",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-khaitan-co-act-on-atomberg-450-crore-proposed-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -131861,6 +134995,37 @@
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas advises Kotak Mahindra Bank on acquisition of Private ..."
+    },
+    {
+      "id": 3646,
+      "name": "Tanvi Kini",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Aragen Life Sciences"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, TT&A, Trilegal act on Aragen Life Sciences ₹800 crore+ proposed IPO",
+          "client": "Aragen Life Sciences",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-tta-trilegal-act-on-aragen-life-sciences-800-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, TT&A, Trilegal act on Aragen Life Sciences ₹800 crore+ proposed IPO"
     },
     {
       "id": 2950,
@@ -133087,7 +136252,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Manipal Hospitals"
+        "Manipal Hospitals",
+        "Aragen Life Sciences"
       ],
       "deals": [
         {
@@ -133095,6 +136261,18 @@
           "client": "Manipal Hospitals",
           "url": "https://www.barandbench.com/dealstreet/cam-latham-trilegal-khaitan-act-on-manipal-hospitals-8000-crore-proposed-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, TT&A, Trilegal act on Aragen Life Sciences ₹800 crore+ proposed IPO",
+          "client": "Aragen Life Sciences",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-tta-trilegal-act-on-aragen-life-sciences-800-crore-proposed-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -134095,6 +137273,14 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise"
@@ -134523,7 +137709,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Aragen Life Sciences"
       ],
       "deals": [
         {
@@ -134531,6 +137718,18 @@
           "client": "Book Running Lead Managers",
           "url": "https://www.barandbench.com/dealstreet/cam-trilegal-act-on-powerica-1100-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, TT&A, Trilegal act on Aragen Life Sciences ₹800 crore+ proposed IPO",
+          "client": "Aragen Life Sciences",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-tta-trilegal-act-on-aragen-life-sciences-800-crore-proposed-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -135148,6 +138347,27 @@
       "snapshot": "Trilegal advises Sona Comstar on partnership with Japan's DENSO Corp"
     },
     {
+      "id": 3631,
+      "name": "Umang Agarwal",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha..."
+    },
+    {
       "id": 1287,
       "name": "Umang Chaturvedi",
       "firm": "Trilegal",
@@ -135243,6 +138463,39 @@
       "snapshot": "JSA, JM+P act on Iscon Balaji Foods $215 million Series A fundraise"
     },
     {
+      "id": 3615,
+      "name": "Unnati Agrawal",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha...",
+      "same_name_elsewhere": [
+        {
+          "id": 2301,
+          "firm": "CMS INDUSLAW",
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 2301,
       "name": "Unnati Agrawal",
       "firm": "CMS INDUSLAW",
@@ -135271,7 +138524,19 @@
           ]
         }
       ],
-      "snapshot": "CMS INDUSLAW advises Shriram Pistons on €159 million acquisition of three companies ..."
+      "snapshot": "CMS INDUSLAW advises Shriram Pistons on €159 million acquisition of three companies ...",
+      "same_name_elsewhere": [
+        {
+          "id": 3615,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 3239,
@@ -135693,6 +138958,37 @@
       "snapshot": "Khaitan, CAM guide Saregama India's ₹325 crore investment in Sanjay Leela Bhansali's studio"
     },
     {
+      "id": 3609,
+      "name": "V. Nityanand",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "DSP Finance"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises DSP Finance on its merger with Volt Money",
+          "client": "DSP Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-dsp-finance-on-its-merger-with-volt-money",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises DSP Finance on its merger with Volt Money"
+    },
+    {
       "id": 1482,
       "name": "V.R. Neelakantan",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -135763,6 +139059,39 @@
       "snapshot": "Shardul Amarchand Mangaldas Capital Markets Partner Rohit Tiwari moves to Trilegal"
     },
     {
+      "id": 3613,
+      "name": "Vaastu Tyagi",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha...",
+      "same_name_elsewhere": [
+        {
+          "id": 3341,
+          "firm": "JSA Advocates & Solicitors",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 3341,
       "name": "Vaastu Tyagi",
       "firm": "JSA Advocates & Solicitors",
@@ -135793,7 +139122,19 @@
           ]
         }
       ],
-      "snapshot": "JSA advises BlissClub on ₹160 crore Series B fundraise"
+      "snapshot": "JSA advises BlissClub on ₹160 crore Series B fundraise",
+      "same_name_elsewhere": [
+        {
+          "id": 3613,
+          "firm": null,
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 2163,
@@ -136143,7 +139484,8 @@
       "clients": [
         "JSW Infrastructure",
         "Advent International",
-        "Shiprocket"
+        "Shiprocket",
+        "Atomberg"
       ],
       "deals": [
         {
@@ -136174,6 +139516,18 @@
           "headline": "CAM, Khaitan, SAM, Latham act on Shiprocket ₹1,617 crore IPO",
           "client": "Shiprocket",
           "url": "https://www.barandbench.com/law-firms/dealstreet/cam-khaitan-sam-latham-act-on-shiprocket-1617-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, Khaitan & Co act on Atomberg ₹450 crore+ proposed IPO",
+          "client": "Atomberg",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-khaitan-co-act-on-atomberg-450-crore-proposed-ipo",
           "source": "Bar & Bench",
           "types": [
             "IPO"
@@ -136365,6 +139719,39 @@
       "snapshot": "AZB, JSA act on Canara Robeco ~₹1,326 crore IPO"
     },
     {
+      "id": 3640,
+      "name": "Vaishali Adhikari",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha...",
+      "same_name_elsewhere": [
+        {
+          "id": 1539,
+          "firm": "Khaitan & Co",
+          "role": "Senior Associate",
+          "deal_count": 3
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 1539,
       "name": "Vaishali Adhikari",
       "firm": "Khaitan & Co",
@@ -136419,7 +139806,19 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "Khaitan & Co, Cyril Amarchand Mangaldas act on Embio securing investment from True North"
+      "snapshot": "Khaitan & Co, Cyril Amarchand Mangaldas act on Embio securing investment from True North",
+      "same_name_elsewhere": [
+        {
+          "id": 3640,
+          "firm": null,
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 3310,
@@ -136809,10 +140208,15 @@
       "firm": "CMS INDUSLAW",
       "role": "Associate",
       "role_bucket": "Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "QIP"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
       "clients": [
-        "Sammaan Capital"
+        "Sammaan Capital",
+        "Gujarat Themis Biosyn"
       ],
       "deals": [
         {
@@ -136822,6 +140226,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Trilegal, CMS INDUSLAW act on Gujarat Themis Biosyn ₹750 crore QIP",
+          "client": "Gujarat Themis Biosyn",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cms-induslaw-act-on-gujarat-themis-biosyn-750-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
         }
       ],
       "snapshot": "CMS INDUSLAW, Clifford Chance, Trilegal, Linklaters act on Sammaan Capital $450 million ..."
@@ -136969,6 +140385,39 @@
       "snapshot": "VERTICES, Argus, JSA, Antares act on FlipSpaces $50 million Series C fundraise"
     },
     {
+      "id": 3644,
+      "name": "Vandana Pai",
+      "firm": null,
+      "role": "Senior Partner",
+      "role_bucket": "Senior Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha...",
+      "same_name_elsewhere": [
+        {
+          "id": 1144,
+          "firm": "Bharucha & Partners",
+          "role": "Senior Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 1144,
       "name": "Vandana Pai",
       "firm": "Bharucha & Partners",
@@ -136999,7 +140448,19 @@
           ]
         }
       ],
-      "snapshot": "KreditBee becomes Unicorn with $280 million Series E fundraise; Touchstone, Trilegal ..."
+      "snapshot": "KreditBee becomes Unicorn with $280 million Series E fundraise; Touchstone, Trilegal ...",
+      "same_name_elsewhere": [
+        {
+          "id": 3644,
+          "firm": null,
+          "role": "Senior Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 3443,
@@ -137312,6 +140773,37 @@
         }
       ],
       "snapshot": "DSK Legal, Cyril Amarchand Mangaldas act on TiL investing $1 billion in Adani Vizhinjam Port"
+    },
+    {
+      "id": 3596,
+      "name": "Vanshika Singh",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Atomberg"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, Khaitan & Co act on Atomberg ₹450 crore+ proposed IPO",
+          "client": "Atomberg",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-khaitan-co-act-on-atomberg-450-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, JSA, Khaitan & Co act on Atomberg ₹450 crore+ proposed IPO"
     },
     {
       "id": 1254,
@@ -140368,6 +143860,37 @@
       "snapshot": "Trilegal advises Continuum Green Energy on securing $67.5 million from Just Climate"
     },
     {
+      "id": 3591,
+      "name": "Vikhyaat Maheshwari",
+      "firm": "CMS INDUSLAW",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "QIP"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Gujarat Themis Biosyn"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, CMS INDUSLAW act on Gujarat Themis Biosyn ₹750 crore QIP",
+          "client": "Gujarat Themis Biosyn",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cms-induslaw-act-on-gujarat-themis-biosyn-750-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal, CMS INDUSLAW act on Gujarat Themis Biosyn ₹750 crore QIP"
+    },
+    {
       "id": 499,
       "name": "Vikram Raghani",
       "firm": "JSA Advocates & Solicitors",
@@ -143014,6 +146537,14 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "FleetX acquires Pando.ai; JSA, CMS INDUSLAW advise",
@@ -143091,7 +146622,7 @@
           "id": 3494,
           "firm": null,
           "role": "Partner",
-          "deal_count": 1
+          "deal_count": 2
         }
       ],
       "firm_verification": {
@@ -143595,7 +147126,8 @@
       ],
       "clients": [
         "ICICI Securities Limited",
-        "Globus Spirits"
+        "Globus Spirits",
+        "Gujarat Themis Biosyn"
       ],
       "deals": [
         {
@@ -143614,6 +147146,18 @@
           "headline": "JSA, CMS INDUSLAW, Duane Morris & Selvam act on Globus Spirits ₹200 crore QIP",
           "client": "Globus Spirits",
           "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-cms-induslaw-duane-morris-selvam-act-on-globus-spirits-200-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Trilegal, CMS INDUSLAW act on Gujarat Themis Biosyn ₹750 crore QIP",
+          "client": "Gujarat Themis Biosyn",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cms-induslaw-act-on-gujarat-themis-biosyn-750-crore-qip",
           "source": "Bar & Bench",
           "types": [
             "QIP"
@@ -143771,7 +147315,9 @@
         "Cube Highways Trust",
         "Molbio Diagnostics",
         "Shiprocket",
-        "Piramal Finance"
+        "Piramal Finance",
+        "Atomberg",
+        "Aragen Life Sciences"
       ],
       "deals": [
         {
@@ -143869,6 +147415,30 @@
           "source": "Bar & Bench",
           "types": [
             "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, Khaitan & Co act on Atomberg ₹450 crore+ proposed IPO",
+          "client": "Atomberg",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-khaitan-co-act-on-atomberg-450-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, TT&A, Trilegal act on Aragen Life Sciences ₹800 crore+ proposed IPO",
+          "client": "Aragen Life Sciences",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-tta-trilegal-act-on-aragen-life-sciences-800-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
           ],
           "practice_areas": [
             "Capital Markets"
