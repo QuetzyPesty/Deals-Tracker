@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 3668,
-    "firms": 106,
-    "deals": 478,
+    "people": 3705,
+    "firms": 107,
+    "deals": 483,
     "practice_areas": 6
   },
   "firms": [
@@ -85,6 +85,7 @@
     "River Law",
     "S&R Associates",
     "SKS Advisor",
+    "Saga Legal",
     "Samvād: Partners",
     "Saraf and Partners",
     "Sequitur Advocates & Legal Consultants",
@@ -914,7 +915,7 @@
     },
     {
       "firm": "Cyril Amarchand Mangaldas",
-      "people_count": 565,
+      "people_count": 579,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -922,10 +923,12 @@
             654,
             223,
             2652,
+            907,
             56,
             2566,
             1926,
             1123,
+            3684,
             2103,
             2811,
             2567,
@@ -947,6 +950,7 @@
             222,
             1362,
             27,
+            3678,
             247,
             1776,
             39,
@@ -973,6 +977,7 @@
             251,
             2785,
             2111,
+            3687,
             657,
             34,
             653,
@@ -981,8 +986,10 @@
             246,
             2110,
             2319,
+            3682,
             2102,
             1337,
+            3685,
             233,
             2959,
             2338,
@@ -991,12 +998,15 @@
             2711,
             2654,
             2334,
+            268,
             556,
             1691,
             2653,
+            2982,
             254,
             2603,
             957,
+            3681,
             1559,
             555,
             62,
@@ -1004,6 +1014,7 @@
             2649,
             2562,
             31,
+            3674,
             2106,
             33,
             2339,
@@ -1011,6 +1022,7 @@
             1923,
             443,
             59,
+            3675,
             660,
             2648,
             2564,
@@ -1026,6 +1038,7 @@
             267,
             1921,
             2987,
+            3680,
             235,
             1925,
             228,
@@ -1066,11 +1079,13 @@
             3253,
             553,
             954,
+            3683,
             32,
             950,
             232,
             2568,
             61,
+            3679,
             1121,
             1922,
             1561,
@@ -1085,13 +1100,16 @@
             41,
             1125,
             227,
+            3677,
             37,
             1338,
             225,
             953,
             2485,
             40,
+            3676,
             1124,
+            3686,
             2332,
             655,
             2161,
@@ -1275,7 +1293,6 @@
         {
           "area": "Unclassified",
           "person_ids": [
-            907,
             580,
             1780,
             2488,
@@ -1339,7 +1356,6 @@
             2608,
             1713,
             2795,
-            2982,
             1714,
             2326,
             2659,
@@ -2124,7 +2140,7 @@
     },
     {
       "firm": "JSA Advocates & Solicitors",
-      "people_count": 367,
+      "people_count": 379,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -2132,6 +2148,7 @@
             1889,
             437,
             6,
+            429,
             387,
             384,
             1598,
@@ -2140,6 +2157,7 @@
             304,
             1498,
             301,
+            3701,
             1112,
             2746,
             112,
@@ -2158,9 +2176,12 @@
             887,
             741,
             3549,
+            3698,
             1888,
+            3702,
             306,
             2859,
+            3696,
             705,
             435,
             3546,
@@ -2171,14 +2192,18 @@
             2268,
             2098,
             1503,
+            3695,
             505,
             2771,
             1065,
             1497,
+            3700,
             1599,
             1189,
             2891,
             2992,
+            3697,
+            3705,
             1944,
             1399,
             2220,
@@ -2186,6 +2211,7 @@
             965,
             1,
             2860,
+            3704,
             749,
             133,
             1943,
@@ -2198,6 +2224,7 @@
             836,
             708,
             1105,
+            3694,
             1193,
             2862,
             3,
@@ -2248,6 +2275,7 @@
             4,
             1194,
             744,
+            3699,
             1375,
             3542,
             1188,
@@ -2258,6 +2286,7 @@
             2991,
             431,
             2772,
+            3703,
             2890,
             1881,
             2040,
@@ -2525,7 +2554,6 @@
           "area": "Unclassified",
           "person_ids": [
             389,
-            429,
             2885,
             2494,
             2480,
@@ -2700,7 +2728,7 @@
     },
     {
       "firm": "Khaitan & Co",
-      "people_count": 490,
+      "people_count": 497,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -2714,6 +2742,7 @@
             722,
             3419,
             1077,
+            3550,
             858,
             695,
             694,
@@ -2721,7 +2750,9 @@
             3294,
             2946,
             3296,
+            3271,
             1073,
+            355,
             685,
             1614,
             1388,
@@ -2763,8 +2794,10 @@
             697,
             980,
             860,
+            1807,
             338,
             1068,
+            3691,
             1076,
             1198,
             2309,
@@ -2799,6 +2832,7 @@
             1616,
             346,
             212,
+            3007,
             15,
             1003,
             2870,
@@ -2821,6 +2855,7 @@
             157,
             158,
             1234,
+            3689,
             213,
             1061,
             1081,
@@ -2847,6 +2882,7 @@
             699,
             704,
             2310,
+            3688,
             689,
             3293,
             1619,
@@ -2865,6 +2901,8 @@
             1070,
             2866,
             2950,
+            1758,
+            1753,
             1199,
             2216,
             16,
@@ -2876,12 +2914,15 @@
             2867,
             983,
             1621,
+            3690,
+            3692,
             358,
             287,
             2872,
             2949,
             335,
-            2944
+            2944,
+            3693
           ]
         },
         {
@@ -3035,7 +3076,6 @@
             329,
             3155,
             318,
-            3550,
             3154,
             3278,
             2723,
@@ -3044,6 +3084,7 @@
             2722,
             3025,
             3027,
+            3673,
             3323,
             351,
             3093,
@@ -3856,6 +3897,21 @@
             2903,
             2905,
             2902
+          ]
+        }
+      ]
+    },
+    {
+      "firm": "Saga Legal",
+      "people_count": 4,
+      "practice_groups": [
+        {
+          "area": "Private Equity & Venture Capital",
+          "person_ids": [
+            3669,
+            3671,
+            3672,
+            3670
           ]
         }
       ]
@@ -7521,11 +7577,16 @@
       "firm": "Cyril Amarchand Mangaldas",
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
         "University of New South Wales",
-        "True North"
+        "True North",
+        "merger of Happiest Minds into ITC Infotech"
       ],
       "deals": [
         {
@@ -7543,6 +7604,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas advises University of New South Wales on setting up campus ..."
@@ -8163,7 +8236,8 @@
         "Chartered Speed Limited",
         "Shivalaya Construction and selling shareholders",
         "Capital Infra Trust",
-        "PNG Jewellers"
+        "PNG Jewellers",
+        "Lumino Industries"
       ],
       "deals": [
         {
@@ -8259,6 +8333,18 @@
           "source": "Bar & Bench",
           "types": [
             "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Trilegal advises Lumino Industries on ₹700 crore IPO",
+          "client": "Lumino Industries",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-lumino-industries-on-700-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -8951,7 +9037,9 @@
         "Viatris Inc",
         "Indorama Ventures/Indovida",
         "Stylam Industries Promoters",
-        "Advent International"
+        "Advent International",
+        "HT Media",
+        "merger of Happiest Minds into ITC Infotech"
       ],
       "deals": [
         {
@@ -8993,6 +9081,26 @@
           "source": "Bar and Bench",
           "types": [
             "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co advises HT Media on preferential issue of Warrants",
+          "client": "HT Media",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-ht-media-on-preferential-issue-of-warrants",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
@@ -11386,10 +11494,15 @@
       "firm": "Khaitan & Co",
       "role": "Associate",
       "role_bucket": "Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "TVS Group"
+        "TVS Group",
+        "merger of Happiest Minds into ITC Infotech"
       ],
       "deals": [
         {
@@ -11399,6 +11512,18 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "Khaitan & Co advises TVS Group on consolidation of financial services entities"
@@ -12391,12 +12516,17 @@
       "id": 429,
       "name": "Aditya Patadia",
       "firm": "JSA Advocates & Solicitors",
-      "role": "Associate (Direct Tax)",
+      "role": "Associate",
       "role_bucket": "Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "Allianz Group"
+        "Allianz Group",
+        "on India leg of Cisco's acquisition of WideField Security"
       ],
       "deals": [
         {
@@ -12406,6 +12536,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "JSA advises on India leg of Cisco's acquisition of WideField Security",
+          "client": "on India leg of Cisco's acquisition of WideField Security",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-on-india-leg-of-ciscos-acquisition-of-widefield-security",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "JSA, Cyril Amarchand Mangaldas act on Allianz - Jio General Insurance JV"
@@ -14749,6 +14891,37 @@
         }
       ],
       "snapshot": "AZB & Partners, Noerr, Linklaters act on TCS' €320 million acquisition of MHP from Porsche"
+    },
+    {
+      "id": 3684,
+      "name": "Akash Mishra",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "merger of Happiest Minds into ITC Infotech"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech"
     },
     {
       "id": 3217,
@@ -17239,6 +17412,37 @@
       "snapshot": "Khaitan, Lexygen, US law firms act on Standex’s acquisition of Amran/Narayan Group"
     },
     {
+      "id": 3669,
+      "name": "Alteria Capital",
+      "firm": "Saga Legal",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Ultrahuman"
+      ],
+      "deals": [
+        {
+          "headline": "Saga Legal advises Ultrahuman on $70 million fundraise",
+          "client": "Ultrahuman",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/saga-legal-advises-on-ultrahuman-on-70-million-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Saga Legal advises Ultrahuman on $70 million fundraise"
+    },
+    {
       "id": 2401,
       "name": "Amala G",
       "firm": "Trilegal",
@@ -17568,13 +17772,16 @@
       "role_bucket": "Partner",
       "transaction_types": [
         "Series C",
-        "fundraise"
+        "fundraise",
+        "merger"
       ],
       "practice_areas": [
+        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "River Mobility"
+        "River Mobility",
+        "merger of Happiest Minds into ITC Infotech"
       ],
       "deals": [
         {
@@ -17588,6 +17795,18 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -20720,6 +20939,37 @@
       "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
     },
     {
+      "id": 3701,
+      "name": "Andrew Luh",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "on India leg of Cisco's acquisition of WideField Security"
+      ],
+      "deals": [
+        {
+          "headline": "JSA advises on India leg of Cisco's acquisition of WideField Security",
+          "client": "on India leg of Cisco's acquisition of WideField Security",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-on-india-leg-of-ciscos-acquisition-of-widefield-security",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "JSA advises on India leg of Cisco's acquisition of WideField Security"
+    },
+    {
       "id": 557,
       "name": "Andri Shukla",
       "firm": "Cyril Amarchand Mangaldas",
@@ -21885,16 +22135,19 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
-        "fundraise"
+        "fundraise",
+        "merger"
       ],
       "practice_areas": [
+        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
         "VINCI Highways",
         "Just Climate",
         "BNP Paribas Cardif acquiring stake in IndiaFirst Life Insurance",
-        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+        "merger of Happiest Minds into ITC Infotech"
       ],
       "deals": [
         {
@@ -21932,6 +22185,18 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat"
@@ -22226,6 +22491,29 @@
         }
       ],
       "snapshot": "DSK Legal, Cyril Amarchand Mangaldas act on TiL investing $1 billion in Adani Vizhinjam Port"
+    },
+    {
+      "id": 3673,
+      "name": "Anjana Raghunath",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "HT Media"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises HT Media on preferential issue of Warrants",
+          "client": "HT Media",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-ht-media-on-preferential-issue-of-warrants",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co advises HT Media on preferential issue of Warrants"
     },
     {
       "id": 1345,
@@ -26589,13 +26877,22 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "RPG Life Sciences"
+        "RPG Life Sciences",
+        "HT Media"
       ],
       "deals": [
         {
           "headline": "Khaitan & Co assists RPG Life Sciences on carve-out of its API business",
           "client": "RPG Life Sciences",
           "url": "https://www.barandbench.com/dealstreet/khaitan-co-assists-rpg-life-sciences-on-carve-out-of-its-api-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Khaitan & Co advises HT Media on preferential issue of Warrants",
+          "client": "HT Media",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-ht-media-on-preferential-issue-of-warrants",
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
@@ -29439,7 +29736,7 @@
           "id": 1362,
           "firm": "Cyril Amarchand Mangaldas",
           "role": "Partner",
-          "deal_count": 2
+          "deal_count": 3
         }
       ],
       "firm_verification": {
@@ -29456,7 +29753,8 @@
       "transaction_types": [
         "Series B",
         "acquisition",
-        "fundraise"
+        "fundraise",
+        "merger"
       ],
       "practice_areas": [
         "Mergers & Acquisitions",
@@ -29464,7 +29762,8 @@
       ],
       "clients": [
         "Bessemer Venture Partners",
-        "KKR's €1.2 billion acquisition of Medicover India"
+        "KKR's €1.2 billion acquisition of Medicover India",
+        "merger of Happiest Minds into ITC Infotech"
       ],
       "deals": [
         {
@@ -29487,6 +29786,18 @@
           "source": "Bar & Bench",
           "types": [
             "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
@@ -30240,6 +30551,37 @@
         "verdict": "UNVERIFIED",
         "evidence": "The well-documented Arvind Ramesh is a former 12-year AZB & Partners partner who co-founded Vritti Law Partners in 2023 - his prior firm was AZB, not Khaitan & Co, so the dataset's Khaitan leg is unconfirmed either way."
       }
+    },
+    {
+      "id": 3678,
+      "name": "Arya Alexander",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "merger of Happiest Minds into ITC Infotech"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech"
     },
     {
       "id": 997,
@@ -33781,6 +34123,37 @@
       "snapshot": "TRD Associates advises Ravin Group on acquisition of Cable Corporation of India"
     },
     {
+      "id": 3671,
+      "name": "Ayush Maheshwari",
+      "firm": "Saga Legal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Ultrahuman"
+      ],
+      "deals": [
+        {
+          "headline": "Saga Legal advises Ultrahuman on $70 million fundraise",
+          "client": "Ultrahuman",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/saga-legal-advises-on-ultrahuman-on-70-million-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Saga Legal advises Ultrahuman on $70 million fundraise"
+    },
+    {
       "id": 1618,
       "name": "Ayush Nanda",
       "firm": "Khaitan & Co",
@@ -36974,7 +37347,7 @@
           "id": 2981,
           "firm": "Cyril Amarchand Mangaldas",
           "role": "Partner",
-          "deal_count": 2
+          "deal_count": 3
         }
       ],
       "firm_verification": {
@@ -36989,14 +37362,16 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "merger"
       ],
       "practice_areas": [
         "Mergers & Acquisitions"
       ],
       "clients": [
         "True North",
-        "Advent International"
+        "Advent International",
+        "merger of Happiest Minds into ITC Infotech"
       ],
       "deals": [
         {
@@ -37014,6 +37389,18 @@
           "source": "Bar and Bench",
           "types": [
             "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
@@ -38674,6 +39061,37 @@
       "snapshot": "CAM, Trilegal act on MEIL Energy acquiring a 250 MW thermal power project in Tamil Nadu ..."
     },
     {
+      "id": 3698,
+      "name": "Chris Gorman",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "on India leg of Cisco's acquisition of WideField Security"
+      ],
+      "deals": [
+        {
+          "headline": "JSA advises on India leg of Cisco's acquisition of WideField Security",
+          "client": "on India leg of Cisco's acquisition of WideField Security",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-on-india-leg-of-ciscos-acquisition-of-widefield-security",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "JSA advises on India leg of Cisco's acquisition of WideField Security"
+    },
+    {
       "id": 71,
       "name": "Chris McLaughlin",
       "firm": "Sullivan & Cromwell",
@@ -39772,6 +40190,37 @@
         }
       ],
       "snapshot": "Trilegal, K&L Gates, Baker & McKenzie, AZB act on Wipro's $375 million acquisition of ..."
+    },
+    {
+      "id": 3702,
+      "name": "David Moore",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "on India leg of Cisco's acquisition of WideField Security"
+      ],
+      "deals": [
+        {
+          "headline": "JSA advises on India leg of Cisco's acquisition of WideField Security",
+          "client": "on India leg of Cisco's acquisition of WideField Security",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-on-india-leg-of-ciscos-acquisition-of-widefield-security",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "JSA advises on India leg of Cisco's acquisition of WideField Security"
     },
     {
       "id": 626,
@@ -42826,7 +43275,8 @@
         "Series B",
         "acquisition",
         "fundraise",
-        "investment"
+        "investment",
+        "merger"
       ],
       "practice_areas": [
         "Mergers & Acquisitions",
@@ -42842,7 +43292,8 @@
         "Adani Road Transport Limited",
         "Jindal Power Limited",
         "APG",
-        "International Finance Corporation"
+        "International Finance Corporation",
+        "merger of Happiest Minds into ITC Infotech"
       ],
       "deals": [
         {
@@ -42957,6 +43408,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas advises Kotak Mahindra Bank on acquisition of Private ..."
@@ -44862,6 +45325,37 @@
         }
       ],
       "snapshot": "SAM advises Anzen India on acquisition of majority stake in 12 Solar"
+    },
+    {
+      "id": 3696,
+      "name": "Doug Cogen",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "on India leg of Cisco's acquisition of WideField Security"
+      ],
+      "deals": [
+        {
+          "headline": "JSA advises on India leg of Cisco's acquisition of WideField Security",
+          "client": "on India leg of Cisco's acquisition of WideField Security",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-on-india-leg-of-ciscos-acquisition-of-widefield-security",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "JSA advises on India leg of Cisco's acquisition of WideField Security"
     },
     {
       "id": 3013,
@@ -50456,14 +50950,17 @@
       "role_bucket": "Partner",
       "transaction_types": [
         "Series A",
-        "fundraise"
+        "fundraise",
+        "merger"
       ],
       "practice_areas": [
+        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
         "Bessemer Venture Partners",
-        "Arboreal"
+        "Arboreal",
+        "merger of Happiest Minds into ITC Infotech"
       ],
       "deals": [
         {
@@ -50485,6 +50982,18 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -51753,6 +52262,37 @@
       }
     },
     {
+      "id": 3687,
+      "name": "Harshit Chauhan",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "merger of Happiest Minds into ITC Infotech"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech"
+    },
+    {
       "id": 2599,
       "name": "Harshit Dhandhia",
       "firm": "Trilegal",
@@ -51859,6 +52399,37 @@
         }
       ],
       "snapshot": "JSA acts on ~₹241 crore greenfield project financing for BluPine Energy's 150 MW FDRE ..."
+    },
+    {
+      "id": 3691,
+      "name": "Harshit Sawale",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "merger of Happiest Minds into ITC Infotech"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech"
     },
     {
       "id": 3412,
@@ -54281,7 +54852,8 @@
       "clients": [
         "EMI Metals and Selling Shareholders",
         "Studds and Selling Shareholders",
-        "Capital Infra Trust"
+        "Capital Infra Trust",
+        "Lumino Industries"
       ],
       "deals": [
         {
@@ -54320,6 +54892,18 @@
           "practice_areas": [
             "Capital Markets",
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Trilegal advises Lumino Industries on ₹700 crore IPO",
+          "client": "Lumino Industries",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-lumino-industries-on-700-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
           ]
         }
       ],
@@ -54530,6 +55114,37 @@
         }
       ],
       "snapshot": "Trilegal advises Pluxee Group on acquisition of ProEves - Bar and Bench"
+    },
+    {
+      "id": 3695,
+      "name": "Ishaan Bhatnagar",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "on India leg of Cisco's acquisition of WideField Security"
+      ],
+      "deals": [
+        {
+          "headline": "JSA advises on India leg of Cisco's acquisition of WideField Security",
+          "client": "on India leg of Cisco's acquisition of WideField Security",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-on-india-leg-of-ciscos-acquisition-of-widefield-security",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "JSA advises on India leg of Cisco's acquisition of WideField Security"
     },
     {
       "id": 546,
@@ -56129,7 +56744,8 @@
       "clients": [
         "Indorama Ventures/Indovida",
         "River Mobility",
-        "TVS Group"
+        "TVS Group",
+        "merger of Happiest Minds into ITC Infotech"
       ],
       "deals": [
         {
@@ -56164,6 +56780,18 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "Khaitan & Co, Trilegal act on Blackstone-backed EPL - Indovida Packaging merger"
@@ -56797,6 +57425,37 @@
         }
       ],
       "snapshot": "Trilegal advises Apollo on subscribing to $500 million notes issued by an Adani Energy ..."
+    },
+    {
+      "id": 3682,
+      "name": "Janya Navnitlal",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "merger of Happiest Minds into ITC Infotech"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech"
     },
     {
       "id": 1757,
@@ -57605,13 +58264,16 @@
       "role": "Principal Associate",
       "role_bucket": "Principal Associate",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "merger"
       ],
       "practice_areas": [
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Stylam Industries Promoters"
+        "Stylam Industries Promoters",
+        "HT Media",
+        "merger of Happiest Minds into ITC Infotech"
       ],
       "deals": [
         {
@@ -57621,6 +58283,26 @@
           "source": "Bar and Bench",
           "types": [
             "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co advises HT Media on preferential issue of Warrants",
+          "client": "HT Media",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-ht-media-on-preferential-issue-of-warrants",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
@@ -57988,6 +58670,37 @@
         "verdict": "UNVERIFIED",
         "evidence": "Not yet researched."
       }
+    },
+    {
+      "id": 3685,
+      "name": "Jeevana Vuppu",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "merger of Happiest Minds into ITC Infotech"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech"
     },
     {
       "id": 1584,
@@ -59372,6 +60085,37 @@
         }
       ],
       "snapshot": "TT&A, Trilegal, Gibson Dunn act on Neysa securing $1 billion+ funding from"
+    },
+    {
+      "id": 3700,
+      "name": "Jonathan Archer",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "on India leg of Cisco's acquisition of WideField Security"
+      ],
+      "deals": [
+        {
+          "headline": "JSA advises on India leg of Cisco's acquisition of WideField Security",
+          "client": "on India leg of Cisco's acquisition of WideField Security",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-on-india-leg-of-ciscos-acquisition-of-widefield-security",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "JSA advises on India leg of Cisco's acquisition of WideField Security"
     },
     {
       "id": 192,
@@ -62786,13 +63530,16 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "fundraise"
+        "fundraise",
+        "merger"
       ],
       "practice_areas": [
+        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "TPG"
+        "TPG",
+        "merger of Happiest Minds into ITC Infotech"
       ],
       "deals": [
         {
@@ -62805,6 +63552,18 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -63207,7 +63966,8 @@
       ],
       "clients": [
         "Indorama Ventures/Indovida",
-        "TVS Group"
+        "TVS Group",
+        "merger of Happiest Minds into ITC Infotech"
       ],
       "deals": [
         {
@@ -63229,6 +63989,18 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "Khaitan & Co, Trilegal act on Blackstone-backed EPL - Indovida Packaging merger"
@@ -64242,6 +65014,37 @@
       "snapshot": "White & Case, AZB, Sullivan, Cyril Amarchand Mangaldas, Linklaters act on Sun Pharma's ..."
     },
     {
+      "id": 3697,
+      "name": "Ken Myers",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "on India leg of Cisco's acquisition of WideField Security"
+      ],
+      "deals": [
+        {
+          "headline": "JSA advises on India leg of Cisco's acquisition of WideField Security",
+          "client": "on India leg of Cisco's acquisition of WideField Security",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-on-india-leg-of-ciscos-acquisition-of-widefield-security",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "JSA advises on India leg of Cisco's acquisition of WideField Security"
+    },
+    {
       "id": 2974,
       "name": "Keshav Yadav",
       "firm": "Talwar Thakore & Associates",
@@ -65198,6 +66001,37 @@
         }
       ],
       "snapshot": "Parinam Law Associates, Trilegal act on Home Credit's ₹967 crore acquisition of Varthana"
+    },
+    {
+      "id": 3705,
+      "name": "Kimberly Sheehan",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "on India leg of Cisco's acquisition of WideField Security"
+      ],
+      "deals": [
+        {
+          "headline": "JSA advises on India leg of Cisco's acquisition of WideField Security",
+          "client": "on India leg of Cisco's acquisition of WideField Security",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-on-india-leg-of-ciscos-acquisition-of-widefield-security",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "JSA advises on India leg of Cisco's acquisition of WideField Security"
     },
     {
       "id": 2538,
@@ -66437,8 +67271,8 @@
         {
           "id": 2982,
           "firm": "Cyril Amarchand Mangaldas",
-          "role": "Principal Associate",
-          "deal_count": 1
+          "role": "Partner",
+          "deal_count": 2
         }
       ],
       "firm_verification": {
@@ -66478,8 +67312,8 @@
         {
           "id": 2982,
           "firm": "Cyril Amarchand Mangaldas",
-          "role": "Principal Associate",
-          "deal_count": 1
+          "role": "Partner",
+          "deal_count": 2
         }
       ],
       "firm_verification": {
@@ -66491,12 +67325,17 @@
       "id": 2982,
       "name": "Krithika Radhakrishnan",
       "firm": "Cyril Amarchand Mangaldas",
-      "role": "Principal Associate",
-      "role_bucket": "Principal Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "True North"
+        "True North",
+        "merger of Happiest Minds into ITC Infotech"
       ],
       "deals": [
         {
@@ -66506,6 +67345,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas advises True North on sale of majority stake in Shree Digvijay Cement",
@@ -69251,6 +70102,37 @@
       "snapshot": "SAM, Khaitan act on Aica Kogyo Co acquiring controlling stake in Stylam Industries for $225 million"
     },
     {
+      "id": 3704,
+      "name": "Lizzie Jongeward",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "on India leg of Cisco's acquisition of WideField Security"
+      ],
+      "deals": [
+        {
+          "headline": "JSA advises on India leg of Cisco's acquisition of WideField Security",
+          "client": "on India leg of Cisco's acquisition of WideField Security",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-on-india-leg-of-ciscos-acquisition-of-widefield-security",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "JSA advises on India leg of Cisco's acquisition of WideField Security"
+    },
+    {
       "id": 68,
       "name": "Logan Seymour",
       "firm": "Sullivan & Cromwell",
@@ -69380,6 +70262,37 @@
         }
       ],
       "snapshot": "CMS INDUSLAW, Clifford Chance, Trilegal, Linklaters act on Sammaan Capital $450 million ..."
+    },
+    {
+      "id": 3681,
+      "name": "Lokesh Soni",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "merger of Happiest Minds into ITC Infotech"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech"
     },
     {
       "id": 2709,
@@ -70057,7 +70970,8 @@
         "Advent International",
         "Vobis Ventures",
         "MO Alternates",
-        "India leg of SAP Inc's acquisition of Reltio"
+        "India leg of SAP Inc's acquisition of Reltio",
+        "on India leg of Cisco's acquisition of WideField Security"
       ],
       "deals": [
         {
@@ -70102,6 +71016,18 @@
           "headline": "JSA acts on India leg of SAP Inc's acquisition of Reltio",
           "client": "India leg of SAP Inc's acquisition of Reltio",
           "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-india-leg-of-sap-incs-acquisition-of-reltio",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "JSA advises on India leg of Cisco's acquisition of WideField Security",
+          "client": "on India leg of Cisco's acquisition of WideField Security",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-on-india-leg-of-ciscos-acquisition-of-widefield-security",
           "source": "Bar & Bench",
           "types": [
             "acquisition"
@@ -73120,7 +74046,8 @@
         "Laser Power & Infra Limited and Promoter Selling Shareholders",
         "EMI Metals and Selling Shareholders",
         "Shivalaya Construction and selling shareholders",
-        "PNG Jewellers"
+        "PNG Jewellers",
+        "Lumino Industries"
       ],
       "deals": [
         {
@@ -73166,6 +74093,18 @@
           "source": "Bar & Bench",
           "types": [
             "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Trilegal advises Lumino Industries on ₹700 crore IPO",
+          "client": "Lumino Industries",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-lumino-industries-on-700-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -75611,6 +76550,37 @@
       "snapshot": "Aditya Birla acquires Sprng Energy from Shell for $1.8 billion; Khaitan & Co, Trilegal advise"
     },
     {
+      "id": 3674,
+      "name": "Megha Krishnamurthi",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "merger of Happiest Minds into ITC Infotech"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech"
+    },
+    {
       "id": 2331,
       "name": "Megha Mehta",
       "firm": "Cyril Amarchand Mangaldas",
@@ -75849,6 +76819,37 @@
         }
       ],
       "snapshot": "CAM advises Dixon on acquiring 51% shareholding in QTech India - Bar and Bench"
+    },
+    {
+      "id": 3672,
+      "name": "Mehak Chadha",
+      "firm": "Saga Legal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Ultrahuman"
+      ],
+      "deals": [
+        {
+          "headline": "Saga Legal advises Ultrahuman on $70 million fundraise",
+          "client": "Ultrahuman",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/saga-legal-advises-on-ultrahuman-on-70-million-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Saga Legal advises Ultrahuman on $70 million fundraise"
     },
     {
       "id": 2106,
@@ -77438,6 +78439,37 @@
         }
       ],
       "snapshot": "CAM, Trilegal, Hogan Lovells act on Runwal Realty ₹2,000 crore proposed IPO"
+    },
+    {
+      "id": 3694,
+      "name": "Mohammed Abid Hussain",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "on India leg of Cisco's acquisition of WideField Security"
+      ],
+      "deals": [
+        {
+          "headline": "JSA advises on India leg of Cisco's acquisition of WideField Security",
+          "client": "on India leg of Cisco's acquisition of WideField Security",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-on-india-leg-of-ciscos-acquisition-of-widefield-security",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "JSA advises on India leg of Cisco's acquisition of WideField Security"
     },
     {
       "id": 1422,
@@ -81681,6 +82713,37 @@
       "snapshot": "Trilegal advises Carlyle on ₹2,100 crore stake acquisition in Edelweiss's Nido Home Finance"
     },
     {
+      "id": 3670,
+      "name": "Neeraj Vyas",
+      "firm": "Saga Legal",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Ultrahuman"
+      ],
+      "deals": [
+        {
+          "headline": "Saga Legal advises Ultrahuman on $70 million fundraise",
+          "client": "Ultrahuman",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/saga-legal-advises-on-ultrahuman-on-70-million-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Saga Legal advises Ultrahuman on $70 million fundraise"
+    },
+    {
       "id": 1190,
       "name": "Neeral Jain",
       "firm": "JSA Advocates & Solicitors",
@@ -84023,6 +85086,37 @@
       "snapshot": "Obhan Mason, Shardul Amarchand Mangaldas act on Pine Labs acquiring Shopflo"
     },
     {
+      "id": 3675,
+      "name": "Nikita Singhi",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "merger of Happiest Minds into ITC Infotech"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech"
+    },
+    {
       "id": 784,
       "name": "Nikita Srivastava",
       "firm": "CMS INDUSLAW",
@@ -85072,13 +86166,16 @@
       "role_bucket": "Principal Associate",
       "transaction_types": [
         "Series A",
-        "fundraise"
+        "fundraise",
+        "merger"
       ],
       "practice_areas": [
+        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Arboreal"
+        "Arboreal",
+        "merger of Happiest Minds into ITC Infotech"
       ],
       "deals": [
         {
@@ -85092,6 +86189,18 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -86269,7 +87378,8 @@
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Advent International"
+        "Advent International",
+        "HT Media"
       ],
       "deals": [
         {
@@ -86283,6 +87393,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Khaitan & Co advises HT Media on preferential issue of Warrants",
+          "client": "HT Media",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-ht-media-on-preferential-issue-of-warrants",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "JSA, Khaitan act on Coforge's $2.35 billion acquisition of Encora - Bar and Bench"
@@ -93429,7 +94547,8 @@
         "Vobis Ventures",
         "Goyaz Jewellery",
         "MO Alternates",
-        "India leg of SAP Inc's acquisition of Reltio"
+        "India leg of SAP Inc's acquisition of Reltio",
+        "on India leg of Cisco's acquisition of WideField Security"
       ],
       "deals": [
         {
@@ -93487,6 +94606,18 @@
           "headline": "JSA acts on India leg of SAP Inc's acquisition of Reltio",
           "client": "India leg of SAP Inc's acquisition of Reltio",
           "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-india-leg-of-sap-incs-acquisition-of-reltio",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "JSA advises on India leg of Cisco's acquisition of WideField Security",
+          "client": "on India leg of Cisco's acquisition of WideField Security",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-on-india-leg-of-ciscos-acquisition-of-widefield-security",
           "source": "Bar & Bench",
           "types": [
             "acquisition"
@@ -97354,6 +98485,37 @@
       "snapshot": "Anagram Partners, River Law act on Investcorp's ₹500 crore acquisition of 20Cube"
     },
     {
+      "id": 3680,
+      "name": "Rahil Mehta",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "merger of Happiest Minds into ITC Infotech"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech"
+    },
+    {
       "id": 1342,
       "name": "Rahil Pereira",
       "firm": "Trilegal",
@@ -98718,7 +99880,8 @@
         "TPG",
         "Adani Road Transport Limited",
         "Devyani International",
-        "Guardian Life Insurance Company of America"
+        "Guardian Life Insurance Company of America",
+        "merger of Happiest Minds into ITC Infotech"
       ],
       "deals": [
         {
@@ -98817,6 +99980,18 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas advises Kotak Mahindra Bank on acquisition of Private ..."
@@ -103195,6 +104370,37 @@
       "snapshot": "Cyril Amarchand Mangaldas advises TruBridge on ~$565‑million acquisition by IKS Health"
     },
     {
+      "id": 3689,
+      "name": "Rishabh Vohra",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "merger of Happiest Minds into ITC Infotech"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech"
+    },
+    {
       "id": 119,
       "name": "Rishav Buxi",
       "firm": "Cyril Amarchand Mangaldas",
@@ -106238,7 +107444,8 @@
       "clients": [
         "GeBBS Healthcare Solutions Inc.",
         "Coforge",
-        "India leg of SAP Inc's acquisition of Reltio"
+        "India leg of SAP Inc's acquisition of Reltio",
+        "on India leg of Cisco's acquisition of WideField Security"
       ],
       "deals": [
         {
@@ -106269,6 +107476,18 @@
           "headline": "JSA acts on India leg of SAP Inc's acquisition of Reltio",
           "client": "India leg of SAP Inc's acquisition of Reltio",
           "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-india-leg-of-sap-incs-acquisition-of-reltio",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "JSA advises on India leg of Cisco's acquisition of WideField Security",
+          "client": "on India leg of Cisco's acquisition of WideField Security",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-on-india-leg-of-ciscos-acquisition-of-widefield-security",
           "source": "Bar & Bench",
           "types": [
             "acquisition"
@@ -110213,6 +111432,37 @@
       "snapshot": "Capitaland sells ITPC Chennai to Mindspace, 360 One for ₹3000 crore - Bar and Bench"
     },
     {
+      "id": 3699,
+      "name": "Sammi Chen",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "on India leg of Cisco's acquisition of WideField Security"
+      ],
+      "deals": [
+        {
+          "headline": "JSA advises on India leg of Cisco's acquisition of WideField Security",
+          "client": "on India leg of Cisco's acquisition of WideField Security",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-on-india-leg-of-ciscos-acquisition-of-widefield-security",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "JSA advises on India leg of Cisco's acquisition of WideField Security"
+    },
+    {
       "id": 1446,
       "name": "Sampath Kumar",
       "firm": "Trilegal",
@@ -113132,13 +114382,26 @@
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "India leg of SAP Inc's acquisition of Reltio"
+        "India leg of SAP Inc's acquisition of Reltio",
+        "on India leg of Cisco's acquisition of WideField Security"
       ],
       "deals": [
         {
           "headline": "JSA acts on India leg of SAP Inc's acquisition of Reltio",
           "client": "India leg of SAP Inc's acquisition of Reltio",
           "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-india-leg-of-sap-incs-acquisition-of-reltio",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "JSA advises on India leg of Cisco's acquisition of WideField Security",
+          "client": "on India leg of Cisco's acquisition of WideField Security",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-on-india-leg-of-ciscos-acquisition-of-widefield-security",
           "source": "Bar & Bench",
           "types": [
             "acquisition"
@@ -115028,13 +116291,26 @@
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "India leg of SAP Inc's acquisition of Reltio"
+        "India leg of SAP Inc's acquisition of Reltio",
+        "on India leg of Cisco's acquisition of WideField Security"
       ],
       "deals": [
         {
           "headline": "JSA acts on India leg of SAP Inc's acquisition of Reltio",
           "client": "India leg of SAP Inc's acquisition of Reltio",
           "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-india-leg-of-sap-incs-acquisition-of-reltio",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "JSA advises on India leg of Cisco's acquisition of WideField Security",
+          "client": "on India leg of Cisco's acquisition of WideField Security",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-on-india-leg-of-ciscos-acquisition-of-widefield-security",
           "source": "Bar & Bench",
           "types": [
             "acquisition"
@@ -117214,7 +118490,8 @@
         "Allianz Group",
         "GeBBS Healthcare Solutions Inc.",
         "Coforge",
-        "India leg of SAP Inc's acquisition of Reltio"
+        "India leg of SAP Inc's acquisition of Reltio",
+        "on India leg of Cisco's acquisition of WideField Security"
       ],
       "deals": [
         {
@@ -117253,6 +118530,18 @@
           "headline": "JSA acts on India leg of SAP Inc's acquisition of Reltio",
           "client": "India leg of SAP Inc's acquisition of Reltio",
           "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-india-leg-of-sap-incs-acquisition-of-reltio",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "JSA advises on India leg of Cisco's acquisition of WideField Security",
+          "client": "on India leg of Cisco's acquisition of WideField Security",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-on-india-leg-of-ciscos-acquisition-of-widefield-security",
           "source": "Bar & Bench",
           "types": [
             "acquisition"
@@ -117434,6 +118723,37 @@
         }
       ],
       "snapshot": "AZB, CAM, Latham act on TCS securing ₹9,000 crore investment from TPG for AI data ..."
+    },
+    {
+      "id": 3703,
+      "name": "Sharon Leringato",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "on India leg of Cisco's acquisition of WideField Security"
+      ],
+      "deals": [
+        {
+          "headline": "JSA advises on India leg of Cisco's acquisition of WideField Security",
+          "client": "on India leg of Cisco's acquisition of WideField Security",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-on-india-leg-of-ciscos-acquisition-of-widefield-security",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "JSA advises on India leg of Cisco's acquisition of WideField Security"
     },
     {
       "id": 2147,
@@ -118482,6 +119802,37 @@
         }
       ],
       "snapshot": "Trilegal advises Continuum Green Energy on securing $67.5 million from Just Climate"
+    },
+    {
+      "id": 3683,
+      "name": "Shikhar Sharma",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "merger of Happiest Minds into ITC Infotech"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech"
     },
     {
       "id": 2046,
@@ -119991,8 +121342,8 @@
         {
           "id": 232,
           "firm": "Cyril Amarchand Mangaldas",
-          "role": "Associate",
-          "deal_count": 3
+          "role": "Senior Associate",
+          "deal_count": 4
         }
       ],
       "firm_verification": {
@@ -120004,10 +121355,11 @@
       "id": 232,
       "name": "Shivika Gupta",
       "firm": "Cyril Amarchand Mangaldas",
-      "role": "Associate",
-      "role_bucket": "Associate",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "merger"
       ],
       "practice_areas": [
         "Mergers & Acquisitions"
@@ -120015,7 +121367,8 @@
       "clients": [
         "Kotak Mahindra Bank",
         "Axis Finance Limited and Axis Bank Limited",
-        "Statkraft A.S."
+        "Statkraft A.S.",
+        "merger of Happiest Minds into ITC Infotech"
       ],
       "deals": [
         {
@@ -120045,6 +121398,18 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas advises Kotak Mahindra Bank on acquisition of Private ...",
@@ -120655,13 +122020,26 @@
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "India leg of SAP Inc's acquisition of Reltio"
+        "India leg of SAP Inc's acquisition of Reltio",
+        "on India leg of Cisco's acquisition of WideField Security"
       ],
       "deals": [
         {
           "headline": "JSA acts on India leg of SAP Inc's acquisition of Reltio",
           "client": "India leg of SAP Inc's acquisition of Reltio",
           "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-india-leg-of-sap-incs-acquisition-of-reltio",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "JSA advises on India leg of Cisco's acquisition of WideField Security",
+          "client": "on India leg of Cisco's acquisition of WideField Security",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-on-india-leg-of-ciscos-acquisition-of-widefield-security",
           "source": "Bar & Bench",
           "types": [
             "acquisition"
@@ -122848,6 +124226,37 @@
       "snapshot": "Trilegal acts on IDfy ₹476 crore Series F fundraise - Bar and Bench"
     },
     {
+      "id": 3679,
+      "name": "Shruti Avinash",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "merger of Happiest Minds into ITC Infotech"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech"
+    },
+    {
       "id": 3135,
       "name": "Shruti Bhat",
       "firm": null,
@@ -123123,7 +124532,62 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "Mahindra & Mahindra sells Trucks and Buses Division to SML Mahindra for ₹525 crore; Khaitan & Co, AZB advise"
+      "snapshot": "Mahindra & Mahindra sells Trucks and Buses Division to SML Mahindra for ₹525 crore; Khaitan & Co, AZB advise",
+      "same_name_elsewhere": [
+        {
+          "id": 3688,
+          "firm": "Khaitan & Co",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
+      "id": 3688,
+      "name": "Shruti Kunisetty",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "merger of Happiest Minds into ITC Infotech"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+      "same_name_elsewhere": [
+        {
+          "id": 3316,
+          "firm": null,
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1168,
@@ -135232,6 +136696,37 @@
       "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
     },
     {
+      "id": 3677,
+      "name": "Tanya Mahajan",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "merger of Happiest Minds into ITC Infotech"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech"
+    },
+    {
       "id": 277,
       "name": "Tanya Nanda",
       "firm": "Trilegal",
@@ -136420,13 +137915,16 @@
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "merger"
       ],
       "practice_areas": [
-        "Capital Markets"
+        "Capital Markets",
+        "Mergers & Acquisitions"
       ],
       "clients": [
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "merger of Happiest Minds into ITC Infotech"
       ],
       "deals": [
         {
@@ -136451,6 +137949,18 @@
           ],
           "practice_areas": [
             "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -136603,17 +138113,20 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "merger"
       ],
       "practice_areas": [
-        "Capital Markets"
+        "Capital Markets",
+        "Mergers & Acquisitions"
       ],
       "clients": [
         "Book Running Lead Managers",
         "Augmont",
         "Investcorp",
         "JM Financial Limited and Motilal Oswal Investment Advisors Limited",
-        "Capillary Technologies India and Promoter selling shareholder"
+        "Capillary Technologies India and Promoter selling shareholder",
+        "merger of Happiest Minds into ITC Infotech"
       ],
       "deals": [
         {
@@ -136698,6 +138211,18 @@
           ],
           "practice_areas": [
             "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -140954,7 +142479,8 @@
       "clients": [
         "Laser Power & Infra Limited and Promoter Selling Shareholders",
         "Capital Infra Trust",
-        "PNG Jewellers"
+        "PNG Jewellers",
+        "Lumino Industries"
       ],
       "deals": [
         {
@@ -140990,6 +142516,18 @@
           "source": "Bar & Bench",
           "types": [
             "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Trilegal advises Lumino Industries on ₹700 crore IPO",
+          "client": "Lumino Industries",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-lumino-industries-on-700-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -141061,6 +142599,37 @@
         }
       ],
       "snapshot": "AZB, SAM, Trilegal act on KKR's ~₹3000 crore stake acquisition in National Highways ..."
+    },
+    {
+      "id": 3676,
+      "name": "Varnika Pasricha",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "merger of Happiest Minds into ITC Infotech"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech"
     },
     {
       "id": 1977,
@@ -142904,6 +144473,37 @@
       "snapshot": "Shardul Amarchand Mangaldas, Khaitan, Davis Polk act on Crystal Crop Protection's ..."
     },
     {
+      "id": 3690,
+      "name": "Vidhi Maharishi",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "merger of Happiest Minds into ITC Infotech"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech"
+    },
+    {
       "id": 1017,
       "name": "Vidhi Sarin",
       "firm": "Trilegal",
@@ -143387,6 +144987,37 @@
         }
       ],
       "snapshot": "Khaitan & Co, Trilegal, Hogan Lovells act on Milestone Gears ₹1,100 crore proposed IPO"
+    },
+    {
+      "id": 3692,
+      "name": "Vidya Shenoy",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "merger of Happiest Minds into ITC Infotech"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech"
     },
     {
       "id": 2894,
@@ -144523,6 +146154,37 @@
         }
       ],
       "snapshot": "VERTICES PARTNERS, Cyril Amarchand Mangaldas act on Elevate Education ₹170 crore ..."
+    },
+    {
+      "id": 3686,
+      "name": "Vineet Mishra",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "merger of Happiest Minds into ITC Infotech"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech"
     },
     {
       "id": 2791,
@@ -148048,6 +149710,37 @@
         }
       ],
       "snapshot": "SAM, CAM, Latham act on Groww ₹6,632 crore IPO - Bar and Bench"
+    },
+    {
+      "id": 3693,
+      "name": "Yashvi Chandak",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "merger"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "merger of Happiest Minds into ITC Infotech"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+          "client": "merger of Happiest Minds into ITC Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+          "source": "Bar & Bench",
+          "types": [
+            "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech"
     },
     {
       "id": 2323,
