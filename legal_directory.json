@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 3705,
+    "people": 3735,
     "firms": 107,
-    "deals": 483,
+    "deals": 492,
     "practice_areas": 6
   },
   "firms": [
@@ -663,7 +663,7 @@
     },
     {
       "firm": "CMS INDUSLAW",
-      "people_count": 77,
+      "people_count": 81,
       "practice_groups": [
         {
           "area": "Capital Markets",
@@ -764,11 +764,15 @@
             1746,
             2014,
             615,
+            3722,
+            3724,
             3065,
+            3721,
             2013,
             2011,
             2015,
             3066,
+            3723,
             617
           ]
         }
@@ -1923,7 +1927,7 @@
     },
     {
       "firm": "Fox Mandal & Associates",
-      "people_count": 9,
+      "people_count": 12,
       "practice_groups": [
         {
           "area": "Banking & Finance",
@@ -1935,6 +1939,14 @@
             3211,
             3213,
             3212
+          ]
+        },
+        {
+          "area": "Unclassified",
+          "person_ids": [
+            3725,
+            3726,
+            3727
           ]
         },
         {
@@ -2140,7 +2152,7 @@
     },
     {
       "firm": "JSA Advocates & Solicitors",
-      "people_count": 379,
+      "people_count": 381,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -2608,6 +2620,7 @@
             1889,
             1796,
             2091,
+            3734,
             769,
             871,
             786,
@@ -2617,6 +2630,7 @@
             2094,
             607,
             787,
+            3735,
             220,
             2092,
             608,
@@ -2728,7 +2742,7 @@
     },
     {
       "firm": "Khaitan & Co",
-      "people_count": 497,
+      "people_count": 502,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -2926,6 +2940,149 @@
           ]
         },
         {
+          "area": "Unclassified",
+          "person_ids": [
+            398,
+            333,
+            329,
+            3155,
+            318,
+            3154,
+            3278,
+            2723,
+            3030,
+            723,
+            2722,
+            3025,
+            3027,
+            3673,
+            3323,
+            351,
+            3093,
+            1034,
+            3026,
+            3150,
+            328,
+            288,
+            344,
+            3288,
+            478,
+            3289,
+            393,
+            3029,
+            3151,
+            400,
+            284,
+            1035,
+            3276,
+            3149,
+            1036,
+            1029,
+            3091,
+            3730,
+            347,
+            1064,
+            320,
+            3088,
+            396,
+            401,
+            3089,
+            3582,
+            3032,
+            327,
+            322,
+            1037,
+            3090,
+            3022,
+            3153,
+            3280,
+            1232,
+            281,
+            366,
+            1230,
+            340,
+            3028,
+            350,
+            2126,
+            363,
+            3322,
+            3584,
+            3731,
+            2724,
+            1031,
+            726,
+            3024,
+            291,
+            349,
+            3160,
+            3732,
+            394,
+            345,
+            3279,
+            2725,
+            3152,
+            3092,
+            3161,
+            397,
+            1030,
+            325,
+            3158,
+            353,
+            3086,
+            3096,
+            3095,
+            3581,
+            1060,
+            282,
+            3156,
+            1032,
+            2721,
+            3020,
+            1197,
+            3019,
+            341,
+            3285,
+            321,
+            1033,
+            3283,
+            1062,
+            1195,
+            3159,
+            354,
+            3021,
+            3281,
+            3023,
+            323,
+            332,
+            286,
+            2720,
+            3551,
+            3277,
+            3729,
+            3284,
+            331,
+            2726,
+            3733,
+            343,
+            3287,
+            3526,
+            1063,
+            319,
+            3087,
+            395,
+            3583,
+            361,
+            290,
+            2124,
+            1235,
+            3157,
+            357,
+            3286,
+            3282,
+            3031
+          ]
+        },
+        {
           "area": "Private Equity & Venture Capital",
           "person_ids": [
             154,
@@ -3066,144 +3223,6 @@
             2185,
             1416,
             287
-          ]
-        },
-        {
-          "area": "Unclassified",
-          "person_ids": [
-            398,
-            333,
-            329,
-            3155,
-            318,
-            3154,
-            3278,
-            2723,
-            3030,
-            723,
-            2722,
-            3025,
-            3027,
-            3673,
-            3323,
-            351,
-            3093,
-            1034,
-            3026,
-            3150,
-            328,
-            288,
-            344,
-            3288,
-            478,
-            3289,
-            393,
-            3029,
-            3151,
-            400,
-            284,
-            1035,
-            3276,
-            3149,
-            1036,
-            1029,
-            3091,
-            347,
-            1064,
-            320,
-            3088,
-            396,
-            401,
-            3089,
-            3582,
-            3032,
-            327,
-            322,
-            1037,
-            3090,
-            3022,
-            3153,
-            3280,
-            1232,
-            281,
-            366,
-            1230,
-            340,
-            3028,
-            350,
-            2126,
-            363,
-            3322,
-            3584,
-            2724,
-            1031,
-            726,
-            3024,
-            291,
-            349,
-            3160,
-            394,
-            345,
-            3279,
-            2725,
-            3152,
-            3092,
-            3161,
-            397,
-            1030,
-            325,
-            3158,
-            353,
-            3086,
-            3096,
-            3095,
-            3581,
-            1060,
-            282,
-            3156,
-            1032,
-            2721,
-            3020,
-            1197,
-            3019,
-            341,
-            3285,
-            321,
-            1033,
-            3283,
-            1062,
-            1195,
-            3159,
-            354,
-            3021,
-            3281,
-            3023,
-            323,
-            332,
-            286,
-            2720,
-            3551,
-            3277,
-            3284,
-            331,
-            2726,
-            343,
-            3287,
-            3526,
-            1063,
-            319,
-            3087,
-            395,
-            3583,
-            361,
-            290,
-            2124,
-            1235,
-            3157,
-            357,
-            3286,
-            3282,
-            3031
           ]
         },
         {
@@ -3964,7 +3983,7 @@
     },
     {
       "firm": "Shardul Amarchand Mangaldas & Co",
-      "people_count": 434,
+      "people_count": 435,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -4278,6 +4297,7 @@
           "area": "Unclassified",
           "person_ids": [
             3048,
+            3728,
             3056,
             3053,
             2738,
@@ -8237,7 +8257,8 @@
         "Shivalaya Construction and selling shareholders",
         "Capital Infra Trust",
         "PNG Jewellers",
-        "Lumino Industries"
+        "Lumino Industries",
+        "ESDS"
       ],
       "deals": [
         {
@@ -8342,6 +8363,18 @@
           "headline": "Trilegal advises Lumino Industries on ₹700 crore IPO",
           "client": "Lumino Industries",
           "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-lumino-industries-on-700-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, Trilegal act on ESDS ₹720 crore IPO",
+          "client": "ESDS",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-trilegal-act-on-esds-720-crore-ipo",
           "source": "Bar & Bench",
           "types": [
             "IPO"
@@ -8680,6 +8713,29 @@
         }
       ],
       "snapshot": "Zepto lines up CAM, SAM, Latham & Watkins for IPO push - Bar and Bench"
+    },
+    {
+      "id": 3728,
+      "name": "Abhiroop Datta",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "on Parijat Industries - HELM collaboration"
+      ],
+      "deals": [
+        {
+          "headline": "Shardul Amarchand Mangaldas advises on Parijat Industries - HELM collaboration",
+          "client": "on Parijat Industries - HELM collaboration",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-on-parijat-industries-helm-collaboration",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Shardul Amarchand Mangaldas advises on Parijat Industries - HELM collaboration"
     },
     {
       "id": 1853,
@@ -9117,6 +9173,7 @@
       "role_bucket": "Partner",
       "transaction_types": [
         "Series B",
+        "Series C",
         "acquisition",
         "fundraise"
       ],
@@ -9127,7 +9184,8 @@
       "clients": [
         "Bluspring Enterprises",
         "Pixxelspace India Private Limited (consortium lead)",
-        "Digantara and its founders"
+        "Digantara and its founders",
+        "Pixxel"
       ],
       "deals": [
         {
@@ -9158,6 +9216,19 @@
           "types": [
             "fundraise",
             "Series B"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Trilegal advises Pixxel on $100 million Series C fundraise",
+          "client": "Pixxel",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-pixxel-on-100-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
@@ -12126,6 +12197,7 @@
       "role_bucket": "Associate",
       "transaction_types": [
         "Series B",
+        "Series C",
         "acquisition",
         "fundraise"
       ],
@@ -12136,7 +12208,8 @@
       "clients": [
         "Bluspring Enterprises",
         "Pixxelspace India Private Limited",
-        "Digantara and its founders"
+        "Digantara and its founders",
+        "Pixxel"
       ],
       "deals": [
         {
@@ -12167,6 +12240,19 @@
           "types": [
             "fundraise",
             "Series B"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Trilegal advises Pixxel on $100 million Series C fundraise",
+          "client": "Pixxel",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-pixxel-on-100-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
@@ -14010,6 +14096,37 @@
         }
       ],
       "snapshot": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business"
+    },
+    {
+      "id": 3734,
+      "name": "Aishwarya Dixit",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [
+        "financing"
+      ],
+      "practice_areas": [
+        "Banking & Finance"
+      ],
+      "clients": [
+        "NaBFID, Axis Bank, PTC India FinServ"
+      ],
+      "deals": [
+        {
+          "headline": "JSA advises NaBFID, Axis Bank, PTC India FinServ on financing for telecommunications infrastructure project",
+          "client": "NaBFID, Axis Bank, PTC India FinServ",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-nabfid-axis-bank-ptc-india-finserv-on-financing-for-telecommunications-infrastructure-project",
+          "source": "Bar & Bench",
+          "types": [
+            "financing"
+          ],
+          "practice_areas": [
+            "Banking & Finance"
+          ]
+        }
+      ],
+      "snapshot": "JSA advises NaBFID, Axis Bank, PTC India FinServ on financing for telecommunications infrastructure project"
     },
     {
       "id": 2714,
@@ -19727,6 +19844,39 @@
       "snapshot": "Trilegal acts on Kimbal $22 million Series B fundraise - Bar and Bench"
     },
     {
+      "id": 3707,
+      "name": "Anand Deshpande",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-azb-partners-act-as-adani-airports-set-to-raise-9825-crore",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore",
+      "same_name_elsewhere": [
+        {
+          "id": 2985,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 2985,
       "name": "Anand Deshpande",
       "firm": "Cyril Amarchand Mangaldas",
@@ -19747,7 +19897,19 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "Cyril Amarchand Mangaldas advises True North on sale of majority stake in Shree Digvijay Cement"
+      "snapshot": "Cyril Amarchand Mangaldas advises True North on sale of majority stake in Shree Digvijay Cement",
+      "same_name_elsewhere": [
+        {
+          "id": 3707,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1892,
@@ -24394,7 +24556,8 @@
       ],
       "clients": [
         "Glen Electric",
-        "Crystal Crop Protection"
+        "Crystal Crop Protection",
+        "on Parijat Industries - HELM collaboration"
       ],
       "deals": [
         {
@@ -24420,6 +24583,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises on Parijat Industries - HELM collaboration",
+          "client": "on Parijat Industries - HELM collaboration",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-on-parijat-industries-helm-collaboration",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Khaitan, Shardul Amarchand Mangaldas act on Bajaj Electricals' ₹168 crore acquisition of ..."
@@ -24835,6 +25006,27 @@
         }
       ],
       "snapshot": "TT&A, Trilegal, Gibson Dunn act on Neysa securing $1 billion+ funding from"
+    },
+    {
+      "id": 3710,
+      "name": "Anshum Agarwal",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-azb-partners-act-as-adani-airports-set-to-raise-9825-crore",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore"
     },
     {
       "id": 3426,
@@ -26384,8 +26576,8 @@
       "id": 2241,
       "name": "Anushka Ganguli",
       "firm": "Shardul Amarchand Mangaldas & Co",
-      "role": "Associate",
-      "role_bucket": "Associate",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
       "transaction_types": [
         "acquisition",
         "fundraise",
@@ -26399,7 +26591,8 @@
         "JK Paper",
         "Hyderabad Institute of Oncology (Omega Hospitals)",
         "Eris Lifesciences",
-        "Medi Assist Healthcare Services Limited"
+        "Medi Assist Healthcare Services Limited",
+        "on Parijat Industries - HELM collaboration"
       ],
       "deals": [
         {
@@ -26446,6 +26639,14 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises on Parijat Industries - HELM collaboration",
+          "client": "on Parijat Industries - HELM collaboration",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-on-parijat-industries-helm-collaboration",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "SAM, Clove Legal act on JK Paper's ₹235 crore acquisition of Borkar Packaging",
@@ -26496,8 +26697,8 @@
         {
           "id": 2241,
           "firm": "Shardul Amarchand Mangaldas & Co",
-          "role": "Associate",
-          "deal_count": 4
+          "role": "Senior Associate",
+          "deal_count": 5
         }
       ],
       "firm_verification": {
@@ -27324,7 +27525,8 @@
       ],
       "clients": [
         "Glen Electric",
-        "Crystal Crop Protection"
+        "Crystal Crop Protection",
+        "on Parijat Industries - HELM collaboration"
       ],
       "deals": [
         {
@@ -27350,6 +27552,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises on Parijat Industries - HELM collaboration",
+          "client": "on Parijat Industries - HELM collaboration",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-on-parijat-industries-helm-collaboration",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Khaitan, Shardul Amarchand Mangaldas act on Bajaj Electricals' ₹168 crore acquisition of ..."
@@ -34399,7 +34609,8 @@
       ],
       "clients": [
         "Bharat Value Fund",
-        "Belrise Industries"
+        "Belrise Industries",
+        "Cyrix"
       ],
       "deals": [
         {
@@ -34419,6 +34630,18 @@
           "headline": "JSA advises Belrise Industries on acquisition of Hyva India’s tipper body business",
           "client": "Belrise Industries",
           "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-belrise-industries-on-acquisition-of-hyva-indias-tipper-body-business",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "JSA advises Cyrix on acquisition of MedTech Solutions division from Blue Star",
+          "client": "Cyrix",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-cyrix-on-acquisition-of-medtech-solutions-division-from-blue-star",
           "source": "Bar & Bench",
           "types": [
             "acquisition"
@@ -40746,13 +40969,22 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "Hindustan Composites"
+        "Hindustan Composites",
+        "NIIF"
       ],
       "deals": [
         {
           "headline": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business",
           "client": "Hindustan Composites",
           "url": "https://www.barandbench.com/dealstreet/khaitan-co-advises-hindustan-composites-on-370-crore-sale-of-its-friction-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Khaitan & Co assists NIIF on setting up ₹19,000 crore infrastructure fund",
+          "client": "NIIF",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-assists-niif-on-setting-up-19000-crore-infrastructure-fund",
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
@@ -42090,7 +42322,8 @@
         "JK Paper",
         "Hyderabad Institute of Oncology (Omega Hospitals)",
         "Eris Lifesciences",
-        "Medi Assist Healthcare Services Limited"
+        "Medi Assist Healthcare Services Limited",
+        "on Parijat Industries - HELM collaboration"
       ],
       "deals": [
         {
@@ -42137,6 +42370,14 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises on Parijat Industries - HELM collaboration",
+          "client": "on Parijat Industries - HELM collaboration",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-on-parijat-industries-helm-collaboration",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "SAM, Clove Legal act on JK Paper's ₹235 crore acquisition of Borkar Packaging"
@@ -44351,7 +44592,8 @@
       ],
       "clients": [
         "VINCI Highways",
-        "Just Climate"
+        "Just Climate",
+        "NIIF"
       ],
       "deals": [
         {
@@ -44373,6 +44615,14 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ]
+        },
+        {
+          "headline": "Khaitan & Co assists NIIF on setting up ₹19,000 crore infrastructure fund",
+          "client": "NIIF",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-assists-niif-on-setting-up-19000-crore-infrastructure-fund",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat"
@@ -47198,6 +47448,39 @@
       }
     },
     {
+      "id": 3716,
+      "name": "Farah Titina",
+      "firm": null,
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-azb-partners-act-as-adani-airports-set-to-raise-9825-crore",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore",
+      "same_name_elsewhere": [
+        {
+          "id": 500,
+          "firm": "JSA Advocates & Solicitors",
+          "role": "Principal Associate",
+          "deal_count": 4
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 500,
       "name": "Farah Titina",
       "firm": "JSA Advocates & Solicitors",
@@ -47263,7 +47546,19 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "JSA advises TIL on rights issue and stake acquisition in Tulip Compression - Bar and Bench"
+      "snapshot": "JSA advises TIL on rights issue and stake acquisition in Tulip Compression - Bar and Bench",
+      "same_name_elsewhere": [
+        {
+          "id": 3716,
+          "firm": null,
+          "role": "Principal Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 615,
@@ -48566,6 +48861,29 @@
       "snapshot": "Trilegal, CAM, Latham, AZB, Equilex, Macfarlanes advise on Mittal-Poonawalla consortium ..."
     },
     {
+      "id": 3730,
+      "name": "Gaurita Udiyawar",
+      "firm": "Khaitan & Co",
+      "role": "Counsel",
+      "role_bucket": "Counsel",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "NIIF"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co assists NIIF on setting up ₹19,000 crore infrastructure fund",
+          "client": "NIIF",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-assists-niif-on-setting-up-19000-crore-infrastructure-fund",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co assists NIIF on setting up ₹19,000 crore infrastructure fund"
+    },
+    {
       "id": 863,
       "name": "Gautam Chabra",
       "firm": "Trilegal",
@@ -48742,6 +49060,29 @@
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas advises Kotak Mahindra Bank on acquisition of Private ..."
+    },
+    {
+      "id": 3722,
+      "name": "Gautam Kumar Bhargava",
+      "firm": "CMS INDUSLAW",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Prestige Group"
+      ],
+      "deals": [
+        {
+          "headline": "CMS INDUSLAW advises Prestige Group on securing residential project in Sector 109, Gurgaon",
+          "client": "Prestige Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cms-induslaw-advises-prestige-group-on-securing-residential-project-in-sector-109-gurgaon",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "CMS INDUSLAW advises Prestige Group on securing residential project in Sector 109, Gurgaon"
     },
     {
       "id": 3272,
@@ -49895,7 +50236,8 @@
         "Crystal Crop Protection",
         "Eris Lifesciences",
         "IDFC FIRST Bank",
-        "Union Bank of India"
+        "Union Bank of India",
+        "on Parijat Industries - HELM collaboration"
       ],
       "deals": [
         {
@@ -49967,6 +50309,14 @@
           "headline": "Shardul Amarchand Mangaldas acts on Union Bank of India $600 million senior notes issuance",
           "client": "Union Bank of India",
           "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-acts-on-union-bank-of-india-600-million-senior-notes-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises on Parijat Industries - HELM collaboration",
+          "client": "on Parijat Industries - HELM collaboration",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-on-parijat-industries-helm-collaboration",
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
@@ -52161,6 +52511,37 @@
       "snapshot": "JSA advises 6 SPVs of Gemstar on securing finances for smart metering projects"
     },
     {
+      "id": 3735,
+      "name": "Harshil Kakkar Riddhi Sri",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "financing"
+      ],
+      "practice_areas": [
+        "Banking & Finance"
+      ],
+      "clients": [
+        "NaBFID, Axis Bank, PTC India FinServ"
+      ],
+      "deals": [
+        {
+          "headline": "JSA advises NaBFID, Axis Bank, PTC India FinServ on financing for telecommunications infrastructure project",
+          "client": "NaBFID, Axis Bank, PTC India FinServ",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-nabfid-axis-bank-ptc-india-finserv-on-financing-for-telecommunications-infrastructure-project",
+          "source": "Bar & Bench",
+          "types": [
+            "financing"
+          ],
+          "practice_areas": [
+            "Banking & Finance"
+          ]
+        }
+      ],
+      "snapshot": "JSA advises NaBFID, Axis Bank, PTC India FinServ on financing for telecommunications infrastructure project"
+    },
+    {
       "id": 1975,
       "name": "Harshit Chandra",
       "firm": "JSA Advocates & Solicitors",
@@ -54241,6 +54622,39 @@
       "snapshot": "SAM advises on ₹2,300 crore refinancing of Jayaswal Neco Industries - Bar and Bench"
     },
     {
+      "id": 3709,
+      "name": "Hrishikesh Jaiswal",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-azb-partners-act-as-adani-airports-set-to-raise-9825-crore",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore",
+      "same_name_elsewhere": [
+        {
+          "id": 2986,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 2986,
       "name": "Hrishikesh Jaiswal",
       "firm": "Cyril Amarchand Mangaldas",
@@ -54261,7 +54675,19 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "Cyril Amarchand Mangaldas advises True North on sale of majority stake in Shree Digvijay Cement"
+      "snapshot": "Cyril Amarchand Mangaldas advises True North on sale of majority stake in Shree Digvijay Cement",
+      "same_name_elsewhere": [
+        {
+          "id": 3709,
+          "firm": null,
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1503,
@@ -55969,10 +56395,11 @@
       "id": 2736,
       "name": "Ishita Sinha",
       "firm": "Trilegal",
-      "role": "Senior Associate",
-      "role_bucket": "Senior Associate",
+      "role": "Counsel",
+      "role_bucket": "Counsel",
       "transaction_types": [
         "Series B",
+        "Series C",
         "fundraise"
       ],
       "practice_areas": [
@@ -55980,7 +56407,8 @@
       ],
       "clients": [
         "Pixxelspace India Private Limited",
-        "Digantara and its founders"
+        "Digantara and its founders",
+        "Pixxel"
       ],
       "deals": [
         {
@@ -55999,6 +56427,19 @@
           "types": [
             "fundraise",
             "Series B"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Trilegal advises Pixxel on $100 million Series C fundraise",
+          "client": "Pixxel",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-pixxel-on-100-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
@@ -58201,7 +58642,8 @@
         "Chartered Speed Limited",
         "Shivalaya Construction and selling shareholders",
         "Capital Infra Trust",
-        "PNG Jewellers"
+        "PNG Jewellers",
+        "ESDS"
       ],
       "deals": [
         {
@@ -58249,6 +58691,18 @@
           "source": "Bar & Bench",
           "types": [
             "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co, Trilegal act on ESDS ₹720 crore IPO",
+          "client": "ESDS",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-trilegal-act-on-esds-720-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -58310,6 +58764,29 @@
         }
       ],
       "snapshot": "SAM, Khaitan act on Aica Kogyo Co acquiring controlling stake in Stylam Industries for $225 million"
+    },
+    {
+      "id": 3725,
+      "name": "Jayaprakash Padmanaban",
+      "firm": "Fox Mandal & Associates",
+      "role": "Senior Partner",
+      "role_bucket": "Senior Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "on Brigade Enterprises’ entry into Coimbatore"
+      ],
+      "deals": [
+        {
+          "headline": "Fox Mandal & Associates advises on Brigade Enterprises’ entry into Coimbatore",
+          "client": "on Brigade Enterprises’ entry into Coimbatore",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/fox-mandal-associates-advises-on-brigade-enterprises-entry-into-coimbatore",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Fox Mandal & Associates advises on Brigade Enterprises’ entry into Coimbatore"
     },
     {
       "id": 3118,
@@ -62725,7 +63202,8 @@
         "Clean Max Atlas Private Limited",
         "VEH Green Energy",
         "IndusInd Bank",
-        "Gelos Solren"
+        "Gelos Solren",
+        "NaBFID, Axis Bank, PTC India FinServ"
       ],
       "deals": [
         {
@@ -62899,6 +63377,18 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "JSA advises NaBFID, Axis Bank, PTC India FinServ on financing for telecommunications infrastructure project",
+          "client": "NaBFID, Axis Bank, PTC India FinServ",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-nabfid-axis-bank-ptc-india-finserv-on-financing-for-telecommunications-infrastructure-project",
+          "source": "Bar & Bench",
+          "types": [
+            "financing"
+          ],
+          "practice_areas": [
+            "Banking & Finance"
+          ]
         }
       ],
       "snapshot": "JSA advises Tata Capital on ₹305 crore financing extended to Enerparc Group"
@@ -63522,6 +64012,29 @@
         "verdict": "UNVERIFIED",
         "evidence": "Not yet researched."
       }
+    },
+    {
+      "id": 3724,
+      "name": "Kartik Madaan",
+      "firm": "CMS INDUSLAW",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Prestige Group"
+      ],
+      "deals": [
+        {
+          "headline": "CMS INDUSLAW advises Prestige Group on securing residential project in Sector 109, Gurgaon",
+          "client": "Prestige Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cms-induslaw-advises-prestige-group-on-securing-residential-project-in-sector-109-gurgaon",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "CMS INDUSLAW advises Prestige Group on securing residential project in Sector 109, Gurgaon"
     },
     {
       "id": 268,
@@ -67982,6 +68495,29 @@
       "snapshot": "TPG-led consortium to acquire Aseem Infra Finance; CAM, Linklaters, Trilegal, SAM advise"
     },
     {
+      "id": 3721,
+      "name": "Kshitij Bishnoi",
+      "firm": "CMS INDUSLAW",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Prestige Group"
+      ],
+      "deals": [
+        {
+          "headline": "CMS INDUSLAW advises Prestige Group on securing residential project in Sector 109, Gurgaon",
+          "client": "Prestige Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cms-induslaw-advises-prestige-group-on-securing-residential-project-in-sector-109-gurgaon",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "CMS INDUSLAW advises Prestige Group on securing residential project in Sector 109, Gurgaon"
+    },
+    {
       "id": 3652,
       "name": "Kshitij Nair",
       "firm": "Anagram Partners",
@@ -69017,7 +69553,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Belrise Industries"
+        "Belrise Industries",
+        "Cyrix"
       ],
       "deals": [
         {
@@ -69038,6 +69575,18 @@
           "headline": "JSA advises Belrise Industries on acquisition of Hyva India’s tipper body business",
           "client": "Belrise Industries",
           "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-belrise-industries-on-acquisition-of-hyva-indias-tipper-body-business",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "JSA advises Cyrix on acquisition of MedTech Solutions division from Blue Star",
+          "client": "Cyrix",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-cyrix-on-acquisition-of-medtech-solutions-division-from-blue-star",
           "source": "Bar & Bench",
           "types": [
             "acquisition"
@@ -69380,6 +69929,29 @@
         }
       ],
       "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha..."
+    },
+    {
+      "id": 3726,
+      "name": "Lakshmi Kandasubramanian",
+      "firm": "Fox Mandal & Associates",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "on Brigade Enterprises’ entry into Coimbatore"
+      ],
+      "deals": [
+        {
+          "headline": "Fox Mandal & Associates advises on Brigade Enterprises’ entry into Coimbatore",
+          "client": "on Brigade Enterprises’ entry into Coimbatore",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/fox-mandal-associates-advises-on-brigade-enterprises-entry-into-coimbatore",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Fox Mandal & Associates advises on Brigade Enterprises’ entry into Coimbatore"
     },
     {
       "id": 2603,
@@ -74556,6 +75128,39 @@
       "snapshot": "NSE IPO: Which law firms are advising the stock exchange on its public listing?"
     },
     {
+      "id": 3718,
+      "name": "Manoj Mohapatra",
+      "firm": null,
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-azb-partners-act-as-adani-airports-set-to-raise-9825-crore",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore",
+      "same_name_elsewhere": [
+        {
+          "id": 742,
+          "firm": "JSA Advocates & Solicitors",
+          "role": "Senior Associate",
+          "deal_count": 2
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 742,
       "name": "Manoj Mohapatra",
       "firm": "JSA Advocates & Solicitors",
@@ -74603,7 +75208,19 @@
           ]
         }
       ],
-      "snapshot": "JSA, JM+P act on Iscon Balaji Foods $215 million Series A fundraise"
+      "snapshot": "JSA, JM+P act on Iscon Balaji Foods $215 million Series A fundraise",
+      "same_name_elsewhere": [
+        {
+          "id": 3718,
+          "firm": null,
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 77,
@@ -75145,6 +75762,29 @@
         }
       ],
       "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
+    },
+    {
+      "id": 3727,
+      "name": "Maria Jansi Rani",
+      "firm": "Fox Mandal & Associates",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "on Brigade Enterprises’ entry into Coimbatore"
+      ],
+      "deals": [
+        {
+          "headline": "Fox Mandal & Associates advises on Brigade Enterprises’ entry into Coimbatore",
+          "client": "on Brigade Enterprises’ entry into Coimbatore",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/fox-mandal-associates-advises-on-brigade-enterprises-entry-into-coimbatore",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Fox Mandal & Associates advises on Brigade Enterprises’ entry into Coimbatore"
     },
     {
       "id": 971,
@@ -79419,7 +80059,8 @@
         "Edelweiss Infrastructure Yield Plus and SEPL Energy",
         "Studds and Selling Shareholders",
         "Chartered Speed Limited",
-        "Capital Infra Trust"
+        "Capital Infra Trust",
+        "ESDS"
       ],
       "deals": [
         {
@@ -79483,6 +80124,18 @@
             "Capital Markets",
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Khaitan & Co, Trilegal act on ESDS ₹720 crore IPO",
+          "client": "ESDS",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-trilegal-act-on-esds-720-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
         }
       ],
       "snapshot": "Trilegal, CMS INDUSLAW act on EMI Metals ₹500 crore+ proposed IPO - Bar and Bench",
@@ -79526,7 +80179,7 @@
           "id": 777,
           "firm": "Trilegal",
           "role": "Associate",
-          "deal_count": 5
+          "deal_count": 6
         }
       ],
       "firm_verification": {
@@ -84265,6 +84918,29 @@
         }
       ],
       "snapshot": "JSA advises ASG Eye Hospital on ₹450 crore acquisition of Sharp Sight Eye Hospitals"
+    },
+    {
+      "id": 3731,
+      "name": "Nikhat Hetavkar",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "NIIF"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co assists NIIF on setting up ₹19,000 crore infrastructure fund",
+          "client": "NIIF",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-assists-niif-on-setting-up-19000-crore-infrastructure-fund",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co assists NIIF on setting up ₹19,000 crore infrastructure fund"
     },
     {
       "id": 691,
@@ -89290,6 +89966,29 @@
       "snapshot": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business"
     },
     {
+      "id": 3732,
+      "name": "Parv Pancholi",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "NIIF"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co assists NIIF on setting up ₹19,000 crore infrastructure fund",
+          "client": "NIIF",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-assists-niif-on-setting-up-19000-crore-infrastructure-fund",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co assists NIIF on setting up ₹19,000 crore infrastructure fund"
+    },
+    {
       "id": 550,
       "name": "Parvathy Tharamel",
       "firm": "Trilegal",
@@ -90610,6 +91309,27 @@
       "snapshot": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
     },
     {
+      "id": 3719,
+      "name": "Poonam Verma",
+      "firm": null,
+      "role": "Senior Partner",
+      "role_bucket": "Senior Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-azb-partners-act-as-adani-airports-set-to-raise-9825-crore",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore"
+    },
+    {
       "id": 2293,
       "name": "Poornima Hatti",
       "firm": "Samvād: Partners",
@@ -91726,6 +92446,39 @@
       }
     },
     {
+      "id": 3711,
+      "name": "Prakhar Khandal",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-azb-partners-act-as-adani-airports-set-to-raise-9825-crore",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore",
+      "same_name_elsewhere": [
+        {
+          "id": 263,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 263,
       "name": "Prakhar Khandal",
       "firm": "Cyril Amarchand Mangaldas",
@@ -91754,7 +92507,19 @@
           ]
         }
       ],
-      "snapshot": "TPG-led consortium to acquire Aseem Infra Finance; CAM, Linklaters, Trilegal, SAM advise"
+      "snapshot": "TPG-led consortium to acquire Aseem Infra Finance; CAM, Linklaters, Trilegal, SAM advise",
+      "same_name_elsewhere": [
+        {
+          "id": 3711,
+          "firm": null,
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1242,
@@ -97132,7 +97897,8 @@
       ],
       "clients": [
         "YES Bank",
-        "Gelos Solren"
+        "Gelos Solren",
+        "NaBFID, Axis Bank, PTC India FinServ"
       ],
       "deals": [
         {
@@ -97154,6 +97920,18 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "JSA advises NaBFID, Axis Bank, PTC India FinServ on financing for telecommunications infrastructure project",
+          "client": "NaBFID, Axis Bank, PTC India FinServ",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-nabfid-axis-bank-ptc-india-finserv-on-financing-for-telecommunications-infrastructure-project",
+          "source": "Bar & Bench",
+          "types": [
+            "financing"
+          ],
+          "practice_areas": [
+            "Banking & Finance"
+          ]
         }
       ],
       "snapshot": "JSA advises YES Bank on ₹519 crore financing provided to First Energy group"
@@ -99281,7 +100059,8 @@
         "Billdesk",
         "Crystal Crop Protection",
         "Eris Lifesciences",
-        "Steadview Capital Mauritius Limited"
+        "Steadview Capital Mauritius Limited",
+        "on Parijat Industries - HELM collaboration"
       ],
       "deals": [
         {
@@ -99352,6 +100131,14 @@
           "practice_areas": [
             "Capital Markets"
           ]
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises on Parijat Industries - HELM collaboration",
+          "client": "on Parijat Industries - HELM collaboration",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-on-parijat-industries-helm-collaboration",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Khaitan, Shardul Amarchand Mangaldas act on Bajaj Electricals' ₹168 crore acquisition of ..."
@@ -102872,6 +103659,27 @@
         }
       ],
       "snapshot": "Khaitan & Co advises Logicap on acquisition of warehousing assets from Xander"
+    },
+    {
+      "id": 3717,
+      "name": "Reshma Oak",
+      "firm": null,
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-azb-partners-act-as-adani-airports-set-to-raise-9825-crore",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore"
     },
     {
       "id": 157,
@@ -109265,6 +110073,7 @@
       "role_bucket": "Associate",
       "transaction_types": [
         "Series B",
+        "Series C",
         "acquisition",
         "fundraise"
       ],
@@ -109275,7 +110084,8 @@
       "clients": [
         "Bluspring Enterprises",
         "Pixxelspace India Private Limited",
-        "Digantara and its founders"
+        "Digantara and its founders",
+        "Pixxel"
       ],
       "deals": [
         {
@@ -109306,6 +110116,19 @@
           "types": [
             "fundraise",
             "Series B"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Trilegal advises Pixxel on $100 million Series C fundraise",
+          "client": "Pixxel",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-pixxel-on-100-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
@@ -110884,7 +111707,8 @@
         "Banking & Finance"
       ],
       "clients": [
-        "YES Bank"
+        "YES Bank",
+        "NaBFID, Axis Bank, PTC India FinServ"
       ],
       "deals": [
         {
@@ -110892,6 +111716,18 @@
           "client": "YES Bank",
           "url": "https://www.barandbench.com/dealstreet/jsa-advises-yes-bank-on-519-crore-financing-provided-to-first-energy-group",
           "source": "Bar and Bench",
+          "types": [
+            "financing"
+          ],
+          "practice_areas": [
+            "Banking & Finance"
+          ]
+        },
+        {
+          "headline": "JSA advises NaBFID, Axis Bank, PTC India FinServ on financing for telecommunications infrastructure project",
+          "client": "NaBFID, Axis Bank, PTC India FinServ",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-nabfid-axis-bank-ptc-india-finserv-on-financing-for-telecommunications-infrastructure-project",
+          "source": "Bar & Bench",
           "types": [
             "financing"
           ],
@@ -116396,6 +117232,39 @@
       "snapshot": "JSA assists Hi-Q Electronics on raising ₹175 crore from Valuequest - Bar and Bench"
     },
     {
+      "id": 3715,
+      "name": "Sayan Ghose",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-azb-partners-act-as-adani-airports-set-to-raise-9825-crore",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore",
+      "same_name_elsewhere": [
+        {
+          "id": 1797,
+          "firm": "JSA Advocates & Solicitors",
+          "role": "Partner, Corporate practice",
+          "deal_count": 0
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 1797,
       "name": "Sayan Ghose",
       "firm": "JSA Advocates & Solicitors",
@@ -116405,7 +117274,19 @@
       "practice_areas": [],
       "clients": [],
       "deals": [],
-      "snapshot": null
+      "snapshot": null,
+      "same_name_elsewhere": [
+        {
+          "id": 3715,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 684,
@@ -126742,7 +127623,8 @@
         "Nisus Finance Services",
         "WestBridge Capital",
         "Arboreal",
-        "Belrise Industries"
+        "Belrise Industries",
+        "Cyrix"
       ],
       "deals": [
         {
@@ -126904,6 +127786,18 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "JSA advises Cyrix on acquisition of MedTech Solutions division from Blue Star",
+          "client": "Cyrix",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-cyrix-on-acquisition-of-medtech-solutions-division-from-blue-star",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "JSA advises ASG Eye Hospital on ₹450 crore acquisition of Sharp Sight Eye Hospitals"
@@ -126987,6 +127881,29 @@
         }
       ],
       "snapshot": "Trilegal advises Apollo on subscribing to $500 million notes issued by an Adani Energy ..."
+    },
+    {
+      "id": 3729,
+      "name": "Siddharth Shah",
+      "firm": "Khaitan & Co",
+      "role": "Senior Partner",
+      "role_bucket": "Senior Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "NIIF"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co assists NIIF on setting up ₹19,000 crore infrastructure fund",
+          "client": "NIIF",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-assists-niif-on-setting-up-19000-crore-infrastructure-fund",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co assists NIIF on setting up ₹19,000 crore infrastructure fund"
     },
     {
       "id": 1561,
@@ -129799,6 +130716,27 @@
       "snapshot": "CAM advises Statkraft A.S. on 100% stake sale of wholly owned subsidiary, Mandakini Jal Urja"
     },
     {
+      "id": 3712,
+      "name": "Soumya Modi",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-azb-partners-act-as-adani-airports-set-to-raise-9825-crore",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore"
+    },
+    {
       "id": 3557,
       "name": "Soumya Mohapatra",
       "firm": "Khaitan & Co",
@@ -130342,6 +131280,29 @@
         }
       ],
       "snapshot": "SAM, CAM act on Eris Lifesciences acquiring remaining stake in Swiss Parenterals for ₹423.3 crore"
+    },
+    {
+      "id": 3723,
+      "name": "Sourav Sharma",
+      "firm": "CMS INDUSLAW",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Prestige Group"
+      ],
+      "deals": [
+        {
+          "headline": "CMS INDUSLAW advises Prestige Group on securing residential project in Sector 109, Gurgaon",
+          "client": "Prestige Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cms-induslaw-advises-prestige-group-on-securing-residential-project-in-sector-109-gurgaon",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "CMS INDUSLAW advises Prestige Group on securing residential project in Sector 109, Gurgaon"
     },
     {
       "id": 2006,
@@ -131942,6 +132903,29 @@
       "snapshot": "CAM advises Hiranandani Financial Services on raising ₹800 crore from Vitruvian"
     },
     {
+      "id": 3733,
+      "name": "Stuti Singh",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "NIIF"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co assists NIIF on setting up ₹19,000 crore infrastructure fund",
+          "client": "NIIF",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-assists-niif-on-setting-up-19000-crore-infrastructure-fund",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co assists NIIF on setting up ₹19,000 crore infrastructure fund"
+    },
+    {
       "id": 3597,
       "name": "Subah Hindaria",
       "firm": "Khaitan & Co",
@@ -132095,6 +133079,39 @@
       "snapshot": "CAM, Trilegal, Hogan Lovells acts on Anant Raj ₹1,100 crore QIP - Bar and Bench"
     },
     {
+      "id": 3706,
+      "name": "Subhalakshmi Naskar",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-azb-partners-act-as-adani-airports-set-to-raise-9825-crore",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore",
+      "same_name_elsewhere": [
+        {
+          "id": 1931,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Partner, Co-Head Projects (Infrastructure)",
+          "deal_count": 4
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 1931,
       "name": "Subhalakshmi Naskar",
       "firm": "Cyril Amarchand Mangaldas",
@@ -132156,7 +133173,19 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "Cyril Amarchand Mangaldas, TT&A act on Adani's ₹3,050 crore acquisition of IntelliSmart"
+      "snapshot": "Cyril Amarchand Mangaldas, TT&A act on Adani's ₹3,050 crore acquisition of IntelliSmart",
+      "same_name_elsewhere": [
+        {
+          "id": 3706,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 3045,
@@ -138948,6 +139977,27 @@
       "snapshot": "JSA, ELP act on TravelPlus ₹250 crore+ IPO filing - Bar and Bench"
     },
     {
+      "id": 3713,
+      "name": "Trisha Choudhary",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-azb-partners-act-as-adani-airports-set-to-raise-9825-crore",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore"
+    },
+    {
       "id": 1918,
       "name": "Trisha Mishra",
       "firm": "JSA Advocates & Solicitors",
@@ -142568,6 +143618,27 @@
       "snapshot": "SAM, CAM, Hogan Lovells act on Billdesk's acquisition of Worldline"
     },
     {
+      "id": 3720,
+      "name": "Varghese Thomas",
+      "firm": null,
+      "role": "Senior Partner",
+      "role_bucket": "Senior Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-azb-partners-act-as-adani-airports-set-to-raise-9825-crore",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore"
+    },
+    {
       "id": 2571,
       "name": "Varnika Agarwal",
       "firm": "AZB & Partners",
@@ -145522,6 +146593,39 @@
       "snapshot": "Trilegal, CMS INDUSLAW act on Gujarat Themis Biosyn ₹750 crore QIP"
     },
     {
+      "id": 3714,
+      "name": "Vikram Raghani",
+      "firm": null,
+      "role": "Senior Partner",
+      "role_bucket": "Senior Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-azb-partners-act-as-adani-airports-set-to-raise-9825-crore",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore",
+      "same_name_elsewhere": [
+        {
+          "id": 499,
+          "firm": "JSA Advocates & Solicitors",
+          "role": "Partner",
+          "deal_count": 10
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 499,
       "name": "Vikram Raghani",
       "firm": "JSA Advocates & Solicitors",
@@ -145664,7 +146768,19 @@
           ]
         }
       ],
-      "snapshot": "JSA advises TIL on rights issue and stake acquisition in Tulip Compression - Bar and Bench"
+      "snapshot": "JSA advises TIL on rights issue and stake acquisition in Tulip Compression - Bar and Bench",
+      "same_name_elsewhere": [
+        {
+          "id": 3714,
+          "firm": null,
+          "role": "Senior Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1611,
@@ -147932,8 +149048,8 @@
       "id": 2551,
       "name": "Vristi Garg",
       "firm": "JSA Advocates & Solicitors",
-      "role": "Paralegal",
-      "role_bucket": "Other",
+      "role": "Associate",
+      "role_bucket": "Associate",
       "transaction_types": [
         "financing"
       ],
@@ -147941,7 +149057,8 @@
         "Banking & Finance"
       ],
       "clients": [
-        "YES Bank"
+        "YES Bank",
+        "NaBFID, Axis Bank, PTC India FinServ"
       ],
       "deals": [
         {
@@ -147949,6 +149066,18 @@
           "client": "YES Bank",
           "url": "https://www.barandbench.com/dealstreet/jsa-advises-yes-bank-on-519-crore-financing-provided-to-first-energy-group",
           "source": "Bar and Bench",
+          "types": [
+            "financing"
+          ],
+          "practice_areas": [
+            "Banking & Finance"
+          ]
+        },
+        {
+          "headline": "JSA advises NaBFID, Axis Bank, PTC India FinServ on financing for telecommunications infrastructure project",
+          "client": "NaBFID, Axis Bank, PTC India FinServ",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-nabfid-axis-bank-ptc-india-finserv-on-financing-for-telecommunications-infrastructure-project",
+          "source": "Bar & Bench",
           "types": [
             "financing"
           ],
@@ -149466,6 +150595,39 @@
       "snapshot": "Trilegal, Quillon Partners act on Tynor securing $200 million investment from Kedaara Capital"
     },
     {
+      "id": 3708,
+      "name": "Yashasvi Raj",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-azb-partners-act-as-adani-airports-set-to-raise-9825-crore",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore",
+      "same_name_elsewhere": [
+        {
+          "id": 1934,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 1934,
       "name": "Yashasvi Raj",
       "firm": "Cyril Amarchand Mangaldas",
@@ -149494,7 +150656,19 @@
           ]
         }
       ],
-      "snapshot": "Cyril Amarchand Mangaldas, TT&A act on Adani's ₹3,050 crore acquisition of IntelliSmart"
+      "snapshot": "Cyril Amarchand Mangaldas, TT&A act on Adani's ₹3,050 crore acquisition of IntelliSmart",
+      "same_name_elsewhere": [
+        {
+          "id": 3708,
+          "firm": null,
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 866,
