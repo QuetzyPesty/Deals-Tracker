@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 3735,
-    "firms": 107,
-    "deals": 492,
+    "people": 3751,
+    "firms": 109,
+    "deals": 497,
     "practice_areas": 6
   },
   "firms": [
@@ -85,6 +85,7 @@
     "River Law",
     "S&R Associates",
     "SKS Advisor",
+    "SNG & Partners",
     "Saga Legal",
     "Samvād: Partners",
     "Saraf and Partners",
@@ -95,6 +96,7 @@
     "Simpson Thacher",
     "Squire Patton Boggs",
     "Sullivan & Cromwell",
+    "T&R Law Offices",
     "TLH Advocates",
     "TRD Associates",
     "Talwar Thakore & Associates",
@@ -3921,6 +3923,21 @@
       ]
     },
     {
+      "firm": "SNG & Partners",
+      "people_count": 4,
+      "practice_groups": [
+        {
+          "area": "Private Equity & Venture Capital",
+          "person_ids": [
+            3748,
+            3749,
+            3750,
+            3751
+          ]
+        }
+      ]
+    },
+    {
       "firm": "Saga Legal",
       "people_count": 4,
       "practice_groups": [
@@ -4676,6 +4693,18 @@
       ]
     },
     {
+      "firm": "T&R Law Offices",
+      "people_count": 1,
+      "practice_groups": [
+        {
+          "area": "Private Equity & Venture Capital",
+          "person_ids": [
+            3747
+          ]
+        }
+      ]
+    },
+    {
       "firm": "TLH Advocates",
       "people_count": 2,
       "practice_groups": [
@@ -4850,16 +4879,23 @@
     },
     {
       "firm": "Touchstone Partners",
-      "people_count": 15,
+      "people_count": 19,
       "practice_groups": [
         {
           "area": "Private Equity & Venture Capital",
           "person_ids": [
+            3737,
+            1770,
             1133,
             1135,
+            3738,
             1137,
+            3736,
             1131,
+            1772,
+            3739,
             1130,
+            1771,
             1138,
             1136,
             1134,
@@ -4886,7 +4922,7 @@
     },
     {
       "firm": "Trilegal",
-      "people_count": 523,
+      "people_count": 530,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -4894,6 +4930,7 @@
             2814,
             3486,
             474,
+            3745,
             710,
             2057,
             998,
@@ -4926,14 +4963,17 @@
             280,
             3330,
             2399,
+            3744,
             3604,
             539,
             2396,
             3488,
+            3741,
             544,
             167,
             3329,
             524,
+            3746,
             3001,
             992,
             522,
@@ -4978,6 +5018,7 @@
             1275,
             548,
             1843,
+            3740,
             2193,
             176,
             2055,
@@ -5041,6 +5082,7 @@
             3483,
             1396,
             2446,
+            1443,
             2267,
             2148,
             2060,
@@ -5072,6 +5114,7 @@
             3599,
             1085,
             2384,
+            3743,
             2398,
             2938,
             2382,
@@ -5110,6 +5153,7 @@
             2998,
             273,
             2385,
+            3742,
             532,
             2381,
             1818,
@@ -5125,6 +5169,7 @@
             277,
             164,
             1093,
+            1440,
             3332,
             2054,
             796,
@@ -5147,7 +5192,8 @@
             1086,
             3481,
             2387,
-            2049
+            2049,
+            3587
           ]
         },
         {
@@ -5474,7 +5520,6 @@
             1820,
             1018,
             2409,
-            1443,
             869,
             2578,
             3366,
@@ -5516,7 +5561,6 @@
             2122,
             1027,
             1438,
-            1440,
             2467,
             3102,
             2143,
@@ -6819,7 +6863,62 @@
           ]
         }
       ],
-      "snapshot": "CAM assists BNP Paribas on restructuring - Bar and Bench"
+      "snapshot": "CAM assists BNP Paribas on restructuring - Bar and Bench",
+      "same_name_elsewhere": [
+        {
+          "id": 3737,
+          "firm": "Touchstone Partners",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
+      "id": 3737,
+      "name": "Aastha Vyas",
+      "firm": "Touchstone Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Motilal Oswal"
+      ],
+      "deals": [
+        {
+          "headline": "Touchstone Partners advises Motilal Oswal on ₹600 crore investment in KARAM Safety",
+          "client": "Motilal Oswal",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/touchstone-partners-advises-motilal-oswal-on-600-crore-investment-in-karam-safety",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Touchstone Partners advises Motilal Oswal on ₹600 crore investment in KARAM Safety",
+      "same_name_elsewhere": [
+        {
+          "id": 2852,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Associate (SEBI matters)",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1852,
@@ -7490,6 +7589,39 @@
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas advises Kotak Mahindra Bank on acquisition of Private ..."
+    },
+    {
+      "id": 3745,
+      "name": "Abhijeet Singh",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "GRT Jewellers"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ",
+          "client": "GRT Jewellers",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-grt-jewellers-on-1034-crore-stake-acquisition-in-tbz",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ"
     },
     {
       "id": 586,
@@ -13258,6 +13390,37 @@
       "snapshot": "JSA, Khaitan act on Everstone investing $270 million in Apothecon Group"
     },
     {
+      "id": 3748,
+      "name": "Aditya Vikram Dua",
+      "firm": "SNG & Partners",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "on inaugural investment by HDFC Capital - Hulic joint debt platform"
+      ],
+      "deals": [
+        {
+          "headline": "SNG & Partners advises on inaugural investment by HDFC Capital - Hulic joint debt platform",
+          "client": "on inaugural investment by HDFC Capital - Hulic joint debt platform",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/sng-partners-advises-on-inaugural-investment-by-hdfc-capital-hulic-joint-debt-platform",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "SNG & Partners advises on inaugural investment by HDFC Capital - Hulic joint debt platform"
+    },
+    {
       "id": 3204,
       "name": "Adnan Danish",
       "firm": "JSA Advocates & Solicitors",
@@ -16090,6 +16253,37 @@
         }
       ],
       "snapshot": "SAM, Khaitan act on Aica Kogyo Co acquiring controlling stake in Stylam Industries for $225 million"
+    },
+    {
+      "id": 3747,
+      "name": "Akshay Garg",
+      "firm": "T&R Law Offices",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "No Filter"
+      ],
+      "deals": [
+        {
+          "headline": "T&R Law Offices advises No Filter on pre-seed fundraise",
+          "client": "No Filter",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tr-law-offices-advises-no-filter-on-pre-seed-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "T&R Law Offices advises No Filter on pre-seed fundraise"
     },
     {
       "id": 2453,
@@ -21440,6 +21634,37 @@
       "snapshot": "Power Finance Corp to absorb REC Limited; Cyril Amarchand Mangaldas acts on merger"
     },
     {
+      "id": 3749,
+      "name": "Aniket Sawant",
+      "firm": "SNG & Partners",
+      "role": "Associate Partner",
+      "role_bucket": "Associate Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "on inaugural investment by HDFC Capital - Hulic joint debt platform"
+      ],
+      "deals": [
+        {
+          "headline": "SNG & Partners advises on inaugural investment by HDFC Capital - Hulic joint debt platform",
+          "client": "on inaugural investment by HDFC Capital - Hulic joint debt platform",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/sng-partners-advises-on-inaugural-investment-by-hdfc-capital-hulic-joint-debt-platform",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "SNG & Partners advises on inaugural investment by HDFC Capital - Hulic joint debt platform"
+    },
+    {
       "id": 2108,
       "name": "Aniket Singhania",
       "firm": "Cyril Amarchand Mangaldas",
@@ -22029,13 +22254,16 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "investment"
       ],
       "practice_areas": [
-        "Capital Markets"
+        "Capital Markets",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Crown Capital Limited"
+        "Crown Capital Limited",
+        "Motilal Oswal"
       ],
       "deals": [
         {
@@ -22048,6 +22276,18 @@
           ],
           "practice_areas": [
             "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Touchstone Partners advises Motilal Oswal on ₹600 crore investment in KARAM Safety",
+          "client": "Motilal Oswal",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/touchstone-partners-advises-motilal-oswal-on-600-crore-investment-in-karam-safety",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -23721,7 +23961,8 @@
         "acquisition",
         "fundraise",
         "investment",
-        "merger"
+        "merger",
+        "stake acquisition"
       ],
       "practice_areas": [
         "Mergers & Acquisitions",
@@ -23730,7 +23971,8 @@
       "clients": [
         "Aseem Infra Finance",
         "Abu Dhabi National Energy Company (TAQA)",
-        "Japan Post"
+        "Japan Post",
+        "GRT Jewellers"
       ],
       "deals": [
         {
@@ -23769,6 +24011,19 @@
           "practice_areas": [
             "Mergers & Acquisitions",
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ",
+          "client": "GRT Jewellers",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-grt-jewellers-on-1034-crore-stake-acquisition-in-tbz",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -25280,6 +25535,39 @@
       "snapshot": "Khaitan & Co advises Belding India on Evolve IT Solutions"
     },
     {
+      "id": 3744,
+      "name": "Anthara N",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "GRT Jewellers"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ",
+          "client": "GRT Jewellers",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-grt-jewellers-on-1034-crore-stake-acquisition-in-tbz",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ"
+    },
+    {
       "id": 627,
       "name": "Antonio Arenas Torres",
       "firm": "Clifford Chance",
@@ -26027,6 +26315,39 @@
         }
       ],
       "snapshot": "Imarticus Learning acquires Singapore's BELLS Institute of Higher Learning for ₹800 crore; IC RegFin..."
+    },
+    {
+      "id": 3741,
+      "name": "Anuraag Pillai",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "GRT Jewellers"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ",
+          "client": "GRT Jewellers",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-grt-jewellers-on-1034-crore-stake-acquisition-in-tbz",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ"
     },
     {
       "id": 1454,
@@ -28200,6 +28521,57 @@
       "snapshot": "Trilegal, CAM, Latham, AZB, Equilex, Macfarlanes advise on Mittal-Poonawalla consortium ..."
     },
     {
+      "id": 3746,
+      "name": "Archit Jain",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "GRT Jewellers"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ",
+          "client": "GRT Jewellers",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-grt-jewellers-on-1034-crore-stake-acquisition-in-tbz",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ",
+      "same_name_elsewhere": [
+        {
+          "id": 807,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Associate",
+          "deal_count": 5
+        },
+        {
+          "id": 3347,
+          "firm": "Cyril",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 807,
       "name": "Archit Jain",
       "firm": "Cyril Amarchand Mangaldas",
@@ -28267,6 +28639,12 @@
       "snapshot": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Adani Enterprises ... - Bar and Bench",
       "same_name_elsewhere": [
         {
+          "id": 3746,
+          "firm": "Trilegal",
+          "role": "Associate",
+          "deal_count": 1
+        },
+        {
           "id": 3347,
           "firm": "Cyril",
           "role": "Associate",
@@ -28309,6 +28687,12 @@
       ],
       "snapshot": "Cyril and Shardul Amarchand Mangaldas act on LEAP India ₹2,480 crore IPO",
       "same_name_elsewhere": [
+        {
+          "id": 3746,
+          "firm": "Trilegal",
+          "role": "Associate",
+          "deal_count": 1
+        },
         {
           "id": 807,
           "firm": "Cyril Amarchand Mangaldas",
@@ -32233,14 +32617,17 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
-        "merger"
+        "acquisition",
+        "merger",
+        "stake acquisition"
       ],
       "practice_areas": [
         "Mergers & Acquisitions"
       ],
       "clients": [
         "Prism Johnson",
-        "Piramal Enterprises Limited and Piramal Finance Limited"
+        "Piramal Enterprises Limited and Piramal Finance Limited",
+        "GRT Jewellers"
       ],
       "deals": [
         {
@@ -32258,6 +32645,19 @@
           "source": "Bar and Bench",
           "types": [
             "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ",
+          "client": "GRT Jewellers",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-grt-jewellers-on-1034-crore-stake-acquisition-in-tbz",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
@@ -36617,6 +37017,7 @@
       "role_bucket": "Partner",
       "transaction_types": [
         "Series B",
+        "Series D",
         "fundraise",
         "investment"
       ],
@@ -36625,7 +37026,8 @@
       ],
       "clients": [
         "Embio",
-        "Matel"
+        "Matel",
+        "Bgauss"
       ],
       "deals": [
         {
@@ -36647,6 +37049,19 @@
           "source": "Bar & Bench",
           "types": [
             "Series B",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co acts on Bgauss ₹110 crore Series D fundraise",
+          "client": "Bgauss",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-bgauss-110-crore-series-d-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series D",
             "fundraise"
           ],
           "practice_areas": [
@@ -40896,14 +41311,17 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
-        "merger"
+        "acquisition",
+        "merger",
+        "stake acquisition"
       ],
       "practice_areas": [
         "Mergers & Acquisitions"
       ],
       "clients": [
         "Piramal Enterprises Limited and Piramal Finance Limited",
-        "JSW Group"
+        "JSW Group",
+        "GRT Jewellers"
       ],
       "deals": [
         {
@@ -40925,6 +41343,19 @@
           "source": "",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ",
+          "client": "GRT Jewellers",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-grt-jewellers-on-1034-crore-stake-acquisition-in-tbz",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "Trilegal acts on reverse merger of Piramal Enterprises with Piramal Finance - Bar and Bench"
@@ -48925,7 +49356,8 @@
         "acquisition",
         "fundraise",
         "investment",
-        "merger"
+        "merger",
+        "stake acquisition"
       ],
       "practice_areas": [
         "Mergers & Acquisitions",
@@ -48937,7 +49369,8 @@
         "Neo Secondaries Fund",
         "Abu Dhabi National Energy Company (TAQA)",
         "Piramal Enterprises Limited and Piramal Finance Limited",
-        "Japan Post"
+        "Japan Post",
+        "GRT Jewellers"
       ],
       "deals": [
         {
@@ -49012,6 +49445,19 @@
           "practice_areas": [
             "Mergers & Acquisitions",
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ",
+          "client": "GRT Jewellers",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-grt-jewellers-on-1034-crore-stake-acquisition-in-tbz",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -53046,6 +53492,37 @@
       "snapshot": "Trilegal, DSK Legal act on Laser Power & Infra ₹742 crore IPO - Bar and Bench"
     },
     {
+      "id": 3738,
+      "name": "Harshita Gupta",
+      "firm": "Touchstone Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Motilal Oswal"
+      ],
+      "deals": [
+        {
+          "headline": "Touchstone Partners advises Motilal Oswal on ₹600 crore investment in KARAM Safety",
+          "client": "Motilal Oswal",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/touchstone-partners-advises-motilal-oswal-on-600-crore-investment-in-karam-safety",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Touchstone Partners advises Motilal Oswal on ₹600 crore investment in KARAM Safety"
+    },
+    {
       "id": 3088,
       "name": "Harshita Jajodia",
       "firm": "Khaitan & Co",
@@ -55236,13 +55713,16 @@
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
+        "Series D",
+        "fundraise",
         "investment"
       ],
       "practice_areas": [
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Embio"
+        "Embio",
+        "Bgauss"
       ],
       "deals": [
         {
@@ -55252,6 +55732,19 @@
           "source": "Bar and Bench",
           "types": [
             "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co acts on Bgauss ₹110 crore Series D fundraise",
+          "client": "Bgauss",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-bgauss-110-crore-series-d-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series D",
+            "fundraise"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
@@ -58194,6 +58687,39 @@
         }
       ],
       "snapshot": "SAM advises Sembcorp Green on ~₹1,700 crore acquisition of ReNew Sun Bright"
+    },
+    {
+      "id": 3740,
+      "name": "Jatin Sharma",
+      "firm": "Trilegal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "GRT Jewellers"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ",
+          "client": "GRT Jewellers",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-grt-jewellers-on-1034-crore-stake-acquisition-in-tbz",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ"
     },
     {
       "id": 425,
@@ -62153,6 +62679,37 @@
       "snapshot": "DMD Advocates advises Rabyte on majority stake acquisition by Hakuto - Bar and Bench"
     },
     {
+      "id": 3736,
+      "name": "Kajal Advani",
+      "firm": "Touchstone Partners",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Motilal Oswal"
+      ],
+      "deals": [
+        {
+          "headline": "Touchstone Partners advises Motilal Oswal on ₹600 crore investment in KARAM Safety",
+          "client": "Motilal Oswal",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/touchstone-partners-advises-motilal-oswal-on-600-crore-investment-in-karam-safety",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Touchstone Partners advises Motilal Oswal on ₹600 crore investment in KARAM Safety"
+    },
+    {
       "id": 1968,
       "name": "Kajal Kashyap",
       "firm": "JSA Advocates & Solicitors",
@@ -62841,14 +63398,16 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "stake acquisition"
       ],
       "practice_areas": [
         "Mergers & Acquisitions"
       ],
       "clients": [
         "Abu Dhabi National Energy Company (TAQA)",
-        "Premji Invest and TPG NewQuest"
+        "Premji Invest and TPG NewQuest",
+        "GRT Jewellers"
       ],
       "deals": [
         {
@@ -62870,6 +63429,19 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ",
+          "client": "GRT Jewellers",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-grt-jewellers-on-1034-crore-stake-acquisition-in-tbz",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "CAM, Trilegal act on MEIL Energy acquiring a 250 MW thermal power project in Tamil Nadu ..."
@@ -64343,6 +64915,37 @@
         }
       ],
       "snapshot": "Khaitan & Co advises Algonomy on acquisition by Malaysia-based ADA"
+    },
+    {
+      "id": 3750,
+      "name": "Kartikeya Rao",
+      "firm": "SNG & Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "on inaugural investment by HDFC Capital - Hulic joint debt platform"
+      ],
+      "deals": [
+        {
+          "headline": "SNG & Partners advises on inaugural investment by HDFC Capital - Hulic joint debt platform",
+          "client": "on inaugural investment by HDFC Capital - Hulic joint debt platform",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/sng-partners-advises-on-inaugural-investment-by-hdfc-capital-hulic-joint-debt-platform",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "SNG & Partners advises on inaugural investment by HDFC Capital - Hulic joint debt platform"
     },
     {
       "id": 1730,
@@ -66712,7 +67315,8 @@
         "CA Sardo Investments/Carlyle (IP law)",
         "Sona Comstar",
         "Oxane Partners securing investment from TA Associates",
-        "Berry Street - Healthify merger"
+        "Berry Street - Healthify merger",
+        "GRT Jewellers"
       ],
       "deals": [
         {
@@ -66807,6 +67411,19 @@
           "source": "Bar & Bench",
           "types": [
             "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ",
+          "client": "GRT Jewellers",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-grt-jewellers-on-1034-crore-stake-acquisition-in-tbz",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
@@ -71356,8 +71973,10 @@
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
+        "acquisition",
         "investment",
-        "merger"
+        "merger",
+        "stake acquisition"
       ],
       "practice_areas": [
         "Mergers & Acquisitions",
@@ -71365,7 +71984,8 @@
       ],
       "clients": [
         "PMI Electro Mobility",
-        "Japan Post"
+        "Japan Post",
+        "GRT Jewellers"
       ],
       "deals": [
         {
@@ -71392,6 +72012,19 @@
           "practice_areas": [
             "Mergers & Acquisitions",
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ",
+          "client": "GRT Jewellers",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-grt-jewellers-on-1034-crore-stake-acquisition-in-tbz",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -83236,13 +83869,16 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "investment"
       ],
       "practice_areas": [
-        "Capital Markets"
+        "Capital Markets",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Crown Capital Limited"
+        "Crown Capital Limited",
+        "Motilal Oswal"
       ],
       "deals": [
         {
@@ -83255,6 +83891,18 @@
           ],
           "practice_areas": [
             "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Touchstone Partners advises Motilal Oswal on ₹600 crore investment in KARAM Safety",
+          "client": "Motilal Oswal",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/touchstone-partners-advises-motilal-oswal-on-600-crore-investment-in-karam-safety",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -87503,10 +88151,16 @@
       "firm": "Trilegal",
       "role": "Associate",
       "role_bucket": "Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "Prism Johnson"
+        "Prism Johnson",
+        "GRT Jewellers"
       ],
       "deals": [
         {
@@ -87516,6 +88170,19 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ",
+          "client": "GRT Jewellers",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-grt-jewellers-on-1034-crore-stake-acquisition-in-tbz",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "CAM advises QBE Holdings on acquiring Raheja QBE General Insurance Company"
@@ -88604,7 +89271,9 @@
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
-        "merger"
+        "acquisition",
+        "merger",
+        "stake acquisition"
       ],
       "practice_areas": [
         "Mergers & Acquisitions"
@@ -88612,7 +89281,8 @@
       "clients": [
         "Bain Capital",
         "Sona Comstar",
-        "Berry Street - Healthify merger"
+        "Berry Street - Healthify merger",
+        "GRT Jewellers"
       ],
       "deals": [
         {
@@ -88638,6 +89308,19 @@
           "source": "Bar & Bench",
           "types": [
             "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ",
+          "client": "GRT Jewellers",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-grt-jewellers-on-1034-crore-stake-acquisition-in-tbz",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
@@ -89527,6 +90210,37 @@
         }
       ],
       "snapshot": "Trilegal advises Cherry Bekaert on acquisition of Tarsus - Bar and Bench"
+    },
+    {
+      "id": 3739,
+      "name": "Paras Tripathi",
+      "firm": "Touchstone Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Motilal Oswal"
+      ],
+      "deals": [
+        {
+          "headline": "Touchstone Partners advises Motilal Oswal on ₹600 crore investment in KARAM Safety",
+          "client": "Motilal Oswal",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/touchstone-partners-advises-motilal-oswal-on-600-crore-investment-in-karam-safety",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Touchstone Partners advises Motilal Oswal on ₹600 crore investment in KARAM Safety"
     },
     {
       "id": 944,
@@ -91851,6 +92565,7 @@
       "role_bucket": "Associate",
       "transaction_types": [
         "Series B",
+        "Series D",
         "fundraise",
         "investment"
       ],
@@ -91859,7 +92574,8 @@
       ],
       "clients": [
         "Embio",
-        "Matel"
+        "Matel",
+        "Bgauss"
       ],
       "deals": [
         {
@@ -91881,6 +92597,19 @@
           "source": "Bar & Bench",
           "types": [
             "Series B",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co acts on Bgauss ₹110 crore Series D fundraise",
+          "client": "Bgauss",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-bgauss-110-crore-series-d-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series D",
             "fundraise"
           ],
           "practice_areas": [
@@ -93135,13 +93864,15 @@
       "role_bucket": "Partner",
       "transaction_types": [
         "Series E",
-        "fundraise"
+        "fundraise",
+        "investment"
       ],
       "practice_areas": [
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Motilal Oswal Alternates, Premji Invest, TPG NewQuest, and Archerman Capital"
+        "Motilal Oswal Alternates, Premji Invest, TPG NewQuest, and Archerman Capital",
+        "Motilal Oswal"
       ],
       "deals": [
         {
@@ -93152,6 +93883,18 @@
           "types": [
             "fundraise",
             "Series E"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Touchstone Partners advises Motilal Oswal on ₹600 crore investment in KARAM Safety",
+          "client": "Motilal Oswal",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/touchstone-partners-advises-motilal-oswal-on-600-crore-investment-in-karam-safety",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
@@ -93265,13 +94008,16 @@
       "role": "Counsel",
       "role_bucket": "Counsel",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "investment"
       ],
       "practice_areas": [
-        "Capital Markets"
+        "Capital Markets",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Crown Capital Limited"
+        "Crown Capital Limited",
+        "Motilal Oswal"
       ],
       "deals": [
         {
@@ -93284,6 +94030,18 @@
           ],
           "practice_areas": [
             "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Touchstone Partners advises Motilal Oswal on ₹600 crore investment in KARAM Safety",
+          "client": "Motilal Oswal",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/touchstone-partners-advises-motilal-oswal-on-600-crore-investment-in-karam-safety",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -99357,7 +100115,8 @@
       "role_bucket": "Partner",
       "transaction_types": [
         "acquisition",
-        "investment"
+        "investment",
+        "stake acquisition"
       ],
       "practice_areas": [
         "Mergers & Acquisitions",
@@ -99367,7 +100126,8 @@
         "Signature Global and Gurugram Commercity Limited",
         "Shell",
         "Abu Dhabi National Energy Company (TAQA)",
-        "Tynor securing"
+        "Tynor securing",
+        "GRT Jewellers"
       ],
       "deals": [
         {
@@ -99416,6 +100176,19 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ",
+          "client": "GRT Jewellers",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-grt-jewellers-on-1034-crore-stake-acquisition-in-tbz",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -107421,6 +108194,39 @@
       "snapshot": "Lex Consult, JSA act on Supply6 Series A fundraise"
     },
     {
+      "id": 3743,
+      "name": "Rohit Krishna",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "GRT Jewellers"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ",
+          "client": "GRT Jewellers",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-grt-jewellers-on-1034-crore-stake-acquisition-in-tbz",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ"
+    },
+    {
       "id": 804,
       "name": "Rohit Raj",
       "firm": "Cyril Amarchand Mangaldas",
@@ -111005,6 +111811,7 @@
       "role_bucket": "Associate",
       "transaction_types": [
         "Series B",
+        "Series D",
         "fundraise",
         "investment"
       ],
@@ -111013,7 +111820,8 @@
       ],
       "clients": [
         "Embio",
-        "Matel"
+        "Matel",
+        "Bgauss"
       ],
       "deals": [
         {
@@ -111035,6 +111843,19 @@
           "source": "Bar & Bench",
           "types": [
             "Series B",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Khaitan & Co acts on Bgauss ₹110 crore Series D fundraise",
+          "client": "Bgauss",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-bgauss-110-crore-series-d-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series D",
             "fundraise"
           ],
           "practice_areas": [
@@ -118588,9 +119409,11 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "acquisition",
         "fundraise",
         "investment",
-        "merger"
+        "merger",
+        "stake acquisition"
       ],
       "practice_areas": [
         "Mergers & Acquisitions",
@@ -118598,7 +119421,8 @@
       ],
       "clients": [
         "Neo Secondaries Fund",
-        "Japan Post"
+        "Japan Post",
+        "GRT Jewellers"
       ],
       "deals": [
         {
@@ -118625,6 +119449,19 @@
           "practice_areas": [
             "Mergers & Acquisitions",
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ",
+          "client": "GRT Jewellers",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-grt-jewellers-on-1034-crore-stake-acquisition-in-tbz",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
@@ -126386,6 +127223,39 @@
       "snapshot": "Dhir & Dhir Associates assists in Powertronix Engineering proposed IPO"
     },
     {
+      "id": 3742,
+      "name": "Shubhangi Singh",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "GRT Jewellers"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ",
+          "client": "GRT Jewellers",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-grt-jewellers-on-1034-crore-stake-acquisition-in-tbz",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ"
+    },
+    {
       "id": 689,
       "name": "Shubhangi Tewari",
       "firm": "Khaitan & Co",
@@ -130525,6 +131395,37 @@
         }
       ],
       "snapshot": "White & Case, AZB, Sullivan, Cyril Amarchand Mangaldas, Linklaters act on Sun Pharma's ..."
+    },
+    {
+      "id": 3751,
+      "name": "Sonali Nagariya",
+      "firm": "SNG & Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "on inaugural investment by HDFC Capital - Hulic joint debt platform"
+      ],
+      "deals": [
+        {
+          "headline": "SNG & Partners advises on inaugural investment by HDFC Capital - Hulic joint debt platform",
+          "client": "on inaugural investment by HDFC Capital - Hulic joint debt platform",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/sng-partners-advises-on-inaugural-investment-by-hdfc-capital-hulic-joint-debt-platform",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "SNG & Partners advises on inaugural investment by HDFC Capital - Hulic joint debt platform"
     },
     {
       "id": 3273,
@@ -138538,10 +139439,16 @@
       "firm": "Trilegal",
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "Prism Johnson"
+        "Prism Johnson",
+        "GRT Jewellers"
       ],
       "deals": [
         {
@@ -138551,6 +139458,19 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ",
+          "client": "GRT Jewellers",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-grt-jewellers-on-1034-crore-stake-acquisition-in-tbz",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "CAM advises QBE Holdings on acquiring Raheja QBE General Insurance Company"
@@ -150570,13 +151490,17 @@
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
-        "investment"
+        "acquisition",
+        "investment",
+        "stake acquisition"
       ],
       "practice_areas": [
+        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Tynor securing"
+        "Tynor securing",
+        "GRT Jewellers"
       ],
       "deals": [
         {
@@ -150589,6 +151513,19 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ",
+          "client": "GRT Jewellers",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-grt-jewellers-on-1034-crore-stake-acquisition-in-tbz",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ]
         }
       ],
