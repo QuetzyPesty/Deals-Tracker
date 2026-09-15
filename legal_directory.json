@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 3762,
+    "people": 3785,
     "firms": 110,
-    "deals": 500,
+    "deals": 508,
     "practice_areas": 6
   },
   "firms": [
@@ -670,7 +670,7 @@
     },
     {
       "firm": "CMS INDUSLAW",
-      "people_count": 81,
+      "people_count": 83,
       "practice_groups": [
         {
           "area": "Capital Markets",
@@ -746,6 +746,7 @@
             1949,
             153,
             1956,
+            3771,
             1946,
             1912,
             152,
@@ -753,6 +754,7 @@
             1910,
             1911,
             1955,
+            3772,
             1950,
             1951,
             151,
@@ -2159,7 +2161,7 @@
     },
     {
       "firm": "JSA Advocates & Solicitors",
-      "people_count": 381,
+      "people_count": 385,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -2668,6 +2670,31 @@
           ]
         },
         {
+          "area": "Corporate & Commercial",
+          "person_ids": [
+            3765,
+            139,
+            3004,
+            138,
+            435,
+            220,
+            3764,
+            137,
+            7,
+            1,
+            3,
+            1210,
+            756,
+            5,
+            1207,
+            434,
+            3766,
+            1209,
+            3763,
+            1208
+          ]
+        },
+        {
           "area": "Restructuring & Insolvency",
           "person_ids": [
             506,
@@ -2682,20 +2709,6 @@
             2898,
             135,
             2900
-          ]
-        },
-        {
-          "area": "Corporate & Commercial",
-          "person_ids": [
-            139,
-            138,
-            220,
-            137,
-            7,
-            1210,
-            1207,
-            1209,
-            1208
           ]
         }
       ]
@@ -3369,15 +3382,21 @@
     },
     {
       "firm": "Kochhar & Co",
-      "people_count": 5,
+      "people_count": 6,
       "practice_groups": [
+        {
+          "area": "Mergers & Acquisitions",
+          "person_ids": [
+            3307,
+            3147,
+            3146,
+            3773
+          ]
+        },
         {
           "area": "Unclassified",
           "person_ids": [
-            3307,
             3306,
-            3147,
-            3146,
             3148
           ]
         }
@@ -4770,7 +4789,7 @@
     },
     {
       "firm": "Talwar Thakore & Associates",
-      "people_count": 67,
+      "people_count": 71,
       "practice_groups": [
         {
           "area": "Private Equity & Venture Capital",
@@ -4780,18 +4799,24 @@
             1115,
             1281,
             1941,
+            3770,
             405,
             1220,
+            3767,
             446,
             444,
+            3768,
             406,
             1119,
             1116,
             1357,
+            3769,
             1219,
             1118,
             1353,
             447,
+            1221,
+            1218,
             1356,
             1359,
             1722,
@@ -4872,8 +4897,6 @@
             3565,
             3564,
             1723,
-            1221,
-            1218,
             3107,
             3566,
             3567,
@@ -5630,14 +5653,16 @@
     },
     {
       "firm": "Triumvir Law",
-      "people_count": 3,
+      "people_count": 5,
       "practice_groups": [
         {
-          "area": "Unclassified",
+          "area": "Private Equity & Venture Capital",
           "person_ids": [
             3262,
             3261,
-            3263
+            3784,
+            3263,
+            3785
           ]
         }
       ]
@@ -6153,13 +6178,16 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
+        "Series C",
+        "fundraise",
         "investment"
       ],
       "practice_areas": [
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "OrbiMed"
+        "OrbiMed",
+        "investors"
       ],
       "deals": [
         {
@@ -6169,6 +6197,19 @@
           "source": "Bar and Bench",
           "types": [
             "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "TT&A, CMS INDUSLAW advise investors on Nua $50 million Series C fundraise",
+          "client": "investors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-cms-induslaw-advise-investors-on-nua-50-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
@@ -6271,6 +6312,37 @@
         }
       ],
       "snapshot": "Trilegal advises Iswarya Health on securing ₹355 crore investment from OrbiMed"
+    },
+    {
+      "id": 3765,
+      "name": "Aarathi R Menon",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "joint venture"
+      ],
+      "practice_areas": [
+        "Corporate & Commercial"
+      ],
+      "clients": [
+        "PwC India - PwC US joint venture"
+      ],
+      "deals": [
+        {
+          "headline": "JSA acts on PwC India - PwC US joint venture",
+          "client": "PwC India - PwC US joint venture",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-pwcs-india-us-joint-venture",
+          "source": "Bar & Bench",
+          "types": [
+            "joint venture"
+          ],
+          "practice_areas": [
+            "Corporate & Commercial"
+          ]
+        }
+      ],
+      "snapshot": "JSA acts on PwC India - PwC US joint venture"
     },
     {
       "id": 2598,
@@ -10045,13 +10117,15 @@
       "role_bucket": "Senior Associate",
       "transaction_types": [
         "Series A",
-        "fundraise"
+        "fundraise",
+        "investment"
       ],
       "practice_areas": [
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Pratech Brands Private Limited"
+        "Pratech Brands Private Limited",
+        "Oister Global"
       ],
       "deals": [
         {
@@ -10062,6 +10136,18 @@
           "types": [
             "fundraise",
             "Series A"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "IC RegFin Legal advises Oister Global on investment in Bombay Shaving Company",
+          "client": "Oister Global",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/ic-regfin-legal-advises-oister-global-on-120-crore-investment-in-bombay-shaving-company",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
@@ -14542,10 +14628,15 @@
       "firm": "Triumvir Law",
       "role": "Partner",
       "role_bucket": "Partner",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
       "clients": [
-        "Aidin Technologies controlling stake sale"
+        "Aidin Technologies controlling stake sale",
+        "WLDD"
       ],
       "deals": [
         {
@@ -14555,6 +14646,18 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Triumvir Law advises WLDD on securing strategic investments; Trilegal, Badaya, Argus, Khimani advise investors",
+          "client": "WLDD",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/triumvir-law-advises-wldd-on-fundraise-trilegal-badaya-argus-khimani-advise-investors",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
       "snapshot": "Triumvir Law, Khaitan & Co act on Aidin Technologies controlling stake sale"
@@ -16527,6 +16630,27 @@
         }
       ],
       "snapshot": "Aritra Partners, JSA act on Ethereal Machines $28.5 million Series B fundraise"
+    },
+    {
+      "id": 3778,
+      "name": "Akshay Vaddagiri",
+      "firm": null,
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Swiggy set to sell Lynk to Udaan; Trilegal advises",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/swiggy-set-to-sell-lynk-to-udaan-trilegal-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Swiggy set to sell Lynk to Udaan; Trilegal advises"
     },
     {
       "id": 2103,
@@ -24978,10 +25102,16 @@
       "firm": "Kochhar & Co",
       "role": "Associate",
       "role_bucket": "Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "Grip FIO Advisors"
+        "Grip FIO Advisors",
+        "investors"
       ],
       "deals": [
         {
@@ -24991,6 +25121,19 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Kochhar & Co advises investors on strategic stake acquisition in England-based Parklife Innovations",
+          "client": "investors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/kochhar-co-advises-investors-on-strategic-stake-acquisition-in-england-based-parklife-innovations",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "Kochhar & Co advises Grip FIO Advisors on launch of Grip PrimeYield – I"
@@ -25002,13 +25145,16 @@
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
+        "Series C",
+        "fundraise",
         "investment"
       ],
       "practice_areas": [
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "OrbiMed"
+        "OrbiMed",
+        "investors"
       ],
       "deals": [
         {
@@ -25018,6 +25164,19 @@
           "source": "Bar and Bench",
           "types": [
             "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "TT&A, CMS INDUSLAW advise investors on Nua $50 million Series C fundraise",
+          "client": "investors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-cms-induslaw-advise-investors-on-nua-50-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
@@ -25800,10 +25959,15 @@
       "firm": "Triumvir Law",
       "role": "Managing Partner",
       "role_bucket": "Managing Partner",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
       "clients": [
-        "Aidin Technologies controlling stake sale"
+        "Aidin Technologies controlling stake sale",
+        "WLDD"
       ],
       "deals": [
         {
@@ -25813,6 +25977,18 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Triumvir Law advises WLDD on securing strategic investments; Trilegal, Badaya, Argus, Khimani advise investors",
+          "client": "WLDD",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/triumvir-law-advises-wldd-on-fundraise-trilegal-badaya-argus-khimani-advise-investors",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
       "snapshot": "Triumvir Law, Khaitan & Co act on Aidin Technologies controlling stake sale"
@@ -26342,7 +26518,8 @@
       ],
       "clients": [
         "Mensa Group",
-        "Investcorp's"
+        "Investcorp's",
+        "Actis"
       ],
       "deals": [
         {
@@ -26368,6 +26545,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Anagram Partners advises Actis on sale of highway assets to NXT-Infra Trust",
+          "client": "Actis",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/anagram-partners-advises-actis-on-sale-of-highway-assets-to-nxt-infra-trust",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Anagram, SAM, Trilegal, AZB act on Mensa Group reverse merger to India"
@@ -29370,6 +29555,37 @@
         }
       ],
       "snapshot": "CAM, Khaitan, SAM act on Clean Max Enviro Energy IPO"
+    },
+    {
+      "id": 3784,
+      "name": "Arjun Krishnan",
+      "firm": "Triumvir Law",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "WLDD"
+      ],
+      "deals": [
+        {
+          "headline": "Triumvir Law advises WLDD on securing strategic investments; Trilegal, Badaya, Argus, Khimani advise investors",
+          "client": "WLDD",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/triumvir-law-advises-wldd-on-fundraise-trilegal-badaya-argus-khimani-advise-investors",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Triumvir Law advises WLDD on securing strategic investments; Trilegal, Badaya, Argus, Khimani advise investors"
     },
     {
       "id": 1384,
@@ -36588,13 +36804,16 @@
       "role_bucket": "Partner",
       "transaction_types": [
         "Series C",
-        "fundraise"
+        "fundraise",
+        "joint venture"
       ],
       "practice_areas": [
+        "Corporate & Commercial",
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Chakr Innovation Private Limited and promoter Kushagra Srivastava"
+        "Chakr Innovation Private Limited and promoter Kushagra Srivastava",
+        "PwC India - PwC US joint venture"
       ],
       "deals": [
         {
@@ -36608,6 +36827,18 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "JSA acts on PwC India - PwC US joint venture",
+          "client": "PwC India - PwC US joint venture",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-pwcs-india-us-joint-venture",
+          "source": "Bar & Bench",
+          "types": [
+            "joint venture"
+          ],
+          "practice_areas": [
+            "Corporate & Commercial"
           ]
         }
       ],
@@ -39270,6 +39501,39 @@
       "snapshot": "Anagram, SAM, Trilegal, AZB act on Mensa Group reverse merger to India"
     },
     {
+      "id": 3771,
+      "name": "Chandresh Goyal",
+      "firm": "CMS INDUSLAW",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "Series C",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "investors"
+      ],
+      "deals": [
+        {
+          "headline": "TT&A, CMS INDUSLAW advise investors on Nua $50 million Series C fundraise",
+          "client": "investors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-cms-induslaw-advise-investors-on-nua-50-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "TT&A, CMS INDUSLAW advise investors on Nua $50 million Series C fundraise"
+    },
+    {
       "id": 2997,
       "name": "Charandeep Kaur",
       "firm": "Trilegal",
@@ -40586,6 +40850,39 @@
         }
       ],
       "snapshot": "Trilegal, Sheppard act on $310 million acquisition of iMerit by EXL - Bar and Bench"
+    },
+    {
+      "id": 3770,
+      "name": "Dakshita Arora",
+      "firm": "Talwar Thakore & Associates",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "Series C",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "investors"
+      ],
+      "deals": [
+        {
+          "headline": "TT&A, CMS INDUSLAW advise investors on Nua $50 million Series C fundraise",
+          "client": "investors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-cms-induslaw-advise-investors-on-nua-50-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "TT&A, CMS INDUSLAW advise investors on Nua $50 million Series C fundraise"
     },
     {
       "id": 3011,
@@ -42154,10 +42451,16 @@
       "firm": "Kochhar & Co",
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "Novargi Group - Cerec Metalform JV"
+        "Novargi Group - Cerec Metalform JV",
+        "investors"
       ],
       "deals": [
         {
@@ -42167,6 +42470,19 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Kochhar & Co advises investors on strategic stake acquisition in England-based Parklife Innovations",
+          "client": "investors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/kochhar-co-advises-investors-on-strategic-stake-acquisition-in-england-based-parklife-innovations",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "Kochhar & Co acts on Novargi Group - Cerec Metalform JV"
@@ -47071,7 +47387,7 @@
           "id": 435,
           "firm": "JSA Advocates & Solicitors",
           "role": "Partner",
-          "deal_count": 5
+          "deal_count": 6
         }
       ],
       "firm_verification": {
@@ -47089,9 +47405,11 @@
         "Series A",
         "acquisition",
         "fundraise",
-        "investment"
+        "investment",
+        "joint venture"
       ],
       "practice_areas": [
+        "Corporate & Commercial",
         "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
@@ -47100,7 +47418,8 @@
         "Centrum Housing Finance",
         "Advent International",
         "JSW Green Mobility",
-        "Vobis Ventures"
+        "Vobis Ventures",
+        "PwC India - PwC US joint venture"
       ],
       "deals": [
         {
@@ -47158,6 +47477,18 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "JSA acts on PwC India - PwC US joint venture",
+          "client": "PwC India - PwC US joint venture",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-pwcs-india-us-joint-venture",
+          "source": "Bar & Bench",
+          "types": [
+            "joint venture"
+          ],
+          "practice_areas": [
+            "Corporate & Commercial"
           ]
         }
       ],
@@ -47758,6 +48089,7 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "Series C",
         "fundraise"
       ],
       "practice_areas": [
@@ -47767,7 +48099,8 @@
         "Tata Motors",
         "MUFG Bank and SMBC",
         "IFC and Fullerton",
-        "WestBridge Capital"
+        "WestBridge Capital",
+        "investors"
       ],
       "deals": [
         {
@@ -47805,6 +48138,19 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "TT&A, CMS INDUSLAW advise investors on Nua $50 million Series C fundraise",
+          "client": "investors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-cms-induslaw-advise-investors-on-nua-50-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
       "snapshot": "TT&A, S&R, SAM, Agram act on Tata Motors acquiring controlling stake in Freight Tiger"
@@ -48278,6 +48624,39 @@
         }
       ],
       "snapshot": "McDermott Will & Schulte, CAM, Trilegal, AZB act on KKR's €1.2 billion acquisition of Medicover India"
+    },
+    {
+      "id": 3767,
+      "name": "Filter Capital India",
+      "firm": "Talwar Thakore & Associates",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "Series C",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "investors"
+      ],
+      "deals": [
+        {
+          "headline": "TT&A, CMS INDUSLAW advise investors on Nua $50 million Series C fundraise",
+          "client": "investors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-cms-induslaw-advise-investors-on-nua-50-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "TT&A, CMS INDUSLAW advise investors on Nua $50 million Series C fundraise"
     },
     {
       "id": 3399,
@@ -49882,6 +50261,39 @@
       "snapshot": "Trilegal advises JM Financial on ₹150 crore investment in NG Electro - Bar and Bench"
     },
     {
+      "id": 3774,
+      "name": "Gautam Singh",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Swiggy set to sell Lynk to Udaan; Trilegal advises",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/swiggy-set-to-sell-lynk-to-udaan-trilegal-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Swiggy set to sell Lynk to Udaan; Trilegal advises",
+      "same_name_elsewhere": [
+        {
+          "id": 472,
+          "firm": "Trilegal",
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 472,
       "name": "Gautam Singh",
       "firm": "Trilegal",
@@ -49910,7 +50322,19 @@
           ]
         }
       ],
-      "snapshot": "Parinam Law Associates, Trilegal act on Home Credit's ₹967 crore acquisition of Varthana"
+      "snapshot": "Parinam Law Associates, Trilegal act on Home Credit's ₹967 crore acquisition of Varthana",
+      "same_name_elsewhere": [
+        {
+          "id": 3774,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1067,
@@ -51178,6 +51602,39 @@
         }
       ],
       "snapshot": "Trilegal, Cooley, AZB, Latham, SAM, CMS INDUSLAW act on CRED securing $900 million from Meta"
+    },
+    {
+      "id": 3768,
+      "name": "Growth Investments IV",
+      "firm": "Talwar Thakore & Associates",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "Series C",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "investors"
+      ],
+      "deals": [
+        {
+          "headline": "TT&A, CMS INDUSLAW advise investors on Nua $50 million Series C fundraise",
+          "client": "investors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-cms-induslaw-advise-investors-on-nua-50-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "TT&A, CMS INDUSLAW advise investors on Nua $50 million Series C fundraise"
     },
     {
       "id": 697,
@@ -53589,6 +54046,27 @@
         }
       ],
       "snapshot": "JSA acts on Chakr Innovation $23 million Series C fundraise"
+    },
+    {
+      "id": 3782,
+      "name": "Harshita Arora",
+      "firm": null,
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Swiggy set to sell Lynk to Udaan; Trilegal advises",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/swiggy-set-to-sell-lynk-to-udaan-trilegal-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Swiggy set to sell Lynk to Udaan; Trilegal advises"
     },
     {
       "id": 3129,
@@ -56303,6 +56781,49 @@
       "snapshot": "JSA advises on India leg of Cisco's acquisition of WideField Security"
     },
     {
+      "id": 3764,
+      "name": "Ishaan Chakrabarti",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "joint venture"
+      ],
+      "practice_areas": [
+        "Corporate & Commercial"
+      ],
+      "clients": [
+        "PwC India - PwC US joint venture"
+      ],
+      "deals": [
+        {
+          "headline": "JSA acts on PwC India - PwC US joint venture",
+          "client": "PwC India - PwC US joint venture",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-pwcs-india-us-joint-venture",
+          "source": "Bar & Bench",
+          "types": [
+            "joint venture"
+          ],
+          "practice_areas": [
+            "Corporate & Commercial"
+          ]
+        }
+      ],
+      "snapshot": "JSA acts on PwC India - PwC US joint venture",
+      "same_name_elsewhere": [
+        {
+          "id": 546,
+          "firm": "Trilegal",
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 546,
       "name": "Ishaan Chakrabarti",
       "firm": "Trilegal",
@@ -56331,7 +56852,19 @@
           ]
         }
       ],
-      "snapshot": "Trilegal, CAM, Latham, AZB, Equilex, Macfarlanes advise on Mittal-Poonawalla consortium ..."
+      "snapshot": "Trilegal, CAM, Latham, AZB, Equilex, Macfarlanes advise on Mittal-Poonawalla consortium ...",
+      "same_name_elsewhere": [
+        {
+          "id": 3764,
+          "firm": "JSA Advocates & Solicitors",
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 2230,
@@ -63576,7 +64109,8 @@
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Investcorp's"
+        "Investcorp's",
+        "Actis"
       ],
       "deals": [
         {
@@ -63590,6 +64124,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Anagram Partners advises Actis on sale of highway assets to NXT-Infra Trust",
+          "client": "Actis",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/anagram-partners-advises-actis-on-sale-of-highway-assets-to-nxt-infra-trust",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Anagram Partners, River Law act on Investcorp's ₹500 crore acquisition of 20Cube"
@@ -66087,7 +66629,8 @@
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Investcorp's"
+        "Investcorp's",
+        "Actis"
       ],
       "deals": [
         {
@@ -66101,6 +66644,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Anagram Partners advises Actis on sale of highway assets to NXT-Infra Trust",
+          "client": "Actis",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/anagram-partners-advises-actis-on-sale-of-highway-assets-to-nxt-infra-trust",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Anagram Partners, River Law act on Investcorp's ₹500 crore acquisition of 20Cube"
@@ -66560,11 +67111,17 @@
       "firm": "Kochhar & Co",
       "role": "Partner",
       "role_bucket": "Partner",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
         "Novargi Group - Cerec Metalform JV",
-        "Grip FIO Advisors"
+        "Grip FIO Advisors",
+        "investors"
       ],
       "deals": [
         {
@@ -66582,6 +67139,19 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Kochhar & Co advises investors on strategic stake acquisition in England-based Parklife Innovations",
+          "client": "investors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/kochhar-co-advises-investors-on-strategic-stake-acquisition-in-england-based-parklife-innovations",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
         }
       ],
       "snapshot": "Kochhar & Co acts on Novargi Group - Cerec Metalform JV"
@@ -67340,6 +67910,39 @@
       "snapshot": "JSA, White & Case act on GTCR acquiring Zentiva for ₹36,600 crore"
     },
     {
+      "id": 3779,
+      "name": "Kim Shah",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Swiggy set to sell Lynk to Udaan; Trilegal advises",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/swiggy-set-to-sell-lynk-to-udaan-trilegal-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Swiggy set to sell Lynk to Udaan; Trilegal advises",
+      "same_name_elsewhere": [
+        {
+          "id": 475,
+          "firm": "Trilegal",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 475,
       "name": "Kim Shah",
       "firm": "Trilegal",
@@ -67368,7 +67971,19 @@
           ]
         }
       ],
-      "snapshot": "Parinam Law Associates, Trilegal act on Home Credit's ₹967 crore acquisition of Varthana"
+      "snapshot": "Parinam Law Associates, Trilegal act on Home Credit's ₹967 crore acquisition of Varthana",
+      "same_name_elsewhere": [
+        {
+          "id": 3779,
+          "firm": null,
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 3705,
@@ -70998,16 +71613,19 @@
         "acquisition",
         "fundraise",
         "investment",
+        "joint venture",
         "stake acquisition"
       ],
       "practice_areas": [
+        "Corporate & Commercial",
         "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
         "Honasa Consumer Limited",
         "Fairdeal.Market",
-        "Chakr Innovation Private Limited and promoter Kushagra Srivastava"
+        "Chakr Innovation Private Limited and promoter Kushagra Srivastava",
+        "PwC India - PwC US joint venture"
       ],
       "deals": [
         {
@@ -71048,6 +71666,18 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "JSA acts on PwC India - PwC US joint venture",
+          "client": "PwC India - PwC US joint venture",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-pwcs-india-us-joint-venture",
+          "source": "Bar & Bench",
+          "types": [
+            "joint venture"
+          ],
+          "practice_areas": [
+            "Corporate & Commercial"
           ]
         }
       ],
@@ -79738,6 +80368,39 @@
       "snapshot": "Fox & Mandal, VERTICES PARTNERS, Shardul Amarchand Mangaldas act on Gnani.AI ..."
     },
     {
+      "id": 3775,
+      "name": "Mitali Halbe",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Swiggy set to sell Lynk to Udaan; Trilegal advises",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/swiggy-set-to-sell-lynk-to-udaan-trilegal-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Swiggy set to sell Lynk to Udaan; Trilegal advises",
+      "same_name_elsewhere": [
+        {
+          "id": 473,
+          "firm": "Trilegal",
+          "role": "Partner",
+          "deal_count": 2
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 473,
       "name": "Mitali Halbe",
       "firm": "Trilegal",
@@ -79779,7 +80442,19 @@
           ]
         }
       ],
-      "snapshot": "Parinam Law Associates, Trilegal act on Home Credit's ₹967 crore acquisition of Varthana"
+      "snapshot": "Parinam Law Associates, Trilegal act on Home Credit's ₹967 crore acquisition of Varthana",
+      "same_name_elsewhere": [
+        {
+          "id": 3775,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 826,
@@ -81665,15 +82340,18 @@
         "Series C",
         "acquisition",
         "fundraise",
+        "joint venture",
         "stake acquisition"
       ],
       "practice_areas": [
+        "Corporate & Commercial",
         "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
         "Honasa Consumer Limited",
-        "Chakr Innovation Private Limited and promoter Kushagra Srivastava"
+        "Chakr Innovation Private Limited and promoter Kushagra Srivastava",
+        "PwC India - PwC US joint venture"
       ],
       "deals": [
         {
@@ -81700,6 +82378,18 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "JSA acts on PwC India - PwC US joint venture",
+          "client": "PwC India - PwC US joint venture",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-pwcs-india-us-joint-venture",
+          "source": "Bar & Bench",
+          "types": [
+            "joint venture"
+          ],
+          "practice_areas": [
+            "Corporate & Commercial"
           ]
         }
       ],
@@ -82976,6 +83666,27 @@
         }
       ],
       "snapshot": "Trilegal, Cooley, AZB, Latham, SAM, CMS INDUSLAW act on CRED securing $900 million from Meta"
+    },
+    {
+      "id": 3776,
+      "name": "Nandita Bhakta",
+      "firm": null,
+      "role": "Counsel",
+      "role_bucket": "Counsel",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Swiggy set to sell Lynk to Udaan; Trilegal advises",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/swiggy-set-to-sell-lynk-to-udaan-trilegal-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Swiggy set to sell Lynk to Udaan; Trilegal advises"
     },
     {
       "id": 363,
@@ -85872,6 +86583,39 @@
         }
       ],
       "snapshot": "Khaitan & Co assists NIIF on setting up ₹19,000 crore infrastructure fund"
+    },
+    {
+      "id": 3769,
+      "name": "Nikhil Bahl",
+      "firm": "Talwar Thakore & Associates",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "Series C",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "investors"
+      ],
+      "deals": [
+        {
+          "headline": "TT&A, CMS INDUSLAW advise investors on Nua $50 million Series C fundraise",
+          "client": "investors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-cms-induslaw-advise-investors-on-nua-50-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "TT&A, CMS INDUSLAW advise investors on Nua $50 million Series C fundraise"
     },
     {
       "id": 691,
@@ -90986,6 +91730,39 @@
       "snapshot": "Khaitan & Co assists NIIF on setting up ₹19,000 crore infrastructure fund"
     },
     {
+      "id": 3781,
+      "name": "Parvathy Tharamel",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Swiggy set to sell Lynk to Udaan; Trilegal advises",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/swiggy-set-to-sell-lynk-to-udaan-trilegal-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Swiggy set to sell Lynk to Udaan; Trilegal advises",
+      "same_name_elsewhere": [
+        {
+          "id": 550,
+          "firm": "Trilegal",
+          "role": "Partner",
+          "deal_count": 3
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 550,
       "name": "Parvathy Tharamel",
       "firm": "Trilegal",
@@ -91036,7 +91813,19 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "Trilegal, CAM, Latham, AZB, Equilex, Macfarlanes advise on Mittal-Poonawalla consortium ..."
+      "snapshot": "Trilegal, CAM, Latham, AZB, Equilex, Macfarlanes advise on Mittal-Poonawalla consortium ...",
+      "same_name_elsewhere": [
+        {
+          "id": 3781,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 394,
@@ -91698,6 +92487,39 @@
         }
       ],
       "snapshot": "CAM advises JP Morgan on setting up of Asia's largest GCC in Mumbai - Bar and Bench"
+    },
+    {
+      "id": 3773,
+      "name": "Piyush Senapati",
+      "firm": "Kochhar & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "investors"
+      ],
+      "deals": [
+        {
+          "headline": "Kochhar & Co advises investors on strategic stake acquisition in England-based Parklife Innovations",
+          "client": "investors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/kochhar-co-advises-investors-on-strategic-stake-acquisition-in-england-based-parklife-innovations",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ]
+        }
+      ],
+      "snapshot": "Kochhar & Co advises investors on strategic stake acquisition in England-based Parklife Innovations"
     },
     {
       "id": 1705,
@@ -98151,8 +98973,8 @@
         {
           "id": 756,
           "firm": "JSA Advocates & Solicitors",
-          "role": "Associate, Competition Law",
-          "deal_count": 1
+          "role": "Associate",
+          "deal_count": 2
         }
       ],
       "firm_verification": {
@@ -98164,16 +98986,19 @@
       "id": 756,
       "name": "Priyanshi Jain",
       "firm": "JSA Advocates & Solicitors",
-      "role": "Associate, Competition Law",
+      "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "investment"
+        "investment",
+        "joint venture"
       ],
       "practice_areas": [
+        "Corporate & Commercial",
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "JSW Green Mobility"
+        "JSW Green Mobility",
+        "PwC India - PwC US joint venture"
       ],
       "deals": [
         {
@@ -98186,6 +99011,18 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "JSA acts on PwC India - PwC US joint venture",
+          "client": "PwC India - PwC US joint venture",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-pwcs-india-us-joint-venture",
+          "source": "Bar & Bench",
+          "types": [
+            "joint venture"
+          ],
+          "practice_areas": [
+            "Corporate & Commercial"
           ]
         }
       ],
@@ -100193,10 +101030,15 @@
       "firm": "Triumvir Law",
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
       "clients": [
-        "Aidin Technologies controlling stake sale"
+        "Aidin Technologies controlling stake sale",
+        "WLDD"
       ],
       "deals": [
         {
@@ -100206,6 +101048,18 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "Triumvir Law advises WLDD on securing strategic investments; Trilegal, Badaya, Argus, Khimani advise investors",
+          "client": "WLDD",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/triumvir-law-advises-wldd-on-fundraise-trilegal-badaya-argus-khimani-advise-investors",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
       "snapshot": "Triumvir Law, Khaitan & Co act on Aidin Technologies controlling stake sale"
@@ -100316,7 +101170,8 @@
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Investcorp's"
+        "Investcorp's",
+        "Actis"
       ],
       "deals": [
         {
@@ -100330,6 +101185,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Anagram Partners advises Actis on sale of highway assets to NXT-Infra Trust",
+          "client": "Actis",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/anagram-partners-advises-actis-on-sale-of-highway-assets-to-nxt-infra-trust",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Anagram Partners, River Law act on Investcorp's ₹500 crore acquisition of 20Cube"
@@ -100866,15 +101729,18 @@
         "acquisition",
         "fundraise",
         "investment",
+        "joint venture",
         "stake acquisition"
       ],
       "practice_areas": [
+        "Corporate & Commercial",
         "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
         "Honasa Consumer Limited",
-        "Fairdeal.Market"
+        "Fairdeal.Market",
+        "PwC India - PwC US joint venture"
       ],
       "deals": [
         {
@@ -100902,6 +101768,18 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "JSA acts on PwC India - PwC US joint venture",
+          "client": "PwC India - PwC US joint venture",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-pwcs-india-us-joint-venture",
+          "source": "Bar & Bench",
+          "types": [
+            "joint venture"
+          ],
+          "practice_areas": [
+            "Corporate & Commercial"
           ]
         }
       ],
@@ -103885,13 +104763,16 @@
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
+        "Series C",
+        "fundraise",
         "investment"
       ],
       "practice_areas": [
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "OrbiMed"
+        "OrbiMed",
+        "investors"
       ],
       "deals": [
         {
@@ -103901,6 +104782,19 @@
           "source": "Bar and Bench",
           "types": [
             "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "TT&A, CMS INDUSLAW advise investors on Nua $50 million Series C fundraise",
+          "client": "investors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-cms-induslaw-advise-investors-on-nua-50-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
@@ -109340,11 +110234,17 @@
       "firm": "Talwar Thakore & Associates",
       "role": "Associate",
       "role_bucket": "Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "Series C",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
       "clients": [
         "Tata Motors",
-        "WestBridge Capital"
+        "WestBridge Capital",
+        "investors"
       ],
       "deals": [
         {
@@ -109362,6 +110262,19 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "TT&A, CMS INDUSLAW advise investors on Nua $50 million Series C fundraise",
+          "client": "investors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-cms-induslaw-advise-investors-on-nua-50-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
       "snapshot": "TT&A, S&R, SAM, Agram act on Tata Motors acquiring controlling stake in Freight Tiger"
@@ -110894,7 +111807,7 @@
           "id": 1218,
           "firm": "Talwar Thakore & Associates",
           "role": "Partner",
-          "deal_count": 1
+          "deal_count": 2
         }
       ],
       "firm_verification": {
@@ -110908,10 +111821,16 @@
       "firm": "Talwar Thakore & Associates",
       "role": "Partner",
       "role_bucket": "Partner",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "Series C",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
       "clients": [
-        "Tata Motors"
+        "Tata Motors",
+        "investors"
       ],
       "deals": [
         {
@@ -110921,6 +111840,19 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "TT&A, CMS INDUSLAW advise investors on Nua $50 million Series C fundraise",
+          "client": "investors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-cms-induslaw-advise-investors-on-nua-50-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
       "snapshot": "TT&A, S&R, SAM, Agram act on Tata Motors acquiring controlling stake in Freight Tiger",
@@ -112449,6 +113381,37 @@
       "snapshot": "JSA assists Continuum Green Energy on securing ₹1,350 crore from Chubu Electric Power Co."
     },
     {
+      "id": 3785,
+      "name": "Sakshi Singhania",
+      "firm": "Triumvir Law",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "WLDD"
+      ],
+      "deals": [
+        {
+          "headline": "Triumvir Law advises WLDD on securing strategic investments; Trilegal, Badaya, Argus, Khimani advise investors",
+          "client": "WLDD",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/triumvir-law-advises-wldd-on-fundraise-trilegal-badaya-argus-khimani-advise-investors",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Triumvir Law advises WLDD on securing strategic investments; Trilegal, Badaya, Argus, Khimani advise investors"
+    },
+    {
       "id": 1059,
       "name": "Sakshi Solanki",
       "firm": "Rajani Associates",
@@ -113321,13 +114284,27 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "investors"
+        "investors",
+        "Speciale Invest"
       ],
       "deals": [
         {
           "headline": "GameChanger Law advises investors on InspeCity ₹100 crore pre-Series A fundraise",
           "client": "investors",
           "url": "https://www.barandbench.com/law-firms/dealstreet/gamechanger-law-advises-investors-on-inspecity-100-crore-pre-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "GameChanger Law advises Speciale Invest on QNu Labs ₹200 crore Series A fundraise",
+          "client": "Speciale Invest",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/gamechanger-law-advises-speciale-invest-on-qnu-labs-200-crore-series-a-fundraise",
           "source": "Bar & Bench",
           "types": [
             "Series A",
@@ -113752,6 +114729,39 @@
         }
       ],
       "snapshot": "Trilegal, TT&A, Cyril Amarchand Mangaldas act on Sarvam AI $300 million Series B fundraise"
+    },
+    {
+      "id": 3772,
+      "name": "Samriddhi Kabra",
+      "firm": "CMS INDUSLAW",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "Series C",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "investors"
+      ],
+      "deals": [
+        {
+          "headline": "TT&A, CMS INDUSLAW advise investors on Nua $50 million Series C fundraise",
+          "client": "investors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-cms-induslaw-advise-investors-on-nua-50-million-series-c-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "TT&A, CMS INDUSLAW advise investors on Nua $50 million Series C fundraise"
     },
     {
       "id": 538,
@@ -115287,13 +116297,27 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "investors"
+        "investors",
+        "Speciale Invest"
       ],
       "deals": [
         {
           "headline": "GameChanger Law advises investors on InspeCity ₹100 crore pre-Series A fundraise",
           "client": "investors",
           "url": "https://www.barandbench.com/law-firms/dealstreet/gamechanger-law-advises-investors-on-inspecity-100-crore-pre-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "GameChanger Law advises Speciale Invest on QNu Labs ₹200 crore Series A fundraise",
+          "client": "Speciale Invest",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/gamechanger-law-advises-speciale-invest-on-qnu-labs-200-crore-series-a-fundraise",
           "source": "Bar & Bench",
           "types": [
             "Series A",
@@ -115690,6 +116714,27 @@
         }
       ],
       "snapshot": "Khaitan, JSA act on Weavers acquiring majority stake in Centrum Housing Finance"
+    },
+    {
+      "id": 3780,
+      "name": "Sanjeesha Agarwal",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Swiggy set to sell Lynk to Udaan; Trilegal advises",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/swiggy-set-to-sell-lynk-to-udaan-trilegal-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Swiggy set to sell Lynk to Udaan; Trilegal advises"
     },
     {
       "id": 2184,
@@ -125556,6 +126601,45 @@
       "snapshot": "Khaitan, JSA act on Weavers acquiring majority stake in Centrum Housing Finance"
     },
     {
+      "id": 3783,
+      "name": "Shreya Sharma",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Swiggy set to sell Lynk to Udaan; Trilegal advises",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/swiggy-set-to-sell-lynk-to-udaan-trilegal-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Swiggy set to sell Lynk to Udaan; Trilegal advises",
+      "same_name_elsewhere": [
+        {
+          "id": 1250,
+          "firm": "JSA Advocates & Solicitors",
+          "role": "Associate",
+          "deal_count": 4
+        },
+        {
+          "id": 552,
+          "firm": "Trilegal",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "DIFFERENT_PEOPLE",
+        "evidence": "No evidence found of a 'Shreya Sharma' at JSA (search surfaced a distinct person, Shreya Sircar, JSA Partner in disputes). A separate, confirmed 'Shreya Sharma' is an Associate in Trilegal's Labour & Employment team. Likely a data-quality issue on the JSA side or two unrelated people."
+      }
+    },
+    {
       "id": 1250,
       "name": "Shreya Sharma",
       "firm": "JSA Advocates & Solicitors",
@@ -125625,6 +126709,12 @@
       "snapshot": "JSA assists South India electronics retailer Sathya as it heads for ₹600 crore IPO",
       "same_name_elsewhere": [
         {
+          "id": 3783,
+          "firm": null,
+          "role": "Associate",
+          "deal_count": 1
+        },
+        {
           "id": 552,
           "firm": "Trilegal",
           "role": "Associate",
@@ -125667,6 +126757,12 @@
       ],
       "snapshot": "Trilegal, CAM, Latham, AZB, Equilex, Macfarlanes advise on Mittal-Poonawalla consortium ...",
       "same_name_elsewhere": [
+        {
+          "id": 3783,
+          "firm": null,
+          "role": "Associate",
+          "deal_count": 1
+        },
         {
           "id": 1250,
           "firm": "JSA Advocates & Solicitors",
@@ -128052,7 +129148,8 @@
       ],
       "clients": [
         "Mensa Group",
-        "Investcorp's"
+        "Investcorp's",
+        "Actis"
       ],
       "deals": [
         {
@@ -128078,6 +129175,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Anagram Partners advises Actis on sale of highway assets to NXT-Infra Trust",
+          "client": "Actis",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/anagram-partners-advises-actis-on-sale-of-highway-assets-to-nxt-infra-trust",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Anagram, SAM, Trilegal, AZB act on Mensa Group reverse merger to India"
@@ -129859,7 +130964,8 @@
       "transaction_types": [
         "Series A",
         "acquisition",
-        "fundraise"
+        "fundraise",
+        "investment"
       ],
       "practice_areas": [
         "Mergers & Acquisitions",
@@ -129867,7 +130973,8 @@
       ],
       "clients": [
         "Fulcrum (exiting shareholder)",
-        "Pratech Brands Private Limited"
+        "Pratech Brands Private Limited",
+        "Oister Global"
       ],
       "deals": [
         {
@@ -129890,6 +130997,18 @@
           "types": [
             "fundraise",
             "Series A"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "IC RegFin Legal advises Oister Global on investment in Bombay Shaving Company",
+          "client": "Oister Global",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/ic-regfin-legal-advises-oister-global-on-120-crore-investment-in-bombay-shaving-company",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
@@ -130221,7 +131340,8 @@
       ],
       "clients": [
         "Mensa Group",
-        "Investcorp's"
+        "Investcorp's",
+        "Actis"
       ],
       "deals": [
         {
@@ -130247,6 +131367,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Anagram Partners advises Actis on sale of highway assets to NXT-Infra Trust",
+          "client": "Actis",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/anagram-partners-advises-actis-on-sale-of-highway-assets-to-nxt-infra-trust",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Anagram, SAM, Trilegal, AZB act on Mensa Group reverse merger to India"
@@ -131690,6 +132818,39 @@
       "snapshot": "CMS INDUSLAW acts on Axis Finance $41 million NCD issuance"
     },
     {
+      "id": 3777,
+      "name": "Soham Munshi",
+      "firm": null,
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Swiggy set to sell Lynk to Udaan; Trilegal advises",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/swiggy-set-to-sell-lynk-to-udaan-trilegal-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Swiggy set to sell Lynk to Udaan; Trilegal advises",
+      "same_name_elsewhere": [
+        {
+          "id": 526,
+          "firm": "Trilegal",
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 526,
       "name": "Soham Munshi",
       "firm": "Trilegal",
@@ -131718,7 +132879,19 @@
           ]
         }
       ],
-      "snapshot": "Trilegal, CAM, Latham, AZB, Equilex, Macfarlanes advise on Mittal-Poonawalla consortium ..."
+      "snapshot": "Trilegal, CAM, Latham, AZB, Equilex, Macfarlanes advise on Mittal-Poonawalla consortium ...",
+      "same_name_elsewhere": [
+        {
+          "id": 3777,
+          "firm": null,
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 2320,
@@ -143280,7 +144453,7 @@
           "id": 434,
           "firm": "JSA Advocates & Solicitors",
           "role": "Partner",
-          "deal_count": 5
+          "deal_count": 6
         }
       ],
       "firm_verification": {
@@ -143298,9 +144471,11 @@
         "Series A",
         "acquisition",
         "fundraise",
-        "investment"
+        "investment",
+        "joint venture"
       ],
       "practice_areas": [
+        "Corporate & Commercial",
         "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
@@ -143309,7 +144484,8 @@
         "Centrum Housing Finance",
         "Advent International",
         "JSW Green Mobility",
-        "Vobis Ventures"
+        "Vobis Ventures",
+        "PwC India - PwC US joint venture"
       ],
       "deals": [
         {
@@ -143367,6 +144543,18 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "JSA acts on PwC India - PwC US joint venture",
+          "client": "PwC India - PwC US joint venture",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-pwcs-india-us-joint-venture",
+          "source": "Bar & Bench",
+          "types": [
+            "joint venture"
+          ],
+          "practice_areas": [
+            "Corporate & Commercial"
           ]
         }
       ],
@@ -151076,6 +152264,37 @@
       "snapshot": "TT&A, Shardul Amarchand Mangaldas, Linklaters act on IDFC FIRST Bank $600 million senior notes issuance"
     },
     {
+      "id": 3766,
+      "name": "Yaatri Shah",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "joint venture"
+      ],
+      "practice_areas": [
+        "Corporate & Commercial"
+      ],
+      "clients": [
+        "PwC India - PwC US joint venture"
+      ],
+      "deals": [
+        {
+          "headline": "JSA acts on PwC India - PwC US joint venture",
+          "client": "PwC India - PwC US joint venture",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-pwcs-india-us-joint-venture",
+          "source": "Bar & Bench",
+          "types": [
+            "joint venture"
+          ],
+          "practice_areas": [
+            "Corporate & Commercial"
+          ]
+        }
+      ],
+      "snapshot": "JSA acts on PwC India - PwC US joint venture"
+    },
+    {
       "id": 2245,
       "name": "Yaggya Kapoor",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -153107,6 +154326,37 @@
         }
       ],
       "snapshot": "JSA, Verist Law, Duane Morris & Selvam act on Manorama Industries ₹500 crore QIP"
+    },
+    {
+      "id": 3763,
+      "name": "Zarish Ali",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [
+        "joint venture"
+      ],
+      "practice_areas": [
+        "Corporate & Commercial"
+      ],
+      "clients": [
+        "PwC India - PwC US joint venture"
+      ],
+      "deals": [
+        {
+          "headline": "JSA acts on PwC India - PwC US joint venture",
+          "client": "PwC India - PwC US joint venture",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-pwcs-india-us-joint-venture",
+          "source": "Bar & Bench",
+          "types": [
+            "joint venture"
+          ],
+          "practice_areas": [
+            "Corporate & Commercial"
+          ]
+        }
+      ],
+      "snapshot": "JSA acts on PwC India - PwC US joint venture"
     },
     {
       "id": 3073,
