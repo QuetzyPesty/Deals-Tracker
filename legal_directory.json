@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 3785,
-    "firms": 110,
-    "deals": 508,
+    "people": 3810,
+    "firms": 112,
+    "deals": 515,
     "practice_areas": 6
   },
   "firms": [
@@ -67,6 +67,7 @@
     "Lexygen",
     "Linklaters",
     "Luthra",
+    "Mayer Brown",
     "McDermott",
     "McDermott Will & Schulte",
     "Mindspright Legal",
@@ -90,6 +91,7 @@
     "Saga Legal",
     "Samvād: Partners",
     "Saraf and Partners",
+    "Sarvaank Associates",
     "Sequitur Advocates & Legal Consultants",
     "Shardul Amarchand Mangaldas & Co",
     "Sheppard",
@@ -2109,7 +2111,7 @@
     },
     {
       "firm": "IC RegFin Legal",
-      "people_count": 15,
+      "people_count": 16,
       "practice_groups": [
         {
           "area": "Private Equity & Venture Capital",
@@ -2127,6 +2129,7 @@
             309,
             311,
             21,
+            3791,
             2478
           ]
         },
@@ -2161,7 +2164,7 @@
     },
     {
       "firm": "JSA Advocates & Solicitors",
-      "people_count": 385,
+      "people_count": 386,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -2361,6 +2364,7 @@
             1243,
             387,
             384,
+            3792,
             1055,
             1598,
             506,
@@ -2414,6 +2418,7 @@
             430,
             742,
             2097,
+            836,
             1102,
             1917,
             1105,
@@ -2762,7 +2767,7 @@
     },
     {
       "firm": "Khaitan & Co",
-      "people_count": 506,
+      "people_count": 508,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -2973,6 +2978,149 @@
           ]
         },
         {
+          "area": "Unclassified",
+          "person_ids": [
+            398,
+            333,
+            329,
+            3155,
+            318,
+            3154,
+            3278,
+            2723,
+            3030,
+            723,
+            2722,
+            3025,
+            3027,
+            3673,
+            3323,
+            351,
+            3093,
+            3793,
+            1034,
+            3026,
+            3150,
+            328,
+            288,
+            344,
+            3288,
+            478,
+            3289,
+            393,
+            3029,
+            3151,
+            400,
+            284,
+            1035,
+            3276,
+            3149,
+            1036,
+            1029,
+            3091,
+            3730,
+            347,
+            1064,
+            320,
+            3088,
+            396,
+            401,
+            3089,
+            3582,
+            3032,
+            327,
+            322,
+            1037,
+            3090,
+            3022,
+            3153,
+            3280,
+            1232,
+            281,
+            366,
+            1230,
+            340,
+            3028,
+            350,
+            2126,
+            363,
+            3322,
+            3584,
+            3731,
+            2724,
+            1031,
+            726,
+            3024,
+            291,
+            349,
+            3160,
+            3732,
+            394,
+            345,
+            3279,
+            2725,
+            3152,
+            3092,
+            3161,
+            397,
+            1030,
+            325,
+            3158,
+            353,
+            3086,
+            3096,
+            3095,
+            3581,
+            1060,
+            282,
+            3156,
+            1032,
+            2721,
+            3020,
+            1197,
+            3019,
+            341,
+            3285,
+            321,
+            1033,
+            3283,
+            1062,
+            1195,
+            3159,
+            354,
+            3021,
+            3281,
+            3023,
+            323,
+            332,
+            286,
+            2720,
+            3551,
+            3277,
+            3729,
+            3284,
+            331,
+            2726,
+            3733,
+            343,
+            3287,
+            3526,
+            1063,
+            319,
+            3087,
+            395,
+            3583,
+            361,
+            290,
+            2124,
+            3157,
+            357,
+            3286,
+            3282,
+            3031
+          ]
+        },
+        {
           "area": "Private Equity & Venture Capital",
           "person_ids": [
             154,
@@ -3116,148 +3264,6 @@
           ]
         },
         {
-          "area": "Unclassified",
-          "person_ids": [
-            398,
-            333,
-            329,
-            3155,
-            318,
-            3154,
-            3278,
-            2723,
-            3030,
-            723,
-            2722,
-            3025,
-            3027,
-            3673,
-            3323,
-            351,
-            3093,
-            1034,
-            3026,
-            3150,
-            328,
-            288,
-            344,
-            3288,
-            478,
-            3289,
-            393,
-            3029,
-            3151,
-            400,
-            284,
-            1035,
-            3276,
-            3149,
-            1036,
-            1029,
-            3091,
-            3730,
-            347,
-            1064,
-            320,
-            3088,
-            396,
-            401,
-            3089,
-            3582,
-            3032,
-            327,
-            322,
-            1037,
-            3090,
-            3022,
-            3153,
-            3280,
-            1232,
-            281,
-            366,
-            1230,
-            340,
-            3028,
-            350,
-            2126,
-            363,
-            3322,
-            3584,
-            3731,
-            2724,
-            1031,
-            726,
-            3024,
-            291,
-            349,
-            3160,
-            3732,
-            394,
-            345,
-            3279,
-            2725,
-            3152,
-            3092,
-            3161,
-            397,
-            1030,
-            325,
-            3158,
-            353,
-            3086,
-            3096,
-            3095,
-            3581,
-            1060,
-            282,
-            3156,
-            1032,
-            2721,
-            3020,
-            1197,
-            3019,
-            341,
-            3285,
-            321,
-            1033,
-            3283,
-            1062,
-            1195,
-            3159,
-            354,
-            3021,
-            3281,
-            3023,
-            323,
-            332,
-            286,
-            2720,
-            3551,
-            3277,
-            3729,
-            3284,
-            331,
-            2726,
-            3733,
-            343,
-            3287,
-            3526,
-            1063,
-            319,
-            3087,
-            395,
-            3583,
-            361,
-            290,
-            2124,
-            3157,
-            357,
-            3286,
-            3282,
-            3031
-          ]
-        },
-        {
           "area": "Capital Markets",
           "person_ids": [
             1756,
@@ -3292,6 +3298,7 @@
             2187,
             3413,
             725,
+            3797,
             1471,
             1757,
             1467,
@@ -3488,7 +3495,7 @@
     },
     {
       "firm": "Legacy Law Offices",
-      "people_count": 8,
+      "people_count": 9,
       "practice_groups": [
         {
           "area": "Capital Markets",
@@ -3500,6 +3507,7 @@
             3070,
             3072,
             3068,
+            3810,
             3480
           ]
         }
@@ -3548,7 +3556,7 @@
     },
     {
       "firm": "Linklaters",
-      "people_count": 21,
+      "people_count": 24,
       "practice_groups": [
         {
           "area": "Private Equity & Venture Capital",
@@ -3594,11 +3602,24 @@
             95,
             96
           ]
+        },
+        {
+          "area": "Unclassified",
+          "person_ids": [
+            3795,
+            3796,
+            3794
+          ]
         }
       ]
     },
     {
       "firm": "Luthra",
+      "people_count": 0,
+      "practice_groups": []
+    },
+    {
+      "firm": "Mayer Brown",
       "people_count": 0,
       "practice_groups": []
     },
@@ -4031,6 +4052,22 @@
             2228,
             2231,
             2227
+          ]
+        }
+      ]
+    },
+    {
+      "firm": "Sarvaank Associates",
+      "people_count": 5,
+      "practice_groups": [
+        {
+          "area": "Private Equity & Venture Capital",
+          "person_ids": [
+            3786,
+            3789,
+            3790,
+            3788,
+            3787
           ]
         }
       ]
@@ -7440,7 +7477,8 @@
       "clients": [
         "JM Financial Limited and Avendus Capital Private Limited (BRLMs)",
         "Book Running Lead Managers",
-        "Dhoot Transmission"
+        "Dhoot Transmission",
+        "Pernia's Pop Up Shop"
       ],
       "deals": [
         {
@@ -7478,6 +7516,18 @@
           "practice_areas": [
             "Capital Markets"
           ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, A&O Shearman act on Pernia's Pop Up Shop ₹680 crore IPO",
+          "client": "Pernia's Pop Up Shop",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-ao-shearman-act-on-pernias-pop-up-shop-680-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Khaitan & Co act on Swara Baby Products ..."
@@ -7496,7 +7546,8 @@
       ],
       "clients": [
         "BRLMs",
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Pernia's Pop Up Shop"
       ],
       "deals": [
         {
@@ -7516,6 +7567,18 @@
           "client": "Book Running Lead Managers",
           "url": "https://www.barandbench.com/dealstreet/sam-khaitan-ao-shearman-act-on-tenneco-india-3600-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, A&O Shearman act on Pernia's Pop Up Shop ₹680 crore IPO",
+          "client": "Pernia's Pop Up Shop",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-ao-shearman-act-on-pernias-pop-up-shop-680-crore-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -10259,13 +10322,15 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "Series A",
         "fundraise"
       ],
       "practice_areas": [
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Elevate Education"
+        "Elevate Education",
+        "Cüraa Series A fundraise"
       ],
       "deals": [
         {
@@ -10274,6 +10339,19 @@
           "url": "https://www.barandbench.com/dealstreet/vertices-partners-cyril-amarchand-mangaldas-act-on-elevate-education-170-crore-series-d-fundraise",
           "source": "Bar and Bench",
           "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "VERTICES PARTNERS, Shardul Amarchand Mangaldas, IC RegFin Legal act on Cüraa Series A fundraise",
+          "client": "Cüraa Series A fundraise",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/vertices-partners-shardul-amarchand-mangaldas-ic-regfin-legal-act-on-craa-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
             "fundraise"
           ],
           "practice_areas": [
@@ -14391,6 +14469,37 @@
         }
       ],
       "snapshot": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business"
+    },
+    {
+      "id": 3792,
+      "name": "Aishwarya Deshpande",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "Series B"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Swish"
+      ],
+      "deals": [
+        {
+          "headline": "JSA advises Swish on $24 million Series B extension round",
+          "client": "Swish",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-swish-on-24-million-series-b-extension-round",
+          "source": "Bar & Bench",
+          "types": [
+            "Series B"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "JSA advises Swish on $24 million Series B extension round"
     },
     {
       "id": 3734,
@@ -19288,8 +19397,8 @@
         {
           "id": 97,
           "firm": "Linklaters",
-          "role": "Head of India Practice",
-          "deal_count": 8
+          "role": "Partner",
+          "deal_count": 9
         }
       ],
       "firm_verification": {
@@ -19301,8 +19410,8 @@
       "id": 97,
       "name": "Amit Singh",
       "firm": "Linklaters",
-      "role": "Head of India Practice",
-      "role_bucket": "Other",
+      "role": "Partner",
+      "role_bucket": "Partner",
       "transaction_types": [
         "IPO",
         "QIP",
@@ -19321,7 +19430,8 @@
         "Arrangers/Dealers",
         "Placement agents",
         "BRLMs (International Legal Counsel)",
-        "BRLMs"
+        "BRLMs",
+        "Capri Loans"
       ],
       "deals": [
         {
@@ -19418,6 +19528,14 @@
           "practice_areas": [
             "Capital Markets"
           ]
+        },
+        {
+          "headline": "Khaitan & Co, TT&A, Mayer Brown, Linklaters act on Capri Loans $300 million bond issuance",
+          "client": "Capri Loans",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-mayer-brown-linklaters-act-on-capri-loans-300-million-bond-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "White & Case, AZB, Sullivan, Cyril Amarchand Mangaldas, Linklaters act on Sun Pharma's ...",
@@ -22584,7 +22702,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Astranova Mobility"
+        "Astranova Mobility",
+        "Cüraa Series A fundraise"
       ],
       "deals": [
         {
@@ -22595,6 +22714,19 @@
           "types": [
             "fundraise",
             "Series A"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "VERTICES PARTNERS, Shardul Amarchand Mangaldas, IC RegFin Legal act on Cüraa Series A fundraise",
+          "client": "Cüraa Series A fundraise",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/vertices-partners-shardul-amarchand-mangaldas-ic-regfin-legal-act-on-craa-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
@@ -23905,7 +24037,62 @@
           ]
         }
       ],
-      "snapshot": "CAM, Khaitan, SAM act on Clean Max Enviro Energy IPO"
+      "snapshot": "CAM, Khaitan, SAM act on Clean Max Enviro Energy IPO",
+      "same_name_elsewhere": [
+        {
+          "id": 3786,
+          "firm": "Sarvaank Associates",
+          "role": "Managing Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
+      "id": 3786,
+      "name": "Ankita Singh",
+      "firm": "Sarvaank Associates",
+      "role": "Managing Partner",
+      "role_bucket": "Managing Partner",
+      "transaction_types": [
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Blue Ashva Capital"
+      ],
+      "deals": [
+        {
+          "headline": "Sarvaank Associates represents Blue Ashva Capital on Kepler Aerospace seed fundraise",
+          "client": "Blue Ashva Capital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/sarvaank-associates-represents-blue-ashva-capital-on-kepler-aerospace-seed-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Sarvaank Associates represents Blue Ashva Capital on Kepler Aerospace seed fundraise",
+      "same_name_elsewhere": [
+        {
+          "id": 1473,
+          "firm": "Shardul Amarchand Mangaldas & Co",
+          "role": "Associate",
+          "deal_count": 2
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 746,
@@ -27778,6 +27965,29 @@
       }
     },
     {
+      "id": 3793,
+      "name": "Aparna Arya",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Capri Loans"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co, TT&A, Mayer Brown, Linklaters act on Capri Loans $300 million bond issuance",
+          "client": "Capri Loans",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-mayer-brown-linklaters-act-on-capri-loans-300-million-bond-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co, TT&A, Mayer Brown, Linklaters act on Capri Loans $300 million bond issuance"
+    },
+    {
       "id": 3527,
       "name": "Aparna Bagree",
       "firm": "Khaitan & Co",
@@ -27793,7 +28003,8 @@
       ],
       "clients": [
         "Horizon Industrial Parks",
-        "Nexus Select Trust's"
+        "Nexus Select Trust's",
+        "Pernia's Pop Up Shop"
       ],
       "deals": [
         {
@@ -27818,6 +28029,18 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, A&O Shearman act on Pernia's Pop Up Shop ₹680 crore IPO",
+          "client": "Pernia's Pop Up Shop",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-ao-shearman-act-on-pernias-pop-up-shop-680-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
           ]
         }
       ],
@@ -39799,6 +40022,29 @@
       "snapshot": "JSA, A&G, Gibson Dunn, AZB, Simpson Thacher, Latham, CAM act on SingTel - KKR billion ..."
     },
     {
+      "id": 3795,
+      "name": "Cheryl Kwok",
+      "firm": "Linklaters",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Capri Loans"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co, TT&A, Mayer Brown, Linklaters act on Capri Loans $300 million bond issuance",
+          "client": "Capri Loans",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-mayer-brown-linklaters-act-on-capri-loans-300-million-bond-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co, TT&A, Mayer Brown, Linklaters act on Capri Loans $300 million bond issuance"
+    },
+    {
       "id": 124,
       "name": "Chinmay Jumde",
       "firm": "Cyril Amarchand Mangaldas",
@@ -40751,6 +40997,39 @@
       "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha..."
     },
     {
+      "id": 3799,
+      "name": "Daksh Hemnani",
+      "firm": null,
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Pizza Bakery, Paris Panini operator Popo Global secures ₹532 crore from Invus Group: SAM, Argus, TT&A advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/pizza-bakery-paris-panini-operator-popo-global-secures-532-crore-from-invus-group-sam-argus-tta-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Pizza Bakery, Paris Panini operator Popo Global secures ₹532 crore from Invus Group: SAM, Argus, TT&A advise",
+      "same_name_elsewhere": [
+        {
+          "id": 1782,
+          "firm": "Shardul Amarchand Mangaldas & Co",
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 1782,
       "name": "Daksh Hemnani",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -40781,7 +41060,19 @@
           ]
         }
       ],
-      "snapshot": "Shardul Amarchand Mangaldas, JSA act on TruNativ $30 million Series B fundraise"
+      "snapshot": "Shardul Amarchand Mangaldas, JSA act on TruNativ $30 million Series B fundraise",
+      "same_name_elsewhere": [
+        {
+          "id": 3799,
+          "firm": null,
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 2823,
@@ -45025,6 +45316,37 @@
         }
       ],
       "snapshot": "Trilegal, Cooley, AZB, Latham, SAM, CMS INDUSLAW act on CRED securing $900 million from Meta"
+    },
+    {
+      "id": 3789,
+      "name": "Dipanjana Das",
+      "firm": "Sarvaank Associates",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Blue Ashva Capital"
+      ],
+      "deals": [
+        {
+          "headline": "Sarvaank Associates represents Blue Ashva Capital on Kepler Aerospace seed fundraise",
+          "client": "Blue Ashva Capital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/sarvaank-associates-represents-blue-ashva-capital-on-kepler-aerospace-seed-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Sarvaank Associates represents Blue Ashva Capital on Kepler Aerospace seed fundraise"
     },
     {
       "id": 1237,
@@ -50127,6 +50449,39 @@
       "snapshot": "Bharucha, Shardul Amarchand Mangaldas, Khaitan & Co act on River Mobility $120 million Series C fundraise"
     },
     {
+      "id": 3804,
+      "name": "Gautam Saha",
+      "firm": null,
+      "role": "Joint Managing Partner",
+      "role_bucket": "Managing Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Pizza Bakery, Paris Panini operator Popo Global secures ₹532 crore from Invus Group: SAM, Argus, TT&A advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/pizza-bakery-paris-panini-operator-popo-global-secures-532-crore-from-invus-group-sam-argus-tta-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Pizza Bakery, Paris Panini operator Popo Global secures ₹532 crore from Invus Group: SAM, Argus, TT&A advise",
+      "same_name_elsewhere": [
+        {
+          "id": 444,
+          "firm": "Talwar Thakore & Associates",
+          "role": "Managing Partner",
+          "deal_count": 9
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 444,
       "name": "Gautam Saha",
       "firm": "Talwar Thakore & Associates",
@@ -50258,7 +50613,19 @@
           ]
         }
       ],
-      "snapshot": "Trilegal advises JM Financial on ₹150 crore investment in NG Electro - Bar and Bench"
+      "snapshot": "Trilegal advises JM Financial on ₹150 crore investment in NG Electro - Bar and Bench",
+      "same_name_elsewhere": [
+        {
+          "id": 3804,
+          "firm": null,
+          "role": "Joint Managing Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 3774,
@@ -50831,6 +51198,29 @@
         }
       ],
       "snapshot": "JSA, ELP act on TravelPlus ₹250 crore+ IPO filing - Bar and Bench"
+    },
+    {
+      "id": 3796,
+      "name": "Geeta Vasnani",
+      "firm": "Linklaters",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Capri Loans"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co, TT&A, Mayer Brown, Linklaters act on Capri Loans $300 million bond issuance",
+          "client": "Capri Loans",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-mayer-brown-linklaters-act-on-capri-loans-300-million-bond-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co, TT&A, Mayer Brown, Linklaters act on Capri Loans $300 million bond issuance"
     },
     {
       "id": 3479,
@@ -53642,6 +54032,46 @@
       "snapshot": "JSA advises NaBFID, Axis Bank, PTC India FinServ on financing for telecommunications infrastructure project"
     },
     {
+      "id": 3806,
+      "name": "Harshit Chandra",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Pizza Bakery, Paris Panini operator Popo Global secures ₹532 crore from Invus Group: SAM, Argus, TT&A advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/pizza-bakery-paris-panini-operator-popo-global-secures-532-crore-from-invus-group-sam-argus-tta-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Pizza Bakery, Paris Panini operator Popo Global secures ₹532 crore from Invus Group: SAM, Argus, TT&A advise",
+      "same_name_elsewhere": [
+        {
+          "id": 1975,
+          "firm": "JSA Advocates & Solicitors",
+          "role": "Partner",
+          "deal_count": 1
+        },
+        {
+          "id": 406,
+          "firm": "Talwar Thakore & Associates",
+          "role": "Partner",
+          "deal_count": 2
+        }
+      ],
+      "firm_verification": {
+        "verdict": "SAME_PERSON_MOVED",
+        "current_firm": "Talwar Thakore & Associates",
+        "evidence": "Bar & Bench + GNLU alumni association: elevated to Partner at Talwar Thakore & Associates (TT&A), Delhi, M&A/PE/General Corporate."
+      }
+    },
+    {
       "id": 1975,
       "name": "Harshit Chandra",
       "firm": "JSA Advocates & Solicitors",
@@ -53674,6 +54104,12 @@
       ],
       "snapshot": "VERTICES PARTNERS, JSA, TT&A act on SUGAR Cosmetics Series D fundraise",
       "same_name_elsewhere": [
+        {
+          "id": 3806,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        },
         {
           "id": 406,
           "firm": "Talwar Thakore & Associates",
@@ -53729,6 +54165,12 @@
       ],
       "snapshot": "IC RegFin, JSA, TT&A, Resolution Law acts on Astranova Mobility Series A fundraise",
       "same_name_elsewhere": [
+        {
+          "id": 3806,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        },
         {
           "id": 1975,
           "firm": "JSA Advocates & Solicitors",
@@ -56601,6 +57043,37 @@
         }
       ],
       "snapshot": "TPG-led consortium to acquire Aseem Infra Finance; CAM, Linklaters, Trilegal, SAM advise"
+    },
+    {
+      "id": 3797,
+      "name": "Ira Pandya",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Pernia's Pop Up Shop"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, A&O Shearman act on Pernia's Pop Up Shop ₹680 crore IPO",
+          "client": "Pernia's Pop Up Shop",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-ao-shearman-act-on-pernias-pop-up-shop-680-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co, A&O Shearman act on Pernia's Pop Up Shop ₹680 crore IPO"
     },
     {
       "id": 671,
@@ -59933,6 +60406,37 @@
         }
       ],
       "snapshot": "Trilegal, TT&A, Cyril Amarchand Mangaldas act on Sarvam AI $300 million Series B fundraise"
+    },
+    {
+      "id": 3790,
+      "name": "Jayant Jindal",
+      "firm": "Sarvaank Associates",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Blue Ashva Capital"
+      ],
+      "deals": [
+        {
+          "headline": "Sarvaank Associates represents Blue Ashva Capital on Kepler Aerospace seed fundraise",
+          "client": "Blue Ashva Capital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/sarvaank-associates-represents-blue-ashva-capital-on-kepler-aerospace-seed-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Sarvaank Associates represents Blue Ashva Capital on Kepler Aerospace seed fundraise"
     },
     {
       "id": 2193,
@@ -65863,6 +66367,27 @@
       "snapshot": "McDermott Will & Schulte, CAM, Trilegal, AZB act on KKR's €1.2 billion acquisition of Medicover India"
     },
     {
+      "id": 3807,
+      "name": "Kashish Singhal",
+      "firm": null,
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Pizza Bakery, Paris Panini operator Popo Global secures ₹532 crore from Invus Group: SAM, Argus, TT&A advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/pizza-bakery-paris-panini-operator-popo-global-secures-532-crore-from-invus-group-sam-argus-tta-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Pizza Bakery, Paris Panini operator Popo Global secures ₹532 crore from Invus Group: SAM, Argus, TT&A advise"
+    },
+    {
       "id": 984,
       "name": "Kashvi Shetty",
       "firm": "Khaitan & Co",
@@ -67885,6 +68410,27 @@
         }
       ],
       "snapshot": "Trilegal acts on reverse merger of Piramal Enterprises with Piramal Finance - Bar and Bench"
+    },
+    {
+      "id": 3803,
+      "name": "Kieran Correia",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Pizza Bakery, Paris Panini operator Popo Global secures ₹532 crore from Invus Group: SAM, Argus, TT&A advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/pizza-bakery-paris-panini-operator-popo-global-secures-532-crore-from-invus-group-sam-argus-tta-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Pizza Bakery, Paris Panini operator Popo Global secures ₹532 crore from Invus Group: SAM, Argus, TT&A advise"
     },
     {
       "id": 2170,
@@ -75041,7 +75587,8 @@
         "Amagi",
         "ICICI Prudential AMC",
         "Park Hospitals",
-        "Dhoot Transmission"
+        "Dhoot Transmission",
+        "Pernia's Pop Up Shop"
       ],
       "deals": [
         {
@@ -75156,6 +75703,18 @@
           "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO",
           "client": "Dhoot Transmission",
           "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, A&O Shearman act on Pernia's Pop Up Shop ₹680 crore IPO",
+          "client": "Pernia's Pop Up Shop",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-ao-shearman-act-on-pernias-pop-up-shop-680-crore-ipo",
           "source": "Bar & Bench",
           "types": [
             "IPO"
@@ -75721,7 +76280,8 @@
         "OneAssist",
         "Elevation Capital VIII Limited and Matrix Partners-India",
         "PhysicsWallah and the selling shareholders",
-        "River Mobility"
+        "River Mobility",
+        "Cüraa Series A fundraise"
       ],
       "deals": [
         {
@@ -75859,6 +76419,19 @@
           "source": "Bar & Bench",
           "types": [
             "Series C",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "VERTICES PARTNERS, Shardul Amarchand Mangaldas, IC RegFin Legal act on Cüraa Series A fundraise",
+          "client": "Cüraa Series A fundraise",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/vertices-partners-shardul-amarchand-mangaldas-ic-regfin-legal-act-on-craa-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
             "fundraise"
           ],
           "practice_areas": [
@@ -76054,7 +76627,8 @@
       "practice_areas": [],
       "clients": [
         "IIFL Finance",
-        "VINCI Highways"
+        "VINCI Highways",
+        "Capri Loans"
       ],
       "deals": [
         {
@@ -76070,6 +76644,14 @@
           "client": "VINCI Highways",
           "url": "https://www.barandbench.com/dealstreet/khaitan-sam-act-on-vinci-highways-acquiring-700-km-highway-assets-across-ap-and-gujarat",
           "source": "Bar and Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Khaitan & Co, TT&A, Mayer Brown, Linklaters act on Capri Loans $300 million bond issuance",
+          "client": "Capri Loans",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-mayer-brown-linklaters-act-on-capri-loans-300-million-bond-issuance",
+          "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
         }
@@ -76534,6 +77116,7 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "Series A",
         "Series B",
         "Series C",
         "fundraise"
@@ -76545,7 +77128,8 @@
         "SolarSquare",
         "WorkIndia",
         "Seekho",
-        "OneAssist"
+        "OneAssist",
+        "Cüraa Series A fundraise"
       ],
       "deals": [
         {
@@ -76593,6 +77177,19 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "VERTICES PARTNERS, Shardul Amarchand Mangaldas, IC RegFin Legal act on Cüraa Series A fundraise",
+          "client": "Cüraa Series A fundraise",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/vertices-partners-shardul-amarchand-mangaldas-ic-regfin-legal-act-on-craa-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas advises SolarSquare on $53 million Series C fundraise"
@@ -77498,13 +78095,16 @@
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
+        "Series B",
         "acquisition"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Continuum Green Energy"
+        "Continuum Green Energy",
+        "Swish"
       ],
       "deals": [
         {
@@ -77517,6 +78117,18 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ]
+        },
+        {
+          "headline": "JSA advises Swish on $24 million Series B extension round",
+          "client": "Swish",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-swish-on-24-million-series-b-extension-round",
+          "source": "Bar & Bench",
+          "types": [
+            "Series B"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ]
         }
       ],
@@ -78922,7 +79534,8 @@
       ],
       "clients": [
         "Apar Advertisers IPO",
-        "Dain Colour Chem IPO"
+        "Dain Colour Chem IPO",
+        "Qualiance International IPO"
       ],
       "deals": [
         {
@@ -78941,6 +79554,18 @@
           "headline": "Legacy Law Offices acts on Dain Colour Chem IPO",
           "client": "Dain Colour Chem IPO",
           "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-dain-colour-chem-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Legacy Law Offices acts on Qualiance International IPO",
+          "client": "Qualiance International IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-qualiance-international-ipo",
           "source": "Bar & Bench",
           "types": [
             "IPO"
@@ -80299,6 +80924,27 @@
       "snapshot": "Khaitan & Co acts on Muthoot FinCorp ₹3,000 crore IPO"
     },
     {
+      "id": 3802,
+      "name": "Mishika Bedi",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Pizza Bakery, Paris Panini operator Popo Global secures ₹532 crore from Invus Group: SAM, Argus, TT&A advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/pizza-bakery-paris-panini-operator-popo-global-secures-532-crore-from-invus-group-sam-argus-tta-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Pizza Bakery, Paris Panini operator Popo Global secures ₹532 crore from Invus Group: SAM, Argus, TT&A advise"
+    },
+    {
       "id": 2436,
       "name": "Mitakshara Kapoor",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -80936,7 +81582,8 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "VINCI Highways"
+        "VINCI Highways",
+        "Capri Loans"
       ],
       "deals": [
         {
@@ -80944,6 +81591,14 @@
           "client": "VINCI Highways",
           "url": "https://www.barandbench.com/dealstreet/khaitan-sam-act-on-vinci-highways-acquiring-700-km-highway-assets-across-ap-and-gujarat",
           "source": "Bar and Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Khaitan & Co, TT&A, Mayer Brown, Linklaters act on Capri Loans $300 million bond issuance",
+          "client": "Capri Loans",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-mayer-brown-linklaters-act-on-capri-loans-300-million-bond-issuance",
+          "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
         }
@@ -82795,7 +83450,8 @@
       ],
       "clients": [
         "Apar Advertisers IPO",
-        "Dain Colour Chem IPO"
+        "Dain Colour Chem IPO",
+        "Qualiance International IPO"
       ],
       "deals": [
         {
@@ -82814,6 +83470,18 @@
           "headline": "Legacy Law Offices acts on Dain Colour Chem IPO",
           "client": "Dain Colour Chem IPO",
           "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-dain-colour-chem-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Legacy Law Offices acts on Qualiance International IPO",
+          "client": "Qualiance International IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-qualiance-international-ipo",
           "source": "Bar & Bench",
           "types": [
             "IPO"
@@ -83350,7 +84018,8 @@
       ],
       "clients": [
         "IIFL Finance",
-        "Muthoot FinCorp"
+        "Muthoot FinCorp",
+        "Capri Loans"
       ],
       "deals": [
         {
@@ -83372,6 +84041,14 @@
           "practice_areas": [
             "Capital Markets"
           ]
+        },
+        {
+          "headline": "Khaitan & Co, TT&A, Mayer Brown, Linklaters act on Capri Loans $300 million bond issuance",
+          "client": "Capri Loans",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-mayer-brown-linklaters-act-on-capri-loans-300-million-bond-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Khaitan & Co, JSA act on IIFL Finance updating its $1 billion Global Medium Term Note Programme"
@@ -84202,6 +84879,39 @@
       "snapshot": "CAM advises Dixon on acquiring 51% shareholding in QTech India - Bar and Bench"
     },
     {
+      "id": 3798,
+      "name": "Navruz Vakil",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Pizza Bakery, Paris Panini operator Popo Global secures ₹532 crore from Invus Group: SAM, Argus, TT&A advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/pizza-bakery-paris-panini-operator-popo-global-secures-532-crore-from-invus-group-sam-argus-tta-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Pizza Bakery, Paris Panini operator Popo Global secures ₹532 crore from Invus Group: SAM, Argus, TT&A advise",
+      "same_name_elsewhere": [
+        {
+          "id": 1511,
+          "firm": "Shardul Amarchand Mangaldas & Co",
+          "role": "Partner",
+          "deal_count": 3
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 1511,
       "name": "Navruz Vakil",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -84256,7 +84966,19 @@
           ]
         }
       ],
-      "snapshot": "ALMT Legal, Shardul Amarchand Mangaldas, Rajani Associates act on Bodycraft ₹120 ..."
+      "snapshot": "ALMT Legal, Shardul Amarchand Mangaldas, Rajani Associates act on Bodycraft ₹120 ...",
+      "same_name_elsewhere": [
+        {
+          "id": 3798,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1026,
@@ -85203,6 +85925,27 @@
         }
       ],
       "snapshot": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR"
+    },
+    {
+      "id": 3801,
+      "name": "Neha Madan",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Pizza Bakery, Paris Panini operator Popo Global secures ₹532 crore from Invus Group: SAM, Argus, TT&A advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/pizza-bakery-paris-panini-operator-popo-global-secures-532-crore-from-invus-group-sam-argus-tta-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Pizza Bakery, Paris Panini operator Popo Global secures ₹532 crore from Invus Group: SAM, Argus, TT&A advise"
     },
     {
       "id": 3475,
@@ -90521,7 +91264,8 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "IIFL Finance"
+        "IIFL Finance",
+        "Capri Loans"
       ],
       "deals": [
         {
@@ -90529,6 +91273,14 @@
           "client": "IIFL Finance",
           "url": "https://www.barandbench.com/dealstreet/khaitan-co-jsa-act-on-iifl-finance-updating-its-1-billion-global-medium-term-note-programme",
           "source": "Bar and Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Khaitan & Co, TT&A, Mayer Brown, Linklaters act on Capri Loans $300 million bond issuance",
+          "client": "Capri Loans",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-mayer-brown-linklaters-act-on-capri-loans-300-million-bond-issuance",
+          "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
         }
@@ -90818,7 +91570,8 @@
         "Placement Agents",
         "Underwriters",
         "Book Running Lead Managers (US law)",
-        "Adani Energy Solutions"
+        "Adani Energy Solutions",
+        "Pernia's Pop Up Shop"
       ],
       "deals": [
         {
@@ -90860,6 +91613,18 @@
           "source": "Bar & Bench",
           "types": [
             "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, A&O Shearman act on Pernia's Pop Up Shop ₹680 crore IPO",
+          "client": "Pernia's Pop Up Shop",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-ao-shearman-act-on-pernias-pop-up-shop-680-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
           ],
           "practice_areas": [
             "Capital Markets"
@@ -98356,7 +99121,8 @@
         "ICICI Prudential AMC",
         "Anantam Highways Trust",
         "Cube Highways Trust",
-        "Molbio Diagnostics"
+        "Molbio Diagnostics",
+        "Pernia's Pop Up Shop"
       ],
       "deals": [
         {
@@ -98423,6 +99189,18 @@
           "headline": "Khaitan & Co, Cyril Amarchand Mangaldas, Hogan Lovells Cadwalader act on Molbio Diagnostics ₹939 crore IPO",
           "client": "Molbio Diagnostics",
           "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-cyril-amarchand-mangaldas-hogan-lovells-cadwalader-act-on-molbio-diagnostics-939-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, A&O Shearman act on Pernia's Pop Up Shop ₹680 crore IPO",
+          "client": "Pernia's Pop Up Shop",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-ao-shearman-act-on-pernias-pop-up-shop-680-crore-ipo",
           "source": "Bar & Bench",
           "types": [
             "IPO"
@@ -98675,13 +99453,22 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "IDFC FIRST Bank"
+        "IDFC FIRST Bank",
+        "Capri Loans"
       ],
       "deals": [
         {
           "headline": "TT&A, Shardul Amarchand Mangaldas, Linklaters act on IDFC FIRST Bank $600 million senior notes issuance",
           "client": "IDFC FIRST Bank",
           "url": "https://www.barandbench.com/law-firms/dealstreet/tta-shardul-amarchand-mangaldas-linklaters-act-on-idfc-first-bank-600-million-senior-notes-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Khaitan & Co, TT&A, Mayer Brown, Linklaters act on Capri Loans $300 million bond issuance",
+          "client": "Capri Loans",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-mayer-brown-linklaters-act-on-capri-loans-300-million-bond-issuance",
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
@@ -100609,7 +101396,8 @@
       ],
       "clients": [
         "iValue Infosolutions",
-        "Sudeep Pharma"
+        "Sudeep Pharma",
+        "Pernia's Pop Up Shop"
       ],
       "deals": [
         {
@@ -100629,6 +101417,18 @@
           "client": "Sudeep Pharma",
           "url": "https://www.barandbench.com/dealstreet/cam-sr-associates-hogan-lovells-act-on-sudeep-pharma-895-crore-ipo",
           "source": "",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, A&O Shearman act on Pernia's Pop Up Shop ₹680 crore IPO",
+          "client": "Pernia's Pop Up Shop",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-ao-shearman-act-on-pernias-pop-up-shop-680-crore-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -101611,13 +102411,22 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "IDFC FIRST Bank"
+        "IDFC FIRST Bank",
+        "Capri Loans"
       ],
       "deals": [
         {
           "headline": "TT&A, Shardul Amarchand Mangaldas, Linklaters act on IDFC FIRST Bank $600 million senior notes issuance",
           "client": "IDFC FIRST Bank",
           "url": "https://www.barandbench.com/law-firms/dealstreet/tta-shardul-amarchand-mangaldas-linklaters-act-on-idfc-first-bank-600-million-senior-notes-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        },
+        {
+          "headline": "Khaitan & Co, TT&A, Mayer Brown, Linklaters act on Capri Loans $300 million bond issuance",
+          "client": "Capri Loans",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-mayer-brown-linklaters-act-on-capri-loans-300-million-bond-issuance",
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
@@ -104034,6 +104843,7 @@
       "role": "Principal Associate",
       "role_bucket": "Principal Associate",
       "transaction_types": [
+        "Series A",
         "Series B",
         "Series C",
         "fundraise"
@@ -104046,7 +104856,8 @@
         "General Catalyst",
         "WorkIndia",
         "Z47 & NTTVC",
-        "Seekho"
+        "Seekho",
+        "Cüraa Series A fundraise"
       ],
       "deals": [
         {
@@ -104101,6 +104912,19 @@
           "url": "https://www.barandbench.com/dealstreet/sam-phoenix-legal-act-on-seekho-28-million-series-b-fundraise",
           "source": "Bar and Bench",
           "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "VERTICES PARTNERS, Shardul Amarchand Mangaldas, IC RegFin Legal act on Cüraa Series A fundraise",
+          "client": "Cüraa Series A fundraise",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/vertices-partners-shardul-amarchand-mangaldas-ic-regfin-legal-act-on-craa-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
             "fundraise"
           ],
           "practice_areas": [
@@ -111771,6 +112595,45 @@
       }
     },
     {
+      "id": 3805,
+      "name": "Sachin Mehta",
+      "firm": null,
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Pizza Bakery, Paris Panini operator Popo Global secures ₹532 crore from Invus Group: SAM, Argus, TT&A advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/pizza-bakery-paris-panini-operator-popo-global-secures-532-crore-from-invus-group-sam-argus-tta-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Pizza Bakery, Paris Panini operator Popo Global secures ₹532 crore from Invus Group: SAM, Argus, TT&A advise",
+      "same_name_elsewhere": [
+        {
+          "id": 1974,
+          "firm": "JSA Advocates & Solicitors",
+          "role": "Partner",
+          "deal_count": 1
+        },
+        {
+          "id": 1218,
+          "firm": "Talwar Thakore & Associates",
+          "role": "Partner",
+          "deal_count": 2
+        }
+      ],
+      "firm_verification": {
+        "verdict": "DIFFERENT_PEOPLE",
+        "evidence": "The documented Sachin Mehta is Partner at TT&A (moved from AZB & Partners, 15 years there, Aug 2022) - no source connects him or any Sachin Mehta to JSA. The JSA-side record is likely a data error or an unverified different person."
+      }
+    },
+    {
       "id": 1974,
       "name": "Sachin Mehta",
       "firm": "JSA Advocates & Solicitors",
@@ -111803,6 +112666,12 @@
       ],
       "snapshot": "VERTICES PARTNERS, JSA, TT&A act on SUGAR Cosmetics Series D fundraise",
       "same_name_elsewhere": [
+        {
+          "id": 3805,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        },
         {
           "id": 1218,
           "firm": "Talwar Thakore & Associates",
@@ -111857,6 +112726,12 @@
       ],
       "snapshot": "TT&A, S&R, SAM, Agram act on Tata Motors acquiring controlling stake in Freight Tiger",
       "same_name_elsewhere": [
+        {
+          "id": 3805,
+          "firm": null,
+          "role": "Partner",
+          "deal_count": 1
+        },
         {
           "id": 1974,
           "firm": "JSA Advocates & Solicitors",
@@ -114413,6 +115288,37 @@
       "snapshot": "Saraf, CasePro, Trilegal act on Megaport Limited acquiring Extreme IX platform"
     },
     {
+      "id": 3810,
+      "name": "Samiksha Gawali",
+      "firm": "Legacy Law Offices",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Qualiance International IPO"
+      ],
+      "deals": [
+        {
+          "headline": "Legacy Law Offices acts on Qualiance International IPO",
+          "client": "Qualiance International IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-qualiance-international-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        }
+      ],
+      "snapshot": "Legacy Law Offices acts on Qualiance International IPO"
+    },
+    {
       "id": 3107,
       "name": "Samiksha Kothari",
       "firm": "Talwar Thakore & Associates",
@@ -115467,6 +116373,37 @@
       "snapshot": "Vritti Law, Trilegal act on Khandelwal Laboratories' ₹325 crore sale of business to Auro Pharma"
     },
     {
+      "id": 3788,
+      "name": "Sanchita Gupta",
+      "firm": "Sarvaank Associates",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Blue Ashva Capital"
+      ],
+      "deals": [
+        {
+          "headline": "Sarvaank Associates represents Blue Ashva Capital on Kepler Aerospace seed fundraise",
+          "client": "Blue Ashva Capital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/sarvaank-associates-represents-blue-ashva-capital-on-kepler-aerospace-seed-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Sarvaank Associates represents Blue Ashva Capital on Kepler Aerospace seed fundraise"
+    },
+    {
       "id": 1805,
       "name": "Sanchita Mishra",
       "firm": "Trilegal",
@@ -115911,6 +116848,39 @@
       "snapshot": "Cyril Amarchand Mangaldas advises Manipal Hospitals on ₹5,310 crore acquisition financing"
     },
     {
+      "id": 3808,
+      "name": "Sangita Sharma",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Pizza Bakery, Paris Panini operator Popo Global secures ₹532 crore from Invus Group: SAM, Argus, TT&A advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/pizza-bakery-paris-panini-operator-popo-global-secures-532-crore-from-invus-group-sam-argus-tta-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Pizza Bakery, Paris Panini operator Popo Global secures ₹532 crore from Invus Group: SAM, Argus, TT&A advise",
+      "same_name_elsewhere": [
+        {
+          "id": 1722,
+          "firm": "Talwar Thakore & Associates",
+          "role": "Associate",
+          "deal_count": 4
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 1722,
       "name": "Sangita Sharma",
       "firm": "Talwar Thakore & Associates",
@@ -115974,7 +116944,19 @@
           ]
         }
       ],
-      "snapshot": "CAM, TT&A, WvT, Trowers & Hamlins act on ACEN India securing ₹751 crore funding for ..."
+      "snapshot": "CAM, TT&A, WvT, Trowers & Hamlins act on ACEN India securing ₹751 crore funding for ...",
+      "same_name_elsewhere": [
+        {
+          "id": 3808,
+          "firm": null,
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1569,
@@ -119950,7 +120932,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Book Running Lead Managers (US law)"
+        "Book Running Lead Managers (US law)",
+        "Pernia's Pop Up Shop"
       ],
       "deals": [
         {
@@ -119958,6 +120941,18 @@
           "client": "Book Running Lead Managers (US law)",
           "url": "https://www.barandbench.com/dealstreet/sam-khaitan-ao-shearman-act-on-tenneco-india-3600-crore-ipo",
           "source": "Bar and Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, A&O Shearman act on Pernia's Pop Up Shop ₹680 crore IPO",
+          "client": "Pernia's Pop Up Shop",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-ao-shearman-act-on-pernias-pop-up-shop-680-crore-ipo",
+          "source": "Bar & Bench",
           "types": [
             "IPO"
           ],
@@ -129998,7 +130993,7 @@
           "id": 98,
           "firm": "JSA Advocates & Solicitors",
           "role": "Partner",
-          "deal_count": 2
+          "deal_count": 3
         }
       ],
       "firm_verification": {
@@ -130013,6 +131008,7 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
+        "Series B",
         "Series D",
         "financing",
         "fundraise",
@@ -130023,7 +131019,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Snabbit"
+        "Snabbit",
+        "Swish"
       ],
       "deals": [
         {
@@ -130050,6 +131047,18 @@
           ],
           "practice_areas": [
             "Banking & Finance",
+            "Private Equity & Venture Capital"
+          ]
+        },
+        {
+          "headline": "JSA advises Swish on $24 million Series B extension round",
+          "client": "Swish",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-swish-on-24-million-series-b-extension-round",
+          "source": "Bar & Bench",
+          "types": [
+            "Series B"
+          ],
+          "practice_areas": [
             "Private Equity & Venture Capital"
           ]
         }
@@ -132185,7 +133194,8 @@
         "IIFL Finance",
         "FMC India",
         "River Mobility",
-        "Standex’s acquisition of Amran/Narayan Group"
+        "Standex’s acquisition of Amran/Narayan Group",
+        "Capri Loans"
       ],
       "deals": [
         {
@@ -132232,6 +133242,14 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ]
+        },
+        {
+          "headline": "Khaitan & Co, TT&A, Mayer Brown, Linklaters act on Capri Loans $300 million bond issuance",
+          "client": "Capri Loans",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-mayer-brown-linklaters-act-on-capri-loans-300-million-bond-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
         }
       ],
       "snapshot": "Khaitan & Co, JSA act on IIFL Finance updating its $1 billion Global Medium Term Note Programme"
@@ -135916,7 +136934,8 @@
       "clients": [
         "Lead Managers",
         "Dhoot Transmission",
-        "Horizon Industrial Parks"
+        "Horizon Industrial Parks",
+        "Pernia's Pop Up Shop"
       ],
       "deals": [
         {
@@ -135947,6 +136966,18 @@
           "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on Horizon Industrial Parks ₹2,600 crore IPO",
           "client": "Horizon Industrial Parks",
           "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-horizon-industrial-parks-2600-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, A&O Shearman act on Pernia's Pop Up Shop ₹680 crore IPO",
+          "client": "Pernia's Pop Up Shop",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-ao-shearman-act-on-pernias-pop-up-shop-680-crore-ipo",
           "source": "Bar & Bench",
           "types": [
             "IPO"
@@ -137833,13 +138864,26 @@
         "Capital Markets"
       ],
       "clients": [
-        "Dain Colour Chem IPO"
+        "Dain Colour Chem IPO",
+        "Qualiance International IPO"
       ],
       "deals": [
         {
           "headline": "Legacy Law Offices acts on Dain Colour Chem IPO",
           "client": "Dain Colour Chem IPO",
           "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-dain-colour-chem-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ]
+        },
+        {
+          "headline": "Legacy Law Offices acts on Qualiance International IPO",
+          "client": "Qualiance International IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-qualiance-international-ipo",
           "source": "Bar & Bench",
           "types": [
             "IPO"
@@ -144190,6 +145234,39 @@
       "snapshot": "Khaitan, CAM guide Saregama India's ₹325 crore investment in Sanjay Leela Bhansali's studio"
     },
     {
+      "id": 3791,
+      "name": "Utsav Vats",
+      "firm": "IC RegFin Legal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "Series A",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Cüraa Series A fundraise"
+      ],
+      "deals": [
+        {
+          "headline": "VERTICES PARTNERS, Shardul Amarchand Mangaldas, IC RegFin Legal act on Cüraa Series A fundraise",
+          "client": "Cüraa Series A fundraise",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/vertices-partners-shardul-amarchand-mangaldas-ic-regfin-legal-act-on-craa-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "VERTICES PARTNERS, Shardul Amarchand Mangaldas, IC RegFin Legal act on Cüraa Series A fundraise"
+    },
+    {
       "id": 3609,
       "name": "V. Nityanand",
       "firm": "Trilegal",
@@ -147406,6 +148483,27 @@
       "snapshot": "Trilegal advises Sona Comstar on partnership with Japan's DENSO Corp"
     },
     {
+      "id": 3809,
+      "name": "Vedangshri Vijay",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Pizza Bakery, Paris Panini operator Popo Global secures ₹532 crore from Invus Group: SAM, Argus, TT&A advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/pizza-bakery-paris-panini-operator-popo-global-secures-532-crore-from-invus-group-sam-argus-tta-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Pizza Bakery, Paris Panini operator Popo Global secures ₹532 crore from Invus Group: SAM, Argus, TT&A advise"
+    },
+    {
       "id": 601,
       "name": "Vedansh Batwara",
       "firm": "Trilegal",
@@ -148328,6 +149426,45 @@
       "snapshot": "Trilegal, Khaitan & Co act on JBM Ecolife Mobility securing ₹750 crore from Motilal Oswal"
     },
     {
+      "id": 3800,
+      "name": "Vidhi Shah",
+      "firm": null,
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Pizza Bakery, Paris Panini operator Popo Global secures ₹532 crore from Invus Group: SAM, Argus, TT&A advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/pizza-bakery-paris-panini-operator-popo-global-secures-532-crore-from-invus-group-sam-argus-tta-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Pizza Bakery, Paris Panini operator Popo Global secures ₹532 crore from Invus Group: SAM, Argus, TT&A advise",
+      "same_name_elsewhere": [
+        {
+          "id": 1513,
+          "firm": "Shardul Amarchand Mangaldas & Co",
+          "role": "Associate",
+          "deal_count": 1
+        },
+        {
+          "id": 1861,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Senior Associate Designate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "No lawyer named 'Vidhi Shah' found at CAM in search results (only Vidhi Dedhia and Vidhi Sarin). A 'Vidhi Shah' does appear as a Front Office Executive (admin role, not legal) at SAM - likely unrelated to the associate in the dataset."
+      }
+    },
+    {
       "id": 1513,
       "name": "Vidhi Shah",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -148350,6 +149487,12 @@
       ],
       "snapshot": "ALMT Legal, Shardul Amarchand Mangaldas, Rajani Associates act on Bodycraft ₹120 ...",
       "same_name_elsewhere": [
+        {
+          "id": 3800,
+          "firm": null,
+          "role": "Associate",
+          "deal_count": 1
+        },
         {
           "id": 1861,
           "firm": "Cyril Amarchand Mangaldas",
@@ -148395,6 +149538,12 @@
       ],
       "snapshot": "Cyril Amarchand Mangaldas, S&R Associates, Hogan Lovells Cadwalader act on Lohia ...",
       "same_name_elsewhere": [
+        {
+          "id": 3800,
+          "firm": null,
+          "role": "Associate",
+          "deal_count": 1
+        },
         {
           "id": 1513,
           "firm": "Shardul Amarchand Mangaldas & Co",
@@ -150647,6 +151796,7 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
+        "Series A",
         "Series C",
         "fundraise"
       ],
@@ -150655,7 +151805,8 @@
       ],
       "clients": [
         "FlipSpaces",
-        "Ledgers"
+        "Ledgers",
+        "Cüraa Series A fundraise"
       ],
       "deals": [
         {
@@ -150678,6 +151829,19 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": []
+        },
+        {
+          "headline": "VERTICES PARTNERS, Shardul Amarchand Mangaldas, IC RegFin Legal act on Cüraa Series A fundraise",
+          "client": "Cüraa Series A fundraise",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/vertices-partners-shardul-amarchand-mangaldas-ic-regfin-legal-act-on-craa-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
         }
       ],
       "snapshot": "VERTICES, Argus, JSA, Antares act on FlipSpaces $50 million Series C fundraise"
@@ -152261,7 +153425,54 @@
           "practice_areas": []
         }
       ],
-      "snapshot": "TT&A, Shardul Amarchand Mangaldas, Linklaters act on IDFC FIRST Bank $600 million senior notes issuance"
+      "snapshot": "TT&A, Shardul Amarchand Mangaldas, Linklaters act on IDFC FIRST Bank $600 million senior notes issuance",
+      "same_name_elsewhere": [
+        {
+          "id": 3794,
+          "firm": "Linklaters",
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
+      "id": 3794,
+      "name": "Xunming Lim",
+      "firm": "Linklaters",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Capri Loans"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co, TT&A, Mayer Brown, Linklaters act on Capri Loans $300 million bond issuance",
+          "client": "Capri Loans",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-mayer-brown-linklaters-act-on-capri-loans-300-million-bond-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": []
+        }
+      ],
+      "snapshot": "Khaitan & Co, TT&A, Mayer Brown, Linklaters act on Capri Loans $300 million bond issuance",
+      "same_name_elsewhere": [
+        {
+          "id": 3570,
+          "firm": "Shardul Amarchand Mangaldas & Co",
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 3766,
@@ -153235,6 +154446,37 @@
         }
       ],
       "snapshot": "CAM advises Hiranandani Financial Services on raising ₹800 crore from Vitruvian"
+    },
+    {
+      "id": 3787,
+      "name": "Yash Vardhan Singh",
+      "firm": "Sarvaank Associates",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Blue Ashva Capital"
+      ],
+      "deals": [
+        {
+          "headline": "Sarvaank Associates represents Blue Ashva Capital on Kepler Aerospace seed fundraise",
+          "client": "Blue Ashva Capital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/sarvaank-associates-represents-blue-ashva-capital-on-kepler-aerospace-seed-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ]
+        }
+      ],
+      "snapshot": "Sarvaank Associates represents Blue Ashva Capital on Kepler Aerospace seed fundraise"
     },
     {
       "id": 2049,
