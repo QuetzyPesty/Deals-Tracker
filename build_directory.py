@@ -330,6 +330,67 @@ def is_personnel_move(headline):
     return bool(PERSONNEL_MOVE_RE.search(headline))
 
 
+# Roles that legitimately have no firm: a Senior Advocate or a retired law
+# officer gets named in a deal write-up without being employed by anyone. Their
+# name matching a firm's lawyer is a coincidence of co-mention, not evidence of
+# employment, so they are never merged.
+NON_FIRM_ROLES = {
+    "senior advocate", "advocate", "former attorney general", "attorney general",
+    "solicitor general", "additional solicitor general", "general counsel",
+    "judge", "justice", "arbitrator", "amicus curiae", "counsel to the bench",
+}
+
+
+def merge_unaffiliated_people(cur):
+    """Fold a firm-less person row into the row that already carries their firm.
+
+    `people` is UNIQUE(name, firm_id), so a deal that failed to attribute
+    someone creates a SECOND row for them with firm_id NULL rather than
+    updating the first. The same lawyer then appears twice: once correctly
+    placed at their firm, once floating. This folds the floating row into the
+    real one, moving its deals across.
+
+    Deliberately conservative. A merge happens only when the firm-less row's
+    name matches rows at EXACTLY ONE firm -- two candidate firms means either a
+    lateral move or two different people, and the data cannot tell which, so
+    those are left alone. Roles that have no firm by nature are never merged.
+
+    This lives here, not in a migration, because build_directory.py drops and
+    recreates every table on each run: a fix applied to the database would be
+    gone within one scheduled build.
+    """
+    rows = cur.execute(
+        "SELECT id, name, role FROM people WHERE firm_id IS NULL"
+    ).fetchall()
+    merged = 0
+    for pid, name, role in rows:
+        if (role or "").strip().lower() in NON_FIRM_ROLES:
+            continue
+        targets = cur.execute(
+            "SELECT id, firm_id, role FROM people "
+            "WHERE name = ? AND firm_id IS NOT NULL",
+            (name,),
+        ).fetchall()
+        if len({t[1] for t in targets}) != 1:
+            continue
+        keep_id, _, keep_role = targets[0]
+        cur.execute(
+            "UPDATE OR IGNORE person_deals SET person_id = ? WHERE person_id = ?",
+            (keep_id, pid),
+        )
+        # UPDATE OR IGNORE drops rows that would collide on the composite
+        # primary key -- the person was already linked to that deal under the
+        # firmed row. Clear whatever is left so nothing dangles.
+        cur.execute("DELETE FROM person_deals WHERE person_id = ?", (pid,))
+        cur.execute(
+            "UPDATE people SET role = ? WHERE id = ?",
+            (best_role(keep_role, role), keep_id),
+        )
+        cur.execute("DELETE FROM people WHERE id = ?", (pid,))
+        merged += 1
+    return merged
+
+
 def main():
     deals = json.loads(SRC.read_text())
     if SCRAPED_SRC.exists():
@@ -498,6 +559,11 @@ def main():
                 )
 
     conn.commit()
+
+    merged = merge_unaffiliated_people(cur)
+    conn.commit()
+    if merged:
+        print(f"merged {merged} unaffiliated duplicates into their firmed record")
 
     # ---- Build JSON export (aggregated per person) ----
     people_rows = cur.execute(
