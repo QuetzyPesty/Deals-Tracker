@@ -336,6 +336,15 @@
   .deal-card a:hover{ text-decoration:underline; }
   .deal-card .meta{ font-size:11.5px; color:var(--on-surface-var); margin-top:5px; }
   .deal-card .txn-chips{ display:flex; gap:5px; margin-top:6px; flex-wrap:wrap; }
+  /* The reported size of the transaction. A fact about the deal, not a score
+     for the lawyer, so it stays quiet rather than becoming a headline number. */
+  .deal-card .deal-size{
+    display:inline-block; margin-top:5px; padding:1px 6px;
+    border:1px solid var(--outline, #ccc); border-radius:4px;
+    font-size:11.5px; font-variant-numeric:tabular-nums;
+    color:var(--on-surface-var);
+  }
+  .deal-count b.unreported{ color:var(--on-surface-var); font-weight:600; }
   .client-pill{
     display:inline-block; font-size:11.5px; padding:4px 10px; border-radius:10px;
     background:var(--surface-2); margin:0 6px 6px 0; color:var(--on-surface-var);
@@ -468,7 +477,8 @@ let state = {
   collapsedSections: new Set(), // filter category headers folded shut: 'practice' | 'role' | 'txn'
   collapsedFirmGroups: new Set(), // firm headings folded shut in the "By firm" main view
   selectedId: null,
-  sortBy: 'deals', // 'deals' | 'name' | 'firm' -- ignored while a search query is active (relevance wins then)
+  sortBy: 'deals', // 'deals' | 'name' | 'firm' | 'largest' | 'total' -- ignored
+                   // while a search query is active (relevance wins then)
 };
 
 // Role filter chips are built from the simplified role_bucket (see
@@ -484,8 +494,39 @@ const ALL_FIRMS_WITH_GROUPS = FIRM_HIERARCHY.filter(h=>(h.practice_groups||[]).l
 const FIRM_TOTAL_COUNTS = {};
 PEOPLE.forEach(p=>{ if(p.firm) FIRM_TOTAL_COUNTS[p.firm] = (FIRM_TOTAL_COUNTS[p.firm]||0)+1; });
 
+// --- reported deal size ----------------------------------------------------
+// Bar & Bench states a figure in roughly six deals in ten. `value.amount_inr`
+// is the figure converted at a fixed dated rate, and exists ONLY so deals in
+// different currencies can be ranked against each other -- what gets shown is
+// always `value.raw`, in the currency the report used.
+//
+// A deal with no figure is NOT a small deal, it is an unreported one, so it
+// never counts as zero: it sorts to the end and displays as "not reported".
+function dealValue(d){ return d && d.value && d.value.amount_inr ? d.value.amount_inr : null; }
+function largestDeal(p){
+  let best = null;
+  for(const d of p.deals){ const v = dealValue(d); if(v !== null && (best === null || v > best)) best = v; }
+  return best;
+}
+function totalDealValue(p){
+  let sum = null;
+  for(const d of p.deals){ const v = dealValue(d); if(v !== null) sum = (sum || 0) + v; }
+  return sum;
+}
+// Indian digit grouping, to the nearest crore, with a lakh fallback so small
+// fundraises do not all collapse to "0 cr".
+function fmtInr(n){
+  if(n === null || n === undefined) return '';
+  if(n >= 10000000) return '₹' + Math.round(n/10000000).toLocaleString('en-IN') + ' cr';
+  if(n >= 100000)   return '₹' + Math.round(n/100000).toLocaleString('en-IN') + ' L';
+  return '₹' + Math.round(n).toLocaleString('en-IN');
+}
+
+const VALUED_DEALS = new Set();
+PEOPLE.forEach(p => p.deals.forEach(d => { if(dealValue(d)) VALUED_DEALS.add(d.url || d.headline); }));
+
 document.getElementById('stats').textContent =
-  `${DATA.stats.people} people · ${DATA.stats.firms} firms · ${DATA.stats.practice_areas} practice areas · ${DATA.stats.deals} deals tracked`;
+  `${DATA.stats.people} people · ${DATA.stats.firms} firms · ${DATA.stats.practice_areas} practice areas · ${DATA.stats.deals} deals tracked · ${VALUED_DEALS.size} with a reported size`;
 
 function activeFilterCount(){
   return (state.firmFilter?1:0) + (state.practiceFilterSet?1:0) +
@@ -572,6 +613,21 @@ function sortPeople(list){
   if(state.sortBy === 'firm'){
     return list.slice().sort((a,b)=>
       (FIRM_TOTAL_COUNTS[b.firm]||0)-(FIRM_TOTAL_COUNTS[a.firm]||0) || b.deals.length-a.deals.length);
+  }
+  // Largest single deal and total across deals answer different questions, and
+  // neither is a ranking of anyone's ability -- a junior on a huge team scores
+  // the same as the partner who led it. Both are offered rather than one being
+  // picked for the reader. People with no reported figure keep their relative
+  // order and sit after everyone who has one.
+  if(state.sortBy === 'largest' || state.sortBy === 'total'){
+    const of = state.sortBy === 'largest' ? largestDeal : totalDealValue;
+    return list.slice().sort((a,b)=>{
+      const va = of(a), vb = of(b);
+      if(va === null && vb === null) return b.deals.length - a.deals.length;
+      if(va === null) return 1;
+      if(vb === null) return -1;
+      return vb - va || b.deals.length - a.deals.length;
+    });
   }
   return list.slice().sort((a,b)=> b.deals.length-a.deals.length);
 }
@@ -738,7 +794,15 @@ function personRowHtml(p){
       ${p.snapshot ? `<div class="snapshot">${esc(p.snapshot)}</div>` : ''}
       <div class="txn-chips">${txns.map(t=>`<span class="txn-tag">${esc(t)}</span>`).join('')}${p.transaction_types.length>3?`<span class="txn-tag">+${p.transaction_types.length-3}</span>`:''}</div>
     </div>
-    <div class="deal-count"><b>${p.deals.length}</b>deal${p.deals.length===1?'':'s'}</div>
+    <div class="deal-count">${(()=>{
+      if(state.sortBy !== 'largest' && state.sortBy !== 'total') {
+        return `<b>${p.deals.length}</b>deal${p.deals.length===1?'':'s'}`;
+      }
+      const v = state.sortBy === 'largest' ? largestDeal(p) : totalDealValue(p);
+      return v === null
+        ? `<b class="unreported">—</b>not reported`
+        : `<b>${fmtInr(v)}</b>${state.sortBy==='largest'?'largest':'total'}`;
+    })()}</div>
   </div>`;
 }
 
@@ -751,6 +815,8 @@ function sortControlHtml(){
       <option value="deals" ${state.sortBy==='deals'?'selected':''}>Most deals</option>
       <option value="name" ${state.sortBy==='name'?'selected':''}>Name (A–Z)</option>
       <option value="firm" ${state.sortBy==='firm'?'selected':''}>Firm size</option>
+      <option value="largest" ${state.sortBy==='largest'?'selected':''}>Largest reported deal</option>
+      <option value="total" ${state.sortBy==='total'?'selected':''}>Total reported deal value</option>
     </select></div>`;
 }
 
@@ -889,9 +955,20 @@ function renderDetail(){
   }
 
   html += `<h4>Deal history</h4>`;
-  p.deals.forEach(d=>{
+  // Biggest reported first; the unreported keep their own order at the end.
+  p.deals.slice().sort((a,b)=>{
+    const va = dealValue(a), vb = dealValue(b);
+    if(va === null && vb === null) return 0;
+    if(va === null) return 1;
+    if(vb === null) return -1;
+    return vb - va;
+  }).forEach(d=>{
+    const v = d.value;
     html += `<div class="deal-card">
       <a href="${escAttr(d.url||'#')}" target="_blank" rel="noopener">${esc(d.headline)}</a>
+      ${v && v.raw ? `<div class="deal-size"${v.amount_inr && v.currency !== 'INR'
+        ? ` title="≈ ${escAttr(fmtInr(v.amount_inr))} at a fixed reference rate — shown for ranking only"` : ''}>${
+        v.approx ? '~' : ''}${esc(v.raw)}</div>` : ''}
       <div class="meta">${d.client? esc(d.client)+' · ' : ''}${esc(d.source||'')}</div>
       <div class="txn-chips">${d.types.map(t=>`<span class="txn-tag">${esc(t)}</span>`).join('')}</div>
     </div>`;

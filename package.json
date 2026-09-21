@@ -1,0 +1,11 @@
+{
+  "name": "brag-brag-tests",
+  "private": true,
+  "type": "module",
+  "description": "Browser tests for the rendered Brag-Brag directory. The project itself is Python and has no JS build step; this is test tooling only.",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed"
+  },
+  "devDependencies": { "@playwright/test": "^1.63.0" }
+}
