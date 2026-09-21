@@ -69,7 +69,16 @@
         "role": "Associate",
         "firm": "JSA Advocates & Solicitors"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹230 crore",
+      "currency": "INR",
+      "amount": 2300000000,
+      "amount_inr": 2300000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Adani Energy Solutions ₹3,500 crore QIP",
@@ -181,7 +190,16 @@
         "role": "Associate",
         "firm": "A&O Shearman"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹3,500 crore",
+      "currency": "INR",
+      "amount": 35000000000,
+      "amount_inr": 35000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Morgan Lewis, Khaitan & Co advise Cambridge Mobile Telematics on securing $350 million from TPG, Allianz X",
@@ -240,7 +258,16 @@
         "role": "Partner",
         "firm": "Khaitan & Co"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "$350 million",
+      "currency": "USD",
+      "amount": 350000000,
+      "amount_inr": 30800000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    }
   },
   {
     "headline": "Khaitan & Co, Shardul Amarchand Mangaldas act on BNP Paribas Cardif acquiring stake in IndiaFirst Life Insurance",
@@ -564,7 +591,16 @@
         "role": "Associate",
         "firm": "Trilegal"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹700 crore",
+      "currency": "INR",
+      "amount": 7000000000,
+      "amount_inr": 7000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "CMS INDUSLAW acts on Axis Finance $41 million NCD issuance",
@@ -592,7 +628,16 @@
         "role": "Associate",
         "firm": "CMS INDUSLAW"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "$41 million",
+      "currency": "USD",
+      "amount": 41000000,
+      "amount_inr": 3608000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    }
   },
   {
     "headline": "Legacy Law Offices acts on Apar Advertisers IPO",
@@ -637,7 +682,16 @@
         "role": "Associate",
         "firm": "Legacy Law Offices"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹18 crore+",
+      "currency": "INR",
+      "amount": 180000000,
+      "amount_inr": 180000000,
+      "approx": true,
+      "fx_asof": null,
+      "source": "body"
+    }
   },
   {
     "headline": "Trilegal, A&O Shearman, Cyril Amarchand Mangaldas, Linklaters act on ₹852 crore Shadowfax share sale",
@@ -668,7 +722,16 @@
         "role": "Associate",
         "firm": "Cyril Amarchand Mangaldas"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹852 crore",
+      "currency": "INR",
+      "amount": 8520000000,
+      "amount_inr": 8520000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "DSK Legal, Troutman Pepper Locke advise Energage on merger with Engagedly",
@@ -757,7 +820,16 @@
         "role": "Associate",
         "firm": "Desai & Diwanji"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹2,150 crore",
+      "currency": "INR",
+      "amount": 21500000000,
+      "amount_inr": 21500000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Khaitan & Co assists RPG Life Sciences on carve-out of its API business",
@@ -1230,7 +1302,16 @@
         "role": "Associate",
         "firm": "S&R Associates"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹1,101 crore",
+      "currency": "INR",
+      "amount": 11010000000,
+      "amount_inr": 11010000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Touchstone Partners secures CCI clearance for amalgamation of Go Digit Infoworks with Go Digit General Insurance",
@@ -1360,7 +1441,16 @@
         "firm": "Cyril Amarchand Mangaldas",
         "source": "ner"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹5,000 crore",
+      "currency": "INR",
+      "amount": 50000000000,
+      "amount_inr": 50000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Rajani Associates acts on Silver Storm Parks IPO",
@@ -1400,7 +1490,16 @@
         "role": "Associate",
         "firm": "Rajani Associates"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹82.43 crore",
+      "currency": "INR",
+      "amount": 824300000,
+      "amount_inr": 824300000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "body"
+    }
   },
   {
     "headline": "Kochhar & Co acts on Novargi Group - Cerec Metalform JV",
@@ -1536,7 +1635,16 @@
         "role": "Associate",
         "firm": "Khaitan & Co"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹370 crore",
+      "currency": "INR",
+      "amount": 3700000000,
+      "amount_inr": 3700000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates",
@@ -1883,7 +1991,16 @@
         "role": "Partner",
         "firm": null
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹800 crore",
+      "currency": "INR",
+      "amount": 8000000000,
+      "amount_inr": 8000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "JSA, CMS INDUSLAW, Duane Morris & Selvam act on Globus Spirits ₹200 crore QIP",
@@ -1975,7 +2092,16 @@
         "role": "Associate",
         "firm": "CMS INDUSLAW"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹200 crore",
+      "currency": "INR",
+      "amount": 2000000000,
+      "amount_inr": 2000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "ALMT Legal, K Law act on Kappi Machines funds and partnership with Sedna HoReCa",
@@ -2014,7 +2140,16 @@
         "role": "Associate",
         "firm": "ALMT Legal"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹50 crore",
+      "currency": "INR",
+      "amount": 500000000,
+      "amount_inr": 500000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "body"
+    }
   },
   {
     "headline": "Fox Mandal & Associates advises EXIM Bank on financing Jana Nayagan",
@@ -2064,7 +2199,16 @@
         "role": "Associate",
         "firm": "Fox Mandal & Associates"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹50 crore",
+      "currency": "INR",
+      "amount": 500000000,
+      "amount_inr": 500000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "body"
+    }
   },
   {
     "headline": "Chandhiok & Mahajan advises Dalmia Cement on acquisition of cement business from Jaiprakash Associates",
@@ -2221,7 +2365,16 @@
         "role": "Partner",
         "firm": "CMS INDUSLAW"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹500 crore",
+      "currency": "INR",
+      "amount": 5000000000,
+      "amount_inr": 5000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Khaitan & Co acts on Adventz Group's joint venture with Nobilia",
@@ -2363,7 +2516,16 @@
         "role": "Associate",
         "firm": "Economic Laws Practice"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹296 crore",
+      "currency": "INR",
+      "amount": 2960000000,
+      "amount_inr": 2960000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "JSA advises Belrise Industries on acquisition of Hyva India’s tipper body business",
@@ -2551,7 +2713,16 @@
         "role": "Senior Associate",
         "firm": "AZB & Partners"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "€1.2 billion",
+      "currency": "EUR",
+      "amount": 1200000000,
+      "amount_inr": 115200000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    }
   },
   {
     "headline": "Cyril Amarchand Mangaldas advises Guardian Life Insurance Company of America on selling Guardian India to HCL",
@@ -2653,7 +2824,16 @@
         "role": "Senior Associate",
         "firm": "Triumvir Law"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹78 crore",
+      "currency": "INR",
+      "amount": 780000000,
+      "amount_inr": 780000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "body"
+    }
   },
   {
     "headline": "ALMT Legal advises Ascent Growth Trust on majority stake investment in Pivot Path",
@@ -2796,7 +2976,16 @@
         "role": "Principal Associate",
         "firm": "Khaitan & Co"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "$120 million",
+      "currency": "USD",
+      "amount": 120000000,
+      "amount_inr": 10560000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    }
   },
   {
     "headline": "Sequitur advises Solinas Integrity on Series A fundraise",
@@ -2822,7 +3011,16 @@
         "role": "Associate",
         "firm": "Sequitur Advocates & Legal Consultants"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "$5.5 million",
+      "currency": "USD",
+      "amount": 5500000,
+      "amount_inr": 484000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "body"
+    }
   },
   {
     "headline": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
@@ -3123,7 +3321,16 @@
         "role": "Associate",
         "firm": "NovoJuris Legal"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "$8 million",
+      "currency": "USD",
+      "amount": 8000000,
+      "amount_inr": 704000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "body"
+    }
   },
   {
     "headline": "LIC Stake Sale: Dentons Link Legal, Trilegal, Sidley Austin and FBT Gibbons act on India’s Largest OFS of $3.3 Billion",
@@ -3174,7 +3381,16 @@
         "role": "Associate",
         "firm": "Trilegal"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "$3.3 Billion",
+      "currency": "USD",
+      "amount": 3300000000,
+      "amount_inr": 290400000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    }
   },
   {
     "headline": "Trilegal, JSA act on strategic partnership between Jupiter Wagons and Lucchini RS",
@@ -3352,7 +3568,16 @@
         "role": "Associate",
         "firm": null
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹525 crore",
+      "currency": "INR",
+      "amount": 5250000000,
+      "amount_inr": 5250000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Khaitan & Co advises Belding India on Evolve IT Solutions",
@@ -3518,7 +3743,16 @@
         "role": "Associate",
         "firm": "Economic Laws Practice"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹238 crore",
+      "currency": "INR",
+      "amount": 2380000000,
+      "amount_inr": 2380000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Fox Mandal & Associates advises landowners on revenue-sharing joint development with Puravankara",
@@ -3576,7 +3810,16 @@
     "snippet": "NYAI, India's first AI-native legal infrastructure platform, has raised $1.5 million (approximately ₹13 crore) in a seed round subscribed by a consortium of prominent Indian family offices, with participation from strategic angel investors. The proceeds will be directed towards three ends. The first is technology enablement: enlarging NYAI's proprietary corpus of Indian statutory, regulatory and judicial material, and hardening the intelligence layer that sits above it. The second is the further",
     "law_firms": [],
     "transaction_types": [],
-    "people": []
+    "people": [],
+    "deal_value": {
+      "raw": "$1.5 million",
+      "currency": "USD",
+      "amount": 1500000,
+      "amount_inr": 132000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    }
   },
   {
     "headline": "Khaitan & Co, JSA act on Matel ₹130 crore Series B fundraise",
@@ -3653,7 +3896,16 @@
         "role": "Associate",
         "firm": "JSA Advocates & Solicitors"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹130 crore",
+      "currency": "INR",
+      "amount": 1300000000,
+      "amount_inr": 1300000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "CMS INDUSLAW, ELP act on Avtar Steel ₹585 crore+ proposed IPO",
@@ -3734,7 +3986,16 @@
         "role": "Associate",
         "firm": "Economic Laws Practice"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹585 crore+",
+      "currency": "INR",
+      "amount": 5850000000,
+      "amount_inr": 5850000000,
+      "approx": true,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "JSA advises BlissClub on ₹160 crore Series B fundraise",
@@ -3770,7 +4031,16 @@
         "role": "Associate",
         "firm": "JSA Advocates & Solicitors"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹160 crore",
+      "currency": "INR",
+      "amount": 1600000000,
+      "amount_inr": 1600000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Cyril and Shardul Amarchand Mangaldas act on LEAP India ₹2,480 crore IPO",
@@ -3846,7 +4116,16 @@
         "role": "Associate",
         "firm": "Shardul Amarchand Mangaldas & Co"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹2,480 crore",
+      "currency": "INR",
+      "amount": 24800000000,
+      "amount_inr": 24800000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Reliance brings SKIMS to India; Khaitan & Co advises",
@@ -3970,7 +4249,16 @@
         "firm": "Cyril Amarchand Mangaldas",
         "source": "ner"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹939 crore",
+      "currency": "INR",
+      "amount": 9390000000,
+      "amount_inr": 9390000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "VERTICES PARTNERS assists Ledgers on entry into UAE",
@@ -4019,7 +4307,16 @@
         "role": "Senior Associate",
         "firm": "NovoJuris Legal"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "$12 million",
+      "currency": "USD",
+      "amount": 12000000,
+      "amount_inr": 1056000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    }
   },
   {
     "headline": "Trilegal, TT&A, Hogan Lovells Cadwalader act on APAR Industries ₹2,500 crore QIP",
@@ -4101,7 +4398,16 @@
         "role": "Associate",
         "firm": "Talwar Thakore & Associates"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹2,500 crore",
+      "currency": "INR",
+      "amount": 25000000000,
+      "amount_inr": 25000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Trilegal advises Motilal Oswal Group on ₹1500 crore commitment in Inox Clean Energy",
@@ -4214,7 +4520,16 @@
         "role": "Associate",
         "firm": "Trilegal"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹1500 crore",
+      "currency": "INR",
+      "amount": 15000000000,
+      "amount_inr": 15000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "ALMT Legal, SAM, Greenberg Traurig, McDermott act on Prochant securing investment from Longshore Capital Partners",
@@ -4348,7 +4663,16 @@
         "role": "Partner",
         "firm": null
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹322 crore",
+      "currency": "INR",
+      "amount": 3220000000,
+      "amount_inr": 3220000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Khaitan & Co advises Purvah Green Power on acquisition of 6 Renewable Energy SPVs from ReNew",
@@ -4532,7 +4856,16 @@
         "firm": "Cyril Amarchand Mangaldas",
         "source": "ner"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹1,617 crore",
+      "currency": "INR",
+      "amount": 16170000000,
+      "amount_inr": 16170000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "DMD Advocates advises investors on Tenet Diagnostics $30 million fundraise",
@@ -4572,7 +4905,16 @@
         "role": "Associate",
         "firm": "DMD Advocates"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "$30 million",
+      "currency": "USD",
+      "amount": 30000000,
+      "amount_inr": 2640000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    }
   },
   {
     "headline": "JSA advises IndusInd Bank on sanctioning ₹2,501 crore financing to Lightstorm",
@@ -4607,7 +4949,16 @@
         "role": "Associate",
         "firm": "JSA Advocates & Solicitors"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹2,501 crore",
+      "currency": "INR",
+      "amount": 25010000000,
+      "amount_inr": 25010000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Linklaters advises ReNew on the recommended offer by a consortium led by CPP Investments",
@@ -4829,7 +5180,16 @@
         "role": "Associate",
         "firm": "Latham & Watkins"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹3,066 crore",
+      "currency": "INR",
+      "amount": 30660000000,
+      "amount_inr": 30660000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Khaitan & Co advises Logicap on acquisition of warehousing assets from Xander",
@@ -4904,7 +5264,16 @@
         "role": "Associate",
         "firm": "Khaitan & Co"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "approximately ₹1,500 crore",
+      "currency": "INR",
+      "amount": 15000000000,
+      "amount_inr": 15000000000,
+      "approx": true,
+      "fx_asof": null,
+      "source": "body"
+    }
   },
   {
     "headline": "Desai & Diwanji, TT&A act on NeoGeo $20 million Series A fundraise",
@@ -4951,7 +5320,16 @@
         "role": "Associate",
         "firm": "Talwar Thakore & Associates"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "$20 million",
+      "currency": "USD",
+      "amount": 20000000,
+      "amount_inr": 1760000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    }
   },
   {
     "headline": "ELP advises Birla Estates on redevelopment project of Shiv-Sai Co-operative Housing Society",
@@ -5334,7 +5712,16 @@
         "firm": "Universal Legal",
         "source": "ner"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹67.4 crore",
+      "currency": "INR",
+      "amount": 674000000,
+      "amount_inr": 674000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "body"
+    }
   },
   {
     "headline": "Legacy Law Offices acts on Dain Colour Chem IPO",
@@ -5379,7 +5766,16 @@
         "role": "Partner",
         "firm": "Legacy Law Offices"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹30 crore+",
+      "currency": "INR",
+      "amount": 300000000,
+      "amount_inr": 300000000,
+      "approx": true,
+      "fx_asof": null,
+      "source": "body"
+    }
   },
   {
     "headline": "Trilegal acts on Berry Street - Healthify merger",
@@ -5591,7 +5987,16 @@
         "role": "Associate",
         "firm": "Khaitan & Co"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹1,200 crore",
+      "currency": "INR",
+      "amount": 12000000000,
+      "amount_inr": 12000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Trilegal advised broker on $309 million block sale of Paytm shares",
@@ -5617,7 +6022,16 @@
         "role": "Senior Associate",
         "firm": null
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "$309 million",
+      "currency": "USD",
+      "amount": 309000000,
+      "amount_inr": 27192000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    }
   },
   {
     "headline": "Crawford Bayley, Luthra and Luthra act on Master Chains & Jewels ₹400 crore+ proposed IPO",
@@ -5639,7 +6053,16 @@
         "role": "Partner",
         "firm": "Crawford Bayley"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹400 crore+",
+      "currency": "INR",
+      "amount": 4000000000,
+      "amount_inr": 4000000000,
+      "approx": true,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "TLH Advocates advises Arete Hospitals on sale of hospital business to Aurevia Hospitals",
@@ -5693,7 +6116,16 @@
         "role": "Senior Associate",
         "firm": "CMS INDUSLAW"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "$75 million",
+      "currency": "USD",
+      "amount": 75000000,
+      "amount_inr": 6600000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    }
   },
   {
     "headline": "Cyril Amarchand Mangaldas acts on Nxt-Infra Trust ₹700 crore institutional placement of units",
@@ -5756,7 +6188,16 @@
         "role": "Associate",
         "firm": "Cyril Amarchand Mangaldas"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹700 crore",
+      "currency": "INR",
+      "amount": 7000000000,
+      "amount_inr": 7000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Vidhigya Associates acts on Sunshine Pictures ₹282 crore IPO",
@@ -5791,7 +6232,16 @@
         "role": "Associate",
         "firm": "Vidhigya Associates"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹282 crore",
+      "currency": "INR",
+      "amount": 2820000000,
+      "amount_inr": 2820000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Oriental Hotels merges into The Indian Hotel Company; Cyril Amarchand Mangaldas advises",
@@ -5913,7 +6363,16 @@
         "role": "Associate",
         "firm": "Trilegal"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹1,000 crore",
+      "currency": "INR",
+      "amount": 10000000000,
+      "amount_inr": 10000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "NovoJuris Legal advises IndiaQuotient on Utsav App Series A fundraise",
@@ -5939,7 +6398,16 @@
         "role": "Associate",
         "firm": "NovoJuris Legal"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹36 crore",
+      "currency": "INR",
+      "amount": 360000000,
+      "amount_inr": 360000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "body"
+    }
   },
   {
     "headline": "Rajani Associates advises Wanbury on ₹205 crore redemption of debentures",
@@ -5962,7 +6430,16 @@
         "role": "Principal Associate",
         "firm": "Rajani Associates"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹205 crore",
+      "currency": "INR",
+      "amount": 2050000000,
+      "amount_inr": 2050000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "S&R Associates, Trilegal act on Gaja Capital ₹550 crore IPO",
@@ -6003,7 +6480,16 @@
         "role": "Associate",
         "firm": "Trilegal"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹550 crore",
+      "currency": "INR",
+      "amount": 5500000000,
+      "amount_inr": 5500000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Khaitan & Co acts on Texmaco Defence securing funds from Texmaco Rail, Calculus Defence Fund",
@@ -6102,7 +6588,16 @@
         "role": "Senior Associate",
         "firm": "Khaitan & Co"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹2,600 crore",
+      "currency": "INR",
+      "amount": 26000000000,
+      "amount_inr": 26000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "CMS INDUSLAW, SAM, TT&A, CAM act on Yulu Bikes $93 million Series C fundraise",
@@ -6136,7 +6631,16 @@
         "role": "Senior Associate",
         "firm": "Talwar Thakore & Associates"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "$93 million",
+      "currency": "USD",
+      "amount": 93000000,
+      "amount_inr": 8184000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    }
   },
   {
     "headline": "S&R Associates, Trilegal act on Tempsens Instruments ₹650 crore IPO",
@@ -6182,7 +6686,16 @@
         "role": "Associate",
         "firm": "Trilegal"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹650 crore",
+      "currency": "INR",
+      "amount": 6500000000,
+      "amount_inr": 6500000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "AZB & Partners, Noerr, Linklaters act on TCS' €320 million acquisition of MHP from Porsche",
@@ -6249,7 +6762,16 @@
         "role": "Partner",
         "firm": "Linklaters"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "€320 million",
+      "currency": "EUR",
+      "amount": 320000000,
+      "amount_inr": 30720000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    }
   },
   {
     "headline": "JSA acts on India leg of SAP Inc's acquisition of Reltio",
@@ -6436,7 +6958,16 @@
         "role": "Associate",
         "firm": "Trilegal"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "$100 million",
+      "currency": "USD",
+      "amount": 100000000,
+      "amount_inr": 8800000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    }
   },
   {
     "headline": "TRD Associates advises Ravin Group on acquisition of Cable Corporation of India",
@@ -6482,7 +7013,16 @@
         "role": "Associate",
         "firm": "GameChanger Law"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹100 crore",
+      "currency": "INR",
+      "amount": 1000000000,
+      "amount_inr": 1000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Rajani Associates advises Genesys International Corp on ₹125 crore rights issue",
@@ -6510,7 +7050,16 @@
         "role": "Associate",
         "firm": "Rajani Associates"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹125 crore",
+      "currency": "INR",
+      "amount": 1250000000,
+      "amount_inr": 1250000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Khaitan & Co acts on Muthoot FinCorp ₹3,000 crore IPO",
@@ -6560,7 +7109,16 @@
         "role": "Associate",
         "firm": "Khaitan & Co"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹3,000 crore",
+      "currency": "INR",
+      "amount": 30000000000,
+      "amount_inr": 30000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Touchstone Partners advises HDFC Capital Advisors on setting up GIFT City AIF",
@@ -6619,7 +7177,16 @@
         "role": "Associate",
         "firm": "Quadra Legal"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹387.5 crore",
+      "currency": "INR",
+      "amount": 3875000000,
+      "amount_inr": 3875000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "body"
+    }
   },
   {
     "headline": "TT&A, Shardul Amarchand Mangaldas, Linklaters act on IDFC FIRST Bank $600 million senior notes issuance",
@@ -6699,7 +7266,16 @@
         "role": "Associate",
         "firm": "Shardul Amarchand Mangaldas & Co"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "$600 million",
+      "currency": "USD",
+      "amount": 600000000,
+      "amount_inr": 52800000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    }
   },
   {
     "headline": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Piramal Finance ₹2,100 crore QIP",
@@ -6807,7 +7383,16 @@
         "firm": "Cyril Amarchand Mangaldas",
         "source": "ner"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹2,100 crore",
+      "currency": "INR",
+      "amount": 21000000000,
+      "amount_inr": 21000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "TRD Associates advises Ravin Infraproject on acquiring majority control in Ravin Cables from JV partner Prysmian",
@@ -6954,7 +7539,16 @@
         "role": "Partner",
         "firm": "Quillon Partners"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "$200 million",
+      "currency": "USD",
+      "amount": 200000000,
+      "amount_inr": 17600000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    }
   },
   {
     "headline": "Shardul Amarchand Mangaldas acts on Union Bank of India $600 million senior notes issuance",
@@ -6997,7 +7591,16 @@
         "role": "Principal Associate",
         "firm": "Shardul Amarchand Mangaldas & Co"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "$600 million",
+      "currency": "USD",
+      "amount": 600000000,
+      "amount_inr": 52800000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    }
   },
   {
     "headline": "Trilegal, CMS INDUSLAW act on Gujarat Themis Biosyn ₹750 crore QIP",
@@ -7058,7 +7661,16 @@
         "role": "Associate",
         "firm": "CMS INDUSLAW"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹750 crore",
+      "currency": "INR",
+      "amount": 7500000000,
+      "amount_inr": 7500000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Cyril Amarchand Mangaldas, JSA, Khaitan & Co act on Atomberg ₹450 crore+ proposed IPO",
@@ -7181,7 +7793,16 @@
         "firm": "Cyril Amarchand Mangaldas",
         "source": "ner"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹450 crore+",
+      "currency": "INR",
+      "amount": 4500000000,
+      "amount_inr": 4500000000,
+      "approx": true,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Trilegal advises DSP Finance on its merger with Volt Money",
@@ -7493,7 +8114,16 @@
         "role": "Partner",
         "firm": null
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "$206 million",
+      "currency": "USD",
+      "amount": 206000000,
+      "amount_inr": 18128000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    }
   },
   {
     "headline": "TT&A advises Carrier on acquiring land for manufacturing facility in Andhra Pradesh",
@@ -7521,7 +8151,16 @@
         "role": "Associate",
         "firm": "Talwar Thakore & Associates"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "$100 million",
+      "currency": "USD",
+      "amount": 100000000,
+      "amount_inr": 8800000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "body"
+    }
   },
   {
     "headline": "Cyril Amarchand Mangaldas, TT&A, Trilegal act on Aragen Life Sciences ₹800 crore+ proposed IPO",
@@ -7624,7 +8263,16 @@
         "firm": "Cyril Amarchand Mangaldas",
         "source": "ner"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹800 crore+",
+      "currency": "INR",
+      "amount": 8000000000,
+      "amount_inr": 8000000000,
+      "approx": true,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Anagram Partners, River Law act on Investcorp's ₹500 crore acquisition of 20Cube",
@@ -7700,7 +8348,16 @@
         "role": "Partner",
         "firm": "River Law"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹500 crore",
+      "currency": "INR",
+      "amount": 5000000000,
+      "amount_inr": 5000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Khaitan & Co advises Third Wave Coffee on ₹408 crore Series D fundraise",
@@ -7756,7 +8413,16 @@
         "role": "Partner",
         "firm": "Khaitan & Co"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹408 crore",
+      "currency": "INR",
+      "amount": 4080000000,
+      "amount_inr": 4080000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Khaitan & Co, TT&A, JSA act on Nobel Hygiene ₹150 crore+ proposed IPO",
@@ -7828,7 +8494,16 @@
         "role": "Associate",
         "firm": "JSA Advocates & Solicitors"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹150 crore+",
+      "currency": "INR",
+      "amount": 1500000000,
+      "amount_inr": 1500000000,
+      "approx": true,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "C&S Partners advises Mahajan Imaging on JV with Neuberg Diagnostics",
@@ -7914,7 +8589,16 @@
         "role": "Senior Associate",
         "firm": "JSA Advocates & Solicitors"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹875 crore",
+      "currency": "INR",
+      "amount": 8750000000,
+      "amount_inr": 8750000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Saga Legal advises Ultrahuman on $70 million fundraise",
@@ -7949,7 +8633,16 @@
         "role": "Senior Associate",
         "firm": "Saga Legal"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "$70 million",
+      "currency": "USD",
+      "amount": 70000000,
+      "amount_inr": 6160000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    }
   },
   {
     "headline": "Khaitan & Co advises HT Media on preferential issue of Warrants",
@@ -8022,7 +8715,16 @@
         "role": "Associate",
         "firm": "Trilegal"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹700 crore",
+      "currency": "INR",
+      "amount": 7000000000,
+      "amount_inr": 7000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
@@ -8434,7 +9136,16 @@
         "role": "Senior Partner",
         "firm": null
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹9,825 crore",
+      "currency": "INR",
+      "amount": 98250000000,
+      "amount_inr": 98250000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "CMS INDUSLAW advises Prestige Group on securing residential project in Sector 109, Gurgaon",
@@ -8604,7 +9315,16 @@
         "role": "Associate",
         "firm": "Trilegal"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹720 crore",
+      "currency": "INR",
+      "amount": 7200000000,
+      "amount_inr": 7200000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Trilegal advises Pixxel on $100 million Series C fundraise",
@@ -8640,7 +9360,16 @@
         "role": "Associate",
         "firm": "Trilegal"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "$100 million",
+      "currency": "USD",
+      "amount": 100000000,
+      "amount_inr": 8800000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    }
   },
   {
     "headline": "Khaitan & Co assists NIIF on setting up ₹19,000 crore infrastructure fund",
@@ -8688,7 +9417,16 @@
         "role": "Associate",
         "firm": "Khaitan & Co"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹19,000 crore",
+      "currency": "INR",
+      "amount": 190000000000,
+      "amount_inr": 190000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "JSA advises NaBFID, Axis Bank, PTC India FinServ on financing for telecommunications infrastructure project",
@@ -8788,7 +9526,16 @@
         "role": "Associate",
         "firm": "Touchstone Partners"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹600 crore",
+      "currency": "INR",
+      "amount": 6000000000,
+      "amount_inr": 6000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ",
@@ -8904,7 +9651,16 @@
         "role": "Associate",
         "firm": "Trilegal"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹1,034 crore",
+      "currency": "INR",
+      "amount": 10340000000,
+      "amount_inr": 10340000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Khaitan & Co acts on Bgauss ₹110 crore Series D fundraise",
@@ -8940,7 +9696,16 @@
         "role": "Associate",
         "firm": "Khaitan & Co"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹110 crore",
+      "currency": "INR",
+      "amount": 1100000000,
+      "amount_inr": 1100000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "T&R Law Offices advises No Filter on pre-seed fundraise",
@@ -9025,7 +9790,16 @@
         "role": "Associate",
         "firm": "Mindspright Legal"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹56.35 crore",
+      "currency": "INR",
+      "amount": 563500000,
+      "amount_inr": 563500000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "body"
+    }
   },
   {
     "headline": "Khaitan & Co, Antares Legal act on Nexus Select Trust's ₹1,600 crore acquisition of mall and hotel in Guwahati",
@@ -9166,7 +9940,16 @@
         "role": "Associate",
         "firm": "Antares Legal"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹1,600 crore",
+      "currency": "INR",
+      "amount": 16000000000,
+      "amount_inr": 16000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "SAM advises Kotak Special Situations Fund, Gayatri Highways on sale of HKR Roadways to Cube Highways",
@@ -9346,7 +10129,16 @@
         "role": "Associate",
         "firm": "CMS INDUSLAW"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "$50 million",
+      "currency": "USD",
+      "amount": 50000000,
+      "amount_inr": 4400000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    }
   },
   {
     "headline": "Kochhar & Co advises investors on strategic stake acquisition in England-based Parklife Innovations",
@@ -9537,7 +10329,16 @@
         "role": "Associate",
         "firm": "GameChanger Law"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹200 crore",
+      "currency": "INR",
+      "amount": 2000000000,
+      "amount_inr": 2000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Triumvir Law advises WLDD on securing strategic investments; Trilegal, Badaya, Argus, Khimani advise investors",
@@ -9617,7 +10418,16 @@
         "role": "Associate",
         "firm": "Sarvaank Associates"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "$8 Million",
+      "currency": "USD",
+      "amount": 8000000,
+      "amount_inr": 704000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "body"
+    }
   },
   {
     "headline": "VERTICES PARTNERS, Shardul Amarchand Mangaldas, IC RegFin Legal act on Cüraa Series A fundraise",
@@ -9670,7 +10480,16 @@
         "role": "Associate",
         "firm": "IC RegFin Legal"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹40 crore",
+      "currency": "INR",
+      "amount": 400000000,
+      "amount_inr": 400000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "body"
+    }
   },
   {
     "headline": "JSA advises Swish on $24 million Series B extension round",
@@ -9700,7 +10519,16 @@
         "role": "Associate",
         "firm": "JSA Advocates & Solicitors"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "$24 million",
+      "currency": "USD",
+      "amount": 24000000,
+      "amount_inr": 2112000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    }
   },
   {
     "headline": "Khaitan & Co, TT&A, Mayer Brown, Linklaters act on Capri Loans $300 million bond issuance",
@@ -9776,7 +10604,16 @@
         "role": "Associate",
         "firm": "Linklaters"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "$300 million",
+      "currency": "USD",
+      "amount": 300000000,
+      "amount_inr": 26400000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    }
   },
   {
     "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, A&O Shearman act on Pernia's Pop Up Shop ₹680 crore IPO",
@@ -9843,7 +10680,16 @@
         "role": "Senior Associate",
         "firm": "A&O Shearman"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹680 crore",
+      "currency": "INR",
+      "amount": 6800000000,
+      "amount_inr": 6800000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Pizza Bakery, Paris Panini operator Popo Global secures ₹532 crore from Invus Group: SAM, Argus, TT&A advise",
@@ -9914,7 +10760,16 @@
         "role": "Associate",
         "firm": null
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹532 crore",
+      "currency": "INR",
+      "amount": 5320000000,
+      "amount_inr": 5320000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   },
   {
     "headline": "Legacy Law Offices acts on Qualiance International IPO",
@@ -9949,6 +10804,15 @@
         "role": "Partner",
         "firm": "Legacy Law Offices"
       }
-    ]
+    ],
+    "deal_value": {
+      "raw": "₹45.11 crore",
+      "currency": "INR",
+      "amount": 451100000,
+      "amount_inr": 451100000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "body"
+    }
   }
 ]

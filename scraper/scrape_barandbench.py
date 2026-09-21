@@ -26,8 +26,10 @@ deal and could misattribute people from a multi-firm deal.
 """
 import hashlib
 import json
+import os
 import re
 import sys
+import time
 from pathlib import Path
 from urllib.parse import urljoin, urlsplit, urlunsplit
 
@@ -159,8 +161,20 @@ def load_existing_deals():
     return []
 
 
+# Bar & Bench is a publisher, not an API. A reparse walks every article we
+# have ever seen, so without a pause that is a couple of hundred requests as
+# fast as the network allows. One request at a time, with a gap.
+FETCH_DELAY_SECONDS = float(os.environ.get("BB_FETCH_DELAY", "1.0"))
+_last_fetch = 0.0
+
+
 def fetch(url):
+    global _last_fetch
+    wait = FETCH_DELAY_SECONDS - (time.monotonic() - _last_fetch)
+    if wait > 0:
+        time.sleep(wait)
     resp = requests.get(url, headers=HEADERS, timeout=30)
+    _last_fetch = time.monotonic()
     resp.raise_for_status()
     return resp.text
 
@@ -637,6 +651,97 @@ def firms_from_topics(html, paragraphs):
     return firms
 
 
+# --- deal size ---------------------------------------------------------------
+# 59% of Dealstreet articles state a figure, nearly always in the headline
+# ("... on ₹9,825 crore ...", "... for $206 million"). Three currencies and
+# four magnitude words cover essentially all of it.
+
+CURRENCY_SYMBOL = {"₹": "INR", "$": "USD", "€": "EUR", "£": "GBP"}
+MAGNITUDE = {
+    "crore": 10_000_000, "cr": 10_000_000,
+    "lakh": 100_000, "lac": 100_000,
+    "million": 1_000_000, "mn": 1_000_000,
+    "billion": 1_000_000_000, "bn": 1_000_000_000,
+}
+
+# Indicative rates, deliberately hard-coded rather than fetched. A scheduled
+# job that looked up live FX would silently restate the value of every deal
+# already recorded, and two runs of the same article would disagree. These
+# exist ONLY to order deals against each other and to answer range filters --
+# the figure shown to a reader is always the original currency, unconverted.
+FX_TO_INR_ASOF = "2026-09-01"
+FX_TO_INR = {"INR": 1.0, "USD": 88.0, "EUR": 96.0, "GBP": 112.0}
+
+_APPROX = r"(?:~|about|approx\w*|around|over|up\s?to|more\s+than|nearly|almost|upwards\s+of)\s*"
+MONEY_RE = re.compile(
+    rf"(?P<approx>{_APPROX})?"
+    r"(?P<cur>[₹$€£])\s?(?P<amt>\d[\d,]*(?:\.\d+)?)\s*"
+    r"(?P<unit>crore|cr|lakh|lac|million|mn|billion|bn)?"
+    r"(?P<plus>\s*\+)?",
+    re.I,
+)
+
+# A body figure is only trusted when its sentence is about the transaction --
+# otherwise it can be a valuation, a revenue line or last year's raise.
+DEAL_SENTENCE = re.compile(
+    r"\b(acqui|invest|rais|fundrais|fund-rais|issu|subscri|sell|sale|sold|buy|purchas|"
+    r"merg|divest|stake|transact|deal|IPO|QIP|placement|financ|loan|facilit)",
+    re.I,
+)
+
+
+def parse_money(text):
+    """First money-shaped figure in `text`, normalised. None if there isn't one."""
+    m = MONEY_RE.search(text or "")
+    if not m:
+        return None
+    currency = CURRENCY_SYMBOL.get(m.group("cur"))
+    if not currency:
+        return None
+    try:
+        amount = float(m.group("amt").replace(",", ""))
+    except ValueError:
+        return None
+    unit = (m.group("unit") or "").lower()
+    amount *= MAGNITUDE.get(unit, 1)
+    if amount <= 0:
+        return None
+    return {
+        "raw": m.group(0).strip(),
+        "currency": currency,
+        # base units of the stated currency: rupees, dollars, euros
+        "amount": int(round(amount)),
+        # a single comparable number, for ordering only -- see FX_TO_INR
+        "amount_inr": int(round(amount * FX_TO_INR.get(currency, 1.0))),
+        "approx": bool(m.group("approx") or m.group("plus")),
+        "fx_asof": FX_TO_INR_ASOF if currency != "INR" else None,
+    }
+
+
+def extract_deal_value(headline, paragraphs):
+    """Deal size, preferring the headline.
+
+    The headline figure is the one an editor chose to describe the deal, and
+    it is unambiguous. The body is only consulted when the headline has none,
+    and then only from a sentence that is actually about the transaction --
+    the Adani article, for instance, restates its ₹9,825 crore headline figure
+    as "(~$1 billion)" one paragraph later, and taking both would record the
+    same deal twice at two different values.
+    """
+    from_headline = parse_money(headline)
+    if from_headline:
+        from_headline["source"] = "headline"
+        return from_headline
+    for para in paragraphs[:4]:
+        if not DEAL_SENTENCE.search(para):
+            continue
+        hit = parse_money(para)
+        if hit:
+            hit["source"] = "body"
+            return hit
+    return None
+
+
 def parse_article(url, headline):
     html = fetch(url)
     soup = BeautifulSoup(html, "lxml")
@@ -694,6 +799,7 @@ def parse_article(url, headline):
         "snippet": snippet,
         "law_firms": law_firms,
         "transaction_types": parsed["transaction_types"],
+        "deal_value": extract_deal_value(headline, paragraphs),
         "people": people,
     }
 

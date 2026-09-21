@@ -341,6 +341,25 @@ NON_FIRM_ROLES = {
 }
 
 
+def _deal_value_columns(v):
+    """Flatten the scraper's deal_value dict into the deals table's columns.
+
+    Older entries in structured_deals.json predate size extraction and simply
+    have no deal_value, which is why every column is nullable: a missing size
+    is normal, not a defect, and must not be stored as zero.
+    """
+    if not isinstance(v, dict):
+        return (None, None, None, None, 0, None)
+    return (
+        v.get("raw"),
+        v.get("currency"),
+        v.get("amount"),
+        v.get("amount_inr"),
+        1 if v.get("approx") else 0,
+        v.get("source"),
+    )
+
+
 def merge_unaffiliated_people(cur):
     """Fold a firm-less person row into the row that already carries their firm.
 
@@ -421,7 +440,18 @@ def main():
             client TEXT,
             source TEXT,
             url TEXT UNIQUE,
-            snippet TEXT
+            snippet TEXT,
+            -- Reported deal size. value_amount is in base units of
+            -- value_currency (rupees, dollars); value_inr is the same figure
+            -- converted at a fixed dated rate and exists only so deals in
+            -- different currencies can be ordered and range-filtered against
+            -- each other. Display value_raw, never value_inr.
+            value_raw TEXT,
+            value_currency TEXT,
+            value_amount INTEGER,
+            value_inr INTEGER,
+            value_approx INTEGER DEFAULT 0,
+            value_source TEXT
         );
         CREATE TABLE deal_types (
             deal_id INTEGER REFERENCES deals(id),
@@ -502,8 +532,11 @@ def main():
             deal_id = None
         else:
             cur.execute(
-                "INSERT OR IGNORE INTO deals(headline, client, source, url, snippet) VALUES (?, ?, ?, ?, ?)",
-                (d["headline"], d.get("client"), d.get("source"), d.get("url"), d.get("snippet")),
+                "INSERT OR IGNORE INTO deals(headline, client, source, url, snippet, "
+                "value_raw, value_currency, value_amount, value_inr, value_approx, value_source) "
+                "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                (d["headline"], d.get("client"), d.get("source"), d.get("url"), d.get("snippet"),
+                 *_deal_value_columns(d.get("deal_value"))),
             )
             cur.execute("SELECT id FROM deals WHERE url = ?", (d.get("url"),))
             row = cur.fetchone()
@@ -578,7 +611,8 @@ def main():
     for pid, name, role, firm in people_rows:
         deal_rows = cur.execute(
             """
-            SELECT d.id, d.headline, d.client, d.url, d.source, pd.client_override
+            SELECT d.id, d.headline, d.client, d.url, d.source, pd.client_override,
+                   d.value_raw, d.value_currency, d.value_amount, d.value_inr, d.value_approx
             FROM deals d
             JOIN person_deals pd ON pd.deal_id = d.id
             WHERE pd.person_id = ?
@@ -590,7 +624,8 @@ def main():
         deals_list = []
         txn_types = set()
         practice_areas = set()
-        for did, headline, client, url, source, client_override in deal_rows:
+        for (did, headline, client, url, source, client_override,
+             v_raw, v_cur, v_amt, v_inr, v_approx) in deal_rows:
             effective_client = client_override or client
             if effective_client and effective_client not in clients:
                 clients.append(effective_client)
@@ -616,6 +651,14 @@ def main():
                     "source": source,
                     "types": types,
                     "practice_areas": areas,
+                    "value": (
+                        {
+                            "raw": v_raw, "currency": v_cur, "amount": v_amt,
+                            "amount_inr": v_inr, "approx": bool(v_approx),
+                        }
+                        if v_raw
+                        else None
+                    ),
                 }
             )
 
