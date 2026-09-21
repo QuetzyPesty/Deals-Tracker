@@ -32,7 +32,10 @@ def parse(name):
     soup = BeautifulSoup(html, "lxml")
     article = soup.find("article") or soup
     paragraphs = [p.get_text(" ", strip=True) for p in article.find_all("p")]
-    firms = S.firms_from_topics(html, paragraphs)
+    # mirror parse_article(): topic-tagged firms, then corpus firms that open a
+    # paragraph about their role (the international counsel a headline omits)
+    firms = S._drop_fragment_firms(
+        S.discover_corpus_firms(paragraphs, S.firms_from_topics(html, paragraphs)))
     people = S.extract_people(paragraphs, firms[0] if firms else None, known_firms=firms)
     return firms, {p["name"]: p["firm"] for p in people}
 
@@ -62,6 +65,36 @@ CASES = [
       "River Law", "Shardul Amarchand Mangaldas & Co", "Bharucha & Partners"},
      {"Siddharth Manchanda": "JSA Advocates & Solicitors",
       "Vandana Pai": "Bharucha & Partners"}),
+    # Newer template: "<Firm> served as the international legal counsel ..."
+    # and sentences like "The tax aspects ... were advised by X (Partner)".
+    # Neither opens with a verb we listed, so the firm hand-over was missed (or,
+    # worse, a non-firm subject wiped the current firm) and lawyers were left
+    # unattributed or handed to the previous firm.
+    ("idfc-served-as.html.gz",
+     {"Talwar Thakore & Associates", "Shardul Amarchand Mangaldas & Co", "Linklaters"},
+     {"Rahul Gulati": "Talwar Thakore & Associates",
+      "Shubhangi Garg": "Shardul Amarchand Mangaldas & Co",
+      "Gouri Puri": "Shardul Amarchand Mangaldas & Co",
+      "Nimish Malpani": "Shardul Amarchand Mangaldas & Co",
+      "Prashant Gupta": "Shardul Amarchand Mangaldas & Co",
+      "Amit Singh": "Linklaters",
+      "Xunming Lim": "Linklaters",
+      "Edward Lee": "Linklaters"}),
+    ("leap-served-as.html.gz",
+     {"Cyril Amarchand Mangaldas", "Shardul Amarchand Mangaldas & Co", "A&O Shearman"},
+     {"Devaki Mankad": "Cyril Amarchand Mangaldas",
+      "Sayantan Dutta": "Shardul Amarchand Mangaldas & Co",
+      "Pallavi Gopinath Aney": "A&O Shearman",
+      "Mark Leemen": "A&O Shearman"}),
+    ("shiprocket-served-as.html.gz",
+     {"Cyril Amarchand Mangaldas", "Khaitan & Co", "Shardul Amarchand Mangaldas & Co",
+      "Latham & Watkins"},
+     {"Aashima Johur": "Cyril Amarchand Mangaldas",
+      "Bharath Reddy": "Cyril Amarchand Mangaldas",
+      "Gautham Srinivas": "Khaitan & Co",
+      "Avinash Gautam": "Khaitan & Co",
+      "Rajiv Gupta": "Latham & Watkins",
+      "Elena Romanova": "Latham & Watkins"}),
 ]
 
 

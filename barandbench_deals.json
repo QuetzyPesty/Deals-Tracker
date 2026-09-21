@@ -704,7 +704,6 @@
     "law_firms": [
       "Trilegal and A&O Shearman",
       "Cyril Amarchand Mangaldas",
-      "Trilegal",
       "A&O Shearman",
       "Linklaters"
     ],
@@ -1399,17 +1398,17 @@
       {
         "name": "Kaustubh George",
         "role": "Counsel",
-        "firm": "S&R Associates"
+        "firm": "Hogan Lovells Cadwalader"
       },
       {
         "name": "Suchisubhra Sarkar",
         "role": "Senior Associate",
-        "firm": "S&R Associates"
+        "firm": "Hogan Lovells Cadwalader"
       },
       {
         "name": "Sanjana Ravjiani",
         "role": "Associate",
-        "firm": "S&R Associates"
+        "firm": "Hogan Lovells Cadwalader"
       }
     ]
   },
@@ -1841,22 +1840,27 @@
       {
         "name": "Simon Cooke",
         "role": "Partner",
-        "firm": "Trilegal"
+        "firm": "Latham & Watkins"
       },
       {
         "name": "Alexander Nagorny",
         "role": "Associate",
-        "firm": "Trilegal"
+        "firm": "Latham & Watkins"
       },
       {
         "name": "Alice Drayton",
         "role": "Associate",
-        "firm": "Trilegal"
+        "firm": "Latham & Watkins"
       },
       {
         "name": "Myles Byron",
         "role": "Associate",
-        "firm": "Trilegal"
+        "firm": "Latham & Watkins"
+      },
+      {
+        "name": "Yash Rana",
+        "role": "Partner",
+        "firm": "Goodwin"
       },
       {
         "name": "Carl Bradshaw",
@@ -1905,6 +1909,11 @@
       },
       {
         "name": "Justin Pierce",
+        "role": "Partner",
+        "firm": "Goodwin"
+      },
+      {
+        "name": "Andrew Lacy",
         "role": "Partner",
         "firm": "Goodwin"
       },
@@ -2320,6 +2329,11 @@
     "deal_value": null,
     "people": [
       {
+        "name": "Pooja Mahajan",
+        "role": "Partner",
+        "firm": "Chandhiok & Mahajan"
+      },
+      {
         "name": "Nishant Sogani",
         "role": "Partner",
         "firm": "Chandhiok & Mahajan"
@@ -2405,7 +2419,6 @@
     "law_firms": [
       "CMS INDUSLAW",
       "AZB & Partners and Duane Morris & Selvam",
-      "AZB & Partners",
       "Duane Morris & Selvam"
     ],
     "transaction_types": [
@@ -2465,11 +2478,6 @@
         "name": "Anushka Pawar",
         "role": "Associate",
         "firm": "CMS INDUSLAW"
-      },
-      {
-        "name": "Duane Morris",
-        "role": "Partner",
-        "firm": null
       }
     ]
   },
@@ -2563,27 +2571,27 @@
       {
         "name": "Vaibhav Choukse",
         "role": "Partner",
-        "firm": "JSA Advocates & Solicitors secured the CCI approval for this merger. The Firm"
+        "firm": "JSA Advocates & Solicitors"
       },
       {
         "name": "Ela Bali",
         "role": "Partner",
-        "firm": "JSA Advocates & Solicitors secured the CCI approval for this merger. The Firm"
+        "firm": "JSA Advocates & Solicitors"
       },
       {
         "name": "Aditi Khanna",
         "role": "Principal Associate",
-        "firm": "JSA Advocates & Solicitors secured the CCI approval for this merger. The Firm"
+        "firm": "JSA Advocates & Solicitors"
       },
       {
         "name": "Faiz Siddiqui",
         "role": "Senior Associate",
-        "firm": "JSA Advocates & Solicitors secured the CCI approval for this merger. The Firm"
+        "firm": "JSA Advocates & Solicitors"
       },
       {
         "name": "Priyanshi Jain",
         "role": "Associate",
-        "firm": "JSA Advocates & Solicitors secured the CCI approval for this merger. The Firm"
+        "firm": "JSA Advocates & Solicitors"
       }
     ]
   },
@@ -2790,22 +2798,22 @@
       {
         "name": "Fatema Orjela",
         "role": "Partner",
-        "firm": "Cyril Amarchand Mangaldas"
+        "firm": "McDermott Will & Schulte"
       },
       {
         "name": "Zoe Woodhouse",
         "role": "Counsel",
-        "firm": "Cyril Amarchand Mangaldas"
+        "firm": "McDermott Will & Schulte"
       },
       {
         "name": "Arjun Sehgal",
         "role": "Associate",
-        "firm": "Cyril Amarchand Mangaldas"
+        "firm": "McDermott Will & Schulte"
       },
       {
         "name": "Raees Khan",
         "role": "Associate",
-        "firm": "Cyril Amarchand Mangaldas"
+        "firm": "McDermott Will & Schulte"
       },
       {
         "name": "Reeba Chacko",
@@ -3557,7 +3565,6 @@
       "Dentons Link Legal",
       "Trilegal",
       "Sidley Austin and FBT Gibbons",
-      "Sidley Austin",
       "FBT Gibbons"
     ],
     "transaction_types": [],
@@ -4325,7 +4332,7 @@
     "law_firms": [
       "Cyril Amarchand Mangaldas",
       "Shardul Amarchand Mangaldas & Co",
-      "Cyril"
+      "A&O Shearman"
     ],
     "transaction_types": [
       "IPO"
@@ -4343,42 +4350,42 @@
       {
         "name": "Devaki Mankad",
         "role": "Partner",
-        "firm": null
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Anshul Roy",
         "role": "Partner",
-        "firm": null
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Akash Joshi",
         "role": "Principal Associate",
-        "firm": null
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Adwait Deshmukh",
         "role": "Senior Associate",
-        "firm": null
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Abishek Sankar",
         "role": "Senior Associate",
-        "firm": null
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Archit Jain",
         "role": "Associate",
-        "firm": null
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Divyanshu Singh",
         "role": "Associate",
-        "firm": null
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Harsha Menon",
         "role": "Associate",
-        "firm": null
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Sayantan Dutta",
@@ -4403,22 +4410,22 @@
       {
         "name": "Pallavi Gopinath Aney",
         "role": "Partner",
-        "firm": "Shardul Amarchand Mangaldas & Co"
+        "firm": "A&O Shearman"
       },
       {
         "name": "Mark Leemen",
         "role": "Partner",
-        "firm": "Shardul Amarchand Mangaldas & Co"
+        "firm": "A&O Shearman"
       },
       {
         "name": "Serena Upadhyay",
         "role": "Senior Associate",
-        "firm": "Shardul Amarchand Mangaldas & Co"
+        "firm": "A&O Shearman"
       },
       {
         "name": "Rajshree Agarwal",
         "role": "Associate",
-        "firm": "Shardul Amarchand Mangaldas & Co"
+        "firm": "A&O Shearman"
       }
     ]
   },
@@ -4891,7 +4898,7 @@
       "ALMT Legal",
       "Shardul Amarchand Mangaldas & Co",
       "Greenberg Traurig",
-      "McDermott"
+      "McDermott Will & Schulte"
     ],
     "transaction_types": [
       "investment"
@@ -5130,7 +5137,7 @@
       "Cyril Amarchand Mangaldas",
       "Khaitan & Co",
       "Shardul Amarchand Mangaldas & Co",
-      "Latham"
+      "Latham & Watkins"
     ],
     "transaction_types": [
       "IPO"
@@ -5148,57 +5155,57 @@
       {
         "name": "Aashima Johur",
         "role": "Partner",
-        "firm": null
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Mihir Mathur",
         "role": "Principal Associate",
-        "firm": null
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Rishi Nandkeolyar",
         "role": "Senior Associate",
-        "firm": null
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Kanika Bhakhna",
         "role": "Associate",
-        "firm": null
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Abhinav Singh Chauhan",
         "role": "Associate",
-        "firm": null
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Shvabh Chakarwarti",
         "role": "Associate",
-        "firm": null
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Vishal Yaduvanshi",
         "role": "Partner",
-        "firm": null
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Amitpal Singh",
         "role": "Partner",
-        "firm": null
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Ritvik Maheswari",
         "role": "Associate",
-        "firm": null
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Bharath Reddy",
         "role": "Partner",
-        "firm": null
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Aarav Prasad",
         "role": "Associate",
-        "firm": null
+        "firm": "Cyril Amarchand Mangaldas"
       },
       {
         "name": "Gautham Srinivas",
@@ -5258,42 +5265,48 @@
       {
         "name": "Rajiv Gupta",
         "role": "Partner",
-        "firm": "Shardul Amarchand Mangaldas & Co"
+        "firm": "Latham & Watkins"
       },
       {
         "name": "Dominik Sklenar",
         "role": "Partner",
-        "firm": "Shardul Amarchand Mangaldas & Co"
+        "firm": "Latham & Watkins"
       },
       {
         "name": "Sirada Chayabunjonglerd",
         "role": "Associate",
-        "firm": "Shardul Amarchand Mangaldas & Co"
+        "firm": "Latham & Watkins"
       },
       {
         "name": "Margarita del Rosario",
         "role": "Associate",
-        "firm": "Shardul Amarchand Mangaldas & Co"
+        "firm": "Latham & Watkins"
       },
       {
         "name": "Kay Howe Lee",
         "role": "Associate",
-        "firm": "Shardul Amarchand Mangaldas & Co"
+        "firm": "Latham & Watkins"
       },
       {
         "name": "Nathanael Po",
         "role": "Associate",
-        "firm": "Shardul Amarchand Mangaldas & Co"
+        "firm": "Latham & Watkins"
       },
       {
         "name": "Elena Romanova",
         "role": "Partner",
-        "firm": "Shardul Amarchand Mangaldas & Co"
+        "firm": "Latham & Watkins"
       },
       {
         "name": "Shiyi Parsons",
         "role": "Associate",
-        "firm": "Shardul Amarchand Mangaldas & Co"
+        "firm": "Latham & Watkins"
+      },
+      {
+        "name": "Yash J. Ashar",
+        "role": "Senior Partner",
+        "firm": "Cyril Amarchand Mangaldas",
+        "source": "ner"
       }
     ]
   },
@@ -5497,8 +5510,7 @@
       "Cyril Amarchand Mangaldas",
       "Shardul Amarchand Mangaldas & Co",
       "Khaitan & Co acted",
-      "Latham & Watkins",
-      "Khaitan & Co"
+      "Latham & Watkins"
     ],
     "transaction_types": [
       "IPO"
@@ -5596,42 +5608,42 @@
       {
         "name": "Subhayu Sen",
         "role": "Partner",
-        "firm": null
+        "firm": "Khaitan & Co"
       },
       {
         "name": "Aayush Mohata",
         "role": "Partner",
-        "firm": null
+        "firm": "Khaitan & Co"
       },
       {
         "name": "Johann Valladares",
         "role": "Principal Associate",
-        "firm": null
+        "firm": "Khaitan & Co"
       },
       {
         "name": "Sarjana Das",
         "role": "Senior Associate",
-        "firm": null
+        "firm": "Khaitan & Co"
       },
       {
         "name": "Aayush Virani",
         "role": "Senior Associate",
-        "firm": null
+        "firm": "Khaitan & Co"
       },
       {
         "name": "Harshit Singh",
         "role": "Associate",
-        "firm": null
+        "firm": "Khaitan & Co"
       },
       {
         "name": "Hrishi Kapadia",
         "role": "Associate",
-        "firm": null
+        "firm": "Khaitan & Co"
       },
       {
         "name": "Aryan Agarwal",
         "role": "Associate",
-        "firm": null
+        "firm": "Khaitan & Co"
       },
       {
         "name": "Rajiv Gupta",
@@ -6685,8 +6697,7 @@
     "snippet": "Master Chains N Jewels Limited has filed its draft red herring prospectus with SEBI and the Stock Exchanges in relation to an initial public offering comprising a fresh issue of equity shares aggregating up to ₹400 crore and an offer for sale of up to 5,906,250 equity shares by the promoter selling shareholder. Crawford Bayley & Co is advising Master Chains & Jewels on this IPO. Luthra and Luthra Law Offices India are advising the Book Running Lead Manager Systematix Corporate Services Limited. ",
     "law_firms": [
       "Crawford Bayley & Co",
-      "Crawford Bayley",
-      "Luthra"
+      "Luthra and Luthra"
     ],
     "transaction_types": [
       "IPO"
@@ -6704,7 +6715,7 @@
       {
         "name": "Akshit Kapoor",
         "role": "Partner",
-        "firm": null
+        "firm": "Luthra and Luthra"
       }
     ]
   },
@@ -7440,42 +7451,42 @@
       {
         "name": "Ashwath Rau",
         "role": "Senior Partner",
-        "firm": "Linklaters"
+        "firm": "AZB & Partners"
       },
       {
         "name": "Prerak Ved",
         "role": "Partner",
-        "firm": "Linklaters"
+        "firm": "AZB & Partners"
       },
       {
         "name": "Abhay Raj Singh Bundela",
         "role": "Senior Associate",
-        "firm": "Linklaters"
+        "firm": "AZB & Partners"
       },
       {
         "name": "Akash Kumar Prasad",
         "role": "Associate",
-        "firm": "Linklaters"
+        "firm": "AZB & Partners"
       },
       {
         "name": "Vibhuti Kaushik",
         "role": "Associate",
-        "firm": "Linklaters"
+        "firm": "AZB & Partners"
       },
       {
         "name": "Mehar Kalra",
         "role": "Associate",
-        "firm": "Linklaters"
+        "firm": "AZB & Partners"
       },
       {
         "name": "Dominik Rompza",
         "role": "Partner",
-        "firm": "Linklaters"
+        "firm": "AZB & Partners"
       },
       {
         "name": "Meret Pettirsch",
         "role": "Senior Associate",
-        "firm": "Linklaters"
+        "firm": "AZB & Partners"
       },
       {
         "name": "Ralph Wollburg",
@@ -7497,7 +7508,8 @@
     "snippet": "JSA Advocates & Solicitors represented and assisted Reltio, Inc. on Indian law aspects of its acquisition by SAP, Inc. The Firm advised on all Indian legal and regulatory aspects of the transaction, including structuring and review of transaction documents from an Indian law perspective and assistance in preparation of disclosures. The transaction team was led by Vivek K. Chandy (Joint Managing Partner), and consisted of Saurya Bhattacharya (Partner), Associates Sapna Kataria and Shraddha Kotiya",
     "law_firms": [
       "JSA Advocates & Solicitors",
-      "Jones Day"
+      "Jones Day",
+      "Wilson Sonsini Goodrich & Rosati"
     ],
     "transaction_types": [
       "acquisition"
@@ -7552,17 +7564,17 @@
       {
         "name": "Ethan Lutske",
         "role": "Partner",
-        "firm": "JSA Advocates & Solicitors"
+        "firm": "Wilson Sonsini Goodrich & Rosati"
       },
       {
         "name": "Erin Malone-Shkurkin",
         "role": "Partner",
-        "firm": "JSA Advocates & Solicitors"
+        "firm": "Wilson Sonsini Goodrich & Rosati"
       },
       {
         "name": "Mark Baudler",
         "role": "Partner",
-        "firm": "JSA Advocates & Solicitors"
+        "firm": "Wilson Sonsini Goodrich & Rosati"
       },
       {
         "name": "Philipp Werner",
@@ -7666,8 +7678,7 @@
     "snippet": "Inspecity Space Laboratories Private Limited has raised ₹100 crore from a pre-Series A fundraise co-led by Speciale Invest and Ashish Kacholia, with participation from Antler India, Antler Elevate, Shastra VC and a group of angel investors. First Principles Law advised InspeCity on this fundraise. GameChanger Law Advisors advised lead investor Speciale Invest and angel investor Manish Gandhi on this fundraise. The Firm assisted with structuring, drafting, reviewing and negotiating the transactio",
     "law_firms": [
       "First Principles Law",
-      "GameChanger Law Advisors",
-      "GameChanger Law"
+      "GameChanger Law Advisors"
     ],
     "transaction_types": [
       "Series A",
@@ -7686,12 +7697,12 @@
       {
         "name": "Samheeta Rao",
         "role": "Senior Partner",
-        "firm": null
+        "firm": "GameChanger Law Advisors"
       },
       {
         "name": "Sanjana Rao",
         "role": "Associate",
-        "firm": null
+        "firm": "GameChanger Law Advisors"
       }
     ]
   },
@@ -7925,27 +7936,32 @@
       {
         "name": "Gouri Puri",
         "role": "Partner",
-        "firm": null
+        "firm": "Shardul Amarchand Mangaldas & Co"
       },
       {
         "name": "Nimish Malpani",
         "role": "Principal Associate",
-        "firm": null
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Prashant Gupta",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
       },
       {
         "name": "Amit Singh",
         "role": "Partner",
-        "firm": null
+        "firm": "Linklaters"
       },
       {
         "name": "Xunming Lim",
         "role": "Partner",
-        "firm": null
+        "firm": "Linklaters"
       },
       {
         "name": "Edward Lee",
         "role": "Associate",
-        "firm": null
+        "firm": "Linklaters"
       }
     ]
   },
@@ -8049,14 +8065,19 @@
         "firm": "Trilegal"
       },
       {
+        "name": "Amit Singh",
+        "role": "Partner",
+        "firm": "Linklaters"
+      },
+      {
         "name": "Joseph Wolpin",
         "role": "Counsel",
-        "firm": "Trilegal"
+        "firm": "Linklaters"
       },
       {
         "name": "Manish Soni",
         "role": "Associate",
-        "firm": "Trilegal"
+        "firm": "Linklaters"
       },
       {
         "name": "Yash J. Ashar",
@@ -9181,7 +9202,8 @@
     "law_firms": [
       "Khaitan & Co",
       "Talwar Thakore & Associates",
-      "JSA Advocates & Solicitors"
+      "JSA Advocates & Solicitors",
+      "Hogan Lovells Cadwalader"
     ],
     "transaction_types": [
       "IPO"
@@ -9284,17 +9306,17 @@
       {
         "name": "Kaustubh George",
         "role": "Counsel",
-        "firm": "JSA Advocates & Solicitors"
+        "firm": "Hogan Lovells Cadwalader"
       },
       {
         "name": "Jayant Bhardwaj",
         "role": "Senior Associate",
-        "firm": "JSA Advocates & Solicitors"
+        "firm": "Hogan Lovells Cadwalader"
       },
       {
         "name": "Purva Mishra",
         "role": "Associate",
-        "firm": "JSA Advocates & Solicitors"
+        "firm": "Hogan Lovells Cadwalader"
       }
     ]
   },
@@ -10902,22 +10924,22 @@
       {
         "name": "Deepto Roy",
         "role": "Partner",
-        "firm": null
+        "firm": "Shardul Amarchand Mangaldas & Co"
       },
       {
         "name": "Shubham Sharma",
         "role": "Partner",
-        "firm": null
+        "firm": "Shardul Amarchand Mangaldas & Co"
       },
       {
         "name": "Vaibhav Gwalani",
         "role": "Senior Associate",
-        "firm": null
+        "firm": "Shardul Amarchand Mangaldas & Co"
       },
       {
         "name": "Harshita Chitlangia",
         "role": "Associate",
-        "firm": null
+        "firm": "Shardul Amarchand Mangaldas & Co"
       }
     ]
   },
@@ -11000,7 +11022,8 @@
     "snippet": "Lagom Labs Private Limited, dba Nua, has raised $50 million from a Series C fundraise co-led by Peak XV Partners and Filter Capital India. DSK Legal advise Nua and and its founder Ravi Ramachandran on this fundraise. The Firm advised on both the primary fundraise from Peak XV and Filter Capital, and the secondary transactions involving the existing investors. The transaction team consisted of Hemang Parekh (Partner), Mayank Mehta (Partner), Adwait Munje (Principal Associate) and Rishita Mallared",
     "law_firms": [
       "Talwar Thakore & Associates",
-      "CMS INDUSLAW"
+      "CMS INDUSLAW",
+      "DSK Legal"
     ],
     "transaction_types": [
       "Series C",
@@ -11024,22 +11047,22 @@
       {
         "name": "Hemang Parekh",
         "role": "Partner",
-        "firm": "Talwar Thakore & Associates"
+        "firm": "DSK Legal"
       },
       {
         "name": "Mayank Mehta",
         "role": "Partner",
-        "firm": "Talwar Thakore & Associates"
+        "firm": "DSK Legal"
       },
       {
         "name": "Adwait Munje",
         "role": "Principal Associate",
-        "firm": "Talwar Thakore & Associates"
+        "firm": "DSK Legal"
       },
       {
         "name": "Rishita Mallareddy",
         "role": "Associate",
-        "firm": "Talwar Thakore & Associates"
+        "firm": "DSK Legal"
       },
       {
         "name": "Growth Investments IV",
@@ -11142,8 +11165,7 @@
     "url": "https://www.barandbench.com/law-firms/dealstreet/ic-regfin-legal-advises-oister-global-on-120-crore-investment-in-bombay-shaving-company",
     "snippet": "Oister Global has invested in Visage Lines Personal Care Private Limited, dba Bombay Shaving Company. IC RegFin Legal Partners advised Oister Global on this investment. The transaction was led by Sidharth Dhody (Partner), along with Abhishek Singh (Senior Associate). Founded in 2015, Bombay Shaving Company offers a wide range of grooming, shaving, skincare and personal care products, combining contemporary product formulations with accessible pricing and a strong digital-first distribution model",
     "law_firms": [
-      "IC RegFin Legal Partners",
-      "IC RegFin Legal"
+      "IC RegFin Legal Partners"
     ],
     "transaction_types": [
       "investment"
@@ -11153,12 +11175,12 @@
       {
         "name": "Sidharth Dhody",
         "role": "Partner",
-        "firm": null
+        "firm": "IC RegFin Legal Partners"
       },
       {
         "name": "Abhishek Singh",
         "role": "Senior Associate",
-        "firm": null
+        "firm": "IC RegFin Legal Partners"
       }
     ]
   },
@@ -11277,8 +11299,7 @@
     "url": "https://www.barandbench.com/law-firms/dealstreet/gamechanger-law-advises-speciale-invest-on-qnu-labs-200-crore-series-a-fundraise",
     "snippet": "QNu Labs Private Limited has raised ₹200 crore from a Series A1 fundraise led by  the National Quantum Mission and Speciale Invest, with participation from Sony Innovation Fund, Gaja Capital, Artha Ventures and other investor. GameChanger Law Advisors represented lead investor Speciale Invest on this transaction. The Firm was involved in structuring, reviewing and negotiating the transaction documentation. The transaction was led by Samheeta Rao (Senior Partner) and Sanjana Rao (Associate) QNu L",
     "law_firms": [
-      "GameChanger Law Advisors",
-      "GameChanger Law"
+      "GameChanger Law Advisors"
     ],
     "transaction_types": [
       "Series A",
@@ -11297,12 +11318,12 @@
       {
         "name": "Samheeta Rao",
         "role": "Senior Partner",
-        "firm": null
+        "firm": "GameChanger Law Advisors"
       },
       {
         "name": "Sanjana Rao",
         "role": "Associate",
-        "firm": null
+        "firm": "GameChanger Law Advisors"
       }
     ]
   },
@@ -11408,8 +11429,7 @@
     "law_firms": [
       "Vertices Partners",
       "Shardul Amarchand Mangaldas & Co",
-      "IC RegFin Legal Partners",
-      "IC RegFin Legal"
+      "IC RegFin Legal Partners"
     ],
     "transaction_types": [
       "Series A",
@@ -11453,12 +11473,12 @@
       {
         "name": "Anish Jaipuriar",
         "role": "Partner",
-        "firm": null
+        "firm": "IC RegFin Legal Partners"
       },
       {
         "name": "Utsav Vats",
         "role": "Associate",
-        "firm": null
+        "firm": "IC RegFin Legal Partners"
       }
     ]
   },
@@ -11787,6 +11807,494 @@
         "name": "Surbhi Narang",
         "role": "Partner",
         "firm": "Legacy Law Offices"
+      }
+    ]
+  },
+  {
+    "headline": "Saraf and Partners acts on Fortis - SLJ Society collaboration for super specialty hospital in Ashok Vihar, New Delhi",
+    "client": "Fortis - SLJ Society collaboration for super specialty hospital in Ashok Vihar, New Delhi",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/saraf-and-partners-acts-on-fortis-slj-society-collaboration-for-super-specialty-hospital-in-ashok-vihar-new-delhi",
+    "snippet": "Fortis Healthcare Limited is collaborating with Seth Sunder Lal Jain Charitable Eye Hospital to provide healthcare and medical services and to facilitate SLJ Society to construct, upgrade and operate a state-of-the-art 400+ bedded super specialty hospital in Ashok Vihar, New Delhi. The hospital will be owned, operated and managed by SLJ Society, and Fortis will be providing healthcare services to SLJ Society. The land, building and the associated civil and certain medical infrastructure will be ",
+    "law_firms": [
+      "Saraf and Partners",
+      "Partners"
+    ],
+    "transaction_types": [],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Vaibhav Kakkar",
+        "role": "Senior Partner",
+        "firm": "Saraf and Partners"
+      },
+      {
+        "name": "Sahil Arora",
+        "role": "Partner",
+        "firm": "Saraf and Partners"
+      },
+      {
+        "name": "Debarpan Ghosh",
+        "role": "Partner",
+        "firm": "Saraf and Partners"
+      },
+      {
+        "name": "Keshav Pareek",
+        "role": "Partner",
+        "firm": "Saraf and Partners"
+      },
+      {
+        "name": "Shirin Singh",
+        "role": "Principal Associate",
+        "firm": "Saraf and Partners"
+      },
+      {
+        "name": "Sonia Mangtani",
+        "role": "Associate",
+        "firm": "Saraf and Partners"
+      },
+      {
+        "name": "Nikhil Surana",
+        "role": "Associate",
+        "firm": "Saraf and Partners"
+      },
+      {
+        "name": "Soumya Dave",
+        "role": "Associate",
+        "firm": "Saraf and Partners"
+      },
+      {
+        "name": "Saroj Jha",
+        "role": "Senior Partner",
+        "firm": "Saraf and Partners"
+      },
+      {
+        "name": "Rashid Maqsood",
+        "role": "Associate",
+        "firm": "Saraf and Partners"
+      },
+      {
+        "name": "Rohit Raghavan",
+        "role": "Partner",
+        "firm": "Saraf and Partners"
+      },
+      {
+        "name": "Khushi Agrawal",
+        "role": "Associate",
+        "firm": "Saraf and Partners"
+      }
+    ]
+  },
+  {
+    "headline": "CMS INDUSLAW advises investors on Comet ₹100 crore Series B fundraise",
+    "client": "investors",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/cms-induslaw-advises-investors-on-comet-100-crore-series-b-fundraise",
+    "snippet": "Grails Marketing Private Limited, dba Comet, has raised ₹100 crore from a Series B fundraise led by Verlinvest, with participation from existing investors, Elevation Capital and Nexus Ventures. CMS INDUSLAW advised Elevation Capital and Nexus Ventures on this fundraise. The transaction team consisted of Shantanu Singh (Partner), Winnie Shekhar (Partner), Anshul Bhuwalka (Senior Associate), Associates Arnab Chakraborty and Mukul Sharma. They were supported by the Corporate Secretarial team consis",
+    "law_firms": [
+      "CMS INDUSLAW"
+    ],
+    "transaction_types": [
+      "Series B",
+      "fundraise"
+    ],
+    "deal_value": {
+      "raw": "₹100 crore",
+      "currency": "INR",
+      "amount": 1000000000,
+      "amount_inr": 1000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Shantanu Singh",
+        "role": "Partner",
+        "firm": "CMS INDUSLAW"
+      },
+      {
+        "name": "Winnie Shekhar",
+        "role": "Partner",
+        "firm": "CMS INDUSLAW"
+      },
+      {
+        "name": "Anshul Bhuwalka",
+        "role": "Senior Associate",
+        "firm": "CMS INDUSLAW"
+      },
+      {
+        "name": "Arnab Chakraborty",
+        "role": "Associate",
+        "firm": "CMS INDUSLAW"
+      },
+      {
+        "name": "Mukul Sharma",
+        "role": "Associate",
+        "firm": "CMS INDUSLAW"
+      }
+    ]
+  },
+  {
+    "headline": "Khaitan & Co, JSA, Hogan Lovells Cadwalader, VERTICES Partners act on Glass Wall Systems ₹427 crore IPO",
+    "client": "Glass Wall Systems",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-jsa-hogan-lovells-cadwalader-vertices-partners-act-on-glass-wall-systems-427-crore-ipo",
+    "snippet": "Glass Wall Systems (India) Limited has raised ₹427.89 crore from an Initial Public Offering comprising a fresh issue and an offer for sale by the selling shareholders. Khaitan & Co advised Glass Wall Systems on this IPO. The transaction team consisted of Gautham Srinivas (Partner), Sathvik Ponnappa (Partner), Sanjeev Chowdhary (Principal Associate), Vanshika Chaudhry (Senior Associate), and Associates Anubhav Jaiswal and Dharini Shanker. JSA Advocates & Solicitors advised IIFL Capital Services L",
+    "law_firms": [
+      "Khaitan & Co",
+      "JSA Advocates & Solicitors",
+      "Hogan Lovells Cadwalader",
+      "Vertices Partners"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "deal_value": {
+      "raw": "₹427 crore",
+      "currency": "INR",
+      "amount": 4270000000,
+      "amount_inr": 4270000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Gautham Srinivas",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Sathvik Ponnappa",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Sanjeev Chowdhary",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Vanshika Chaudhry",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Anubhav Jaiswal",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Dharini Shanker",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Arka Mookerjee",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Pracheta Bhattacharya",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Anshu Bansal",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Kairav Parikh",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Vatsla Varandani",
+        "role": "Senior Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Palak Karundia",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Aditi Khandal",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Sharad Panwar",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Kaustubh George",
+        "role": "Counsel",
+        "firm": "Hogan Lovells Cadwalader"
+      },
+      {
+        "name": "Komal Israni",
+        "role": "Associate",
+        "firm": "Hogan Lovells Cadwalader"
+      },
+      {
+        "name": "Stuti Jain",
+        "role": "Associate",
+        "firm": "Vertices Partners"
+      }
+    ]
+  },
+  {
+    "headline": "Khaitan & Co advises Capital Numbers on the acquisition of Epitome Cloud Inc.",
+    "client": "Capital Numbers",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advise-capital-numbers-on-acquisition-of-epitome-cloud-inc",
+    "snippet": "Capital Numbers Infotech Limited has acquired 100% ownership in New Jersey-based Epitome Cloud Inc., and has indirectly acquired its Indian subsidiary, Epitomecloud Technology Private Limited. Khaitan & Co advised Capital Numbers on this acquisition. The transaction team consisted of Prithwijit Gangopadhyay (Partner), Shounak Mitra (Partner), Vibhav Seth (Principal Associate) Karishma Sethia (Senior Associate), Keshav Tibarewalla (Senior Associate), Associates Ishika Sinha and Lavanya Agarwal. T",
+    "law_firms": [
+      "Khaitan & Co"
+    ],
+    "transaction_types": [
+      "acquisition"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Prithwijit Gangopadhyay",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Shounak Mitra",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Vibhav Seth",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Karishma Sethia",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Keshav Tibarewalla",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Ishika Sinha",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Lavanya Agarwal",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Abhinav Rastogi",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Ajeta Anand",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Sourav Dan",
+        "role": "Counsel",
+        "firm": "Khaitan & Co"
+      }
+    ]
+  },
+  {
+    "headline": "Dua Associates advises Odyssey Energy Solutions on availing €7 million ECB from BIO",
+    "client": "Odyssey Energy Solutions",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/dua-associates-advises-odyssey-energy-solutions-on-availing-7-million-ecb-from-bio",
+    "snippet": "Odyssey Energy Solutions Procure VI Pvt. Ltd., a group entity of Odyssey Energy Solutions, Inc., has availed €7 million external commercial borrowing (ECB) facility from the Belgian Investment Company for Developing Countries SA (BIO). Dua Associates advised Odyssey on this transaction. The Firm's role included negotiation, finalisation and execution of the transaction documentation. The transaction team consisted of Nityashjit Kaur (Partner), Prateek Bedi (Partner) and Vaibhav Tripathi (Senior ",
+    "law_firms": [
+      "Dua Associates"
+    ],
+    "transaction_types": [],
+    "deal_value": {
+      "raw": "€7 million",
+      "currency": "EUR",
+      "amount": 7000000,
+      "amount_inr": 672000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Nityashjit Kaur",
+        "role": "Partner",
+        "firm": "Dua Associates"
+      },
+      {
+        "name": "Prateek Bedi",
+        "role": "Partner",
+        "firm": "Dua Associates"
+      },
+      {
+        "name": "Vaibhav Tripathi",
+        "role": "Senior Associate",
+        "firm": "Dua Associates"
+      }
+    ]
+  },
+  {
+    "headline": "Trilegal acts on Pranav Constructions' ₹351 crore IPO",
+    "client": "Pranav Constructions'",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-pranav-constructions-351-crore-ipo",
+    "snippet": "Pranav Constructions Limited has raised ₹351 crore from an initial public offering of equity shares, comprising a fresh issue and an offer for sale by existing investor selling shareholder. Trilegal advised Pranav Constructions on this IPO. The transaction was led by Richa Choudhary (Partner) and Maitreya Rajurkar (Partner), with support from Avanti Kale (Counsel), Pooja Tada (Senior Associate), Associates Siddhant Mishra, Yug Gambhir, Arnab Goswami and Tanushka Trivedi. Pranav Constructions is ",
+    "law_firms": [
+      "Trilegal"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "deal_value": {
+      "raw": "₹351 crore",
+      "currency": "INR",
+      "amount": 3510000000,
+      "amount_inr": 3510000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Richa Choudhary",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Maitreya Rajurkar",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Avanti Kale",
+        "role": "Counsel",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Pooja Tada",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Siddhant Mishra",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Yug Gambhir",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Arnab Goswami",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Tanushka Trivedi",
+        "role": "Associate",
+        "firm": "Trilegal"
+      }
+    ]
+  },
+  {
+    "headline": "Shardul Amarchand Mangaldas advises IFC on $500 million ECB facility to SIDBI",
+    "client": "IFC",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-ifc-on-500-million-ecb-facility-to-sidbi",
+    "snippet": "International Finance Corporation is sanctioning an IFC own-account US$ denominated, senior, unsecured loan facility of up to $500 million, with a tenor of up to seven years, to Small Industries Development Bank of India (SIDBI). Shardul Amarchand Mangaldas & Co advised IFC on this financing transaction. The transaction team consisted of Shubhangi Garg (Partner), Yashika Jain (Principal Associate), Associates  Soham Chakraborty and Aryan Gupta. If you would like your Deals, Columns, Press Releas",
+    "law_firms": [
+      "Shardul Amarchand Mangaldas & Co"
+    ],
+    "transaction_types": [],
+    "deal_value": {
+      "raw": "$500 million",
+      "currency": "USD",
+      "amount": 500000000,
+      "amount_inr": 44000000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Shubhangi Garg",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Yashika Jain",
+        "role": "Principal Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Soham Chakraborty",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Aryan Gupta",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      }
+    ]
+  },
+  {
+    "headline": "JSA advises Crédit Agricole on sanctioning ₹700 crore to Vertis Infrastructure Trust",
+    "client": "Crédit Agricole",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-crdit-agricole-on-sanctioning-700-crore-to-vertis-infrastructure-trust",
+    "snippet": "Crédit Agricole CIB has sanctioned financial assistance aggregating to ₹700 crore to Vertis Infrastructure Trust, an infrastructure investment trust. JSA Advocates and Solicitors advised Crédit Agricole on this financing transaction. The transaction was led by Karan Mitroo (Partner), with support from Pragya Verma (Senior Associate), Associates Jhalak Gupta and Swadha Chandra. The funds will be utilised for refinancing of the existing debt availed by the InvIT. If you would like your Deals, Colu",
+    "law_firms": [
+      "JSA Advocates & Solicitors"
+    ],
+    "transaction_types": [],
+    "deal_value": {
+      "raw": "₹700 crore",
+      "currency": "INR",
+      "amount": 7000000000,
+      "amount_inr": 7000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Karan Mitroo",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Pragya Verma",
+        "role": "Senior Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Jhalak Gupta",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Swadha Chandra",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
       }
     ]
   }

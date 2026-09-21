@@ -41,6 +41,7 @@ BASE = SCRAPER_DIR.parent
 sys.path.insert(0, str(BASE))
 sys.path.insert(0, str(SCRAPER_DIR))
 from build_directory import (  # noqa: E402
+    FIRM_ALIASES,
     KNOWN_FIRMS,
     canonical_firm,
     is_personnel_move,
@@ -89,7 +90,7 @@ NAME_PATTERN = rf"{_NAME_FIRST_WORD}(?:\s+{_NAME_INNER_WORD}){{1,4}}"
 # title text)" -- the extra-title suffix (e.g. "Partner, Regional Co-Head –
 # Capital Markets – West") is discarded, we only keep the matched role word.
 PAREN_ROLE_RE = re.compile(
-    rf"({NAME_PATTERN})\s*\(({ROLE_ALTERNATION})(?:[,;][^)]*)?\)"
+    rf"({NAME_PATTERN})\s*\(({ROLE_ALTERNATION})(?:(?:[,;]|\s+and\s)[^)]*)?\)"
 )
 
 # Mid-name nicknames like "Kyungwon (Won) Lee" break paren-role matching --
@@ -476,6 +477,98 @@ def extract_plural_list_credits(paragraph):
     return credits
 
 
+
+# --- firm hand-over detection ------------------------------------------------
+# Bar & Bench credits each firm's team in its own block, and the block opens by
+# naming the firm -- but the verb after the name varies from article to article
+# ("advised", "acted for", "served as international legal counsel to", "was
+# instructed by" ...). Matching a fixed verb list silently lost every firm the
+# newer template introduced with a verb we had not listed, so the previous
+# firm's label was carried onto the next firm's lawyers. So the hand-over is
+# keyed on the thing that never changes -- a firm we KNOW opening the paragraph
+# -- and the verb is ignored.
+_ALIAS_TEXTS = sorted(
+    {a for a in FIRM_ALIASES} | {v.lower() for v in FIRM_ALIASES.values()},
+    key=len, reverse=True,
+)
+# Raw spellings Bar & Bench uses that differ from our aliases only by "and"/"&".
+_ALIAS_TEXTS = sorted(
+    set(_ALIAS_TEXTS) | {a.replace("&", "and") for a in _ALIAS_TEXTS if "&" in a},
+    key=len, reverse=True,
+)
+
+
+def leading_known_firm(paragraph):
+    """Canonical firm if the paragraph OPENS with a firm from our corpus."""
+    text = paragraph.strip()
+    low = text.lower()
+    for alias in _ALIAS_TEXTS:
+        if not low.startswith(alias):
+            continue
+        rest = text[len(alias):]
+        if rest and (rest[0].isalnum() or rest[0] in "-_"):
+            continue  # "sam" inside "Samuel", "cam" inside "Cameron"
+        # short abbreviations must be written as abbreviations (SAM, CAM,
+        # TT&A), not be ordinary capitalised words at a sentence start
+        if len(alias) <= 4 and text[:len(alias)] != text[:len(alias)].upper():
+            continue
+        return canonical_firm(alias)
+    return None
+
+
+_NOT_A_FIRM_LEAD = {
+    "the", "a", "an", "this", "these", "that", "advice", "tax", "team",
+    "transaction", "deal", "in", "with", "for", "as", "it", "its", "his", "her",
+}
+_NOT_A_FIRM_WORDS = {"was", "were", "is", "are", "been", "being", "by", "the", "on", "who"}
+
+
+def _looks_like_firm_name(raw):
+    """A sentence subject that could plausibly be a firm name. Used only to
+    decide whether an UNRESOLVED opening subject should end the current
+    firm's block. "The tax aspects of the transaction were advised by ..."
+    is a sentence about the deal, not a change of firm, and must not wipe the
+    firm we are tracking."""
+    words = raw.split()
+    if not words or len(words) > 7:
+        return False
+    if words[0].lower() in _NOT_A_FIRM_LEAD:
+        return False
+    return not any(w.lower() in _NOT_A_FIRM_WORDS for w in words)
+
+
+def _is_firm_not_person(name):
+    """A credited "name" that is really a firm: exact corpus match, opens with
+    a corpus firm, or is the truncated front of one ("Duane Morris" for
+    "Duane Morris & Selvam"). Wrongly dropping a person is a miss; keeping a
+    firm as a person is a hallucination."""
+    low = name.lower()
+    return (low in KNOWN_FIRMS or bool(leading_known_firm(name))
+            or any(k.startswith(low + " ") for k in KNOWN_FIRMS))
+
+
+def discover_corpus_firms(paragraphs, law_firms):
+    """Corpus firms that open a paragraph describing their role in the deal
+    but are missing from the deal's firm list (e.g. the international counsel
+    a headline leaves out). Returns law_firms extended, order preserved."""
+    cue = re.compile(r"\b(advis|act(ed|s|ing)|represent|counsel|instruct|assist)", re.I)
+    out = list(law_firms)
+    for para in paragraphs:
+        f = leading_known_firm(para)
+        if f and f not in out and cue.search(para[:200]):
+            out.append(f)
+    return out
+
+
+def _drop_fragment_firms(firms):
+    """"Cyril" left over from a headline is a prefix of "Cyril Amarchand
+    Mangaldas" -- a truncated duplicate, not another firm."""
+    return [
+        f for f in firms
+        if not any(g != f and g.lower().startswith(f.lower() + " ") for g in firms)
+    ]
+
+
 def extract_firm_context(paragraph, known_firms=()):
     """Find a firm-attribution sentence and snap it onto one of the deal's
     own headline-declared firms.
@@ -517,15 +610,19 @@ def extract_people(paragraphs, fallback_firm, known_firms=()):
     current_firm = fallback_firm
     for raw_para in paragraphs:
         para = _strip_nickname_parens(raw_para)
-        context_firm = extract_firm_context(para, known_firms)
+        lead_firm = leading_known_firm(para)
+        context_firm = lead_firm or extract_firm_context(para, known_firms)
         if context_firm:
             current_firm = context_firm
-        elif FIRM_CONTEXT_RE.match(para.strip()) and not para.strip().lower().startswith("the firm"):
-            # This paragraph hands over to a firm we could not resolve. Carrying
-            # the previous firm forward is how TT&A's three lawyers ended up
-            # labelled JSA: a confident wrong answer, which is worse than none.
-            # Drop the context instead and let them come out unattributed.
-            current_firm = None
+        else:
+            m = FIRM_CONTEXT_RE.match(para.strip())
+            if (m and not para.strip().lower().startswith("the firm")
+                    and _looks_like_firm_name(m.group(1).strip())):
+                # This paragraph hands over to a firm we could not resolve. Carrying
+                # the previous firm forward is how TT&A's three lawyers ended up
+                # labelled JSA: a confident wrong answer, which is worse than none.
+                # Drop the context instead and let them come out unattributed.
+                current_firm = None
         para_firms.append((para, current_firm))
 
         credits = extract_paren_credits(para) + extract_plural_list_credits(para)
@@ -534,7 +631,7 @@ def extract_people(paragraphs, fallback_firm, known_firms=()):
             # Mangaldas (Partner)", crediting the firm itself rather than
             # a lawyer at it) would otherwise be captured as a fake person
             # -- reject anything that matches our own known-firm corpus
-            if name.lower() in KNOWN_FIRMS:
+            if _is_firm_not_person(name):
                 continue
             key = (name.lower(), role, current_firm)
             if key in seen:
@@ -787,6 +884,8 @@ def parse_article(url, headline):
     for f in parsed["law_firms"]:
         if f not in law_firms:
             law_firms.append(f)
+
+    law_firms = _drop_fragment_firms(discover_corpus_firms(paragraphs, law_firms))
 
     fallback_firm = law_firms[0] if law_firms else None
     people = extract_people(paragraphs, fallback_firm, known_firms=law_firms)

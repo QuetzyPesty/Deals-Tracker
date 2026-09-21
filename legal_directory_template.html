@@ -221,6 +221,37 @@
   .rail-subitem.active{ background:var(--accent-container); color:var(--on-accent-container); font-weight:600; }
   .rail-subitem .dash{ opacity:.5; }
   .rail-subitem .count{ margin-left:auto; font-size:10.5px; opacity:.7; }
+  /* Deal-size range slider: two range inputs stacked on one track. The inputs
+     themselves ignore the pointer (so the two do not block each other); only
+     their thumbs take it. */
+  .size-filter{ padding:0 12px; }
+  .size-readout{ font-size:12.5px; font-weight:600; color:var(--on-surface); margin:2px 0 10px; }
+  .size-readout.idle{ color:var(--on-surface-var); font-weight:500; }
+  .size-track{ position:relative; height:22px; }
+  .size-track::before{
+    content:''; position:absolute; left:0; right:0; top:9px; height:4px; border-radius:2px;
+    background:var(--outline, #cfd3d8);
+  }
+  .size-fill{ position:absolute; top:9px; height:4px; border-radius:2px; background:var(--accent); }
+  .size-track input[type=range]{
+    position:absolute; left:0; top:0; width:100%; height:22px; margin:0;
+    background:none; pointer-events:none; -webkit-appearance:none; appearance:none;
+  }
+  .size-track input[type=range]::-webkit-slider-runnable-track{ background:none; height:22px; }
+  .size-track input[type=range]::-moz-range-track{ background:none; }
+  .size-track input[type=range]::-webkit-slider-thumb{
+    -webkit-appearance:none; pointer-events:auto; cursor:grab; width:16px; height:16px; margin-top:3px;
+    border-radius:50%; background:var(--accent); border:2px solid var(--surface-1); box-shadow:0 1px 3px rgba(0,0,0,.35);
+  }
+  .size-track input[type=range]::-moz-range-thumb{
+    pointer-events:auto; cursor:grab; width:12px; height:12px;
+    border-radius:50%; background:var(--accent); border:2px solid var(--surface-1);
+  }
+  .size-ticks{ position:relative; height:13px; font-size:9.5px; color:var(--on-surface-var); margin-top:2px; }
+  .size-ticks span{ position:absolute; top:0; transform:translateX(-50%); white-space:nowrap; }
+  .size-ticks span:first-child{ transform:none; }
+  .size-ticks span:last-child{ transform:translateX(-100%); }
+  .size-note{ font-size:10.5px; color:var(--on-surface-var); margin:8px 0 0; line-height:1.4; }
   .chip-row{ display:flex; flex-wrap:wrap; gap:6px; padding:0 10px; }
   .chip{
     font-size:11.5px; padding:5px 11px; border-radius:14px;
@@ -473,6 +504,8 @@ let state = {
   roleFilters: new Set(),
   txnFilters: new Set(),
   practiceFilters: new Set(),
+  sizeLo: 0,               // index into SIZE_STOPS_CR; 0 = no lower bound
+  sizeHi: null,            // index into SIZE_STOPS_CR; null = no upper bound (set below)
   expandedFirms: new Set(),
   collapsedSections: new Set(), // filter category headers folded shut: 'practice' | 'role' | 'txn'
   collapsedFirmGroups: new Set(), // firm headings folded shut in the "By firm" main view
@@ -525,13 +558,44 @@ function fmtInr(n){
 const VALUED_DEALS = new Set();
 PEOPLE.forEach(p => p.deals.forEach(d => { if(dealValue(d)) VALUED_DEALS.add(d.url || d.headline); }));
 
+// Slider stops, in crore. Reported sizes run from ~18 cr to ~29,000 cr and are
+// heavily skewed, so a linear slider would pin every real deal at the far left;
+// the stops are roughly log-spaced. The first stop is the floor (no lower bound)
+// and the last is the ceiling (no upper bound).
+const SIZE_STOPS_CR = [0, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, Infinity];
+const SIZE_MAX_IDX = SIZE_STOPS_CR.length - 1;
+state.sizeHi = SIZE_MAX_IDX;
+function sizeFilterActive(){ return state.sizeLo > 0 || state.sizeHi < SIZE_MAX_IDX; }
+// A person passes when at least ONE of their deals has a reported size inside
+// the range. An unreported deal never passes -- it is unknown, not small, so it
+// must not be treated as 0 and swept into "under 10 cr".
+function dealInSizeRange(d){
+  const v = dealValue(d);
+  if(v === null) return false;
+  return v >= SIZE_STOPS_CR[state.sizeLo] * 1e7 && v <= SIZE_STOPS_CR[state.sizeHi] * 1e7;
+}
+function matchesSize(p){
+  return !sizeFilterActive() || p.deals.some(dealInSizeRange);
+}
+function fmtStopCr(cr){
+  if(cr === Infinity) return '';
+  return '₹' + cr.toLocaleString('en-IN') + ' cr';
+}
+function sizeReadout(){
+  if(!sizeFilterActive()) return 'Any size';
+  const lo = SIZE_STOPS_CR[state.sizeLo], hi = SIZE_STOPS_CR[state.sizeHi];
+  if(lo === 0) return 'Up to ' + fmtStopCr(hi);
+  if(hi === Infinity) return fmtStopCr(lo) + '+';
+  return fmtStopCr(lo) + ' – ' + fmtStopCr(hi);
+}
+
 document.getElementById('stats').textContent =
   `${DATA.stats.people} people · ${DATA.stats.firms} firms · ${DATA.stats.practice_areas} practice areas · ${DATA.stats.deals} deals tracked · ${VALUED_DEALS.size} with a reported size`;
 
 function activeFilterCount(){
   return (state.firmFilter?1:0) + (state.practiceFilterSet?1:0) +
     state.roleFilters.size + state.txnFilters.size + state.practiceFilters.size +
-    (state.query?1:0);
+    (state.query?1:0) + (sizeFilterActive()?1:0);
 }
 
 function clearAllFilters(){
@@ -540,6 +604,7 @@ function clearAllFilters(){
   state.roleFilters = new Set();
   state.txnFilters = new Set();
   state.practiceFilters = new Set();
+  state.sizeLo = 0; state.sizeHi = SIZE_MAX_IDX;
   state.query = '';
   document.getElementById('search').value = '';
   if(typeof updateSearchClearBtn === 'function') updateSearchClearBtn();
@@ -561,6 +626,7 @@ function matchesFilters(p){
   if(state.roleFilters.size && !state.roleFilters.has(p.role_bucket)) return false;
   if(state.txnFilters.size && ![...state.txnFilters].some(t=>p.transaction_types.includes(t))) return false;
   if(state.practiceFilters.size && ![...state.practiceFilters].some(a=>p.practice_areas.includes(a))) return false;
+  if(!matchesSize(p)) return false;
   if(!matchesQuery(p, state.query.toLowerCase())) return false;
   return true;
 }
@@ -578,6 +644,7 @@ function countsExcluding(exclude){
     if(exclude!=='role' && state.roleFilters.size && !state.roleFilters.has(p.role_bucket)) return false;
     if(exclude!=='txn' && state.txnFilters.size && ![...state.txnFilters].some(t=>p.transaction_types.includes(t))) return false;
     if(exclude!=='practice' && state.practiceFilters.size && ![...state.practiceFilters].some(a=>p.practice_areas.includes(a))) return false;
+    if(exclude!=='size' && !matchesSize(p)) return false;
     if(exclude!=='query' && !matchesQuery(p, state.query.toLowerCase())) return false;
     return true;
   };
@@ -653,6 +720,28 @@ function renderRail(){
     Clear filters${activeCount ? `<span class="badge">${activeCount}</span>` : ''}
   </button></div>`;
 
+  {
+    const collapsed = state.collapsedSections.has('size');
+    html += `<div class="rail-section-head"><h3>Deal size</h3>
+      <button class="expand-all-btn ${collapsed?'collapsed':''}" data-toggle-section="size" title="${collapsed?'Expand':'Collapse'}">
+        <span class="arrow">▾</span>
+      </button></div>`;
+    if(!collapsed){
+      const span = SIZE_MAX_IDX;
+      const left = (state.sizeLo / span * 100), right = (state.sizeHi / span * 100);
+      html += `<div class="size-filter">
+        <div class="size-readout ${sizeFilterActive()?'':'idle'}" id="sizeReadout">${esc(sizeReadout())}</div>
+        <div class="size-track">
+          <div class="size-fill" id="sizeFill" style="left:${left}%;width:${right-left}%"></div>
+          <input type="range" id="sizeLo" min="0" max="${span}" step="1" value="${state.sizeLo}" aria-label="Minimum deal size">
+          <input type="range" id="sizeHi" min="0" max="${span}" step="1" value="${state.sizeHi}" aria-label="Maximum deal size">
+        </div>
+        <div class="size-ticks">${[[0,'Any'],[4,'₹100 cr'],[7,'₹1,000 cr'],[10,'₹10,000 cr']].map(([i,t])=>`<span style="left:${i/span*100}%">${t}</span>`).join('')}</div>
+        <p class="size-note">Matches people on a deal with a reported size in this range. ${VALUED_DEALS.size} of ${DATA.stats.deals} deals report a figure; unreported deals are left out while this is set.</p>
+      </div>`;
+    }
+  }
+
   html += `<div class="rail-section-head"><h3>Firms</h3>
     <button class="expand-all-btn ${allExpanded?'':'collapsed'}" id="expandAllFirms" title="${allExpanded?'Collapse all':'Expand all'}">
       <span class="arrow">▾</span>${allExpanded?'Collapse all':'Expand all'}
@@ -703,6 +792,29 @@ function renderRail(){
   });
 
   rail.innerHTML = html;
+
+  const sizeLoEl = document.getElementById('sizeLo'), sizeHiEl = document.getElementById('sizeHi');
+  if(sizeLoEl && sizeHiEl){
+    const sync = (which)=>{
+      let lo = +sizeLoEl.value, hi = +sizeHiEl.value;
+      // the thumbs may touch but never cross
+      if(lo > hi){ if(which==='lo') lo = hi; else hi = lo; sizeLoEl.value = lo; sizeHiEl.value = hi; }
+      state.sizeLo = lo; state.sizeHi = hi;
+      document.getElementById('sizeReadout').textContent = sizeReadout();
+      document.getElementById('sizeReadout').classList.toggle('idle', !sizeFilterActive());
+      const fill = document.getElementById('sizeFill');
+      fill.style.left = (lo / SIZE_MAX_IDX * 100) + '%';
+      fill.style.width = ((hi - lo) / SIZE_MAX_IDX * 100) + '%';
+    };
+    // While dragging only the list is redrawn: re-rendering the rail would
+    // replace the very <input> being dragged and end the gesture. The rail's
+    // live counts catch up once the thumb is released ('change').
+    ['lo','hi'].forEach(w=>{
+      const el = w==='lo' ? sizeLoEl : sizeHiEl;
+      el.addEventListener('input', ()=>{ sync(w); renderList(); renderDetail(); });
+      el.addEventListener('change', ()=>{ sync(w); renderAll(); });
+    });
+  }
 
   const clearBtn = document.getElementById('clearFiltersBtn');
   if(clearBtn && activeCount){
@@ -1075,6 +1187,7 @@ function persistStateToHash(){
   if(state.roleFilters.size) parts.push('role=' + encodeURIComponent([...state.roleFilters].join('|')));
   if(state.txnFilters.size) parts.push('txn=' + encodeURIComponent([...state.txnFilters].join('|')));
   if(state.practiceFilters.size) parts.push('practice=' + encodeURIComponent([...state.practiceFilters].join('|')));
+  if(sizeFilterActive()) parts.push('size=' + state.sizeLo + '-' + state.sizeHi);
   if(state.view !== 'person') parts.push('view=' + state.view);
   if(state.sortBy !== 'deals') parts.push('sort=' + state.sortBy);
   const hash = parts.length ? '#' + parts.join('&') : ' ';
@@ -1091,6 +1204,10 @@ function restoreStateFromHash(){
   if(params.has('role')) state.roleFilters = new Set(params.get('role').split('|').filter(Boolean));
   if(params.has('txn')) state.txnFilters = new Set(params.get('txn').split('|').filter(Boolean));
   if(params.has('practice')) state.practiceFilters = new Set(params.get('practice').split('|').filter(Boolean));
+  if(params.has('size')){
+    const m = params.get('size').match(/^(\d+)-(\d+)$/);
+    if(m && +m[1] <= +m[2] && +m[2] <= SIZE_MAX_IDX){ state.sizeLo = +m[1]; state.sizeHi = +m[2]; }
+  }
   if(params.has('view') && params.get('view')==='firm') state.view = 'firm';
   if(params.has('sort')) state.sortBy = params.get('sort');
   searchInput.value = state.query;

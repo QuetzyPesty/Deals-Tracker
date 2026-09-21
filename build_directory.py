@@ -34,6 +34,8 @@ FIRM_ALIASES = {
     "saraf and partners": "Saraf and Partners",
     "argus partners": "Argus Partners",
     "luthra and luthra": "Luthra and Luthra",
+    "ic regfin legal": "IC RegFin Legal Partners",
+    "ic regfin legal partners": "IC RegFin Legal Partners",
     "s&r associates": "S&R Associates",
     "wadia ghandy": "Wadia Ghandy",
     "dsk legal": "DSK Legal",
@@ -580,7 +582,17 @@ def main():
                 continue
             # A person's own firm/client (confirmed from the source article) takes
             # priority over the deal-level guess of "first firm listed".
-            person_firm_id = get_firm_id(p["firm"]) if p.get("firm") else primary_firm_id
+            # Guessing "the deal's first firm" is only defensible when the deal
+            # HAS one firm. On a multi-firm deal it is a coin flip that put SAM's
+            # tax partner under TT&A, so the person is left unaffiliated instead
+            # (a miss) and merge_unaffiliated_people() folds them into their real
+            # firm's record when another deal names it (never a wrong call).
+            if p.get("firm"):
+                person_firm_id = get_firm_id(p["firm"])
+            elif len(deal_firm_ids) == 1:
+                person_firm_id = primary_firm_id
+            else:
+                person_firm_id = None
             pid = get_person_id(pname, person_firm_id, p.get("role"))
             # a personnel-move article isn't a matter -- record the
             # person's (now-current) firm/role above, but don't link them
