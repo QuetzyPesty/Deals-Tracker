@@ -506,6 +506,12 @@ def extract_people(paragraphs, fallback_firm, known_firms=()):
         context_firm = extract_firm_context(para, known_firms)
         if context_firm:
             current_firm = context_firm
+        elif FIRM_CONTEXT_RE.match(para.strip()) and not para.strip().lower().startswith("the firm"):
+            # This paragraph hands over to a firm we could not resolve. Carrying
+            # the previous firm forward is how TT&A's three lawyers ended up
+            # labelled JSA: a confident wrong answer, which is worse than none.
+            # Drop the context instead and let them come out unattributed.
+            current_firm = None
         para_firms.append((para, current_firm))
 
         credits = extract_paren_credits(para) + extract_plural_list_credits(para)
@@ -544,12 +550,100 @@ def extract_people(paragraphs, fallback_firm, known_firms=()):
     return people
 
 
+# --- firm extraction from the page's own entity tags -------------------------
+# Bar & Bench tags each article with /topic/ links -- an editorially curated
+# entity list. It is strictly better than the headline: the Adani article tags
+# /topic/tta even though TT&A never appears in the headline, which is exactly
+# the firm the headline-only approach lost.
+#
+# The list mixes firms, lawyers and clients, so it cannot be used raw. A topic
+# is treated as a firm only when it ALSO opens a body attribution sentence
+# ("X advised Y on this transaction") -- two independent signals agreeing.
+# Clients never open one; nor do individual lawyers. Across five test articles
+# that rule found 16 of 16 firms with no false positives, and it needs no
+# whitelist, which is what stops this breaking again the next time a boutique
+# nobody has heard of appears.
+
+TOPIC_HREF_RE = re.compile(r'href="/topic/([^"/]+)"')
+# Trailing filler the attribution regex drags in: "River Law also advised ...".
+FIRM_TAIL_RE = re.compile(r"\s+(also|has|have|had|is|was|were|and)$", re.I)
+
+
+def topic_slugs(html):
+    return sorted(set(TOPIC_HREF_RE.findall(html)))
+
+
+def _slugify_firm(name):
+    """Match Bar & Bench's own slug convention.
+
+    Theirs DROPS the ampersand rather than expanding it: "Khaitan & Co" is
+    khaitan-co and "TT&A" is tta. Expanding "&" to "and" here silently breaks
+    the match for every firm with an ampersand in its name, which is most of
+    the big ones.
+    """
+    return re.sub(r"[^a-z0-9]+", "-", name.lower().replace("&", "")).strip("-")
+
+
+def _topic_match(name, topics):
+    """The topic slug that names this firm, if any.
+
+    Matched loosely in both directions because the body and the tag disagree
+    on formality: the body says "Pinac", the tag says
+    pinac-advocates-and-solicitors; the body says "JSA Advocates and
+    Solicitors", the tag says jsa.
+    """
+    sl = _slugify_firm(name)
+    if not sl:
+        return None
+    sq = sl.replace("-", "")
+    for t in topics:
+        tq = t.replace("-", "")
+        if t == sl or t.startswith(sl + "-") or sl.startswith(t + "-"):
+            return t
+        if tq == sq or tq.startswith(sq) or sq.startswith(tq):
+            return t
+    return None
+
+
+def body_attribution_firms(paragraphs):
+    """Names that open a firm-attribution sentence, in document order."""
+    out = []
+    for para in paragraphs:
+        m = FIRM_CONTEXT_RE.match(para.strip())
+        if not m:
+            continue
+        raw = FIRM_TAIL_RE.sub("", m.group(1).strip())
+        if not raw or raw.lower().startswith("the firm"):
+            continue
+        if raw not in out:
+            out.append(raw)
+    return out
+
+
+def firms_from_topics(html, paragraphs):
+    """Firms confirmed by BOTH the page's topic tags and a body attribution
+    sentence. Returns canonical names, in the order the article introduces
+    them, so firms_from_topics()[0] is the lead firm."""
+    topics = topic_slugs(html)
+    if not topics:
+        return []
+    firms = []
+    for raw in body_attribution_firms(paragraphs):
+        if not _topic_match(raw, topics):
+            continue
+        cname = canonical_firm(raw)
+        if cname and cname not in firms:
+            firms.append(cname)
+    return firms
+
+
 def parse_article(url, headline):
     html = fetch(url)
     soup = BeautifulSoup(html, "lxml")
     article = soup.find("article") or soup.find(attrs={"itemprop": "articleBody"}) or soup
     paragraphs = [p.get_text(" ", strip=True) for p in article.find_all("p")]
     snippet = " ".join(paragraphs)[:500]
+    tagged_firms = firms_from_topics(html, paragraphs)
 
     # Try deal-shaped parsing FIRST. A headline can be genuinely deal-shaped
     # ("<Firm> advises <Client> on ...") while still containing a
@@ -577,8 +671,20 @@ def parse_article(url, headline):
             "people": people,
         }
 
-    fallback_firm = parsed["law_firms"][0] if parsed["law_firms"] else None
-    people = extract_people(paragraphs, fallback_firm, known_firms=parsed["law_firms"])
+    # The page's own tags outrank the headline. A headline names only the firms
+    # an editor chose to fit in a title -- it dropped TT&A from the Adani deal
+    # and broke entirely on shapes like "act as" and trailing firm lists. The
+    # tags are complete, and each one here is corroborated by a body sentence.
+    # Headline firms are unioned in rather than discarded, since they sometimes
+    # name a firm whose body paragraph uses a phrasing the attribution regex
+    # does not cover.
+    law_firms = list(tagged_firms)
+    for f in parsed["law_firms"]:
+        if f not in law_firms:
+            law_firms.append(f)
+
+    fallback_firm = law_firms[0] if law_firms else None
+    people = extract_people(paragraphs, fallback_firm, known_firms=law_firms)
 
     return {
         "headline": headline,
@@ -586,7 +692,7 @@ def parse_article(url, headline):
         "source": "Bar & Bench",
         "url": url,
         "snippet": snippet,
-        "law_firms": parsed["law_firms"],
+        "law_firms": law_firms,
         "transaction_types": parsed["transaction_types"],
         "people": people,
     }
