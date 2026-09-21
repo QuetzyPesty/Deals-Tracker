@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 3770,
+    "people": 3774,
     "firms": 128,
-    "deals": 523,
+    "deals": 525,
     "practice_areas": 6
   },
   "firms": [
@@ -2294,7 +2294,7 @@
     },
     {
       "firm": "JSA Advocates & Solicitors",
-      "people_count": 384,
+      "people_count": 386,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -2662,6 +2662,7 @@
             1565,
             1564,
             137,
+            3772,
             2221,
             133,
             2902,
@@ -2693,6 +2694,7 @@
             1700,
             2135,
             499,
+            3773,
             891
           ]
         },
@@ -5082,7 +5084,7 @@
     },
     {
       "firm": "Talwar Thakore & Associates",
-      "people_count": 76,
+      "people_count": 78,
       "practice_groups": [
         {
           "area": "Private Equity & Venture Capital",
@@ -5161,6 +5163,7 @@
             1281,
             3342,
             2973,
+            3775,
             976,
             2974,
             444,
@@ -5169,6 +5172,7 @@
             2977,
             2975,
             3343,
+            3774,
             1353,
             729,
             3344,
@@ -8966,7 +8970,8 @@
         "Book Running Lead Managers",
         "APAR Industries",
         "Aragen Life Sciences",
-        "Nobel Hygiene"
+        "Nobel Hygiene",
+        "Kanohar Electricals"
       ],
       "deals": [
         {
@@ -9090,6 +9095,25 @@
             "amount": 1500000000,
             "amount_inr": 1500000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "Trilegal, Verist Law, TT&A, Duane Morris act on Kanohar Electricals ₹1,055 crore IPO",
+          "client": "Kanohar Electricals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-verist-law-tta-duane-morris-act-on-kanohar-electricals-1055-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,055 crore",
+            "currency": "INR",
+            "amount": 10550000000,
+            "amount_inr": 10550000000,
+            "approx": false
           }
         }
       ],
@@ -10551,7 +10575,8 @@
       "clients": [
         "Citigroup Global Markets India",
         "Book-Running Lead Managers",
-        "Jefferies India Private Limited"
+        "Jefferies India Private Limited",
+        "Kanohar Electricals"
       ],
       "deals": [
         {
@@ -10584,6 +10609,25 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "Trilegal, Verist Law, TT&A, Duane Morris act on Kanohar Electricals ₹1,055 crore IPO",
+          "client": "Kanohar Electricals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-verist-law-tta-duane-morris-act-on-kanohar-electricals-1055-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,055 crore",
+            "currency": "INR",
+            "amount": 10550000000,
+            "amount_inr": 10550000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "JSA, TT&A, Baker & McKenzie advise brokers on Mylan Inc's ₹3,679 crore exit from Biocon"
@@ -18315,13 +18359,15 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "IPO",
         "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
       ],
       "clients": [
-        "APAR Industries"
+        "APAR Industries",
+        "Kanohar Electricals"
       ],
       "deals": [
         {
@@ -18340,6 +18386,25 @@
             "currency": "INR",
             "amount": 25000000000,
             "amount_inr": 25000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Verist Law, TT&A, Duane Morris act on Kanohar Electricals ₹1,055 crore IPO",
+          "client": "Kanohar Electricals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-verist-law-tta-duane-morris-act-on-kanohar-electricals-1055-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,055 crore",
+            "currency": "INR",
+            "amount": 10550000000,
+            "amount_inr": 10550000000,
             "approx": false
           }
         }
@@ -31389,7 +31454,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "E2E Networks"
+        "E2E Networks",
+        "Neogen Chemicals"
       ],
       "deals": [
         {
@@ -31404,6 +31470,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "JSA acts on Neogen Chemicals ₹600 crore QIP",
+          "client": "Neogen Chemicals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-neogen-chemicals-600-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹600 crore",
+            "currency": "INR",
+            "amount": 6000000000,
+            "amount_inr": 6000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "JSA acts on E2E Networks ₹107 crore QIP - BarandBench"
@@ -32095,7 +32180,8 @@
         "Book Running Lead Managers (Axis Capital Limited and DAM Capital Advisors Limited)",
         "Nuvama Wealth Management Limited (Lead Manager)",
         "Atomberg",
-        "Glass Wall Systems"
+        "Glass Wall Systems",
+        "Neogen Chemicals"
       ],
       "deals": [
         {
@@ -32369,6 +32455,25 @@
             "currency": "INR",
             "amount": 4270000000,
             "amount_inr": 4270000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "JSA acts on Neogen Chemicals ₹600 crore QIP",
+          "client": "Neogen Chemicals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-neogen-chemicals-600-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹600 crore",
+            "currency": "INR",
+            "amount": 6000000000,
+            "amount_inr": 6000000000,
             "approx": false
           }
         }
@@ -37404,7 +37509,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Kanohar Electricals"
       ],
       "deals": [
         {
@@ -37419,6 +37525,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Trilegal, Verist Law, TT&A, Duane Morris act on Kanohar Electricals ₹1,055 crore IPO",
+          "client": "Kanohar Electricals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-verist-law-tta-duane-morris-act-on-kanohar-electricals-1055-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,055 crore",
+            "currency": "INR",
+            "amount": 10550000000,
+            "amount_inr": 10550000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal, Verist Law, TT&A, Hogan Lovells act on Marri Retail ₹522 crore+ proposed IPO"
@@ -43012,6 +43137,44 @@
         }
       ],
       "snapshot": "SAM, S&R Associates act on Orkla India ₹1667 crore IPO - Bar and Bench"
+    },
+    {
+      "id": 3775,
+      "name": "Chinmaya Jain",
+      "firm": "Talwar Thakore & Associates",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Kanohar Electricals"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Verist Law, TT&A, Duane Morris act on Kanohar Electricals ₹1,055 crore IPO",
+          "client": "Kanohar Electricals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-verist-law-tta-duane-morris-act-on-kanohar-electricals-1055-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,055 crore",
+            "currency": "INR",
+            "amount": 10550000000,
+            "amount_inr": 10550000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Trilegal, Verist Law, TT&A, Duane Morris act on Kanohar Electricals ₹1,055 crore IPO"
     },
     {
       "id": 3584,
@@ -68304,7 +68467,8 @@
         "Zota Health Care Limited",
         "BRLMs",
         "Atomberg",
-        "Glass Wall Systems"
+        "Glass Wall Systems",
+        "Neogen Chemicals"
       ],
       "deals": [
         {
@@ -68407,6 +68571,25 @@
             "currency": "INR",
             "amount": 4270000000,
             "amount_inr": 4270000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "JSA acts on Neogen Chemicals ₹600 crore QIP",
+          "client": "Neogen Chemicals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-neogen-chemicals-600-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹600 crore",
+            "currency": "INR",
+            "amount": 6000000000,
+            "amount_inr": 6000000000,
             "approx": false
           }
         }
@@ -72358,7 +72541,8 @@
       ],
       "clients": [
         "Book Running Lead Managers",
-        "Nobel Hygiene"
+        "Nobel Hygiene",
+        "Kanohar Electricals"
       ],
       "deals": [
         {
@@ -72391,6 +72575,25 @@
             "amount": 1500000000,
             "amount_inr": 1500000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "Trilegal, Verist Law, TT&A, Duane Morris act on Kanohar Electricals ₹1,055 crore IPO",
+          "client": "Kanohar Electricals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-verist-law-tta-duane-morris-act-on-kanohar-electricals-1055-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,055 crore",
+            "currency": "INR",
+            "amount": 10550000000,
+            "amount_inr": 10550000000,
+            "approx": false
           }
         }
       ],
@@ -73268,6 +73471,44 @@
         }
       ],
       "snapshot": "JSA assists Continuum Green Energy on securing ₹1,350 crore from Chubu Electric Power Co."
+    },
+    {
+      "id": 3772,
+      "name": "Khushvi Kanungo",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "QIP"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Neogen Chemicals"
+      ],
+      "deals": [
+        {
+          "headline": "JSA acts on Neogen Chemicals ₹600 crore QIP",
+          "client": "Neogen Chemicals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-neogen-chemicals-600-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹600 crore",
+            "currency": "INR",
+            "amount": 6000000000,
+            "amount_inr": 6000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "JSA acts on Neogen Chemicals ₹600 crore QIP"
     },
     {
       "id": 2226,
@@ -83750,13 +83991,15 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "IPO",
         "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
       ],
       "clients": [
-        "Jefferies India Private Limited"
+        "Jefferies India Private Limited",
+        "Kanohar Electricals"
       ],
       "deals": [
         {
@@ -83771,6 +84014,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Trilegal, Verist Law, TT&A, Duane Morris act on Kanohar Electricals ₹1,055 crore IPO",
+          "client": "Kanohar Electricals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-verist-law-tta-duane-morris-act-on-kanohar-electricals-1055-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,055 crore",
+            "currency": "INR",
+            "amount": 10550000000,
+            "amount_inr": 10550000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas, Trilegal, Sidley Austin act on Belrise Industries ₹1,700 crore QIP"
@@ -89314,7 +89576,8 @@
         "Lead Managers",
         "Power Finance Corporation and lead managers",
         "Book Running Lead Managers",
-        "Gaja Capital"
+        "Gaja Capital",
+        "Kanohar Electricals"
       ],
       "deals": [
         {
@@ -89394,6 +89657,25 @@
             "currency": "INR",
             "amount": 5500000000,
             "amount_inr": 5500000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Verist Law, TT&A, Duane Morris act on Kanohar Electricals ₹1,055 crore IPO",
+          "client": "Kanohar Electricals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-verist-law-tta-duane-morris-act-on-kanohar-electricals-1055-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,055 crore",
+            "currency": "INR",
+            "amount": 10550000000,
+            "amount_inr": 10550000000,
             "approx": false
           }
         }
@@ -89716,6 +89998,44 @@
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Adani Enterprises ... - Bar and Bench"
+    },
+    {
+      "id": 3774,
+      "name": "Nadiya Murshed",
+      "firm": "Talwar Thakore & Associates",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Kanohar Electricals"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Verist Law, TT&A, Duane Morris act on Kanohar Electricals ₹1,055 crore IPO",
+          "client": "Kanohar Electricals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-verist-law-tta-duane-morris-act-on-kanohar-electricals-1055-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,055 crore",
+            "currency": "INR",
+            "amount": 10550000000,
+            "amount_inr": 10550000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Trilegal, Verist Law, TT&A, Duane Morris act on Kanohar Electricals ₹1,055 crore IPO"
     },
     {
       "id": 1754,
@@ -99069,6 +99389,7 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "IPO",
         "QIP"
       ],
       "practice_areas": [
@@ -99076,7 +99397,8 @@
       ],
       "clients": [
         "Jefferies India Private Limited",
-        "Lead Managers"
+        "Lead Managers",
+        "Kanohar Electricals"
       ],
       "deals": [
         {
@@ -99104,6 +99426,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Trilegal, Verist Law, TT&A, Duane Morris act on Kanohar Electricals ₹1,055 crore IPO",
+          "client": "Kanohar Electricals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-verist-law-tta-duane-morris-act-on-kanohar-electricals-1055-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,055 crore",
+            "currency": "INR",
+            "amount": 10550000000,
+            "amount_inr": 10550000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas, Trilegal, Sidley Austin act on Belrise Industries ₹1,700 crore QIP"
@@ -101564,7 +101905,8 @@
         "Zota Health Care Limited",
         "BRLMs",
         "Atomberg",
-        "Glass Wall Systems"
+        "Glass Wall Systems",
+        "Neogen Chemicals"
       ],
       "deals": [
         {
@@ -101725,6 +102067,25 @@
             "currency": "INR",
             "amount": 4270000000,
             "amount_inr": 4270000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "JSA acts on Neogen Chemicals ₹600 crore QIP",
+          "client": "Neogen Chemicals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-neogen-chemicals-600-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹600 crore",
+            "currency": "INR",
+            "amount": 6000000000,
+            "amount_inr": 6000000000,
             "approx": false
           }
         }
@@ -111377,7 +111738,8 @@
       "clients": [
         "Jefferies India Private Limited",
         "Book Running Lead Managers",
-        "Gaja Capital"
+        "Gaja Capital",
+        "Kanohar Electricals"
       ],
       "deals": [
         {
@@ -111422,6 +111784,25 @@
             "currency": "INR",
             "amount": 5500000000,
             "amount_inr": 5500000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Verist Law, TT&A, Duane Morris act on Kanohar Electricals ₹1,055 crore IPO",
+          "client": "Kanohar Electricals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-verist-law-tta-duane-morris-act-on-kanohar-electricals-1055-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,055 crore",
+            "currency": "INR",
+            "amount": 10550000000,
+            "amount_inr": 10550000000,
             "approx": false
           }
         }
@@ -111719,7 +112100,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Gaja Capital"
+        "Gaja Capital",
+        "Kanohar Electricals"
       ],
       "deals": [
         {
@@ -111738,6 +112120,25 @@
             "currency": "INR",
             "amount": 5500000000,
             "amount_inr": 5500000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Verist Law, TT&A, Duane Morris act on Kanohar Electricals ₹1,055 crore IPO",
+          "client": "Kanohar Electricals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-verist-law-tta-duane-morris-act-on-kanohar-electricals-1055-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,055 crore",
+            "currency": "INR",
+            "amount": 10550000000,
+            "amount_inr": 10550000000,
             "approx": false
           }
         }
@@ -115671,7 +116072,8 @@
         "Motilal Oswal Group",
         "Gaja Capital",
         "Gujarat Themis Biosyn",
-        "Pranav Constructions'"
+        "Pranav Constructions'",
+        "Kanohar Electricals"
       ],
       "deals": [
         {
@@ -115968,6 +116370,25 @@
             "currency": "INR",
             "amount": 3510000000,
             "amount_inr": 3510000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Verist Law, TT&A, Duane Morris act on Kanohar Electricals ₹1,055 crore IPO",
+          "client": "Kanohar Electricals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-verist-law-tta-duane-morris-act-on-kanohar-electricals-1055-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,055 crore",
+            "currency": "INR",
+            "amount": 10550000000,
+            "amount_inr": 10550000000,
             "approx": false
           }
         }
@@ -165599,6 +166020,44 @@
       "snapshot": "Trilegal, Cooley, AZB, Latham, SAM, CMS INDUSLAW act on CRED securing $900 million from Meta"
     },
     {
+      "id": 3773,
+      "name": "Yana Nazareth",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "QIP"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Neogen Chemicals"
+      ],
+      "deals": [
+        {
+          "headline": "JSA acts on Neogen Chemicals ₹600 crore QIP",
+          "client": "Neogen Chemicals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-neogen-chemicals-600-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹600 crore",
+            "currency": "INR",
+            "amount": 6000000000,
+            "amount_inr": 6000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "JSA acts on Neogen Chemicals ₹600 crore QIP"
+    },
+    {
       "id": 1427,
       "name": "Yash Anand",
       "firm": "AZB & Partners",
@@ -165672,8 +166131,8 @@
       "id": 979,
       "name": "Yash Bhandari",
       "firm": "Talwar Thakore & Associates",
-      "role": "Paralegal",
-      "role_bucket": "Other",
+      "role": "Associate",
+      "role_bucket": "Associate",
       "transaction_types": [
         "IPO"
       ],
@@ -165681,7 +166140,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Book-Running Lead Managers"
+        "Book-Running Lead Managers",
+        "Kanohar Electricals"
       ],
       "deals": [
         {
@@ -165696,6 +166156,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Trilegal, Verist Law, TT&A, Duane Morris act on Kanohar Electricals ₹1,055 crore IPO",
+          "client": "Kanohar Electricals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-verist-law-tta-duane-morris-act-on-kanohar-electricals-1055-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,055 crore",
+            "currency": "INR",
+            "amount": 10550000000,
+            "amount_inr": 10550000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM, Trilegal, TT&A, Hogan Lovells act on Rentomojo proposed ₹150 crore+ IPO"

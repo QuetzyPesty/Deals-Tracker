@@ -12297,5 +12297,156 @@
         "firm": "JSA Advocates & Solicitors"
       }
     ]
+  },
+  {
+    "headline": "JSA acts on Neogen Chemicals ₹600 crore QIP",
+    "client": "Neogen Chemicals",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-neogen-chemicals-600-crore-qip",
+    "snippet": "Neogen Chemicals Limited has raised ₹600 crore from a qualified institutional placement of equity shares. JSA Advocates and Solicitors advised the Lead Managers, Inga Ventures Private Limited, IIFL Capital Services Limited and Kotak Mahindra Capital Company Limited, on this QIP. The transaction was led by Arka Mookerjee (Partner), with support from Pracheta Bhattacharya (Partner), Kairav Parikh (Partner), Associates Arika Gupta, Khushvi Kanungo and Yana Nazareth. Neogen Chemicals is a global spe",
+    "law_firms": [
+      "JSA Advocates & Solicitors"
+    ],
+    "transaction_types": [
+      "QIP"
+    ],
+    "deal_value": {
+      "raw": "₹600 crore",
+      "currency": "INR",
+      "amount": 6000000000,
+      "amount_inr": 6000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Arka Mookerjee",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Pracheta Bhattacharya",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Kairav Parikh",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Arika Gupta",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Khushvi Kanungo",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Yana Nazareth",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      }
+    ]
+  },
+  {
+    "headline": "Trilegal, Verist Law, TT&A, Duane Morris act on Kanohar Electricals ₹1,055 crore IPO",
+    "client": "Kanohar Electricals",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-verist-law-tta-duane-morris-act-on-kanohar-electricals-1055-crore-ipo",
+    "snippet": "Kanohar Electricals Limited has raised ₹1,055.7 crore from an initial public offering of equity shares comprising a fresh issue of equity shares and an offer for sale by K Sons Family Trust, the promoter selling shareholder. The offering also included a pre-IPO sale, pursuant to which the promoter selling shareholder sold equity shares aggregating to ₹200 crore to certain prominent long-term investors. Trilegal advised Kanohar Electricals on the IPO. The transaction was led by Richa Choudhary (P",
+    "law_firms": [
+      "Trilegal",
+      "Verist Law",
+      "Talwar Thakore & Associates",
+      "Duane Morris & Selvam"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "deal_value": {
+      "raw": "₹1,055 crore",
+      "currency": "INR",
+      "amount": 10550000000,
+      "amount_inr": 10550000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Richa Choudhary",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Murtaza Zoomkawala",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Rainika Malhotra",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Rajat Chauksey",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Pallavi Vuppu",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Manya Sharma",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Abhinav Kumar",
+        "role": "Partner",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Ayana Banerjee",
+        "role": "Senior Associate",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Abhishek Iyer",
+        "role": "Senior Associate",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Akshita Sharma",
+        "role": "Associate",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Keshav Yadav",
+        "role": "Associate",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Yash Bhandari",
+        "role": "Associate",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Nadiya Murshed",
+        "role": "Associate",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Chinmaya Jain",
+        "role": "Associate",
+        "firm": "Talwar Thakore & Associates"
+      }
+    ]
   }
 ]
