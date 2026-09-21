@@ -224,6 +224,13 @@
   /* Deal-size range slider: two range inputs stacked on one track. The inputs
      themselves ignore the pointer (so the two do not block each other); only
      their thumbs take it. */
+  /* Per-person deal-size chips. Reported figures only: "not reported" is muted,
+     never shown as zero. */
+  .size-chips{ display:flex; flex-wrap:wrap; gap:8px; margin:12px 0 0; }
+  .size-chip{ display:flex; flex-direction:column; gap:1px; padding:6px 12px; border-radius:14px;
+    background:var(--surface-2, rgba(127,127,127,.12)); font-size:11px; color:var(--on-surface-var); }
+  .size-chip b{ font-size:14px; color:var(--on-surface); font-weight:700; }
+  .size-chip.none b{ color:var(--on-surface-var); font-weight:500; font-size:12px; }
   .size-filter{ padding:0 12px; }
   .size-readout{ font-size:12.5px; font-weight:600; color:var(--on-surface); margin:2px 0 10px; }
   .size-readout.idle{ color:var(--on-surface-var); font-weight:500; }
@@ -1012,6 +1019,25 @@ function renderList(){
   }
 }
 
+// Two chips on a profile: the biggest single reported deal (shown in the
+// currency it was reported in) and the total across the person's reported
+// deals. The total sums INR-converted figures at the fixed rates, hence the
+// "≈"; each deal counts in full, it is the size of the transaction the person
+// worked on, not their share of it. Unreported deals are skipped, not zeroed.
+function sizeChipsHtml(p){
+  const valued = p.deals.filter(d => dealValue(d) !== null);
+  if(!valued.length){
+    return `<div class="size-chips"><div class="size-chip none"><b>Not reported</b>deal size · none of ${p.deals.length} deal${p.deals.length===1?'':'s'} state a figure</div></div>`;
+  }
+  const top = valued.reduce((a,b)=> dealValue(b) > dealValue(a) ? b : a);
+  const total = totalDealValue(p);
+  const unreported = p.deals.length - valued.length;
+  return `<div class="size-chips">
+    <div class="size-chip" title="${esc(top.headline)}"><b>${esc(top.value.raw)}</b>largest reported deal</div>
+    <div class="size-chip" title="Sum of the reported sizes of every deal this person worked on, converted to INR at fixed rates. Each deal counts in full."><b>≈ ${esc(fmtInr(total))}</b>total across ${valued.length} reported deal${valued.length===1?'':'s'}${unreported ? ` · ${unreported} unreported` : ''}</div>
+  </div>`;
+}
+
 function renderDetail(){
   const aside = document.getElementById('detail');
   const app = document.getElementById('app');
@@ -1037,6 +1063,7 @@ function renderDetail(){
       <div><b>${p.transaction_types.length}</b>txn types</div>
       <div><b>${p.clients.length}</b>named clients</div>
     </div>
+    ${sizeChipsHtml(p)}
   </div>
   <div class="detail-body">`;
 

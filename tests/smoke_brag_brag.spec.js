@@ -187,3 +187,19 @@ test('both thumbs can be grabbed with a real mouse drag', async ({ page }) => {
   expect(s.lo).toBeLessThanOrEqual(s.hi);
   await expect(page.locator('#sizeReadout')).not.toHaveText('Any size');
 });
+
+test('profile shows largest and total reported deal chips, and never zero for unreported', async ({ page }) => {
+  await page.goto('/index.html');
+  const r = await page.evaluate(() => {
+    const withV = PEOPLE.filter(p => p.deals.some(d => dealValue(d) !== null) && p.deals.some(d => dealValue(d) === null))[0];
+    const noV = PEOPLE.filter(p => p.deals.every(d => dealValue(d) === null))[0];
+    const show = p => { state.selectedId = p.id; renderDetail(); return document.querySelector('.size-chips').innerText; };
+    return { withV: show(withV), noV: show(noV), expectTotal: fmtInr(totalDealValue(withV)),
+             expectLargest: withV.deals.filter(d=>dealValue(d)!==null).sort((a,b)=>dealValue(b)-dealValue(a))[0].value.raw };
+  });
+  expect(r.withV).toContain(r.expectLargest);
+  expect(r.withV).toContain(r.expectTotal);
+  expect(r.withV).toMatch(/unreported/);
+  expect(r.noV).toContain('Not reported');
+  expect(r.noV).not.toMatch(/₹\s*0/);
+});
