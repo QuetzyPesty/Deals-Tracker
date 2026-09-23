@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 3774,
-    "firms": 128,
-    "deals": 525,
+    "people": 3806,
+    "firms": 130,
+    "deals": 536,
     "practice_areas": 6
   },
   "firms": [
@@ -78,6 +78,7 @@
     "Lexygen",
     "Linklaters",
     "Luthra and Luthra",
+    "Luthra and Luthra Law Offices India",
     "Mayer Brown",
     "McDermott Will & Schulte",
     "Mindspright Legal",
@@ -98,6 +99,7 @@
     "Rajani Associates",
     "River Law",
     "S&R Associates",
+    "S&T Legal",
     "SKS Advisor",
     "SNG & Partners",
     "Saga Legal",
@@ -702,11 +704,12 @@
     },
     {
       "firm": "C&S Partners",
-      "people_count": 9,
+      "people_count": 10,
       "practice_groups": [
         {
           "area": "Unclassified",
           "person_ids": [
+            3792,
             3622,
             3618,
             3623,
@@ -960,7 +963,7 @@
     },
     {
       "firm": "Cyril Amarchand Mangaldas",
-      "people_count": 596,
+      "people_count": 602,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -1210,6 +1213,7 @@
             1692,
             23,
             638,
+            3776,
             124,
             963,
             1865,
@@ -1226,10 +1230,12 @@
             967,
             911,
             810,
+            3789,
             916,
             34,
             122,
             801,
+            3777,
             2320,
             809,
             1154,
@@ -1244,6 +1250,7 @@
             3401,
             2457,
             1749,
+            3787,
             2676,
             2848,
             117,
@@ -1319,11 +1326,13 @@
             2487,
             41,
             1262,
+            3788,
             1525,
             1461,
             3500,
             1688,
             2156,
+            3807,
             1750,
             2596,
             1856,
@@ -1335,6 +1344,7 @@
             2162,
             1687,
             1460,
+            3053,
             970
           ]
         },
@@ -1503,8 +1513,7 @@
             1774,
             942,
             909,
-            2324,
-            3053
+            2324
           ]
         },
         {
@@ -2208,12 +2217,13 @@
     },
     {
       "firm": "Hogan Lovells Cadwalader",
-      "people_count": 10,
+      "people_count": 12,
       "practice_groups": [
         {
           "area": "Capital Markets",
           "person_ids": [
             1793,
+            3791,
             1791,
             3613,
             1792,
@@ -2222,7 +2232,8 @@
             1795,
             3614,
             1868,
-            1867
+            1867,
+            3790
           ]
         }
       ]
@@ -3740,12 +3751,13 @@
     },
     {
       "firm": "Legacy Law Offices",
-      "people_count": 9,
+      "people_count": 12,
       "practice_groups": [
         {
           "area": "Capital Markets",
           "person_ids": [
             3051,
+            3786,
             3452,
             3049,
             3047,
@@ -3753,7 +3765,9 @@
             3052,
             3048,
             3753,
-            3453
+            3784,
+            3453,
+            3785
           ]
         }
       ]
@@ -3862,15 +3876,29 @@
     },
     {
       "firm": "Luthra and Luthra",
-      "people_count": 1,
+      "people_count": 10,
       "practice_groups": [
         {
           "area": "Capital Markets",
           "person_ids": [
-            3480
+            3480,
+            3794,
+            3795,
+            3796,
+            3797,
+            3798,
+            3793,
+            3799,
+            3800,
+            3801
           ]
         }
       ]
+    },
+    {
+      "firm": "Luthra and Luthra Law Offices India",
+      "people_count": 0,
+      "practice_groups": []
     },
     {
       "firm": "Mayer Brown",
@@ -4035,7 +4063,7 @@
     },
     {
       "firm": "Phoenix Legal",
-      "people_count": 6,
+      "people_count": 9,
       "practice_groups": [
         {
           "area": "Private Equity & Venture Capital",
@@ -4046,6 +4074,16 @@
             2834,
             2833,
             110
+          ]
+        },
+        {
+          "area": "Mergers & Acquisitions",
+          "person_ids": [
+            3803,
+            108,
+            3804,
+            110,
+            3802
           ]
         }
       ]
@@ -4221,6 +4259,22 @@
             751,
             1223,
             1224
+          ]
+        }
+      ]
+    },
+    {
+      "firm": "S&T Legal",
+      "people_count": 5,
+      "practice_groups": [
+        {
+          "area": "Mergers & Acquisitions",
+          "person_ids": [
+            3779,
+            3781,
+            3782,
+            3783,
+            3780
           ]
         }
       ]
@@ -5278,7 +5332,7 @@
     },
     {
       "firm": "Trilegal",
-      "people_count": 531,
+      "people_count": 533,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -5803,9 +5857,11 @@
             516,
             2970,
             129,
+            3806,
             2967,
             1438,
             779,
+            3778,
             1844,
             420,
             712,
@@ -6130,7 +6186,7 @@
     },
     {
       "firm": "Vidhigya Associates",
-      "people_count": 4,
+      "people_count": 5,
       "practice_groups": [
         {
           "area": "Capital Markets",
@@ -6138,6 +6194,7 @@
             3488,
             3486,
             3485,
+            3805,
             3487
           ]
         }
@@ -6701,7 +6758,8 @@
       ],
       "clients": [
         "Amagi",
-        "Shiprocket"
+        "Shiprocket",
+        "Rentomojo"
       ],
       "deals": [
         {
@@ -6733,6 +6791,25 @@
             "currency": "INR",
             "amount": 16170000000,
             "amount_inr": 16170000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+          "client": "Rentomojo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,255 crore",
+            "currency": "INR",
+            "amount": 12550000000,
+            "amount_inr": 12550000000,
             "approx": false
           }
         }
@@ -6996,7 +7073,8 @@
       ],
       "clients": [
         "Placement Agents",
-        "Rentomojo & Promoter Selling Shareholder"
+        "Rentomojo & Promoter Selling Shareholder",
+        "Rentomojo"
       ],
       "deals": [
         {
@@ -7024,6 +7102,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+          "client": "Rentomojo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,255 crore",
+            "currency": "INR",
+            "amount": 12550000000,
+            "amount_inr": 12550000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "SAM, CAM act on Poonawalla Fincorp on ₹2,500 crore QIP - Bar and Bench"
@@ -8256,6 +8353,30 @@
       "snapshot": "Cyril Amarchand Mangaldas advises Kotak Mahindra Bank on acquisition of Private ..."
     },
     {
+      "id": 3792,
+      "name": "Abhijeet Kumar",
+      "firm": "C&S Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Dr. Lal Ventures"
+      ],
+      "deals": [
+        {
+          "headline": "C&S Partners advises Dr. Lal Ventures on acquiring 30% stake in Neuome Technologies",
+          "client": "Dr. Lal Ventures",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cs-partners-advises-dr-lal-ventures-on-acquiring-30-stake-in-neuome-technologies",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "C&S Partners advises Dr. Lal Ventures on acquiring 30% stake in Neuome Technologies"
+    },
+    {
       "id": 3699,
       "name": "Abhijeet Singh",
       "firm": "Trilegal",
@@ -8294,6 +8415,38 @@
         }
       ],
       "snapshot": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ"
+    },
+    {
+      "id": 3803,
+      "name": "Abhijit Durunde",
+      "firm": "Phoenix Legal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Celerity"
+      ],
+      "deals": [
+        {
+          "headline": "Phoenix Legal advises Celerity on Indian leg of acquisition of Insight 2 Value",
+          "client": "Celerity",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/phoenix-legal-advises-celerity-on-indian-leg-of-acquisition-of-insight-2-value",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Phoenix Legal advises Celerity on Indian leg of acquisition of Insight 2 Value"
     },
     {
       "id": 586,
@@ -8971,7 +9124,8 @@
         "APAR Industries",
         "Aragen Life Sciences",
         "Nobel Hygiene",
-        "Kanohar Electricals"
+        "Kanohar Electricals",
+        "Rentomojo"
       ],
       "deals": [
         {
@@ -9113,6 +9267,25 @@
             "currency": "INR",
             "amount": 10550000000,
             "amount_inr": 10550000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+          "client": "Rentomojo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,255 crore",
+            "currency": "INR",
+            "amount": 12550000000,
+            "amount_inr": 12550000000,
             "approx": false
           }
         }
@@ -10576,7 +10749,8 @@
         "Citigroup Global Markets India",
         "Book-Running Lead Managers",
         "Jefferies India Private Limited",
-        "Kanohar Electricals"
+        "Kanohar Electricals",
+        "Rentomojo"
       ],
       "deals": [
         {
@@ -10626,6 +10800,25 @@
             "currency": "INR",
             "amount": 10550000000,
             "amount_inr": 10550000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+          "client": "Rentomojo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,255 crore",
+            "currency": "INR",
+            "amount": 12550000000,
+            "amount_inr": 12550000000,
             "approx": false
           }
         }
@@ -11815,7 +12008,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "ARCIL"
       ],
       "deals": [
         {
@@ -11832,6 +12026,25 @@
             "Private Equity & Venture Capital"
           ],
           "value": null
+        },
+        {
+          "headline": "Trilegal, Cyril Amarchand Mangaldas, Hogan Lovells Cadwalader act on ARCIL ₹732 crore IPO",
+          "client": "ARCIL",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cyril-amarchand-mangaldas-hogan-lovells-cadwalader-act-on-arcil-732-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹732 crore",
+            "currency": "INR",
+            "amount": 7320000000,
+            "amount_inr": 7320000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Khaitan & Co, Trilegal, Hogan Lovells act on Milestone Gears ₹1,100 crore proposed IPO"
@@ -13096,6 +13309,64 @@
         }
       ],
       "snapshot": "SAM advises Tata Steel on ₹636 crore stake acquisition in Thriveni Pellets - Bar and Bench"
+    },
+    {
+      "id": 3791,
+      "name": "Aditya Dsouza",
+      "firm": "Hogan Lovells Cadwalader",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Rentomojo",
+        "ARCIL"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+          "client": "Rentomojo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,255 crore",
+            "currency": "INR",
+            "amount": 12550000000,
+            "amount_inr": 12550000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Cyril Amarchand Mangaldas, Hogan Lovells Cadwalader act on ARCIL ₹732 crore IPO",
+          "client": "ARCIL",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cyril-amarchand-mangaldas-hogan-lovells-cadwalader-act-on-arcil-732-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹732 crore",
+            "currency": "INR",
+            "amount": 7320000000,
+            "amount_inr": 7320000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO"
     },
     {
       "id": 2567,
@@ -16356,7 +16627,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "GSP Crop Science"
+        "GSP Crop Science",
+        "ARCIL"
       ],
       "deals": [
         {
@@ -16371,6 +16643,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Trilegal, Cyril Amarchand Mangaldas, Hogan Lovells Cadwalader act on ARCIL ₹732 crore IPO",
+          "client": "ARCIL",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cyril-amarchand-mangaldas-hogan-lovells-cadwalader-act-on-arcil-732-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹732 crore",
+            "currency": "INR",
+            "amount": 7320000000,
+            "amount_inr": 7320000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal acts on GSP Crop Science ₹400 crore IPO - Bar and Bench"
@@ -17788,6 +18079,38 @@
       "snapshot": "T&R Law Offices advises No Filter on pre-seed fundraise"
     },
     {
+      "id": 3779,
+      "name": "Akshay Gosavi",
+      "firm": "S&T Legal",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Fusion CX"
+      ],
+      "deals": [
+        {
+          "headline": "S&T Legal advises Fusion CX on acquisition of VA Platinum",
+          "client": "Fusion CX",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/st-legal-advises-fusion-cx-on-acquisition-of-va-platinum",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "S&T Legal advises Fusion CX on acquisition of VA Platinum"
+    },
+    {
       "id": 2454,
       "name": "Akshay Madhvani",
       "firm": "CMS INDUSLAW",
@@ -18091,7 +18414,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Master Chains & Jewels"
+        "Master Chains & Jewels",
+        "Rays of Belief"
       ],
       "deals": [
         {
@@ -18111,6 +18435,25 @@
             "amount": 4000000000,
             "amount_inr": 4000000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "Luthra acts on Rays of Belief ₹124 crore IPO",
+          "client": "Rays of Belief",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/luthra-and-luthra-acts-on-rays-of-belief-124-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹124 crore",
+            "currency": "INR",
+            "amount": 1240000000,
+            "amount_inr": 1240000000,
+            "approx": false
           }
         }
       ],
@@ -18209,7 +18552,8 @@
         "Book Running Lead Managers",
         "Powerica & Promoter Selling Shareholders",
         "Horizon Industrial Parks",
-        "Aragen Life Sciences"
+        "Aragen Life Sciences",
+        "ARCIL"
       ],
       "deals": [
         {
@@ -18302,6 +18646,25 @@
             "amount": 8000000000,
             "amount_inr": 8000000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "Trilegal, Cyril Amarchand Mangaldas, Hogan Lovells Cadwalader act on ARCIL ₹732 crore IPO",
+          "client": "ARCIL",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cyril-amarchand-mangaldas-hogan-lovells-cadwalader-act-on-arcil-732-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹732 crore",
+            "currency": "INR",
+            "amount": 7320000000,
+            "amount_inr": 7320000000,
+            "approx": false
           }
         }
       ],
@@ -18477,7 +18840,8 @@
         "Piramal Enterprises Limited and Piramal Finance Limited",
         "Goldman Sachs-affiliated selling shareholders",
         "APAR Industries",
-        "Aragen Life Sciences"
+        "Aragen Life Sciences",
+        "ARCIL"
       ],
       "deals": [
         {
@@ -18598,6 +18962,25 @@
             "amount": 8000000000,
             "amount_inr": 8000000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "Trilegal, Cyril Amarchand Mangaldas, Hogan Lovells Cadwalader act on ARCIL ₹732 crore IPO",
+          "client": "ARCIL",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cyril-amarchand-mangaldas-hogan-lovells-cadwalader-act-on-arcil-732-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹732 crore",
+            "currency": "INR",
+            "amount": 7320000000,
+            "amount_inr": 7320000000,
+            "approx": false
           }
         }
       ],
@@ -19227,6 +19610,7 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "IPO",
         "QIP"
       ],
       "practice_areas": [
@@ -19234,7 +19618,8 @@
       ],
       "clients": [
         "Belrise Industries",
-        "Anant Raj"
+        "Anant Raj",
+        "ARCIL"
       ],
       "deals": [
         {
@@ -19262,6 +19647,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Trilegal, Cyril Amarchand Mangaldas, Hogan Lovells Cadwalader act on ARCIL ₹732 crore IPO",
+          "client": "ARCIL",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cyril-amarchand-mangaldas-hogan-lovells-cadwalader-act-on-arcil-732-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹732 crore",
+            "currency": "INR",
+            "amount": 7320000000,
+            "amount_inr": 7320000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas, Trilegal, Sidley Austin act on Belrise Industries ₹1,700 crore QIP"
@@ -22213,13 +22617,23 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "Mahajan Imaging"
+        "Mahajan Imaging",
+        "Dr. Lal Ventures"
       ],
       "deals": [
         {
           "headline": "C&S Partners advises Mahajan Imaging on JV with Neuberg Diagnostics",
           "client": "Mahajan Imaging",
           "url": "https://www.barandbench.com/law-firms/dealstreet/cs-partners-advises-mahajan-imaging-on-joint-venture-with-neuberg-diagnostics",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "C&S Partners advises Dr. Lal Ventures on acquiring 30% stake in Neuome Technologies",
+          "client": "Dr. Lal Ventures",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cs-partners-advises-dr-lal-ventures-on-acquiring-30-stake-in-neuome-technologies",
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": [],
@@ -25270,6 +25684,38 @@
       "snapshot": "SAM, Khaitan act on Aica Kogyo Co acquiring controlling stake in Stylam Industries for $225 million"
     },
     {
+      "id": 3781,
+      "name": "Ankit Pitti",
+      "firm": "S&T Legal",
+      "role": "Associate Partner",
+      "role_bucket": "Associate Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Fusion CX"
+      ],
+      "deals": [
+        {
+          "headline": "S&T Legal advises Fusion CX on acquisition of VA Platinum",
+          "client": "Fusion CX",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/st-legal-advises-fusion-cx-on-acquisition-of-va-platinum",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "S&T Legal advises Fusion CX on acquisition of VA Platinum"
+    },
+    {
       "id": 1701,
       "name": "Ankita Iyer",
       "firm": "JSA Advocates & Solicitors",
@@ -26154,7 +26600,8 @@
       "clients": [
         "Rentomojo & Promoter Selling Shareholder",
         "Book Running Lead Managers",
-        "Amagi"
+        "Amagi",
+        "Rentomojo"
       ],
       "deals": [
         {
@@ -26208,6 +26655,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+          "client": "Rentomojo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,255 crore",
+            "currency": "INR",
+            "amount": 12550000000,
+            "amount_inr": 12550000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM, Trilegal, TT&A, Hogan Lovells act on Rentomojo proposed ₹150 crore+ IPO"
@@ -26340,7 +26806,8 @@
         "Clean Max/Promoters",
         "Book Running Lead Managers",
         "iValue Infosolutions",
-        "Sudeep Pharma"
+        "Sudeep Pharma",
+        "Karamtara Engineering"
       ],
       "deals": [
         {
@@ -26394,6 +26861,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Karamtara Engineering ₹875 crore IPO",
+          "client": "Karamtara Engineering",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-ao-shearman-act-on-karamtara-engineering-875-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹875 crore",
+            "currency": "INR",
+            "amount": 8750000000,
+            "amount_inr": 8750000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM, Khaitan, SAM act on Clean Max Enviro Energy IPO"
@@ -27298,7 +27784,8 @@
         "SEDEMAC",
         "Clean Max/Promoters",
         "iValue Infosolutions",
-        "LEAP India"
+        "LEAP India",
+        "Karamtara Engineering"
       ],
       "deals": [
         {
@@ -27356,6 +27843,25 @@
             "currency": "INR",
             "amount": 24800000000,
             "amount_inr": 24800000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Karamtara Engineering ₹875 crore IPO",
+          "client": "Karamtara Engineering",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-ao-shearman-act-on-karamtara-engineering-875-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹875 crore",
+            "currency": "INR",
+            "amount": 8750000000,
+            "amount_inr": 8750000000,
             "approx": false
           }
         }
@@ -27861,7 +28367,8 @@
       ],
       "clients": [
         "Aidin Technologies controlling stake sale",
-        "WLDD"
+        "WLDD",
+        "Moromaa securing funds from AJVC Fund"
       ],
       "deals": [
         {
@@ -27890,6 +28397,15 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ],
+          "value": null
+        },
+        {
+          "headline": "Triumvir Law, Khaitan & Co act on Moromaa securing funds from AJVC Fund",
+          "client": "Moromaa securing funds from AJVC Fund",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/triumvir-law-khaitan-co-act-on-moromaa-securing-funds-from-ajvc-fund",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
           "value": null
         }
       ],
@@ -29117,6 +29633,38 @@
       "snapshot": "JSA, ELP act on TravelPlus ₹250 crore+ IPO filing - Bar and Bench"
     },
     {
+      "id": 3782,
+      "name": "Anusha Burman",
+      "firm": "S&T Legal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Fusion CX"
+      ],
+      "deals": [
+        {
+          "headline": "S&T Legal advises Fusion CX on acquisition of VA Platinum",
+          "client": "Fusion CX",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/st-legal-advises-fusion-cx-on-acquisition-of-va-platinum",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "S&T Legal advises Fusion CX on acquisition of VA Platinum"
+    },
+    {
       "id": 803,
       "name": "Anusha Rai",
       "firm": "Cyril Amarchand Mangaldas",
@@ -29434,6 +29982,44 @@
         "verdict": "UNVERIFIED",
         "evidence": "No search results found for this exact name at either SAM or Khaitan & Co - only similarly-named but distinct individuals (Anushka Sharda, Anushka Bhargava, Anushka Sahay)."
       }
+    },
+    {
+      "id": 3786,
+      "name": "Anushka Indurkar",
+      "firm": "Legacy Law Offices",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Vardaan Biotech"
+      ],
+      "deals": [
+        {
+          "headline": "Legacy Law Offices acts on Vardaan Biotech ₹90 crore+ IPO",
+          "client": "Vardaan Biotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-vardaan-biotech-90-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹90 crore+",
+            "currency": "INR",
+            "amount": 900000000,
+            "amount_inr": 900000000,
+            "approx": true
+          }
+        }
+      ],
+      "snapshot": "Legacy Law Offices acts on Vardaan Biotech ₹90 crore+ IPO"
     },
     {
       "id": 1024,
@@ -31510,7 +32096,8 @@
         "Adani Enterprises",
         "Powerica & Promoter Selling Shareholders",
         "ICICI Prudential AMC",
-        "Adani Energy Solutions"
+        "Adani Energy Solutions",
+        "Karamtara Engineering"
       ],
       "deals": [
         {
@@ -31564,6 +32151,25 @@
             "currency": "INR",
             "amount": 35000000000,
             "amount_inr": 35000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Karamtara Engineering ₹875 crore IPO",
+          "client": "Karamtara Engineering",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-ao-shearman-act-on-karamtara-engineering-875-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹875 crore",
+            "currency": "INR",
+            "amount": 8750000000,
+            "amount_inr": 8750000000,
             "approx": false
           }
         }
@@ -33294,7 +33900,8 @@
       ],
       "clients": [
         "GSP Crop Science",
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "ARCIL"
       ],
       "deals": [
         {
@@ -33322,6 +33929,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Trilegal, Cyril Amarchand Mangaldas, Hogan Lovells Cadwalader act on ARCIL ₹732 crore IPO",
+          "client": "ARCIL",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cyril-amarchand-mangaldas-hogan-lovells-cadwalader-act-on-arcil-732-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹732 crore",
+            "currency": "INR",
+            "amount": 7320000000,
+            "amount_inr": 7320000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal acts on GSP Crop Science ₹400 crore IPO - Bar and Bench"
@@ -34120,13 +34746,23 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "Mahajan Imaging"
+        "Mahajan Imaging",
+        "Dr. Lal Ventures"
       ],
       "deals": [
         {
           "headline": "C&S Partners advises Mahajan Imaging on JV with Neuberg Diagnostics",
           "client": "Mahajan Imaging",
           "url": "https://www.barandbench.com/law-firms/dealstreet/cs-partners-advises-mahajan-imaging-on-joint-venture-with-neuberg-diagnostics",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "C&S Partners advises Dr. Lal Ventures on acquiring 30% stake in Neuome Technologies",
+          "client": "Dr. Lal Ventures",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cs-partners-advises-dr-lal-ventures-on-acquiring-30-stake-in-neuome-technologies",
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": [],
@@ -34767,14 +35403,17 @@
       "role_bucket": "Partner",
       "transaction_types": [
         "Series D",
+        "acquisition",
         "fundraise"
       ],
       "practice_areas": [
+        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
         "Nexus Venture Partners",
-        "Lightspeed India Partners and Elevation Capital"
+        "Lightspeed India Partners and Elevation Capital",
+        "Celerity"
       ],
       "deals": [
         {
@@ -34801,6 +35440,19 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ],
+          "value": null
+        },
+        {
+          "headline": "Phoenix Legal advises Celerity on Indian leg of acquisition of Insight 2 Value",
+          "client": "Celerity",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/phoenix-legal-advises-celerity-on-indian-leg-of-acquisition-of-insight-2-value",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ],
           "value": null
         }
@@ -35337,6 +35989,44 @@
       "snapshot": "CAM, Trilegal act on MEIL Energy acquiring a 250 MW thermal power project in Tamil Nadu ..."
     },
     {
+      "id": 3794,
+      "name": "Ashutosh Anand",
+      "firm": "Luthra and Luthra",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Rays of Belief"
+      ],
+      "deals": [
+        {
+          "headline": "Luthra acts on Rays of Belief ₹124 crore IPO",
+          "client": "Rays of Belief",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/luthra-and-luthra-acts-on-rays-of-belief-124-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹124 crore",
+            "currency": "INR",
+            "amount": 1240000000,
+            "amount_inr": 1240000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Luthra acts on Rays of Belief ₹124 crore IPO"
+    },
+    {
       "id": 1617,
       "name": "Ashutosh Mishra",
       "firm": "Khaitan & Co",
@@ -35595,6 +36285,44 @@
         }
       ],
       "snapshot": "McDermott Will & Schulte, CAM, Trilegal, AZB act on KKR's €1.2 billion acquisition of Medicover India"
+    },
+    {
+      "id": 3795,
+      "name": "Ashwin Singh",
+      "firm": "Luthra and Luthra",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Rays of Belief"
+      ],
+      "deals": [
+        {
+          "headline": "Luthra acts on Rays of Belief ₹124 crore IPO",
+          "client": "Rays of Belief",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/luthra-and-luthra-acts-on-rays-of-belief-124-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹124 crore",
+            "currency": "INR",
+            "amount": 1240000000,
+            "amount_inr": 1240000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Luthra acts on Rays of Belief ₹124 crore IPO"
     },
     {
       "id": 765,
@@ -39033,7 +39761,8 @@
         "GSP Crop Science",
         "APAR Industries",
         "Tempsens Instruments",
-        "Aragen Life Sciences"
+        "Aragen Life Sciences",
+        "ARCIL"
       ],
       "deals": [
         {
@@ -39143,6 +39872,25 @@
             "amount": 8000000000,
             "amount_inr": 8000000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "Trilegal, Cyril Amarchand Mangaldas, Hogan Lovells Cadwalader act on ARCIL ₹732 crore IPO",
+          "client": "ARCIL",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cyril-amarchand-mangaldas-hogan-lovells-cadwalader-act-on-arcil-732-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹732 crore",
+            "currency": "INR",
+            "amount": 7320000000,
+            "amount_inr": 7320000000,
+            "approx": false
           }
         }
       ],
@@ -39628,7 +40376,8 @@
         "ICICI Prudential AMC",
         "KKR's €1.2 billion acquisition of Medicover India",
         "Shiprocket",
-        "Dhoot Transmission"
+        "Dhoot Transmission",
+        "Rentomojo"
       ],
       "deals": [
         {
@@ -39761,6 +40510,25 @@
             "currency": "INR",
             "amount": 30660000000,
             "amount_inr": 30660000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+          "client": "Rentomojo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,255 crore",
+            "currency": "INR",
+            "amount": 12550000000,
+            "amount_inr": 12550000000,
             "approx": false
           }
         }
@@ -43036,6 +43804,44 @@
       "snapshot": "Khaitan & Co, TT&A, Mayer Brown, Linklaters act on Capri Loans $300 million bond issuance"
     },
     {
+      "id": 3776,
+      "name": "Chinmay Jhumde",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Karamtara Engineering"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Karamtara Engineering ₹875 crore IPO",
+          "client": "Karamtara Engineering",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-ao-shearman-act-on-karamtara-engineering-875-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹875 crore",
+            "currency": "INR",
+            "amount": 8750000000,
+            "amount_inr": 8750000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Karamtara Engineering ₹875 crore IPO"
+    },
+    {
       "id": 124,
       "name": "Chinmay Jumde",
       "firm": "Cyril Amarchand Mangaldas",
@@ -44418,7 +45224,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Book-Running Lead Managers"
+        "Book-Running Lead Managers",
+        "Rentomojo"
       ],
       "deals": [
         {
@@ -44433,6 +45240,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+          "client": "Rentomojo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,255 crore",
+            "currency": "INR",
+            "amount": 12550000000,
+            "amount_inr": 12550000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM, Trilegal, TT&A, Hogan Lovells act on Rentomojo proposed ₹150 crore+ IPO"
@@ -44634,6 +45460,38 @@
         }
       ],
       "snapshot": "Trilegal, K&L Gates, Baker & McKenzie, AZB act on Wipro's $375 million acquisition of ..."
+    },
+    {
+      "id": 3804,
+      "name": "David Mkhitarian",
+      "firm": "Phoenix Legal",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Celerity"
+      ],
+      "deals": [
+        {
+          "headline": "Phoenix Legal advises Celerity on Indian leg of acquisition of Insight 2 Value",
+          "client": "Celerity",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/phoenix-legal-advises-celerity-on-indian-leg-of-acquisition-of-insight-2-value",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Phoenix Legal advises Celerity on Indian leg of acquisition of Insight 2 Value"
     },
     {
       "id": 3657,
@@ -51784,7 +52642,8 @@
         "Book running lead managers",
         "Selling Shareholders",
         "INDO-MIM",
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Rentomojo"
       ],
       "deals": [
         {
@@ -51838,6 +52697,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+          "client": "Rentomojo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,255 crore",
+            "currency": "INR",
+            "amount": 12550000000,
+            "amount_inr": 12550000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Trilegal act on Brookfield India REIT ₹2,600 crore QIP"
@@ -51898,8 +52776,8 @@
       "id": 1463,
       "name": "Esha Gupta",
       "firm": "Cyril Amarchand Mangaldas",
-      "role": "Associate",
-      "role_bucket": "Associate",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
       "transaction_types": [
         "IPO"
       ],
@@ -51908,7 +52786,8 @@
       ],
       "clients": [
         "Clean Max/Promoters",
-        "Sudeep Pharma"
+        "Sudeep Pharma",
+        "Karamtara Engineering"
       ],
       "deals": [
         {
@@ -51936,6 +52815,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Karamtara Engineering ₹875 crore IPO",
+          "client": "Karamtara Engineering",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-ao-shearman-act-on-karamtara-engineering-875-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹875 crore",
+            "currency": "INR",
+            "amount": 8750000000,
+            "amount_inr": 8750000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM, Khaitan, SAM act on Clean Max Enviro Energy IPO"
@@ -53400,7 +54298,8 @@
       ],
       "clients": [
         "NSE",
-        "ICICI Prudential AMC"
+        "ICICI Prudential AMC",
+        "ARCIL"
       ],
       "deals": [
         {
@@ -53428,6 +54327,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Trilegal, Cyril Amarchand Mangaldas, Hogan Lovells Cadwalader act on ARCIL ₹732 crore IPO",
+          "client": "ARCIL",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cyril-amarchand-mangaldas-hogan-lovells-cadwalader-act-on-arcil-732-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹732 crore",
+            "currency": "INR",
+            "amount": 7320000000,
+            "amount_inr": 7320000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "NSE IPO: Which law firms are advising the stock exchange on its public listing?"
@@ -54665,7 +55583,8 @@
       ],
       "clients": [
         "Rentomojo & Promoter Selling Shareholder",
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Rentomojo"
       ],
       "deals": [
         {
@@ -54693,6 +55612,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+          "client": "Rentomojo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,255 crore",
+            "currency": "INR",
+            "amount": 12550000000,
+            "amount_inr": 12550000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM, Trilegal, TT&A, Hogan Lovells act on Rentomojo proposed ₹150 crore+ IPO"
@@ -54962,7 +55900,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Dain Colour Chem IPO"
+        "Dain Colour Chem IPO",
+        "Vardaan Biotech"
       ],
       "deals": [
         {
@@ -54981,6 +55920,25 @@
             "currency": "INR",
             "amount": 300000000,
             "amount_inr": 300000000,
+            "approx": true
+          }
+        },
+        {
+          "headline": "Legacy Law Offices acts on Vardaan Biotech ₹90 crore+ IPO",
+          "client": "Vardaan Biotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-vardaan-biotech-90-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹90 crore+",
+            "currency": "INR",
+            "amount": 900000000,
+            "amount_inr": 900000000,
             "approx": true
           }
         }
@@ -57723,7 +58681,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Book-Running Lead Managers"
+        "Book-Running Lead Managers",
+        "Rentomojo"
       ],
       "deals": [
         {
@@ -57738,6 +58697,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+          "client": "Rentomojo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,255 crore",
+            "currency": "INR",
+            "amount": 12550000000,
+            "amount_inr": 12550000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM, Trilegal, TT&A, Hogan Lovells act on Rentomojo proposed ₹150 crore+ IPO"
@@ -57802,7 +58780,8 @@
       ],
       "clients": [
         "Adani Enterprises",
-        "LEAP India"
+        "LEAP India",
+        "ARCIL"
       ],
       "deals": [
         {
@@ -57830,6 +58809,25 @@
             "currency": "INR",
             "amount": 24800000000,
             "amount_inr": 24800000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Cyril Amarchand Mangaldas, Hogan Lovells Cadwalader act on ARCIL ₹732 crore IPO",
+          "client": "ARCIL",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cyril-amarchand-mangaldas-hogan-lovells-cadwalader-act-on-arcil-732-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹732 crore",
+            "currency": "INR",
+            "amount": 7320000000,
+            "amount_inr": 7320000000,
             "approx": false
           }
         }
@@ -57897,6 +58895,44 @@
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas, TT&A, Trilegal act on Aragen Life Sciences ₹800 crore+ proposed IPO"
+    },
+    {
+      "id": 3789,
+      "name": "Harshali Sulebhavikar",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Rentomojo"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+          "client": "Rentomojo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,255 crore",
+            "currency": "INR",
+            "amount": 12550000000,
+            "amount_inr": 12550000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO"
     },
     {
       "id": 787,
@@ -59021,7 +60057,8 @@
       "clients": [
         "Selling Shareholders",
         "Zetwerk",
-        "Duroflex"
+        "Duroflex",
+        "Rentomojo"
       ],
       "deals": [
         {
@@ -59058,6 +60095,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+          "client": "Rentomojo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,255 crore",
+            "currency": "INR",
+            "amount": 12550000000,
+            "amount_inr": 12550000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM, Trilegal, TT&A, Hogan Lovells act on Rentomojo proposed ₹150 crore+ IPO"
@@ -62724,7 +63780,8 @@
       "clients": [
         "Selling Shareholders",
         "MEMG Group",
-        "Duroflex"
+        "Duroflex",
+        "Rentomojo"
       ],
       "deals": [
         {
@@ -62765,9 +63822,78 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+          "client": "Rentomojo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,255 crore",
+            "currency": "INR",
+            "amount": 12550000000,
+            "amount_inr": 12550000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM, Trilegal, TT&A, Hogan Lovells act on Rentomojo proposed ₹150 crore+ IPO"
+    },
+    {
+      "id": 3777,
+      "name": "Jahnavi Seethamraju",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Karamtara Engineering"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Karamtara Engineering ₹875 crore IPO",
+          "client": "Karamtara Engineering",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-ao-shearman-act-on-karamtara-engineering-875-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹875 crore",
+            "currency": "INR",
+            "amount": 8750000000,
+            "amount_inr": 8750000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Karamtara Engineering ₹875 crore IPO",
+      "same_name_elsewhere": [
+        {
+          "id": 2977,
+          "firm": "Talwar Thakore & Associates",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 2977,
@@ -62799,7 +63925,19 @@
           "value": null
         }
       ],
-      "snapshot": "Trilegal, Verist Law, TT&A, Hogan Lovells act on Marri Retail ₹522 crore+ proposed IPO"
+      "snapshot": "Trilegal, Verist Law, TT&A, Hogan Lovells act on Marri Retail ₹522 crore+ proposed IPO",
+      "same_name_elsewhere": [
+        {
+          "id": 3777,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 2635,
@@ -63489,7 +64627,8 @@
       "clients": [
         "Adani Enterprises",
         "Molbio Diagnostics",
-        "Piramal Finance"
+        "Piramal Finance",
+        "Karamtara Engineering"
       ],
       "deals": [
         {
@@ -63536,6 +64675,25 @@
             "currency": "INR",
             "amount": 21000000000,
             "amount_inr": 21000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Karamtara Engineering ₹875 crore IPO",
+          "client": "Karamtara Engineering",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-ao-shearman-act-on-karamtara-engineering-875-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹875 crore",
+            "currency": "INR",
+            "amount": 8750000000,
+            "amount_inr": 8750000000,
             "approx": false
           }
         }
@@ -64177,7 +65335,8 @@
         "Book running lead managers",
         "Lead Managers",
         "Duroflex",
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Karamtara Engineering"
       ],
       "deals": [
         {
@@ -64244,6 +65403,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Karamtara Engineering ₹875 crore IPO",
+          "client": "Karamtara Engineering",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-ao-shearman-act-on-karamtara-engineering-875-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹875 crore",
+            "currency": "INR",
+            "amount": 8750000000,
+            "amount_inr": 8750000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Trilegal act on Brookfield India REIT ₹2,600 crore QIP"
@@ -69781,6 +70959,44 @@
       "snapshot": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business"
     },
     {
+      "id": 3796,
+      "name": "Karan Kapoor",
+      "firm": "Luthra and Luthra",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Rays of Belief"
+      ],
+      "deals": [
+        {
+          "headline": "Luthra acts on Rays of Belief ₹124 crore IPO",
+          "client": "Rays of Belief",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/luthra-and-luthra-acts-on-rays-of-belief-124-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹124 crore",
+            "currency": "INR",
+            "amount": 1240000000,
+            "amount_inr": 1240000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Luthra acts on Rays of Belief ₹124 crore IPO"
+    },
+    {
       "id": 1148,
       "name": "Karan Mathias",
       "firm": "Bharucha & Partners",
@@ -74267,7 +75483,9 @@
       ],
       "clients": [
         "Selling Shareholders",
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Karamtara Engineering",
+        "Rentomojo"
       ],
       "deals": [
         {
@@ -74295,6 +75513,44 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Karamtara Engineering ₹875 crore IPO",
+          "client": "Karamtara Engineering",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-ao-shearman-act-on-karamtara-engineering-875-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹875 crore",
+            "currency": "INR",
+            "amount": 8750000000,
+            "amount_inr": 8750000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+          "client": "Rentomojo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,255 crore",
+            "currency": "INR",
+            "amount": 12550000000,
+            "amount_inr": 12550000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM, Trilegal, TT&A, Hogan Lovells act on Rentomojo proposed ₹150 crore+ IPO"
@@ -76109,6 +77365,44 @@
         }
       ],
       "snapshot": "LIC Stake Sale: Dentons Link Legal, Trilegal, Sidley Austin and FBT Gibbons act on India’s Largest OFS of..."
+    },
+    {
+      "id": 3797,
+      "name": "Kumar Anant Ashish",
+      "firm": "Luthra and Luthra",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Rays of Belief"
+      ],
+      "deals": [
+        {
+          "headline": "Luthra acts on Rays of Belief ₹124 crore IPO",
+          "client": "Rays of Belief",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/luthra-and-luthra-acts-on-rays-of-belief-124-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹124 crore",
+            "currency": "INR",
+            "amount": 1240000000,
+            "amount_inr": 1240000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Luthra acts on Rays of Belief ₹124 crore IPO"
     },
     {
       "id": 2327,
@@ -78648,6 +79942,44 @@
         }
       ],
       "snapshot": "CAM advises Hiranandani Financial Services on raising ₹800 crore from Vitruvian"
+    },
+    {
+      "id": 3787,
+      "name": "Lomesh Kiran Nidumuri",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Rentomojo"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+          "client": "Rentomojo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,255 crore",
+            "currency": "INR",
+            "amount": 12550000000,
+            "amount_inr": 12550000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO"
     },
     {
       "id": 78,
@@ -81479,6 +82811,44 @@
       "snapshot": "Parinam Law Associates, Trilegal act on Home Credit's ₹967 crore acquisition of Varthana"
     },
     {
+      "id": 3798,
+      "name": "Manali Singh",
+      "firm": "Luthra and Luthra",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Rays of Belief"
+      ],
+      "deals": [
+        {
+          "headline": "Luthra acts on Rays of Belief ₹124 crore IPO",
+          "client": "Rays of Belief",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/luthra-and-luthra-acts-on-rays-of-belief-124-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹124 crore",
+            "currency": "INR",
+            "amount": 1240000000,
+            "amount_inr": 1240000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Luthra acts on Rays of Belief ₹124 crore IPO"
+    },
+    {
       "id": 3188,
       "name": "Manan Gosar",
       "firm": "IC RegFin Legal Partners",
@@ -84184,7 +85554,8 @@
       "clients": [
         "Rentomojo & Promoter Selling Shareholder",
         "Nxt-Infra Trust",
-        "Aragen Life Sciences"
+        "Aragen Life Sciences",
+        "Rentomojo"
       ],
       "deals": [
         {
@@ -84232,6 +85603,25 @@
             "amount": 8000000000,
             "amount_inr": 8000000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+          "client": "Rentomojo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,255 crore",
+            "currency": "INR",
+            "amount": 12550000000,
+            "amount_inr": 12550000000,
+            "approx": false
           }
         }
       ],
@@ -86003,7 +87393,8 @@
       "clients": [
         "Apar Advertisers IPO",
         "Dain Colour Chem IPO",
-        "Qualiance International IPO"
+        "Qualiance International IPO",
+        "Vardaan Biotech"
       ],
       "deals": [
         {
@@ -86061,6 +87452,25 @@
             "amount": 451100000,
             "amount_inr": 451100000,
             "approx": false
+          }
+        },
+        {
+          "headline": "Legacy Law Offices acts on Vardaan Biotech ₹90 crore+ IPO",
+          "client": "Vardaan Biotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-vardaan-biotech-90-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹90 crore+",
+            "currency": "INR",
+            "amount": 900000000,
+            "amount_inr": 900000000,
+            "approx": true
           }
         }
       ],
@@ -90259,7 +91669,8 @@
       "clients": [
         "Apar Advertisers IPO",
         "Dain Colour Chem IPO",
-        "Qualiance International IPO"
+        "Qualiance International IPO",
+        "Vardaan Biotech"
       ],
       "deals": [
         {
@@ -90318,9 +91729,66 @@
             "amount_inr": 451100000,
             "approx": false
           }
+        },
+        {
+          "headline": "Legacy Law Offices acts on Vardaan Biotech ₹90 crore+ IPO",
+          "client": "Vardaan Biotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-vardaan-biotech-90-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹90 crore+",
+            "currency": "INR",
+            "amount": 900000000,
+            "amount_inr": 900000000,
+            "approx": true
+          }
         }
       ],
       "snapshot": "Legacy Law Offices acts on Apar Advertisers IPO"
+    },
+    {
+      "id": 3793,
+      "name": "Naman Dubey",
+      "firm": "Luthra and Luthra",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Rays of Belief"
+      ],
+      "deals": [
+        {
+          "headline": "Luthra acts on Rays of Belief ₹124 crore IPO",
+          "client": "Rays of Belief",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/luthra-and-luthra-acts-on-rays-of-belief-124-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹124 crore",
+            "currency": "INR",
+            "amount": 1240000000,
+            "amount_inr": 1240000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Luthra acts on Rays of Belief ₹124 crore IPO"
     },
     {
       "id": 3490,
@@ -109965,7 +111433,8 @@
       "clients": [
         "iValue Infosolutions",
         "Sudeep Pharma",
-        "Pernia's Pop Up Shop"
+        "Pernia's Pop Up Shop",
+        "Karamtara Engineering"
       ],
       "deals": [
         {
@@ -110010,6 +111479,25 @@
             "currency": "INR",
             "amount": 6800000000,
             "amount_inr": 6800000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Karamtara Engineering ₹875 crore IPO",
+          "client": "Karamtara Engineering",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-ao-shearman-act-on-karamtara-engineering-875-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹875 crore",
+            "currency": "INR",
+            "amount": 8750000000,
+            "amount_inr": 8750000000,
             "approx": false
           }
         }
@@ -110441,7 +111929,8 @@
       ],
       "clients": [
         "Aidin Technologies controlling stake sale",
-        "WLDD"
+        "WLDD",
+        "Moromaa securing funds from AJVC Fund"
       ],
       "deals": [
         {
@@ -110470,6 +111959,15 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ],
+          "value": null
+        },
+        {
+          "headline": "Triumvir Law, Khaitan & Co act on Moromaa securing funds from AJVC Fund",
+          "client": "Moromaa securing funds from AJVC Fund",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/triumvir-law-khaitan-co-act-on-moromaa-securing-funds-from-ajvc-fund",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
           "value": null
         }
       ],
@@ -111367,7 +112865,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Sunshine Pictures"
+        "Sunshine Pictures",
+        "Veegaland Homes"
       ],
       "deals": [
         {
@@ -111386,6 +112885,25 @@
             "currency": "INR",
             "amount": 2820000000,
             "amount_inr": 2820000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Vidhigya Associates acts on Veegaland Homes ₹210 crore IPO",
+          "client": "Veegaland Homes",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/vidhigya-associates-acts-on-veegaland-homes-210-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹210 crore",
+            "currency": "INR",
+            "amount": 2100000000,
+            "amount_inr": 2100000000,
             "approx": false
           }
         }
@@ -111904,6 +113422,38 @@
         }
       ],
       "snapshot": "SAM, CAM, Hogan Lovells act on Billdesk's acquisition of Worldline"
+    },
+    {
+      "id": 3783,
+      "name": "Rajan Maheshwari",
+      "firm": "S&T Legal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Fusion CX"
+      ],
+      "deals": [
+        {
+          "headline": "S&T Legal advises Fusion CX on acquisition of VA Platinum",
+          "client": "Fusion CX",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/st-legal-advises-fusion-cx-on-acquisition-of-va-platinum",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "S&T Legal advises Fusion CX on acquisition of VA Platinum"
     },
     {
       "id": 1505,
@@ -114275,7 +115825,8 @@
         "Powerica & Promoter Selling Shareholders",
         "Runwal Realty",
         "Tata Communications Limited",
-        "Sudeep Pharma"
+        "Sudeep Pharma",
+        "ARCIL"
       ],
       "deals": [
         {
@@ -114375,6 +115926,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Trilegal, Cyril Amarchand Mangaldas, Hogan Lovells Cadwalader act on ARCIL ₹732 crore IPO",
+          "client": "ARCIL",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cyril-amarchand-mangaldas-hogan-lovells-cadwalader-act-on-arcil-732-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹732 crore",
+            "currency": "INR",
+            "amount": 7320000000,
+            "amount_inr": 7320000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "AZB, Cyril Amarchand Mangaldas, Hogan Lovells act on Blue Jet Healthcare ₹800 crore QIP"
@@ -125101,7 +126671,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Qualiance International IPO"
+        "Qualiance International IPO",
+        "Vardaan Biotech"
       ],
       "deals": [
         {
@@ -125121,6 +126692,25 @@
             "amount": 451100000,
             "amount_inr": 451100000,
             "approx": false
+          }
+        },
+        {
+          "headline": "Legacy Law Offices acts on Vardaan Biotech ₹90 crore+ IPO",
+          "client": "Vardaan Biotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-vardaan-biotech-90-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹90 crore+",
+            "currency": "INR",
+            "amount": 900000000,
+            "amount_inr": 900000000,
+            "approx": true
           }
         }
       ],
@@ -125984,7 +127574,8 @@
       "clients": [
         "INDO-MIM",
         "Zetwerk",
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Karamtara Engineering"
       ],
       "deals": [
         {
@@ -126034,6 +127625,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Karamtara Engineering ₹875 crore IPO",
+          "client": "Karamtara Engineering",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-ao-shearman-act-on-karamtara-engineering-875-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹875 crore",
+            "currency": "INR",
+            "amount": 8750000000,
+            "amount_inr": 8750000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal, Khaitan & Co, Hogan Lovells Cadwalader act on INDO-MIM ₹3,812 crore IPO"
@@ -126617,7 +128227,8 @@
       "clients": [
         "Selling Shareholders",
         "Silver Storm Parks IPO",
-        "Genesys International Corp"
+        "Genesys International Corp",
+        "Shanti Inorganics IPO"
       ],
       "deals": [
         {
@@ -126658,6 +128269,25 @@
             "currency": "INR",
             "amount": 1250000000,
             "amount_inr": 1250000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Rajani Associates acts on Shanti Inorganics IPO",
+          "client": "Shanti Inorganics IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/rajani-associates-acts-on-shanti-inorganics-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹47.24 crore",
+            "currency": "INR",
+            "amount": 472400000,
+            "amount_inr": 472400000,
             "approx": false
           }
         }
@@ -130287,13 +131917,23 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "Mahajan Imaging"
+        "Mahajan Imaging",
+        "Dr. Lal Ventures"
       ],
       "deals": [
         {
           "headline": "C&S Partners advises Mahajan Imaging on JV with Neuberg Diagnostics",
           "client": "Mahajan Imaging",
           "url": "https://www.barandbench.com/law-firms/dealstreet/cs-partners-advises-mahajan-imaging-on-joint-venture-with-neuberg-diagnostics",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "C&S Partners advises Dr. Lal Ventures on acquiring 30% stake in Neuome Technologies",
+          "client": "Dr. Lal Ventures",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cs-partners-advises-dr-lal-ventures-on-acquiring-30-stake-in-neuome-technologies",
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": [],
@@ -130325,7 +131965,8 @@
         "Kimbal Private Limited",
         "Book Running Lead Managers",
         "Marri Retail",
-        "Piramal Finance"
+        "Piramal Finance",
+        "Karamtara Engineering"
       ],
       "deals": [
         {
@@ -130414,6 +132055,25 @@
             "amount_inr": 21000000000,
             "approx": false
           }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Karamtara Engineering ₹875 crore IPO",
+          "client": "Karamtara Engineering",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-ao-shearman-act-on-karamtara-engineering-875-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹875 crore",
+            "currency": "INR",
+            "amount": 8750000000,
+            "amount_inr": 8750000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Trilegal act on Ather Energy ₹1,300 crore QIP"
@@ -130487,6 +132147,44 @@
         }
       ],
       "snapshot": "JSA acts on India leg of SAP Inc's acquisition of Reltio"
+    },
+    {
+      "id": 3799,
+      "name": "Savar Arora",
+      "firm": "Luthra and Luthra",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Rays of Belief"
+      ],
+      "deals": [
+        {
+          "headline": "Luthra acts on Rays of Belief ₹124 crore IPO",
+          "client": "Rays of Belief",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/luthra-and-luthra-acts-on-rays-of-belief-124-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹124 crore",
+            "currency": "INR",
+            "amount": 1240000000,
+            "amount_inr": 1240000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Luthra acts on Rays of Belief ₹124 crore IPO"
     },
     {
       "id": 3211,
@@ -133366,7 +135064,8 @@
         "Book running lead managers",
         "MEMG Group",
         "Book Running Lead Managers",
-        "SPR Auto Technologies"
+        "SPR Auto Technologies",
+        "Karamtara Engineering"
       ],
       "deals": [
         {
@@ -133437,6 +135136,25 @@
             "currency": "INR",
             "amount": 10000000000,
             "amount_inr": 10000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Karamtara Engineering ₹875 crore IPO",
+          "client": "Karamtara Engineering",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-ao-shearman-act-on-karamtara-engineering-875-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹875 crore",
+            "currency": "INR",
+            "amount": 8750000000,
+            "amount_inr": 8750000000,
             "approx": false
           }
         }
@@ -133527,6 +135245,44 @@
         }
       ],
       "snapshot": "JSA advises Volvo on NBFC joint venture with Eicher Motors - Bar and Bench"
+    },
+    {
+      "id": 3800,
+      "name": "Shashwat Tyagi",
+      "firm": "Luthra and Luthra",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Rays of Belief"
+      ],
+      "deals": [
+        {
+          "headline": "Luthra acts on Rays of Belief ₹124 crore IPO",
+          "client": "Rays of Belief",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/luthra-and-luthra-acts-on-rays-of-belief-124-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹124 crore",
+            "currency": "INR",
+            "amount": 1240000000,
+            "amount_inr": 1240000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Luthra acts on Rays of Belief ₹124 crore IPO"
     },
     {
       "id": 3484,
@@ -145024,6 +146780,44 @@
       "snapshot": "CAM advises JP Morgan on setting up of Asia's largest GCC in Mumbai - Bar and Bench"
     },
     {
+      "id": 3784,
+      "name": "Soma Singh",
+      "firm": "Legacy Law Offices",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Vardaan Biotech"
+      ],
+      "deals": [
+        {
+          "headline": "Legacy Law Offices acts on Vardaan Biotech ₹90 crore+ IPO",
+          "client": "Vardaan Biotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-vardaan-biotech-90-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹90 crore+",
+            "currency": "INR",
+            "amount": 900000000,
+            "amount_inr": 900000000,
+            "approx": true
+          }
+        }
+      ],
+      "snapshot": "Legacy Law Offices acts on Vardaan Biotech ₹90 crore+ IPO"
+    },
+    {
       "id": 3571,
       "name": "Someny Singhal",
       "firm": "Trilegal",
@@ -145068,7 +146862,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Silver Storm Parks IPO"
+        "Silver Storm Parks IPO",
+        "Shanti Inorganics IPO"
       ],
       "deals": [
         {
@@ -145083,9 +146878,66 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Rajani Associates acts on Shanti Inorganics IPO",
+          "client": "Shanti Inorganics IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/rajani-associates-acts-on-shanti-inorganics-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹47.24 crore",
+            "currency": "INR",
+            "amount": 472400000,
+            "amount_inr": 472400000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Rajani Associates acts on Silver Storm Parks IPO"
+    },
+    {
+      "id": 3806,
+      "name": "Somya Jena",
+      "firm": "Trilegal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "ARCIL"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Cyril Amarchand Mangaldas, Hogan Lovells Cadwalader act on ARCIL ₹732 crore IPO",
+          "client": "ARCIL",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cyril-amarchand-mangaldas-hogan-lovells-cadwalader-act-on-arcil-732-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹732 crore",
+            "currency": "INR",
+            "amount": 7320000000,
+            "amount_inr": 7320000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Trilegal, Cyril Amarchand Mangaldas, Hogan Lovells Cadwalader act on ARCIL ₹732 crore IPO"
     },
     {
       "id": 2859,
@@ -148511,7 +150363,7 @@
           "id": 1867,
           "firm": "Hogan Lovells Cadwalader",
           "role": "Senior Associate",
-          "deal_count": 1
+          "deal_count": 2
         }
       ],
       "firm_verification": {
@@ -148533,7 +150385,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Book-Running Lead Managers"
+        "Book-Running Lead Managers",
+        "Rentomojo"
       ],
       "deals": [
         {
@@ -148550,6 +150403,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+          "client": "Rentomojo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,255 crore",
+            "currency": "INR",
+            "amount": 12550000000,
+            "amount_inr": 12550000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas, S&R Associates, Hogan Lovells Cadwalader act on Lohia ...",
@@ -149459,14 +151331,17 @@
       "role_bucket": "Partner",
       "transaction_types": [
         "Series D",
+        "acquisition",
         "fundraise"
       ],
       "practice_areas": [
+        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
         "Nexus Venture Partners",
-        "Lightspeed India Partners and Elevation Capital"
+        "Lightspeed India Partners and Elevation Capital",
+        "Celerity"
       ],
       "deals": [
         {
@@ -149493,6 +151368,19 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ],
+          "value": null
+        },
+        {
+          "headline": "Phoenix Legal advises Celerity on Indian leg of acquisition of Insight 2 Value",
+          "client": "Celerity",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/phoenix-legal-advises-celerity-on-indian-leg-of-acquisition-of-insight-2-value",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ],
           "value": null
         }
@@ -150211,7 +152099,8 @@
       ],
       "clients": [
         "Dain Colour Chem IPO",
-        "Qualiance International IPO"
+        "Qualiance International IPO",
+        "Vardaan Biotech"
       ],
       "deals": [
         {
@@ -150250,6 +152139,25 @@
             "amount": 451100000,
             "amount_inr": 451100000,
             "approx": false
+          }
+        },
+        {
+          "headline": "Legacy Law Offices acts on Vardaan Biotech ₹90 crore+ IPO",
+          "client": "Vardaan Biotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-vardaan-biotech-90-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹90 crore+",
+            "currency": "INR",
+            "amount": 900000000,
+            "amount_inr": 900000000,
+            "approx": true
           }
         }
       ],
@@ -150339,7 +152247,8 @@
         "Rentomojo & Promoter Selling Shareholder",
         "Healthcare Global Enterprises",
         "Shadowfax",
-        "Aragen Life Sciences"
+        "Aragen Life Sciences",
+        "Rentomojo"
       ],
       "deals": [
         {
@@ -150394,6 +152303,25 @@
             "amount": 8000000000,
             "amount_inr": 8000000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+          "client": "Rentomojo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,255 crore",
+            "currency": "INR",
+            "amount": 12550000000,
+            "amount_inr": 12550000000,
+            "approx": false
           }
         }
       ],
@@ -151437,6 +153365,44 @@
       "snapshot": "Khaitan & Co assists RPG Life Sciences on carve-out of its API business"
     },
     {
+      "id": 3801,
+      "name": "Swetapadma Priyadarshini",
+      "firm": "Luthra and Luthra",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Rays of Belief"
+      ],
+      "deals": [
+        {
+          "headline": "Luthra acts on Rays of Belief ₹124 crore IPO",
+          "client": "Rays of Belief",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/luthra-and-luthra-acts-on-rays-of-belief-124-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹124 crore",
+            "currency": "INR",
+            "amount": 1240000000,
+            "amount_inr": 1240000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Luthra acts on Rays of Belief ₹124 crore IPO"
+    },
+    {
       "id": 2086,
       "name": "Swikruti Nayak",
       "firm": "Trilegal",
@@ -151518,7 +153484,8 @@
       "clients": [
         "Belrise Industries",
         "ICICI Prudential AMC",
-        "Atomberg"
+        "Atomberg",
+        "ARCIL"
       ],
       "deals": [
         {
@@ -151564,6 +153531,25 @@
             "amount": 4500000000,
             "amount_inr": 4500000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "Trilegal, Cyril Amarchand Mangaldas, Hogan Lovells Cadwalader act on ARCIL ₹732 crore IPO",
+          "client": "ARCIL",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cyril-amarchand-mangaldas-hogan-lovells-cadwalader-act-on-arcil-732-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹732 crore",
+            "currency": "INR",
+            "amount": 7320000000,
+            "amount_inr": 7320000000,
+            "approx": false
           }
         }
       ],
@@ -151989,6 +153975,44 @@
         }
       ],
       "snapshot": "JSA, Khaitan act on Everstone investing $270 million in Apothecon Group"
+    },
+    {
+      "id": 3788,
+      "name": "Tanisha Kumar",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Rentomojo"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+          "client": "Rentomojo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,255 crore",
+            "currency": "INR",
+            "amount": 12550000000,
+            "amount_inr": 12550000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO"
     },
     {
       "id": 1027,
@@ -155230,6 +157254,44 @@
       "snapshot": "Accelerating India's AI Adoption: SAM, Hogan Lovells, Cooley act on $100 million Reliance–Meta JV"
     },
     {
+      "id": 3778,
+      "name": "Trainee Associate Pratik Basistha",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Karamtara Engineering"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Karamtara Engineering ₹875 crore IPO",
+          "client": "Karamtara Engineering",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-ao-shearman-act-on-karamtara-engineering-875-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹875 crore",
+            "currency": "INR",
+            "amount": 8750000000,
+            "amount_inr": 8750000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Karamtara Engineering ₹875 crore IPO"
+    },
+    {
       "id": 2156,
       "name": "Trayosha Darapuneni",
       "firm": "Cyril Amarchand Mangaldas",
@@ -155633,7 +157695,8 @@
       ],
       "clients": [
         "Book Running Lead Managers",
-        "Aragen Life Sciences"
+        "Aragen Life Sciences",
+        "ARCIL"
       ],
       "deals": [
         {
@@ -155666,6 +157729,25 @@
             "amount": 8000000000,
             "amount_inr": 8000000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "Trilegal, Cyril Amarchand Mangaldas, Hogan Lovells Cadwalader act on ARCIL ₹732 crore IPO",
+          "client": "ARCIL",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cyril-amarchand-mangaldas-hogan-lovells-cadwalader-act-on-arcil-732-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹732 crore",
+            "currency": "INR",
+            "amount": 7320000000,
+            "amount_inr": 7320000000,
+            "approx": false
           }
         }
       ],
@@ -156643,6 +158725,44 @@
         }
       ],
       "snapshot": "Trilegal advises Sona Comstar on partnership with Japan's DENSO Corp"
+    },
+    {
+      "id": 3807,
+      "name": "Urmil Shah",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "ARCIL"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Cyril Amarchand Mangaldas, Hogan Lovells Cadwalader act on ARCIL ₹732 crore IPO",
+          "client": "ARCIL",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cyril-amarchand-mangaldas-hogan-lovells-cadwalader-act-on-arcil-732-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹732 crore",
+            "currency": "INR",
+            "amount": 7320000000,
+            "amount_inr": 7320000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Trilegal, Cyril Amarchand Mangaldas, Hogan Lovells Cadwalader act on ARCIL ₹732 crore IPO"
     },
     {
       "id": 1836,
@@ -158713,7 +160833,8 @@
         "MEMG Group",
         "Piramal Enterprises Limited and Piramal Finance Limited",
         "Book Running Lead Managers",
-        "Marri Retail"
+        "Marri Retail",
+        "Rentomojo"
       ],
       "deals": [
         {
@@ -158819,6 +160940,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+          "client": "Rentomojo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,255 crore",
+            "currency": "INR",
+            "amount": 12550000000,
+            "amount_inr": 12550000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Trilegal act on Brookfield India REIT ₹2,600 crore QIP"
@@ -159771,7 +161911,89 @@
           "value": null
         }
       ],
-      "snapshot": "Shardul Amarchand Mangaldas, JSA, Hogan Lovells act on Craftsman Automation ₹2,000 crore QIP"
+      "snapshot": "Shardul Amarchand Mangaldas, JSA, Hogan Lovells act on Craftsman Automation ₹2,000 crore QIP",
+      "same_name_elsewhere": [
+        {
+          "id": 3790,
+          "firm": "Hogan Lovells Cadwalader",
+          "role": "Counsel",
+          "deal_count": 2
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
+      "id": 3790,
+      "name": "Varun Jetly",
+      "firm": "Hogan Lovells Cadwalader",
+      "role": "Counsel",
+      "role_bucket": "Counsel",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Rentomojo",
+        "ARCIL"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+          "client": "Rentomojo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,255 crore",
+            "currency": "INR",
+            "amount": 12550000000,
+            "amount_inr": 12550000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Cyril Amarchand Mangaldas, Hogan Lovells Cadwalader act on ARCIL ₹732 crore IPO",
+          "client": "ARCIL",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cyril-amarchand-mangaldas-hogan-lovells-cadwalader-act-on-arcil-732-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹732 crore",
+            "currency": "INR",
+            "amount": 7320000000,
+            "amount_inr": 7320000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+      "same_name_elsewhere": [
+        {
+          "id": 1014,
+          "firm": "Hogan Lovells",
+          "role": "Counsel",
+          "deal_count": 4
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1812,
@@ -160477,6 +162699,44 @@
         }
       ],
       "snapshot": "Trilegal advises Sona Comstar on partnership with Japan's DENSO Corp"
+    },
+    {
+      "id": 3805,
+      "name": "Vedang Mehta",
+      "firm": "Vidhigya Associates",
+      "role": "Associate Partner",
+      "role_bucket": "Associate Partner",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Veegaland Homes"
+      ],
+      "deals": [
+        {
+          "headline": "Vidhigya Associates acts on Veegaland Homes ₹210 crore IPO",
+          "client": "Veegaland Homes",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/vidhigya-associates-acts-on-veegaland-homes-210-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹210 crore",
+            "currency": "INR",
+            "amount": 2100000000,
+            "amount_inr": 2100000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Vidhigya Associates acts on Veegaland Homes ₹210 crore IPO"
     },
     {
       "id": 3752,
@@ -161242,6 +163502,38 @@
         }
       ],
       "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
+    },
+    {
+      "id": 3780,
+      "name": "Vidhan Gupta",
+      "firm": "S&T Legal",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Fusion CX"
+      ],
+      "deals": [
+        {
+          "headline": "S&T Legal advises Fusion CX on acquisition of VA Platinum",
+          "client": "Fusion CX",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/st-legal-advises-fusion-cx-on-acquisition-of-va-platinum",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "S&T Legal advises Fusion CX on acquisition of VA Platinum"
     },
     {
       "id": 1783,
@@ -162277,7 +164569,8 @@
         "Book Running Lead Managers",
         "Duroflex",
         "Book running lead managers",
-        "Piramal Finance"
+        "Piramal Finance",
+        "Rentomojo"
       ],
       "deals": [
         {
@@ -162460,6 +164753,25 @@
             "currency": "INR",
             "amount": 21000000000,
             "amount_inr": 21000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+          "client": "Rentomojo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,255 crore",
+            "currency": "INR",
+            "amount": 12550000000,
+            "amount_inr": 12550000000,
             "approx": false
           }
         }
@@ -163109,7 +165421,9 @@
         "INDO-MIM",
         "Zetwerk",
         "Marri Retail",
-        "SPR Auto Technologies"
+        "SPR Auto Technologies",
+        "Karamtara Engineering",
+        "Rentomojo"
       ],
       "deals": [
         {
@@ -163189,6 +165503,44 @@
             "currency": "INR",
             "amount": 10000000000,
             "amount_inr": 10000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Karamtara Engineering ₹875 crore IPO",
+          "client": "Karamtara Engineering",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-ao-shearman-act-on-karamtara-engineering-875-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹875 crore",
+            "currency": "INR",
+            "amount": 8750000000,
+            "amount_inr": 8750000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+          "client": "Rentomojo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,255 crore",
+            "currency": "INR",
+            "amount": 12550000000,
+            "amount_inr": 12550000000,
             "approx": false
           }
         }
@@ -164223,7 +166575,8 @@
         "Placement Agents",
         "Anant Raj",
         "Book Running Lead Managers",
-        "Shiprocket"
+        "Shiprocket",
+        "Rentomojo"
       ],
       "deals": [
         {
@@ -164331,6 +166684,25 @@
             "amount_inr": 16170000000,
             "approx": false
           }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+          "client": "Rentomojo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,255 crore",
+            "currency": "INR",
+            "amount": 12550000000,
+            "amount_inr": 12550000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Khaitan & Co, Cyril Amarchand Mangaldas act on FILA Group's ₹934 crore stake sale in DOMS"
@@ -164376,6 +166748,38 @@
         }
       ],
       "snapshot": "SAM, CAM, Latham act on Groww ₹6,632 crore IPO - Bar and Bench"
+    },
+    {
+      "id": 3802,
+      "name": "Vishesh Minocha",
+      "firm": "Phoenix Legal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Celerity"
+      ],
+      "deals": [
+        {
+          "headline": "Phoenix Legal advises Celerity on Indian leg of acquisition of Insight 2 Value",
+          "client": "Celerity",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/phoenix-legal-advises-celerity-on-indian-leg-of-acquisition-of-insight-2-value",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Phoenix Legal advises Celerity on Indian leg of acquisition of Insight 2 Value"
     },
     {
       "id": 1103,
@@ -166531,7 +168935,8 @@
         "Shiprocket",
         "Piramal Finance",
         "Atomberg",
-        "Aragen Life Sciences"
+        "Aragen Life Sciences",
+        "Karamtara Engineering"
       ],
       "deals": [
         {
@@ -166703,6 +169108,25 @@
             "amount": 8000000000,
             "amount_inr": 8000000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Karamtara Engineering ₹875 crore IPO",
+          "client": "Karamtara Engineering",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-ao-shearman-act-on-karamtara-engineering-875-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹875 crore",
+            "currency": "INR",
+            "amount": 8750000000,
+            "amount_inr": 8750000000,
+            "approx": false
           }
         }
       ],
@@ -167978,6 +170402,44 @@
       "snapshot": "Trilegal acts on Adani Enterprises ₹1,000 crore NCD issue - Bar and Bench"
     },
     {
+      "id": 3785,
+      "name": "Yukti Goel",
+      "firm": "Legacy Law Offices",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Vardaan Biotech"
+      ],
+      "deals": [
+        {
+          "headline": "Legacy Law Offices acts on Vardaan Biotech ₹90 crore+ IPO",
+          "client": "Vardaan Biotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-vardaan-biotech-90-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹90 crore+",
+            "currency": "INR",
+            "amount": 900000000,
+            "amount_inr": 900000000,
+            "approx": true
+          }
+        }
+      ],
+      "snapshot": "Legacy Law Offices acts on Vardaan Biotech ₹90 crore+ IPO"
+    },
+    {
       "id": 2933,
       "name": "Yuning Zhou",
       "firm": "White & Case",
@@ -168283,9 +170745,15 @@
       "firm": "Cyril Amarchand Mangaldas",
       "role": "Associate",
       "role_bucket": "Associate",
-      "transaction_types": [],
-      "practice_areas": [],
-      "clients": [],
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "ARCIL"
+      ],
       "deals": [
         {
           "headline": "Trilegal, A&O Shearman, Cyril Amarchand Mangaldas, Linklaters act on ₹852 crore Shadowfax share sale",
@@ -168299,6 +170767,25 @@
             "currency": "INR",
             "amount": 8520000000,
             "amount_inr": 8520000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Cyril Amarchand Mangaldas, Hogan Lovells Cadwalader act on ARCIL ₹732 crore IPO",
+          "client": "ARCIL",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cyril-amarchand-mangaldas-hogan-lovells-cadwalader-act-on-arcil-732-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹732 crore",
+            "currency": "INR",
+            "amount": 7320000000,
+            "amount_inr": 7320000000,
             "approx": false
           }
         }
@@ -168429,7 +170916,8 @@
         "Rentomojo & Promoter Selling Shareholder",
         "Book Running Lead Managers",
         "Park Hospitals",
-        "Molbio Diagnostics"
+        "Molbio Diagnostics",
+        "Rentomojo"
       ],
       "deals": [
         {
@@ -168487,6 +170975,25 @@
             "currency": "INR",
             "amount": 9390000000,
             "amount_inr": 9390000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+          "client": "Rentomojo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,255 crore",
+            "currency": "INR",
+            "amount": 12550000000,
+            "amount_inr": 12550000000,
             "approx": false
           }
         }

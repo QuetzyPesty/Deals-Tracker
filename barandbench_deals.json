@@ -12448,5 +12448,727 @@
         "firm": "Talwar Thakore & Associates"
       }
     ]
+  },
+  {
+    "headline": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Karamtara Engineering ₹875 crore IPO",
+    "client": "Karamtara Engineering",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-ao-shearman-act-on-karamtara-engineering-875-crore-ipo",
+    "snippet": "Karamtara Engineering Limited has raised ₹875 crore from an initial public offering, including a fresh issue of 26,574,803 equity shares and an offer for sale of 7,874,014 equity shares by the selling shareholders. Cyril Amarchand Mangaldas advised Karamtara Engineering on this IPO. The transaction was led by Anshul Roy (Partner), with the support from Radhika Pandey (Principal Associate), Esha Gupta (Senior Associate), Associates Arikta Shetty, Anomitra Debnath, Janhavi Deshmukh, Chinmay Jhumde",
+    "law_firms": [
+      "Cyril Amarchand Mangaldas",
+      "Trilegal",
+      "A&O Shearman"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "deal_value": {
+      "raw": "₹875 crore",
+      "currency": "INR",
+      "amount": 8750000000,
+      "amount_inr": 8750000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Anshul Roy",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Radhika Pandey",
+        "role": "Principal Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Esha Gupta",
+        "role": "Senior Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Arikta Shetty",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Anomitra Debnath",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Janhavi Deshmukh",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Chinmay Jhumde",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Jahnavi Seethamraju",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Vinay Sirohia",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Saurav Das",
+        "role": "Counsel",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Shashwat Raj Solanki",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Kohsheen Saraf",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Sanath Rajesh",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Jasmine Manekshaw",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Trainee Associate Pratik Basistha",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Yash J. Ashar",
+        "role": "Senior Partner",
+        "firm": "Cyril Amarchand Mangaldas",
+        "source": "ner"
+      }
+    ]
+  },
+  {
+    "headline": "S&T Legal advises Fusion CX on acquisition of VA Platinum",
+    "client": "Fusion CX",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/st-legal-advises-fusion-cx-on-acquisition-of-va-platinum",
+    "snippet": "Fusion CX has acquired 100% of the issued share capital of VA Platinum Offshoring, an Australian offshore staffing and managed workforce provider with subsidiaries in the Philippines. S&T Legal advised Fusion CX through its UK entity, Fusion BPO Services Ltd., on the transaction, including legal due diligence, transaction structuring, drafting and negotiation of the Share Purchase Agreement and ancillary transaction documents, satisfaction of conditions precedent and completion. The transaction ",
+    "law_firms": [
+      "S&T Legal"
+    ],
+    "transaction_types": [
+      "acquisition"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Akshay Gosavi",
+        "role": "Partner",
+        "firm": "S&T Legal"
+      },
+      {
+        "name": "Vidhan Gupta",
+        "role": "Partner",
+        "firm": "S&T Legal"
+      },
+      {
+        "name": "Ankit Pitti",
+        "role": "Associate Partner",
+        "firm": "S&T Legal"
+      },
+      {
+        "name": "Anusha Burman",
+        "role": "Associate",
+        "firm": "S&T Legal"
+      },
+      {
+        "name": "Rajan Maheshwari",
+        "role": "Associate",
+        "firm": "S&T Legal"
+      }
+    ]
+  },
+  {
+    "headline": "Legacy Law Offices acts on Vardaan Biotech ₹90 crore+ IPO",
+    "client": "Vardaan Biotech",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-vardaan-biotech-90-crore-ipo",
+    "snippet": "Vardaan Biotech Limited has re-filed its Draft Red Herring Prospectus for a book-built offer on BSE and NSE Mainboard platform for an entirely fresh issue of 3,50,00,000 shares with an offer size of ₹90 crore+. Legacy Law Offices advised Vardaan Biotech, and also advised the Co-Book Running Lead Managers, Interactive Financial Services Ltd and Jajodia Equity Advisors Limited, on this IPO. The transaction was led by Surbhi Narang (Partner), with support from Naman Anand (Counsel), Soma Singh (Sen",
+    "law_firms": [
+      "Legacy Law Offices"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "deal_value": {
+      "raw": "₹90 crore+",
+      "currency": "INR",
+      "amount": 900000000,
+      "amount_inr": 900000000,
+      "approx": true,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Surbhi Narang",
+        "role": "Partner",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Naman Anand",
+        "role": "Counsel",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Soma Singh",
+        "role": "Senior Associate",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Yukti Goel",
+        "role": "Associate",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Anushka Indurkar",
+        "role": "Associate",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Geetika Joshi",
+        "role": "Associate",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Meghna Shukla",
+        "role": "Associate",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Samiksha Gawali",
+        "role": "Associate",
+        "firm": "Legacy Law Offices"
+      }
+    ]
+  },
+  {
+    "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+    "client": "Rentomojo",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+    "snippet": "Rentomojo Limited has raised ₹1,255.567 crore from an initial public offering comprising a fresh issue and an offer for sale of up to 28,399,567 equity shares. Cyril Amarchand Mangaldas advised Rentomojo and the Promoter Selling Shareholder, Geetansh Bamania, on this IPO. The transaction was led by Vishal Yaduvanshi (Partner, Regional Co-Head - Capital Markets - North) and Gayathri Ramachandran (Partner), with support from Surya Rajkumar (Senior Associate), Associates Anna Kallivayalil, Zubin Ro",
+    "law_firms": [
+      "Cyril Amarchand Mangaldas",
+      "Trilegal",
+      "Talwar Thakore & Associates",
+      "Hogan Lovells Cadwalader"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "deal_value": {
+      "raw": "₹1,255 crore",
+      "currency": "INR",
+      "amount": 12550000000,
+      "amount_inr": 12550000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Vishal Yaduvanshi",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Gayathri Ramachandran",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Surya Rajkumar",
+        "role": "Senior Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Anna Kallivayalil",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Zubin Ronnie",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Maria Palamattom",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Aarya Maheshwari",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Bharath Reddy",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Aarav Prasad",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Lomesh Kiran Nidumuri",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Tanisha Kumar",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Harshali Sulebhavikar",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Vijay Parthasarathi",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Vinay Sirohia",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Harshvardhan Lahiri",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Kohsheen Saraf",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Esha Alex",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Jahnavi Jayasimha Rao",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Vansh Dhoka",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Abhinav Kumar",
+        "role": "Partner",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Abhishek Iyer",
+        "role": "Senior Associate",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Daniyal Khan",
+        "role": "Associate",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Harsh Shekhar",
+        "role": "Associate",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Varun Jetly",
+        "role": "Counsel",
+        "firm": "Hogan Lovells Cadwalader"
+      },
+      {
+        "name": "Suchisubhra Sarkar",
+        "role": "Senior Associate",
+        "firm": "Hogan Lovells Cadwalader"
+      },
+      {
+        "name": "Aditya Dsouza",
+        "role": "Senior Associate",
+        "firm": "Hogan Lovells Cadwalader"
+      }
+    ]
+  },
+  {
+    "headline": "C&S Partners advises Dr. Lal Ventures on acquiring 30% stake in Neuome Technologies",
+    "client": "Dr. Lal Ventures",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/cs-partners-advises-dr-lal-ventures-on-acquiring-30-stake-in-neuome-technologies",
+    "snippet": "Dr. Lal Ventures Private Limited, a wholly owned subsidiary of Dr. Lal PathLabs Limited, has acquired a 30% stake in Neuome Technologies Private Limited, by way of subscription of shares. C&S Partners advised Dr. Lal Ventures on this transaction. The transaction team consisted of Saurabh Tiwari (Partner), Anant Garg (Partner), Arya Sharma (Associate) and Abhijeet Kumar (Associate). Neuome Technologies is engaged in developing advanced technologies for biospecimen collection & storage and advance",
+    "law_firms": [
+      "C&S Partners"
+    ],
+    "transaction_types": [],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Saurabh Tiwari",
+        "role": "Partner",
+        "firm": "C&S Partners"
+      },
+      {
+        "name": "Anant Garg",
+        "role": "Partner",
+        "firm": "C&S Partners"
+      },
+      {
+        "name": "Arya Sharma",
+        "role": "Associate",
+        "firm": "C&S Partners"
+      },
+      {
+        "name": "Abhijeet Kumar",
+        "role": "Associate",
+        "firm": "C&S Partners"
+      }
+    ]
+  },
+  {
+    "headline": "Triumvir Law, Khaitan & Co act on Moromaa securing funds from AJVC Fund",
+    "client": "Moromaa securing funds from AJVC Fund",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/triumvir-law-khaitan-co-act-on-moromaa-securing-funds-from-ajvc-fund",
+    "snippet": "MKF Private Limited, which owns and operates the Moroccan skincare brand “Moromaa\", has secured funds from AJVC Fund. Triumvir Law advised Moromaa and its Founder & CEO Soundous Moufakir on this transaction. The Firm advised on the review and negotiation of the transaction documents and assisted through to closing. The transaction team consisted of Anubhab Sarkar (Managing Partner) and Ragini Chakraborty (Senior Associate). Khaitan & Co advised AJVC Fund on this transaction. Moromaa is a Mumbai-",
+    "law_firms": [
+      "Triumvir Law",
+      "Khaitan & Co"
+    ],
+    "transaction_types": [],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Anubhab Sarkar",
+        "role": "Managing Partner",
+        "firm": "Triumvir Law"
+      },
+      {
+        "name": "Ragini Chakraborty",
+        "role": "Senior Associate",
+        "firm": "Triumvir Law"
+      }
+    ]
+  },
+  {
+    "headline": "Luthra acts on Rays of Belief ₹124 crore IPO",
+    "client": "Rays of Belief",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/luthra-and-luthra-acts-on-rays-of-belief-124-crore-ipo",
+    "snippet": "Rays of Belief Limited has raised ₹124.997 crore from an initial public offering of equity shares comprising a fresh issue of 5,230,000 equity shares. Luthra and Luthra Law Offices India advised Rays of Belief as well as the book running lead manager, Mefcom Capital Markets Limited, on this IPO. The transaction team consisted of Akshit Kapoor (Partner), Kshitij Asthana (Managing Associate) and Naman Dubey (Senior Associate), Associates Ashutosh Anand, Ashwin Singh, Karan Kapoor, Kumar Anant Ashi",
+    "law_firms": [
+      "Luthra and Luthra Law Offices India"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "deal_value": {
+      "raw": "₹124 crore",
+      "currency": "INR",
+      "amount": 1240000000,
+      "amount_inr": 1240000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Akshit Kapoor",
+        "role": "Partner",
+        "firm": "Luthra and Luthra"
+      },
+      {
+        "name": "Naman Dubey",
+        "role": "Senior Associate",
+        "firm": "Luthra and Luthra"
+      },
+      {
+        "name": "Ashutosh Anand",
+        "role": "Associate",
+        "firm": "Luthra and Luthra"
+      },
+      {
+        "name": "Ashwin Singh",
+        "role": "Associate",
+        "firm": "Luthra and Luthra"
+      },
+      {
+        "name": "Karan Kapoor",
+        "role": "Associate",
+        "firm": "Luthra and Luthra"
+      },
+      {
+        "name": "Kumar Anant Ashish",
+        "role": "Associate",
+        "firm": "Luthra and Luthra"
+      },
+      {
+        "name": "Manali Singh",
+        "role": "Associate",
+        "firm": "Luthra and Luthra"
+      },
+      {
+        "name": "Savar Arora",
+        "role": "Associate",
+        "firm": "Luthra and Luthra"
+      },
+      {
+        "name": "Shashwat Tyagi",
+        "role": "Associate",
+        "firm": "Luthra and Luthra"
+      },
+      {
+        "name": "Swetapadma Priyadarshini",
+        "role": "Associate",
+        "firm": "Luthra and Luthra"
+      }
+    ]
+  },
+  {
+    "headline": "Phoenix Legal advises Celerity on Indian leg of acquisition of Insight 2 Value",
+    "client": "Celerity",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/phoenix-legal-advises-celerity-on-indian-leg-of-acquisition-of-insight-2-value",
+    "snippet": "Phoenix Legal advised Celerity Limited, a UK-based managed IT services provider, on the Indian leg of its acquisition of Insight 2 Value (I2V), a specialist in intelligent automation and enterprise content management. The transaction team comprised Sumit Sinha (Partner), Ashima Dewan (Partner), Vishesh Minocha (Senior Associate) and Abhijit Durunde (Associate). Phoenix Legal worked alongside Hill Dickinson LLP , legal counsel to Celerity, on the transaction. The Hill Dickinson team was led by Da",
+    "law_firms": [
+      "Phoenix Legal"
+    ],
+    "transaction_types": [
+      "acquisition"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Sumit Sinha",
+        "role": "Partner",
+        "firm": "Phoenix Legal"
+      },
+      {
+        "name": "Ashima Dewan",
+        "role": "Partner",
+        "firm": "Phoenix Legal"
+      },
+      {
+        "name": "Vishesh Minocha",
+        "role": "Senior Associate",
+        "firm": "Phoenix Legal"
+      },
+      {
+        "name": "Abhijit Durunde",
+        "role": "Associate",
+        "firm": "Phoenix Legal"
+      },
+      {
+        "name": "David Mkhitarian",
+        "role": "Partner",
+        "firm": "Phoenix Legal"
+      }
+    ]
+  },
+  {
+    "headline": "Rajani Associates acts on Shanti Inorganics IPO",
+    "client": "Shanti Inorganics IPO",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/rajani-associates-acts-on-shanti-inorganics-ipo",
+    "snippet": "Shanti Inorganics Limited has raised ₹47.24 crore from an initial public offering of equity shares. Rajani Associates advised Shanti Inorganics as well as the book running lead manager, Vivro Financial Services Private Limited, on this IPO. The Firm's role included conducting legal and secretarial diligence; drafting, reviewing and finalizing all chapters of the Draft Red Herring Prospectus, Red Herring Prospectus and Prospectus; preparing and finalizing responses to queries raised by the NSE; a",
+    "law_firms": [
+      "Rajani Associates"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "deal_value": {
+      "raw": "₹47.24 crore",
+      "currency": "INR",
+      "amount": 472400000,
+      "amount_inr": 472400000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "body"
+    },
+    "people": [
+      {
+        "name": "Sangeeta Lakhi",
+        "role": "Senior Partner",
+        "firm": "Rajani Associates"
+      },
+      {
+        "name": "Sommya Khandelwal",
+        "role": "Associate",
+        "firm": "Rajani Associates"
+      }
+    ]
+  },
+  {
+    "headline": "Vidhigya Associates acts on Veegaland Homes ₹210 crore IPO",
+    "client": "Veegaland Homes",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/vidhigya-associates-acts-on-veegaland-homes-210-crore-ipo",
+    "snippet": "Veegaland Developers Limited has launched its Initial Public Offering compring a fresh issue of 1,50,00,000 equity shares aggregating to ₹210 crore. Vidhigya Associates acted as the sole legal counsel for the offering. The transaction team consisted of Rahul Pandey (Managing Partner), Vedang Mehta (Associate Partner) and Yash Kothari (Executive). Veegaland Developers Limited is a real estate development company engaged in the planning, development and sale of multi-storied residential apartment ",
+    "law_firms": [
+      "Vidhigya Associates"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "deal_value": {
+      "raw": "₹210 crore",
+      "currency": "INR",
+      "amount": 2100000000,
+      "amount_inr": 2100000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Rahul Pandey",
+        "role": "Managing Partner",
+        "firm": "Vidhigya Associates"
+      },
+      {
+        "name": "Vedang Mehta",
+        "role": "Associate Partner",
+        "firm": "Vidhigya Associates"
+      }
+    ]
+  },
+  {
+    "headline": "Trilegal, Cyril Amarchand Mangaldas, Hogan Lovells Cadwalader act on ARCIL ₹732 crore IPO",
+    "client": "ARCIL",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cyril-amarchand-mangaldas-hogan-lovells-cadwalader-act-on-arcil-732-crore-ipo",
+    "snippet": "Asset Reconstruction Company (India) Limited has raised ₹732.9 crore from an initial public offering comprising an offer for sale by selling shareholders, Avenue India Resurgence, State Bank of India, Lathe Investments and Federal Bank. Trilegal advised ARCIL on this IPO. The transaction team included Bhakta Patnaik (Partner), Albin Thomas (Partner), Somya Jena (Senior Associate), Associates Akanksha Goel, Tushar Chitlangia and Adhish Mohanty. Trilegal also advised State Bank of India in connect",
+    "law_firms": [
+      "Trilegal",
+      "Cyril Amarchand Mangaldas",
+      "Hogan Lovells Cadwalader"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "deal_value": {
+      "raw": "₹732 crore",
+      "currency": "INR",
+      "amount": 7320000000,
+      "amount_inr": 7320000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Bhakta Patnaik",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Albin Thomas",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Somya Jena",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Akanksha Goel",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Tushar Chitlangia",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Adhish Mohanty",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Arsh Sinha",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Ravi Dubey",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Urmil Shah",
+        "role": "Senior Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Zeb Burk",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Akshita Dhawan",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Gaurav Lalwani",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Harsha Menon",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Alok Antony",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Syamantak Sinha",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Varun Jetly",
+        "role": "Counsel",
+        "firm": "Hogan Lovells Cadwalader"
+      },
+      {
+        "name": "Aditya Dsouza",
+        "role": "Senior Associate",
+        "firm": "Hogan Lovells Cadwalader"
+      }
+    ]
   }
 ]
