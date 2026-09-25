@@ -13170,5 +13170,708 @@
         "firm": "Hogan Lovells Cadwalader"
       }
     ]
+  },
+  {
+    "headline": "LKS advises Raghava Life Sciences on sale of API business to RPG Active Pharma",
+    "client": "Raghava Life Sciences",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/lks-advises-raghava-life-sciences-on-sale-of-api-business-to-rpg-active-pharma",
+    "snippet": "Raghava Life Sciences Private Limited has transfered its Active Pharmaceutical Ingredients (API) business to RPG Active Pharma Limited, a subsidiary of RPG Life Sciences Limited through a slump sale. Lakshmikumaran & Sridharan Attorneys advised Raghava Life Sciences on this transaction. The Firm's mandate encompassed drafting, review, negotiation and finalisation of all transaction documents, including the Business Transfer Agreement, Disclosure Letter, Conveyance Deeds, Employee Release Documen",
+    "law_firms": [
+      "Lakshmikumaran & Sridharan Attorneys",
+      "Lks"
+    ],
+    "transaction_types": [],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Shipra Verma",
+        "role": "Associate Partner",
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
+      },
+      {
+        "name": "Isana Laisram",
+        "role": "Senior Associate",
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
+      },
+      {
+        "name": "Shrika C",
+        "role": "Senior Associate",
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
+      }
+    ]
+  },
+  {
+    "headline": "Shardul Amarchand Mangaldas advises Ethereal Exploration Guild on acquisition of industrial land in Tirupati",
+    "client": "Ethereal Exploration Guild",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-ethereal-exploration-guild-on-acquisition-of-industrial-land-in-tirupati",
+    "snippet": "Ethereal Exploration Guild Private Limited has entered into an agreement with the Andhra Pradesh Industrial Infrastructure Corporation Limited for an industrial land parcel admeasuring 142.3 acres, situated in Routhsuramala Village, Tirupati District, Andhra Pradesh. Shardul Amarchand Mangaldas & Co advised Ethereal Exploration Guild on this land acquisition deal. The Firm was involved in the review of revenue documents, and the negotiation and finalisation of the agreement for sale with APIIC. ",
+    "law_firms": [
+      "Shardul Amarchand Mangaldas & Co"
+    ],
+    "transaction_types": [
+      "acquisition"
+    ],
+    "deal_value": {
+      "raw": "approximately ₹578.39 crore",
+      "currency": "INR",
+      "amount": 5783900000,
+      "amount_inr": 5783900000,
+      "approx": true,
+      "fx_asof": null,
+      "source": "body"
+    },
+    "people": [
+      {
+        "name": "Mrinal Kumar",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Arnav Sahni",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Aman Gupta",
+        "role": "Senior Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      }
+    ]
+  },
+  {
+    "headline": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+    "client": "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-jsa-solicis-lex-act-on-samara-capitals-stake-acquisition-in-associated-road-carriers-calyx-container-terminals",
+    "snippet": "Samara Capital is set to acquire stakes in Associated Road Carriers Limited and Calyx Container Terminals Private Limited. Trilegal is advising Samara Capital on the proposed stake acquisition as well as on the proposed merger of Calyx with and into ARC, subject to certain regulatory approvals. The transaction is led by Raya Hazarika (Partner), with supported from Komal Parakh (Counsel), Vishvesh Vikram (Senior Associate), Associates Hitoishi Sarkar and Aastha Bhandari. They are being supported ",
+    "law_firms": [
+      "Trilegal",
+      "JSA Advocates & Solicitors",
+      "Solicis Lex"
+    ],
+    "transaction_types": [
+      "acquisition",
+      "stake acquisition"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Raya Hazarika",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Komal Parakh",
+        "role": "Counsel",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Vishvesh Vikram",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Hitoishi Sarkar",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Aastha Bhandari",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Aparna Mehra",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Krithika Ramesh",
+        "role": "Counsel",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Kshitij Sharma",
+        "role": "Counsel",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Ashlesha Singhal",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Dhruv Gupta",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Sourabh Kumar",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Vikram Raghani",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Sayan Ghose",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Manoj Mohapatra",
+        "role": "Senior Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Megh Panchal",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Yagnesh Sharma",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Wyoma Chudasama",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Nisha Kaur Uberoi",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Shambhvi Sinha",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Tarun Katariya",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      }
+    ]
+  },
+  {
+    "headline": "US Universities to establish physical campuses in India; Trilegal advises",
+    "client": null,
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/us-universities-to-establish-physical-campuses-in-india-trilegal-advises",
+    "snippet": "Trilegal has advised global education company Emeritus (part of Eruditus) on its strategic joint ventures with Illinois Institute of Technology, University of Aberdeen, University of New South Wales (UNSW) and University of Victoria for the establishment of physical campuses in India. The Firm provided comprehensive legal advisory support throughout the transactions, from inception through execution and closing. The responsibilities included structuring and negotiating transaction documentation,",
+    "law_firms": [
+      "Trilegal"
+    ],
+    "transaction_types": [],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Pratyush Singh",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Vishruta Kaul",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Shaurya Jain",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Advaye Sawhny",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Neha Koppu",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Riya Thawani",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Mukund Agarwal",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Jaideep Reddy",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Akshaya Parthasarathy",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Apeksha Mattoo",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Rina Goyal",
+        "role": "Counsel",
+        "firm": "Trilegal"
+      }
+    ]
+  },
+  {
+    "headline": "Saraf and Partners advises AMPIN Energy Transition on $100 million equity fundraise",
+    "client": "AMPIN Energy Transition",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/saraf-and-partners-advises-ampin-energy-transition-on-100-million-equity-fundraise",
+    "snippet": "AMPIN Energy Transition has raised upto $100 million from an equity fundraise from Norfund, the developmental finance institution of the Norwegian Government, through the Norwegian Climate Investment Fund. Saraf and Partners advised AMPIN Energy Transition on this fundraise. The transaction team was led by Avirup Nag (Partner) and Ankit Sahoo (Partner Designate), with support from Associates Ashwini Panwar and Sneha Smriti. The capital infusion takes AMPIN’s total equity raised to nearly $1 bill",
+    "law_firms": [
+      "Saraf and Partners",
+      "Partners"
+    ],
+    "transaction_types": [
+      "fundraise"
+    ],
+    "deal_value": {
+      "raw": "$100 million",
+      "currency": "USD",
+      "amount": 100000000,
+      "amount_inr": 8800000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Avirup Nag",
+        "role": "Partner",
+        "firm": "Saraf and Partners"
+      },
+      {
+        "name": "Ashwini Panwar",
+        "role": "Associate",
+        "firm": "Saraf and Partners"
+      },
+      {
+        "name": "Sneha Smriti",
+        "role": "Associate",
+        "firm": "Saraf and Partners"
+      }
+    ]
+  },
+  {
+    "headline": "Shardul Amarchand Mangaldas advises Groyyo on Series B fundraise",
+    "client": "Groyyo",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-groyyo-on-series-b-fundraise",
+    "snippet": "Groyyo Private Limited has raised funds from a Series B fundraise led by Cornerstone Ventures Enterprise Tech Fund II, with participation by certain existing investors including Alpha Wave. The first tranche of the fundraise was valued at approximately ₹90 crore. Shardul Amarchand Mangaldas & Co advised Groyy and its founders on this fundraise. The transaction was led by Navruz Vakil (Partner), with Alena Nari Advani (Consultant), Daksh Hemnani (Senior Associate) and Vidhi Shah (Associate). The ",
+    "law_firms": [
+      "Shardul Amarchand Mangaldas & Co"
+    ],
+    "transaction_types": [
+      "Series B",
+      "fundraise"
+    ],
+    "deal_value": {
+      "raw": "approximately ₹90 crore",
+      "currency": "INR",
+      "amount": 900000000,
+      "amount_inr": 900000000,
+      "approx": true,
+      "fx_asof": null,
+      "source": "body"
+    },
+    "people": [
+      {
+        "name": "Navruz Vakil",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Daksh Hemnani",
+        "role": "Senior Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Vidhi Shah",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      }
+    ]
+  },
+  {
+    "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+    "client": "AXISCADES acquiring",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
+    "snippet": "AXISCADES Technologies Limited has acquired 90% of the shareholding in Cloud Wave Technologies Private Limited, and its wholly owned subsidiaries, Aureate Polyment Private Limited and Protohubs System Solutions Private Limited. Trilegal advised AXISCADES on this transaction. The Firm conducted legal due diligence on Cloud Wave and its subsidiaries, and negotiated and drafted the share purchase agreement, shareholders' agreement, and other ancillary transaction documents. The transaction was led ",
+    "law_firms": [
+      "Trilegal",
+      "Shardul Amarchand Mangaldas & Co"
+    ],
+    "transaction_types": [],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Rahil Pereira",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Aishwaria Ramanan",
+        "role": "Counsel",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Mohammed Khalfan",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Shourya Pratap Singh Tomar",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Gayatri Puthran",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Dia Shetty",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Shloka Prashant Rao",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Krithika Bhandari",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Ishika Kansal",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Saif Ali",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Harsh Mittal",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Sumi Saikia",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Sidhant Kapoor",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Purboday Patitunda",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Himanshu Sinha",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Samyak Jain",
+        "role": "Counsel",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Ishabh Verma",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Monarch Mittal",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Parvathy Tharamel",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Harshita Arora",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Shreya Sharma",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Gauri Chhabra",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Eesha Sheth",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Shreya Chaudhary",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Bhargava KS",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Allen Benny Mathews",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Nikhil Javali",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      }
+    ]
+  },
+  {
+    "headline": "Trilegal advises Paisalo on ₹300 crore NCD issuance",
+    "client": "Paisalo",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-paisalo-on-300-crore-ncd-issuance",
+    "snippet": "Paisalo Digital Limited has made a public issuance of non-convertible debentures aggregating to ₹300 crore, under a shelf limit of ₹900 crore. Trilegal advised Paisalo as well as the lead manager, Tipsons Consultancy Services Limited, on this NCD issuance. The transaction team consisted of: Capital Markets team: Richa Choudhary (Partner), Avanti Kale (Counsel), Aayush Khandelwal (Senior Associate) and Associates Dinank Bhanot, Shreyansh Gupta and Sakshi Nalawade. Banking and Finance Team: Joseph",
+    "law_firms": [
+      "Trilegal"
+    ],
+    "transaction_types": [],
+    "deal_value": {
+      "raw": "₹300 crore",
+      "currency": "INR",
+      "amount": 3000000000,
+      "amount_inr": 3000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Richa Choudhary",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Avanti Kale",
+        "role": "Counsel",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Aayush Khandelwal",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Dinank Bhanot",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Shreyansh Gupta",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Sakshi Nalawade",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Joseph Jimmy",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Jinay Padh",
+        "role": "Counsel",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Yajat Bansal",
+        "role": "Associate",
+        "firm": "Trilegal"
+      }
+    ]
+  },
+  {
+    "headline": "Fox Mandal & Associates advises Rockline Entertainments in M.S. Subbulakshmi biopic",
+    "client": "Rockline Entertainments in M.S. Subbulakshmi biopic",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/fox-mandal-associates-advises-rockline-entertainments-in-ms-subbulakshmi-biopic",
+    "snippet": "Fox Mandal & Associates has advised Rockline Entertainments on a range of legal and intellectual property matters in connection with its upcoming project based on the life and legacy of the celebrated Indian vocalist and Bharat Ratna awardee M.S. Subbulakshmi, to be played by actor Rashmika Mandanna. The Firm advised on copyright and allied intellectual property rights and the related legal and contractual considerations. The Firm also assisted in evaluating, securing and structuring the relevan",
+    "law_firms": [
+      "Fox Mandal & Associates"
+    ],
+    "transaction_types": [],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Santosh Vikram Singh",
+        "role": "Partner",
+        "firm": "Fox Mandal & Associates"
+      },
+      {
+        "name": "Shreya Chaddha",
+        "role": "Senior Associate",
+        "firm": "Fox Mandal & Associates"
+      }
+    ]
+  },
+  {
+    "headline": "TT&A, Saraf and Partners act on Blueleaf Energy's acquisition of wind power asset in Karnataka",
+    "client": "Blueleaf Energy's acquisition of wind power asset in Karnataka",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/tta-saraf-and-partners-act-on-blueleaf-energys-acquisition-of-wind-power-asset-in-karnataka",
+    "snippet": "Blueleaf Energy India Investments acquired a 100% equity stake in Sanchore Renewable Private Limited from Virya Energy NV, adding a 40 MW wind power asset in Belgaum, Karnataka. TT&A advised Blueleaf Energy on this acquisition. The transaction team consisted of Gautam Saha (Joint Managing Partner), Dushyant Bagga (Partner), Swati Chauhan (Partner) and Eshani Agarwal (Associate). They were supported by the projects team consisting of Akshay Malhotra (Partner), Pooja Menon (Partner), Kush Saggi (M",
+    "law_firms": [
+      "Talwar Thakore & Associates",
+      "Saraf and Partners",
+      "Partners"
+    ],
+    "transaction_types": [
+      "acquisition"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Gautam Saha",
+        "role": "Joint Managing Partner",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Dushyant Bagga",
+        "role": "Partner",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Swati Chauhan",
+        "role": "Partner",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Eshani Agarwal",
+        "role": "Associate",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Akshay Malhotra",
+        "role": "Partner",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Pooja Menon",
+        "role": "Partner",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Aishik Majumder",
+        "role": "Senior Associate",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Kopal Bhargava",
+        "role": "Associate",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Avirup Nag",
+        "role": "Partner",
+        "firm": "Saraf and Partners"
+      },
+      {
+        "name": "Ashwini Panwar",
+        "role": "Associate",
+        "firm": "Saraf and Partners"
+      },
+      {
+        "name": "Sneha Smriti",
+        "role": "Associate",
+        "firm": "Saraf and Partners"
+      },
+      {
+        "name": "Asima Ghosh",
+        "role": "Principal Associate",
+        "firm": "Saraf and Partners"
+      },
+      {
+        "name": "Paritosh Bisen",
+        "role": "Associate",
+        "firm": "Saraf and Partners"
+      }
+    ]
+  },
+  {
+    "headline": "CMS INDUSLAW advises Rising Tide on follow-on investment in Battery Smart",
+    "client": "Rising Tide",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/cms-induslaw-advises-rising-tide-on-follow-on-investment-in-battery-smart",
+    "snippet": "Rising Tide has made follow-on investments in the Series C1 & C2 funding rounds of Upgrid Solutions Private Limited, dba Battery Smart. CMS INDUSLAW advised Rising Tide on these investments. The transaction team consisted of Shweta Gupta (Partner) and Abhinav A (Associate). Kartik Ganapathy (Founding Partner) provided strategic inputs on the transaction. Battery Smart operates one of India's largest battery-swapping networks, enabling EV users to access fully charged batteries through a widespre",
+    "law_firms": [
+      "CMS INDUSLAW"
+    ],
+    "transaction_types": [
+      "investment"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Shweta Gupta",
+        "role": "Partner",
+        "firm": "CMS INDUSLAW"
+      },
+      {
+        "name": "Abhinav A",
+        "role": "Associate",
+        "firm": "CMS INDUSLAW"
+      }
+    ]
+  },
+  {
+    "headline": "Sidebar advises KP Group on majority stake acquisition in DEK and Mavericks Green Energy",
+    "client": "KP Group",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/sidebar-advises-kp-group-on-majority-stake-acquisition-in-dek-and-mavericks-green-energy-2",
+    "snippet": "Sun Drops Energia Private Limited, a KP Group company, has acquired a majority stake in DEK and Mavericks Green Energy Limited. The transaction has been structured through a share swap arrangement, pursuant to which Sun Drops Energia will acquire shares of DEK and Mavericks Green Energy from its existing shareholders under a Share Swap Agreement. As consideration for the acquisition, compulsorily convertible preference shares (CCPS) of Sun Drops Energia will be issued to the selling shareholders",
+    "law_firms": [
+      "Sidebar"
+    ],
+    "transaction_types": [
+      "acquisition",
+      "stake acquisition"
+    ],
+    "deal_value": null,
+    "people": []
   }
 ]

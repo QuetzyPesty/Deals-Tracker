@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 3806,
-    "firms": 130,
-    "deals": 536,
+    "people": 3836,
+    "firms": 134,
+    "deals": 548,
     "practice_areas": 6
   },
   "firms": [
@@ -71,12 +71,14 @@
     "Khimani & Associates",
     "Kochhar & Co",
     "Krishnamurthy & Co",
+    "Lakshmikumaran & Sridharan Attorneys",
     "Latham & Watkins",
     "Legacy Law Offices",
     "Legalics",
     "Lex Consult",
     "Lexygen",
     "Linklaters",
+    "Lks",
     "Luthra and Luthra",
     "Luthra and Luthra Law Offices India",
     "Mayer Brown",
@@ -109,9 +111,11 @@
     "Sequitur Advocates & Legal Consultants",
     "Shardul Amarchand Mangaldas & Co",
     "Sheppard",
+    "Sidebar",
     "Sidley Austin",
     "Sidley Austin and FBT Gibbons",
     "Simpson Thacher",
+    "Solicis Lex",
     "Squire Patton Boggs",
     "Sullivan & Cromwell",
     "T&R Law Offices",
@@ -754,6 +758,7 @@
             1950,
             1951,
             151,
+            2298,
             1914,
             1954,
             1957,
@@ -2030,7 +2035,7 @@
     },
     {
       "firm": "Fox Mandal & Associates",
-      "people_count": 12,
+      "people_count": 14,
       "practice_groups": [
         {
           "area": "Banking & Finance",
@@ -2049,7 +2054,9 @@
           "person_ids": [
             3677,
             3678,
-            3679
+            3679,
+            3833,
+            3834
           ]
         },
         {
@@ -2305,7 +2312,7 @@
     },
     {
       "firm": "JSA Advocates & Solicitors",
-      "people_count": 386,
+      "people_count": 387,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -2379,6 +2386,7 @@
             2098,
             2771,
             836,
+            1917,
             708,
             1105,
             3649,
@@ -2439,6 +2447,7 @@
             2095,
             3520,
             1646,
+            1797,
             2992,
             431,
             2773,
@@ -2466,6 +2475,7 @@
             2748,
             2822,
             1601,
+            2497,
             501,
             1885,
             1886,
@@ -2484,6 +2494,7 @@
             1103,
             1398,
             1916,
+            3818,
             502,
             1246
           ]
@@ -2742,7 +2753,6 @@
             767,
             422,
             3297,
-            1797,
             1802,
             423,
             2887,
@@ -2754,7 +2764,6 @@
             2354,
             874,
             1529,
-            2497,
             438,
             426,
             3666,
@@ -3663,6 +3672,20 @@
       ]
     },
     {
+      "firm": "Lakshmikumaran & Sridharan Attorneys",
+      "people_count": 3,
+      "practice_groups": [
+        {
+          "area": "Unclassified",
+          "person_ids": [
+            3809,
+            3808,
+            3810
+          ]
+        }
+      ]
+    },
+    {
       "firm": "Latham & Watkins",
       "people_count": 61,
       "practice_groups": [
@@ -3873,6 +3896,11 @@
           ]
         }
       ]
+    },
+    {
+      "firm": "Lks",
+      "people_count": 0,
+      "practice_groups": []
     },
     {
       "firm": "Luthra and Luthra",
@@ -4349,7 +4377,7 @@
     },
     {
       "firm": "Saraf and Partners",
-      "people_count": 19,
+      "people_count": 24,
       "practice_groups": [
         {
           "area": "Unclassified",
@@ -4373,6 +4401,24 @@
             3757,
             2232,
             2228
+          ]
+        },
+        {
+          "area": "Mergers & Acquisitions",
+          "person_ids": [
+            3822,
+            3836,
+            3821,
+            3837,
+            3823
+          ]
+        },
+        {
+          "area": "Private Equity & Venture Capital",
+          "person_ids": [
+            3822,
+            3821,
+            3823
           ]
         }
       ]
@@ -4427,6 +4473,7 @@
             370,
             1748,
             2964,
+            2424,
             1834,
             1573,
             3462,
@@ -4445,6 +4492,7 @@
             2461,
             214,
             2459,
+            2423,
             1592,
             2205,
             2208,
@@ -4504,6 +4552,7 @@
             1742,
             1579,
             2995,
+            2422,
             2206,
             1315,
             1169,
@@ -4734,7 +4783,6 @@
             3680,
             2739,
             2434,
-            2424,
             2416,
             2441,
             2738,
@@ -4742,7 +4790,6 @@
             1240,
             1870,
             1744,
-            2423,
             2436,
             372,
             2373,
@@ -4772,7 +4819,6 @@
             1871,
             378,
             2437,
-            2422,
             1869,
             3544,
             3036,
@@ -4803,7 +4849,6 @@
             2439,
             1577,
             381,
-            1513,
             2435,
             1743,
             3771
@@ -4862,6 +4907,7 @@
             2689,
             2839,
             1783,
+            1513,
             106,
             2692,
             2192,
@@ -4951,6 +4997,11 @@
       ]
     },
     {
+      "firm": "Sidebar",
+      "people_count": 0,
+      "practice_groups": []
+    },
+    {
       "firm": "Sidley Austin",
       "people_count": 12,
       "practice_groups": [
@@ -4996,6 +5047,11 @@
           ]
         }
       ]
+    },
+    {
+      "firm": "Solicis Lex",
+      "people_count": 0,
+      "practice_groups": []
     },
     {
       "firm": "Squire Patton Boggs",
@@ -5138,7 +5194,7 @@
     },
     {
       "firm": "Talwar Thakore & Associates",
-      "people_count": 78,
+      "people_count": 79,
       "practice_groups": [
         {
           "area": "Private Equity & Venture Capital",
@@ -5185,6 +5241,7 @@
             1117,
             1115,
             405,
+            1220,
             446,
             444,
             1119,
@@ -5204,7 +5261,8 @@
             1358,
             92,
             1354,
-            1936
+            1936,
+            3835
           ]
         },
         {
@@ -5332,13 +5390,14 @@
     },
     {
       "firm": "Trilegal",
-      "people_count": 533,
+      "people_count": 551,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
           "person_ids": [
             2815,
             3459,
+            3814,
             474,
             3699,
             710,
@@ -5390,6 +5449,7 @@
             3319,
             2042,
             529,
+            3815,
             2047,
             3243,
             1439,
@@ -5406,6 +5466,7 @@
             2129,
             2813,
             1695,
+            3816,
             3576,
             1142,
             2776,
@@ -5420,6 +5481,7 @@
             533,
             2401,
             2360,
+            3813,
             776,
             3001,
             546,
@@ -5447,10 +5509,12 @@
             475,
             175,
             530,
+            3811,
             2043,
             551,
             545,
             2262,
+            737,
             2053,
             1083,
             276,
@@ -5517,6 +5581,7 @@
             2942,
             3004,
             3000,
+            2019,
             2940,
             2938,
             536,
@@ -5575,6 +5640,7 @@
             526,
             3321,
             3571,
+            3817,
             3579,
             1089,
             1205,
@@ -5601,6 +5667,7 @@
             414,
             2389,
             1391,
+            3812,
             3312,
             1086,
             3454,
@@ -5884,7 +5951,9 @@
             1850,
             3528,
             2562,
+            3824,
             3732,
+            3820,
             1847,
             2750,
             2145,
@@ -5906,11 +5975,15 @@
             1824,
             492,
             863,
+            3826,
             2413,
             1848,
+            3831,
             3734,
             1445,
             2979,
+            3829,
+            3819,
             2361,
             1819,
             2561,
@@ -5921,6 +5994,7 @@
             1444,
             2578,
             1849,
+            3828,
             3345,
             2752,
             1019,
@@ -5928,6 +6002,8 @@
             2147,
             2577,
             2751,
+            3825,
+            3832,
             1447,
             3731,
             1724,
@@ -5943,7 +6019,6 @@
             2152,
             1449,
             1023,
-            2019,
             2409,
             2414,
             2150,
@@ -5953,6 +6028,7 @@
             2146,
             2138,
             1025,
+            3830,
             3080,
             1021,
             2467,
@@ -5963,6 +6039,7 @@
             867,
             2148,
             2137,
+            3827,
             1851,
             2978,
             3078,
@@ -7385,6 +7462,40 @@
       "snapshot": "JSA, Khaitan act on Everstone investing $270 million in Apothecon Group"
     },
     {
+      "id": 3814,
+      "name": "Aastha Bhandari",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "client": "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-jsa-solicis-lex-act-on-samara-capitals-stake-acquisition-in-associated-road-carriers-calyx-container-terminals",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx..."
+    },
+    {
       "id": 654,
       "name": "Aastha Sahay",
       "firm": "Cyril Amarchand Mangaldas",
@@ -7639,7 +7750,8 @@
         "Muthoot Finance Limited",
         "Adani Enterprises Limited and lead managers",
         "Power Finance Corporation and lead managers",
-        "Gujarat Themis Biosyn"
+        "Gujarat Themis Biosyn",
+        "Paisalo"
       ],
       "deals": [
         {
@@ -7698,6 +7810,21 @@
             "currency": "INR",
             "amount": 7500000000,
             "amount_inr": 7500000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal advises Paisalo on ₹300 crore NCD issuance",
+          "client": "Paisalo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-paisalo-on-300-crore-ncd-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹300 crore",
+            "currency": "INR",
+            "amount": 3000000000,
+            "amount_inr": 3000000000,
             "approx": false
           }
         }
@@ -9017,7 +9144,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "OrbiMed"
+        "OrbiMed",
+        "Rising Tide"
       ],
       "deals": [
         {
@@ -9025,6 +9153,19 @@
           "client": "OrbiMed",
           "url": "https://www.barandbench.com/dealstreet/trilegal-advises-iswarya-health-on-securing-355-crore-investment-from-orbimed",
           "source": "Bar and Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": null
+        },
+        {
+          "headline": "CMS INDUSLAW advises Rising Tide on follow-on investment in Battery Smart",
+          "client": "Rising Tide",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cms-induslaw-advises-rising-tide-on-follow-on-investment-in-battery-smart",
+          "source": "Bar & Bench",
           "types": [
             "investment"
           ],
@@ -15079,6 +15220,15 @@
             "amount_inr": 17600000000,
             "approx": false
           }
+        },
+        {
+          "headline": "US Universities to establish physical campuses in India; Trilegal advises",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/us-universities-to-establish-physical-campuses-in-india-trilegal-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
         }
       ],
       "snapshot": "Skyroot rockets to Unicorn status with $60 million fundraise; Trilegal, TT&A, CAM advise"
@@ -15682,7 +15832,8 @@
       ],
       "clients": [
         "LeapFrog",
-        "JSW Energy"
+        "JSW Energy",
+        "Blueleaf Energy's acquisition of wind power asset in Karnataka"
       ],
       "deals": [
         {
@@ -15710,9 +15861,46 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "TT&A, Saraf and Partners act on Blueleaf Energy's acquisition of wind power asset in Karnataka",
+          "client": "Blueleaf Energy's acquisition of wind power asset in Karnataka",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-saraf-and-partners-act-on-blueleaf-energys-acquisition-of-wind-power-asset-in-karnataka",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
         }
       ],
       "snapshot": "JSA, TT&A advise LeapFrog on $95 million investment in ReNew Green Energy"
+    },
+    {
+      "id": 3824,
+      "name": "Aishwaria Ramanan",
+      "firm": "Trilegal",
+      "role": "Counsel",
+      "role_bucket": "Counsel",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "AXISCADES acquiring"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+          "client": "AXISCADES acquiring",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies"
     },
     {
       "id": 143,
@@ -18161,7 +18349,8 @@
         "LeapFrog",
         "MUFG Bank and SMBC",
         "IFC and Fullerton",
-        "JSW Energy"
+        "JSW Energy",
+        "Blueleaf Energy's acquisition of wind power asset in Karnataka"
       ],
       "deals": [
         {
@@ -18204,6 +18393,19 @@
           "client": "JSW Energy",
           "url": "https://www.barandbench.com/dealstreet/tta-cam-act-on-jsw-energys-acquisition-of-tidong-hydropower-plant-from-statkraft",
           "source": "Bar and Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        },
+        {
+          "headline": "TT&A, Saraf and Partners act on Blueleaf Energy's acquisition of wind power asset in Karnataka",
+          "client": "Blueleaf Energy's acquisition of wind power asset in Karnataka",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-saraf-and-partners-act-on-blueleaf-energys-acquisition-of-wind-power-asset-in-karnataka",
+          "source": "Bar & Bench",
           "types": [
             "acquisition"
           ],
@@ -18368,6 +18570,28 @@
         }
       ],
       "snapshot": "Trilegal, CAM, Latham, AZB, Equilex, Macfarlanes advise on Mittal-Poonawalla consortium ..."
+    },
+    {
+      "id": 3820,
+      "name": "Akshaya Parthasarathy",
+      "firm": "Trilegal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "US Universities to establish physical campuses in India; Trilegal advises",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/us-universities-to-establish-physical-campuses-in-india-trilegal-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "US Universities to establish physical campuses in India; Trilegal advises"
     },
     {
       "id": 2964,
@@ -19536,7 +19760,8 @@
       ],
       "clients": [
         "Avataar Venture Partners",
-        "Attentive.ai"
+        "Attentive.ai",
+        "AXISCADES acquiring"
       ],
       "deals": [
         {
@@ -19566,6 +19791,15 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ],
+          "value": null
+        },
+        {
+          "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+          "client": "AXISCADES acquiring",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
           "value": null
         }
       ],
@@ -19943,10 +20177,15 @@
       "firm": "Shardul Amarchand Mangaldas & Co",
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "Mitsui Fudosan"
+        "Mitsui Fudosan",
+        "Ethereal Exploration Guild"
       ],
       "deals": [
         {
@@ -19957,6 +20196,25 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises Ethereal Exploration Guild on acquisition of industrial land in Tirupati",
+          "client": "Ethereal Exploration Guild",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-ethereal-exploration-guild-on-acquisition-of-industrial-land-in-tirupati",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": {
+            "raw": "approximately ₹578.39 crore",
+            "currency": "INR",
+            "amount": 5783900000,
+            "amount_inr": 5783900000,
+            "approx": true
+          }
         }
       ],
       "snapshot": "Trilegal advises Mahindra Lifespaces on JV with Mitsui Fudosan for Bengaluru housing project"
@@ -30624,7 +30882,8 @@
         "Series A",
         "acquisition",
         "fundraise",
-        "investment"
+        "investment",
+        "stake acquisition"
       ],
       "practice_areas": [
         "Mergers & Acquisitions",
@@ -30634,7 +30893,8 @@
         "Mittal Family",
         "Iscon Balaji Foods, Promoters & Selling Shareholders",
         "PMI Electro Mobility",
-        "CRED"
+        "CRED",
+        "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals"
       ],
       "deals": [
         {
@@ -30684,6 +30944,20 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "client": "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-jsa-solicis-lex-act-on-samara-capitals-stake-acquisition-in-associated-road-carriers-calyx-container-terminals",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
           "value": null
         }
       ],
@@ -30838,6 +31112,15 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ],
+          "value": null
+        },
+        {
+          "headline": "US Universities to establish physical campuses in India; Trilegal advises",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/us-universities-to-establish-physical-campuses-in-india-trilegal-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
           "value": null
         }
       ],
@@ -33556,12 +33839,17 @@
       "id": 2423,
       "name": "Arnav Sahni",
       "firm": "Shardul Amarchand Mangaldas & Co",
-      "role": "Principal Associate",
-      "role_bucket": "Principal Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "Mitsui Fudosan"
+        "Mitsui Fudosan",
+        "Ethereal Exploration Guild"
       ],
       "deals": [
         {
@@ -33572,6 +33860,25 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises Ethereal Exploration Guild on acquisition of industrial land in Tirupati",
+          "client": "Ethereal Exploration Guild",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-ethereal-exploration-guild-on-acquisition-of-industrial-land-in-tirupati",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": {
+            "raw": "approximately ₹578.39 crore",
+            "currency": "INR",
+            "amount": 5783900000,
+            "amount_inr": 5783900000,
+            "approx": true
+          }
         }
       ],
       "snapshot": "Trilegal advises Mahindra Lifespaces on JV with Mitsui Fudosan for Bengaluru housing project"
@@ -35756,6 +36063,40 @@
       "snapshot": "Mahindra & Mahindra sells Trucks and Buses Division to SML Mahindra for ₹525 crore; Khaitan & Co, AZB advise"
     },
     {
+      "id": 3815,
+      "name": "Ashlesha Singhal",
+      "firm": "Trilegal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "client": "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-jsa-solicis-lex-act-on-samara-capitals-stake-acquisition-in-associated-road-carriers-calyx-container-terminals",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx..."
+    },
+    {
       "id": 1309,
       "name": "Ashna Mahajan",
       "firm": "AZB & Partners",
@@ -36396,6 +36737,60 @@
       "snapshot": "JSA, White & Case act on GTCR acquiring Zentiva for ₹36,600 crore"
     },
     {
+      "id": 3822,
+      "name": "Ashwini Panwar",
+      "firm": "Saraf and Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "AMPIN Energy Transition",
+        "Blueleaf Energy's acquisition of wind power asset in Karnataka"
+      ],
+      "deals": [
+        {
+          "headline": "Saraf and Partners advises AMPIN Energy Transition on $100 million equity fundraise",
+          "client": "AMPIN Energy Transition",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/saraf-and-partners-advises-ampin-energy-transition-on-100-million-equity-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "$100 million",
+            "currency": "USD",
+            "amount": 100000000,
+            "amount_inr": 8800000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "TT&A, Saraf and Partners act on Blueleaf Energy's acquisition of wind power asset in Karnataka",
+          "client": "Blueleaf Energy's acquisition of wind power asset in Karnataka",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-saraf-and-partners-act-on-blueleaf-energys-acquisition-of-wind-power-asset-in-karnataka",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Saraf and Partners advises AMPIN Energy Transition on $100 million equity fundraise"
+    },
+    {
       "id": 1439,
       "name": "Ashwyn Misra",
       "firm": "Trilegal",
@@ -36459,6 +36854,38 @@
         }
       ],
       "snapshot": "CAM advises QBE Holdings on acquiring Raheja QBE General Insurance Company"
+    },
+    {
+      "id": 3836,
+      "name": "Asima Ghosh",
+      "firm": "Saraf and Partners",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Blueleaf Energy's acquisition of wind power asset in Karnataka"
+      ],
+      "deals": [
+        {
+          "headline": "TT&A, Saraf and Partners act on Blueleaf Energy's acquisition of wind power asset in Karnataka",
+          "client": "Blueleaf Energy's acquisition of wind power asset in Karnataka",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-saraf-and-partners-act-on-blueleaf-energys-acquisition-of-wind-power-asset-in-karnataka",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "TT&A, Saraf and Partners act on Blueleaf Energy's acquisition of wind power asset in Karnataka"
     },
     {
       "id": 1996,
@@ -37371,7 +37798,8 @@
         "Muthoot Finance",
         "Adani Energy Solutions",
         "Gujarat Themis Biosyn",
-        "Pranav Constructions'"
+        "Pranav Constructions'",
+        "Paisalo"
       ],
       "deals": [
         {
@@ -37534,6 +37962,21 @@
             "currency": "INR",
             "amount": 3510000000,
             "amount_inr": 3510000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal advises Paisalo on ₹300 crore NCD issuance",
+          "client": "Paisalo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-paisalo-on-300-crore-ncd-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹300 crore",
+            "currency": "INR",
+            "amount": 3000000000,
+            "amount_inr": 3000000000,
             "approx": false
           }
         }
@@ -38049,6 +38492,60 @@
         }
       ],
       "snapshot": "Khaitan & Co, Shardul Amarchand Mangaldas act on BNP Paribas Cardif acquiring stake in IndiaFirst Life..."
+    },
+    {
+      "id": 3821,
+      "name": "Avirup Nag",
+      "firm": "Saraf and Partners",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "acquisition",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "AMPIN Energy Transition",
+        "Blueleaf Energy's acquisition of wind power asset in Karnataka"
+      ],
+      "deals": [
+        {
+          "headline": "Saraf and Partners advises AMPIN Energy Transition on $100 million equity fundraise",
+          "client": "AMPIN Energy Transition",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/saraf-and-partners-advises-ampin-energy-transition-on-100-million-equity-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "$100 million",
+            "currency": "USD",
+            "amount": 100000000,
+            "amount_inr": 8800000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "TT&A, Saraf and Partners act on Blueleaf Energy's acquisition of wind power asset in Karnataka",
+          "client": "Blueleaf Energy's acquisition of wind power asset in Karnataka",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-saraf-and-partners-act-on-blueleaf-energys-acquisition-of-wind-power-asset-in-karnataka",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Saraf and Partners advises AMPIN Energy Transition on $100 million equity fundraise"
     },
     {
       "id": 342,
@@ -40779,7 +41276,8 @@
       ],
       "clients": [
         "Avataar Venture Partners",
-        "Attentive.ai"
+        "Attentive.ai",
+        "AXISCADES acquiring"
       ],
       "deals": [
         {
@@ -40809,6 +41307,15 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ],
+          "value": null
+        },
+        {
+          "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+          "client": "AXISCADES acquiring",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
           "value": null
         }
       ],
@@ -44906,7 +45413,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "TruNativ"
+        "TruNativ",
+        "Groyyo"
       ],
       "deals": [
         {
@@ -44936,6 +45444,26 @@
             "amount": 5320000000,
             "amount_inr": 5320000000,
             "approx": false
+          }
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises Groyyo on Series B fundraise",
+          "client": "Groyyo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-groyyo-on-series-b-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series B",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "approximately ₹90 crore",
+            "currency": "INR",
+            "amount": 900000000,
+            "amount_inr": 900000000,
+            "approx": true
           }
         }
       ],
@@ -48795,6 +49323,40 @@
       "snapshot": "JSA, Verist Law, Duane Morris & Selvam act on Manorama Industries ₹500 crore QIP"
     },
     {
+      "id": 3816,
+      "name": "Dhruv Gupta",
+      "firm": "Trilegal",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "client": "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-jsa-solicis-lex-act-on-samara-capitals-stake-acquisition-in-associated-road-carriers-calyx-container-terminals",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx..."
+    },
+    {
       "id": 709,
       "name": "Dhruv Malhotra",
       "firm": "JSA Advocates & Solicitors",
@@ -49268,7 +49830,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Sarvam AI & Founders"
+        "Sarvam AI & Founders",
+        "AXISCADES acquiring"
       ],
       "deals": [
         {
@@ -49283,6 +49846,15 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ],
+          "value": null
+        },
+        {
+          "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+          "client": "AXISCADES acquiring",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
           "value": null
         }
       ],
@@ -49497,7 +50069,8 @@
       ],
       "clients": [
         "Placement agents",
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Paisalo"
       ],
       "deals": [
         {
@@ -49525,6 +50098,21 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Trilegal advises Paisalo on ₹300 crore NCD issuance",
+          "client": "Paisalo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-paisalo-on-300-crore-ncd-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹300 crore",
+            "currency": "INR",
+            "amount": 3000000000,
+            "amount_inr": 3000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Khaitan & Co, Trilegal, Linklaters act on JSW Infrastructure ₹7,502 crore QIP"
@@ -51436,7 +52024,8 @@
       "clients": [
         "Asian Development Bank",
         "Playbook India Fund II",
-        "KNI India AS"
+        "KNI India AS",
+        "Blueleaf Energy's acquisition of wind power asset in Karnataka"
       ],
       "deals": [
         {
@@ -51472,6 +52061,19 @@
           "client": "KNI India AS",
           "url": "https://www.barandbench.com/dealstreet/jsa-advises-indigrid-on-372-crore-acquisition-of-gadag-transmission",
           "source": "Bar and Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        },
+        {
+          "headline": "TT&A, Saraf and Partners act on Blueleaf Energy's acquisition of wind power asset in Karnataka",
+          "client": "Blueleaf Energy's acquisition of wind power asset in Karnataka",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-saraf-and-partners-act-on-blueleaf-energys-acquisition-of-wind-power-asset-in-karnataka",
+          "source": "Bar & Bench",
           "types": [
             "acquisition"
           ],
@@ -51834,7 +52436,8 @@
         "Hornbill Capital",
         "CA Sardo Investments/Carlyle (competition law)",
         "Blackstone",
-        "Körber Group"
+        "Körber Group",
+        "AXISCADES acquiring"
       ],
       "deals": [
         {
@@ -51885,6 +52488,15 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ],
+          "value": null
+        },
+        {
+          "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+          "client": "AXISCADES acquiring",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
           "value": null
         }
       ],
@@ -52946,9 +53558,11 @@
       "role_bucket": "Associate",
       "transaction_types": [
         "Series C",
+        "acquisition",
         "fundraise"
       ],
       "practice_areas": [
+        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
@@ -52956,7 +53570,8 @@
         "MUFG Bank and SMBC",
         "IFC and Fullerton",
         "WestBridge Capital",
-        "investors"
+        "investors",
+        "Blueleaf Energy's acquisition of wind power asset in Karnataka"
       ],
       "deals": [
         {
@@ -53018,6 +53633,19 @@
             "amount_inr": 4400000000,
             "approx": false
           }
+        },
+        {
+          "headline": "TT&A, Saraf and Partners act on Blueleaf Energy's acquisition of wind power asset in Karnataka",
+          "client": "Blueleaf Energy's acquisition of wind power asset in Karnataka",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-saraf-and-partners-act-on-blueleaf-energys-acquisition-of-wind-power-asset-in-karnataka",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
         }
       ],
       "snapshot": "TT&A, S&R, SAM, Agram act on Tata Motors acquiring controlling stake in Freight Tiger"
@@ -54552,7 +55180,8 @@
         "Sona Comstar",
         "Oxane Partners securing investment from TA Associates",
         "EAAA India Alternatives",
-        "Motilal Oswal Group"
+        "Motilal Oswal Group",
+        "AXISCADES acquiring"
       ],
       "deals": [
         {
@@ -54680,6 +55309,15 @@
             "amount_inr": 15000000000,
             "approx": false
           }
+        },
+        {
+          "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+          "client": "AXISCADES acquiring",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
         }
       ],
       "snapshot": "Trilegal, Sheppard act on $310 million acquisition of iMerit by EXL - Bar and Bench"
@@ -55050,7 +55688,8 @@
         "Neysa & Nexus Venture Partners",
         "WestBridge Capital",
         "WestBridge selling shareholders",
-        "Third Wave Coffee"
+        "Third Wave Coffee",
+        "Blueleaf Energy's acquisition of wind power asset in Karnataka"
       ],
       "deals": [
         {
@@ -55196,6 +55835,19 @@
             "amount_inr": 5320000000,
             "approx": false
           }
+        },
+        {
+          "headline": "TT&A, Saraf and Partners act on Blueleaf Energy's acquisition of wind power asset in Karnataka",
+          "client": "Blueleaf Energy's acquisition of wind power asset in Karnataka",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-saraf-and-partners-act-on-blueleaf-energys-acquisition-of-wind-power-asset-in-karnataka",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
         }
       ],
       "snapshot": "Trilegal advises JM Financial on ₹150 crore investment in NG Electro - Bar and Bench"
@@ -55706,6 +56358,30 @@
         }
       ],
       "snapshot": "NSE IPO: Which law firms are advising the stock exchange on its public listing?"
+    },
+    {
+      "id": 3826,
+      "name": "Gayatri Puthran",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "AXISCADES acquiring"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+          "client": "AXISCADES acquiring",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies"
     },
     {
       "id": 956,
@@ -58573,6 +59249,30 @@
       "snapshot": "TPG-led consortium to acquire Aseem Infra Finance; CAM, Linklaters, Trilegal, SAM advise"
     },
     {
+      "id": 3831,
+      "name": "Harsh Mittal",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "AXISCADES acquiring"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+          "client": "AXISCADES acquiring",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies"
+    },
+    {
       "id": 1068,
       "name": "Harsh Parikh",
       "firm": "Khaitan & Co",
@@ -59482,12 +60182,23 @@
       "role_bucket": "Senior Associate",
       "transaction_types": [],
       "practice_areas": [],
-      "clients": [],
+      "clients": [
+        "AXISCADES acquiring"
+      ],
       "deals": [
         {
           "headline": "Swiggy set to sell Lynk to Udaan; Trilegal advises",
           "client": null,
           "url": "https://www.barandbench.com/law-firms/dealstreet/swiggy-set-to-sell-lynk-to-udaan-trilegal-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+          "client": "AXISCADES acquiring",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": [],
@@ -60876,7 +61587,8 @@
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Mittal Family"
+        "Mittal Family",
+        "AXISCADES acquiring"
       ],
       "deals": [
         {
@@ -60890,6 +61602,15 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ],
+          "value": null
+        },
+        {
+          "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+          "client": "AXISCADES acquiring",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
           "value": null
         }
       ],
@@ -61234,6 +61955,40 @@
         }
       ],
       "snapshot": "CAM, Trilegal act on SEDEMAC Mechatronics ~₹1,087 crore IPO - Bar and Bench"
+    },
+    {
+      "id": 3813,
+      "name": "Hitoishi Sarkar",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "client": "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-jsa-solicis-lex-act-on-samara-capitals-stake-acquisition-in-associated-road-carriers-calyx-container-terminals",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx..."
     },
     {
       "id": 594,
@@ -62318,6 +63073,30 @@
       "snapshot": "Trilegal, Sheppard act on $310 million acquisition of iMerit by EXL - Bar and Bench"
     },
     {
+      "id": 3809,
+      "name": "Isana Laisram",
+      "firm": "Lakshmikumaran & Sridharan Attorneys",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Raghava Life Sciences"
+      ],
+      "deals": [
+        {
+          "headline": "LKS advises Raghava Life Sciences on sale of API business to RPG Active Pharma",
+          "client": "Raghava Life Sciences",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/lks-advises-raghava-life-sciences-on-sale-of-api-business-to-rpg-active-pharma",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "LKS advises Raghava Life Sciences on sale of API business to RPG Active Pharma"
+    },
+    {
       "id": 2731,
       "name": "Isha Choudhary",
       "firm": "Cyril Amarchand Mangaldas",
@@ -62608,7 +63387,8 @@
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Mittal Family"
+        "Mittal Family",
+        "AXISCADES acquiring"
       ],
       "deals": [
         {
@@ -62622,6 +63402,15 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ],
+          "value": null
+        },
+        {
+          "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+          "client": "AXISCADES acquiring",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
           "value": null
         }
       ],
@@ -62863,6 +63652,30 @@
         }
       ],
       "snapshot": "JSA advises TIL on rights issue and stake acquisition in Tulip Compression - Bar and Bench"
+    },
+    {
+      "id": 3829,
+      "name": "Ishika Kansal",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "AXISCADES acquiring"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+          "client": "AXISCADES acquiring",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies"
     },
     {
       "id": 2000,
@@ -64107,6 +64920,28 @@
         }
       ],
       "snapshot": "CAM advises JP Morgan on setting up of Asia's largest GCC in Mumbai - Bar and Bench"
+    },
+    {
+      "id": 3819,
+      "name": "Jaideep Reddy",
+      "firm": "Trilegal",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "US Universities to establish physical campuses in India; Trilegal advises",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/us-universities-to-establish-physical-campuses-in-india-trilegal-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "US Universities to establish physical campuses in India; Trilegal advises"
     },
     {
       "id": 2361,
@@ -67427,12 +68262,13 @@
       "id": 2561,
       "name": "Jinay Padh",
       "firm": "Trilegal",
-      "role": "Senior Associate",
-      "role_bucket": "Senior Associate",
+      "role": "Counsel",
+      "role_bucket": "Counsel",
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "Adani Enterprises Limited and lead managers"
+        "Adani Enterprises Limited and lead managers",
+        "Paisalo"
       ],
       "deals": [
         {
@@ -67443,6 +68279,21 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "Trilegal advises Paisalo on ₹300 crore NCD issuance",
+          "client": "Paisalo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-paisalo-on-300-crore-ncd-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹300 crore",
+            "currency": "INR",
+            "amount": 3000000000,
+            "amount_inr": 3000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal acts on Adani Enterprises ₹1,000 crore NCD issue - Bar and Bench"
@@ -68303,7 +69154,8 @@
         "Muthoot Finance Limited",
         "Adani Enterprises Limited and lead managers",
         "Muthoot Finance",
-        "Motilal Oswal Group"
+        "Motilal Oswal Group",
+        "Paisalo"
       ],
       "deals": [
         {
@@ -68345,6 +69197,21 @@
             "currency": "INR",
             "amount": 15000000000,
             "amount_inr": 15000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal advises Paisalo on ₹300 crore NCD issuance",
+          "client": "Paisalo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-paisalo-on-300-crore-ncd-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹300 crore",
+            "currency": "INR",
+            "amount": 3000000000,
+            "amount_inr": 3000000000,
             "approx": false
           }
         }
@@ -75711,6 +76578,40 @@
       "snapshot": "Khaitan & Co, JSA, Hogan Lovells Cadwalader, VERTICES Partners act on Glass Wall Systems ₹427 crore IPO"
     },
     {
+      "id": 3811,
+      "name": "Komal Parakh",
+      "firm": "Trilegal",
+      "role": "Counsel",
+      "role_bucket": "Counsel",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "client": "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-jsa-solicis-lex-act-on-samara-capitals-stake-acquisition-in-associated-road-carriers-calyx-container-terminals",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx..."
+    },
+    {
       "id": 1119,
       "name": "Kopal Bhargava",
       "firm": "Talwar Thakore & Associates",
@@ -75726,7 +76627,8 @@
       ],
       "clients": [
         "LeapFrog",
-        "JSW Energy"
+        "JSW Energy",
+        "Blueleaf Energy's acquisition of wind power asset in Karnataka"
       ],
       "deals": [
         {
@@ -75747,6 +76649,19 @@
           "client": "JSW Energy",
           "url": "https://www.barandbench.com/dealstreet/tta-cam-act-on-jsw-energys-acquisition-of-tidong-hydropower-plant-from-statkraft",
           "source": "Bar and Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        },
+        {
+          "headline": "TT&A, Saraf and Partners act on Blueleaf Energy's acquisition of wind power asset in Karnataka",
+          "client": "Blueleaf Energy's acquisition of wind power asset in Karnataka",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-saraf-and-partners-act-on-blueleaf-energys-acquisition-of-wind-power-asset-in-karnataka",
+          "source": "Bar & Bench",
           "types": [
             "acquisition"
           ],
@@ -76362,6 +77277,30 @@
       "snapshot": "Argus Partners, Trilegal act on Surya Hospitals securing investment from Novo Holdings"
     },
     {
+      "id": 3828,
+      "name": "Krithika Bhandari",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "AXISCADES acquiring"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+          "client": "AXISCADES acquiring",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies"
+    },
+    {
       "id": 1361,
       "name": "Krithika Chandrasekaran",
       "firm": "Cyril Amarchand Mangaldas",
@@ -76464,7 +77403,8 @@
       "role_bucket": "Counsel",
       "transaction_types": [
         "acquisition",
-        "investment"
+        "investment",
+        "stake acquisition"
       ],
       "practice_areas": [
         "Mergers & Acquisitions",
@@ -76472,7 +77412,8 @@
       ],
       "clients": [
         "Mittal Family",
-        "PMI Electro Mobility"
+        "PMI Electro Mobility",
+        "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals"
       ],
       "deals": [
         {
@@ -76498,6 +77439,20 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ],
+          "value": null
+        },
+        {
+          "headline": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "client": "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-jsa-solicis-lex-act-on-samara-capitals-stake-acquisition-in-associated-road-carriers-calyx-container-terminals",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ],
           "value": null
         }
@@ -77209,16 +78164,20 @@
       "role_bucket": "Counsel",
       "transaction_types": [
         "Series A",
+        "acquisition",
         "fundraise",
-        "investment"
+        "investment",
+        "stake acquisition"
       ],
       "practice_areas": [
+        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
         "Iscon Balaji Foods, Promoters & Selling Shareholders",
         "PMI Electro Mobility",
-        "CRED"
+        "CRED",
+        "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals"
       ],
       "deals": [
         {
@@ -77255,6 +78214,20 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "client": "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-jsa-solicis-lex-act-on-samara-capitals-stake-acquisition-in-associated-road-carriers-calyx-container-terminals",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
           "value": null
         }
       ],
@@ -84800,7 +85773,8 @@
       ],
       "clients": [
         "Advent International",
-        "MO Alternates"
+        "MO Alternates",
+        "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals"
       ],
       "deals": [
         {
@@ -84845,6 +85819,20 @@
             "amount_inr": 98250000000,
             "approx": false
           }
+        },
+        {
+          "headline": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "client": "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-jsa-solicis-lex-act-on-samara-capitals-stake-acquisition-in-associated-road-carriers-calyx-container-terminals",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
         }
       ],
       "snapshot": "JSA, JM+P act on Iscon Balaji Foods $215 million Series A fundraise"
@@ -87059,13 +88047,17 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "fundraise"
+        "acquisition",
+        "fundraise",
+        "stake acquisition"
       ],
       "practice_areas": [
+        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "ICICI Ventures"
+        "ICICI Ventures",
+        "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals"
       ],
       "deals": [
         {
@@ -87078,6 +88070,20 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ],
+          "value": null
+        },
+        {
+          "headline": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "client": "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-jsa-solicis-lex-act-on-samara-capitals-stake-acquisition-in-associated-road-carriers-calyx-container-terminals",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ],
           "value": null
         }
@@ -89375,6 +90381,30 @@
       "snapshot": "Cyril Amarchand Mangaldas, TT&A, Trilegal act on Aragen Life Sciences ₹800 crore+ proposed IPO"
     },
     {
+      "id": 3825,
+      "name": "Mohammed Khalfan",
+      "firm": "Trilegal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "AXISCADES acquiring"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+          "client": "AXISCADES acquiring",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies"
+    },
+    {
       "id": 3552,
       "name": "Mohanish Patkar",
       "firm": "TRD Associates",
@@ -89905,6 +90935,30 @@
       "snapshot": "Linklaters advises ReNew on the recommended offer by a consortium led by CPP Investments"
     },
     {
+      "id": 3832,
+      "name": "Monarch Mittal",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "AXISCADES acquiring"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+          "client": "AXISCADES acquiring",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies"
+    },
+    {
       "id": 1447,
       "name": "Monik Damania",
       "firm": "Trilegal",
@@ -90418,8 +91472,8 @@
         {
           "id": 2422,
           "firm": "Shardul Amarchand Mangaldas & Co",
-          "role": "Partner (Real Estate)",
-          "deal_count": 1
+          "role": "Partner",
+          "deal_count": 2
         }
       ],
       "firm_verification": {
@@ -90431,12 +91485,17 @@
       "id": 2422,
       "name": "Mrinal Kumar",
       "firm": "Shardul Amarchand Mangaldas & Co",
-      "role": "Partner (Real Estate)",
+      "role": "Partner",
       "role_bucket": "Partner",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "Mitsui Fudosan"
+        "Mitsui Fudosan",
+        "Ethereal Exploration Guild"
       ],
       "deals": [
         {
@@ -90447,6 +91506,25 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises Ethereal Exploration Guild on acquisition of industrial land in Tirupati",
+          "client": "Ethereal Exploration Guild",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-ethereal-exploration-guild-on-acquisition-of-industrial-land-in-tirupati",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": {
+            "raw": "approximately ₹578.39 crore",
+            "currency": "INR",
+            "amount": 5783900000,
+            "amount_inr": 5783900000,
+            "approx": true
+          }
         }
       ],
       "snapshot": "Trilegal advises Mahindra Lifespaces on JV with Mitsui Fudosan for Bengaluru housing project",
@@ -90908,6 +91986,15 @@
             "amount_inr": 17600000000,
             "approx": false
           }
+        },
+        {
+          "headline": "US Universities to establish physical campuses in India; Trilegal advises",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/us-universities-to-establish-physical-campuses-in-india-trilegal-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
         }
       ],
       "snapshot": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR"
@@ -93364,7 +94451,8 @@
       "clients": [
         "Singularity AMC",
         "TruNativ",
-        "Emirates NBD"
+        "Emirates NBD",
+        "Groyyo"
       ],
       "deals": [
         {
@@ -93416,6 +94504,26 @@
             "amount": 5320000000,
             "amount_inr": 5320000000,
             "approx": false
+          }
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises Groyyo on Series B fundraise",
+          "client": "Groyyo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-groyyo-on-series-b-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series B",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "approximately ₹90 crore",
+            "currency": "INR",
+            "amount": 900000000,
+            "amount_inr": 900000000,
+            "approx": true
           }
         }
       ],
@@ -94452,6 +95560,15 @@
             "amount_inr": 17600000000,
             "approx": false
           }
+        },
+        {
+          "headline": "US Universities to establish physical campuses in India; Trilegal advises",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/us-universities-to-establish-physical-campuses-in-india-trilegal-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
         }
       ],
       "snapshot": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR"
@@ -96075,7 +97192,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Avataar Venture Partners"
+        "Avataar Venture Partners",
+        "AXISCADES acquiring"
       ],
       "deals": [
         {
@@ -96091,6 +97209,15 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ],
+          "value": null
+        },
+        {
+          "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+          "client": "AXISCADES acquiring",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
           "value": null
         }
       ],
@@ -97972,7 +99099,8 @@
       "role_bucket": "Partner",
       "transaction_types": [
         "acquisition",
-        "investment"
+        "investment",
+        "stake acquisition"
       ],
       "practice_areas": [
         "Mergers & Acquisitions",
@@ -97981,7 +99109,8 @@
       "clients": [
         "LeapFrog",
         "SingTel",
-        "SMBC (Sumitomo Mitsui Banking Corporation)"
+        "SMBC (Sumitomo Mitsui Banking Corporation)",
+        "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals"
       ],
       "deals": [
         {
@@ -98013,6 +99142,20 @@
           "source": "Bar and Bench",
           "types": [
             "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        },
+        {
+          "headline": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "client": "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-jsa-solicis-lex-act-on-samara-capitals-stake-acquisition-in-associated-road-carriers-calyx-container-terminals",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
@@ -101433,6 +102576,38 @@
       "snapshot": "Trilegal, Khaitan & Co act on JBM Ecolife Mobility securing ₹750 crore from Motilal Oswal"
     },
     {
+      "id": 3837,
+      "name": "Paritosh Bisen",
+      "firm": "Saraf and Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Blueleaf Energy's acquisition of wind power asset in Karnataka"
+      ],
+      "deals": [
+        {
+          "headline": "TT&A, Saraf and Partners act on Blueleaf Energy's acquisition of wind power asset in Karnataka",
+          "client": "Blueleaf Energy's acquisition of wind power asset in Karnataka",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-saraf-and-partners-act-on-blueleaf-energys-acquisition-of-wind-power-asset-in-karnataka",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "TT&A, Saraf and Partners act on Blueleaf Energy's acquisition of wind power asset in Karnataka"
+    },
+    {
       "id": 3455,
       "name": "Parmeshwar Prapann",
       "firm": "Trilegal",
@@ -101715,7 +102890,8 @@
       "clients": [
         "Mittal Family",
         "Auro Pharma",
-        "Blackstone"
+        "Blackstone",
+        "AXISCADES acquiring"
       ],
       "deals": [
         {
@@ -101757,6 +102933,15 @@
           "headline": "Swiggy set to sell Lynk to Udaan; Trilegal advises",
           "client": null,
           "url": "https://www.barandbench.com/law-firms/dealstreet/swiggy-set-to-sell-lynk-to-udaan-trilegal-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+          "client": "AXISCADES acquiring",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": [],
@@ -102684,7 +103869,8 @@
         "Tata Motors",
         "IFC and Fullerton",
         "KNI India AS",
-        "NeoGeo"
+        "NeoGeo",
+        "Blueleaf Energy's acquisition of wind power asset in Karnataka"
       ],
       "deals": [
         {
@@ -102741,6 +103927,19 @@
             "amount_inr": 1760000000,
             "approx": false
           }
+        },
+        {
+          "headline": "TT&A, Saraf and Partners act on Blueleaf Energy's acquisition of wind power asset in Karnataka",
+          "client": "Blueleaf Energy's acquisition of wind power asset in Karnataka",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-saraf-and-partners-act-on-blueleaf-energys-acquisition-of-wind-power-asset-in-karnataka",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
         }
       ],
       "snapshot": "TT&A, S&R, SAM, Agram act on Tata Motors acquiring controlling stake in Freight Tiger"
@@ -107556,6 +108755,15 @@
             "amount_inr": 17600000000,
             "approx": false
           }
+        },
+        {
+          "headline": "US Universities to establish physical campuses in India; Trilegal advises",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/us-universities-to-establish-physical-campuses-in-india-trilegal-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
         }
       ],
       "snapshot": "Good PE/VC team in Trilegal GGN - Legally India"
@@ -110385,7 +111593,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Iscon Balaji Foods, Promoters & Selling Shareholders"
+        "Iscon Balaji Foods, Promoters & Selling Shareholders",
+        "AXISCADES acquiring"
       ],
       "deals": [
         {
@@ -110400,6 +111609,15 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ],
+          "value": null
+        },
+        {
+          "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+          "client": "AXISCADES acquiring",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
           "value": null
         }
       ],
@@ -112155,7 +113373,7 @@
       "id": 1342,
       "name": "Rahil Pereira",
       "firm": "Trilegal",
-      "role": "Partner, Corporate",
+      "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
         "Series B",
@@ -112165,7 +113383,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Sarvam AI & Founders"
+        "Sarvam AI & Founders",
+        "AXISCADES acquiring"
       ],
       "deals": [
         {
@@ -112180,6 +113399,15 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ],
+          "value": null
+        },
+        {
+          "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+          "client": "AXISCADES acquiring",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
           "value": null
         }
       ],
@@ -116455,13 +117683,35 @@
       "id": 2019,
       "name": "Raya Hazarika",
       "firm": "Trilegal",
-      "role": "Partner in Corporate practice",
+      "role": "Partner",
       "role_bucket": "Partner",
-      "transaction_types": [],
-      "practice_areas": [],
-      "clients": [],
-      "deals": [],
-      "snapshot": null
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "client": "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-jsa-solicis-lex-act-on-samara-capitals-stake-acquisition-in-associated-road-carriers-calyx-container-terminals",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx..."
     },
     {
       "id": 1622,
@@ -117643,7 +118893,8 @@
         "Gaja Capital",
         "Gujarat Themis Biosyn",
         "Pranav Constructions'",
-        "Kanohar Electricals"
+        "Kanohar Electricals",
+        "Paisalo"
       ],
       "deals": [
         {
@@ -117959,6 +119210,21 @@
             "currency": "INR",
             "amount": 10550000000,
             "amount_inr": 10550000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal advises Paisalo on ₹300 crore NCD issuance",
+          "client": "Paisalo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-paisalo-on-300-crore-ncd-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹300 crore",
+            "currency": "INR",
+            "amount": 3000000000,
+            "amount_inr": 3000000000,
             "approx": false
           }
         }
@@ -118457,6 +119723,15 @@
           "client": "Mahindra Lifespaces",
           "url": "https://www.barandbench.com/dealstreet/trilegal-advises-mahindra-lifespaces-on-jv-with-mitsui-fudosan-for-bengaluru-housing-project",
           "source": "Bar and Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "US Universities to establish physical campuses in India; Trilegal advises",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/us-universities-to-establish-physical-campuses-in-india-trilegal-advises",
+          "source": "Bar & Bench",
           "types": [],
           "practice_areas": [],
           "value": null
@@ -120462,6 +121737,15 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ],
+          "value": null
+        },
+        {
+          "headline": "US Universities to establish physical campuses in India; Trilegal advises",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/us-universities-to-establish-physical-campuses-in-india-trilegal-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
           "value": null
         }
       ],
@@ -124650,6 +125934,30 @@
       "snapshot": "Trilegal advises Mahindra Lifespaces on JV with Mitsui Fudosan for Bengaluru housing project"
     },
     {
+      "id": 3830,
+      "name": "Saif Ali",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "AXISCADES acquiring"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+          "client": "AXISCADES acquiring",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies"
+    },
+    {
       "id": 2432,
       "name": "Saifur Rahman Faridi",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -125425,7 +126733,8 @@
       "clients": [
         "Placement agents",
         "Capri Loans and Nuvama Wealth Management Limited",
-        "Power Finance Corporation and lead managers"
+        "Power Finance Corporation and lead managers",
+        "Paisalo"
       ],
       "deals": [
         {
@@ -125462,6 +126771,21 @@
             "Private Equity & Venture Capital"
           ],
           "value": null
+        },
+        {
+          "headline": "Trilegal advises Paisalo on ₹300 crore NCD issuance",
+          "client": "Paisalo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-paisalo-on-300-crore-ncd-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹300 crore",
+            "currency": "INR",
+            "amount": 3000000000,
+            "amount_inr": 3000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Khaitan & Co, Trilegal, Linklaters act on JSW Infrastructure ₹7,502 crore QIP"
@@ -127386,7 +128710,8 @@
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Mittal Family"
+        "Mittal Family",
+        "AXISCADES acquiring"
       ],
       "deals": [
         {
@@ -127400,6 +128725,15 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ],
+          "value": null
+        },
+        {
+          "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+          "client": "AXISCADES acquiring",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
           "value": null
         }
       ],
@@ -129865,6 +131199,30 @@
       "snapshot": "Trilegal, TT&A, Cyril Amarchand Mangaldas act on Sarvam AI $300 million Series B fundraise"
     },
     {
+      "id": 3833,
+      "name": "Santosh Vikram Singh",
+      "firm": "Fox Mandal & Associates",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Rockline Entertainments in M.S. Subbulakshmi biopic"
+      ],
+      "deals": [
+        {
+          "headline": "Fox Mandal & Associates advises Rockline Entertainments in M.S. Subbulakshmi biopic",
+          "client": "Rockline Entertainments in M.S. Subbulakshmi biopic",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/fox-mandal-associates-advises-rockline-entertainments-in-ms-subbulakshmi-biopic",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "Fox Mandal & Associates advises Rockline Entertainments in M.S. Subbulakshmi biopic"
+    },
+    {
       "id": 515,
       "name": "Sanya Chaudhari",
       "firm": "Trilegal",
@@ -132268,9 +133626,16 @@
       "firm": "JSA Advocates & Solicitors",
       "role": "Partner",
       "role_bucket": "Partner",
-      "transaction_types": [],
-      "practice_areas": [],
-      "clients": [],
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals"
+      ],
       "deals": [
         {
           "headline": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore",
@@ -132286,6 +133651,20 @@
             "amount_inr": 98250000000,
             "approx": false
           }
+        },
+        {
+          "headline": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "client": "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-jsa-solicis-lex-act-on-samara-capitals-stake-acquisition-in-associated-road-carriers-calyx-container-terminals",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore"
@@ -133745,16 +135124,18 @@
       "id": 2992,
       "name": "Shambhvi Sinha",
       "firm": "JSA Advocates & Solicitors",
-      "role": "Principal Associate",
-      "role_bucket": "Principal Associate",
+      "role": "Partner",
+      "role_bucket": "Partner",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "stake acquisition"
       ],
       "practice_areas": [
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "SMBC (Sumitomo Mitsui Banking Corporation)"
+        "SMBC (Sumitomo Mitsui Banking Corporation)",
+        "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals"
       ],
       "deals": [
         {
@@ -133764,6 +135145,20 @@
           "source": "Bar and Bench",
           "types": [
             "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        },
+        {
+          "headline": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "client": "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-jsa-solicis-lex-act-on-samara-capitals-stake-acquisition-in-associated-road-carriers-calyx-container-terminals",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
@@ -135342,6 +136737,15 @@
             "Private Equity & Venture Capital"
           ],
           "value": null
+        },
+        {
+          "headline": "US Universities to establish physical campuses in India; Trilegal advises",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/us-universities-to-establish-physical-campuses-in-india-trilegal-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
         }
       ],
       "snapshot": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR"
@@ -136259,6 +137663,30 @@
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Adani Enterprises ... - Bar and Bench"
+    },
+    {
+      "id": 3808,
+      "name": "Shipra Verma",
+      "firm": "Lakshmikumaran & Sridharan Attorneys",
+      "role": "Associate Partner",
+      "role_bucket": "Associate Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Raghava Life Sciences"
+      ],
+      "deals": [
+        {
+          "headline": "LKS advises Raghava Life Sciences on sale of API business to RPG Active Pharma",
+          "client": "Raghava Life Sciences",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/lks-advises-raghava-life-sciences-on-sale-of-api-business-to-rpg-active-pharma",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "LKS advises Raghava Life Sciences on sale of API business to RPG Active Pharma"
     },
     {
       "id": 3415,
@@ -138051,6 +139479,30 @@
       "snapshot": "Advent International set to invest ~₹2,750 crore in Aditya Birla Housing Finance; CAM, AZB advise"
     },
     {
+      "id": 3827,
+      "name": "Shloka Prashant Rao",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "AXISCADES acquiring"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+          "client": "AXISCADES acquiring",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies"
+    },
+    {
       "id": 257,
       "name": "Shobhit Dave",
       "firm": "Cyril Amarchand Mangaldas",
@@ -138397,7 +139849,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Sarvam AI & Founders"
+        "Sarvam AI & Founders",
+        "AXISCADES acquiring"
       ],
       "deals": [
         {
@@ -138412,6 +139865,15 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ],
+          "value": null
+        },
+        {
+          "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+          "client": "AXISCADES acquiring",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
           "value": null
         }
       ],
@@ -139320,6 +140782,30 @@
       "snapshot": "CAM advises Statkraft A.S. on 100% stake sale of wholly owned subsidiary, Mandakini Jal Urja"
     },
     {
+      "id": 3834,
+      "name": "Shreya Chaddha",
+      "firm": "Fox Mandal & Associates",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Rockline Entertainments in M.S. Subbulakshmi biopic"
+      ],
+      "deals": [
+        {
+          "headline": "Fox Mandal & Associates advises Rockline Entertainments in M.S. Subbulakshmi biopic",
+          "client": "Rockline Entertainments in M.S. Subbulakshmi biopic",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/fox-mandal-associates-advises-rockline-entertainments-in-ms-subbulakshmi-biopic",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "Fox Mandal & Associates advises Rockline Entertainments in M.S. Subbulakshmi biopic"
+    },
+    {
       "id": 2392,
       "name": "Shreya Chaudhary",
       "firm": "Trilegal",
@@ -139333,7 +140819,8 @@
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "CA Sardo Investments/Carlyle (competition law)"
+        "CA Sardo Investments/Carlyle (competition law)",
+        "AXISCADES acquiring"
       ],
       "deals": [
         {
@@ -139348,6 +140835,15 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ],
+          "value": null
+        },
+        {
+          "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+          "client": "AXISCADES acquiring",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
           "value": null
         }
       ],
@@ -140037,7 +141533,7 @@
           "id": 552,
           "firm": "Trilegal",
           "role": "Associate",
-          "deal_count": 2
+          "deal_count": 3
         }
       ],
       "firm_verification": {
@@ -140058,7 +141554,8 @@
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Mittal Family"
+        "Mittal Family",
+        "AXISCADES acquiring"
       ],
       "deals": [
         {
@@ -140078,6 +141575,15 @@
           "headline": "Swiggy set to sell Lynk to Udaan; Trilegal advises",
           "client": null,
           "url": "https://www.barandbench.com/law-firms/dealstreet/swiggy-set-to-sell-lynk-to-udaan-trilegal-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+          "client": "AXISCADES acquiring",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": [],
@@ -140337,7 +141843,8 @@
         "Placement Agents",
         "Capri Loans and Nuvama Wealth Management Limited",
         "Atlanta Electricals",
-        "Adani Energy Solutions"
+        "Adani Energy Solutions",
+        "Paisalo"
       ],
       "deals": [
         {
@@ -140387,6 +141894,21 @@
             "currency": "INR",
             "amount": 35000000000,
             "amount_inr": 35000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal advises Paisalo on ₹300 crore NCD issuance",
+          "client": "Paisalo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-paisalo-on-300-crore-ncd-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹300 crore",
+            "currency": "INR",
+            "amount": 3000000000,
+            "amount_inr": 3000000000,
             "approx": false
           }
         }
@@ -140478,6 +142000,30 @@
         }
       ],
       "snapshot": "JSA advises FMO on subscription to Sahyadri FPC NCDs - Bar and Bench"
+    },
+    {
+      "id": 3810,
+      "name": "Shrika C",
+      "firm": "Lakshmikumaran & Sridharan Attorneys",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Raghava Life Sciences"
+      ],
+      "deals": [
+        {
+          "headline": "LKS advises Raghava Life Sciences on sale of API business to RPG Active Pharma",
+          "client": "Raghava Life Sciences",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/lks-advises-raghava-life-sciences-on-sale-of-api-business-to-rpg-active-pharma",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "LKS advises Raghava Life Sciences on sale of API business to RPG Active Pharma"
     },
     {
       "id": 1096,
@@ -142456,13 +144002,16 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "investment"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Shriram Pistons"
+        "Shriram Pistons",
+        "Rising Tide"
       ],
       "deals": [
         {
@@ -142475,6 +144024,19 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ],
+          "value": null
+        },
+        {
+          "headline": "CMS INDUSLAW advises Rising Tide on follow-on investment in Battery Smart",
+          "client": "Rising Tide",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cms-induslaw-advises-rising-tide-on-follow-on-investment-in-battery-smart",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ],
           "value": null
         }
@@ -144441,8 +146003,8 @@
       "id": 736,
       "name": "Sidhant Kapoor",
       "firm": "Trilegal",
-      "role": "Associate",
-      "role_bucket": "Associate",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
       "transaction_types": [
         "Series A",
         "fundraise"
@@ -144451,7 +146013,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Iscon Balaji Foods, Promoters & Selling Shareholders"
+        "Iscon Balaji Foods, Promoters & Selling Shareholders",
+        "AXISCADES acquiring"
       ],
       "deals": [
         {
@@ -144466,6 +146029,15 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ],
+          "value": null
+        },
+        {
+          "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+          "client": "AXISCADES acquiring",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
           "value": null
         }
       ],
@@ -146185,6 +147757,60 @@
       "snapshot": "JSA, TT&A advise LeapFrog on $95 million investment in ReNew Green Energy"
     },
     {
+      "id": 3823,
+      "name": "Sneha Smriti",
+      "firm": "Saraf and Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "AMPIN Energy Transition",
+        "Blueleaf Energy's acquisition of wind power asset in Karnataka"
+      ],
+      "deals": [
+        {
+          "headline": "Saraf and Partners advises AMPIN Energy Transition on $100 million equity fundraise",
+          "client": "AMPIN Energy Transition",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/saraf-and-partners-advises-ampin-energy-transition-on-100-million-equity-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "$100 million",
+            "currency": "USD",
+            "amount": 100000000,
+            "amount_inr": 8800000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "TT&A, Saraf and Partners act on Blueleaf Energy's acquisition of wind power asset in Karnataka",
+          "client": "Blueleaf Energy's acquisition of wind power asset in Karnataka",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-saraf-and-partners-act-on-blueleaf-energys-acquisition-of-wind-power-asset-in-karnataka",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Saraf and Partners advises AMPIN Energy Transition on $100 million equity fundraise"
+    },
+    {
       "id": 3077,
       "name": "Sneha Vardhan",
       "firm": "Trilegal",
@@ -147589,6 +149215,40 @@
         }
       ],
       "snapshot": "Aritra Partners, JSA act on Ethereal Machines $28.5 million Series B fundraise"
+    },
+    {
+      "id": 3817,
+      "name": "Sourabh Kumar",
+      "firm": "Trilegal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "client": "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-jsa-solicis-lex-act-on-samara-capitals-stake-acquisition-in-associated-road-carriers-calyx-container-terminals",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx..."
     },
     {
       "id": 2846,
@@ -151247,7 +152907,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Iscon Balaji Foods, Promoters & Selling Shareholders"
+        "Iscon Balaji Foods, Promoters & Selling Shareholders",
+        "AXISCADES acquiring"
       ],
       "deals": [
         {
@@ -151262,6 +152923,15 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ],
+          "value": null
+        },
+        {
+          "headline": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies",
+          "client": "AXISCADES acquiring",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
           "value": null
         }
       ],
@@ -153129,6 +154799,38 @@
       "clients": [],
       "deals": [],
       "snapshot": null
+    },
+    {
+      "id": 3835,
+      "name": "Swati Chauhan",
+      "firm": "Talwar Thakore & Associates",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Blueleaf Energy's acquisition of wind power asset in Karnataka"
+      ],
+      "deals": [
+        {
+          "headline": "TT&A, Saraf and Partners act on Blueleaf Energy's acquisition of wind power asset in Karnataka",
+          "client": "Blueleaf Energy's acquisition of wind power asset in Karnataka",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-saraf-and-partners-act-on-blueleaf-energys-acquisition-of-wind-power-asset-in-karnataka",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "TT&A, Saraf and Partners act on Blueleaf Energy's acquisition of wind power asset in Karnataka"
     },
     {
       "id": 3039,
@@ -155547,10 +157249,16 @@
       "firm": "JSA Advocates & Solicitors",
       "role": "Associate",
       "role_bucket": "Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "SingTel"
+        "SingTel",
+        "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals"
       ],
       "deals": [
         {
@@ -155560,6 +157268,20 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "client": "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-jsa-solicis-lex-act-on-samara-capitals-stake-acquisition-in-associated-road-carriers-calyx-container-terminals",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
           "value": null
         }
       ],
@@ -163813,10 +165535,16 @@
       "firm": "Shardul Amarchand Mangaldas & Co",
       "role": "Associate",
       "role_bucket": "Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "Series B",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
       "clients": [
-        "Singularity AMC"
+        "Singularity AMC",
+        "Groyyo"
       ],
       "deals": [
         {
@@ -163841,6 +165569,26 @@
             "amount": 5320000000,
             "amount_inr": 5320000000,
             "approx": false
+          }
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises Groyyo on Series B fundraise",
+          "client": "Groyyo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-groyyo-on-series-b-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series B",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "approximately ₹90 crore",
+            "currency": "INR",
+            "amount": 900000000,
+            "amount_inr": 900000000,
+            "approx": true
           }
         }
       ],
@@ -163896,7 +165644,7 @@
           "id": 1513,
           "firm": "Shardul Amarchand Mangaldas & Co",
           "role": "Associate",
-          "deal_count": 2
+          "deal_count": 3
         }
       ],
       "firm_verification": {
@@ -164940,7 +166688,8 @@
         "SingTel",
         "Sumitomo Mitsui Banking Corporation",
         "MO Alternates",
-        "SMBC (Sumitomo Mitsui Banking Corporation)"
+        "SMBC (Sumitomo Mitsui Banking Corporation)",
+        "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals"
       ],
       "deals": [
         {
@@ -165087,6 +166836,20 @@
             "amount_inr": 98250000000,
             "approx": false
           }
+        },
+        {
+          "headline": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "client": "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-jsa-solicis-lex-act-on-samara-capitals-stake-acquisition-in-associated-road-carriers-calyx-container-terminals",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
         }
       ],
       "snapshot": "JSA advises TIL on rights issue and stake acquisition in Tulip Compression - Bar and Bench"
@@ -167001,6 +168764,15 @@
             "amount_inr": 17600000000,
             "approx": false
           }
+        },
+        {
+          "headline": "US Universities to establish physical campuses in India; Trilegal advises",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/us-universities-to-establish-physical-campuses-in-india-trilegal-advises",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
         }
       ],
       "snapshot": "Skyroot rockets to Unicorn status with $60 million fundraise; Trilegal, TT&A, CAM advise"
@@ -167028,6 +168800,40 @@
         }
       ],
       "snapshot": "Khaitan & Co, Shardul Amarchand Mangaldas act on BNP Paribas Cardif acquiring stake in IndiaFirst Life..."
+    },
+    {
+      "id": 3812,
+      "name": "Vishvesh Vikram",
+      "firm": "Trilegal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "client": "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-jsa-solicis-lex-act-on-samara-capitals-stake-acquisition-in-associated-road-carriers-calyx-container-terminals",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx..."
     },
     {
       "id": 1398,
@@ -168098,6 +169904,40 @@
       "snapshot": "Trilegal acts on Berry Street - Healthify merger"
     },
     {
+      "id": 3818,
+      "name": "Wyoma Chudasama",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "client": "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-jsa-solicis-lex-act-on-samara-capitals-stake-acquisition-in-associated-road-carriers-calyx-container-terminals",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx..."
+    },
+    {
       "id": 1333,
       "name": "Xavier Doumen",
       "firm": "Hogan Lovells",
@@ -168257,7 +170097,8 @@
       ],
       "clients": [
         "TIL Limited",
-        "Advent International"
+        "Advent International",
+        "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals"
       ],
       "deals": [
         {
@@ -168285,6 +170126,20 @@
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
+          ],
+          "value": null
+        },
+        {
+          "headline": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "client": "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-jsa-solicis-lex-act-on-samara-capitals-stake-acquisition-in-associated-road-carriers-calyx-container-terminals",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ],
           "value": null
         }
@@ -168378,7 +170233,8 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "Motilal Oswal Group"
+        "Motilal Oswal Group",
+        "Paisalo"
       ],
       "deals": [
         {
@@ -168393,6 +170249,21 @@
             "currency": "INR",
             "amount": 15000000000,
             "amount_inr": 15000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal advises Paisalo on ₹300 crore NCD issuance",
+          "client": "Paisalo",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-paisalo-on-300-crore-ncd-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹300 crore",
+            "currency": "INR",
+            "amount": 3000000000,
+            "amount_inr": 3000000000,
             "approx": false
           }
         }
