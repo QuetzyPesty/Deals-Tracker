@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 3836,
+    "people": 3842,
     "firms": 134,
-    "deals": 548,
+    "deals": 553,
     "practice_areas": 6
   },
   "firms": [
@@ -968,7 +968,7 @@
     },
     {
       "firm": "Cyril Amarchand Mangaldas",
-      "people_count": 602,
+      "people_count": 603,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -1319,6 +1319,7 @@
             1862,
             553,
             2116,
+            3841,
             1857,
             2675,
             1689,
@@ -2940,7 +2941,7 @@
     },
     {
       "firm": "Khaitan & Co",
-      "people_count": 570,
+      "people_count": 571,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -3180,6 +3181,7 @@
             3590,
             2724,
             3358,
+            3839,
             3031,
             723,
             2723,
@@ -4454,7 +4456,7 @@
     },
     {
       "firm": "Shardul Amarchand Mangaldas & Co",
-      "people_count": 415,
+      "people_count": 418,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -4705,6 +4707,7 @@
             2210,
             1472,
             878,
+            3842,
             1368,
             2252,
             1478,
@@ -4766,6 +4769,7 @@
             631,
             2021,
             2700,
+            3843,
             1494,
             1522,
             2022,
@@ -4862,6 +4866,7 @@
             3355,
             2694,
             3356,
+            370,
             317,
             1512,
             1050,
@@ -4870,6 +4875,7 @@
             1909,
             2242,
             1369,
+            2855,
             1638,
             1047,
             1782,
@@ -4878,13 +4884,17 @@
             2237,
             2691,
             105,
+            369,
             2898,
+            367,
             2690,
+            1580,
             1051,
             1046,
             1368,
             1906,
             1049,
+            3838,
             1511,
             1610,
             1052,
@@ -4911,7 +4921,8 @@
             106,
             2692,
             2192,
-            1370
+            1370,
+            2342
           ]
         },
         {
@@ -5390,7 +5401,7 @@
     },
     {
       "firm": "Trilegal",
-      "people_count": 551,
+      "people_count": 552,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -5952,6 +5963,7 @@
             3528,
             2562,
             3824,
+            3840,
             3732,
             3820,
             1847,
@@ -10073,7 +10085,8 @@
       "clients": [
         "Belrise Industries",
         "Placement Agents",
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Hero Motors"
       ],
       "deals": [
         {
@@ -10114,6 +10127,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, S&R Associates, Hogan Lovells Cadwalader act on Hero Motors ₹1,000 crore IPO",
+          "client": "Hero Motors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-sr-associates-hogan-lovells-cadwalader-act-on-hero-motors-1000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,000 crore",
+            "currency": "INR",
+            "amount": 10000000000,
+            "amount_inr": 10000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas, Trilegal, Sidley Austin act on Belrise Industries ₹1,700 crore QIP"
@@ -14538,13 +14570,15 @@
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
+        "IPO",
         "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
       ],
       "clients": [
-        "Sterlite Technologies Limited"
+        "Sterlite Technologies Limited",
+        "Hero Motors"
       ],
       "deals": [
         {
@@ -14559,6 +14593,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, S&R Associates, Hogan Lovells Cadwalader act on Hero Motors ₹1,000 crore IPO",
+          "client": "Hero Motors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-sr-associates-hogan-lovells-cadwalader-act-on-hero-motors-1000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,000 crore",
+            "currency": "INR",
+            "amount": 10000000000,
+            "amount_inr": 10000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas, AZB & Partners, Hogan Lovells act on Sterlite Technologies ...",
@@ -14617,7 +14670,7 @@
           "id": 913,
           "firm": "Cyril Amarchand Mangaldas",
           "role": "Senior Associate",
-          "deal_count": 1
+          "deal_count": 2
         },
         {
           "id": 3618,
@@ -14659,7 +14712,7 @@
           "id": 913,
           "firm": "Cyril Amarchand Mangaldas",
           "role": "Senior Associate",
-          "deal_count": 1
+          "deal_count": 2
         },
         {
           "id": 841,
@@ -17702,6 +17755,36 @@
       "snapshot": "ELP advises Birla Estates on redevelopment project of Shiv-Sai Co-operative Housing Society"
     },
     {
+      "id": 3839,
+      "name": "Akshansh Sharma",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Reliance Industries"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Reliance Industries on ₹12,000 crore NCD issuance",
+          "client": "Reliance Industries",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-reliance-industries-on-12000-crore-ncd-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹12,000 crore",
+            "currency": "INR",
+            "amount": 120000000000,
+            "amount_inr": 120000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Reliance Industries on ₹12,000 crore NCD issuance"
+    },
+    {
       "id": 3556,
       "name": "Akshat Jain",
       "firm": "Trilegal",
@@ -18081,17 +18164,20 @@
       "id": 370,
       "name": "Akshath Vidyanath",
       "firm": "Shardul Amarchand Mangaldas & Co",
-      "role": "Senior Associate",
-      "role_bucket": "Senior Associate",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
       "transaction_types": [
+        "investment",
         "merger"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
         "Macquarie Asset Management",
-        "Sapphire Foods"
+        "Sapphire Foods",
+        "NDR Smart Spaces"
       ],
       "deals": [
         {
@@ -18115,6 +18201,25 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises NDR Smart Spaces on ₹225 crore investment by IFC",
+          "client": "NDR Smart Spaces",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-ndr-smart-spaces-on-225-crore-investment-by-ifc",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹225 crore",
+            "currency": "INR",
+            "amount": 2250000000,
+            "amount_inr": 2250000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat"
@@ -18484,6 +18589,30 @@
         }
       ],
       "snapshot": "Aritra Partners, JSA act on Ethereal Machines $28.5 million Series B fundraise"
+    },
+    {
+      "id": 3840,
+      "name": "Akshay Shandilya",
+      "firm": "Trilegal",
+      "role": "Counsel",
+      "role_bucket": "Counsel",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Caelux Corporation"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises Caelux Corporation on supplying energy-producing solar glass to Rayzon Solar, Navitas Solar",
+          "client": "Caelux Corporation",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-caelux-corporation-on-supplying-energy-producing-solar-glass-to-rayzon-solar-navitas-solar",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "Trilegal advises Caelux Corporation on supplying energy-producing solar glass to Rayzon Solar, Navitas Solar"
     },
     {
       "id": 3732,
@@ -21739,7 +21868,8 @@
         "Book Running Lead Managers",
         "Shiprocket",
         "Dhoot Transmission",
-        "Piramal Finance"
+        "Piramal Finance",
+        "Hero Motors"
       ],
       "deals": [
         {
@@ -21844,6 +21974,25 @@
             "currency": "INR",
             "amount": 21000000000,
             "amount_inr": 21000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, S&R Associates, Hogan Lovells Cadwalader act on Hero Motors ₹1,000 crore IPO",
+          "client": "Hero Motors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-sr-associates-hogan-lovells-cadwalader-act-on-hero-motors-1000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,000 crore",
+            "currency": "INR",
+            "amount": 10000000000,
+            "amount_inr": 10000000000,
             "approx": false
           }
         }
@@ -38664,13 +38813,16 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "investment"
       ],
       "practice_areas": [
-        "Capital Markets"
+        "Capital Markets",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Aequs"
+        "Aequs",
+        "NDR Smart Spaces"
       ],
       "deals": [
         {
@@ -38685,6 +38837,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises NDR Smart Spaces on ₹225 crore investment by IFC",
+          "client": "NDR Smart Spaces",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-ndr-smart-spaces-on-225-crore-investment-by-ifc",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹225 crore",
+            "currency": "INR",
+            "amount": 2250000000,
+            "amount_inr": 2250000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "SAM, Rajani, Trilegal act on Aequs ₹1,100 crore IPO and pre-IPO placement"
@@ -48245,7 +48416,8 @@
         "Craftsman Automation",
         "Oravel Stays Limited (OYO)",
         "NephroPlus",
-        "Company and Promoters"
+        "Company and Promoters",
+        "Bharat Forge"
       ],
       "deals": [
         {
@@ -48299,6 +48471,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas acts on Bharat Forge ₹2,000 crore QIP",
+          "client": "Bharat Forge",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-acts-on-bharat-forge-2000-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹2,000 crore",
+            "currency": "INR",
+            "amount": 20000000000,
+            "amount_inr": 20000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, JSA, Hogan Lovells act on Craftsman Automation ₹2,000 crore QIP"
@@ -48800,13 +48991,15 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
       ],
       "clients": [
-        "Turtlemint & investor selling shareholders"
+        "Turtlemint & investor selling shareholders",
+        "Bharat Forge"
       ],
       "deals": [
         {
@@ -48821,6 +49014,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas acts on Bharat Forge ₹2,000 crore QIP",
+          "client": "Bharat Forge",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-acts-on-bharat-forge-2000-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹2,000 crore",
+            "currency": "INR",
+            "amount": 20000000000,
+            "amount_inr": 20000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Which law firms advised Turtlemint on its ₹882.67 crore IPO? - Bar and Bench"
@@ -55388,13 +55600,14 @@
       "id": 863,
       "name": "Gautam Chabra",
       "firm": "Trilegal",
-      "role": "Partner (Energy and Infrastructure)",
+      "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
         "Patel Greentech Private Limited",
-        "JSW Group"
+        "JSW Group",
+        "Caelux Corporation"
       ],
       "deals": [
         {
@@ -55411,6 +55624,15 @@
           "client": "JSW Group",
           "url": "https://www.barandbench.com/dealstreet/trilegal-advises-jsw-group-on-strategic-partnership-with-the-sultanate-of-omans-subsidiary-minerals-development-oman",
           "source": "",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "Trilegal advises Caelux Corporation on supplying energy-producing solar glass to Rayzon Solar, Navitas Solar",
+          "client": "Caelux Corporation",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-caelux-corporation-on-supplying-energy-producing-solar-glass-to-rayzon-solar-navitas-solar",
+          "source": "Bar & Bench",
           "types": [],
           "practice_areas": [],
           "value": null
@@ -57826,7 +58048,8 @@
       ],
       "clients": [
         "VINCI Highways",
-        "Muthoot FinCorp"
+        "Muthoot FinCorp",
+        "Reliance Industries"
       ],
       "deals": [
         {
@@ -57854,6 +58077,21 @@
             "currency": "INR",
             "amount": 30000000000,
             "amount_inr": 30000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Khaitan & Co advises Reliance Industries on ₹12,000 crore NCD issuance",
+          "client": "Reliance Industries",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-reliance-industries-on-12000-crore-ncd-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹12,000 crore",
+            "currency": "INR",
+            "amount": 120000000000,
+            "amount_inr": 120000000000,
             "approx": false
           }
         }
@@ -58523,7 +58761,8 @@
         "Anzen India Energy Yield Plus Trust",
         "Groww",
         "Brookfield",
-        "Cube Highways Trust"
+        "Cube Highways Trust",
+        "Bharat Forge"
       ],
       "deals": [
         {
@@ -58594,6 +58833,25 @@
             "currency": "INR",
             "amount": 50000000000,
             "amount_inr": 50000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas acts on Bharat Forge ₹2,000 crore QIP",
+          "client": "Bharat Forge",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-acts-on-bharat-forge-2000-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹2,000 crore",
+            "currency": "INR",
+            "amount": 20000000000,
+            "amount_inr": 20000000000,
             "approx": false
           }
         }
@@ -65070,16 +65328,19 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "investment"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
         "Macquarie Asset Management",
         "Dhoot Automotive Systems",
         "Aica Kogyo Co",
-        "Brij Hotels and promoters"
+        "Brij Hotels and promoters",
+        "NDR Smart Spaces"
       ],
       "deals": [
         {
@@ -65125,6 +65386,25 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises NDR Smart Spaces on ₹225 crore investment by IFC",
+          "client": "NDR Smart Spaces",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-ndr-smart-spaces-on-225-crore-investment-by-ifc",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹225 crore",
+            "currency": "INR",
+            "amount": 2250000000,
+            "amount_inr": 2250000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat"
@@ -66502,17 +66782,20 @@
       "transaction_types": [
         "IPO",
         "QIP",
+        "investment",
         "merger"
       ],
       "practice_areas": [
         "Capital Markets",
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
         "Macquarie Asset Management",
         "Brookfield India Real Estate Trust",
         "Brookfield",
-        "Sapphire Foods"
+        "Sapphire Foods",
+        "NDR Smart Spaces"
       ],
       "deals": [
         {
@@ -66562,6 +66845,25 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises NDR Smart Spaces on ₹225 crore investment by IFC",
+          "client": "NDR Smart Spaces",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-ndr-smart-spaces-on-225-crore-investment-by-ifc",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹225 crore",
+            "currency": "INR",
+            "amount": 2250000000,
+            "amount_inr": 2250000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat"
@@ -66825,7 +67127,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Nobel Hygiene"
+        "Nobel Hygiene",
+        "Hero Motors"
       ],
       "deals": [
         {
@@ -66845,6 +67148,25 @@
             "amount": 1500000000,
             "amount_inr": 1500000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, S&R Associates, Hogan Lovells Cadwalader act on Hero Motors ₹1,000 crore IPO",
+          "client": "Hero Motors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-sr-associates-hogan-lovells-cadwalader-act-on-hero-motors-1000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,000 crore",
+            "currency": "INR",
+            "amount": 10000000000,
+            "amount_inr": 10000000000,
+            "approx": false
           }
         }
       ],
@@ -73879,7 +74201,7 @@
           "id": 1792,
           "firm": "Hogan Lovells Cadwalader",
           "role": "Counsel",
-          "deal_count": 4
+          "deal_count": 5
         }
       ],
       "firm_verification": {
@@ -73904,7 +74226,8 @@
         "International Legal Counsel to BRLMs",
         "Book-Running Lead Managers",
         "Nobel Hygiene",
-        "Glass Wall Systems"
+        "Glass Wall Systems",
+        "Hero Motors"
       ],
       "deals": [
         {
@@ -73972,6 +74295,25 @@
             "amount_inr": 4270000000,
             "approx": false
           }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, S&R Associates, Hogan Lovells Cadwalader act on Hero Motors ₹1,000 crore IPO",
+          "client": "Hero Motors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-sr-associates-hogan-lovells-cadwalader-act-on-hero-motors-1000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,000 crore",
+            "currency": "INR",
+            "amount": 10000000000,
+            "amount_inr": 10000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal, Khaitan & Co, Hogan Lovells Cadwalader act on INDO-MIM ₹3,812 crore IPO",
@@ -73996,15 +74338,18 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "investment"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
         "Anzen India Energy Yield Plus Trust",
         "Aica Kogyo Co",
-        "Brij Hotels and promoters"
+        "Brij Hotels and promoters",
+        "NDR Smart Spaces"
       ],
       "deals": [
         {
@@ -74045,6 +74390,25 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises NDR Smart Spaces on ₹225 crore investment by IFC",
+          "client": "NDR Smart Spaces",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-ndr-smart-spaces-on-225-crore-investment-by-ifc",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹225 crore",
+            "currency": "INR",
+            "amount": 2250000000,
+            "amount_inr": 2250000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "SAM advises Anzen India on acquisition of majority stake in 12 Solar"
@@ -79012,12 +79376,13 @@
       "id": 2752,
       "name": "Kunal Sharma",
       "firm": "Trilegal",
-      "role": "Associate, Projects Team",
+      "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "JSW Group"
+        "JSW Group",
+        "Caelux Corporation"
       ],
       "deals": [
         {
@@ -79025,6 +79390,15 @@
           "client": "JSW Group",
           "url": "https://www.barandbench.com/dealstreet/trilegal-advises-jsw-group-on-strategic-partnership-with-the-sultanate-of-omans-subsidiary-minerals-development-oman",
           "source": "",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "Trilegal advises Caelux Corporation on supplying energy-producing solar glass to Rayzon Solar, Navitas Solar",
+          "client": "Caelux Corporation",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-caelux-corporation-on-supplying-energy-producing-solar-glass-to-rayzon-solar-navitas-solar",
+          "source": "Bar & Bench",
           "types": [],
           "practice_areas": [],
           "value": null
@@ -79071,8 +79445,8 @@
         {
           "id": 2752,
           "firm": "Trilegal",
-          "role": "Associate, Projects Team",
-          "deal_count": 1
+          "role": "Associate",
+          "deal_count": 2
         }
       ],
       "firm_verification": {
@@ -79570,6 +79944,44 @@
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Adani Enterprises ... - Bar and Bench"
+    },
+    {
+      "id": 3842,
+      "name": "L Raghavi",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "QIP"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Bharat Forge"
+      ],
+      "deals": [
+        {
+          "headline": "Shardul Amarchand Mangaldas acts on Bharat Forge ₹2,000 crore QIP",
+          "client": "Bharat Forge",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-acts-on-bharat-forge-2000-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹2,000 crore",
+            "currency": "INR",
+            "amount": 20000000000,
+            "amount_inr": 20000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Shardul Amarchand Mangaldas acts on Bharat Forge ₹2,000 crore QIP"
     },
     {
       "id": 567,
@@ -85060,7 +85472,8 @@
       "clients": [
         "IIFL Finance",
         "VINCI Highways",
-        "Capri Loans"
+        "Capri Loans",
+        "Reliance Industries"
       ],
       "deals": [
         {
@@ -85093,6 +85506,21 @@
             "currency": "USD",
             "amount": 300000000,
             "amount_inr": 26400000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Khaitan & Co advises Reliance Industries on ₹12,000 crore NCD issuance",
+          "client": "Reliance Industries",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-reliance-industries-on-12000-crore-ncd-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹12,000 crore",
+            "currency": "INR",
+            "amount": 120000000000,
+            "amount_inr": 120000000000,
             "approx": false
           }
         }
@@ -89460,7 +89888,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Shiprocket"
+        "Shiprocket",
+        "Hero Motors"
       ],
       "deals": [
         {
@@ -89479,6 +89908,25 @@
             "currency": "INR",
             "amount": 16170000000,
             "amount_inr": 16170000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, S&R Associates, Hogan Lovells Cadwalader act on Hero Motors ₹1,000 crore IPO",
+          "client": "Hero Motors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-sr-associates-hogan-lovells-cadwalader-act-on-hero-motors-1000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,000 crore",
+            "currency": "INR",
+            "amount": 10000000000,
+            "amount_inr": 10000000000,
             "approx": false
           }
         }
@@ -93270,6 +93718,44 @@
       "snapshot": "CAM advises JP Morgan on setting up of Asia's largest GCC in Mumbai - Bar and Bench"
     },
     {
+      "id": 3838,
+      "name": "Namrata Mehta",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "NDR Smart Spaces"
+      ],
+      "deals": [
+        {
+          "headline": "Shardul Amarchand Mangaldas advises NDR Smart Spaces on ₹225 crore investment by IFC",
+          "client": "NDR Smart Spaces",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-ndr-smart-spaces-on-225-crore-investment-by-ifc",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹225 crore",
+            "currency": "INR",
+            "amount": 2250000000,
+            "amount_inr": 2250000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Shardul Amarchand Mangaldas advises NDR Smart Spaces on ₹225 crore investment by IFC"
+    },
+    {
       "id": 2453,
       "name": "Namrata Rawat",
       "firm": "CMS INDUSLAW",
@@ -93468,7 +93954,8 @@
       "clients": [
         "IIFL Finance",
         "Muthoot FinCorp",
-        "Capri Loans"
+        "Capri Loans",
+        "Reliance Industries"
       ],
       "deals": [
         {
@@ -93511,6 +93998,21 @@
             "currency": "USD",
             "amount": 300000000,
             "amount_inr": 26400000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Khaitan & Co advises Reliance Industries on ₹12,000 crore NCD issuance",
+          "client": "Reliance Industries",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-reliance-industries-on-12000-crore-ncd-issuance",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹12,000 crore",
+            "currency": "INR",
+            "amount": 120000000000,
+            "amount_inr": 120000000000,
             "approx": false
           }
         }
@@ -97353,7 +97855,8 @@
         "Book Running Lead Managers",
         "Aequs",
         "Cube Highways Trust",
-        "Dhoot Transmission"
+        "Dhoot Transmission",
+        "Bharat Forge"
       ],
       "deals": [
         {
@@ -97595,6 +98098,25 @@
             "currency": "INR",
             "amount": 30660000000,
             "amount_inr": 30660000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas acts on Bharat Forge ₹2,000 crore QIP",
+          "client": "Bharat Forge",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-acts-on-bharat-forge-2000-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹2,000 crore",
+            "currency": "INR",
+            "amount": 20000000000,
+            "amount_inr": 20000000000,
             "approx": false
           }
         }
@@ -105631,7 +106153,7 @@
           "id": 915,
           "firm": "Cyril Amarchand Mangaldas",
           "role": "Associate",
-          "deal_count": 3
+          "deal_count": 4
         }
       ],
       "firm_verification": {
@@ -105655,7 +106177,8 @@
       "clients": [
         "Sterlite Technologies Limited",
         "Park Hospitals",
-        "Molbio Diagnostics"
+        "Molbio Diagnostics",
+        "Hero Motors"
       ],
       "deals": [
         {
@@ -105700,6 +106223,25 @@
             "currency": "INR",
             "amount": 9390000000,
             "amount_inr": 9390000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, S&R Associates, Hogan Lovells Cadwalader act on Hero Motors ₹1,000 crore IPO",
+          "client": "Hero Motors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-sr-associates-hogan-lovells-cadwalader-act-on-hero-motors-1000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,000 crore",
+            "currency": "INR",
+            "amount": 10000000000,
+            "amount_inr": 10000000000,
             "approx": false
           }
         }
@@ -121262,7 +121804,8 @@
       ],
       "clients": [
         "Placement Agents",
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Hero Motors"
       ],
       "deals": [
         {
@@ -121290,6 +121833,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, S&R Associates, Hogan Lovells Cadwalader act on Hero Motors ₹1,000 crore IPO",
+          "client": "Hero Motors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-sr-associates-hogan-lovells-cadwalader-act-on-hero-motors-1000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,000 crore",
+            "currency": "INR",
+            "amount": 10000000000,
+            "amount_inr": 10000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Shardul, Cyril Amarchand Mangaldas, Hogan Lovells act on ACME Solar ₹2800 crore"
@@ -143878,6 +144440,44 @@
       "snapshot": null
     },
     {
+      "id": 3841,
+      "name": "Shvabh Chakarwari",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Hero Motors"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, S&R Associates, Hogan Lovells Cadwalader act on Hero Motors ₹1,000 crore IPO",
+          "client": "Hero Motors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-sr-associates-hogan-lovells-cadwalader-act-on-hero-motors-1000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,000 crore",
+            "currency": "INR",
+            "amount": 10000000000,
+            "amount_inr": 10000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, S&R Associates, Hogan Lovells Cadwalader act on Hero Motors ₹1,000 crore IPO"
+    },
+    {
       "id": 1857,
       "name": "Shvabh Chakarwarti",
       "firm": "Cyril Amarchand Mangaldas",
@@ -155715,6 +156315,44 @@
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO"
+    },
+    {
+      "id": 3843,
+      "name": "Tanisha Taneja",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "QIP"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Bharat Forge"
+      ],
+      "deals": [
+        {
+          "headline": "Shardul Amarchand Mangaldas acts on Bharat Forge ₹2,000 crore QIP",
+          "client": "Bharat Forge",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-acts-on-bharat-forge-2000-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹2,000 crore",
+            "currency": "INR",
+            "amount": 20000000000,
+            "amount_inr": 20000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Shardul Amarchand Mangaldas acts on Bharat Forge ₹2,000 crore QIP"
     },
     {
       "id": 1027,
@@ -168339,7 +168977,8 @@
         "Anant Raj",
         "Book Running Lead Managers",
         "Shiprocket",
-        "Rentomojo"
+        "Rentomojo",
+        "Hero Motors"
       ],
       "deals": [
         {
@@ -168464,6 +169103,25 @@
             "currency": "INR",
             "amount": 12550000000,
             "amount_inr": 12550000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, S&R Associates, Hogan Lovells Cadwalader act on Hero Motors ₹1,000 crore IPO",
+          "client": "Hero Motors",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-sr-associates-hogan-lovells-cadwalader-act-on-hero-motors-1000-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,000 crore",
+            "currency": "INR",
+            "amount": 10000000000,
+            "amount_inr": 10000000000,
             "approx": false
           }
         }
@@ -171748,16 +172406,19 @@
       "id": 2342,
       "name": "Yashvardhan Mittal",
       "firm": "Shardul Amarchand Mangaldas & Co",
-      "role": "Associate",
-      "role_bucket": "Associate",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
       "transaction_types": [
+        "investment",
         "merger"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Sapphire Foods"
+        "Sapphire Foods",
+        "NDR Smart Spaces"
       ],
       "deals": [
         {
@@ -171772,6 +172433,25 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises NDR Smart Spaces on ₹225 crore investment by IFC",
+          "client": "NDR Smart Spaces",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-ndr-smart-spaces-on-225-crore-investment-by-ifc",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹225 crore",
+            "currency": "INR",
+            "amount": 2250000000,
+            "amount_inr": 2250000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM, SAM act on Devyani International – Sapphire Foods merger"
