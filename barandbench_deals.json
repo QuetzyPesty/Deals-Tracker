@@ -14133,5 +14133,474 @@
         "firm": "Shardul Amarchand Mangaldas & Co"
       }
     ]
+  },
+  {
+    "headline": "Trilegal, TT&A, DSK Legal act on Slice Small Finance Bank $100 million fundraise",
+    "client": "Slice Small Finance Bank",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-dsk-legal-act-on-slice-small-finance-bank-100-million-fundraise",
+    "snippet": "Slice Small Finance Bank has raised $100 million from a fundraise led by Neo Wealth, with participation from Kado Global, Moore Strategic Ventures, and Raise Financial, among other investors. Trilegal advised Slice Small Finance Bank on this fundraise. TT&A advised Neo Prime Fund, Neo Secondaries Fund and affiliated entities (collectively “Neo”) on this fundraise. The transaction team consisted of Dushyant Bagga (Partner), Pooja Menon (Partner), Prerna Raturi (Senior Associate) and Aniya Damathi",
+    "law_firms": [
+      "Trilegal",
+      "Talwar Thakore & Associates",
+      "DSK Legal"
+    ],
+    "transaction_types": [
+      "fundraise"
+    ],
+    "deal_value": {
+      "raw": "$100 million",
+      "currency": "USD",
+      "amount": 100000000,
+      "amount_inr": 8800000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Dushyant Bagga",
+        "role": "Partner",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Pooja Menon",
+        "role": "Partner",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Prerna Raturi",
+        "role": "Senior Associate",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Aniya Damathia",
+        "role": "Associate",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Sonam Mathur",
+        "role": "Partner",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Samriddha Gooptu",
+        "role": "Senior Associate",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Saikishan Rathore",
+        "role": "Associate",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Mayank Mehta",
+        "role": "Partner",
+        "firm": "DSK Legal"
+      },
+      {
+        "name": "Adwait Munje",
+        "role": "Principal Associate",
+        "firm": "DSK Legal"
+      },
+      {
+        "name": "Naina Lodha",
+        "role": "Associate",
+        "firm": "DSK Legal"
+      },
+      {
+        "name": "Hemang Parekh",
+        "role": "Partner",
+        "firm": "DSK Legal"
+      }
+    ]
+  },
+  {
+    "headline": "Cyril Amarchand Mangaldas advises Centella Mauritius Holdings on ₹4,700 crore sale of equity shares of Aster DM Quality Care",
+    "client": "Centella Mauritius Holdings",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-centella-mauritius-holdings-on-4700-crore-sale-of-equity-shares-of-aster-dm-quality-care",
+    "snippet": "Centella Mauritius Holdings Limited, a TPG-backed special purpose investment vehicle, has sold 6,24,00,000 equity shares of Aster DM Quality Care Limited (approx. 7.16% of the equity share capital of the Company) by way of share sales on the screen-based trading of the NSE and BSE, in the block trade window, for an aggregate consideration of approximately ₹4,700 crore. Cyril Amarchand Mangaldas advised Centella Mauritius Holdings on this transaction. The transaction was led by Yash J. Ashar (Sen",
+    "law_firms": [
+      "Cyril Amarchand Mangaldas"
+    ],
+    "transaction_types": [],
+    "deal_value": {
+      "raw": "₹4,700 crore",
+      "currency": "INR",
+      "amount": 47000000000,
+      "amount_inr": 47000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Iqbal Khan",
+        "role": "Senior Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Manshoor Nazki",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Ashid Basheer",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Yash J. Ashar",
+        "role": "Senior Partner",
+        "firm": "Cyril Amarchand Mangaldas",
+        "source": "ner"
+      }
+    ]
+  },
+  {
+    "headline": "Shardul Amarchand Mangaldas, Khaitan, Touchstone Partners act on BizzNextgenFinance ₹215 crore Series A fundraise",
+    "client": "BizzNextgenFinance",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-khaitan-co-touchstone-partners-act-on-bizznextgenfinance-215-crore-series-a-fundraise",
+    "snippet": "Business Nextgen Finance Private Limited has raised ₹215 crore from a Series A fundraise led by Beams Fintech Fund I and its affiliates, with participation from Baring Private Equity India Fund 6, Saison Capital Pte. Ltd., UNLEASH 1st Investment Partnership and other investors. Shardul Amarchand Mangaldas & Co advised Business Nextgen Finance on this fundraise. The transaction was led by Bhargava KS (Partner), with support from Associates Hrushika Sana, C R Keertitha and Nikhil Javali. Khaitan &",
+    "law_firms": [
+      "Shardul Amarchand Mangaldas & Co",
+      "Khaitan & Co",
+      "Touchstone Partners"
+    ],
+    "transaction_types": [
+      "Series A",
+      "fundraise"
+    ],
+    "deal_value": {
+      "raw": "₹215 crore",
+      "currency": "INR",
+      "amount": 2150000000,
+      "amount_inr": 2150000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Bhargava KS",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Hrushika Sana",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "C R Keertitha",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Nikhil Javali",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Kumar Kartikeya Prakash",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Vedika Bhandari",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Arnav Bose",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Vidhi Damani",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Vedaant Agarwal",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Pranay Bagdi",
+        "role": "Partner",
+        "firm": "Touchstone Partners"
+      },
+      {
+        "name": "Rajvee Bavishi",
+        "role": "Senior Associate",
+        "firm": "Touchstone Partners"
+      },
+      {
+        "name": "Divya Shrivastava",
+        "role": "Senior Associate",
+        "firm": "Touchstone Partners"
+      }
+    ]
+  },
+  {
+    "headline": "Legacy Law Offices acts on Nexa Defence IPO",
+    "client": "Nexa Defence IPO",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-nexa-defence-ipo",
+    "snippet": "Nexa Defence (I) Limited has filed its Draft Red Herring Prospectus (DRHP) on the Bombay Stock Exchange SME (BSE SME) platform on September 22, 2026 for a book-built offer for a fresh issue of 33,64,000 shares, with an offer size of ₹30.2 crore+. Legacy Law Offices advised Nexa Defence and the Book Running Lead Manager on this SME IPO. The transaction team comprised of Naman Anand (Counsel), and Associates Meghna Shukla, Pavitra Balgi, and Trainee Associate Priyanshu Raghav. Surbhi Narang (Partn",
+    "law_firms": [
+      "Legacy Law Offices"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "deal_value": {
+      "raw": "₹30.2 crore+",
+      "currency": "INR",
+      "amount": 302000000,
+      "amount_inr": 302000000,
+      "approx": true,
+      "fx_asof": null,
+      "source": "body"
+    },
+    "people": [
+      {
+        "name": "Naman Anand",
+        "role": "Counsel",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Meghna Shukla",
+        "role": "Associate",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Pavitra Balgi",
+        "role": "Associate",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Trainee Associate Priyanshu Raghav",
+        "role": "Associate",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Surbhi Narang",
+        "role": "Partner",
+        "firm": "Legacy Law Offices"
+      }
+    ]
+  },
+  {
+    "headline": "Clove Legal advises Nine Dimensions on ₹120 crore Bandra land transaction with Lemon Tree Hotels subsidiary",
+    "client": "Nine Dimensions",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/clove-legal-advises-nine-dimensions-on-120-crore-bandra-land-transaction-with-lemon-tree-hotels-subsidiary",
+    "snippet": "Nine Dimensions Housing LLP has sold off a land parcel situated along the Western Express Highway near BKC in Bandra, Mumbai, to Fleur Hotels Limited, a subsidiary of Lemon Tree Hotels Limited, for a consideration of ₹120 crore. The transaction was completed on September 24, 2026, through the registration of the Deed of Conveyance and related transaction documents. Clove Legal represented Nine Dimensions and its stakeholders on this transaction. The transaction was led by Amit Sirsikar (Founder ",
+    "law_firms": [
+      "Clove Legal"
+    ],
+    "transaction_types": [],
+    "deal_value": {
+      "raw": "₹120 crore",
+      "currency": "INR",
+      "amount": 1200000000,
+      "amount_inr": 1200000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Drashti Mehta",
+        "role": "Partner",
+        "firm": "Clove Legal"
+      }
+    ]
+  },
+  {
+    "headline": "TT&A, Linklaters advise Federal Bank on establishment of US$ 500,000,000 MTN Programme",
+    "client": "Federal Bank",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/tta-linklaters-advise-federal-bank-on-establishment-of-us-500000000-mtn-programme",
+    "snippet": "The Federal Bank Limited has established a US$ 500,000,000 medium term note programme. The notes when issued are proposed to be listed and admitted to trading on the NSE IFSC Limited, GIFT City. TT&A advised Federal Bank on this transaction. The transaction team consisted of Priyanka Kumar (Partner) , Saara Ahmed (Managing Associate) and Shrijaya Singh (Associate). Linklaters advised The Hongkong and Shanghai Banking Corporation Limited, which is acting as the arranger, dealer and trustee for th",
+    "law_firms": [
+      "Talwar Thakore & Associates",
+      "Linklaters"
+    ],
+    "transaction_types": [],
+    "deal_value": {
+      "raw": "$ 500,000,000",
+      "currency": "USD",
+      "amount": 500000000,
+      "amount_inr": 44000000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Priyanka Kumar",
+        "role": "Partner",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Shrijaya Singh",
+        "role": "Associate",
+        "firm": "Talwar Thakore & Associates"
+      }
+    ]
+  },
+  {
+    "headline": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care Services",
+    "client": "Advent International",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-advent-international-on-3150-crore-investment-in-yatharth-hospital-trauma-care-services",
+    "snippet": "Advent International is set to invest ₹3,150 crore in Yatharth Hospital & Trauma Care Services Limited, a leading multi-speciality healthcare platform headquartered in NCR. Khaitan & Co advised Advent International on this investment. The Firm advised on all aspects of the transaction, including legal due diligence, documentation, competition law and other regulatory aspect. The core transaction team consisted of Aashutosh Sampat (Partner), Anshuman Mozumdar (Partner), Abhishek Dadoo (Partner), ",
+    "law_firms": [
+      "Khaitan & Co"
+    ],
+    "transaction_types": [
+      "investment"
+    ],
+    "deal_value": {
+      "raw": "₹3,150 crore",
+      "currency": "INR",
+      "amount": 31500000000,
+      "amount_inr": 31500000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Aashutosh Sampat",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Anshuman Mozumdar",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Abhishek Dadoo",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Nikhil Tadikonda",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Vivek Badkur",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Amogh Pareek",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Niyati Karia",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Arth Ghiya",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Trisha Shetty",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Ranjul Malik",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Bhavya Ahlawat",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Nishant Arora",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Rupali Singh",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Riya Manuja",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Anisha Chand",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Yatharth V Singh",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Aditya Bhatia",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Sneha Janakiraman",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Sneha Dey",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Deepak Kumar",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Saket Mishra",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Shailendra Bhandare",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Vaishali Adhikari",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Sumantra Bose",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Avani Sasindran",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      }
+    ]
   }
 ]

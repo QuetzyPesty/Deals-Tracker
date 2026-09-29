@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 3842,
+    "people": 3866,
     "firms": 134,
-    "deals": 553,
+    "deals": 560,
     "practice_areas": 6
   },
   "firms": [
@@ -912,7 +912,7 @@
     },
     {
       "firm": "Clove Legal",
-      "people_count": 4,
+      "people_count": 5,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -921,6 +921,12 @@
             2248,
             2250,
             2249
+          ]
+        },
+        {
+          "area": "Unclassified",
+          "person_ids": [
+            3854
           ]
         }
       ]
@@ -1756,7 +1762,7 @@
     },
     {
       "firm": "DSK Legal",
-      "people_count": 44,
+      "people_count": 45,
       "practice_groups": [
         {
           "area": "Unclassified",
@@ -1815,6 +1821,7 @@
             3723,
             3721,
             3722,
+            3846,
             3724
           ]
         },
@@ -2941,7 +2948,7 @@
     },
     {
       "firm": "Khaitan & Co",
-      "people_count": 571,
+      "people_count": 586,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -3325,13 +3332,11 @@
             3360,
             3683,
             3363,
-            3273,
             331,
             2727,
             3687,
             343,
             3361,
-            3276,
             1063,
             319,
             3067,
@@ -3352,7 +3357,6 @@
             3437,
             3086,
             3275,
-            3271,
             3032,
             3085
           ]
@@ -3360,10 +3364,13 @@
         {
           "area": "Private Equity & Venture Capital",
           "person_ids": [
+            2866,
             154,
+            722,
             1538,
             2187,
             2284,
+            3864,
             858,
             3608,
             694,
@@ -3372,16 +3379,22 @@
             2763,
             3260,
             1540,
+            3857,
             1536,
             355,
             1808,
             3610,
+            1614,
             2189,
+            3182,
+            3858,
             2719,
             857,
+            3867,
             1548,
             1969,
             1530,
+            3860,
             2830,
             3609,
             1410,
@@ -3418,6 +3431,7 @@
             855,
             339,
             1231,
+            3849,
             690,
             859,
             1709,
@@ -3429,11 +3443,14 @@
             703,
             1544,
             2840,
+            3855,
             2844,
             2285,
             346,
+            3861,
             3008,
             1549,
+            2871,
             1541,
             2761,
             1547,
@@ -3449,7 +3466,11 @@
             1229,
             1412,
             1546,
+            3859,
             3009,
+            3863,
+            3862,
+            3866,
             2282,
             1534,
             1415,
@@ -3476,6 +3497,8 @@
             356,
             700,
             289,
+            3865,
+            3273,
             1411,
             3262,
             2846,
@@ -3483,21 +3506,28 @@
             693,
             1640,
             757,
+            3276,
             364,
             2289,
             2280,
             2832,
             2765,
             1199,
+            2217,
             2760,
             1539,
             2758,
+            3850,
+            983,
             1641,
+            1621,
             2755,
             2283,
             2186,
             1416,
-            287
+            287,
+            3856,
+            3271
           ]
         },
         {
@@ -3776,7 +3806,7 @@
     },
     {
       "firm": "Legacy Law Offices",
-      "people_count": 12,
+      "people_count": 13,
       "practice_groups": [
         {
           "area": "Capital Markets",
@@ -3792,6 +3822,7 @@
             3753,
             3784,
             3453,
+            3853,
             3785
           ]
         }
@@ -4456,7 +4487,7 @@
     },
     {
       "firm": "Shardul Amarchand Mangaldas & Co",
-      "people_count": 418,
+      "people_count": 420,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -4878,12 +4909,14 @@
             2855,
             1638,
             1047,
+            3848,
             1782,
             2193,
             2296,
             2237,
             2691,
             105,
+            3847,
             369,
             2898,
             367,
@@ -5205,7 +5238,7 @@
     },
     {
       "firm": "Talwar Thakore & Associates",
-      "people_count": 79,
+      "people_count": 81,
       "practice_groups": [
         {
           "area": "Private Equity & Venture Capital",
@@ -5215,6 +5248,7 @@
             1115,
             1281,
             1941,
+            3844,
             3727,
             405,
             1220,
@@ -5233,6 +5267,7 @@
             447,
             1221,
             1218,
+            3845,
             1356,
             1359,
             1722,
@@ -5358,13 +5393,14 @@
     },
     {
       "firm": "Touchstone Partners",
-      "people_count": 19,
+      "people_count": 21,
       "practice_groups": [
         {
           "area": "Private Equity & Venture Capital",
           "person_ids": [
             3691,
             1770,
+            3852,
             1133,
             1135,
             3692,
@@ -5375,6 +5411,7 @@
             3693,
             1130,
             1771,
+            3851,
             1138,
             1136,
             1134,
@@ -7424,10 +7461,12 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "investment"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
         "Advent International"
@@ -7445,6 +7484,25 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care Services",
+          "client": "Advent International",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-advent-international-on-3150-crore-investment-in-yatharth-hospital-trauma-care-services",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹3,150 crore",
+            "currency": "INR",
+            "amount": 31500000000,
+            "amount_inr": 31500000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "JSA, Khaitan act on Coforge's $2.35 billion acquisition of Encora - Bar and Bench"
@@ -10363,10 +10421,12 @@
       "role_bucket": "Partner",
       "transaction_types": [
         "acquisition",
+        "investment",
         "merger"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
         "Viatris Inc",
@@ -10446,6 +10506,25 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care Services",
+          "client": "Advent International",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-advent-international-on-3150-crore-investment-in-yatharth-hospital-trauma-care-services",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹3,150 crore",
+            "currency": "INR",
+            "amount": 31500000000,
+            "amount_inr": 31500000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "JSA, TT&A, Baker & McKenzie advise brokers on Mylan Inc's ₹3,679 crore exit from Biocon"
@@ -13317,6 +13396,44 @@
       "snapshot": "LIC Stake Sale: Dentons Link Legal, Trilegal, Sidley Austin and FBT Gibbons act on India’s Largest OFS of..."
     },
     {
+      "id": 3864,
+      "name": "Aditya Bhatia",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Advent International"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care Services",
+          "client": "Advent International",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-advent-international-on-3150-crore-investment-in-yatharth-hospital-trauma-care-services",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹3,150 crore",
+            "currency": "INR",
+            "amount": 31500000000,
+            "amount_inr": 31500000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care..."
+    },
+    {
       "id": 1796,
       "name": "Aditya Bhayal",
       "firm": "JSA Advocates & Solicitors",
@@ -15474,7 +15591,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "investors"
+        "investors",
+        "Slice Small Finance Bank"
       ],
       "deals": [
         {
@@ -15494,6 +15612,25 @@
             "currency": "USD",
             "amount": 50000000,
             "amount_inr": 4400000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, TT&A, DSK Legal act on Slice Small Finance Bank $100 million fundraise",
+          "client": "Slice Small Finance Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-dsk-legal-act-on-slice-small-finance-bank-100-million-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "$100 million",
+            "currency": "USD",
+            "amount": 100000000,
+            "amount_inr": 8800000000,
             "approx": false
           }
         }
@@ -22070,6 +22207,44 @@
       "snapshot": "SAM advises NaBFID on sanctioning ₹566 crore for 90 MW Wind Power Project in Gujarat"
     },
     {
+      "id": 3857,
+      "name": "Amogh Pareek",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Advent International"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care Services",
+          "client": "Advent International",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-advent-international-on-3150-crore-investment-in-yatharth-hospital-trauma-care-services",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹3,150 crore",
+            "currency": "INR",
+            "amount": 31500000000,
+            "amount_inr": 31500000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care..."
+    },
+    {
       "id": 2145,
       "name": "Amol Gupta",
       "firm": "Trilegal",
@@ -25139,6 +25314,7 @@
       "role_bucket": "Partner",
       "transaction_types": [
         "fundraise",
+        "investment",
         "merger"
       ],
       "practice_areas": [
@@ -25150,7 +25326,8 @@
         "Just Climate",
         "BNP Paribas Cardif acquiring stake in IndiaFirst Life Insurance",
         "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
-        "merger of Happiest Minds into ITC Infotech"
+        "merger of Happiest Minds into ITC Infotech",
+        "Advent International"
       ],
       "deals": [
         {
@@ -25205,6 +25382,25 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care Services",
+          "client": "Advent International",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-advent-international-on-3150-crore-investment-in-yatharth-hospital-trauma-care-services",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹3,150 crore",
+            "currency": "INR",
+            "amount": 31500000000,
+            "amount_inr": 31500000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat"
@@ -25232,6 +25428,44 @@
         }
       ],
       "snapshot": "CAM, AZB act on Warburg Pincus acquiring stake in Fleur Hotels - Bar and Bench"
+    },
+    {
+      "id": 3844,
+      "name": "Aniya Damathia",
+      "firm": "Talwar Thakore & Associates",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Slice Small Finance Bank"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, TT&A, DSK Legal act on Slice Small Finance Bank $100 million fundraise",
+          "client": "Slice Small Finance Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-dsk-legal-act-on-slice-small-finance-bank-100-million-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "$100 million",
+            "currency": "USD",
+            "amount": 100000000,
+            "amount_inr": 8800000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Trilegal, TT&A, DSK Legal act on Slice Small Finance Bank $100 million fundraise"
     },
     {
       "id": 170,
@@ -28358,13 +28592,16 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "investment"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "FMC India"
+        "FMC India",
+        "Advent International"
       ],
       "deals": [
         {
@@ -28379,6 +28616,25 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care Services",
+          "client": "Advent International",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-advent-international-on-3150-crore-investment-in-yatharth-hospital-trauma-care-services",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹3,150 crore",
+            "currency": "INR",
+            "amount": 31500000000,
+            "amount_inr": 31500000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Khaitan, Davis Polk act on Crystal Crop Protection's ..."
@@ -33823,13 +34079,17 @@
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
-        "acquisition"
+        "Series A",
+        "acquisition",
+        "fundraise"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Algonomy"
+        "Algonomy",
+        "BizzNextgenFinance"
       ],
       "deals": [
         {
@@ -33844,6 +34104,26 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas, Khaitan, Touchstone Partners act on BizzNextgenFinance ₹215 crore Series A fundraise",
+          "client": "BizzNextgenFinance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-khaitan-co-touchstone-partners-act-on-bizznextgenfinance-215-crore-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹215 crore",
+            "currency": "INR",
+            "amount": 2150000000,
+            "amount_inr": 2150000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Khaitan & Co advises Algonomy on acquisition by Malaysia-based ADA"
@@ -34560,6 +34840,44 @@
         }
       ],
       "snapshot": "Trilegal, AZB & Partners act on PMI Electro Mobility securing $310 million investment from KKR"
+    },
+    {
+      "id": 3858,
+      "name": "Arth Ghiya",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Advent International"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care Services",
+          "client": "Advent International",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-advent-international-on-3150-crore-investment-in-yatharth-hospital-trauma-care-services",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹3,150 crore",
+            "currency": "INR",
+            "amount": 31500000000,
+            "amount_inr": 31500000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care..."
     },
     {
       "id": 2451,
@@ -35806,7 +36124,8 @@
       ],
       "clients": [
         "TPG",
-        "Adar Poonawalla"
+        "Adar Poonawalla",
+        "Centella Mauritius Holdings"
       ],
       "deals": [
         {
@@ -35847,6 +36166,21 @@
             "Private Equity & Venture Capital"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Centella Mauritius Holdings on ₹4,700 crore sale of equity shares of Aster DM Quality Care",
+          "client": "Centella Mauritius Holdings",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-centella-mauritius-holdings-on-4700-crore-sale-of-equity-shares-of-aster-dm-quality-care",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹4,700 crore",
+            "currency": "INR",
+            "amount": 47000000000,
+            "amount_inr": 47000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "TPG-led consortium to acquire Aseem Infra Finance; CAM, Linklaters, Trilegal, SAM advise"
@@ -37886,6 +38220,44 @@
         }
       ],
       "snapshot": "Trilegal advises Körber on acquiring 100% ownership of Godrej Körber Supply Chain"
+    },
+    {
+      "id": 3867,
+      "name": "Avani Sasindran",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Advent International"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care Services",
+          "client": "Advent International",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-advent-international-on-3150-crore-investment-in-yatharth-hospital-trauma-care-services",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹3,150 crore",
+            "currency": "INR",
+            "amount": 31500000000,
+            "amount_inr": 31500000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care..."
     },
     {
       "id": 2253,
@@ -41438,6 +41810,7 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
+        "Series A",
         "Series B",
         "fundraise",
         "investment"
@@ -41448,7 +41821,8 @@
       "clients": [
         "Avataar Venture Partners",
         "Attentive.ai",
-        "AXISCADES acquiring"
+        "AXISCADES acquiring",
+        "BizzNextgenFinance"
       ],
       "deals": [
         {
@@ -41488,6 +41862,26 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas, Khaitan, Touchstone Partners act on BizzNextgenFinance ₹215 crore Series A fundraise",
+          "client": "BizzNextgenFinance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-khaitan-co-touchstone-partners-act-on-bizznextgenfinance-215-crore-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹215 crore",
+            "currency": "INR",
+            "amount": 2150000000,
+            "amount_inr": 2150000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Aritra Partners, JSA act on Ethereal Machines $28.5 million Series B fundraise"
@@ -42134,6 +42528,44 @@
         }
       ],
       "snapshot": "JSA acts on Raajmarg Infrastructure InvIT ₹6,000 crore IPO - Bar and Bench"
+    },
+    {
+      "id": 3860,
+      "name": "Bhavya Ahlawat",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Advent International"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care Services",
+          "client": "Advent International",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-advent-international-on-3150-crore-investment-in-yatharth-hospital-trauma-care-services",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹3,150 crore",
+            "currency": "INR",
+            "amount": 31500000000,
+            "amount_inr": 31500000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care..."
     },
     {
       "id": 888,
@@ -43628,6 +44060,46 @@
         }
       ],
       "snapshot": "DSK Legal, Cyril Amarchand Mangaldas act on TiL investing $1 billion in Adani Vizhinjam Port"
+    },
+    {
+      "id": 3848,
+      "name": "C R Keertitha",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "Series A",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "BizzNextgenFinance"
+      ],
+      "deals": [
+        {
+          "headline": "Shardul Amarchand Mangaldas, Khaitan, Touchstone Partners act on BizzNextgenFinance ₹215 crore Series A fundraise",
+          "client": "BizzNextgenFinance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-khaitan-co-touchstone-partners-act-on-bizznextgenfinance-215-crore-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹215 crore",
+            "currency": "INR",
+            "amount": 2150000000,
+            "amount_inr": 2150000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Shardul Amarchand Mangaldas, Khaitan, Touchstone Partners act on BizzNextgenFinance ₹215 crore Series A..."
     },
     {
       "id": 1725,
@@ -47219,6 +47691,25 @@
             "currency": "INR",
             "amount": 16000000000,
             "amount_inr": 16000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care Services",
+          "client": "Advent International",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-advent-international-on-3150-crore-investment-in-yatharth-hospital-trauma-care-services",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹3,150 crore",
+            "currency": "INR",
+            "amount": 31500000000,
+            "amount_inr": 31500000000,
             "approx": false
           }
         }
@@ -51412,6 +51903,46 @@
       "snapshot": "CAM advises QBE Holdings on acquiring Raheja QBE General Insurance Company"
     },
     {
+      "id": 3852,
+      "name": "Divya Shrivastava",
+      "firm": "Touchstone Partners",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "Series A",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "BizzNextgenFinance"
+      ],
+      "deals": [
+        {
+          "headline": "Shardul Amarchand Mangaldas, Khaitan, Touchstone Partners act on BizzNextgenFinance ₹215 crore Series A fundraise",
+          "client": "BizzNextgenFinance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-khaitan-co-touchstone-partners-act-on-bizznextgenfinance-215-crore-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹215 crore",
+            "currency": "INR",
+            "amount": 2150000000,
+            "amount_inr": 2150000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Shardul Amarchand Mangaldas, Khaitan, Touchstone Partners act on BizzNextgenFinance ₹215 crore Series A..."
+    },
+    {
       "id": 371,
       "name": "Divya Venkatramani",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -52122,6 +52653,36 @@
       "snapshot": "Trilegal, Khaitan & Co act on JBM Ecolife Mobility securing ₹750 crore from Motilal Oswal"
     },
     {
+      "id": 3854,
+      "name": "Drashti Mehta",
+      "firm": "Clove Legal",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Nine Dimensions"
+      ],
+      "deals": [
+        {
+          "headline": "Clove Legal advises Nine Dimensions on ₹120 crore Bandra land transaction with Lemon Tree Hotels subsidiary",
+          "client": "Nine Dimensions",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/clove-legal-advises-nine-dimensions-on-120-crore-bandra-land-transaction-with-lemon-tree-hotels-subsidiary",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹120 crore",
+            "currency": "INR",
+            "amount": 1200000000,
+            "amount_inr": 1200000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Clove Legal advises Nine Dimensions on ₹120 crore Bandra land transaction with Lemon Tree Hotels subsidiary"
+    },
+    {
       "id": 3576,
       "name": "Drishti Kapadia",
       "firm": "Trilegal",
@@ -52237,7 +52798,8 @@
         "Asian Development Bank",
         "Playbook India Fund II",
         "KNI India AS",
-        "Blueleaf Energy's acquisition of wind power asset in Karnataka"
+        "Blueleaf Energy's acquisition of wind power asset in Karnataka",
+        "Slice Small Finance Bank"
       ],
       "deals": [
         {
@@ -52293,6 +52855,25 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Trilegal, TT&A, DSK Legal act on Slice Small Finance Bank $100 million fundraise",
+          "client": "Slice Small Finance Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-dsk-legal-act-on-slice-small-finance-bank-100-million-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "$100 million",
+            "currency": "USD",
+            "amount": 100000000,
+            "amount_inr": 8800000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "IC RegFin, JSA, TT&A, Resolution Law acts on Astranova Mobility Series A fundraise"
@@ -61370,7 +61951,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "investors"
+        "investors",
+        "Slice Small Finance Bank"
       ],
       "deals": [
         {
@@ -61390,6 +61972,25 @@
             "currency": "USD",
             "amount": 50000000,
             "amount_inr": 4400000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, TT&A, DSK Legal act on Slice Small Finance Bank $100 million fundraise",
+          "client": "Slice Small Finance Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-dsk-legal-act-on-slice-small-finance-bank-100-million-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "$100 million",
+            "currency": "USD",
+            "amount": 100000000,
+            "amount_inr": 8800000000,
             "approx": false
           }
         }
@@ -62559,6 +63160,46 @@
       "snapshot": "Trilegal advises Agrow Allied Ventures on raising ₹186 crore from ICICI Ventures"
     },
     {
+      "id": 3847,
+      "name": "Hrushika Sana",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "Series A",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "BizzNextgenFinance"
+      ],
+      "deals": [
+        {
+          "headline": "Shardul Amarchand Mangaldas, Khaitan, Touchstone Partners act on BizzNextgenFinance ₹215 crore Series A fundraise",
+          "client": "BizzNextgenFinance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-khaitan-co-touchstone-partners-act-on-bizznextgenfinance-215-crore-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹215 crore",
+            "currency": "INR",
+            "amount": 2150000000,
+            "amount_inr": 2150000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Shardul Amarchand Mangaldas, Khaitan, Touchstone Partners act on BizzNextgenFinance ₹215 crore Series A..."
+    },
+    {
       "id": 2845,
       "name": "Hussain Bohra",
       "firm": "Khaitan & Co",
@@ -63151,7 +63792,8 @@
       ],
       "clients": [
         "TPG",
-        "Adar Poonawalla"
+        "Adar Poonawalla",
+        "Centella Mauritius Holdings"
       ],
       "deals": [
         {
@@ -63192,6 +63834,21 @@
             "Private Equity & Venture Capital"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Centella Mauritius Holdings on ₹4,700 crore sale of equity shares of Aster DM Quality Care",
+          "client": "Centella Mauritius Holdings",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-centella-mauritius-holdings-on-4700-crore-sale-of-equity-shares-of-aster-dm-quality-care",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹4,700 crore",
+            "currency": "INR",
+            "amount": 47000000000,
+            "amount_inr": 47000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "TPG-led consortium to acquire Aseem Infra Finance; CAM, Linklaters, Trilegal, SAM advise"
@@ -78742,6 +79399,46 @@
       "snapshot": "Luthra acts on Rays of Belief ₹124 crore IPO"
     },
     {
+      "id": 3849,
+      "name": "Kumar Kartikeya Prakash",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "Series A",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "BizzNextgenFinance"
+      ],
+      "deals": [
+        {
+          "headline": "Shardul Amarchand Mangaldas, Khaitan, Touchstone Partners act on BizzNextgenFinance ₹215 crore Series A fundraise",
+          "client": "BizzNextgenFinance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-khaitan-co-touchstone-partners-act-on-bizznextgenfinance-215-crore-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹215 crore",
+            "currency": "INR",
+            "amount": 2150000000,
+            "amount_inr": 2150000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Shardul Amarchand Mangaldas, Khaitan, Touchstone Partners act on BizzNextgenFinance ₹215 crore Series A..."
+    },
+    {
       "id": 2327,
       "name": "Kumar Mangalam",
       "firm": "Cyril Amarchand Mangaldas",
@@ -86318,7 +87015,7 @@
       "id": 635,
       "name": "Manshoor Nazki",
       "firm": "Cyril Amarchand Mangaldas",
-      "role": "Partner, Regional Co-Head Capital Markets (South)",
+      "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
         "IPO",
@@ -86331,7 +87028,8 @@
         "Placement Agents",
         "Goldman Sachs (India) Securities Private Limited",
         "Shadowfax",
-        "Amagi"
+        "Amagi",
+        "Centella Mauritius Holdings"
       ],
       "deals": [
         {
@@ -86381,6 +87079,21 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Centella Mauritius Holdings on ₹4,700 crore sale of equity shares of Aster DM Quality Care",
+          "client": "Centella Mauritius Holdings",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-centella-mauritius-holdings-on-4700-crore-sale-of-equity-shares-of-aster-dm-quality-care",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹4,700 crore",
+            "currency": "INR",
+            "amount": 47000000000,
+            "amount_inr": 47000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "SAM, CAM act on Poonawalla Fincorp on ₹2,500 crore QIP - Bar and Bench"
@@ -88023,7 +88736,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "investors"
+        "investors",
+        "Slice Small Finance Bank"
       ],
       "deals": [
         {
@@ -88043,6 +88757,25 @@
             "currency": "USD",
             "amount": 50000000,
             "amount_inr": 4400000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, TT&A, DSK Legal act on Slice Small Finance Bank $100 million fundraise",
+          "client": "Slice Small Finance Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-dsk-legal-act-on-slice-small-finance-bank-100-million-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "$100 million",
+            "currency": "USD",
+            "amount": 100000000,
+            "amount_inr": 8800000000,
             "approx": false
           }
         }
@@ -88828,7 +89561,8 @@
         "Apar Advertisers IPO",
         "Dain Colour Chem IPO",
         "Qualiance International IPO",
-        "Vardaan Biotech"
+        "Vardaan Biotech",
+        "Nexa Defence IPO"
       ],
       "deals": [
         {
@@ -88904,6 +89638,25 @@
             "currency": "INR",
             "amount": 900000000,
             "amount_inr": 900000000,
+            "approx": true
+          }
+        },
+        {
+          "headline": "Legacy Law Offices acts on Nexa Defence IPO",
+          "client": "Nexa Defence IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-nexa-defence-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹30.2 crore+",
+            "currency": "INR",
+            "amount": 302000000,
+            "amount_inr": 302000000,
             "approx": true
           }
         }
@@ -93066,6 +93819,44 @@
       "snapshot": "Khaitan & Co, Cyril Amarchand Mangaldas act on Embio securing investment from True North"
     },
     {
+      "id": 3846,
+      "name": "Naina Lodha",
+      "firm": "DSK Legal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Slice Small Finance Bank"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, TT&A, DSK Legal act on Slice Small Finance Bank $100 million fundraise",
+          "client": "Slice Small Finance Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-dsk-legal-act-on-slice-small-finance-bank-100-million-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "$100 million",
+            "currency": "USD",
+            "amount": 100000000,
+            "amount_inr": 8800000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Trilegal, TT&A, DSK Legal act on Slice Small Finance Bank $100 million fundraise"
+    },
+    {
       "id": 794,
       "name": "Nainaaz Irani",
       "firm": "Veritas Legal",
@@ -93205,7 +93996,8 @@
         "Apar Advertisers IPO",
         "Dain Colour Chem IPO",
         "Qualiance International IPO",
-        "Vardaan Biotech"
+        "Vardaan Biotech",
+        "Nexa Defence IPO"
       ],
       "deals": [
         {
@@ -93281,6 +94073,25 @@
             "currency": "INR",
             "amount": 900000000,
             "amount_inr": 900000000,
+            "approx": true
+          }
+        },
+        {
+          "headline": "Legacy Law Offices acts on Nexa Defence IPO",
+          "client": "Nexa Defence IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-nexa-defence-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹30.2 crore+",
+            "currency": "INR",
+            "amount": 302000000,
+            "amount_inr": 302000000,
             "approx": true
           }
         }
@@ -97686,6 +98497,7 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "Series A",
         "Series B",
         "fundraise",
         "investment"
@@ -97695,7 +98507,8 @@
       ],
       "clients": [
         "Avataar Venture Partners",
-        "AXISCADES acquiring"
+        "AXISCADES acquiring",
+        "BizzNextgenFinance"
       ],
       "deals": [
         {
@@ -97721,6 +98534,26 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas, Khaitan, Touchstone Partners act on BizzNextgenFinance ₹215 crore Series A fundraise",
+          "client": "BizzNextgenFinance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-khaitan-co-touchstone-partners-act-on-bizznextgenfinance-215-crore-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹215 crore",
+            "currency": "INR",
+            "amount": 2150000000,
+            "amount_inr": 2150000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Aritra Partners, JSA act on Ethereal Machines $28.5 million Series B fundraise"
@@ -98340,6 +99173,44 @@
         }
       ],
       "snapshot": "Saraf and Partners acts on Fortis - SLJ Society collaboration for super specialty hospital in Ashok Vihar,..."
+    },
+    {
+      "id": 3855,
+      "name": "Nikhil Tadikonda",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Advent International"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care Services",
+          "client": "Advent International",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-advent-international-on-3150-crore-investment-in-yatharth-hospital-trauma-care-services",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹3,150 crore",
+            "currency": "INR",
+            "amount": 31500000000,
+            "amount_inr": 31500000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care..."
     },
     {
       "id": 2637,
@@ -99730,6 +100601,44 @@
       "snapshot": "Khaitan, Shardul Amarchand Mangaldas act on Bajaj Electricals' ₹168 crore acquisition of ..."
     },
     {
+      "id": 3861,
+      "name": "Nishant Arora",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Advent International"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care Services",
+          "client": "Advent International",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-advent-international-on-3150-crore-investment-in-yatharth-hospital-trauma-care-services",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹3,150 crore",
+            "currency": "INR",
+            "amount": 31500000000,
+            "amount_inr": 31500000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care..."
+    },
+    {
       "id": 3008,
       "name": "Nishant Chris Mathews",
       "firm": "Khaitan & Co",
@@ -101089,10 +101998,12 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "investment"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
         "Advent International",
@@ -101120,6 +102031,25 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care Services",
+          "client": "Advent International",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-advent-international-on-3150-crore-investment-in-yatharth-hospital-trauma-care-services",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹3,150 crore",
+            "currency": "INR",
+            "amount": 31500000000,
+            "amount_inr": 31500000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "JSA, Khaitan act on Coforge's $2.35 billion acquisition of Encora - Bar and Bench"
@@ -103792,7 +104722,8 @@
       ],
       "clients": [
         "Apar Advertisers IPO",
-        "Dain Colour Chem IPO"
+        "Dain Colour Chem IPO",
+        "Nexa Defence IPO"
       ],
       "deals": [
         {
@@ -103830,6 +104761,25 @@
             "currency": "INR",
             "amount": 300000000,
             "amount_inr": 300000000,
+            "approx": true
+          }
+        },
+        {
+          "headline": "Legacy Law Offices acts on Nexa Defence IPO",
+          "client": "Nexa Defence IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-nexa-defence-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹30.2 crore+",
+            "currency": "INR",
+            "amount": 302000000,
+            "amount_inr": 302000000,
             "approx": true
           }
         }
@@ -104392,7 +105342,8 @@
         "IFC and Fullerton",
         "KNI India AS",
         "NeoGeo",
-        "Blueleaf Energy's acquisition of wind power asset in Karnataka"
+        "Blueleaf Energy's acquisition of wind power asset in Karnataka",
+        "Slice Small Finance Bank"
       ],
       "deals": [
         {
@@ -104462,6 +105413,25 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Trilegal, TT&A, DSK Legal act on Slice Small Finance Bank $100 million fundraise",
+          "client": "Slice Small Finance Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-dsk-legal-act-on-slice-small-finance-bank-100-million-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "$100 million",
+            "currency": "USD",
+            "amount": 100000000,
+            "amount_inr": 8800000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "TT&A, S&R, SAM, Agram act on Tata Motors acquiring controlling stake in Freight Tiger"
@@ -106962,6 +107932,7 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
+        "Series A",
         "Series E",
         "fundraise",
         "investment"
@@ -106971,7 +107942,8 @@
       ],
       "clients": [
         "Motilal Oswal Alternates, Premji Invest, TPG NewQuest, and Archerman Capital",
-        "Motilal Oswal"
+        "Motilal Oswal",
+        "BizzNextgenFinance"
       ],
       "deals": [
         {
@@ -107004,6 +107976,26 @@
             "currency": "INR",
             "amount": 6000000000,
             "amount_inr": 6000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas, Khaitan, Touchstone Partners act on BizzNextgenFinance ₹215 crore Series A fundraise",
+          "client": "BizzNextgenFinance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-khaitan-co-touchstone-partners-act-on-bizznextgenfinance-215-crore-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹215 crore",
+            "currency": "INR",
+            "amount": 2150000000,
+            "amount_inr": 2150000000,
             "approx": false
           }
         }
@@ -109876,7 +110868,8 @@
         "WestBridge Capital",
         "KNI India AS",
         "Yulu Bikes",
-        "Third Wave Coffee"
+        "Third Wave Coffee",
+        "Slice Small Finance Bank"
       ],
       "deals": [
         {
@@ -109986,6 +110979,25 @@
             "currency": "INR",
             "amount": 4080000000,
             "amount_inr": 4080000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, TT&A, DSK Legal act on Slice Small Finance Bank $100 million fundraise",
+          "client": "Slice Small Finance Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-dsk-legal-act-on-slice-small-finance-bank-100-million-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "$100 million",
+            "currency": "USD",
+            "amount": 100000000,
+            "amount_inr": 8800000000,
             "approx": false
           }
         }
@@ -111083,7 +112095,8 @@
       "practice_areas": [],
       "clients": [
         "IDFC FIRST Bank",
-        "Capri Loans"
+        "Capri Loans",
+        "Federal Bank"
       ],
       "deals": [
         {
@@ -111113,6 +112126,21 @@
             "currency": "USD",
             "amount": 300000000,
             "amount_inr": 26400000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "TT&A, Linklaters advise Federal Bank on establishment of US$ 500,000,000 MTN Programme",
+          "client": "Federal Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-linklaters-advise-federal-bank-on-establishment-of-us-500000000-mtn-programme",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "$ 500,000,000",
+            "currency": "USD",
+            "amount": 500000000,
+            "amount_inr": 44000000000,
             "approx": false
           }
         }
@@ -116250,6 +117278,46 @@
       "snapshot": "JSA advises Zydus Hospitals on acquisition of VINS Hospital - Bar and Bench"
     },
     {
+      "id": 3851,
+      "name": "Rajvee Bavishi",
+      "firm": "Touchstone Partners",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "Series A",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "BizzNextgenFinance"
+      ],
+      "deals": [
+        {
+          "headline": "Shardul Amarchand Mangaldas, Khaitan, Touchstone Partners act on BizzNextgenFinance ₹215 crore Series A fundraise",
+          "client": "BizzNextgenFinance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-khaitan-co-touchstone-partners-act-on-bizznextgenfinance-215-crore-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹215 crore",
+            "currency": "INR",
+            "amount": 2150000000,
+            "amount_inr": 2150000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Shardul Amarchand Mangaldas, Khaitan, Touchstone Partners act on BizzNextgenFinance ₹215 crore Series A..."
+    },
+    {
       "id": 1803,
       "name": "Rakesh K. Khanna",
       "firm": null,
@@ -116867,6 +117935,44 @@
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas advises Kotak Mahindra Bank on acquisition of Private ..."
+    },
+    {
+      "id": 3859,
+      "name": "Ranjul Malik",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Advent International"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care Services",
+          "client": "Advent International",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-advent-international-on-3150-crore-investment-in-yatharth-hospital-trauma-care-services",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹3,150 crore",
+            "currency": "INR",
+            "amount": 31500000000,
+            "amount_inr": 31500000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care..."
     },
     {
       "id": 2317,
@@ -122217,6 +123323,44 @@
       "snapshot": "CAM, Trilegal, Hogan Lovells act on Runwal Realty ₹2,000 crore proposed IPO"
     },
     {
+      "id": 3863,
+      "name": "Riya Manuja",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Advent International"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care Services",
+          "client": "Advent International",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-advent-international-on-3150-crore-investment-in-yatharth-hospital-trauma-care-services",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹3,150 crore",
+            "currency": "INR",
+            "amount": 31500000000,
+            "amount_inr": 31500000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care..."
+    },
+    {
       "id": 2011,
       "name": "Riya Sethia",
       "firm": "CMS INDUSLAW",
@@ -124656,6 +125800,44 @@
       "snapshot": "NSE IPO: Which law firms are advising the stock exchange on its public listing?"
     },
     {
+      "id": 3862,
+      "name": "Rupali Singh",
+      "firm": "Khaitan & Co",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Advent International"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care Services",
+          "client": "Advent International",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-advent-international-on-3150-crore-investment-in-yatharth-hospital-trauma-care-services",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹3,150 crore",
+            "currency": "INR",
+            "amount": 31500000000,
+            "amount_inr": 31500000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care..."
+    },
+    {
       "id": 706,
       "name": "Rupaly Middha",
       "firm": "JSA Advocates & Solicitors",
@@ -126576,6 +127758,44 @@
       "snapshot": "SAM, CAM, Hogan Lovells act on Billdesk's acquisition of Worldline"
     },
     {
+      "id": 3845,
+      "name": "Saikishan Rathore",
+      "firm": "Talwar Thakore & Associates",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Slice Small Finance Bank"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, TT&A, DSK Legal act on Slice Small Finance Bank $100 million fundraise",
+          "client": "Slice Small Finance Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-dsk-legal-act-on-slice-small-finance-bank-100-million-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "$100 million",
+            "currency": "USD",
+            "amount": 100000000,
+            "amount_inr": 8800000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Trilegal, TT&A, DSK Legal act on Slice Small Finance Bank $100 million fundraise"
+    },
+    {
       "id": 2077,
       "name": "Sairam Subramanian",
       "firm": "Cyril Amarchand Mangaldas",
@@ -126905,7 +128125,69 @@
           "value": null
         }
       ],
-      "snapshot": "Lex Consult, JSA act on Supply6 Series A fundraise"
+      "snapshot": "Lex Consult, JSA act on Supply6 Series A fundraise",
+      "same_name_elsewhere": [
+        {
+          "id": 3866,
+          "firm": "Khaitan & Co",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
+      "id": 3866,
+      "name": "Saket Mishra",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Advent International"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care Services",
+          "client": "Advent International",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-advent-international-on-3150-crore-investment-in-yatharth-hospital-trauma-care-services",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹3,150 crore",
+            "currency": "INR",
+            "amount": 31500000000,
+            "amount_inr": 31500000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care...",
+      "same_name_elsewhere": [
+        {
+          "id": 775,
+          "firm": "JSA Advocates & Solicitors",
+          "role": "Associate",
+          "deal_count": 2
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1995,
@@ -128905,7 +130187,8 @@
       ],
       "clients": [
         "HCLTech",
-        "IntelliSmart"
+        "IntelliSmart",
+        "Slice Small Finance Bank"
       ],
       "deals": [
         {
@@ -128934,6 +130217,25 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Trilegal, TT&A, DSK Legal act on Slice Small Finance Bank $100 million fundraise",
+          "client": "Slice Small Finance Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-dsk-legal-act-on-slice-small-finance-bank-100-million-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "$100 million",
+            "currency": "USD",
+            "amount": 100000000,
+            "amount_inr": 8800000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal, TT&A, Cyril Amarchand Mangaldas act on Sarvam AI $300 million Series B fundraise"
@@ -135160,6 +136462,25 @@
             "currency": "USD",
             "amount": 206000000,
             "amount_inr": 18128000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care Services",
+          "client": "Advent International",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-advent-international-on-3150-crore-investment-in-yatharth-hospital-trauma-care-services",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹3,150 crore",
+            "currency": "INR",
+            "amount": 31500000000,
+            "amount_inr": 31500000000,
             "approx": false
           }
         }
@@ -142518,7 +143839,8 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "IDFC FIRST Bank"
+        "IDFC FIRST Bank",
+        "Federal Bank"
       ],
       "deals": [
         {
@@ -142533,6 +143855,21 @@
             "currency": "USD",
             "amount": 600000000,
             "amount_inr": 52800000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "TT&A, Linklaters advise Federal Bank on establishment of US$ 500,000,000 MTN Programme",
+          "client": "Federal Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-linklaters-advise-federal-bank-on-establishment-of-us-500000000-mtn-programme",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "$ 500,000,000",
+            "currency": "USD",
+            "amount": 500000000,
+            "amount_inr": 44000000000,
             "approx": false
           }
         }
@@ -148219,15 +149556,58 @@
       "snapshot": "Khaitan & Co, JSA act on IIFL Finance updating its $1 billion Global Medium Term Note Programme"
     },
     {
+      "id": 3865,
+      "name": "Sneha Dey",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Advent International"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care Services",
+          "client": "Advent International",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-advent-international-on-3150-crore-investment-in-yatharth-hospital-trauma-care-services",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹3,150 crore",
+            "currency": "INR",
+            "amount": 31500000000,
+            "amount_inr": 31500000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care..."
+    },
+    {
       "id": 3273,
       "name": "Sneha Janakiraman",
       "firm": "Khaitan & Co",
       "role": "Partner",
       "role_bucket": "Partner",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
       "clients": [
-        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+        "Advent International"
       ],
       "deals": [
         {
@@ -148238,6 +149618,25 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care Services",
+          "client": "Advent International",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-advent-international-on-3150-crore-investment-in-yatharth-hospital-trauma-care-services",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹3,150 crore",
+            "currency": "INR",
+            "amount": 31500000000,
+            "amount_inr": 31500000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
@@ -149383,7 +150782,8 @@
       "clients": [
         "HCLTech",
         "IntelliSmart",
-        "JSW Energy"
+        "JSW Energy",
+        "Slice Small Finance Bank"
       ],
       "deals": [
         {
@@ -149425,6 +150825,25 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Trilegal, TT&A, DSK Legal act on Slice Small Finance Bank $100 million fundraise",
+          "client": "Slice Small Finance Bank",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-dsk-legal-act-on-slice-small-finance-bank-100-million-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "$100 million",
+            "currency": "USD",
+            "amount": 100000000,
+            "amount_inr": 8800000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal, TT&A, Cyril Amarchand Mangaldas act on Sarvam AI $300 million Series B fundraise"
@@ -153451,10 +154870,15 @@
       "firm": "Khaitan & Co",
       "role": "Partner",
       "role_bucket": "Partner",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
       "clients": [
-        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+        "Advent International"
       ],
       "deals": [
         {
@@ -153465,6 +154889,25 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care Services",
+          "client": "Advent International",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-advent-international-on-3150-crore-investment-in-yatharth-hospital-trauma-care-services",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹3,150 crore",
+            "currency": "INR",
+            "amount": 31500000000,
+            "amount_inr": 31500000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
@@ -154370,7 +155813,8 @@
       "clients": [
         "Dain Colour Chem IPO",
         "Qualiance International IPO",
-        "Vardaan Biotech"
+        "Vardaan Biotech",
+        "Nexa Defence IPO"
       ],
       "deals": [
         {
@@ -154427,6 +155871,25 @@
             "currency": "INR",
             "amount": 900000000,
             "amount_inr": 900000000,
+            "approx": true
+          }
+        },
+        {
+          "headline": "Legacy Law Offices acts on Nexa Defence IPO",
+          "client": "Nexa Defence IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-nexa-defence-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹30.2 crore+",
+            "currency": "INR",
+            "amount": 302000000,
+            "amount_inr": 302000000,
             "approx": true
           }
         }
@@ -159652,6 +161115,44 @@
       "snapshot": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Karamtara Engineering ₹875 crore IPO"
     },
     {
+      "id": 3853,
+      "name": "Trainee Associate Priyanshu Raghav",
+      "firm": "Legacy Law Offices",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Nexa Defence IPO"
+      ],
+      "deals": [
+        {
+          "headline": "Legacy Law Offices acts on Nexa Defence IPO",
+          "client": "Nexa Defence IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-nexa-defence-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹30.2 crore+",
+            "currency": "INR",
+            "amount": 302000000,
+            "amount_inr": 302000000,
+            "approx": true
+          }
+        }
+      ],
+      "snapshot": "Legacy Law Offices acts on Nexa Defence IPO"
+    },
+    {
       "id": 2156,
       "name": "Trayosha Darapuneni",
       "firm": "Cyril Amarchand Mangaldas",
@@ -159796,13 +161297,16 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "investment"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Stylam Industries Promoters"
+        "Stylam Industries Promoters",
+        "Advent International"
       ],
       "deals": [
         {
@@ -159817,6 +161321,25 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care Services",
+          "client": "Advent International",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-advent-international-on-3150-crore-investment-in-yatharth-hospital-trauma-care-services",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹3,150 crore",
+            "currency": "INR",
+            "amount": 31500000000,
+            "amount_inr": 31500000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "SAM, Khaitan act on Aica Kogyo Co acquiring controlling stake in Stylam Industries for $225 million"
@@ -162400,7 +163923,8 @@
         "Embio",
         "Sensa Core and its promoters",
         "RPG Life Sciences",
-        "Sona Comstar"
+        "Sona Comstar",
+        "Advent International"
       ],
       "deals": [
         {
@@ -162460,6 +163984,25 @@
             "currency": "USD",
             "amount": 206000000,
             "amount_inr": 18128000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care Services",
+          "client": "Advent International",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-advent-international-on-3150-crore-investment-in-yatharth-hospital-trauma-care-services",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹3,150 crore",
+            "currency": "INR",
+            "amount": 31500000000,
+            "amount_inr": 31500000000,
             "approx": false
           }
         }
@@ -165061,6 +166604,46 @@
       "snapshot": "Trilegal advises Sona Comstar on partnership with Japan's DENSO Corp"
     },
     {
+      "id": 3850,
+      "name": "Vedaant Agarwal",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "Series A",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "BizzNextgenFinance"
+      ],
+      "deals": [
+        {
+          "headline": "Shardul Amarchand Mangaldas, Khaitan, Touchstone Partners act on BizzNextgenFinance ₹215 crore Series A fundraise",
+          "client": "BizzNextgenFinance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-khaitan-co-touchstone-partners-act-on-bizznextgenfinance-215-crore-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹215 crore",
+            "currency": "INR",
+            "amount": 2150000000,
+            "amount_inr": 2150000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Shardul Amarchand Mangaldas, Khaitan, Touchstone Partners act on BizzNextgenFinance ₹215 crore Series A..."
+    },
+    {
       "id": 3805,
       "name": "Vedang Mehta",
       "firm": "Vidhigya Associates",
@@ -165300,13 +166883,17 @@
       "role": "Principal Associate",
       "role_bucket": "Principal Associate",
       "transaction_types": [
+        "Series A",
+        "fundraise",
         "merger"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Indorama Ventures/Indovida"
+        "Indorama Ventures/Indovida",
+        "BizzNextgenFinance"
       ],
       "deals": [
         {
@@ -165321,6 +166908,26 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas, Khaitan, Touchstone Partners act on BizzNextgenFinance ₹215 crore Series A fundraise",
+          "client": "BizzNextgenFinance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-khaitan-co-touchstone-partners-act-on-bizznextgenfinance-215-crore-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹215 crore",
+            "currency": "INR",
+            "amount": 2150000000,
+            "amount_inr": 2150000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Khaitan & Co, Trilegal act on Blackstone-backed EPL - Indovida Packaging merger"
@@ -166068,13 +167675,17 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "acquisition"
+        "Series A",
+        "acquisition",
+        "fundraise"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "FMC India"
+        "FMC India",
+        "BizzNextgenFinance"
       ],
       "deals": [
         {
@@ -166089,6 +167700,26 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas, Khaitan, Touchstone Partners act on BizzNextgenFinance ₹215 crore Series A fundraise",
+          "client": "BizzNextgenFinance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-khaitan-co-touchstone-partners-act-on-bizznextgenfinance-215-crore-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹215 crore",
+            "currency": "INR",
+            "amount": 2150000000,
+            "amount_inr": 2150000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Khaitan, Davis Polk act on Crystal Crop Protection's ..."
@@ -169526,6 +171157,44 @@
       "snapshot": "JSA advises Manipal Hospitals on ₹495 crore hospital acquisition in Mumbai"
     },
     {
+      "id": 3856,
+      "name": "Vivek Badkur",
+      "firm": "Khaitan & Co",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Advent International"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care Services",
+          "client": "Advent International",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-advent-international-on-3150-crore-investment-in-yatharth-hospital-trauma-care-services",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹3,150 crore",
+            "currency": "INR",
+            "amount": 31500000000,
+            "amount_inr": 31500000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care..."
+    },
+    {
       "id": 3312,
       "name": "Vivek Bajaj",
       "firm": "Trilegal",
@@ -171465,7 +173134,8 @@
         "Piramal Finance",
         "Atomberg",
         "Aragen Life Sciences",
-        "Karamtara Engineering"
+        "Karamtara Engineering",
+        "Centella Mauritius Holdings"
       ],
       "deals": [
         {
@@ -171655,6 +173325,21 @@
             "currency": "INR",
             "amount": 8750000000,
             "amount_inr": 8750000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Centella Mauritius Holdings on ₹4,700 crore sale of equity shares of Aster DM Quality Care",
+          "client": "Centella Mauritius Holdings",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-centella-mauritius-holdings-on-4700-crore-sale-of-equity-shares-of-aster-dm-quality-care",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹4,700 crore",
+            "currency": "INR",
+            "amount": 47000000000,
+            "amount_inr": 47000000000,
             "approx": false
           }
         }
@@ -172620,10 +174305,15 @@
       "firm": "Khaitan & Co",
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
       "clients": [
-        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
+        "IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business",
+        "Advent International"
       ],
       "deals": [
         {
@@ -172634,6 +174324,25 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care Services",
+          "client": "Advent International",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-advent-international-on-3150-crore-investment-in-yatharth-hospital-trauma-care-services",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹3,150 crore",
+            "currency": "INR",
+            "amount": 31500000000,
+            "amount_inr": 31500000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
