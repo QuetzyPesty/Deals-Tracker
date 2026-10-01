@@ -14602,5 +14602,658 @@
         "firm": "Khaitan & Co"
       }
     ]
+  },
+  {
+    "headline": "AZB & Partners, Trilegal act on Steamhouse India ₹414 crore IPO",
+    "client": "Steamhouse India",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/azb-partners-trilegal-act-on-steamhouse-india-414-crore-ipo",
+    "snippet": "Steamhouse India Limited has raised ₹414 crore from an intial public offering comprising a fresh issue aggregating to ₹353 crore and an offer for sale by the Promoter Selling Shareholder aggregating to ₹61 crore. AZB & Partners advised Steamhouse India on this IPO, according to the DRHP. Trilegal advised Equirus Capital Limited, the book-running lead manager for this IPO. The transaction was led by Abhinav Maker (Partner), with support from  Jayant Saxena (Senior Associate), Associates Ipsita Sa",
+    "law_firms": [
+      "AZB & Partners",
+      "Trilegal"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "deal_value": {
+      "raw": "₹414 crore",
+      "currency": "INR",
+      "amount": 4140000000,
+      "amount_inr": 4140000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Abhinav Maker",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Jayant Saxena",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Ipsita Sahoo",
+        "role": "Associate",
+        "firm": "Trilegal"
+      }
+    ]
+  },
+  {
+    "headline": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary",
+    "client": "Romsons securing investment from Temasek subsidiary",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/tta-jsa-act-on-romsons-on-securing-investment-from-temasek-subsidiary",
+    "snippet": "Romsons Group Private Limited has secured an investment from Jongsong Investments Pte. Ltd., an indirect wholly owned subsidiary of Temasek Holdings (Private) Limited. TT&A advised Romsons with relation to the investment as well as the sale of certain shares of Romsons by the promoter group and other shareholders to Temasek. The transaction team consisted of Gautam Saha (Joint-Managing Partner), Shivranjani Ralawata (Partner), Nishant Singh (Managing Associate) and Eshani Agarwal (Associate). So",
+    "law_firms": [
+      "Talwar Thakore & Associates",
+      "JSA Advocates & Solicitors"
+    ],
+    "transaction_types": [
+      "investment"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Shivranjani Ralawata",
+        "role": "Partner",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Eshani Agarwal",
+        "role": "Associate",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Sonam Mathur",
+        "role": "Partner",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Samriddha Gooptu",
+        "role": "Senior Associate",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Indrayani Bhadra",
+        "role": "Associate",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Vikram Raghani",
+        "role": "Senior Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Rishabh Gupta",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Yashvi Singh",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Vwastav Ghosh",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Tavishi Chandra",
+        "role": "Senior Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Trisha Mishra",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Tanya Byndoor",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Megh Panchal",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Pranjal Shorey",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Preetha Soman",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Aishwarya Maria Manjooran",
+        "role": "Senior Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Bharat Bhushan Sharma",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Mohit Aggarwal",
+        "role": "Senior Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Kajal Kashyap",
+        "role": "Senior Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Vaibhav Choukse",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Ela Bali",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Aditi Khanna",
+        "role": "Principal Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Faiz Siddiqui",
+        "role": "Senior Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Priyanshi Jain",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Yaatri Shah",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      }
+    ]
+  },
+  {
+    "headline": "Desai & Diwanji acts on Anchor Offshore Services DRHP filing",
+    "client": "Anchor Offshore Services DRHP filing",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/desai-diwanji-acts-on-anchor-offshore-services-drhp-filing",
+    "snippet": "Anchor Offshore Services Limited has filed a Draft Red Herring Prospectus for an initial public offering comprising a fresh issue of up to 64,00,000 equity shares of face value ₹ 10 each by the Company and an offer for sale by Promoter Selling Shareholder of up to 6,00,000 equity shares of face value ₹ 10 each. Desai & Diwanji advised Anchor Offshore Services on this DRHP filing. The transaction team consisted of Tushar Dey (Senior Partner), Akshay Bhagchandani (Partner), Associates Ankit Rao, M",
+    "law_firms": [
+      "Desai & Diwanji"
+    ],
+    "transaction_types": [],
+    "deal_value": {
+      "raw": "₹ 10",
+      "currency": "INR",
+      "amount": 10,
+      "amount_inr": 10,
+      "approx": false,
+      "fx_asof": null,
+      "source": "body"
+    },
+    "people": [
+      {
+        "name": "Tushar Dey",
+        "role": "Senior Partner",
+        "firm": "Desai & Diwanji"
+      },
+      {
+        "name": "Akshay Bhagchandani",
+        "role": "Partner",
+        "firm": "Desai & Diwanji"
+      },
+      {
+        "name": "Ankit Rao",
+        "role": "Associate",
+        "firm": "Desai & Diwanji"
+      },
+      {
+        "name": "Mahimna Dave",
+        "role": "Associate",
+        "firm": "Desai & Diwanji"
+      },
+      {
+        "name": "Ankit Singh",
+        "role": "Associate",
+        "firm": "Desai & Diwanji"
+      },
+      {
+        "name": "Divam Garg",
+        "role": "Associate",
+        "firm": "Desai & Diwanji"
+      },
+      {
+        "name": "Paritosh Srivastava",
+        "role": "Associate",
+        "firm": "Desai & Diwanji"
+      },
+      {
+        "name": "Jay Sanvaliya",
+        "role": "Associate",
+        "firm": "Desai & Diwanji"
+      },
+      {
+        "name": "Gouriyanka Sharma",
+        "role": "Associate",
+        "firm": "Desai & Diwanji"
+      },
+      {
+        "name": "Trainee Associate Shilpi Sharma",
+        "role": "Associate",
+        "firm": "Desai & Diwanji"
+      }
+    ]
+  },
+  {
+    "headline": "Samisti Legal, VERTICES PARTNERS act on Balwaan Krishi ₹100 crore Series B fundraise",
+    "client": "Balwaan Krishi",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/samisti-legal-vertices-partners-act-on-balwaan-krishi-100-crore-series-b-fundraise",
+    "snippet": "Modish Tractoraurkisan Private Limited, dba Balwaan Krishi, has raised ₹100 crore from a Series B fundraise led by First Bridge India. VERTICES PARTNERS advised lead investor First Bridge India, which invested ₹70 crore in this fundraise. The transaction was led by Vikrant Anand (Partner), with a team that included Sajal Jain (Associate Manager), Associates Liji Anna Thomas and Mansi Dixit. Founder and Managing Partner Vinayak Burman provided strategic inputs. Samisti Legal advised Balwaan Krish",
+    "law_firms": [
+      "Vertices Partners",
+      "Samisti Legal"
+    ],
+    "transaction_types": [
+      "Series B",
+      "fundraise"
+    ],
+    "deal_value": {
+      "raw": "₹100 crore",
+      "currency": "INR",
+      "amount": 1000000000,
+      "amount_inr": 1000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Vikrant Anand",
+        "role": "Partner",
+        "firm": "Vertices Partners"
+      },
+      {
+        "name": "Liji Anna Thomas",
+        "role": "Associate",
+        "firm": "Vertices Partners"
+      },
+      {
+        "name": "Mansi Dixit",
+        "role": "Associate",
+        "firm": "Vertices Partners"
+      }
+    ]
+  },
+  {
+    "headline": "Lex Consult advises ONYA Diamonds on pre-Series A fundraise",
+    "client": "ONYA Diamonds",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/lex-consult-advises-onya-diamonds-on-pre-series-a-fundraise",
+    "snippet": "Mahiva Technologies Private Limited, dba ONYA Diamonds, has raised funds from a pre-Series A fundraise led by Divisa Family Office with participation from its existing investor, Zeropearl VC, and several other angel investors. Lex Consult advised ONYA Diamonds on this fundraise. The transaction was led by Naresh Pareek (Partner), with assistance from Riya Trivedi (Senior Associate), Associates Jash Doshi and Vibhor Jain. ONYA Diamonds combines art and science to create practical and elegant jewe",
+    "law_firms": [
+      "Lex Consult"
+    ],
+    "transaction_types": [
+      "Series A",
+      "fundraise"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Naresh Pareek",
+        "role": "Partner",
+        "firm": "Lex Consult"
+      },
+      {
+        "name": "Riya Trivedi",
+        "role": "Senior Associate",
+        "firm": "Lex Consult"
+      },
+      {
+        "name": "Jash Doshi",
+        "role": "Associate",
+        "firm": "Lex Consult"
+      },
+      {
+        "name": "Vibhor Jain",
+        "role": "Associate",
+        "firm": "Lex Consult"
+      }
+    ]
+  },
+  {
+    "headline": "Legacy Law Offices acts on Dinotarp IPO",
+    "client": "Dinotarp IPO",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-dinotarp-ipo",
+    "snippet": "Shakti Polytarp Limited, dba Dinotarp, has raised ₹26.93 crore from an initial public offering of equity shares consisting of a fresh issue of 45,64,000 shares. Legacy Law Offices advised Dinotarp as well as the Book Running Lead Manager Nexgen Financial Services Ltd on this SME IPO. The transaction team comprised of Naman Anand (Counsel) and Meghna Shukla (Associate). Surbhi Narang (Partner) provided strategic inputs. Shakti Polytarp is engaged in the business of manufacturing of tarpaulin and ",
+    "law_firms": [
+      "Legacy Law Offices"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "deal_value": {
+      "raw": "₹26.93 crore",
+      "currency": "INR",
+      "amount": 269300000,
+      "amount_inr": 269300000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "body"
+    },
+    "people": [
+      {
+        "name": "Naman Anand",
+        "role": "Counsel",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Meghna Shukla",
+        "role": "Associate",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Surbhi Narang",
+        "role": "Partner",
+        "firm": "Legacy Law Offices"
+      }
+    ]
+  },
+  {
+    "headline": "Shardul Amarchand Mangaldas advises Krishna Institute of Medical Sciences on ₹600 crore preferential allotment of warrants",
+    "client": "Krishna Institute of Medical Sciences",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-co-advises-krishna-institute-of-medical-sciences-on-600-crore-preferential-allotment-of-warrants",
+    "snippet": "Krishna Institute of Medical Sciences Limited has made a preferential allotment of fully convertible warrants aggregating to approximately ₹600 crore in favour of Promoters Dr. Abhinay Bollineni and Mr. Adwik Bollineni and Promoter Group Bharas Ventures LLP. Shardul Amarchand Mangaldas & Co advised Krishna Institute of Medical Sciences on this transaction. The transaction was led by Taranjeet Singh (Partner) and Kanwardeep Singh (Counsel), with support from Pundrikaksh Sharma (Senior Associate) ",
+    "law_firms": [
+      "Shardul Amarchand Mangaldas & Co"
+    ],
+    "transaction_types": [],
+    "deal_value": {
+      "raw": "₹600 crore",
+      "currency": "INR",
+      "amount": 6000000000,
+      "amount_inr": 6000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Taranjeet Singh",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Kanwardeep Singh",
+        "role": "Counsel",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Pundrikaksh Sharma",
+        "role": "Senior Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Vishal Jain",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      }
+    ]
+  },
+  {
+    "headline": "Khaitan & Co, Hogan Lovells Cadwalader act on Aditya Infotech ₹1,500 crore QIP",
+    "client": "Aditya Infotech",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-hogan-lovells-cadwalader-act-on-aditya-infotech-1500-crore-qip",
+    "snippet": "Aditya Infotech Limited, operating under the brand \"CP Plus\", has raised ₹1,500 crore from a Qualified Institutional Placement of equity shares. Khaitan & Co advised Aditya Infotech and the lead managers, ICICI Securities Limited and IIFL Capital Services Limited on this IPO. The transaction team consisted of Gautham Srinivas (Partner), Sathvik Ponnappa (Partner), Pulkit Singh Rahangdale (Principal Associate), Avinash Gautam (Senior Associate), Associates Anubhav Jaiswal, Shambhavi Gautam, Risha",
+    "law_firms": [
+      "Khaitan & Co",
+      "Hogan Lovells Cadwalader"
+    ],
+    "transaction_types": [
+      "QIP"
+    ],
+    "deal_value": {
+      "raw": "₹1,500 crore",
+      "currency": "INR",
+      "amount": 15000000000,
+      "amount_inr": 15000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Gautham Srinivas",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Sathvik Ponnappa",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Pulkit Singh Rahangdale",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Avinash Gautam",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Anubhav Jaiswal",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Shambhavi Gautam",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Rishav Khetan",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Sarthika Singhal",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Tushar Pundir",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      }
+    ]
+  },
+  {
+    "headline": "JSA, CMS INDUSLAW act on Ekkaa Electronics ₹725 crore proposed IPO",
+    "client": "Ekkaa Electronics",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-cms-induslaw-act-on-ekkaa-electronics-725-crore-proposed-ipo",
+    "snippet": "Ekkaa Electronics (India) Limited has filed a draft red herring prospectus for an initial public offering, comprising a fresh issue of ₹525 crore and an offer for sale aggregating up to ₹200 crore by the selling shareholders. JSA Advocates & Solicitors is advising Ekka Electronics on this IPO. The transaction is being led by Arka Mookerjee (Partner), with support from Pracheta Bhattacharya (Partner), Kairav Parikh (Partner), Vatsla Varandani (Senior Associate), Associates Arika Gupta, Aditi Khan",
+    "law_firms": [
+      "JSA Advocates & Solicitors",
+      "CMS INDUSLAW"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "deal_value": {
+      "raw": "₹725 crore",
+      "currency": "INR",
+      "amount": 7250000000,
+      "amount_inr": 7250000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Arka Mookerjee",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Pracheta Bhattacharya",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Kairav Parikh",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Vatsla Varandani",
+        "role": "Senior Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Arika Gupta",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Aditi Khandal",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Ritu R Jaiswal",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Sharad Panwar",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Johann Duckworth",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Mathew Thomas",
+        "role": "Partner",
+        "firm": "CMS INDUSLAW"
+      },
+      {
+        "name": "Anjanesh Vatsa",
+        "role": "Principal Associate",
+        "firm": "CMS INDUSLAW"
+      },
+      {
+        "name": "Aman Bahl",
+        "role": "Senior Associate",
+        "firm": "CMS INDUSLAW"
+      },
+      {
+        "name": "Preeti Gokhale",
+        "role": "Associate",
+        "firm": "CMS INDUSLAW"
+      },
+      {
+        "name": "Sanjana Gupta",
+        "role": "Associate",
+        "firm": "CMS INDUSLAW"
+      },
+      {
+        "name": "Anupriya Dasila",
+        "role": "Associate",
+        "firm": "CMS INDUSLAW"
+      },
+      {
+        "name": "Anushka Pawar",
+        "role": "Associate",
+        "firm": "CMS INDUSLAW"
+      }
+    ]
+  },
+  {
+    "headline": "Vidhigya Associates acts on Adroit Industries' ₹150 crore IPO",
+    "client": "Adroit Industries'",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/vidhigya-associates-acts-on-adroit-industries-150-crore-ipo",
+    "snippet": "Adroit Industries (India) Limited has launched an initial public offering totaling ₹150 crore, comprising a fresh issue of 98,97,000 equity shares and an offer for sale of 13,50,000 equity shares by the Promoter Group Selling Shareholder. Vidhigya Associates acted as the sole legal counsel for the offering. The transaction team consisted of Rahul Pandey (Managing Partner), Himanshu Pandey (Partner) and Yash Kothari (Executive). Adroit Industries is a vertically integrated manufacturer of propell",
+    "law_firms": [
+      "Vidhigya Associates"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "deal_value": {
+      "raw": "₹150 crore",
+      "currency": "INR",
+      "amount": 1500000000,
+      "amount_inr": 1500000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Rahul Pandey",
+        "role": "Managing Partner",
+        "firm": "Vidhigya Associates"
+      },
+      {
+        "name": "Himanshu Pandey",
+        "role": "Partner",
+        "firm": "Vidhigya Associates"
+      }
+    ]
+  },
+  {
+    "headline": "Mindspright Legal acts on Kheria Autocomp IPO",
+    "client": "Kheria Autocomp IPO",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/mindspright-legal-acts-on-kheria-autocomp-ipo",
+    "snippet": "Kheria Autocomp Limited has listed for an initial public offering of 45,98,400 equity shares aggregating up-to ₹46.44 crore. Mindspright Legal advised Kheria Autocomp on this IPO. The transaction was led by Richa Bhansali (Partner), with support from Mayuri Thakkar (Principal Associate) and Saksham Bhatnagar (Associate). Kheria Autocomp is an auto ancillary company, specializing in plastic injection moulding, sub-assembly operations and the supply of moulded plastic components primarily for the ",
+    "law_firms": [
+      "Mindspright Legal"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Richa Bhansali",
+        "role": "Partner",
+        "firm": "Mindspright Legal"
+      },
+      {
+        "name": "Mayuri Thakkar",
+        "role": "Principal Associate",
+        "firm": "Mindspright Legal"
+      },
+      {
+        "name": "Saksham Bhatnagar",
+        "role": "Associate",
+        "firm": "Mindspright Legal"
+      }
+    ]
   }
 ]

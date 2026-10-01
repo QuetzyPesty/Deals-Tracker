@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 3866,
-    "firms": 134,
-    "deals": 560,
+    "people": 3883,
+    "firms": 135,
+    "deals": 571,
     "practice_areas": 6
   },
   "firms": [
@@ -105,6 +105,7 @@
     "SKS Advisor",
     "SNG & Partners",
     "Saga Legal",
+    "Samisti Legal",
     "Samvād: Partners",
     "Saraf and Partners",
     "Sarvaank Associates",
@@ -729,7 +730,7 @@
     },
     {
       "firm": "CMS INDUSLAW",
-      "people_count": 88,
+      "people_count": 89,
       "practice_groups": [
         {
           "area": "Private Equity & Venture Capital",
@@ -771,6 +772,7 @@
             3221,
             150,
             783,
+            3884,
             3224,
             2227,
             3564,
@@ -1886,8 +1888,26 @@
     },
     {
       "firm": "Desai & Diwanji",
-      "people_count": 8,
+      "people_count": 17,
       "practice_groups": [
+        {
+          "area": "Unclassified",
+          "person_ids": [
+            3870,
+            3871,
+            3873,
+            3065,
+            3874,
+            3877,
+            3876,
+            3872,
+            3064,
+            3875,
+            3878,
+            3062,
+            3063
+          ]
+        },
         {
           "area": "Private Equity & Venture Capital",
           "person_ids": [
@@ -1895,15 +1915,6 @@
             3416,
             1872,
             3415
-          ]
-        },
-        {
-          "area": "Unclassified",
-          "person_ids": [
-            3065,
-            3064,
-            3062,
-            3063
           ]
         }
       ]
@@ -2320,7 +2331,7 @@
     },
     {
       "firm": "JSA Advocates & Solicitors",
-      "people_count": 387,
+      "people_count": 388,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -2512,9 +2523,11 @@
           "person_ids": [
             1098,
             1243,
+            437,
             387,
             384,
             3743,
+            3869,
             1055,
             1598,
             506,
@@ -2534,6 +2547,7 @@
             115,
             114,
             454,
+            1192,
             3005,
             1162,
             741,
@@ -2573,6 +2587,7 @@
             1917,
             1105,
             1053,
+            1193,
             2863,
             3,
             385,
@@ -2651,6 +2666,7 @@
             1103,
             768,
             1916,
+            3719,
             502,
             1246,
             1785,
@@ -2948,7 +2964,7 @@
     },
     {
       "firm": "Khaitan & Co",
-      "people_count": 586,
+      "people_count": 588,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -3600,6 +3616,7 @@
             2185,
             2132,
             1468,
+            3882,
             3375,
             2184,
             3336,
@@ -3621,6 +3638,7 @@
             2131,
             1753,
             477,
+            3883,
             759,
             3335,
             1704,
@@ -3844,22 +3862,23 @@
     },
     {
       "firm": "Lex Consult",
-      "people_count": 6,
+      "people_count": 7,
       "practice_groups": [
+        {
+          "area": "Private Equity & Venture Capital",
+          "person_ids": [
+            3880,
+            770,
+            771,
+            772
+          ]
+        },
         {
           "area": "Unclassified",
           "person_ids": [
             2101,
             2100,
             2102
-          ]
-        },
-        {
-          "area": "Private Equity & Venture Capital",
-          "person_ids": [
-            770,
-            771,
-            772
           ]
         }
       ]
@@ -4395,6 +4414,11 @@
       ]
     },
     {
+      "firm": "Samisti Legal",
+      "people_count": 0,
+      "practice_groups": []
+    },
+    {
       "firm": "Samvād: Partners",
       "people_count": 3,
       "practice_groups": [
@@ -4487,7 +4511,7 @@
     },
     {
       "firm": "Shardul Amarchand Mangaldas & Co",
-      "people_count": 420,
+      "people_count": 421,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -4884,6 +4908,7 @@
             2439,
             1577,
             381,
+            3881,
             2435,
             1743,
             3771
@@ -5238,7 +5263,7 @@
     },
     {
       "firm": "Talwar Thakore & Associates",
-      "people_count": 81,
+      "people_count": 82,
       "practice_groups": [
         {
           "area": "Private Equity & Venture Capital",
@@ -5257,6 +5282,7 @@
             444,
             3725,
             406,
+            3868,
             1119,
             1116,
             1357,
@@ -6269,7 +6295,7 @@
     },
     {
       "firm": "Vertices Partners",
-      "people_count": 21,
+      "people_count": 22,
       "practice_groups": [
         {
           "area": "Private Equity & Venture Capital",
@@ -6281,6 +6307,7 @@
             1973,
             2297,
             612,
+            3879,
             1625,
             1814,
             1813,
@@ -9529,7 +9556,8 @@
         "Capital Infra Trust",
         "PNG Jewellers",
         "Lumino Industries",
-        "ESDS"
+        "ESDS",
+        "Steamhouse India"
       ],
       "deals": [
         {
@@ -9679,6 +9707,25 @@
             "currency": "INR",
             "amount": 7200000000,
             "amount_inr": 7200000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "AZB & Partners, Trilegal act on Steamhouse India ₹414 crore IPO",
+          "client": "Steamhouse India",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/azb-partners-trilegal-act-on-steamhouse-india-414-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹414 crore",
+            "currency": "INR",
+            "amount": 4140000000,
+            "amount_inr": 4140000000,
             "approx": false
           }
         }
@@ -12773,7 +12820,8 @@
       ],
       "clients": [
         "Book Running Lead Managers",
-        "Glass Wall Systems"
+        "Glass Wall Systems",
+        "Ekkaa Electronics"
       ],
       "deals": [
         {
@@ -12820,6 +12868,25 @@
             "amount_inr": 4270000000,
             "approx": false
           }
+        },
+        {
+          "headline": "JSA, CMS INDUSLAW act on Ekkaa Electronics ₹725 crore proposed IPO",
+          "client": "Ekkaa Electronics",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-cms-induslaw-act-on-ekkaa-electronics-725-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹725 crore",
+            "currency": "INR",
+            "amount": 7250000000,
+            "amount_inr": 7250000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "AZB, JSA act on Canara Robeco ~₹1,326 crore IPO"
@@ -12831,15 +12898,18 @@
       "role": "Principal Associate",
       "role_bucket": "Principal Associate",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "investment"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
         "Allianz Group",
         "Centrum Housing Finance",
-        "Vobis Ventures"
+        "Vobis Ventures",
+        "Romsons securing investment from Temasek subsidiary"
       ],
       "deals": [
         {
@@ -12884,6 +12954,19 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary",
+          "client": "Romsons securing investment from Temasek subsidiary",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-jsa-act-on-romsons-on-securing-investment-from-temasek-subsidiary",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
           "value": null
         }
       ],
@@ -16308,6 +16391,38 @@
       "snapshot": "CAM advises Hiranandani Financial Services on raising ₹800 crore from Vitruvian"
     },
     {
+      "id": 3869,
+      "name": "Aishwarya Maria Manjooran",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Romsons securing investment from Temasek subsidiary"
+      ],
+      "deals": [
+        {
+          "headline": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary",
+          "client": "Romsons securing investment from Temasek subsidiary",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-jsa-act-on-romsons-on-securing-investment-from-temasek-subsidiary",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary"
+    },
+    {
       "id": 3267,
       "name": "Aishwarya Nagpal",
       "firm": "Khaitan & Co",
@@ -18362,6 +18477,36 @@
       "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat"
     },
     {
+      "id": 3870,
+      "name": "Akshay Bhagchandani",
+      "firm": "Desai & Diwanji",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Anchor Offshore Services DRHP filing"
+      ],
+      "deals": [
+        {
+          "headline": "Desai & Diwanji acts on Anchor Offshore Services DRHP filing",
+          "client": "Anchor Offshore Services DRHP filing",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/desai-diwanji-acts-on-anchor-offshore-services-drhp-filing",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹ 10",
+            "currency": "INR",
+            "amount": 10,
+            "amount_inr": 10,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Desai & Diwanji acts on Anchor Offshore Services DRHP filing"
+    },
+    {
       "id": 2943,
       "name": "Akshay Bhargav",
       "firm": "JSA Advocates & Solicitors",
@@ -20369,7 +20514,8 @@
       ],
       "clients": [
         "Arvind",
-        "Avtar Steel"
+        "Avtar Steel",
+        "Ekkaa Electronics"
       ],
       "deals": [
         {
@@ -20408,6 +20554,25 @@
             "amount": 5850000000,
             "amount_inr": 5850000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "JSA, CMS INDUSLAW act on Ekkaa Electronics ₹725 crore proposed IPO",
+          "client": "Ekkaa Electronics",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-cms-induslaw-act-on-ekkaa-electronics-725-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹725 crore",
+            "currency": "INR",
+            "amount": 7250000000,
+            "amount_inr": 7250000000,
+            "approx": false
           }
         }
       ],
@@ -25822,7 +25987,8 @@
       "clients": [
         "Brainbees Solutions Limited (selling shareholder)",
         "Arvind",
-        "Avtar Steel"
+        "Avtar Steel",
+        "Ekkaa Electronics"
       ],
       "deals": [
         {
@@ -25874,6 +26040,25 @@
             "amount": 5850000000,
             "amount_inr": 5850000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "JSA, CMS INDUSLAW act on Ekkaa Electronics ₹725 crore proposed IPO",
+          "client": "Ekkaa Electronics",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-cms-induslaw-act-on-ekkaa-electronics-725-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹725 crore",
+            "currency": "INR",
+            "amount": 7250000000,
+            "amount_inr": 7250000000,
+            "approx": false
           }
         }
       ],
@@ -26355,6 +26540,66 @@
         }
       ],
       "snapshot": "S&T Legal advises Fusion CX on acquisition of VA Platinum"
+    },
+    {
+      "id": 3871,
+      "name": "Ankit Rao",
+      "firm": "Desai & Diwanji",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Anchor Offshore Services DRHP filing"
+      ],
+      "deals": [
+        {
+          "headline": "Desai & Diwanji acts on Anchor Offshore Services DRHP filing",
+          "client": "Anchor Offshore Services DRHP filing",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/desai-diwanji-acts-on-anchor-offshore-services-drhp-filing",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹ 10",
+            "currency": "INR",
+            "amount": 10,
+            "amount_inr": 10,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Desai & Diwanji acts on Anchor Offshore Services DRHP filing"
+    },
+    {
+      "id": 3873,
+      "name": "Ankit Singh",
+      "firm": "Desai & Diwanji",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Anchor Offshore Services DRHP filing"
+      ],
+      "deals": [
+        {
+          "headline": "Desai & Diwanji acts on Anchor Offshore Services DRHP filing",
+          "client": "Anchor Offshore Services DRHP filing",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/desai-diwanji-acts-on-anchor-offshore-services-drhp-filing",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹ 10",
+            "currency": "INR",
+            "amount": 10,
+            "amount_inr": 10,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Desai & Diwanji acts on Anchor Offshore Services DRHP filing"
     },
     {
       "id": 1701,
@@ -29145,13 +29390,15 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
       ],
       "clients": [
-        "Glass Wall Systems"
+        "Glass Wall Systems",
+        "Aditya Infotech"
       ],
       "deals": [
         {
@@ -29170,6 +29417,25 @@
             "currency": "INR",
             "amount": 4270000000,
             "amount_inr": 4270000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Khaitan & Co, Hogan Lovells Cadwalader act on Aditya Infotech ₹1,500 crore QIP",
+          "client": "Aditya Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-hogan-lovells-cadwalader-act-on-aditya-infotech-1500-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,500 crore",
+            "currency": "INR",
+            "amount": 15000000000,
+            "amount_inr": 15000000000,
             "approx": false
           }
         }
@@ -29804,6 +30070,44 @@
         }
       ],
       "snapshot": "Imarticus Learning acquires Singapore's BELLS Institute of Higher Learning for ₹800 crore; IC RegFin..."
+    },
+    {
+      "id": 3884,
+      "name": "Anupriya Dasila",
+      "firm": "CMS INDUSLAW",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Ekkaa Electronics"
+      ],
+      "deals": [
+        {
+          "headline": "JSA, CMS INDUSLAW act on Ekkaa Electronics ₹725 crore proposed IPO",
+          "client": "Ekkaa Electronics",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-cms-induslaw-act-on-ekkaa-electronics-725-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹725 crore",
+            "currency": "INR",
+            "amount": 7250000000,
+            "amount_inr": 7250000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "JSA, CMS INDUSLAW act on Ekkaa Electronics ₹725 crore proposed IPO"
     },
     {
       "id": 3695,
@@ -30739,13 +31043,15 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "IPO",
         "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
       ],
       "clients": [
-        "Arvind"
+        "Arvind",
+        "Ekkaa Electronics"
       ],
       "deals": [
         {
@@ -30764,6 +31070,25 @@
             "currency": "INR",
             "amount": 5000000000,
             "amount_inr": 5000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "JSA, CMS INDUSLAW act on Ekkaa Electronics ₹725 crore proposed IPO",
+          "client": "Ekkaa Electronics",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-cms-induslaw-act-on-ekkaa-electronics-725-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹725 crore",
+            "currency": "INR",
+            "amount": 7250000000,
+            "amount_inr": 7250000000,
             "approx": false
           }
         }
@@ -32722,6 +33047,7 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "IPO",
         "QIP"
       ],
       "practice_areas": [
@@ -32729,7 +33055,8 @@
       ],
       "clients": [
         "E2E Networks",
-        "Neogen Chemicals"
+        "Neogen Chemicals",
+        "Ekkaa Electronics"
       ],
       "deals": [
         {
@@ -32761,6 +33088,25 @@
             "currency": "INR",
             "amount": 6000000000,
             "amount_inr": 6000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "JSA, CMS INDUSLAW act on Ekkaa Electronics ₹725 crore proposed IPO",
+          "client": "Ekkaa Electronics",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-cms-induslaw-act-on-ekkaa-electronics-725-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹725 crore",
+            "currency": "INR",
+            "amount": 7250000000,
+            "amount_inr": 7250000000,
             "approx": false
           }
         }
@@ -33475,7 +33821,8 @@
         "Nuvama Wealth Management Limited (Lead Manager)",
         "Atomberg",
         "Glass Wall Systems",
-        "Neogen Chemicals"
+        "Neogen Chemicals",
+        "Ekkaa Electronics"
       ],
       "deals": [
         {
@@ -33768,6 +34115,25 @@
             "currency": "INR",
             "amount": 6000000000,
             "amount_inr": 6000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "JSA, CMS INDUSLAW act on Ekkaa Electronics ₹725 crore proposed IPO",
+          "client": "Ekkaa Electronics",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-cms-induslaw-act-on-ekkaa-electronics-725-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹725 crore",
+            "currency": "INR",
+            "amount": 7250000000,
+            "amount_inr": 7250000000,
             "approx": false
           }
         }
@@ -38760,7 +39126,7 @@
           "id": 3376,
           "firm": "Khaitan & Co",
           "role": "Senior Associate",
-          "deal_count": 2
+          "deal_count": 3
         }
       ],
       "firm_verification": {
@@ -38783,7 +39149,8 @@
       ],
       "clients": [
         "Shiprocket",
-        "SPR Auto Technologies"
+        "SPR Auto Technologies",
+        "Aditya Infotech"
       ],
       "deals": [
         {
@@ -38821,6 +39188,25 @@
             "currency": "INR",
             "amount": 10000000000,
             "amount_inr": 10000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Khaitan & Co, Hogan Lovells Cadwalader act on Aditya Infotech ₹1,500 crore QIP",
+          "client": "Aditya Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-hogan-lovells-cadwalader-act-on-aditya-infotech-1500-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,500 crore",
+            "currency": "INR",
+            "amount": 15000000000,
+            "amount_inr": 15000000000,
             "approx": false
           }
         }
@@ -41174,13 +41560,16 @@
       "role_bucket": "Partner",
       "transaction_types": [
         "acquisition",
+        "investment",
         "stake acquisition"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Hakuto (real estate)"
+        "Hakuto (real estate)",
+        "Romsons securing investment from Temasek subsidiary"
       ],
       "deals": [
         {
@@ -41194,6 +41583,19 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ],
+          "value": null
+        },
+        {
+          "headline": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary",
+          "client": "Romsons securing investment from Temasek subsidiary",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-jsa-act-on-romsons-on-securing-investment-from-temasek-subsidiary",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ],
           "value": null
         }
@@ -51413,6 +51815,36 @@
       "snapshot": "Trilegal advises Sona Comstar on partnership with Japan's DENSO Corp"
     },
     {
+      "id": 3874,
+      "name": "Divam Garg",
+      "firm": "Desai & Diwanji",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Anchor Offshore Services DRHP filing"
+      ],
+      "deals": [
+        {
+          "headline": "Desai & Diwanji acts on Anchor Offshore Services DRHP filing",
+          "client": "Anchor Offshore Services DRHP filing",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/desai-diwanji-acts-on-anchor-offshore-services-drhp-filing",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹ 10",
+            "currency": "INR",
+            "amount": 10,
+            "amount_inr": 10,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Desai & Diwanji acts on Anchor Offshore Services DRHP filing"
+    },
+    {
       "id": 336,
       "name": "Divaspati Singh",
       "firm": "Khaitan & Co",
@@ -53551,7 +53983,8 @@
         "Advent International",
         "JSW Green Mobility",
         "Vobis Ventures",
-        "PwC India - PwC US joint venture"
+        "PwC India - PwC US joint venture",
+        "Romsons securing investment from Temasek subsidiary"
       ],
       "deals": [
         {
@@ -53635,6 +54068,19 @@
           ],
           "practice_areas": [
             "Corporate & Commercial"
+          ],
+          "value": null
+        },
+        {
+          "headline": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary",
+          "client": "Romsons securing investment from Temasek subsidiary",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-jsa-act-on-romsons-on-securing-investment-from-temasek-subsidiary",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ],
           "value": null
         }
@@ -54352,7 +54798,8 @@
       "transaction_types": [
         "Series C",
         "acquisition",
-        "fundraise"
+        "fundraise",
+        "investment"
       ],
       "practice_areas": [
         "Mergers & Acquisitions",
@@ -54364,7 +54811,8 @@
         "IFC and Fullerton",
         "WestBridge Capital",
         "investors",
-        "Blueleaf Energy's acquisition of wind power asset in Karnataka"
+        "Blueleaf Energy's acquisition of wind power asset in Karnataka",
+        "Romsons securing investment from Temasek subsidiary"
       ],
       "deals": [
         {
@@ -54437,6 +54885,19 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ],
+          "value": null
+        },
+        {
+          "headline": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary",
+          "client": "Romsons securing investment from Temasek subsidiary",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-jsa-act-on-romsons-on-securing-investment-from-temasek-subsidiary",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ],
           "value": null
         }
@@ -54575,7 +55036,8 @@
       ],
       "clients": [
         "Advent International",
-        "JSW Green Mobility"
+        "JSW Green Mobility",
+        "Romsons securing investment from Temasek subsidiary"
       ],
       "deals": [
         {
@@ -54612,6 +55074,19 @@
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary",
+          "client": "Romsons securing investment from Temasek subsidiary",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-jsa-act-on-romsons-on-securing-investment-from-temasek-subsidiary",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
           "value": null
         }
       ],
@@ -56792,7 +57267,8 @@
         "Molbio Diagnostics",
         "Shiprocket",
         "SPR Auto Technologies",
-        "Glass Wall Systems"
+        "Glass Wall Systems",
+        "Aditya Infotech"
       ],
       "deals": [
         {
@@ -56883,6 +57359,25 @@
             "currency": "INR",
             "amount": 4270000000,
             "amount_inr": 4270000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Khaitan & Co, Hogan Lovells Cadwalader act on Aditya Infotech ₹1,500 crore QIP",
+          "client": "Aditya Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-hogan-lovells-cadwalader-act-on-aditya-infotech-1500-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,500 crore",
+            "currency": "INR",
+            "amount": 15000000000,
+            "amount_inr": 15000000000,
             "approx": false
           }
         }
@@ -58008,6 +58503,36 @@
         }
       ],
       "snapshot": "Khaitan, Shardul Amarchand Mangaldas act on Bajaj Electricals' ₹168 crore acquisition of ..."
+    },
+    {
+      "id": 3877,
+      "name": "Gouriyanka Sharma",
+      "firm": "Desai & Diwanji",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Anchor Offshore Services DRHP filing"
+      ],
+      "deals": [
+        {
+          "headline": "Desai & Diwanji acts on Anchor Offshore Services DRHP filing",
+          "client": "Anchor Offshore Services DRHP filing",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/desai-diwanji-acts-on-anchor-offshore-services-drhp-filing",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹ 10",
+            "currency": "INR",
+            "amount": 10,
+            "amount_inr": 10,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Desai & Diwanji acts on Anchor Offshore Services DRHP filing"
     },
     {
       "id": 2004,
@@ -62384,7 +62909,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Sunshine Pictures"
+        "Sunshine Pictures",
+        "Adroit Industries'"
       ],
       "deals": [
         {
@@ -62403,6 +62929,25 @@
             "currency": "INR",
             "amount": 2820000000,
             "amount_inr": 2820000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Vidhigya Associates acts on Adroit Industries' ₹150 crore IPO",
+          "client": "Adroit Industries'",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/vidhigya-associates-acts-on-adroit-industries-150-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹150 crore",
+            "currency": "INR",
+            "amount": 1500000000,
+            "amount_inr": 1500000000,
             "approx": false
           }
         }
@@ -63564,6 +64109,38 @@
       "snapshot": "JSA, Cyril Amarchand Mangaldas act on Allianz - Jio General Insurance JV"
     },
     {
+      "id": 3868,
+      "name": "Indrayani Bhadra",
+      "firm": "Talwar Thakore & Associates",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Romsons securing investment from Temasek subsidiary"
+      ],
+      "deals": [
+        {
+          "headline": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary",
+          "client": "Romsons securing investment from Temasek subsidiary",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-jsa-act-on-romsons-on-securing-investment-from-temasek-subsidiary",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary"
+    },
+    {
       "id": 647,
       "name": "Ingrid Pi",
       "firm": "Uría Menéndez",
@@ -63709,7 +64286,8 @@
         "EMI Metals and Selling Shareholders",
         "Studds and Selling Shareholders",
         "Capital Infra Trust",
-        "Lumino Industries"
+        "Lumino Industries",
+        "Steamhouse India"
       ],
       "deals": [
         {
@@ -63769,6 +64347,25 @@
             "currency": "INR",
             "amount": 7000000000,
             "amount_inr": 7000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "AZB & Partners, Trilegal act on Steamhouse India ₹414 crore IPO",
+          "client": "Steamhouse India",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/azb-partners-trilegal-act-on-steamhouse-india-414-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹414 crore",
+            "currency": "INR",
+            "amount": 4140000000,
+            "amount_inr": 4140000000,
             "approx": false
           }
         }
@@ -66993,6 +67590,40 @@
       "snapshot": "NSE IPO: Which law firms are advising the stock exchange on its public listing?"
     },
     {
+      "id": 3880,
+      "name": "Jash Doshi",
+      "firm": "Lex Consult",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "Series A",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "ONYA Diamonds"
+      ],
+      "deals": [
+        {
+          "headline": "Lex Consult advises ONYA Diamonds on pre-Series A fundraise",
+          "client": "ONYA Diamonds",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/lex-consult-advises-onya-diamonds-on-pre-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Lex Consult advises ONYA Diamonds on pre-Series A fundraise"
+    },
+    {
       "id": 1837,
       "name": "Jasmin Karkhanis",
       "firm": "AZB & Partners",
@@ -67587,6 +68218,36 @@
       "snapshot": "CAM advises Adani on ₹1,342 crore acquisition of D P Jain TOT Toll Roads"
     },
     {
+      "id": 3876,
+      "name": "Jay Sanvaliya",
+      "firm": "Desai & Diwanji",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Anchor Offshore Services DRHP filing"
+      ],
+      "deals": [
+        {
+          "headline": "Desai & Diwanji acts on Anchor Offshore Services DRHP filing",
+          "client": "Anchor Offshore Services DRHP filing",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/desai-diwanji-acts-on-anchor-offshore-services-drhp-filing",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹ 10",
+            "currency": "INR",
+            "amount": 10,
+            "amount_inr": 10,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Desai & Diwanji acts on Anchor Offshore Services DRHP filing"
+    },
+    {
       "id": 2718,
       "name": "Jay Sharma",
       "firm": "Cyril Amarchand Mangaldas",
@@ -67887,7 +68548,8 @@
         "Shivalaya Construction and selling shareholders",
         "Capital Infra Trust",
         "PNG Jewellers",
-        "ESDS"
+        "ESDS",
+        "Steamhouse India"
       ],
       "deals": [
         {
@@ -67966,6 +68628,25 @@
             "currency": "INR",
             "amount": 7200000000,
             "amount_inr": 7200000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "AZB & Partners, Trilegal act on Steamhouse India ₹414 crore IPO",
+          "client": "Steamhouse India",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/azb-partners-trilegal-act-on-steamhouse-india-414-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹414 crore",
+            "currency": "INR",
+            "amount": 4140000000,
+            "amount_inr": 4140000000,
             "approx": false
           }
         }
@@ -69751,7 +70432,8 @@
       ],
       "clients": [
         "E2E Networks",
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Ekkaa Electronics"
       ],
       "deals": [
         {
@@ -69792,6 +70474,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "JSA, CMS INDUSLAW act on Ekkaa Electronics ₹725 crore proposed IPO",
+          "client": "Ekkaa Electronics",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-cms-induslaw-act-on-ekkaa-electronics-725-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹725 crore",
+            "currency": "INR",
+            "amount": 7250000000,
+            "amount_inr": 7250000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "JSA acts on E2E Networks ₹107 crore QIP - BarandBench"
@@ -71492,7 +72193,8 @@
         "BRLMs",
         "Atomberg",
         "Glass Wall Systems",
-        "Neogen Chemicals"
+        "Neogen Chemicals",
+        "Ekkaa Electronics"
       ],
       "deals": [
         {
@@ -71614,6 +72316,25 @@
             "currency": "INR",
             "amount": 6000000000,
             "amount_inr": 6000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "JSA, CMS INDUSLAW act on Ekkaa Electronics ₹725 crore proposed IPO",
+          "client": "Ekkaa Electronics",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-cms-induslaw-act-on-ekkaa-electronics-725-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹725 crore",
+            "currency": "INR",
+            "amount": 7250000000,
+            "amount_inr": 7250000000,
             "approx": false
           }
         }
@@ -71742,17 +72463,19 @@
       "id": 1968,
       "name": "Kajal Kashyap",
       "firm": "JSA Advocates & Solicitors",
-      "role": "Associate",
-      "role_bucket": "Associate",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
       "transaction_types": [
         "Series B",
-        "fundraise"
+        "fundraise",
+        "investment"
       ],
       "practice_areas": [
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "UnifyApps and its Founder"
+        "UnifyApps and its Founder",
+        "Romsons securing investment from Temasek subsidiary"
       ],
       "deals": [
         {
@@ -71763,6 +72486,19 @@
           "types": [
             "fundraise",
             "Series B"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": null
+        },
+        {
+          "headline": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary",
+          "client": "Romsons securing investment from Temasek subsidiary",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-jsa-act-on-romsons-on-securing-investment-from-temasek-subsidiary",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
@@ -72560,7 +73296,8 @@
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "the sellers"
+        "the sellers",
+        "Krishna Institute of Medical Sciences"
       ],
       "deals": [
         {
@@ -72576,6 +73313,21 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises Krishna Institute of Medical Sciences on ₹600 crore preferential allotment of warrants",
+          "client": "Krishna Institute of Medical Sciences",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-co-advises-krishna-institute-of-medical-sciences-on-600-crore-preferential-allotment-of-warrants",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹600 crore",
+            "currency": "INR",
+            "amount": 6000000000,
+            "amount_inr": 6000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "SAM acts on Nazara's ₹918 crore stake acquisition in Bluetile Games and BestPlay Systems"
@@ -81642,7 +82394,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Aavishkaar Capital"
+        "Aavishkaar Capital",
+        "Balwaan Krishi"
       ],
       "deals": [
         {
@@ -81658,6 +82411,26 @@
             "Private Equity & Venture Capital"
           ],
           "value": null
+        },
+        {
+          "headline": "Samisti Legal, VERTICES PARTNERS act on Balwaan Krishi ₹100 crore Series B fundraise",
+          "client": "Balwaan Krishi",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/samisti-legal-vertices-partners-act-on-balwaan-krishi-100-crore-series-b-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series B",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹100 crore",
+            "currency": "INR",
+            "amount": 1000000000,
+            "amount_inr": 1000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "SAM advises WorkIndia on Series B fundraise"
@@ -83779,6 +84552,36 @@
         }
       ],
       "snapshot": "Imarticus Learning acquires Singapore's BELLS Institute of Higher Learning for ₹800 crore; IC RegFin..."
+    },
+    {
+      "id": 3872,
+      "name": "Mahimna Dave",
+      "firm": "Desai & Diwanji",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Anchor Offshore Services DRHP filing"
+      ],
+      "deals": [
+        {
+          "headline": "Desai & Diwanji acts on Anchor Offshore Services DRHP filing",
+          "client": "Anchor Offshore Services DRHP filing",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/desai-diwanji-acts-on-anchor-offshore-services-drhp-filing",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹ 10",
+            "currency": "INR",
+            "amount": 10,
+            "amount_inr": 10,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Desai & Diwanji acts on Anchor Offshore Services DRHP filing"
     },
     {
       "id": 2203,
@@ -87123,6 +87926,46 @@
       "snapshot": "CAM, AZB act on Warburg Pincus acquiring stake in Fleur Hotels - Bar and Bench"
     },
     {
+      "id": 3879,
+      "name": "Mansi Dixit",
+      "firm": "Vertices Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "Series B",
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Balwaan Krishi"
+      ],
+      "deals": [
+        {
+          "headline": "Samisti Legal, VERTICES PARTNERS act on Balwaan Krishi ₹100 crore Series B fundraise",
+          "client": "Balwaan Krishi",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/samisti-legal-vertices-partners-act-on-balwaan-krishi-100-crore-series-b-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series B",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹100 crore",
+            "currency": "INR",
+            "amount": 1000000000,
+            "amount_inr": 1000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Samisti Legal, VERTICES PARTNERS act on Balwaan Krishi ₹100 crore Series B fundraise"
+    },
+    {
       "id": 582,
       "name": "Mansi Jain",
       "firm": "Cyril Amarchand Mangaldas",
@@ -88052,7 +88895,8 @@
         "Brainbees Solutions Limited (selling shareholder)",
         "Book Running Lead Managers",
         "Arvind",
-        "Avtar Steel"
+        "Avtar Steel",
+        "Ekkaa Electronics"
       ],
       "deals": [
         {
@@ -88117,6 +88961,25 @@
             "amount": 5850000000,
             "amount_inr": 5850000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "JSA, CMS INDUSLAW act on Ekkaa Electronics ₹725 crore proposed IPO",
+          "client": "Ekkaa Electronics",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-cms-induslaw-act-on-ekkaa-electronics-725-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹725 crore",
+            "currency": "INR",
+            "amount": 7250000000,
+            "amount_inr": 7250000000,
+            "approx": false
           }
         }
       ],
@@ -88833,7 +89696,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Ashutosh Fibre IPO"
+        "Ashutosh Fibre IPO",
+        "Kheria Autocomp IPO"
       ],
       "deals": [
         {
@@ -88854,6 +89718,19 @@
             "amount_inr": 563500000,
             "approx": false
           }
+        },
+        {
+          "headline": "Mindspright Legal acts on Kheria Autocomp IPO",
+          "client": "Kheria Autocomp IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/mindspright-legal-acts-on-kheria-autocomp-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": null
         }
       ],
       "snapshot": "Mindspright Legal acts on Ashutosh Fibre IPO"
@@ -89210,6 +90087,7 @@
       "transaction_types": [
         "acquisition",
         "fundraise",
+        "investment",
         "stake acquisition"
       ],
       "practice_areas": [
@@ -89218,7 +90096,8 @@
       ],
       "clients": [
         "ICICI Ventures",
-        "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals"
+        "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+        "Romsons securing investment from Temasek subsidiary"
       ],
       "deals": [
         {
@@ -89245,6 +90124,19 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ],
+          "value": null
+        },
+        {
+          "headline": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary",
+          "client": "Romsons securing investment from Temasek subsidiary",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-jsa-act-on-romsons-on-securing-investment-from-temasek-subsidiary",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ],
           "value": null
         }
@@ -89562,7 +90454,8 @@
         "Dain Colour Chem IPO",
         "Qualiance International IPO",
         "Vardaan Biotech",
-        "Nexa Defence IPO"
+        "Nexa Defence IPO",
+        "Dinotarp IPO"
       ],
       "deals": [
         {
@@ -89658,6 +90551,25 @@
             "amount": 302000000,
             "amount_inr": 302000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "Legacy Law Offices acts on Dinotarp IPO",
+          "client": "Dinotarp IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-dinotarp-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹26.93 crore",
+            "currency": "INR",
+            "amount": 269300000,
+            "amount_inr": 269300000,
+            "approx": false
           }
         }
       ],
@@ -91693,13 +92605,16 @@
       "role_bucket": "Partner",
       "transaction_types": [
         "acquisition",
+        "investment",
         "stake acquisition"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Hakuto (real estate)"
+        "Hakuto (real estate)",
+        "Romsons securing investment from Temasek subsidiary"
       ],
       "deals": [
         {
@@ -91713,6 +92628,19 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ],
+          "value": null
+        },
+        {
+          "headline": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary",
+          "client": "Romsons securing investment from Temasek subsidiary",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-jsa-act-on-romsons-on-securing-investment-from-temasek-subsidiary",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ],
           "value": null
         }
@@ -93997,7 +94925,8 @@
         "Dain Colour Chem IPO",
         "Qualiance International IPO",
         "Vardaan Biotech",
-        "Nexa Defence IPO"
+        "Nexa Defence IPO",
+        "Dinotarp IPO"
       ],
       "deals": [
         {
@@ -94093,6 +95022,25 @@
             "amount": 302000000,
             "amount_inr": 302000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "Legacy Law Offices acts on Dinotarp IPO",
+          "client": "Dinotarp IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-dinotarp-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹26.93 crore",
+            "currency": "INR",
+            "amount": 269300000,
+            "amount_inr": 269300000,
+            "approx": false
           }
         }
       ],
@@ -95320,7 +96268,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Supply6"
+        "Supply6",
+        "ONYA Diamonds"
       ],
       "deals": [
         {
@@ -95331,6 +96280,20 @@
           "types": [
             "fundraise",
             "Series A"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": null
+        },
+        {
+          "headline": "Lex Consult advises ONYA Diamonds on pre-Series A fundraise",
+          "client": "ONYA Diamonds",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/lex-consult-advises-onya-diamonds-on-pre-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
@@ -104060,6 +105023,36 @@
       "snapshot": "TT&A, Saraf and Partners act on Blueleaf Energy's acquisition of wind power asset in Karnataka"
     },
     {
+      "id": 3875,
+      "name": "Paritosh Srivastava",
+      "firm": "Desai & Diwanji",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Anchor Offshore Services DRHP filing"
+      ],
+      "deals": [
+        {
+          "headline": "Desai & Diwanji acts on Anchor Offshore Services DRHP filing",
+          "client": "Anchor Offshore Services DRHP filing",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/desai-diwanji-acts-on-anchor-offshore-services-drhp-filing",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹ 10",
+            "currency": "INR",
+            "amount": 10,
+            "amount_inr": 10,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Desai & Diwanji acts on Anchor Offshore Services DRHP filing"
+    },
+    {
       "id": 3455,
       "name": "Parmeshwar Prapann",
       "firm": "Trilegal",
@@ -106065,7 +107058,8 @@
         "BRLMs",
         "Atomberg",
         "Glass Wall Systems",
-        "Neogen Chemicals"
+        "Neogen Chemicals",
+        "Ekkaa Electronics"
       ],
       "deals": [
         {
@@ -106245,6 +107239,25 @@
             "currency": "INR",
             "amount": 6000000000,
             "amount_inr": 6000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "JSA, CMS INDUSLAW act on Ekkaa Electronics ₹725 crore proposed IPO",
+          "client": "Ekkaa Electronics",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-cms-induslaw-act-on-ekkaa-electronics-725-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹725 crore",
+            "currency": "INR",
+            "amount": 7250000000,
+            "amount_inr": 7250000000,
             "approx": false
           }
         }
@@ -108274,7 +109287,8 @@
       "transaction_types": [
         "IPO",
         "acquisition",
-        "fundraise"
+        "fundraise",
+        "investment"
       ],
       "practice_areas": [
         "Capital Markets",
@@ -108285,7 +109299,8 @@
         "GeBBS Healthcare Solutions Inc.",
         "Temasek Group",
         "ICICI Ventures",
-        "SMBC (Sumitomo Mitsui Banking Corporation)"
+        "SMBC (Sumitomo Mitsui Banking Corporation)",
+        "Romsons securing investment from Temasek subsidiary"
       ],
       "deals": [
         {
@@ -108337,6 +109352,19 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ],
+          "value": null
+        },
+        {
+          "headline": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary",
+          "client": "Romsons securing investment from Temasek subsidiary",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-jsa-act-on-romsons-on-securing-investment-from-temasek-subsidiary",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ],
           "value": null
         }
@@ -110407,6 +111435,7 @@
         "Series A",
         "acquisition",
         "fundraise",
+        "investment",
         "stake acquisition"
       ],
       "practice_areas": [
@@ -110419,7 +111448,8 @@
         "Goyaz Jewellery",
         "MO Alternates",
         "India leg of SAP Inc's acquisition of Reltio",
-        "on India leg of Cisco's acquisition of WideField Security"
+        "on India leg of Cisco's acquisition of WideField Security",
+        "Romsons securing investment from Temasek subsidiary"
       ],
       "deals": [
         {
@@ -110502,6 +111532,19 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary",
+          "client": "Romsons securing investment from Temasek subsidiary",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-jsa-act-on-romsons-on-securing-investment-from-temasek-subsidiary",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": null
         }
       ],
       "snapshot": "JSA, JM+P act on Iscon Balaji Foods $215 million Series A fundraise"
@@ -110513,13 +111556,15 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "IPO",
         "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
       ],
       "clients": [
-        "Arvind"
+        "Arvind",
+        "Ekkaa Electronics"
       ],
       "deals": [
         {
@@ -110538,6 +111583,25 @@
             "currency": "INR",
             "amount": 5000000000,
             "amount_inr": 5000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "JSA, CMS INDUSLAW act on Ekkaa Electronics ₹725 crore proposed IPO",
+          "client": "Ekkaa Electronics",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-cms-induslaw-act-on-ekkaa-electronics-725-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹725 crore",
+            "currency": "INR",
+            "amount": 7250000000,
+            "amount_inr": 7250000000,
             "approx": false
           }
         }
@@ -112439,7 +113503,8 @@
       ],
       "clients": [
         "JSW Green Mobility",
-        "PwC India - PwC US joint venture"
+        "PwC India - PwC US joint venture",
+        "Romsons securing investment from Temasek subsidiary"
       ],
       "deals": [
         {
@@ -112474,6 +113539,19 @@
           ],
           "practice_areas": [
             "Corporate & Commercial"
+          ],
+          "value": null
+        },
+        {
+          "headline": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary",
+          "client": "Romsons securing investment from Temasek subsidiary",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-jsa-act-on-romsons-on-securing-investment-from-temasek-subsidiary",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ],
           "value": null
         }
@@ -112779,7 +113857,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "SPR Auto Technologies"
+        "SPR Auto Technologies",
+        "Aditya Infotech"
       ],
       "deals": [
         {
@@ -112798,6 +113877,25 @@
             "currency": "INR",
             "amount": 10000000000,
             "amount_inr": 10000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Khaitan & Co, Hogan Lovells Cadwalader act on Aditya Infotech ₹1,500 crore QIP",
+          "client": "Aditya Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-hogan-lovells-cadwalader-act-on-aditya-infotech-1500-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,500 crore",
+            "currency": "INR",
+            "amount": 15000000000,
+            "amount_inr": 15000000000,
             "approx": false
           }
         }
@@ -112843,7 +113941,8 @@
       ],
       "clients": [
         "the sellers",
-        "Emirates NBD"
+        "Emirates NBD",
+        "Krishna Institute of Medical Sciences"
       ],
       "deals": [
         {
@@ -112872,6 +113971,21 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises Krishna Institute of Medical Sciences on ₹600 crore preferential allotment of warrants",
+          "client": "Krishna Institute of Medical Sciences",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-co-advises-krishna-institute-of-medical-sciences-on-600-crore-preferential-allotment-of-warrants",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹600 crore",
+            "currency": "INR",
+            "amount": 6000000000,
+            "amount_inr": 6000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "SAM acts on Nazara's ₹918 crore stake acquisition in Bluetile Games and BestPlay Systems"
@@ -115664,7 +116778,8 @@
       ],
       "clients": [
         "Sunshine Pictures",
-        "Veegaland Homes"
+        "Veegaland Homes",
+        "Adroit Industries'"
       ],
       "deals": [
         {
@@ -115702,6 +116817,25 @@
             "currency": "INR",
             "amount": 2100000000,
             "amount_inr": 2100000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Vidhigya Associates acts on Adroit Industries' ₹150 crore IPO",
+          "client": "Adroit Industries'",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/vidhigya-associates-acts-on-adroit-industries-150-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹150 crore",
+            "currency": "INR",
+            "amount": 1500000000,
+            "amount_inr": 1500000000,
             "approx": false
           }
         }
@@ -120478,7 +121612,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Ashutosh Fibre IPO"
+        "Ashutosh Fibre IPO",
+        "Kheria Autocomp IPO"
       ],
       "deals": [
         {
@@ -120499,6 +121634,19 @@
             "amount_inr": 563500000,
             "approx": false
           }
+        },
+        {
+          "headline": "Mindspright Legal acts on Kheria Autocomp IPO",
+          "client": "Kheria Autocomp IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/mindspright-legal-acts-on-kheria-autocomp-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": null
         }
       ],
       "snapshot": "Mindspright Legal acts on Ashutosh Fibre IPO"
@@ -121504,7 +122652,8 @@
         "Series A",
         "Series B",
         "acquisition",
-        "fundraise"
+        "fundraise",
+        "investment"
       ],
       "practice_areas": [
         "Capital Markets",
@@ -121515,7 +122664,8 @@
         "Snitch Apparels",
         "Temasek Group",
         "UnifyApps and its Founder",
-        "Goyaz Jewellery"
+        "Goyaz Jewellery",
+        "Romsons securing investment from Temasek subsidiary"
       ],
       "deals": [
         {
@@ -121566,6 +122716,19 @@
           "types": [
             "fundraise",
             "Series A"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": null
+        },
+        {
+          "headline": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary",
+          "client": "Romsons securing investment from Temasek subsidiary",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-jsa-act-on-romsons-on-securing-investment-from-temasek-subsidiary",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
@@ -121870,7 +123033,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "SPR Auto Technologies"
+        "SPR Auto Technologies",
+        "Aditya Infotech"
       ],
       "deals": [
         {
@@ -121889,6 +123053,25 @@
             "currency": "INR",
             "amount": 10000000000,
             "amount_inr": 10000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Khaitan & Co, Hogan Lovells Cadwalader act on Aditya Infotech ₹1,500 crore QIP",
+          "client": "Aditya Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-hogan-lovells-cadwalader-act-on-aditya-infotech-1500-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,500 crore",
+            "currency": "INR",
+            "amount": 15000000000,
+            "amount_inr": 15000000000,
             "approx": false
           }
         }
@@ -122692,7 +123875,8 @@
       "clients": [
         "Sathya Agencies Limited",
         "BRLMs",
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Ekkaa Electronics"
       ],
       "deals": [
         {
@@ -122733,6 +123917,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "JSA, CMS INDUSLAW act on Ekkaa Electronics ₹725 crore proposed IPO",
+          "client": "Ekkaa Electronics",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-cms-induslaw-act-on-ekkaa-electronics-725-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹725 crore",
+            "currency": "INR",
+            "amount": 7250000000,
+            "amount_inr": 7250000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "JSA assists South India electronics retailer Sathya as it heads for ₹600 crore IPO"
@@ -123471,7 +124674,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Supply6"
+        "Supply6",
+        "ONYA Diamonds"
       ],
       "deals": [
         {
@@ -123482,6 +124686,20 @@
           "types": [
             "fundraise",
             "Series A"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": null
+        },
+        {
+          "headline": "Lex Consult advises ONYA Diamonds on pre-Series A fundraise",
+          "client": "ONYA Diamonds",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/lex-consult-advises-onya-diamonds-on-pre-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
@@ -128262,7 +129480,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Ashutosh Fibre IPO"
+        "Ashutosh Fibre IPO",
+        "Kheria Autocomp IPO"
       ],
       "deals": [
         {
@@ -128283,6 +129502,19 @@
             "amount_inr": 563500000,
             "approx": false
           }
+        },
+        {
+          "headline": "Mindspright Legal acts on Kheria Autocomp IPO",
+          "client": "Kheria Autocomp IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/mindspright-legal-acts-on-kheria-autocomp-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": null
         }
       ],
       "snapshot": "Mindspright Legal acts on Ashutosh Fibre IPO"
@@ -130179,7 +131411,8 @@
       "transaction_types": [
         "Series B",
         "acquisition",
-        "fundraise"
+        "fundraise",
+        "investment"
       ],
       "practice_areas": [
         "Mergers & Acquisitions",
@@ -130188,7 +131421,8 @@
       "clients": [
         "HCLTech",
         "IntelliSmart",
-        "Slice Small Finance Bank"
+        "Slice Small Finance Bank",
+        "Romsons securing investment from Temasek subsidiary"
       ],
       "deals": [
         {
@@ -130236,6 +131470,19 @@
             "amount_inr": 8800000000,
             "approx": false
           }
+        },
+        {
+          "headline": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary",
+          "client": "Romsons securing investment from Temasek subsidiary",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-jsa-act-on-romsons-on-securing-investment-from-temasek-subsidiary",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": null
         }
       ],
       "snapshot": "Trilegal, TT&A, Cyril Amarchand Mangaldas act on Sarvam AI $300 million Series B fundraise"
@@ -131872,7 +133119,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Avtar Steel"
+        "Avtar Steel",
+        "Ekkaa Electronics"
       ],
       "deals": [
         {
@@ -131892,6 +133140,25 @@
             "amount": 5850000000,
             "amount_inr": 5850000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "JSA, CMS INDUSLAW act on Ekkaa Electronics ₹725 crore proposed IPO",
+          "client": "Ekkaa Electronics",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-cms-induslaw-act-on-ekkaa-electronics-725-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹725 crore",
+            "currency": "INR",
+            "amount": 7250000000,
+            "amount_inr": 7250000000,
+            "approx": false
           }
         }
       ],
@@ -134185,6 +135452,44 @@
       "snapshot": "CAM advises Adani on ₹1,342 crore acquisition of D P Jain TOT Toll Roads"
     },
     {
+      "id": 3882,
+      "name": "Sarthika Singhal",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "QIP"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Aditya Infotech"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co, Hogan Lovells Cadwalader act on Aditya Infotech ₹1,500 crore QIP",
+          "client": "Aditya Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-hogan-lovells-cadwalader-act-on-aditya-infotech-1500-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,500 crore",
+            "currency": "INR",
+            "amount": 15000000000,
+            "amount_inr": 15000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Khaitan & Co, Hogan Lovells Cadwalader act on Aditya Infotech ₹1,500 crore QIP"
+    },
+    {
       "id": 2652,
       "name": "Sarvagya Chitranshi",
       "firm": "Cyril Amarchand Mangaldas",
@@ -134508,7 +135813,8 @@
         "Milestone Gears",
         "Molbio Diagnostics",
         "SPR Auto Technologies",
-        "Glass Wall Systems"
+        "Glass Wall Systems",
+        "Aditya Infotech"
       ],
       "deals": [
         {
@@ -134580,6 +135886,25 @@
             "currency": "INR",
             "amount": 4270000000,
             "amount_inr": 4270000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Khaitan & Co, Hogan Lovells Cadwalader act on Aditya Infotech ₹1,500 crore QIP",
+          "client": "Aditya Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-hogan-lovells-cadwalader-act-on-aditya-infotech-1500-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,500 crore",
+            "currency": "INR",
+            "amount": 15000000000,
+            "amount_inr": 15000000000,
             "approx": false
           }
         }
@@ -136706,7 +138031,8 @@
       ],
       "clients": [
         "Molbio Diagnostics",
-        "SPR Auto Technologies"
+        "SPR Auto Technologies",
+        "Aditya Infotech"
       ],
       "deals": [
         {
@@ -136744,6 +138070,25 @@
             "currency": "INR",
             "amount": 10000000000,
             "amount_inr": 10000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Khaitan & Co, Hogan Lovells Cadwalader act on Aditya Infotech ₹1,500 crore QIP",
+          "client": "Aditya Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-hogan-lovells-cadwalader-act-on-aditya-infotech-1500-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,500 crore",
+            "currency": "INR",
+            "amount": 15000000000,
+            "amount_inr": 15000000000,
             "approx": false
           }
         }
@@ -137627,7 +138972,8 @@
         "E2E Networks",
         "Book Running Lead Managers",
         "BRLMs",
-        "Glass Wall Systems"
+        "Glass Wall Systems",
+        "Ekkaa Electronics"
       ],
       "deals": [
         {
@@ -137711,6 +139057,25 @@
             "currency": "INR",
             "amount": 4270000000,
             "amount_inr": 4270000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "JSA, CMS INDUSLAW act on Ekkaa Electronics ₹725 crore proposed IPO",
+          "client": "Ekkaa Electronics",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-cms-induslaw-act-on-ekkaa-electronics-725-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹725 crore",
+            "currency": "INR",
+            "amount": 7250000000,
+            "amount_inr": 7250000000,
             "approx": false
           }
         }
@@ -141186,7 +142551,8 @@
       ],
       "clients": [
         "NG Electro",
-        "Lohia Aerospace Systems"
+        "Lohia Aerospace Systems",
+        "Romsons securing investment from Temasek subsidiary"
       ],
       "deals": [
         {
@@ -141212,6 +142578,19 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary",
+          "client": "Romsons securing investment from Temasek subsidiary",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-jsa-act-on-romsons-on-securing-investment-from-temasek-subsidiary",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
           "value": null
         }
       ],
@@ -150773,7 +152152,8 @@
       "transaction_types": [
         "Series B",
         "acquisition",
-        "fundraise"
+        "fundraise",
+        "investment"
       ],
       "practice_areas": [
         "Mergers & Acquisitions",
@@ -150783,7 +152163,8 @@
         "HCLTech",
         "IntelliSmart",
         "JSW Energy",
-        "Slice Small Finance Bank"
+        "Slice Small Finance Bank",
+        "Romsons securing investment from Temasek subsidiary"
       ],
       "deals": [
         {
@@ -150844,6 +152225,19 @@
             "amount_inr": 8800000000,
             "approx": false
           }
+        },
+        {
+          "headline": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary",
+          "client": "Romsons securing investment from Temasek subsidiary",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-jsa-act-on-romsons-on-securing-investment-from-temasek-subsidiary",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": null
         }
       ],
       "snapshot": "Trilegal, TT&A, Cyril Amarchand Mangaldas act on Sarvam AI $300 million Series B fundraise"
@@ -155814,7 +157208,8 @@
         "Dain Colour Chem IPO",
         "Qualiance International IPO",
         "Vardaan Biotech",
-        "Nexa Defence IPO"
+        "Nexa Defence IPO",
+        "Dinotarp IPO"
       ],
       "deals": [
         {
@@ -155891,6 +157286,25 @@
             "amount": 302000000,
             "amount_inr": 302000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "Legacy Law Offices acts on Dinotarp IPO",
+          "client": "Dinotarp IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-dinotarp-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹26.93 crore",
+            "currency": "INR",
+            "amount": 269300000,
+            "amount_inr": 269300000,
+            "approx": false
           }
         }
       ],
@@ -158715,14 +160129,16 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "fundraise"
+        "fundraise",
+        "investment"
       ],
       "practice_areas": [
         "Private Equity & Venture Capital"
       ],
       "clients": [
         "ICICI Ventures",
-        "SingTel"
+        "SingTel",
+        "Romsons securing investment from Temasek subsidiary"
       ],
       "deals": [
         {
@@ -158745,6 +160161,19 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary",
+          "client": "Romsons securing investment from Temasek subsidiary",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-jsa-act-on-romsons-on-securing-investment-from-temasek-subsidiary",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
           "value": null
         }
       ],
@@ -159257,7 +160686,8 @@
       ],
       "clients": [
         "Alpha Wave Global",
-        "the sellers"
+        "the sellers",
+        "Krishna Institute of Medical Sciences"
       ],
       "deals": [
         {
@@ -159282,6 +160712,21 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises Krishna Institute of Medical Sciences on ₹600 crore preferential allotment of warrants",
+          "client": "Krishna Institute of Medical Sciences",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-co-advises-krishna-institute-of-medical-sciences-on-600-crore-preferential-allotment-of-warrants",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹600 crore",
+            "currency": "INR",
+            "amount": 6000000000,
+            "amount_inr": 6000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM, Trilegal, SAM act on Bharti Airtel, Carlyle, Alpha Wave investing $1 billion in Airtel's Nxtra Data"
@@ -159610,6 +161055,7 @@
         "Series A",
         "acquisition",
         "fundraise",
+        "investment",
         "stake acquisition"
       ],
       "practice_areas": [
@@ -159618,7 +161064,8 @@
       ],
       "clients": [
         "TIL Limited",
-        "Advent International"
+        "Advent International",
+        "Romsons securing investment from Temasek subsidiary"
       ],
       "deals": [
         {
@@ -159643,6 +161090,19 @@
           "types": [
             "fundraise",
             "Series A"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": null
+        },
+        {
+          "headline": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary",
+          "client": "Romsons securing investment from Temasek subsidiary",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-jsa-act-on-romsons-on-securing-investment-from-temasek-subsidiary",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
@@ -161153,6 +162613,36 @@
       "snapshot": "Legacy Law Offices acts on Nexa Defence IPO"
     },
     {
+      "id": 3878,
+      "name": "Trainee Associate Shilpi Sharma",
+      "firm": "Desai & Diwanji",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Anchor Offshore Services DRHP filing"
+      ],
+      "deals": [
+        {
+          "headline": "Desai & Diwanji acts on Anchor Offshore Services DRHP filing",
+          "client": "Anchor Offshore Services DRHP filing",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/desai-diwanji-acts-on-anchor-offshore-services-drhp-filing",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹ 10",
+            "currency": "INR",
+            "amount": 10,
+            "amount_inr": 10,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Desai & Diwanji acts on Anchor Offshore Services DRHP filing"
+    },
+    {
       "id": 2156,
       "name": "Trayosha Darapuneni",
       "firm": "Cyril Amarchand Mangaldas",
@@ -161265,13 +162755,15 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "fundraise"
+        "fundraise",
+        "investment"
       ],
       "practice_areas": [
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "ICICI Ventures"
+        "ICICI Ventures",
+        "Romsons securing investment from Temasek subsidiary"
       ],
       "deals": [
         {
@@ -161281,6 +162773,19 @@
           "source": "Bar and Bench",
           "types": [
             "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": null
+        },
+        {
+          "headline": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary",
+          "client": "Romsons securing investment from Temasek subsidiary",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-jsa-act-on-romsons-on-securing-investment-from-temasek-subsidiary",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
@@ -161645,7 +163150,8 @@
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
-        "PNB-led consortium"
+        "PNB-led consortium",
+        "Anchor Offshore Services DRHP filing"
       ],
       "deals": [
         {
@@ -161660,6 +163166,21 @@
             "currency": "INR",
             "amount": 21500000000,
             "amount_inr": 21500000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Desai & Diwanji acts on Anchor Offshore Services DRHP filing",
+          "client": "Anchor Offshore Services DRHP filing",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/desai-diwanji-acts-on-anchor-offshore-services-drhp-filing",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹ 10",
+            "currency": "INR",
+            "amount": 10,
+            "amount_inr": 10,
             "approx": false
           }
         }
@@ -161760,6 +163281,44 @@
         }
       ],
       "snapshot": "Fox & Mandal, VERTICES PARTNERS, Shardul Amarchand Mangaldas act on Gnani.AI ..."
+    },
+    {
+      "id": 3883,
+      "name": "Tushar Pundir",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "QIP"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Aditya Infotech"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co, Hogan Lovells Cadwalader act on Aditya Infotech ₹1,500 crore QIP",
+          "client": "Aditya Infotech",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-hogan-lovells-cadwalader-act-on-aditya-infotech-1500-crore-qip",
+          "source": "Bar & Bench",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,500 crore",
+            "currency": "INR",
+            "amount": 15000000000,
+            "amount_inr": 15000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Khaitan & Co, Hogan Lovells Cadwalader act on Aditya Infotech ₹1,500 crore QIP"
     },
     {
       "id": 145,
@@ -163309,7 +164868,8 @@
         "Advent International",
         "JSW Green Mobility",
         "Vobis Ventures",
-        "PwC India - PwC US joint venture"
+        "PwC India - PwC US joint venture",
+        "Romsons securing investment from Temasek subsidiary"
       ],
       "deals": [
         {
@@ -163393,6 +164953,19 @@
           ],
           "practice_areas": [
             "Corporate & Commercial"
+          ],
+          "value": null
+        },
+        {
+          "headline": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary",
+          "client": "Romsons securing investment from Temasek subsidiary",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-jsa-act-on-romsons-on-securing-investment-from-temasek-subsidiary",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ],
           "value": null
         }
@@ -166407,7 +167980,8 @@
         "Book Running Lead Managers",
         "Zota Health Care Limited",
         "BRLMs",
-        "Glass Wall Systems"
+        "Glass Wall Systems",
+        "Ekkaa Electronics"
       ],
       "deals": [
         {
@@ -166491,6 +168065,25 @@
             "currency": "INR",
             "amount": 4270000000,
             "amount_inr": 4270000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "JSA, CMS INDUSLAW act on Ekkaa Electronics ₹725 crore proposed IPO",
+          "client": "Ekkaa Electronics",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-cms-induslaw-act-on-ekkaa-electronics-725-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹725 crore",
+            "currency": "INR",
+            "amount": 7250000000,
+            "amount_inr": 7250000000,
             "approx": false
           }
         }
@@ -167346,7 +168939,7 @@
           "id": 772,
           "firm": "Lex Consult",
           "role": "Associate",
-          "deal_count": 1
+          "deal_count": 2
         }
       ],
       "firm_verification": {
@@ -167368,7 +168961,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Supply6"
+        "Supply6",
+        "ONYA Diamonds"
       ],
       "deals": [
         {
@@ -167379,6 +168973,20 @@
           "types": [
             "fundraise",
             "Series A"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": null
+        },
+        {
+          "headline": "Lex Consult advises ONYA Diamonds on pre-Series A fundraise",
+          "client": "ONYA Diamonds",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/lex-consult-advises-onya-diamonds-on-pre-series-a-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series A",
+            "fundraise"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
@@ -168940,6 +170548,7 @@
         "Series A",
         "acquisition",
         "fundraise",
+        "investment",
         "stake acquisition"
       ],
       "practice_areas": [
@@ -168958,7 +170567,8 @@
         "Sumitomo Mitsui Banking Corporation",
         "MO Alternates",
         "SMBC (Sumitomo Mitsui Banking Corporation)",
-        "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals"
+        "Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+        "Romsons securing investment from Temasek subsidiary"
       ],
       "deals": [
         {
@@ -169119,6 +170729,19 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary",
+          "client": "Romsons securing investment from Temasek subsidiary",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-jsa-act-on-romsons-on-securing-investment-from-temasek-subsidiary",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": null
         }
       ],
       "snapshot": "JSA advises TIL on rights issue and stake acquisition in Tulip Compression - Bar and Bench"
@@ -169241,7 +170864,8 @@
         "Aavishkar Capital",
         "SUGAR Cosmetics",
         "Aavishkaar Capital",
-        "GreyLabs AI"
+        "GreyLabs AI",
+        "Balwaan Krishi"
       ],
       "deals": [
         {
@@ -169311,6 +170935,26 @@
             "Private Equity & Venture Capital"
           ],
           "value": null
+        },
+        {
+          "headline": "Samisti Legal, VERTICES PARTNERS act on Balwaan Krishi ₹100 crore Series B fundraise",
+          "client": "Balwaan Krishi",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/samisti-legal-vertices-partners-act-on-balwaan-krishi-100-crore-series-b-fundraise",
+          "source": "Bar & Bench",
+          "types": [
+            "Series B",
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹100 crore",
+            "currency": "INR",
+            "amount": 1000000000,
+            "amount_inr": 1000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "VERTICES PARTNERS, Cyril Amarchand Mangaldas act on Elevate Education ₹170 crore ..."
@@ -170348,6 +171992,36 @@
         }
       ],
       "snapshot": "JSA, Khaitan act on Coforge's $2.35 billion acquisition of Encora - Bar and Bench"
+    },
+    {
+      "id": 3881,
+      "name": "Vishal Jain",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Krishna Institute of Medical Sciences"
+      ],
+      "deals": [
+        {
+          "headline": "Shardul Amarchand Mangaldas advises Krishna Institute of Medical Sciences on ₹600 crore preferential allotment of warrants",
+          "client": "Krishna Institute of Medical Sciences",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-co-advises-krishna-institute-of-medical-sciences-on-600-crore-preferential-allotment-of-warrants",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹600 crore",
+            "currency": "INR",
+            "amount": 6000000000,
+            "amount_inr": 6000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Shardul Amarchand Mangaldas advises Krishna Institute of Medical Sciences on ₹600 crore preferential..."
     },
     {
       "id": 3063,
@@ -171865,6 +173539,7 @@
       "transaction_types": [
         "acquisition",
         "fundraise",
+        "investment",
         "stake acquisition"
       ],
       "practice_areas": [
@@ -171873,7 +173548,8 @@
       ],
       "clients": [
         "ICICI Ventures",
-        "MO Alternates"
+        "MO Alternates",
+        "Romsons securing investment from Temasek subsidiary"
       ],
       "deals": [
         {
@@ -171900,6 +173576,19 @@
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
+          ],
+          "value": null
+        },
+        {
+          "headline": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary",
+          "client": "Romsons securing investment from Temasek subsidiary",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-jsa-act-on-romsons-on-securing-investment-from-temasek-subsidiary",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ],
           "value": null
         }
@@ -172349,13 +174038,16 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "investment",
         "joint venture"
       ],
       "practice_areas": [
-        "Corporate & Commercial"
+        "Corporate & Commercial",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "PwC India - PwC US joint venture"
+        "PwC India - PwC US joint venture",
+        "Romsons securing investment from Temasek subsidiary"
       ],
       "deals": [
         {
@@ -172368,6 +174060,19 @@
           ],
           "practice_areas": [
             "Corporate & Commercial"
+          ],
+          "value": null
+        },
+        {
+          "headline": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary",
+          "client": "Romsons securing investment from Temasek subsidiary",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-jsa-act-on-romsons-on-securing-investment-from-temasek-subsidiary",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
           ],
           "value": null
         }
@@ -174250,13 +175955,15 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
-        "fundraise"
+        "fundraise",
+        "investment"
       ],
       "practice_areas": [
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "ICICI Ventures"
+        "ICICI Ventures",
+        "Romsons securing investment from Temasek subsidiary"
       ],
       "deals": [
         {
@@ -174266,6 +175973,19 @@
           "source": "Bar and Bench",
           "types": [
             "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": null
+        },
+        {
+          "headline": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary",
+          "client": "Romsons securing investment from Temasek subsidiary",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-jsa-act-on-romsons-on-securing-investment-from-temasek-subsidiary",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
           ],
           "practice_areas": [
             "Private Equity & Venture Capital"
