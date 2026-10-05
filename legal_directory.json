@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 3883,
-    "firms": 135,
-    "deals": 571,
+    "people": 3911,
+    "firms": 136,
+    "deals": 581,
     "practice_areas": 6
   },
   "firms": [
@@ -81,6 +81,7 @@
     "Lks",
     "Luthra and Luthra",
     "Luthra and Luthra Law Offices India",
+    "MV Kini",
     "Mayer Brown",
     "McDermott Will & Schulte",
     "Mindspright Legal",
@@ -976,7 +977,7 @@
     },
     {
       "firm": "Cyril Amarchand Mangaldas",
-      "people_count": 603,
+      "people_count": 606,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -1038,6 +1039,7 @@
             251,
             2786,
             2112,
+            2319,
             3642,
             657,
             34,
@@ -1045,6 +1047,7 @@
             959,
             948,
             246,
+            252,
             2111,
             2320,
             3637,
@@ -1064,6 +1067,7 @@
             1691,
             2654,
             2983,
+            2660,
             254,
             2604,
             957,
@@ -1091,7 +1095,10 @@
             2106,
             901,
             2336,
+            2076,
             255,
+            248,
+            2522,
             908,
             2564,
             224,
@@ -1125,6 +1132,7 @@
             36,
             2334,
             57,
+            3899,
             55,
             2958,
             237,
@@ -1153,7 +1161,9 @@
             2981,
             60,
             2962,
+            3040,
             571,
+            3898,
             2110,
             249,
             1931,
@@ -1197,6 +1207,7 @@
             913,
             481,
             2027,
+            3891,
             811,
             824,
             2812,
@@ -1418,7 +1429,6 @@
             568,
             3249,
             2155,
-            2319,
             898,
             2987,
             576,
@@ -1434,7 +1444,6 @@
             2796,
             1714,
             2327,
-            2660,
             2524,
             441,
             567,
@@ -1463,7 +1472,6 @@
             833,
             579,
             3489,
-            2522,
             3435,
             2955,
             834,
@@ -1498,7 +1506,6 @@
             2331,
             3662,
             570,
-            3040,
             2326,
             2658,
             2663,
@@ -1764,17 +1771,33 @@
     },
     {
       "firm": "DSK Legal",
-      "people_count": 45,
+      "people_count": 48,
       "practice_groups": [
+        {
+          "area": "Mergers & Acquisitions",
+          "person_ids": [
+            936,
+            3892,
+            3056,
+            2743,
+            938,
+            3893,
+            3894,
+            3055,
+            3057,
+            3054,
+            2742,
+            937,
+            2744,
+            939
+          ]
+        },
         {
           "area": "Unclassified",
           "person_ids": [
             925,
-            936,
-            2743,
             2745,
             924,
-            938,
             929,
             731,
             935,
@@ -1782,13 +1805,9 @@
             732,
             926,
             932,
-            2742,
-            937,
             933,
             927,
-            2744,
-            931,
-            939
+            931
           ]
         },
         {
@@ -1825,15 +1844,6 @@
             3722,
             3846,
             3724
-          ]
-        },
-        {
-          "area": "Mergers & Acquisitions",
-          "person_ids": [
-            3056,
-            3055,
-            3057,
-            3054
           ]
         }
       ]
@@ -2243,13 +2253,15 @@
     },
     {
       "firm": "Hogan Lovells Cadwalader",
-      "people_count": 12,
+      "people_count": 14,
       "practice_groups": [
         {
           "area": "Capital Markets",
           "person_ids": [
             1793,
             3791,
+            3911,
+            3912,
             1791,
             3613,
             1792,
@@ -2964,7 +2976,7 @@
     },
     {
       "firm": "Khaitan & Co",
-      "people_count": 588,
+      "people_count": 590,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -3575,6 +3587,7 @@
             3474,
             1708,
             3505,
+            3897,
             2183,
             352,
             1068,
@@ -3630,6 +3643,7 @@
             3506,
             3533,
             159,
+            3910,
             3568,
             1466,
             757,
@@ -3981,6 +3995,24 @@
       "practice_groups": []
     },
     {
+      "firm": "MV Kini",
+      "people_count": 7,
+      "practice_groups": [
+        {
+          "area": "Capital Markets",
+          "person_ids": [
+            3905,
+            3903,
+            3902,
+            3906,
+            3907,
+            3901,
+            3904
+          ]
+        }
+      ]
+    },
+    {
       "firm": "Mayer Brown",
       "people_count": 0,
       "practice_groups": []
@@ -4245,8 +4277,21 @@
     },
     {
       "firm": "Rajani Associates",
-      "people_count": 18,
+      "people_count": 19,
       "practice_groups": [
+        {
+          "area": "Capital Markets",
+          "person_ids": [
+            3129,
+            3900,
+            3130,
+            2856,
+            2857,
+            3128,
+            3127,
+            3532
+          ]
+        },
         {
           "area": "Unclassified",
           "person_ids": [
@@ -4257,19 +4302,7 @@
             1056,
             3497,
             1058,
-            1059,
-            3532
-          ]
-        },
-        {
-          "area": "Capital Markets",
-          "person_ids": [
-            3129,
-            3130,
-            2856,
-            2857,
-            3128,
-            3127
+            1059
           ]
         },
         {
@@ -4511,7 +4544,7 @@
     },
     {
       "firm": "Shardul Amarchand Mangaldas & Co",
-      "people_count": 421,
+      "people_count": 427,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -4703,6 +4736,7 @@
         {
           "area": "Capital Markets",
           "person_ids": [
+            3889,
             507,
             368,
             413,
@@ -4719,7 +4753,9 @@
             2896,
             877,
             2025,
+            3886,
             2897,
+            3887,
             2702,
             2674,
             1152,
@@ -4788,9 +4824,11 @@
             493,
             217,
             2255,
+            3890,
             1009,
             1516,
             598,
+            3888,
             876,
             1489,
             1149,
@@ -4822,6 +4860,7 @@
             1484,
             2701,
             631,
+            3885,
             2021,
             2700,
             3843,
@@ -5419,7 +5458,7 @@
     },
     {
       "firm": "Touchstone Partners",
-      "people_count": 21,
+      "people_count": 23,
       "practice_groups": [
         {
           "area": "Private Equity & Venture Capital",
@@ -5433,6 +5472,7 @@
             1137,
             3690,
             1131,
+            3909,
             1772,
             3693,
             1130,
@@ -5440,6 +5480,7 @@
             3851,
             1138,
             1136,
+            3908,
             1134,
             1132
           ]
@@ -5464,7 +5505,7 @@
     },
     {
       "firm": "Trilegal",
-      "people_count": 552,
+      "people_count": 554,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -5909,12 +5950,14 @@
             2195,
             9,
             2907,
+            524,
             815,
             1176,
             514,
             2458,
             1845,
             125,
+            3896,
             1175,
             128,
             126,
@@ -5997,6 +6040,7 @@
             2837,
             516,
             2970,
+            3077,
             129,
             3806,
             2967,
@@ -6010,6 +6054,7 @@
             1017,
             414,
             972,
+            3895,
             1265,
             2686,
             518,
@@ -6120,7 +6165,6 @@
             3078,
             2408,
             2151,
-            3077,
             1823,
             870,
             1816,
@@ -6768,6 +6812,56 @@
       "snapshot": "Trilegal advises Iswarya Health on securing ₹355 crore investment from OrbiMed"
     },
     {
+      "id": 3889,
+      "name": "Aakash Rao",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Elevate Campuses"
+      ],
+      "deals": [
+        {
+          "headline": "Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO",
+          "client": "Elevate Campuses",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-cyril-amarchand-mangaldas-act-on-elevate-campuses-2100-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹2,100 crore",
+            "currency": "INR",
+            "amount": 21000000000,
+            "amount_inr": 21000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO",
+      "same_name_elsewhere": [
+        {
+          "id": 1854,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 1854,
       "name": "Aakash Rao",
       "firm": "Cyril Amarchand Mangaldas",
@@ -6799,7 +6893,19 @@
           "value": null
         }
       ],
-      "snapshot": "Cyril Amarchand Mangaldas, S&R Associates, Hogan Lovells Cadwalader act on Lohia ..."
+      "snapshot": "Cyril Amarchand Mangaldas, S&R Associates, Hogan Lovells Cadwalader act on Lohia ...",
+      "same_name_elsewhere": [
+        {
+          "id": 3889,
+          "firm": "Shardul Amarchand Mangaldas & Co",
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1840,
@@ -10134,7 +10240,8 @@
       ],
       "clients": [
         "Lohia Corp",
-        "Dhoot Transmission"
+        "Dhoot Transmission",
+        "Elevate Campuses"
       ],
       "deals": [
         {
@@ -10168,6 +10275,25 @@
             "currency": "INR",
             "amount": 30660000000,
             "amount_inr": 30660000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO",
+          "client": "Elevate Campuses",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-cyril-amarchand-mangaldas-act-on-elevate-campuses-2100-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹2,100 crore",
+            "currency": "INR",
+            "amount": 21000000000,
+            "amount_inr": 21000000000,
             "approx": false
           }
         }
@@ -11403,10 +11529,16 @@
       "firm": "DSK Legal",
       "role": "Partner",
       "role_bucket": "Partner",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "TiL"
+        "TiL",
+        "KRS Corporation"
       ],
       "deals": [
         {
@@ -11416,6 +11548,20 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "DSK Legal advises KRS Corporation on majority stake acquisition in Coldrush Logistics",
+          "client": "KRS Corporation",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/dsk-legal-advises-krs-corporation-on-majority-stake-acquisition-in-coldrush-logistics",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
           "value": null
         }
       ],
@@ -14593,7 +14739,69 @@
           "value": null
         }
       ],
-      "snapshot": "Cyril Amarchand Mangaldas, AZB & Partners, Hogan Lovells act on Sterlite Technologies ..."
+      "snapshot": "Cyril Amarchand Mangaldas, AZB & Partners, Hogan Lovells act on Sterlite Technologies ...",
+      "same_name_elsewhere": [
+        {
+          "id": 3911,
+          "firm": "Hogan Lovells Cadwalader",
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
+      "id": 3911,
+      "name": "Aditya Rajput",
+      "firm": "Hogan Lovells Cadwalader",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Anmol"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Khaitan & Co, Hogan Lovells Cadwalader act on Anmol ₹1,800 crore proposed IPO",
+          "client": "Anmol",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-anmol-1800-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,800 crore",
+            "currency": "INR",
+            "amount": 18000000000,
+            "amount_inr": 18000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Trilegal, Khaitan & Co, Hogan Lovells Cadwalader act on Anmol ₹1,800 crore proposed IPO",
+      "same_name_elsewhere": [
+        {
+          "id": 919,
+          "firm": "Hogan Lovells",
+          "role": "Senior Associate",
+          "deal_count": 4
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 2795,
@@ -15539,7 +15747,8 @@
         "ICICI Prudential AMC",
         "Swiggy",
         "LEAP India",
-        "Atomberg"
+        "Atomberg",
+        "Morgan Stanley"
       ],
       "deals": [
         {
@@ -15655,6 +15864,21 @@
             "amount": 4500000000,
             "amount_inr": 4500000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Morgan Stanley on sale of Lenskart shares by ADIA",
+          "client": "Morgan Stanley",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-morgan-stanley-on-sale-of-lenskart-shares-by-adia",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹2,390.5 crore",
+            "currency": "INR",
+            "amount": 23905000000,
+            "amount_inr": 23905000000,
+            "approx": false
           }
         }
       ],
@@ -16940,6 +17164,12 @@
           "firm": "Hogan Lovells",
           "role": "Senior Associate",
           "deal_count": 1
+        },
+        {
+          "id": 3912,
+          "firm": "Hogan Lovells Cadwalader",
+          "role": "Senior Associate",
+          "deal_count": 1
         }
       ],
       "firm_verification": {
@@ -16985,6 +17215,69 @@
           "firm": "Trilegal",
           "role": "Counsel",
           "deal_count": 4
+        },
+        {
+          "id": 3912,
+          "firm": "Hogan Lovells Cadwalader",
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "SAME_PERSON_MOVED",
+        "current_firm": "Hogan Lovells",
+        "evidence": "LinkedIn: single Capital Markets lawyer, currently Senior Associate at Hogan Lovells (Dubai), with prior Trilegal experience."
+      }
+    },
+    {
+      "id": 3912,
+      "name": "Ajo Jomy",
+      "firm": "Hogan Lovells Cadwalader",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Anmol"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Khaitan & Co, Hogan Lovells Cadwalader act on Anmol ₹1,800 crore proposed IPO",
+          "client": "Anmol",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-anmol-1800-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,800 crore",
+            "currency": "INR",
+            "amount": 18000000000,
+            "amount_inr": 18000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Trilegal, Khaitan & Co, Hogan Lovells Cadwalader act on Anmol ₹1,800 crore proposed IPO",
+      "same_name_elsewhere": [
+        {
+          "id": 2035,
+          "firm": "Trilegal",
+          "role": "Counsel",
+          "deal_count": 4
+        },
+        {
+          "id": 918,
+          "firm": "Hogan Lovells",
+          "role": "Senior Associate",
+          "deal_count": 1
         }
       ],
       "firm_verification": {
@@ -17691,6 +17984,44 @@
         }
       ],
       "snapshot": "SAM acts on Tractor Junction ₹200 crore fundraise - Bar and Bench"
+    },
+    {
+      "id": 3891,
+      "name": "Akhil Sreenadhu",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Elevate Campuses"
+      ],
+      "deals": [
+        {
+          "headline": "Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO",
+          "client": "Elevate Campuses",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-cyril-amarchand-mangaldas-act-on-elevate-campuses-2100-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹2,100 crore",
+            "currency": "INR",
+            "amount": 21000000000,
+            "amount_inr": 21000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO"
     },
     {
       "id": 3358,
@@ -22899,6 +23230,40 @@
       "snapshot": "Trilegal acts on Kimbal $22 million Series B fundraise - Bar and Bench"
     },
     {
+      "id": 3892,
+      "name": "Anand Desai",
+      "firm": "DSK Legal",
+      "role": "Managing Partner",
+      "role_bucket": "Managing Partner",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "KRS Corporation"
+      ],
+      "deals": [
+        {
+          "headline": "DSK Legal advises KRS Corporation on majority stake acquisition in Coldrush Logistics",
+          "client": "KRS Corporation",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/dsk-legal-advises-krs-corporation-on-majority-stake-acquisition-in-coldrush-logistics",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "DSK Legal advises KRS Corporation on majority stake acquisition in Coldrush Logistics"
+    },
+    {
       "id": 2986,
       "name": "Anand Deshpande",
       "firm": "Cyril Amarchand Mangaldas",
@@ -23280,7 +23645,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Anmol"
       ],
       "deals": [
         {
@@ -23295,6 +23661,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co, Hogan Lovells Cadwalader act on Anmol ₹1,800 crore proposed IPO",
+          "client": "Anmol",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-anmol-1800-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,800 crore",
+            "currency": "INR",
+            "amount": 18000000000,
+            "amount_inr": 18000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM, SAM, Trilegal act on Amagi Media Labs ₹1,788.62 crore IPO - Bar and Bench"
@@ -25761,7 +26146,8 @@
       ],
       "clients": [
         "Placement Agents",
-        "Manipal Hospitals"
+        "Manipal Hospitals",
+        "Elevate Campuses"
       ],
       "deals": [
         {
@@ -25789,6 +26175,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO",
+          "client": "Elevate Campuses",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-cyril-amarchand-mangaldas-act-on-elevate-campuses-2100-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹2,100 crore",
+            "currency": "INR",
+            "amount": 21000000000,
+            "amount_inr": 21000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "SAM, CAM act on Poonawalla Fincorp on ₹2,500 crore QIP - Bar and Bench"
@@ -26791,7 +27196,7 @@
       "id": 229,
       "name": "Ankita Ray",
       "firm": "Cyril Amarchand Mangaldas",
-      "role": "Partner, Employment Law",
+      "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
         "acquisition"
@@ -26800,7 +27205,8 @@
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Kotak Mahindra Bank"
+        "Kotak Mahindra Bank",
+        "Cerberus Capital"
       ],
       "deals": [
         {
@@ -26815,6 +27221,25 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Cerberus Capital on Indian legal aspects of £1.1 billion acquisition of Goodwin",
+          "client": "Cerberus Capital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-cerberus-capital-on-indian-legal-aspects-of-11-billion-acquisition-of-goodwin",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": {
+            "raw": "£1.1 billion",
+            "currency": "GBP",
+            "amount": 1100000000,
+            "amount_inr": 123200000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas advises Kotak Mahindra Bank on acquisition of Private ..."
@@ -28238,6 +28663,44 @@
       "snapshot": "Khaitan, Shardul Amarchand Mangaldas act on Bajaj Electricals' ₹168 crore acquisition of ..."
     },
     {
+      "id": 3886,
+      "name": "Anshika Tyagi",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Elevate Campuses"
+      ],
+      "deals": [
+        {
+          "headline": "Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO",
+          "client": "Elevate Campuses",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-cyril-amarchand-mangaldas-act-on-elevate-campuses-2100-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹2,100 crore",
+            "currency": "INR",
+            "amount": 21000000000,
+            "amount_inr": 21000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO"
+    },
+    {
       "id": 1563,
       "name": "Anshu Bansal",
       "firm": "JSA Advocates & Solicitors",
@@ -29507,6 +29970,44 @@
         }
       ],
       "snapshot": "Trilegal advises Carlyle on ₹2,100 crore stake acquisition in Edelweiss's Nido Home Finance"
+    },
+    {
+      "id": 3887,
+      "name": "Anuj Bhasme",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Elevate Campuses"
+      ],
+      "deals": [
+        {
+          "headline": "Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO",
+          "client": "Elevate Campuses",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-cyril-amarchand-mangaldas-act-on-elevate-campuses-2100-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹2,100 crore",
+            "currency": "INR",
+            "amount": 21000000000,
+            "amount_inr": 21000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO"
     },
     {
       "id": 3478,
@@ -30986,7 +31487,69 @@
           }
         }
       ],
-      "snapshot": "Legacy Law Offices acts on Vardaan Biotech ₹90 crore+ IPO"
+      "snapshot": "Legacy Law Offices acts on Vardaan Biotech ₹90 crore+ IPO",
+      "same_name_elsewhere": [
+        {
+          "id": 3905,
+          "firm": "MV Kini",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
+      "id": 3905,
+      "name": "Anushka Indurkar",
+      "firm": "MV Kini",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Smart Roof Solar IPO"
+      ],
+      "deals": [
+        {
+          "headline": "MV Kini, Legacy Law Offices acts on Smart Roof Solar IPO",
+          "client": "Smart Roof Solar IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/mv-kini-legacy-law-offices-acts-on-smart-roof-solar-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹43 crore+",
+            "currency": "INR",
+            "amount": 430000000,
+            "amount_inr": 430000000,
+            "approx": true
+          }
+        }
+      ],
+      "snapshot": "MV Kini, Legacy Law Offices acts on Smart Roof Solar IPO",
+      "same_name_elsewhere": [
+        {
+          "id": 3786,
+          "firm": "Legacy Law Offices",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1024,
@@ -31348,7 +31911,8 @@
       ],
       "clients": [
         "Book Running Lead Managers",
-        "JM Financial Limited and Motilal Oswal Investment Advisors Limited"
+        "JM Financial Limited and Motilal Oswal Investment Advisors Limited",
+        "Anmol"
       ],
       "deals": [
         {
@@ -31389,6 +31953,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co, Hogan Lovells Cadwalader act on Anmol ₹1,800 crore proposed IPO",
+          "client": "Anmol",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-anmol-1800-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,800 crore",
+            "currency": "INR",
+            "amount": 18000000000,
+            "amount_inr": 18000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "NSE IPO: Which law firms are advising the stock exchange on its public listing?"
@@ -31539,7 +32122,8 @@
       "clients": [
         "Horizon Industrial Parks",
         "Nexus Select Trust's",
-        "Pernia's Pop Up Shop"
+        "Pernia's Pop Up Shop",
+        "Varmora Granito"
       ],
       "deals": [
         {
@@ -31596,6 +32180,25 @@
             "currency": "INR",
             "amount": 6800000000,
             "amount_inr": 6800000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co act on Varmora Granito ₹708 crore IPO",
+          "client": "Varmora Granito",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-varmora-granito-708-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹708 crore",
+            "currency": "INR",
+            "amount": 7080000000,
+            "amount_inr": 7080000000,
             "approx": false
           }
         }
@@ -32290,10 +32893,16 @@
       "firm": "DSK Legal",
       "role": "Associate Partner",
       "role_bucket": "Associate Partner",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "SatSure Analytics India Private Limited"
+        "SatSure Analytics India Private Limited",
+        "KRS Corporation"
       ],
       "deals": [
         {
@@ -32303,6 +32912,20 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "DSK Legal advises KRS Corporation on majority stake acquisition in Coldrush Logistics",
+          "client": "KRS Corporation",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/dsk-legal-advises-krs-corporation-on-majority-stake-acquisition-in-coldrush-logistics",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
           "value": null
         }
       ],
@@ -32614,14 +33237,17 @@
       "role": "Counsel",
       "role_bucket": "Counsel",
       "transaction_types": [
+        "IPO",
         "acquisition"
       ],
       "practice_areas": [
+        "Capital Markets",
         "Mergers & Acquisitions"
       ],
       "clients": [
         "Mittal Family",
-        "Sona Comstar"
+        "Sona Comstar",
+        "Varmora Granito"
       ],
       "deals": [
         {
@@ -32645,6 +33271,25 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co act on Varmora Granito ₹708 crore IPO",
+          "client": "Varmora Granito",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-varmora-granito-708-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹708 crore",
+            "currency": "INR",
+            "amount": 7080000000,
+            "amount_inr": 7080000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal, CAM, Latham, AZB, Equilex, Macfarlanes advise on Mittal-Poonawalla consortium ..."
@@ -32693,7 +33338,7 @@
           "id": 807,
           "firm": "Cyril Amarchand Mangaldas",
           "role": "Associate",
-          "deal_count": 6
+          "deal_count": 7
         }
       ],
       "firm_verification": {
@@ -32720,7 +33365,8 @@
         "Adani Enterprises Limited",
         "NDTV",
         "Adani Energy Solutions",
-        "LEAP India"
+        "LEAP India",
+        "Morgan Stanley"
       ],
       "deals": [
         {
@@ -32794,6 +33440,21 @@
             "currency": "INR",
             "amount": 24800000000,
             "amount_inr": 24800000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Morgan Stanley on sale of Lenskart shares by ADIA",
+          "client": "Morgan Stanley",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-morgan-stanley-on-sale-of-lenskart-shares-by-adia",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹2,390.5 crore",
+            "currency": "INR",
+            "amount": 23905000000,
+            "amount_inr": 23905000000,
             "approx": false
           }
         }
@@ -34334,7 +34995,8 @@
         "Placement Agents",
         "Adani Enterprises Limited and lead managers",
         "Book Running Lead Managers",
-        "Pranav Constructions'"
+        "Pranav Constructions'",
+        "Varmora Granito"
       ],
       "deals": [
         {
@@ -34386,6 +35048,25 @@
             "amount_inr": 3510000000,
             "approx": false
           }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co act on Varmora Granito ₹708 crore IPO",
+          "client": "Varmora Granito",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-varmora-granito-708-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹708 crore",
+            "currency": "INR",
+            "amount": 7080000000,
+            "amount_inr": 7080000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Adani Enterprises ... - Bar and Bench"
@@ -34404,7 +35085,8 @@
       ],
       "clients": [
         "Lohia Corp",
-        "Park Hospitals"
+        "Park Hospitals",
+        "Elevate Campuses"
       ],
       "deals": [
         {
@@ -34434,6 +35116,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO",
+          "client": "Elevate Campuses",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-cyril-amarchand-mangaldas-act-on-elevate-campuses-2100-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹2,100 crore",
+            "currency": "INR",
+            "amount": 21000000000,
+            "amount_inr": 21000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas, S&R Associates, Hogan Lovells Cadwalader act on Lohia ..."
@@ -36132,7 +36833,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Dhoot Transmission"
+        "Dhoot Transmission",
+        "Varmora Granito"
       ],
       "deals": [
         {
@@ -36151,6 +36853,25 @@
             "currency": "INR",
             "amount": 30660000000,
             "amount_inr": 30660000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co act on Varmora Granito ₹708 crore IPO",
+          "client": "Varmora Granito",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-varmora-granito-708-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹708 crore",
+            "currency": "INR",
+            "amount": 7080000000,
+            "amount_inr": 7080000000,
             "approx": false
           }
         }
@@ -36491,7 +37212,8 @@
       "clients": [
         "TPG",
         "Adar Poonawalla",
-        "Centella Mauritius Holdings"
+        "Centella Mauritius Holdings",
+        "Cerberus Capital"
       ],
       "deals": [
         {
@@ -36545,6 +37267,25 @@
             "currency": "INR",
             "amount": 47000000000,
             "amount_inr": 47000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Cerberus Capital on Indian legal aspects of £1.1 billion acquisition of Goodwin",
+          "client": "Cerberus Capital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-cerberus-capital-on-indian-legal-aspects-of-11-billion-acquisition-of-goodwin",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": {
+            "raw": "£1.1 billion",
+            "currency": "GBP",
+            "amount": 1100000000,
+            "amount_inr": 123200000000,
             "approx": false
           }
         }
@@ -38328,7 +39069,8 @@
         "APG",
         "Both parties",
         "True North",
-        "BNP Paribas Cardif acquiring stake in IndiaFirst Life Insurance"
+        "BNP Paribas Cardif acquiring stake in IndiaFirst Life Insurance",
+        "Cerberus Capital"
       ],
       "deals": [
         {
@@ -38471,6 +39213,25 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Cerberus Capital on Indian legal aspects of £1.1 billion acquisition of Goodwin",
+          "client": "Cerberus Capital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-cerberus-capital-on-indian-legal-aspects-of-11-billion-acquisition-of-goodwin",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": {
+            "raw": "£1.1 billion",
+            "currency": "GBP",
+            "amount": 1100000000,
+            "amount_inr": 123200000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas advises as Hyundai and TVS join hands to develop electric 3 ..."
@@ -38638,7 +39399,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Orkla India, Orkla ASA, and Orkla Asia Pacific Pte. Ltd."
+        "Orkla India, Orkla ASA, and Orkla Asia Pacific Pte. Ltd.",
+        "Elevate Campuses"
       ],
       "deals": [
         {
@@ -38653,6 +39415,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO",
+          "client": "Elevate Campuses",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-cyril-amarchand-mangaldas-act-on-elevate-campuses-2100-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹2,100 crore",
+            "currency": "INR",
+            "amount": 21000000000,
+            "amount_inr": 21000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "SAM, S&R Associates act on Orkla India ₹1667 crore IPO - Bar and Bench"
@@ -41355,6 +42136,44 @@
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas, S&R Associates, Hogan Lovells Cadwalader act on Lohia ..."
+    },
+    {
+      "id": 3896,
+      "name": "Bhakti Pathak",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Varmora Granito"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Khaitan & Co act on Varmora Granito ₹708 crore IPO",
+          "client": "Varmora Granito",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-varmora-granito-708-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹708 crore",
+            "currency": "INR",
+            "amount": 7080000000,
+            "amount_inr": 7080000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Trilegal, Khaitan & Co act on Varmora Granito ₹708 crore IPO"
     },
     {
       "id": 45,
@@ -45477,7 +46296,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Orkla India, Orkla ASA, and Orkla Asia Pacific Pte. Ltd."
+        "Orkla India, Orkla ASA, and Orkla Asia Pacific Pte. Ltd.",
+        "Elevate Campuses"
       ],
       "deals": [
         {
@@ -45492,6 +46312,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO",
+          "client": "Elevate Campuses",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-cyril-amarchand-mangaldas-act-on-elevate-campuses-2100-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹2,100 crore",
+            "currency": "INR",
+            "amount": 21000000000,
+            "amount_inr": 21000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "SAM, S&R Associates act on Orkla India ₹1667 crore IPO - Bar and Bench"
@@ -49665,10 +50504,16 @@
       "firm": "DSK Legal",
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "TiL"
+        "TiL",
+        "KRS Corporation"
       ],
       "deals": [
         {
@@ -49678,6 +50523,20 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "DSK Legal advises KRS Corporation on majority stake acquisition in Coldrush Logistics",
+          "client": "KRS Corporation",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/dsk-legal-advises-krs-corporation-on-majority-stake-acquisition-in-coldrush-logistics",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
           "value": null
         }
       ],
@@ -56363,6 +57222,44 @@
       "snapshot": "Cyril Amarchand Mangaldas acts on Ambuja Cements – Orient Cement merger"
     },
     {
+      "id": 3897,
+      "name": "Gauravi Talwar",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Varmora Granito"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Khaitan & Co act on Varmora Granito ₹708 crore IPO",
+          "client": "Varmora Granito",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-varmora-granito-708-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹708 crore",
+            "currency": "INR",
+            "amount": 7080000000,
+            "amount_inr": 7080000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Trilegal, Khaitan & Co act on Varmora Granito ₹708 crore IPO"
+    },
+    {
       "id": 492,
       "name": "Gauri Chabbra",
       "firm": "Trilegal",
@@ -58190,7 +59087,8 @@
         "Sterlite Technologies Limited",
         "Goldman Sachs (India) Finance Private Limited",
         "JSW Energy",
-        "Swiggy"
+        "Swiggy",
+        "Morgan Stanley"
       ],
       "deals": [
         {
@@ -58249,6 +59147,21 @@
             "currency": "INR",
             "amount": 8520000000,
             "amount_inr": 8520000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Morgan Stanley on sale of Lenskart shares by ADIA",
+          "client": "Morgan Stanley",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-morgan-stanley-on-sale-of-lenskart-shares-by-adia",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹2,390.5 crore",
+            "currency": "INR",
+            "amount": 23905000000,
+            "amount_inr": 23905000000,
             "approx": false
           }
         }
@@ -60904,10 +61817,15 @@
       "firm": "Cyril Amarchand Mangaldas",
       "role": "Partner",
       "role_bucket": "Partner",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "JP Morgan"
+        "JP Morgan",
+        "Cerberus Capital"
       ],
       "deals": [
         {
@@ -60918,6 +61836,25 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Cerberus Capital on Indian legal aspects of £1.1 billion acquisition of Goodwin",
+          "client": "Cerberus Capital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-cerberus-capital-on-indian-legal-aspects-of-11-billion-acquisition-of-goodwin",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": {
+            "raw": "£1.1 billion",
+            "currency": "GBP",
+            "amount": 1100000000,
+            "amount_inr": 123200000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM advises JP Morgan on setting up of Asia's largest GCC in Mumbai - Bar and Bench"
@@ -64390,7 +65327,8 @@
       "clients": [
         "TPG",
         "Adar Poonawalla",
-        "Centella Mauritius Holdings"
+        "Centella Mauritius Holdings",
+        "Cerberus Capital"
       ],
       "deals": [
         {
@@ -64444,6 +65382,25 @@
             "currency": "INR",
             "amount": 47000000000,
             "amount_inr": 47000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Cerberus Capital on Indian legal aspects of £1.1 billion acquisition of Goodwin",
+          "client": "Cerberus Capital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-cerberus-capital-on-indian-legal-aspects-of-11-billion-acquisition-of-goodwin",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": {
+            "raw": "£1.1 billion",
+            "currency": "GBP",
+            "amount": 1100000000,
+            "amount_inr": 123200000000,
             "approx": false
           }
         }
@@ -64815,14 +65772,17 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "acquisition",
         "fundraise",
         "investment"
       ],
       "practice_areas": [
+        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "TPG"
+        "TPG",
+        "Cerberus Capital"
       ],
       "deals": [
         {
@@ -64850,6 +65810,25 @@
             "Private Equity & Venture Capital"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Cerberus Capital on Indian legal aspects of £1.1 billion acquisition of Goodwin",
+          "client": "Cerberus Capital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-cerberus-capital-on-indian-legal-aspects-of-11-billion-acquisition-of-goodwin",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": {
+            "raw": "£1.1 billion",
+            "currency": "GBP",
+            "amount": 1100000000,
+            "amount_inr": 123200000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "TPG-led consortium to acquire Aseem Infra Finance; CAM, Linklaters, Trilegal, SAM advise"
@@ -65037,6 +66016,40 @@
         }
       ],
       "snapshot": "CAM, S&R, Hogan Lovells act on Sudeep Pharma ₹895 crore IPO - BarandBench"
+    },
+    {
+      "id": 3893,
+      "name": "Ishika Agarwal",
+      "firm": "DSK Legal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "KRS Corporation"
+      ],
+      "deals": [
+        {
+          "headline": "DSK Legal advises KRS Corporation on majority stake acquisition in Coldrush Logistics",
+          "client": "KRS Corporation",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/dsk-legal-advises-krs-corporation-on-majority-stake-acquisition-in-coldrush-logistics",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "DSK Legal advises KRS Corporation on majority stake acquisition in Coldrush Logistics"
     },
     {
       "id": 1344,
@@ -67739,7 +68752,8 @@
         "Lead Managers",
         "Duroflex",
         "Book Running Lead Managers",
-        "Karamtara Engineering"
+        "Karamtara Engineering",
+        "Anmol"
       ],
       "deals": [
         {
@@ -67823,6 +68837,25 @@
             "currency": "INR",
             "amount": 8750000000,
             "amount_inr": 8750000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co, Hogan Lovells Cadwalader act on Anmol ₹1,800 crore proposed IPO",
+          "client": "Anmol",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-anmol-1800-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,800 crore",
+            "currency": "INR",
+            "amount": 18000000000,
+            "amount_inr": 18000000000,
             "approx": false
           }
         }
@@ -70512,7 +71545,8 @@
       "clients": [
         "Lead Managers",
         "Dhoot Transmission",
-        "Horizon Industrial Parks"
+        "Horizon Industrial Parks",
+        "Varmora Granito"
       ],
       "deals": [
         {
@@ -70563,6 +71597,25 @@
             "currency": "INR",
             "amount": 26000000000,
             "amount_inr": 26000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co act on Varmora Granito ₹708 crore IPO",
+          "client": "Varmora Granito",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-varmora-granito-708-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹708 crore",
+            "currency": "INR",
+            "amount": 7080000000,
+            "amount_inr": 7080000000,
             "approx": false
           }
         }
@@ -76808,7 +77861,8 @@
       "clients": [
         "Book Running Lead Managers",
         "Shadowfax",
-        "Amagi"
+        "Amagi",
+        "Elevate Campuses"
       ],
       "deals": [
         {
@@ -76849,6 +77903,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO",
+          "client": "Elevate Campuses",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-cyril-amarchand-mangaldas-act-on-elevate-campuses-2100-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹2,100 crore",
+            "currency": "INR",
+            "amount": 21000000000,
+            "amount_inr": 21000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "SAM, CAM, Latham act on Groww ₹6,632 crore IPO - Bar and Bench"
@@ -79676,7 +80749,8 @@
       "clients": [
         "Brookfield",
         "Turtlemint & investor selling shareholders",
-        "Bankers"
+        "Bankers",
+        "Elevate Campuses"
       ],
       "deals": [
         {
@@ -79717,6 +80791,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO",
+          "client": "Elevate Campuses",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-cyril-amarchand-mangaldas-act-on-elevate-campuses-2100-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹2,100 crore",
+            "currency": "INR",
+            "amount": 21000000000,
+            "amount_inr": 21000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM, Khaitan, SAM act on Clean Max Enviro Energy IPO"
@@ -80791,13 +81884,18 @@
       "id": 2660,
       "name": "Kunal Savani",
       "firm": "Cyril Amarchand Mangaldas",
-      "role": "Partner (Tax)",
+      "role": "Partner",
       "role_bucket": "Partner",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
         "JM Financial Products Limited and Vodafone Idea Telecom",
-        "Zenrock Chemicals and EAAA India Alternatives"
+        "Zenrock Chemicals and EAAA India Alternatives",
+        "Cerberus Capital"
       ],
       "deals": [
         {
@@ -80817,6 +81915,25 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Cerberus Capital on Indian legal aspects of £1.1 billion acquisition of Goodwin",
+          "client": "Cerberus Capital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-cerberus-capital-on-indian-legal-aspects-of-11-billion-acquisition-of-goodwin",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": {
+            "raw": "£1.1 billion",
+            "currency": "GBP",
+            "amount": 1100000000,
+            "amount_inr": 123200000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM acts on Vodafone Idea ₹3,300 crore NCD issuance - Bar and Bench"
@@ -81622,7 +82739,8 @@
         "Zetwerk",
         "Duroflex",
         "Book Running Lead Managers",
-        "Piramal Finance"
+        "Piramal Finance",
+        "Anmol"
       ],
       "deals": [
         {
@@ -81676,6 +82794,25 @@
             "currency": "INR",
             "amount": 21000000000,
             "amount_inr": 21000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co, Hogan Lovells Cadwalader act on Anmol ₹1,800 crore proposed IPO",
+          "client": "Anmol",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-anmol-1800-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,800 crore",
+            "currency": "INR",
+            "amount": 18000000000,
+            "amount_inr": 18000000000,
             "approx": false
           }
         }
@@ -84101,6 +85238,38 @@
       "snapshot": "Trilegal, DSK Legal act on Laser Power & Infra ₹742 crore IPO - Bar and Bench"
     },
     {
+      "id": 3909,
+      "name": "Mahak Goyal",
+      "firm": "Touchstone Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Membrane Group"
+      ],
+      "deals": [
+        {
+          "headline": "Touchstone Partners advises Membrane Group on equity fundraise from Kurita Water Industries",
+          "client": "Membrane Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/touchstone-partners-advises-membrane-group-on-equity-fundraise-from-kurita-water-industries",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Touchstone Partners advises Membrane Group on equity fundraise from Kurita Water Industries"
+    },
+    {
       "id": 2147,
       "name": "Mahathi U",
       "firm": "Trilegal",
@@ -84771,7 +85940,8 @@
         "India’s Largest OFS of",
         "Motilal Oswal Group",
         "Gujarat Themis Biosyn",
-        "Pranav Constructions'"
+        "Pranav Constructions'",
+        "Varmora Granito"
       ],
       "deals": [
         {
@@ -84983,6 +86153,25 @@
             "currency": "INR",
             "amount": 3510000000,
             "amount_inr": 3510000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co act on Varmora Granito ₹708 crore IPO",
+          "client": "Varmora Granito",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-varmora-granito-708-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹708 crore",
+            "currency": "INR",
+            "amount": 7080000000,
+            "amount_inr": 7080000000,
             "approx": false
           }
         }
@@ -85830,7 +87019,8 @@
         "ICICI Prudential AMC",
         "Park Hospitals",
         "Dhoot Transmission",
-        "Pernia's Pop Up Shop"
+        "Pernia's Pop Up Shop",
+        "Elevate Campuses"
       ],
       "deals": [
         {
@@ -85985,6 +87175,25 @@
             "currency": "INR",
             "amount": 6800000000,
             "amount_inr": 6800000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO",
+          "client": "Elevate Campuses",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-cyril-amarchand-mangaldas-act-on-elevate-campuses-2100-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹2,100 crore",
+            "currency": "INR",
+            "amount": 21000000000,
+            "amount_inr": 21000000000,
             "approx": false
           }
         }
@@ -94203,7 +95412,8 @@
         "Power Finance Corporation and lead managers",
         "Book Running Lead Managers",
         "Gaja Capital",
-        "Kanohar Electricals"
+        "Kanohar Electricals",
+        "Varmora Granito"
       ],
       "deals": [
         {
@@ -94302,6 +95512,25 @@
             "currency": "INR",
             "amount": 10550000000,
             "amount_inr": 10550000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co act on Varmora Granito ₹708 crore IPO",
+          "client": "Varmora Granito",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-varmora-granito-708-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹708 crore",
+            "currency": "INR",
+            "amount": 7080000000,
+            "amount_inr": 7080000000,
             "approx": false
           }
         }
@@ -95044,7 +96273,69 @@
           }
         }
       ],
-      "snapshot": "Legacy Law Offices acts on Apar Advertisers IPO"
+      "snapshot": "Legacy Law Offices acts on Apar Advertisers IPO",
+      "same_name_elsewhere": [
+        {
+          "id": 3903,
+          "firm": "MV Kini",
+          "role": "Counsel",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
+      "id": 3903,
+      "name": "Naman Anand",
+      "firm": "MV Kini",
+      "role": "Counsel",
+      "role_bucket": "Counsel",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Smart Roof Solar IPO"
+      ],
+      "deals": [
+        {
+          "headline": "MV Kini, Legacy Law Offices acts on Smart Roof Solar IPO",
+          "client": "Smart Roof Solar IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/mv-kini-legacy-law-offices-acts-on-smart-roof-solar-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹43 crore+",
+            "currency": "INR",
+            "amount": 430000000,
+            "amount_inr": 430000000,
+            "approx": true
+          }
+        }
+      ],
+      "snapshot": "MV Kini, Legacy Law Offices acts on Smart Roof Solar IPO",
+      "same_name_elsewhere": [
+        {
+          "id": 3047,
+          "firm": "Legacy Law Offices",
+          "role": "Counsel",
+          "deal_count": 6
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 3793,
@@ -95899,13 +97190,15 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "IPO",
         "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
       ],
       "clients": [
-        "Jefferies India Private Limited"
+        "Jefferies India Private Limited",
+        "Varmora Granito"
       ],
       "deals": [
         {
@@ -95920,6 +97213,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co act on Varmora Granito ₹708 crore IPO",
+          "client": "Varmora Granito",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-varmora-granito-708-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹708 crore",
+            "currency": "INR",
+            "amount": 7080000000,
+            "amount_inr": 7080000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas, Trilegal, Sidley Austin act on Belrise Industries ₹1,700 crore QIP"
@@ -98286,7 +99598,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Horizon Industrial Parks"
+        "Horizon Industrial Parks",
+        "Varmora Granito"
       ],
       "deals": [
         {
@@ -98305,6 +99618,25 @@
             "currency": "INR",
             "amount": 26000000000,
             "amount_inr": 26000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co act on Varmora Granito ₹708 crore IPO",
+          "client": "Varmora Granito",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-varmora-granito-708-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹708 crore",
+            "currency": "INR",
+            "amount": 7080000000,
+            "amount_inr": 7080000000,
             "approx": false
           }
         }
@@ -99652,7 +100984,8 @@
         "Aequs",
         "Cube Highways Trust",
         "Dhoot Transmission",
-        "Bharat Forge"
+        "Bharat Forge",
+        "Elevate Campuses"
       ],
       "deals": [
         {
@@ -99913,6 +101246,25 @@
             "currency": "INR",
             "amount": 20000000000,
             "amount_inr": 20000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO",
+          "client": "Elevate Campuses",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-cyril-amarchand-mangaldas-act-on-elevate-campuses-2100-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹2,100 crore",
+            "currency": "INR",
+            "amount": 21000000000,
+            "amount_inr": 21000000000,
             "approx": false
           }
         }
@@ -106706,7 +108058,8 @@
       "clients": [
         "Atlanta Electricals",
         "IIFL Securities Limited and Motilal Oswal Investment Advisors Limited",
-        "Pranav Constructions'"
+        "Pranav Constructions'",
+        "Varmora Granito"
       ],
       "deals": [
         {
@@ -106751,6 +108104,25 @@
             "currency": "INR",
             "amount": 3510000000,
             "amount_inr": 3510000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co act on Varmora Granito ₹708 crore IPO",
+          "client": "Varmora Granito",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-varmora-granito-708-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹708 crore",
+            "currency": "INR",
+            "amount": 7080000000,
+            "amount_inr": 7080000000,
             "approx": false
           }
         }
@@ -106933,7 +108305,8 @@
       ],
       "clients": [
         "Capillary Technologies India and Promoter selling shareholder",
-        "Nobel Hygiene"
+        "Nobel Hygiene",
+        "Anmol"
       ],
       "deals": [
         {
@@ -106966,6 +108339,25 @@
             "amount": 1500000000,
             "amount_inr": 1500000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co, Hogan Lovells Cadwalader act on Anmol ₹1,800 crore proposed IPO",
+          "client": "Anmol",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-anmol-1800-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,800 crore",
+            "currency": "INR",
+            "amount": 18000000000,
+            "amount_inr": 18000000000,
+            "approx": false
           }
         }
       ],
@@ -108474,16 +109866,19 @@
       "id": 2076,
       "name": "Pranav Bajaj",
       "firm": "Cyril Amarchand Mangaldas",
-      "role": "Associate",
-      "role_bucket": "Associate",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
       "transaction_types": [
+        "acquisition",
         "investment"
       ],
       "practice_areas": [
+        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "TPG"
+        "TPG",
+        "Cerberus Capital"
       ],
       "deals": [
         {
@@ -108498,6 +109893,25 @@
             "Private Equity & Venture Capital"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Cerberus Capital on Indian legal aspects of £1.1 billion acquisition of Goodwin",
+          "client": "Cerberus Capital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-cerberus-capital-on-indian-legal-aspects-of-11-billion-acquisition-of-goodwin",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": {
+            "raw": "£1.1 billion",
+            "currency": "GBP",
+            "amount": 1100000000,
+            "amount_inr": 123200000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "AZB, CAM, Latham act on TCS securing ₹9,000 crore investment from TPG for AI data ..."
@@ -108849,14 +110263,17 @@
       "role": "Principal Associate",
       "role_bucket": "Principal Associate",
       "transaction_types": [
+        "acquisition",
         "fundraise",
         "investment"
       ],
       "practice_areas": [
+        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "TPG"
+        "TPG",
+        "Cerberus Capital"
       ],
       "deals": [
         {
@@ -108884,6 +110301,25 @@
             "Private Equity & Venture Capital"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Cerberus Capital on Indian legal aspects of £1.1 billion acquisition of Goodwin",
+          "client": "Cerberus Capital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-cerberus-capital-on-indian-legal-aspects-of-11-billion-acquisition-of-goodwin",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": {
+            "raw": "£1.1 billion",
+            "currency": "GBP",
+            "amount": 1100000000,
+            "amount_inr": 123200000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "TPG-led consortium to acquire Aseem Infra Finance; CAM, Linklaters, Trilegal, SAM advise"
@@ -110617,10 +112053,15 @@
       "firm": "Cyril Amarchand Mangaldas",
       "role": "Associate",
       "role_bucket": "Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "Aditya Birla Capital Limited"
+        "Aditya Birla Capital Limited",
+        "Cerberus Capital"
       ],
       "deals": [
         {
@@ -110631,6 +112072,25 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Cerberus Capital on Indian legal aspects of £1.1 billion acquisition of Goodwin",
+          "client": "Cerberus Capital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-cerberus-capital-on-indian-legal-aspects-of-11-billion-acquisition-of-goodwin",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": {
+            "raw": "£1.1 billion",
+            "currency": "GBP",
+            "amount": 1100000000,
+            "amount_inr": 123200000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Advent International set to invest ~₹2,750 crore in Aditya Birla Housing Finance; CAM, AZB advise"
@@ -112658,7 +114118,69 @@
           }
         }
       ],
-      "snapshot": "Legacy Law Offices acts on Apar Advertisers IPO"
+      "snapshot": "Legacy Law Offices acts on Apar Advertisers IPO",
+      "same_name_elsewhere": [
+        {
+          "id": 3902,
+          "firm": "MV Kini",
+          "role": "Associate Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
+      "id": 3902,
+      "name": "Priya Kataria",
+      "firm": "MV Kini",
+      "role": "Associate Partner",
+      "role_bucket": "Associate Partner",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Smart Roof Solar IPO"
+      ],
+      "deals": [
+        {
+          "headline": "MV Kini, Legacy Law Offices acts on Smart Roof Solar IPO",
+          "client": "Smart Roof Solar IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/mv-kini-legacy-law-offices-acts-on-smart-roof-solar-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹43 crore+",
+            "currency": "INR",
+            "amount": 430000000,
+            "amount_inr": 430000000,
+            "approx": true
+          }
+        }
+      ],
+      "snapshot": "MV Kini, Legacy Law Offices acts on Smart Roof Solar IPO",
+      "same_name_elsewhere": [
+        {
+          "id": 3048,
+          "firm": "Legacy Law Offices",
+          "role": "Associate Partner",
+          "deal_count": 2
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 2643,
@@ -113557,6 +115079,44 @@
         }
       ],
       "snapshot": "JSA advises JSW Green Mobility on investment in Lithium Urban Technologies"
+    },
+    {
+      "id": 3906,
+      "name": "Priyanshu Raghav",
+      "firm": "MV Kini",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Smart Roof Solar IPO"
+      ],
+      "deals": [
+        {
+          "headline": "MV Kini, Legacy Law Offices acts on Smart Roof Solar IPO",
+          "client": "Smart Roof Solar IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/mv-kini-legacy-law-offices-acts-on-smart-roof-solar-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹43 crore+",
+            "currency": "INR",
+            "amount": 430000000,
+            "amount_inr": 430000000,
+            "approx": true
+          }
+        }
+      ],
+      "snapshot": "MV Kini, Legacy Law Offices acts on Smart Roof Solar IPO"
     },
     {
       "id": 2618,
@@ -117189,7 +118749,8 @@
         "Jefferies India Private Limited",
         "Book Running Lead Managers",
         "Gaja Capital",
-        "Kanohar Electricals"
+        "Kanohar Electricals",
+        "Varmora Granito"
       ],
       "deals": [
         {
@@ -117253,6 +118814,25 @@
             "currency": "INR",
             "amount": 10550000000,
             "amount_inr": 10550000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co act on Varmora Granito ₹708 crore IPO",
+          "client": "Varmora Granito",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-varmora-granito-708-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹708 crore",
+            "currency": "INR",
+            "amount": 7080000000,
+            "amount_inr": 7080000000,
             "approx": false
           }
         }
@@ -117736,7 +119316,8 @@
         "Adani Road Transport Limited",
         "Devyani International",
         "Guardian Life Insurance Company of America",
-        "merger of Happiest Minds into ITC Infotech"
+        "merger of Happiest Minds into ITC Infotech",
+        "Cerberus Capital"
       ],
       "deals": [
         {
@@ -117857,6 +119438,25 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Cerberus Capital on Indian legal aspects of £1.1 billion acquisition of Goodwin",
+          "client": "Cerberus Capital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-cerberus-capital-on-indian-legal-aspects-of-11-billion-acquisition-of-goodwin",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": {
+            "raw": "£1.1 billion",
+            "currency": "GBP",
+            "amount": 1100000000,
+            "amount_inr": 123200000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas advises Kotak Mahindra Bank on acquisition of Private ..."
@@ -119642,6 +121242,40 @@
       "snapshot": "Trilegal, Khaitan & Co act on JBM Ecolife Mobility securing ₹750 crore from Motilal Oswal"
     },
     {
+      "id": 3894,
+      "name": "Rathin Somnath",
+      "firm": "DSK Legal",
+      "role": "Associate Partner",
+      "role_bucket": "Associate Partner",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "KRS Corporation"
+      ],
+      "deals": [
+        {
+          "headline": "DSK Legal advises KRS Corporation on majority stake acquisition in Coldrush Logistics",
+          "client": "KRS Corporation",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/dsk-legal-advises-krs-corporation-on-majority-stake-acquisition-in-coldrush-logistics",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "DSK Legal advises KRS Corporation on majority stake acquisition in Coldrush Logistics"
+    },
+    {
       "id": 29,
       "name": "Ratna Pandey",
       "firm": "Cyril Amarchand Mangaldas",
@@ -120814,6 +122448,44 @@
       "snapshot": "Trilegal advises Mahindra Lifespaces on JV with Mitsui Fudosan for Bengaluru housing project"
     },
     {
+      "id": 3890,
+      "name": "Regan Dmello",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Elevate Campuses"
+      ],
+      "deals": [
+        {
+          "headline": "Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO",
+          "client": "Elevate Campuses",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-cyril-amarchand-mangaldas-act-on-elevate-campuses-2100-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹2,100 crore",
+            "currency": "INR",
+            "amount": 21000000000,
+            "amount_inr": 21000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO"
+    },
+    {
       "id": 83,
       "name": "Regina Readling",
       "firm": "Sullivan & Cromwell",
@@ -121600,6 +123272,44 @@
       "snapshot": "Argus Partners, Trilegal act on Surya Hospitals securing investment from Novo Holdings"
     },
     {
+      "id": 3900,
+      "name": "Ria Rastogi",
+      "firm": "Rajani Associates",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Jindal Supreme"
+      ],
+      "deals": [
+        {
+          "headline": "Rajani Associates acts on Jindal Supreme ₹124 crore IPO",
+          "client": "Jindal Supreme",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/rajani-associates-acts-on-jindal-supreme-124-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹124 crore",
+            "currency": "INR",
+            "amount": 1240000000,
+            "amount_inr": 1240000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Rajani Associates acts on Jindal Supreme ₹124 crore IPO"
+    },
+    {
       "id": 3706,
       "name": "Richa Bhansali",
       "firm": "Mindspright Legal",
@@ -121690,7 +123400,8 @@
         "Gujarat Themis Biosyn",
         "Pranav Constructions'",
         "Kanohar Electricals",
-        "Paisalo"
+        "Paisalo",
+        "Varmora Granito"
       ],
       "deals": [
         {
@@ -122021,6 +123732,25 @@
             "currency": "INR",
             "amount": 3000000000,
             "amount_inr": 3000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co act on Varmora Granito ₹708 crore IPO",
+          "client": "Varmora Granito",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-varmora-granito-708-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹708 crore",
+            "currency": "INR",
+            "amount": 7080000000,
+            "amount_inr": 7080000000,
             "approx": false
           }
         }
@@ -123596,6 +125326,44 @@
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Trilegal act on Ather Energy ₹1,300 crore QIP"
+    },
+    {
+      "id": 3888,
+      "name": "Rishikesh Desai",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Elevate Campuses"
+      ],
+      "deals": [
+        {
+          "headline": "Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO",
+          "client": "Elevate Campuses",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-cyril-amarchand-mangaldas-act-on-elevate-campuses-2100-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹2,100 crore",
+            "currency": "INR",
+            "amount": 21000000000,
+            "amount_inr": 21000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO"
     },
     {
       "id": 2570,
@@ -126998,7 +128766,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Anmol"
       ],
       "deals": [
         {
@@ -127013,6 +128782,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co, Hogan Lovells Cadwalader act on Anmol ₹1,800 crore proposed IPO",
+          "client": "Anmol",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-anmol-1800-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,800 crore",
+            "currency": "INR",
+            "amount": 18000000000,
+            "amount_inr": 18000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "NSE IPO: Which law firms are advising the stock exchange on its public listing?"
@@ -129628,6 +131416,44 @@
       "snapshot": "Shardul Amarchand Mangaldas, Cyril Amarchand Mangaldas, White & Case act ... - Bar and Bench"
     },
     {
+      "id": 3899,
+      "name": "Saksham Kumar",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Cerberus Capital"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Cerberus Capital on Indian legal aspects of £1.1 billion acquisition of Goodwin",
+          "client": "Cerberus Capital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-cerberus-capital-on-indian-legal-aspects-of-11-billion-acquisition-of-goodwin",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": {
+            "raw": "£1.1 billion",
+            "currency": "GBP",
+            "amount": 1100000000,
+            "amount_inr": 123200000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas advises Cerberus Capital on Indian legal aspects of £1.1 billion acquisition of..."
+    },
+    {
       "id": 2809,
       "name": "Saksham Nalotia",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -131114,7 +132940,69 @@
           }
         }
       ],
-      "snapshot": "Legacy Law Offices acts on Qualiance International IPO"
+      "snapshot": "Legacy Law Offices acts on Qualiance International IPO",
+      "same_name_elsewhere": [
+        {
+          "id": 3907,
+          "firm": "MV Kini",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
+      "id": 3907,
+      "name": "Samiksha Gawali",
+      "firm": "MV Kini",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Smart Roof Solar IPO"
+      ],
+      "deals": [
+        {
+          "headline": "MV Kini, Legacy Law Offices acts on Smart Roof Solar IPO",
+          "client": "Smart Roof Solar IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/mv-kini-legacy-law-offices-acts-on-smart-roof-solar-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹43 crore+",
+            "currency": "INR",
+            "amount": 430000000,
+            "amount_inr": 430000000,
+            "approx": true
+          }
+        }
+      ],
+      "snapshot": "MV Kini, Legacy Law Offices acts on Smart Roof Solar IPO",
+      "same_name_elsewhere": [
+        {
+          "id": 3753,
+          "firm": "Legacy Law Offices",
+          "role": "Associate",
+          "deal_count": 2
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 3098,
@@ -131684,7 +133572,8 @@
         "Selling Shareholders",
         "Placement Agents",
         "Power Finance Corporation and lead managers",
-        "Adani Energy Solutions"
+        "Adani Energy Solutions",
+        "Varmora Granito"
       ],
       "deals": [
         {
@@ -131738,6 +133627,25 @@
             "currency": "INR",
             "amount": 35000000000,
             "amount_inr": 35000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co act on Varmora Granito ₹708 crore IPO",
+          "client": "Varmora Granito",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-varmora-granito-708-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹708 crore",
+            "currency": "INR",
+            "amount": 7080000000,
+            "amount_inr": 7080000000,
             "approx": false
           }
         }
@@ -132673,7 +134581,8 @@
         "Selling Shareholders",
         "Silver Storm Parks IPO",
         "Genesys International Corp",
-        "Shanti Inorganics IPO"
+        "Shanti Inorganics IPO",
+        "Jindal Supreme"
       ],
       "deals": [
         {
@@ -132733,6 +134642,25 @@
             "currency": "INR",
             "amount": 472400000,
             "amount_inr": 472400000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Rajani Associates acts on Jindal Supreme ₹124 crore IPO",
+          "client": "Jindal Supreme",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/rajani-associates-acts-on-jindal-supreme-124-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹124 crore",
+            "currency": "INR",
+            "amount": 1240000000,
+            "amount_inr": 1240000000,
             "approx": false
           }
         }
@@ -133829,7 +135757,8 @@
       "clients": [
         "Augmont",
         "Capillary Technologies India and Promoter selling shareholder",
-        "Nobel Hygiene"
+        "Nobel Hygiene",
+        "Anmol"
       ],
       "deals": [
         {
@@ -133875,6 +135804,25 @@
             "amount": 1500000000,
             "amount_inr": 1500000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co, Hogan Lovells Cadwalader act on Anmol ₹1,800 crore proposed IPO",
+          "client": "Anmol",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-anmol-1800-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,800 crore",
+            "currency": "INR",
+            "amount": 18000000000,
+            "amount_inr": 18000000000,
+            "approx": false
           }
         }
       ],
@@ -135169,7 +137117,8 @@
       "clients": [
         "Lead Managers",
         "Motilal Oswal Group",
-        "Dhoot Transmission"
+        "Dhoot Transmission",
+        "Varmora Granito"
       ],
       "deals": [
         {
@@ -135216,6 +137165,25 @@
             "currency": "INR",
             "amount": 30660000000,
             "amount_inr": 30660000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co act on Varmora Granito ₹708 crore IPO",
+          "client": "Varmora Granito",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-varmora-granito-708-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹708 crore",
+            "currency": "INR",
+            "amount": 7080000000,
+            "amount_inr": 7080000000,
             "approx": false
           }
         }
@@ -139126,10 +141094,16 @@
       "firm": "DSK Legal",
       "role": "Partner",
       "role_bucket": "Partner",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "SatSure Analytics India Private Limited"
+        "SatSure Analytics India Private Limited",
+        "KRS Corporation"
       ],
       "deals": [
         {
@@ -139139,6 +141113,20 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "DSK Legal advises KRS Corporation on majority stake acquisition in Coldrush Logistics",
+          "client": "KRS Corporation",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/dsk-legal-advises-krs-corporation-on-majority-stake-acquisition-in-coldrush-logistics",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
           "value": null
         }
       ],
@@ -141414,10 +143402,16 @@
       "firm": "DSK Legal",
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "TiL"
+        "TiL",
+        "KRS Corporation"
       ],
       "deals": [
         {
@@ -141427,6 +143421,20 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "DSK Legal advises KRS Corporation on majority stake acquisition in Coldrush Logistics",
+          "client": "KRS Corporation",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/dsk-legal-advises-krs-corporation-on-majority-stake-acquisition-in-coldrush-logistics",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
           "value": null
         }
       ],
@@ -144911,7 +146919,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Augmont"
+        "Augmont",
+        "Anmol"
       ],
       "deals": [
         {
@@ -144926,6 +146935,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co, Hogan Lovells Cadwalader act on Anmol ₹1,800 crore proposed IPO",
+          "client": "Anmol",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-anmol-1800-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,800 crore",
+            "currency": "INR",
+            "amount": 18000000000,
+            "amount_inr": 18000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Khaitan, JSA act on Augmont ₹800 crore proposed IPO - Bar and Bench"
@@ -146369,7 +148397,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Silver Storm Parks IPO"
+        "Silver Storm Parks IPO",
+        "Jindal Supreme"
       ],
       "deals": [
         {
@@ -146384,6 +148413,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Rajani Associates acts on Jindal Supreme ₹124 crore IPO",
+          "client": "Jindal Supreme",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/rajani-associates-acts-on-jindal-supreme-124-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹124 crore",
+            "currency": "INR",
+            "amount": 1240000000,
+            "amount_inr": 1240000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Rajani Associates acts on Silver Storm Parks IPO"
@@ -147207,7 +149255,8 @@
       ],
       "clients": [
         "Lohia Corp",
-        "Shiprocket"
+        "Shiprocket",
+        "Elevate Campuses"
       ],
       "deals": [
         {
@@ -147241,6 +149290,25 @@
             "currency": "INR",
             "amount": 16170000000,
             "amount_inr": 16170000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO",
+          "client": "Elevate Campuses",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-cyril-amarchand-mangaldas-act-on-elevate-campuses-2100-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹2,100 crore",
+            "currency": "INR",
+            "amount": 21000000000,
+            "amount_inr": 21000000000,
             "approx": false
           }
         }
@@ -151194,10 +153262,15 @@
       "firm": "Trilegal",
       "role": "Partner",
       "role_bucket": "Partner",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
       "clients": [
-        "Sona Comstar"
+        "Sona Comstar",
+        "Varmora Granito"
       ],
       "deals": [
         {
@@ -151208,6 +153281,25 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co act on Varmora Granito ₹708 crore IPO",
+          "client": "Varmora Granito",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-varmora-granito-708-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹708 crore",
+            "currency": "INR",
+            "amount": 7080000000,
+            "amount_inr": 7080000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal advises Sona Comstar on partnership with Japan's DENSO Corp"
@@ -152575,10 +154667,15 @@
       "firm": "Cyril Amarchand Mangaldas",
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "BNP Paribas Cardif acquiring stake in IndiaFirst Life Insurance"
+        "BNP Paribas Cardif acquiring stake in IndiaFirst Life Insurance",
+        "Cerberus Capital"
       ],
       "deals": [
         {
@@ -152589,9 +154686,66 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Cerberus Capital on Indian legal aspects of £1.1 billion acquisition of Goodwin",
+          "client": "Cerberus Capital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-cerberus-capital-on-indian-legal-aspects-of-11-billion-acquisition-of-goodwin",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": {
+            "raw": "£1.1 billion",
+            "currency": "GBP",
+            "amount": 1100000000,
+            "amount_inr": 123200000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Khaitan & Co, Shardul Amarchand Mangaldas act on BNP Paribas Cardif acquiring stake in IndiaFirst Life..."
+    },
+    {
+      "id": 3885,
+      "name": "Soundarya Mathavan",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Elevate Campuses"
+      ],
+      "deals": [
+        {
+          "headline": "Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO",
+          "client": "Elevate Campuses",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-cyril-amarchand-mangaldas-act-on-elevate-campuses-2100-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹2,100 crore",
+            "currency": "INR",
+            "amount": 21000000000,
+            "amount_inr": 21000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO"
     },
     {
       "id": 1044,
@@ -153626,12 +155780,18 @@
       "id": 2744,
       "name": "Srinandini Kar",
       "firm": "DSK Legal",
-      "role": "Associate",
-      "role_bucket": "Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "SatSure Analytics India Private Limited"
+        "SatSure Analytics India Private Limited",
+        "KRS Corporation"
       ],
       "deals": [
         {
@@ -153641,6 +155801,20 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "DSK Legal advises KRS Corporation on majority stake acquisition in Coldrush Logistics",
+          "client": "KRS Corporation",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/dsk-legal-advises-krs-corporation-on-majority-stake-acquisition-in-coldrush-logistics",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
           "value": null
         }
       ],
@@ -154402,6 +156576,44 @@
       "snapshot": "TLH Advocates advises Arete Hospitals on sale of hospital business to Aurevia Hospitals"
     },
     {
+      "id": 3898,
+      "name": "Sruthi Ramesh",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Cerberus Capital"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas advises Cerberus Capital on Indian legal aspects of £1.1 billion acquisition of Goodwin",
+          "client": "Cerberus Capital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-cerberus-capital-on-indian-legal-aspects-of-11-billion-acquisition-of-goodwin",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": {
+            "raw": "£1.1 billion",
+            "currency": "GBP",
+            "amount": 1100000000,
+            "amount_inr": 123200000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas advises Cerberus Capital on Indian legal aspects of £1.1 billion acquisition of..."
+    },
+    {
       "id": 1640,
       "name": "Sruti Baid",
       "firm": "Khaitan & Co",
@@ -154432,6 +156644,44 @@
         }
       ],
       "snapshot": "Trilegal acts on IDfy ₹476 crore Series F fundraise - Bar and Bench"
+    },
+    {
+      "id": 3910,
+      "name": "Ssowmiya Narayan M",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Anmol"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Khaitan & Co, Hogan Lovells Cadwalader act on Anmol ₹1,800 crore proposed IPO",
+          "client": "Anmol",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-anmol-1800-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,800 crore",
+            "currency": "INR",
+            "amount": 18000000000,
+            "amount_inr": 18000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Trilegal, Khaitan & Co, Hogan Lovells Cadwalader act on Anmol ₹1,800 crore proposed IPO"
     },
     {
       "id": 3115,
@@ -155146,7 +157396,8 @@
         "Lead Managers",
         "Dhoot Transmission",
         "Horizon Industrial Parks",
-        "Pernia's Pop Up Shop"
+        "Pernia's Pop Up Shop",
+        "Varmora Granito"
       ],
       "deals": [
         {
@@ -155216,6 +157467,25 @@
             "currency": "INR",
             "amount": 6800000000,
             "amount_inr": 6800000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co act on Varmora Granito ₹708 crore IPO",
+          "client": "Varmora Granito",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-varmora-granito-708-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹708 crore",
+            "currency": "INR",
+            "amount": 7080000000,
+            "amount_inr": 7080000000,
             "approx": false
           }
         }
@@ -155656,10 +157926,15 @@
       "firm": "Rajani Associates",
       "role": "Associate",
       "role_bucket": "Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
       "clients": [
-        "Genesys International Corp"
+        "Genesys International Corp",
+        "Jindal Supreme"
       ],
       "deals": [
         {
@@ -155674,6 +157949,25 @@
             "currency": "INR",
             "amount": 1250000000,
             "amount_inr": 1250000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Rajani Associates acts on Jindal Supreme ₹124 crore IPO",
+          "client": "Jindal Supreme",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/rajani-associates-acts-on-jindal-supreme-124-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹124 crore",
+            "currency": "INR",
+            "amount": 1240000000,
+            "amount_inr": 1240000000,
             "approx": false
           }
         }
@@ -157308,7 +159602,69 @@
           }
         }
       ],
-      "snapshot": "Legacy Law Offices acts on Dain Colour Chem IPO"
+      "snapshot": "Legacy Law Offices acts on Dain Colour Chem IPO",
+      "same_name_elsewhere": [
+        {
+          "id": 3901,
+          "firm": "MV Kini",
+          "role": "Partner",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
+      "id": 3901,
+      "name": "Surbhi Narang",
+      "firm": "MV Kini",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Smart Roof Solar IPO"
+      ],
+      "deals": [
+        {
+          "headline": "MV Kini, Legacy Law Offices acts on Smart Roof Solar IPO",
+          "client": "Smart Roof Solar IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/mv-kini-legacy-law-offices-acts-on-smart-roof-solar-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹43 crore+",
+            "currency": "INR",
+            "amount": 430000000,
+            "amount_inr": 430000000,
+            "approx": true
+          }
+        }
+      ],
+      "snapshot": "MV Kini, Legacy Law Offices acts on Smart Roof Solar IPO",
+      "same_name_elsewhere": [
+        {
+          "id": 3453,
+          "firm": "Legacy Law Offices",
+          "role": "Partner",
+          "deal_count": 5
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 2666,
@@ -161755,7 +164111,8 @@
         "JM Financial Limited and Motilal Oswal Investment Advisors Limited",
         "Capillary Technologies India and Promoter selling shareholder",
         "Nobel Hygiene",
-        "merger of Happiest Minds into ITC Infotech"
+        "merger of Happiest Minds into ITC Infotech",
+        "Anmol"
       ],
       "deals": [
         {
@@ -161880,6 +164237,25 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co, Hogan Lovells Cadwalader act on Anmol ₹1,800 crore proposed IPO",
+          "client": "Anmol",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-anmol-1800-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,800 crore",
+            "currency": "INR",
+            "amount": 18000000000,
+            "amount_inr": 18000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "NSE IPO: Which law firms are advising the stock exchange on its public listing?"
@@ -163599,6 +165975,38 @@
         }
       ],
       "snapshot": "Trilegal, Sheppard act on $310 million acquisition of iMerit by EXL - Bar and Bench"
+    },
+    {
+      "id": 3908,
+      "name": "Uday Walia",
+      "firm": "Touchstone Partners",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "fundraise"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Membrane Group"
+      ],
+      "deals": [
+        {
+          "headline": "Touchstone Partners advises Membrane Group on equity fundraise from Kurita Water Industries",
+          "client": "Membrane Group",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/touchstone-partners-advises-membrane-group-on-equity-fundraise-from-kurita-water-industries",
+          "source": "Bar & Bench",
+          "types": [
+            "fundraise"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Touchstone Partners advises Membrane Group on equity fundraise from Kurita Water Industries"
     },
     {
       "id": 1997,
@@ -166310,7 +168718,8 @@
         "Piramal Enterprises Limited and Piramal Finance Limited",
         "Book Running Lead Managers",
         "Marri Retail",
-        "Rentomojo"
+        "Rentomojo",
+        "Anmol"
       ],
       "deals": [
         {
@@ -166435,6 +168844,25 @@
             "amount_inr": 12550000000,
             "approx": false
           }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co, Hogan Lovells Cadwalader act on Anmol ₹1,800 crore proposed IPO",
+          "client": "Anmol",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-anmol-1800-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,800 crore",
+            "currency": "INR",
+            "amount": 18000000000,
+            "amount_inr": 18000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Trilegal act on Brookfield India REIT ₹2,600 crore QIP"
@@ -166529,10 +168957,16 @@
       "firm": "DSK Legal",
       "role": "Associate",
       "role_bucket": "Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "TiL"
+        "TiL",
+        "KRS Corporation"
       ],
       "deals": [
         {
@@ -166542,6 +168976,20 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "DSK Legal advises KRS Corporation on majority stake acquisition in Coldrush Logistics",
+          "client": "KRS Corporation",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/dsk-legal-advises-krs-corporation-on-majority-stake-acquisition-in-coldrush-logistics",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
           "value": null
         }
       ],
@@ -167639,7 +170087,8 @@
       ],
       "clients": [
         "Book Running Lead Managers",
-        "JM Financial Limited and Motilal Oswal Investment Advisors Limited"
+        "JM Financial Limited and Motilal Oswal Investment Advisors Limited",
+        "Anmol"
       ],
       "deals": [
         {
@@ -167680,6 +170129,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co, Hogan Lovells Cadwalader act on Anmol ₹1,800 crore proposed IPO",
+          "client": "Anmol",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-anmol-1800-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,800 crore",
+            "currency": "INR",
+            "amount": 18000000000,
+            "amount_inr": 18000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal, Khaitan & Co, Hogan Lovells Cadwalader act on INDO-MIM ₹3,812 crore IPO"
@@ -168317,7 +170785,8 @@
       ],
       "clients": [
         "Lead Managers",
-        "Book running lead managers"
+        "Book running lead managers",
+        "Anmol"
       ],
       "deals": [
         {
@@ -168345,6 +170814,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co, Hogan Lovells Cadwalader act on Anmol ₹1,800 crore proposed IPO",
+          "client": "Anmol",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-anmol-1800-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,800 crore",
+            "currency": "INR",
+            "amount": 18000000000,
+            "amount_inr": 18000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Trilegal act on Ather Energy ₹1,300 crore QIP"
@@ -171099,7 +173587,8 @@
         "Marri Retail",
         "SPR Auto Technologies",
         "Karamtara Engineering",
-        "Rentomojo"
+        "Rentomojo",
+        "Anmol"
       ],
       "deals": [
         {
@@ -171217,6 +173706,25 @@
             "currency": "INR",
             "amount": 12550000000,
             "amount_inr": 12550000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co, Hogan Lovells Cadwalader act on Anmol ₹1,800 crore proposed IPO",
+          "client": "Anmol",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-anmol-1800-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,800 crore",
+            "currency": "INR",
+            "amount": 18000000000,
+            "amount_inr": 18000000000,
             "approx": false
           }
         }
@@ -171528,6 +174036,15 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ],
+          "value": null
+        },
+        {
+          "headline": "ELP advises Transworld on forming JV with Bainbridge to operate UAE shipping pool",
+          "client": "Transworld",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/elp-advises-transworld-on-forming-jv-with-bainbridge-to-operate-uae-shipping-pool",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
           "value": null
         }
       ],
@@ -173677,6 +176194,44 @@
       "snapshot": "Argus Partners, Trilegal act on Surya Hospitals securing investment from Novo Holdings"
     },
     {
+      "id": 3895,
+      "name": "Vyshnav Karthik",
+      "firm": "Trilegal",
+      "role": "Counsel",
+      "role_bucket": "Counsel",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Varmora Granito"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Khaitan & Co act on Varmora Granito ₹708 crore IPO",
+          "client": "Varmora Granito",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-varmora-granito-708-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹708 crore",
+            "currency": "INR",
+            "amount": 7080000000,
+            "amount_inr": 7080000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Trilegal, Khaitan & Co act on Varmora Granito ₹708 crore IPO"
+    },
+    {
       "id": 178,
       "name": "Wendy A. Clarke",
       "firm": "Kelley Drye",
@@ -174737,6 +177292,44 @@
         }
       ],
       "snapshot": "Vidhigya Associates acts on Sunshine Pictures ₹282 crore IPO"
+    },
+    {
+      "id": 3904,
+      "name": "Yash Dogra",
+      "firm": "MV Kini",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Smart Roof Solar IPO"
+      ],
+      "deals": [
+        {
+          "headline": "MV Kini, Legacy Law Offices acts on Smart Roof Solar IPO",
+          "client": "Smart Roof Solar IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/mv-kini-legacy-law-offices-acts-on-smart-roof-solar-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹43 crore+",
+            "currency": "INR",
+            "amount": 430000000,
+            "amount_inr": 430000000,
+            "approx": true
+          }
+        }
+      ],
+      "snapshot": "MV Kini, Legacy Law Offices acts on Smart Roof Solar IPO"
     },
     {
       "id": 1687,
@@ -176347,7 +178940,8 @@
       ],
       "clients": [
         "Adani Enterprises Limited and lead managers",
-        "Pranav Constructions'"
+        "Pranav Constructions'",
+        "Varmora Granito"
       ],
       "deals": [
         {
@@ -176375,6 +178969,25 @@
             "currency": "INR",
             "amount": 3510000000,
             "amount_inr": 3510000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co act on Varmora Granito ₹708 crore IPO",
+          "client": "Varmora Granito",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-varmora-granito-708-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹708 crore",
+            "currency": "INR",
+            "amount": 7080000000,
+            "amount_inr": 7080000000,
             "approx": false
           }
         }
