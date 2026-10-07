@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 3911,
-    "firms": 136,
-    "deals": 581,
+    "people": 3971,
+    "firms": 139,
+    "deals": 594,
     "practice_areas": 6
   },
   "firms": [
@@ -40,6 +40,7 @@
     "Dua Associates",
     "Duane Morris & Selvam",
     "Economic Laws Practice",
+    "Elarra Law Offices",
     "Emerge Legal",
     "Equilex",
     "FBT Gibbons",
@@ -100,6 +101,7 @@
     "Quillon Partners",
     "Rajah & Tann",
     "Rajani Associates",
+    "Resolüt Partners",
     "River Law",
     "S&R Associates",
     "S&T Legal",
@@ -137,6 +139,7 @@
     "Veritas Legal",
     "Vertices Partners",
     "Vidhigya Associates",
+    "Vidhigya Associates, Advocates",
     "Vritti Law Partners",
     "Weil Gotshal",
     "White & Case",
@@ -977,7 +980,7 @@
     },
     {
       "firm": "Cyril Amarchand Mangaldas",
-      "people_count": 606,
+      "people_count": 615,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -1224,6 +1227,7 @@
             1464,
             118,
             120,
+            3942,
             807,
             2456,
             808,
@@ -1258,6 +1262,7 @@
             916,
             34,
             122,
+            3944,
             801,
             3777,
             2320,
@@ -1336,6 +1341,7 @@
             1693,
             1858,
             1862,
+            3943,
             553,
             2116,
             3841,
@@ -1343,6 +1349,8 @@
             2675,
             1689,
             3402,
+            3436,
+            2490,
             962,
             882,
             2455,
@@ -1354,6 +1362,7 @@
             3788,
             1525,
             1461,
+            3941,
             3500,
             1688,
             2156,
@@ -1387,6 +1396,7 @@
             1781,
             2664,
             3491,
+            3929,
             2161,
             906,
             2519,
@@ -1402,6 +1412,7 @@
             3661,
             2708,
             1454,
+            3931,
             803,
             491,
             1894,
@@ -1434,9 +1445,11 @@
             576,
             440,
             2731,
+            3930,
             2734,
             2985,
             2718,
+            3928,
             2607,
             2609,
             1713,
@@ -1458,6 +1471,7 @@
             2332,
             2730,
             2525,
+            3932,
             3483,
             3490,
             2318,
@@ -1498,7 +1512,6 @@
             2157,
             2322,
             805,
-            3436,
             2953,
             2330,
             2321,
@@ -1771,7 +1784,7 @@
     },
     {
       "firm": "DSK Legal",
-      "people_count": 48,
+      "people_count": 51,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -1782,12 +1795,15 @@
             2743,
             938,
             3893,
+            3957,
+            3958,
             3894,
             3055,
             3057,
             3054,
             2742,
             937,
+            3959,
             2744,
             939
           ]
@@ -2016,6 +2032,22 @@
       ]
     },
     {
+      "firm": "Elarra Law Offices",
+      "people_count": 5,
+      "practice_groups": [
+        {
+          "area": "Unclassified",
+          "person_ids": [
+            3955,
+            3956,
+            3952,
+            3954,
+            3953
+          ]
+        }
+      ]
+    },
+    {
       "firm": "Emerge Legal",
       "people_count": 3,
       "practice_groups": [
@@ -2064,7 +2096,7 @@
     },
     {
       "firm": "Fox Mandal & Associates",
-      "people_count": 14,
+      "people_count": 19,
       "practice_groups": [
         {
           "area": "Banking & Finance",
@@ -2076,6 +2108,16 @@
             3198,
             3200,
             3199
+          ]
+        },
+        {
+          "area": "Capital Markets",
+          "person_ids": [
+            3973,
+            3971,
+            3975,
+            3972,
+            3974
           ]
         },
         {
@@ -2976,7 +3018,7 @@
     },
     {
       "firm": "Khaitan & Co",
-      "people_count": 590,
+      "people_count": 591,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -3609,6 +3651,7 @@
             1709,
             3503,
             3534,
+            161,
             1754,
             285,
             1763,
@@ -3659,6 +3702,7 @@
             3567,
             1759,
             1790,
+            3946,
             2186
           ]
         },
@@ -3723,8 +3767,16 @@
     },
     {
       "firm": "Krishnamurthy & Co",
-      "people_count": 3,
+      "people_count": 6,
       "practice_groups": [
+        {
+          "area": "Mergers & Acquisitions",
+          "person_ids": [
+            3967,
+            3968,
+            3966
+          ]
+        },
         {
           "area": "Unclassified",
           "person_ids": [
@@ -4324,6 +4376,22 @@
       ]
     },
     {
+      "firm": "Resolüt Partners",
+      "people_count": 5,
+      "practice_groups": [
+        {
+          "area": "Unclassified",
+          "person_ids": [
+            3950,
+            3947,
+            3949,
+            3951,
+            3948
+          ]
+        }
+      ]
+    },
+    {
       "firm": "River Law",
       "people_count": 1,
       "practice_groups": [
@@ -4467,7 +4535,7 @@
     },
     {
       "firm": "Saraf and Partners",
-      "people_count": 24,
+      "people_count": 27,
       "practice_groups": [
         {
           "area": "Unclassified",
@@ -4499,8 +4567,11 @@
             3822,
             3836,
             3821,
+            3935,
             3837,
-            3823
+            3934,
+            3823,
+            3933
           ]
         },
         {
@@ -4544,11 +4615,12 @@
     },
     {
       "firm": "Shardul Amarchand Mangaldas & Co",
-      "people_count": 427,
+      "people_count": 433,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
           "person_ids": [
+            3963,
             1319,
             1603,
             2245,
@@ -4566,6 +4638,7 @@
             2424,
             1834,
             1573,
+            3960,
             3462,
             1585,
             1741,
@@ -4582,6 +4655,7 @@
             2461,
             214,
             2459,
+            2702,
             2423,
             1592,
             2205,
@@ -4591,6 +4665,7 @@
             144,
             2219,
             373,
+            3961,
             1320,
             2237,
             2362,
@@ -4602,6 +4677,7 @@
             1586,
             2215,
             1582,
+            3964,
             2485,
             1329,
             2026,
@@ -4624,6 +4700,7 @@
             142,
             1173,
             2996,
+            2698,
             1580,
             2345,
             1963,
@@ -4691,10 +4768,13 @@
             1323,
             2809,
             1167,
+            2699,
             2202,
             2963,
             1490,
+            3965,
             1316,
+            3962,
             1581,
             2207,
             2240,
@@ -4703,6 +4783,7 @@
             374,
             3463,
             2352,
+            2701,
             2364,
             2810,
             1575,
@@ -5302,7 +5383,7 @@
     },
     {
       "firm": "Talwar Thakore & Associates",
-      "people_count": 82,
+      "people_count": 83,
       "practice_groups": [
         {
           "area": "Private Equity & Venture Capital",
@@ -5386,6 +5467,7 @@
             1281,
             3342,
             2973,
+            3940,
             3775,
             976,
             2974,
@@ -5505,7 +5587,7 @@
     },
     {
       "firm": "Trilegal",
-      "people_count": 554,
+      "people_count": 573,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -5539,6 +5621,7 @@
             448,
             1274,
             3316,
+            3969,
             3578,
             2083,
             1392,
@@ -5581,6 +5664,7 @@
             2129,
             2813,
             1695,
+            1799,
             3816,
             3576,
             1142,
@@ -5593,6 +5677,7 @@
             2260,
             2387,
             2775,
+            2600,
             533,
             2401,
             2360,
@@ -5614,6 +5699,7 @@
             2059,
             778,
             3574,
+            1798,
             2937,
             2056,
             3244,
@@ -5705,6 +5791,7 @@
             1085,
             2385,
             3697,
+            3970,
             2399,
             2939,
             2383,
@@ -5931,6 +6018,142 @@
           ]
         },
         {
+          "area": "Unclassified",
+          "person_ids": [
+            3918,
+            2412,
+            1852,
+            868,
+            1850,
+            3528,
+            2562,
+            3824,
+            3919,
+            3840,
+            3732,
+            3820,
+            3923,
+            1847,
+            2750,
+            2145,
+            2465,
+            3921,
+            1822,
+            1024,
+            2018,
+            2140,
+            865,
+            3296,
+            3927,
+            2142,
+            2358,
+            2357,
+            2141,
+            1448,
+            2411,
+            1806,
+            3083,
+            1824,
+            492,
+            863,
+            3826,
+            2413,
+            1848,
+            3920,
+            3831,
+            3734,
+            1445,
+            2979,
+            3829,
+            3819,
+            2361,
+            3925,
+            1819,
+            2561,
+            2122,
+            864,
+            1726,
+            2153,
+            1444,
+            2578,
+            1849,
+            3828,
+            3345,
+            2752,
+            1019,
+            1028,
+            2147,
+            2577,
+            2751,
+            3825,
+            3913,
+            3832,
+            1447,
+            3914,
+            3731,
+            1724,
+            1026,
+            1820,
+            1018,
+            2410,
+            869,
+            2579,
+            3347,
+            2576,
+            2139,
+            3924,
+            2152,
+            3916,
+            1449,
+            1023,
+            2409,
+            2414,
+            2150,
+            2154,
+            2124,
+            3079,
+            3915,
+            2146,
+            2138,
+            1025,
+            3830,
+            3080,
+            1021,
+            2467,
+            1805,
+            3733,
+            2143,
+            2359,
+            867,
+            2148,
+            2137,
+            3827,
+            1851,
+            2978,
+            3078,
+            2408,
+            3922,
+            2151,
+            1823,
+            870,
+            1816,
+            3348,
+            3917,
+            3081,
+            2123,
+            1027,
+            3926,
+            2468,
+            3082,
+            2144,
+            3084,
+            1817,
+            3346,
+            866,
+            1821
+          ]
+        },
+        {
           "area": "Capital Markets",
           "person_ids": [
             3550,
@@ -5961,6 +6184,7 @@
             1175,
             128,
             126,
+            2998,
             2036,
             2129,
             1695,
@@ -6018,6 +6242,7 @@
             2940,
             2938,
             512,
+            3939,
             3548,
             519,
             2939,
@@ -6034,6 +6259,7 @@
             417,
             3549,
             762,
+            3945,
             130,
             1697,
             816,
@@ -6059,127 +6285,6 @@
             2686,
             518,
             2559
-          ]
-        },
-        {
-          "area": "Unclassified",
-          "person_ids": [
-            2412,
-            1852,
-            868,
-            1850,
-            3528,
-            2562,
-            3824,
-            3840,
-            3732,
-            3820,
-            1847,
-            2750,
-            2145,
-            2465,
-            1822,
-            1024,
-            2018,
-            2140,
-            865,
-            3296,
-            2142,
-            2358,
-            2357,
-            2141,
-            1448,
-            2411,
-            1806,
-            3083,
-            1824,
-            492,
-            863,
-            3826,
-            2413,
-            1848,
-            3831,
-            3734,
-            1445,
-            2979,
-            3829,
-            3819,
-            2361,
-            1819,
-            2561,
-            2122,
-            864,
-            1726,
-            2153,
-            1444,
-            2578,
-            1849,
-            3828,
-            3345,
-            2752,
-            1019,
-            1028,
-            2147,
-            2577,
-            2751,
-            3825,
-            3832,
-            1447,
-            3731,
-            1724,
-            1026,
-            1820,
-            1018,
-            2410,
-            869,
-            2579,
-            3347,
-            2576,
-            2139,
-            2152,
-            1449,
-            1023,
-            2409,
-            2414,
-            2150,
-            2154,
-            2124,
-            3079,
-            2146,
-            2138,
-            1025,
-            3830,
-            3080,
-            1021,
-            2467,
-            1805,
-            3733,
-            2143,
-            2359,
-            867,
-            2148,
-            2137,
-            3827,
-            1851,
-            2978,
-            3078,
-            2408,
-            2151,
-            1823,
-            870,
-            1816,
-            3348,
-            3081,
-            2123,
-            1027,
-            2468,
-            3082,
-            2144,
-            3084,
-            1817,
-            3346,
-            866,
-            1821
           ]
         },
         {
@@ -6396,6 +6501,11 @@
           ]
         }
       ]
+    },
+    {
+      "firm": "Vidhigya Associates, Advocates",
+      "people_count": 0,
+      "practice_groups": []
     },
     {
       "firm": "Vritti Law Partners",
@@ -6617,6 +6727,68 @@
         }
       ],
       "snapshot": "JSA advises consortium of lenders on ₹1,500 crore financing availed by Tega Industries for ..."
+    },
+    {
+      "id": 3963,
+      "name": "Aagam Jain",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "ChrysCapital"
+      ],
+      "deals": [
+        {
+          "headline": "SAM advises ChrysCapital on minority stake acquisition in Linux Laboratories; K Law advises Tata Healthcare Fund II and III",
+          "client": "ChrysCapital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-chryscapital-on-minority-stake-acquisition-in-linux-laboratories",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "SAM advises ChrysCapital on minority stake acquisition in Linux Laboratories; K Law advises Tata..."
+    },
+    {
+      "id": 3918,
+      "name": "Aakanksha Dalal",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise"
     },
     {
       "id": 563,
@@ -7941,6 +8113,7 @@
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
+        "IPO",
         "QIP",
         "investment"
       ],
@@ -7954,7 +8127,8 @@
         "Adani Enterprises Limited and lead managers",
         "Power Finance Corporation and lead managers",
         "Gujarat Themis Biosyn",
-        "Paisalo"
+        "Paisalo",
+        "LCC Projects"
       ],
       "deals": [
         {
@@ -8028,6 +8202,25 @@
             "currency": "INR",
             "amount": 3000000000,
             "amount_inr": 3000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal acts on LCC Projects ₹427 crore IPO",
+          "client": "LCC Projects",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-llc-projects-427-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹427 crore",
+            "currency": "INR",
+            "amount": 4270000000,
+            "amount_inr": 4270000000,
             "approx": false
           }
         }
@@ -8156,7 +8349,8 @@
         "VINCI Highways",
         "Lead Managers",
         "Dhoot Transmission",
-        "Nexus Select Trust's"
+        "Nexus Select Trust's",
+        "JSW One"
       ],
       "deals": [
         {
@@ -8216,6 +8410,25 @@
             "currency": "INR",
             "amount": 16000000000,
             "amount_inr": 16000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
             "approx": false
           }
         }
@@ -8517,6 +8730,30 @@
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas advises University of New South Wales on setting up campus ..."
+    },
+    {
+      "id": 3955,
+      "name": "Abhas Raj",
+      "firm": "Elarra Law Offices",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Godrej Properties"
+      ],
+      "deals": [
+        {
+          "headline": "Elarra Law Offices advises Godrej Properties on acquiring development rights of luxury project in South Mumbai",
+          "client": "Godrej Properties",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/elarra-law-offices-advises-godrej-properties-on-acquiring-development-rights-of-luxury-project-in-south-mumbai",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "Elarra Law Offices advises Godrej Properties on acquiring development rights of luxury project in South Mumbai"
     },
     {
       "id": 3213,
@@ -9269,6 +9506,40 @@
       "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise"
     },
     {
+      "id": 3967,
+      "name": "Abhimanyu Rajguru",
+      "firm": "Krishnamurthy & Co",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "ChrysCapital"
+      ],
+      "deals": [
+        {
+          "headline": "SAM advises ChrysCapital on minority stake acquisition in Linux Laboratories; K Law advises Tata Healthcare Fund II and III",
+          "client": "ChrysCapital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-chryscapital-on-minority-stake-acquisition-in-linux-laboratories",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "SAM advises ChrysCapital on minority stake acquisition in Linux Laboratories; K Law advises Tata..."
+    },
+    {
       "id": 2407,
       "name": "Abhimanyu Singh Rathore",
       "firm": "AZB & Partners",
@@ -9469,7 +9740,8 @@
         "Aragen Life Sciences",
         "Nobel Hygiene",
         "Kanohar Electricals",
-        "Rentomojo"
+        "Rentomojo",
+        "Dosti Realty proposed IPO"
       ],
       "deals": [
         {
@@ -9632,6 +9904,19 @@
             "amount_inr": 12550000000,
             "approx": false
           }
+        },
+        {
+          "headline": "Trilegal, TT&A, Hogan Lovells Cadwalader act on Dosti Realty proposed IPO",
+          "client": "Dosti Realty proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-hogan-lovells-cadwalader-act-on-dosti-realty-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": null
         }
       ],
       "snapshot": "JSA, TT&A, Baker & McKenzie advise brokers on Mylan Inc's ₹3,679 crore exit from Biocon"
@@ -9663,7 +9948,8 @@
         "PNG Jewellers",
         "Lumino Industries",
         "ESDS",
-        "Steamhouse India"
+        "Steamhouse India",
+        "JSW One"
       ],
       "deals": [
         {
@@ -9832,6 +10118,25 @@
             "currency": "INR",
             "amount": 4140000000,
             "amount_inr": 4140000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
             "approx": false
           }
         }
@@ -11175,7 +11480,8 @@
         "Book-Running Lead Managers",
         "Jefferies India Private Limited",
         "Kanohar Electricals",
-        "Rentomojo"
+        "Rentomojo",
+        "Dosti Realty proposed IPO"
       ],
       "deals": [
         {
@@ -11246,6 +11552,19 @@
             "amount_inr": 12550000000,
             "approx": false
           }
+        },
+        {
+          "headline": "Trilegal, TT&A, Hogan Lovells Cadwalader act on Dosti Realty proposed IPO",
+          "client": "Dosti Realty proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-hogan-lovells-cadwalader-act-on-dosti-realty-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": null
         }
       ],
       "snapshot": "JSA, TT&A, Baker & McKenzie advise brokers on Mylan Inc's ₹3,679 crore exit from Biocon"
@@ -15748,7 +16067,8 @@
         "Swiggy",
         "LEAP India",
         "Atomberg",
-        "Morgan Stanley"
+        "Morgan Stanley",
+        "JSW One"
       ],
       "deals": [
         {
@@ -15880,6 +16200,25 @@
             "amount_inr": 23905000000,
             "approx": false
           }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Khaitan & Co, Cyril Amarchand Mangaldas act on FILA Group's ₹934 crore stake sale in DOMS"
@@ -15994,7 +16333,8 @@
         "IIFL Securities Limited and Motilal Oswal Investment Advisors Limited",
         "Adani Enterprises Limited and lead managers",
         "Motilal Oswal Group",
-        "Gujarat Themis Biosyn"
+        "Gujarat Themis Biosyn",
+        "LCC Projects"
       ],
       "deals": [
         {
@@ -16059,6 +16399,25 @@
             "currency": "INR",
             "amount": 7500000000,
             "amount_inr": 7500000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal acts on LCC Projects ₹427 crore IPO",
+          "client": "LCC Projects",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-llc-projects-427-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹427 crore",
+            "currency": "INR",
+            "amount": 4270000000,
+            "amount_inr": 4270000000,
             "approx": false
           }
         }
@@ -16186,6 +16545,36 @@
         }
       ],
       "snapshot": "CAM, AZB, Hogan Lovells act on Park Hospitals ₹920 crore IPO"
+    },
+    {
+      "id": 3950,
+      "name": "Agrim Mor",
+      "firm": "Resolüt Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "IRB Infrastructure Trust"
+      ],
+      "deals": [
+        {
+          "headline": "Resolüt Partners advises IRB Infrastructure Trust on ₹2,744 crore sale of road assets",
+          "client": "IRB Infrastructure Trust",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/resolt-partners-advises-irb-infrastructure-trust-on-2744-crore-sale-of-road-assets",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹2,744 crore",
+            "currency": "INR",
+            "amount": 27440000000,
+            "amount_inr": 27440000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Resolüt Partners advises IRB Infrastructure Trust on ₹2,744 crore sale of road assets"
     },
     {
       "id": 1572,
@@ -17509,6 +17898,34 @@
       "snapshot": "Trilegal, Verist Law, TT&A, Hogan Lovells act on Marri Retail ₹522 crore+ proposed IPO"
     },
     {
+      "id": 3919,
+      "name": "Akanksha Shah",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise"
+    },
+    {
       "id": 1055,
       "name": "Akarsh Aryan",
       "firm": "JSA Advocates & Solicitors",
@@ -17596,6 +18013,34 @@
         }
       ],
       "snapshot": "Khaitan & Co, Antares Legal act on Nexus Select Trust's ₹1,600 crore acquisition of mall and hotel in Guwahati"
+    },
+    {
+      "id": 3929,
+      "name": "Akash Jose",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise"
     },
     {
       "id": 2027,
@@ -19741,6 +20186,34 @@
       "snapshot": "Trilegal, TT&A, Hogan Lovells Cadwalader act on APAR Industries ₹2,500 crore QIP"
     },
     {
+      "id": 3923,
+      "name": "Akshobhya Nitin Pol",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise"
+    },
+    {
       "id": 2763,
       "name": "Alankrita Singh",
       "firm": "Khaitan & Co",
@@ -19807,7 +20280,8 @@
         "Goldman Sachs-affiliated selling shareholders",
         "APAR Industries",
         "Aragen Life Sciences",
-        "ARCIL"
+        "ARCIL",
+        "Dosti Realty proposed IPO"
       ],
       "deals": [
         {
@@ -19948,6 +20422,19 @@
             "amount_inr": 7320000000,
             "approx": false
           }
+        },
+        {
+          "headline": "Trilegal, TT&A, Hogan Lovells Cadwalader act on Dosti Realty proposed IPO",
+          "client": "Dosti Realty proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-hogan-lovells-cadwalader-act-on-dosti-realty-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": null
         }
       ],
       "snapshot": "Trilegal acts on GSP Crop Science ₹400 crore IPO - Bar and Bench"
@@ -21012,6 +21499,38 @@
         }
       ],
       "snapshot": "Trilegal, Sheppard act on $310 million acquisition of iMerit by EXL - Bar and Bench"
+    },
+    {
+      "id": 3973,
+      "name": "Aman Maini",
+      "firm": "Fox Mandal & Associates",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "SD International proposed IPO"
+      ],
+      "deals": [
+        {
+          "headline": "Fox & Mandal acts on SD International proposed IPO",
+          "client": "SD International proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/fox-mandal-acts-on-sd-international-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Fox & Mandal acts on SD International proposed IPO"
     },
     {
       "id": 1301,
@@ -22919,6 +23438,40 @@
       "snapshot": "JSA, A&G, Gibson Dunn, AZB, Simpson Thacher, Latham, CAM act on SingTel - KKR billion ..."
     },
     {
+      "id": 3960,
+      "name": "Amrusha Monga",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "ChrysCapital"
+      ],
+      "deals": [
+        {
+          "headline": "SAM advises ChrysCapital on minority stake acquisition in Linux Laboratories; K Law advises Tata Healthcare Fund II and III",
+          "client": "ChrysCapital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-chryscapital-on-minority-stake-acquisition-in-linux-laboratories",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "SAM advises ChrysCapital on minority stake acquisition in Linux Laboratories; K Law advises Tata..."
+    },
+    {
       "id": 147,
       "name": "Amruth Rao",
       "firm": "Argus Partners",
@@ -23339,7 +23892,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Tempsens Instruments"
+        "Tempsens Instruments",
+        "Dosti Realty proposed IPO"
       ],
       "deals": [
         {
@@ -23360,6 +23914,19 @@
             "amount_inr": 6500000000,
             "approx": false
           }
+        },
+        {
+          "headline": "Trilegal, TT&A, Hogan Lovells Cadwalader act on Dosti Realty proposed IPO",
+          "client": "Dosti Realty proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-hogan-lovells-cadwalader-act-on-dosti-realty-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": null
         }
       ],
       "snapshot": "S&R Associates, Trilegal act on Tempsens Instruments ₹650 crore IPO"
@@ -24416,6 +24983,38 @@
         }
       ],
       "snapshot": "CAM, SAM act on Devyani International – Sapphire Foods merger"
+    },
+    {
+      "id": 3969,
+      "name": "And Rajdeep Mukherjee",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Remunance Services"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises Remunance Services on its acquisition by Hightekers Group",
+          "client": "Remunance Services",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-remunance-services-on-its-acquisition-by-hightekers-group",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Trilegal advises Remunance Services on its acquisition by Hightekers Group"
     },
     {
       "id": 298,
@@ -26021,7 +26620,7 @@
       "id": 170,
       "name": "Anjali AR",
       "firm": "Trilegal",
-      "role": "Associate (Labour & Employment)",
+      "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
         "acquisition"
@@ -26045,6 +26644,21 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal, Sheppard act on $310 million acquisition of iMerit by EXL - Bar and Bench"
@@ -28073,6 +28687,21 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune"
@@ -28118,7 +28747,8 @@
         "Book Running Lead Managers",
         "iValue Infosolutions",
         "Sudeep Pharma",
-        "Karamtara Engineering"
+        "Karamtara Engineering",
+        "JSW One"
       ],
       "deals": [
         {
@@ -28189,6 +28819,25 @@
             "currency": "INR",
             "amount": 8750000000,
             "amount_inr": 8750000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
             "approx": false
           }
         }
@@ -29240,6 +29889,34 @@
         }
       ],
       "snapshot": "TT&A, Trilegal, Gibson Dunn act on Neysa securing $1 billion+ funding from"
+    },
+    {
+      "id": 3921,
+      "name": "Anshul Sharma",
+      "firm": "Trilegal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise"
     },
     {
       "id": 3661,
@@ -31133,6 +31810,34 @@
       "snapshot": "S&T Legal advises Fusion CX on acquisition of VA Platinum"
     },
     {
+      "id": 3931,
+      "name": "Anusha Nookala",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise"
+    },
+    {
       "id": 803,
       "name": "Anusha Rai",
       "firm": "Cyril Amarchand Mangaldas",
@@ -31450,6 +32155,44 @@
         "verdict": "UNVERIFIED",
         "evidence": "No search results found for this exact name at either SAM or Khaitan & Co - only similarly-named but distinct individuals (Anushka Sharda, Anushka Bhargava, Anushka Sahay)."
       }
+    },
+    {
+      "id": 3942,
+      "name": "Anushka Gurnani",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "JSW One"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO"
     },
     {
       "id": 3786,
@@ -32455,6 +33198,21 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal, Sheppard act on $310 million acquisition of iMerit by EXL - Bar and Bench"
@@ -32862,13 +33620,17 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "acquisition",
+        "stake acquisition"
       ],
       "practice_areas": [
-        "Capital Markets"
+        "Capital Markets",
+        "Mergers & Acquisitions"
       ],
       "clients": [
-        "Tenneco India & Promoter Selling Shareholder"
+        "Tenneco India & Promoter Selling Shareholder",
+        "ChrysCapital"
       ],
       "deals": [
         {
@@ -32881,6 +33643,20 @@
           ],
           "practice_areas": [
             "Capital Markets"
+          ],
+          "value": null
+        },
+        {
+          "headline": "SAM advises ChrysCapital on minority stake acquisition in Linux Laboratories; K Law advises Tata Healthcare Fund II and III",
+          "client": "ChrysCapital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-chryscapital-on-minority-stake-acquisition-in-linux-laboratories",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ],
           "value": null
         }
@@ -33110,6 +33886,21 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune"
@@ -35311,8 +36102,8 @@
       "id": 2140,
       "name": "Arnav Nagalia",
       "firm": "Trilegal",
-      "role": "Counsel",
-      "role_bucket": "Counsel",
+      "role": "Partner",
+      "role_bucket": "Partner",
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
@@ -35327,6 +36118,21 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal, CAM set up Bain Capital - Sattva Group $100 million co-living platform under 'Colive' brand"
@@ -35704,7 +36510,8 @@
       "clients": [
         "GSP Crop Science",
         "Book Running Lead Managers",
-        "ARCIL"
+        "ARCIL",
+        "Dosti Realty proposed IPO"
       ],
       "deals": [
         {
@@ -35751,6 +36558,19 @@
             "amount_inr": 7320000000,
             "approx": false
           }
+        },
+        {
+          "headline": "Trilegal, TT&A, Hogan Lovells Cadwalader act on Dosti Realty proposed IPO",
+          "client": "Dosti Realty proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-hogan-lovells-cadwalader-act-on-dosti-realty-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": null
         }
       ],
       "snapshot": "Trilegal acts on GSP Crop Science ₹400 crore IPO - Bar and Bench"
@@ -35807,6 +36627,21 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune"
@@ -37653,6 +38488,34 @@
       "snapshot": "Mahindra & Mahindra sells Trucks and Buses Division to SML Mahindra for ₹525 crore; Khaitan & Co, AZB advise"
     },
     {
+      "id": 3927,
+      "name": "Ashlesha Pandey",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise"
+    },
+    {
       "id": 3815,
       "name": "Ashlesha Singhal",
       "firm": "Trilegal",
@@ -39232,6 +40095,21 @@
             "amount_inr": 123200000000,
             "approx": false
           }
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas advises as Hyundai and TVS join hands to develop electric 3 ..."
@@ -39467,7 +40345,8 @@
         "Adani Energy Solutions",
         "Gujarat Themis Biosyn",
         "Pranav Constructions'",
-        "Paisalo"
+        "Paisalo",
+        "LCC Projects"
       ],
       "deals": [
         {
@@ -39645,6 +40524,25 @@
             "currency": "INR",
             "amount": 3000000000,
             "amount_inr": 3000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal acts on LCC Projects ₹427 crore IPO",
+          "client": "LCC Projects",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-llc-projects-427-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹427 crore",
+            "currency": "INR",
+            "amount": 4270000000,
+            "amount_inr": 4270000000,
             "approx": false
           }
         }
@@ -41493,6 +42391,30 @@
       "snapshot": "CAM, SAM, Trilegal act on Amagi Media Labs ₹1,788.62 crore IPO - Bar and Bench"
     },
     {
+      "id": 3956,
+      "name": "Ayushi Tomar",
+      "firm": "Elarra Law Offices",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Godrej Properties"
+      ],
+      "deals": [
+        {
+          "headline": "Elarra Law Offices advises Godrej Properties on acquiring development rights of luxury project in South Mumbai",
+          "client": "Godrej Properties",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/elarra-law-offices-advises-godrej-properties-on-acquiring-development-rights-of-luxury-project-in-south-mumbai",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "Elarra Law Offices advises Godrej Properties on acquiring development rights of luxury project in South Mumbai"
+    },
+    {
       "id": 1932,
       "name": "Ayushi Toshniwal",
       "firm": "Cyril Amarchand Mangaldas",
@@ -41703,6 +42625,38 @@
         }
       ],
       "snapshot": "JSA advises Volvo on NBFC joint venture with Eicher Motors - Bar and Bench"
+    },
+    {
+      "id": 3940,
+      "name": "Basil Gupta",
+      "firm": "Talwar Thakore & Associates",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Dosti Realty proposed IPO"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, TT&A, Hogan Lovells Cadwalader act on Dosti Realty proposed IPO",
+          "client": "Dosti Realty proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-hogan-lovells-cadwalader-act-on-dosti-realty-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Trilegal, TT&A, Hogan Lovells Cadwalader act on Dosti Realty proposed IPO"
     },
     {
       "id": 2061,
@@ -45879,13 +46833,16 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
+        "IPO",
         "acquisition"
       ],
       "practice_areas": [
+        "Capital Markets",
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Pluxee Group"
+        "Pluxee Group",
+        "JSW One"
       ],
       "deals": [
         {
@@ -45900,6 +46857,25 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal advises Pluxee Group on acquisition of ProEves - Bar and Bench"
@@ -47637,7 +48613,8 @@
       ],
       "clients": [
         "Book-Running Lead Managers",
-        "Rentomojo"
+        "Rentomojo",
+        "Dosti Realty proposed IPO"
       ],
       "deals": [
         {
@@ -47671,6 +48648,19 @@
             "amount_inr": 12550000000,
             "approx": false
           }
+        },
+        {
+          "headline": "Trilegal, TT&A, Hogan Lovells Cadwalader act on Dosti Realty proposed IPO",
+          "client": "Dosti Realty proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-hogan-lovells-cadwalader-act-on-dosti-realty-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": null
         }
       ],
       "snapshot": "CAM, Trilegal, TT&A, Hogan Lovells act on Rentomojo proposed ₹150 crore+ IPO"
@@ -48092,7 +49082,8 @@
       "clients": [
         "Studds and Selling Shareholders",
         "Chartered Speed Limited",
-        "PNG Jewellers"
+        "PNG Jewellers",
+        "JSW One"
       ],
       "deals": [
         {
@@ -48137,6 +49128,25 @@
             "currency": "INR",
             "amount": 7000000000,
             "amount_inr": 7000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
             "approx": false
           }
         }
@@ -49590,6 +50600,40 @@
       "snapshot": "Wilson Sonsini, JSA, Latham act on Marvell's acquisition of Celestial AI"
     },
     {
+      "id": 3961,
+      "name": "Devaditya Chakravarti",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Counsel",
+      "role_bucket": "Counsel",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "ChrysCapital"
+      ],
+      "deals": [
+        {
+          "headline": "SAM advises ChrysCapital on minority stake acquisition in Linux Laboratories; K Law advises Tata Healthcare Fund II and III",
+          "client": "ChrysCapital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-chryscapital-on-minority-stake-acquisition-in-linux-laboratories",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "SAM advises ChrysCapital on minority stake acquisition in Linux Laboratories; K Law advises Tata..."
+    },
+    {
       "id": 806,
       "name": "Devaki Mankad",
       "firm": "Cyril Amarchand Mangaldas",
@@ -49610,7 +50654,8 @@
         "NDTV",
         "Adani Energy Solutions",
         "LEAP India",
-        "Piramal Finance"
+        "Piramal Finance",
+        "JSW One"
       ],
       "deals": [
         {
@@ -49716,6 +50761,25 @@
             "currency": "INR",
             "amount": 21000000000,
             "amount_inr": 21000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
             "approx": false
           }
         }
@@ -51022,13 +52086,16 @@
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
+        "acquisition",
         "joint venture"
       ],
       "practice_areas": [
-        "Corporate & Commercial"
+        "Corporate & Commercial",
+        "Mergers & Acquisitions"
       ],
       "clients": [
-        "Allana Group"
+        "Allana Group",
+        "Remunance Services"
       ],
       "deals": [
         {
@@ -51041,6 +52108,19 @@
           ],
           "practice_areas": [
             "Corporate & Commercial"
+          ],
+          "value": null
+        },
+        {
+          "headline": "Trilegal advises Remunance Services on its acquisition by Hightekers Group",
+          "client": "Remunance Services",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-remunance-services-on-its-acquisition-by-hightekers-group",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ],
           "value": null
         }
@@ -51573,6 +52653,21 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas advises Kotak Mahindra Bank on acquisition of Private ..."
@@ -51982,6 +53077,21 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal, CAM set up Bain Capital - Sattva Group $100 million co-living platform under 'Colive' brand"
@@ -52034,7 +53144,8 @@
       "clients": [
         "Placement agents",
         "Book Running Lead Managers",
-        "Paisalo"
+        "Paisalo",
+        "LCC Projects"
       ],
       "deals": [
         {
@@ -52075,6 +53186,25 @@
             "currency": "INR",
             "amount": 3000000000,
             "amount_inr": 3000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal acts on LCC Projects ₹427 crore IPO",
+          "client": "LCC Projects",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-llc-projects-427-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹427 crore",
+            "currency": "INR",
+            "amount": 4270000000,
+            "amount_inr": 4270000000,
             "approx": false
           }
         }
@@ -52320,7 +53450,8 @@
       "clients": [
         "Amagi",
         "KKR's €1.2 billion acquisition of Medicover India",
-        "Dhoot Transmission"
+        "Dhoot Transmission",
+        "JSW One"
       ],
       "deals": [
         {
@@ -52371,6 +53502,25 @@
             "currency": "INR",
             "amount": 30660000000,
             "amount_inr": 30660000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
             "approx": false
           }
         }
@@ -52988,6 +54138,40 @@
         }
       ],
       "snapshot": "Trilegal, Khaitan & Co act on JBM Ecolife Mobility securing ₹750 crore from Motilal Oswal"
+    },
+    {
+      "id": 3968,
+      "name": "Divya Lala",
+      "firm": "Krishnamurthy & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "ChrysCapital"
+      ],
+      "deals": [
+        {
+          "headline": "SAM advises ChrysCapital on minority stake acquisition in Linux Laboratories; K Law advises Tata Healthcare Fund II and III",
+          "client": "ChrysCapital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-chryscapital-on-minority-stake-acquisition-in-linux-laboratories",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "SAM advises ChrysCapital on minority stake acquisition in Linux Laboratories; K Law advises Tata..."
     },
     {
       "id": 2381,
@@ -54582,6 +55766,21 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "KreditBee becomes Unicorn with $280 million Series E fundraise; Touchstone, Trilegal ..."
@@ -55878,6 +57077,40 @@
         }
       ],
       "snapshot": "Wilson Sonsini, JSA, Latham act on Marvell's acquisition of Celestial AI"
+    },
+    {
+      "id": 3964,
+      "name": "Faiz Ahmad",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "ChrysCapital"
+      ],
+      "deals": [
+        {
+          "headline": "SAM advises ChrysCapital on minority stake acquisition in Linux Laboratories; K Law advises Tata Healthcare Fund II and III",
+          "client": "ChrysCapital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-chryscapital-on-minority-stake-acquisition-in-linux-laboratories",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "SAM advises ChrysCapital on minority stake acquisition in Linux Laboratories; K Law advises Tata..."
     },
     {
       "id": 750,
@@ -57483,6 +58716,21 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal, Sheppard act on $310 million acquisition of iMerit by EXL - Bar and Bench"
@@ -61031,6 +62279,34 @@
       "snapshot": "CAM, Trilegal, SAM act on Bharti Airtel, Carlyle, Alpha Wave investing $1 billion in Airtel's Nxtra Data"
     },
     {
+      "id": 3920,
+      "name": "Harsh Bhatti",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise"
+    },
+    {
       "id": 3416,
       "name": "Harsh Desai",
       "firm": "Desai & Diwanji",
@@ -62176,16 +63452,19 @@
       "id": 2600,
       "name": "Harshit Dhandhia",
       "firm": "Trilegal",
-      "role": "Associate",
-      "role_bucket": "Associate",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "acquisition"
       ],
       "practice_areas": [
-        "Capital Markets"
+        "Capital Markets",
+        "Mergers & Acquisitions"
       ],
       "clients": [
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Remunance Services"
       ],
       "deals": [
         {
@@ -62198,6 +63477,19 @@
           ],
           "practice_areas": [
             "Capital Markets"
+          ],
+          "value": null
+        },
+        {
+          "headline": "Trilegal advises Remunance Services on its acquisition by Hightekers Group",
+          "client": "Remunance Services",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-remunance-services-on-its-acquisition-by-hightekers-group",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ],
           "value": null
         }
@@ -66052,6 +67344,44 @@
       "snapshot": "DSK Legal advises KRS Corporation on majority stake acquisition in Coldrush Logistics"
     },
     {
+      "id": 3944,
+      "name": "Ishika Dube",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "JSW One"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO"
+    },
+    {
       "id": 1344,
       "name": "Ishika Goon",
       "firm": "Trilegal",
@@ -66765,6 +68095,34 @@
         }
       ],
       "snapshot": "Trilegal advises Pixxel on ₹1,200 crore+ PPP Project with IN-SPACe to build Indian Earth ..."
+    },
+    {
+      "id": 3930,
+      "name": "Isiri SD",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise"
     },
     {
       "id": 2241,
@@ -67956,6 +69314,34 @@
       "snapshot": "Accelerating India's AI Adoption: SAM, Hogan Lovells, Cooley act on $100 million Reliance–Meta JV"
     },
     {
+      "id": 3925,
+      "name": "Janeesha Singh",
+      "firm": "Trilegal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise"
+    },
+    {
       "id": 3565,
       "name": "Janhavi Deo Yadav",
       "firm": "CMS INDUSLAW",
@@ -68228,6 +69614,21 @@
             "currency": "INR",
             "amount": 26000000000,
             "amount_inr": 26000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
             "approx": false
           }
         }
@@ -69772,6 +71173,44 @@
         }
       ],
       "snapshot": "Fox Mandal & Associates advises on Brigade Enterprises’ entry into Coimbatore"
+    },
+    {
+      "id": 3957,
+      "name": "Jayesh Kothari",
+      "firm": "DSK Legal",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Viyash Scientific"
+      ],
+      "deals": [
+        {
+          "headline": "DSK Legal advises Viyash Scientific on ₹188 crore acquisition of BioForLife Italia",
+          "client": "Viyash Scientific",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/dsk-legal-advise-viyash-scientific-on-188-crore-acquisition-of-bioforlife-italia",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": {
+            "raw": "₹188 crore",
+            "currency": "INR",
+            "amount": 1880000000,
+            "amount_inr": 1880000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "DSK Legal advises Viyash Scientific on ₹188 crore acquisition of BioForLife Italia"
     },
     {
       "id": 3109,
@@ -73069,6 +74508,34 @@
       "snapshot": "Trilegal, CMS INDUSLAW act on EMI Metals ₹500 crore+ proposed IPO - Bar and Bench"
     },
     {
+      "id": 3928,
+      "name": "KZ Kuriyan",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise"
+    },
+    {
       "id": 3574,
       "name": "Kaazvin Kapadia",
       "firm": "Trilegal",
@@ -73159,13 +74626,16 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
+        "acquisition",
         "joint venture"
       ],
       "practice_areas": [
-        "Corporate & Commercial"
+        "Corporate & Commercial",
+        "Mergers & Acquisitions"
       ],
       "clients": [
-        "Allana Group"
+        "Allana Group",
+        "Remunance Services"
       ],
       "deals": [
         {
@@ -73178,6 +74648,19 @@
           ],
           "practice_areas": [
             "Corporate & Commercial"
+          ],
+          "value": null
+        },
+        {
+          "headline": "Trilegal advises Remunance Services on its acquisition by Hightekers Group",
+          "client": "Remunance Services",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-remunance-services-on-its-acquisition-by-hightekers-group",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ],
           "value": null
         }
@@ -73790,7 +75273,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Atomberg"
+        "Atomberg",
+        "JSW One"
       ],
       "deals": [
         {
@@ -73810,6 +75294,25 @@
             "amount": 4500000000,
             "amount_inr": 4500000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
+            "approx": false
           }
         }
       ],
@@ -73863,7 +75366,7 @@
           "id": 3566,
           "firm": "Khaitan & Co",
           "role": "Senior Associate",
-          "deal_count": 1
+          "deal_count": 2
         }
       ],
       "firm_verification": {
@@ -76038,14 +77541,18 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "acquisition",
+        "stake acquisition"
       ],
       "practice_areas": [
-        "Capital Markets"
+        "Capital Markets",
+        "Mergers & Acquisitions"
       ],
       "clients": [
         "Tenneco India & Promoter Selling Shareholder",
-        "Investor Selling Shareholders"
+        "Investor Selling Shareholders",
+        "ChrysCapital"
       ],
       "deals": [
         {
@@ -76071,6 +77578,20 @@
           ],
           "practice_areas": [
             "Capital Markets"
+          ],
+          "value": null
+        },
+        {
+          "headline": "SAM advises ChrysCapital on minority stake acquisition in Linux Laboratories; K Law advises Tata Healthcare Fund II and III",
+          "client": "ChrysCapital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-chryscapital-on-minority-stake-acquisition-in-linux-laboratories",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ],
           "value": null
         }
@@ -77680,7 +79201,8 @@
       ],
       "clients": [
         "Mittal Family",
-        "Allana Group"
+        "Allana Group",
+        "Remunance Services"
       ],
       "deals": [
         {
@@ -77706,6 +79228,19 @@
           ],
           "practice_areas": [
             "Corporate & Commercial"
+          ],
+          "value": null
+        },
+        {
+          "headline": "Trilegal advises Remunance Services on its acquisition by Hightekers Group",
+          "client": "Remunance Services",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-remunance-services-on-its-acquisition-by-hightekers-group",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ],
           "value": null
         }
@@ -77735,6 +79270,38 @@
         }
       ],
       "snapshot": "CAM advises QBE Holdings on acquiring Raheja QBE General Insurance Company"
+    },
+    {
+      "id": 3935,
+      "name": "Kevin Davis",
+      "firm": "Saraf and Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "JSW Infrastructure"
+      ],
+      "deals": [
+        {
+          "headline": "Saraf and Partners advises JSW Infrastructure on acquisition of NCR Rail Infrastructure",
+          "client": "JSW Infrastructure",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/saraf-and-partners-advises-jsw-infrastructure-on-acquisition-of-ncr-rail-infrastructure",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Saraf and Partners advises JSW Infrastructure on acquisition of NCR Rail Infrastructure"
     },
     {
       "id": 683,
@@ -79335,7 +80902,8 @@
         "Mittal Family",
         "Prism Johnson",
         "Allana Group",
-        "Muthoot Finance"
+        "Muthoot Finance",
+        "Remunance Services"
       ],
       "deals": [
         {
@@ -79380,6 +80948,19 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "Trilegal advises Remunance Services on its acquisition by Hightekers Group",
+          "client": "Remunance Services",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-remunance-services-on-its-acquisition-by-hightekers-group",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
           "value": null
         }
       ],
@@ -81755,6 +83336,21 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal, CAM, Latham, AZB, Equilex, Macfarlanes advise on Mittal-Poonawalla consortium ..."
@@ -84767,7 +86363,8 @@
         "JSW Infrastructure",
         "Book Running Lead Managers",
         "Motilal Oswal Group",
-        "Atomberg"
+        "Atomberg",
+        "JSW One"
       ],
       "deals": [
         {
@@ -84828,6 +86425,25 @@
             "amount": 4500000000,
             "amount_inr": 4500000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
+            "approx": false
           }
         }
       ],
@@ -84938,6 +86554,30 @@
         }
       ],
       "snapshot": "Capitaland sells ITPC Chennai to Mindspace, 360 One for ₹3000 crore - Bar and Bench"
+    },
+    {
+      "id": 3952,
+      "name": "Madhura Samant",
+      "firm": "Elarra Law Offices",
+      "role": "Managing Partner",
+      "role_bucket": "Managing Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Godrej Properties"
+      ],
+      "deals": [
+        {
+          "headline": "Elarra Law Offices advises Godrej Properties on acquiring development rights of luxury project in South Mumbai",
+          "client": "Godrej Properties",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/elarra-law-offices-advises-godrej-properties-on-acquiring-development-rights-of-luxury-project-in-south-mumbai",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "Elarra Law Offices advises Godrej Properties on acquiring development rights of luxury project in South Mumbai"
     },
     {
       "id": 2225,
@@ -86246,6 +87886,21 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal, Sheppard act on $310 million acquisition of iMerit by EXL - Bar and Bench"
@@ -90686,8 +92341,8 @@
         {
           "id": 2670,
           "firm": "Cyril Amarchand Mangaldas",
-          "role": "Associate (ESOP)",
-          "deal_count": 1
+          "role": "Senior Associate",
+          "deal_count": 2
         }
       ],
       "firm_verification": {
@@ -90699,8 +92354,8 @@
       "id": 2670,
       "name": "Mayank Jain",
       "firm": "Cyril Amarchand Mangaldas",
-      "role": "Associate (ESOP)",
-      "role_bucket": "Associate",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
       "transaction_types": [
         "IPO"
       ],
@@ -90723,6 +92378,21 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM, S&R, SAM, Sidley Austin act on ICICI Prudential AMC ₹10602 crore IPO",
@@ -91961,7 +93631,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Horizon Industrial Parks"
+        "Horizon Industrial Parks",
+        "JSW One"
       ],
       "deals": [
         {
@@ -91980,6 +93651,25 @@
             "currency": "INR",
             "amount": 26000000000,
             "amount_inr": 26000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
             "approx": false
           }
         }
@@ -92644,13 +94334,15 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "IPO",
         "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
       ],
       "clients": [
-        "APAR Industries"
+        "APAR Industries",
+        "Dosti Realty proposed IPO"
       ],
       "deals": [
         {
@@ -92671,6 +94363,19 @@
             "amount_inr": 25000000000,
             "approx": false
           }
+        },
+        {
+          "headline": "Trilegal, TT&A, Hogan Lovells Cadwalader act on Dosti Realty proposed IPO",
+          "client": "Dosti Realty proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-hogan-lovells-cadwalader-act-on-dosti-realty-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": null
         }
       ],
       "snapshot": "Trilegal, TT&A, Hogan Lovells Cadwalader act on APAR Industries ₹2,500 crore QIP"
@@ -93371,6 +95076,7 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "IPO",
         "QIP",
         "investment"
       ],
@@ -93382,7 +95088,8 @@
         "Placement agents",
         "IIFL Capital Services Limited and Jefferies India Private Limited",
         "IIFL Capital Services and Jefferies India",
-        "Piramal Finance"
+        "Piramal Finance",
+        "JSW One"
       ],
       "deals": [
         {
@@ -93442,6 +95149,25 @@
             "currency": "INR",
             "amount": 21000000000,
             "amount_inr": 21000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
             "approx": false
           }
         }
@@ -93562,7 +95288,8 @@
       ],
       "clients": [
         "Book Running Lead Managers",
-        "Aragen Life Sciences"
+        "Aragen Life Sciences",
+        "Dosti Realty proposed IPO"
       ],
       "deals": [
         {
@@ -93596,6 +95323,19 @@
             "amount_inr": 8000000000,
             "approx": true
           }
+        },
+        {
+          "headline": "Trilegal, TT&A, Hogan Lovells Cadwalader act on Dosti Realty proposed IPO",
+          "client": "Dosti Realty proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-hogan-lovells-cadwalader-act-on-dosti-realty-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": null
         }
       ],
       "snapshot": "CAM, Trilegal, Hogan Lovells act on Runwal Realty ₹2,000 crore proposed IPO"
@@ -93725,6 +95465,34 @@
         }
       ],
       "snapshot": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies"
+    },
+    {
+      "id": 3913,
+      "name": "Mohammed Sayed",
+      "firm": "Trilegal",
+      "role": "Counsel",
+      "role_bucket": "Counsel",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise"
     },
     {
       "id": 3552,
@@ -94015,6 +95783,34 @@
         }
       ],
       "snapshot": "Trilegal, CAM, Latham, AZB, Equilex, Macfarlanes advise on Mittal-Poonawalla consortium ..."
+    },
+    {
+      "id": 3932,
+      "name": "Mohnish Khandale",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise"
     },
     {
       "id": 399,
@@ -94362,6 +96158,21 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal, Sheppard act on $310 million acquisition of iMerit by EXL - Bar and Bench"
@@ -94549,6 +96360,21 @@
             "amount_inr": 7000000000,
             "approx": false
           }
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas acts on Nxt-Infra Trust ₹700 crore institutional placement of units"
@@ -94657,6 +96483,21 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Khaitan & Co, Trilegal act on Blackstone-backed EPL - Indovida Packaging merger"
@@ -94715,7 +96556,8 @@
         "Studds and Selling Shareholders",
         "Chartered Speed Limited",
         "Capital Infra Trust",
-        "ESDS"
+        "ESDS",
+        "JSW One"
       ],
       "deals": [
         {
@@ -94803,6 +96645,25 @@
             "amount_inr": 7200000000,
             "approx": false
           }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal, CMS INDUSLAW act on EMI Metals ₹500 crore+ proposed IPO - Bar and Bench",
@@ -94871,7 +96732,7 @@
           "id": 777,
           "firm": "Trilegal",
           "role": "Associate",
-          "deal_count": 6
+          "deal_count": 7
         }
       ],
       "firm_verification": {
@@ -95716,19 +97577,50 @@
       "snapshot": "Trilegal, Latham & Watkins, Goodwin act on Oxane Partners securing investment from TA Associates"
     },
     {
+      "id": 3914,
+      "name": "Mythri Jonnal",
+      "firm": "Trilegal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise"
+    },
+    {
       "id": 161,
       "name": "Mythri Murali",
       "firm": "Khaitan & Co",
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "IPO",
         "acquisition"
       ],
       "practice_areas": [
+        "Capital Markets",
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "JM Financial Limited and Avendus Capital Private Limited (BRLMs)"
+        "JM Financial Limited and Avendus Capital Private Limited (BRLMs)",
+        "JSW One"
       ],
       "deals": [
         {
@@ -95743,6 +97635,25 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Khaitan & Co act on Swara Baby Products ..."
@@ -96155,7 +98066,8 @@
         "Qualiance International IPO",
         "Vardaan Biotech",
         "Nexa Defence IPO",
-        "Dinotarp IPO"
+        "Dinotarp IPO",
+        "SG Encon IPO"
       ],
       "deals": [
         {
@@ -96271,6 +98183,25 @@
             "amount_inr": 269300000,
             "approx": false
           }
+        },
+        {
+          "headline": "Legacy Law Offices acts on SG Encon IPO",
+          "client": "SG Encon IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-sg-encon-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹75 crore+",
+            "currency": "INR",
+            "amount": 750000000,
+            "amount_inr": 750000000,
+            "approx": true
+          }
         }
       ],
       "snapshot": "Legacy Law Offices acts on Apar Advertisers IPO",
@@ -96329,7 +98260,7 @@
           "id": 3047,
           "firm": "Legacy Law Offices",
           "role": "Counsel",
-          "deal_count": 6
+          "deal_count": 7
         }
       ],
       "firm_verification": {
@@ -96537,6 +98468,7 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "IPO",
         "QIP"
       ],
       "practice_areas": [
@@ -96546,7 +98478,8 @@
         "Adani Enterprises Limited and lead managers",
         "India’s Largest OFS of",
         "Motilal Oswal Group",
-        "Gujarat Themis Biosyn"
+        "Gujarat Themis Biosyn",
+        "LCC Projects"
       ],
       "deals": [
         {
@@ -96606,6 +98539,25 @@
             "amount_inr": 7500000000,
             "approx": false
           }
+        },
+        {
+          "headline": "Trilegal acts on LCC Projects ₹427 crore IPO",
+          "client": "LCC Projects",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-llc-projects-427-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹427 crore",
+            "currency": "INR",
+            "amount": 4270000000,
+            "amount_inr": 4270000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal acts on Adani Enterprises ₹1,000 crore NCD issue - Bar and Bench"
@@ -96648,6 +98600,21 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Capitaland sells ITPC Chennai to Mindspace, 360 One for ₹3000 crore - Bar and Bench"
@@ -100214,6 +102181,30 @@
       "snapshot": "TT&A, Trilegal, Gibson Dunn act on Neysa securing $1 billion+ funding from"
     },
     {
+      "id": 3954,
+      "name": "Nihal Mehta",
+      "firm": "Elarra Law Offices",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Godrej Properties"
+      ],
+      "deals": [
+        {
+          "headline": "Elarra Law Offices advises Godrej Properties on acquiring development rights of luxury project in South Mumbai",
+          "client": "Godrej Properties",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/elarra-law-offices-advises-godrej-properties-on-acquiring-development-rights-of-luxury-project-in-south-mumbai",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "Elarra Law Offices advises Godrej Properties on acquiring development rights of luxury project in South Mumbai"
+    },
+    {
       "id": 523,
       "name": "Niharika Choudhary",
       "firm": "Trilegal",
@@ -101837,7 +103828,8 @@
       ],
       "clients": [
         "Placement agents",
-        "Powerica & Promoter Selling Shareholders"
+        "Powerica & Promoter Selling Shareholders",
+        "JSW One"
       ],
       "deals": [
         {
@@ -101867,6 +103859,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "AZB, Cyril Amarchand Mangaldas, Hogan Lovells act on Blue Jet Healthcare ₹800 crore QIP"
@@ -106029,6 +108040,21 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Cyril Amarchand Mangaldas, White & Case act ... - Bar and Bench"
@@ -107909,7 +109935,8 @@
       "role_bucket": "Partner",
       "transaction_types": [
         "IPO",
-        "acquisition"
+        "acquisition",
+        "stake acquisition"
       ],
       "practice_areas": [
         "Capital Markets",
@@ -107919,7 +109946,8 @@
         "Aica Kogyo Co",
         "Orkla India, Orkla ASA, and Orkla Asia Pacific Pte. Ltd.",
         "Mitsui Fudosan",
-        "Tenneco India & Promoter Selling Shareholder"
+        "Tenneco India & Promoter Selling Shareholder",
+        "ChrysCapital"
       ],
       "deals": [
         {
@@ -107967,6 +109995,20 @@
           ],
           "practice_areas": [
             "Capital Markets"
+          ],
+          "value": null
+        },
+        {
+          "headline": "SAM advises ChrysCapital on minority stake acquisition in Linux Laboratories; K Law advises Tata Healthcare Fund II and III",
+          "client": "ChrysCapital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-chryscapital-on-minority-stake-acquisition-in-linux-laboratories",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ],
           "value": null
         }
@@ -109863,6 +111905,34 @@
       "snapshot": "Khaitan & Co advises Hindustan Composites on ₹370 crore sale of its friction business"
     },
     {
+      "id": 3924,
+      "name": "Pranav Atit",
+      "firm": "Trilegal",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise"
+    },
+    {
       "id": 2076,
       "name": "Pranav Bajaj",
       "firm": "Cyril Amarchand Mangaldas",
@@ -111125,6 +113195,38 @@
         }
       ],
       "snapshot": "Trilegal, Khaitan & Co act on JBM Ecolife Mobility securing ₹750 crore from Motilal Oswal"
+    },
+    {
+      "id": 3971,
+      "name": "Prashaant Vikram Rajput",
+      "firm": "Fox Mandal & Associates",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "SD International proposed IPO"
+      ],
+      "deals": [
+        {
+          "headline": "Fox & Mandal acts on SD International proposed IPO",
+          "client": "SD International proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/fox-mandal-acts-on-sd-international-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Fox & Mandal acts on SD International proposed IPO"
     },
     {
       "id": 140,
@@ -114076,7 +116178,8 @@
       ],
       "clients": [
         "Apar Advertisers IPO",
-        "Dain Colour Chem IPO"
+        "Dain Colour Chem IPO",
+        "SG Encon IPO"
       ],
       "deals": [
         {
@@ -114114,6 +116217,25 @@
             "currency": "INR",
             "amount": 300000000,
             "amount_inr": 300000000,
+            "approx": true
+          }
+        },
+        {
+          "headline": "Legacy Law Offices acts on SG Encon IPO",
+          "client": "SG Encon IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-sg-encon-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹75 crore+",
+            "currency": "INR",
+            "amount": 750000000,
+            "amount_inr": 750000000,
             "approx": true
           }
         }
@@ -114174,7 +116296,7 @@
           "id": 3048,
           "firm": "Legacy Law Offices",
           "role": "Associate Partner",
-          "deal_count": 2
+          "deal_count": 3
         }
       ],
       "firm_verification": {
@@ -116004,7 +118126,7 @@
           "id": 3614,
           "firm": "Hogan Lovells Cadwalader",
           "role": "Associate",
-          "deal_count": 1
+          "deal_count": 2
         }
       ],
       "firm_verification": {
@@ -116025,7 +118147,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Nobel Hygiene"
+        "Nobel Hygiene",
+        "Dosti Realty proposed IPO"
       ],
       "deals": [
         {
@@ -116046,6 +118169,19 @@
             "amount_inr": 1500000000,
             "approx": true
           }
+        },
+        {
+          "headline": "Trilegal, TT&A, Hogan Lovells Cadwalader act on Dosti Realty proposed IPO",
+          "client": "Dosti Realty proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-hogan-lovells-cadwalader-act-on-dosti-realty-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": null
         }
       ],
       "snapshot": "Khaitan & Co, TT&A, JSA act on Nobel Hygiene ₹150 crore+ proposed IPO",
@@ -118339,7 +120475,8 @@
       "clients": [
         "Sunshine Pictures",
         "Veegaland Homes",
-        "Adroit Industries'"
+        "Adroit Industries'",
+        "Swastika Infra’s"
       ],
       "deals": [
         {
@@ -118396,6 +120533,25 @@
             "currency": "INR",
             "amount": 1500000000,
             "amount_inr": 1500000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Vidhigya Associates acts on Swastika Infra’s ₹200 crore IPO and pre-IPO placement",
+          "client": "Swastika Infra’s",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/vidhigya-associates-acts-on-swastika-infras-200-crore-ipo-and-pre-ipo-placement",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹200 crore",
+            "currency": "INR",
+            "amount": 2000000000,
+            "amount_inr": 2000000000,
             "approx": false
           }
         }
@@ -118479,14 +120635,17 @@
       "role": "Principal Associate",
       "role_bucket": "Principal Associate",
       "transaction_types": [
-        "merger"
+        "acquisition",
+        "merger",
+        "stake acquisition"
       ],
       "practice_areas": [
         "Mergers & Acquisitions"
       ],
       "clients": [
         "Norwest Venture Partners X & Alpha Wave Global",
-        "Berry Street - Healthify merger"
+        "Berry Street - Healthify merger",
+        "ChrysCapital"
       ],
       "deals": [
         {
@@ -118509,6 +120668,20 @@
           "source": "Bar & Bench",
           "types": [
             "merger"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        },
+        {
+          "headline": "SAM advises ChrysCapital on minority stake acquisition in Linux Laboratories; K Law advises Tata Healthcare Fund II and III",
+          "client": "ChrysCapital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-chryscapital-on-minority-stake-acquisition-in-linux-laboratories",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
@@ -118696,6 +120869,21 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune"
@@ -119208,6 +121396,34 @@
       "snapshot": "S&R Associates, Trilegal act on Gaja Capital ₹550 crore IPO"
     },
     {
+      "id": 3916,
+      "name": "Rajat Deepak Kalal",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise"
+    },
+    {
       "id": 152,
       "name": "Rajat Jain",
       "firm": "CMS INDUSLAW",
@@ -119455,6 +121671,21 @@
             "currency": "GBP",
             "amount": 1100000000,
             "amount_inr": 123200000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
             "approx": false
           }
         }
@@ -119902,6 +122133,44 @@
         "verdict": "DIFFERENT_PEOPLE",
         "evidence": "Latham & Watkins' Rajiv Gupta (India Practice Head) has a documented career via Davis Polk & Wardwell before joining Latham in 2006 - no AZB & Partners history found. Weak evidence overall but points away from a single-person move."
       }
+    },
+    {
+      "id": 3958,
+      "name": "Rajlaxmi Kale",
+      "firm": "DSK Legal",
+      "role": "Associate Partner",
+      "role_bucket": "Associate Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Viyash Scientific"
+      ],
+      "deals": [
+        {
+          "headline": "DSK Legal advises Viyash Scientific on ₹188 crore acquisition of BioForLife Italia",
+          "client": "Viyash Scientific",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/dsk-legal-advise-viyash-scientific-on-188-crore-acquisition-of-bioforlife-italia",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": {
+            "raw": "₹188 crore",
+            "currency": "INR",
+            "amount": 1880000000,
+            "amount_inr": 1880000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "DSK Legal advises Viyash Scientific on ₹188 crore acquisition of BioForLife Italia"
     },
     {
       "id": 282,
@@ -122387,6 +124656,21 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM, Latham, Trilegal, JSA, Khaitan act on Manipal Hospitals ₹8,000 crore proposed IPO"
@@ -122554,6 +124838,21 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal advises Mahindra Lifespaces on JV with Mitsui Fudosan for Bengaluru housing project"
@@ -123058,6 +125357,40 @@
       "snapshot": "CAM, Trilegal, SAM act on Bharti Airtel, Carlyle, Alpha Wave investing $1 billion in Airtel's Nxtra Data"
     },
     {
+      "id": 3966,
+      "name": "Rhea Sethi",
+      "firm": "Krishnamurthy & Co",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "ChrysCapital"
+      ],
+      "deals": [
+        {
+          "headline": "SAM advises ChrysCapital on minority stake acquisition in Linux Laboratories; K Law advises Tata Healthcare Fund II and III",
+          "client": "ChrysCapital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-chryscapital-on-minority-stake-acquisition-in-linux-laboratories",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "SAM advises ChrysCapital on minority stake acquisition in Linux Laboratories; K Law advises Tata..."
+    },
+    {
       "id": 2343,
       "name": "Rhea Tewary",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -123272,6 +125605,38 @@
       "snapshot": "Argus Partners, Trilegal act on Surya Hospitals securing investment from Novo Holdings"
     },
     {
+      "id": 3975,
+      "name": "Ria Jain",
+      "firm": "Fox Mandal & Associates",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "SD International proposed IPO"
+      ],
+      "deals": [
+        {
+          "headline": "Fox & Mandal acts on SD International proposed IPO",
+          "client": "SD International proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/fox-mandal-acts-on-sd-international-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Fox & Mandal acts on SD International proposed IPO"
+    },
+    {
       "id": 3900,
       "name": "Ria Rastogi",
       "firm": "Rajani Associates",
@@ -123401,7 +125766,8 @@
         "Pranav Constructions'",
         "Kanohar Electricals",
         "Paisalo",
-        "Varmora Granito"
+        "Varmora Granito",
+        "LCC Projects"
       ],
       "deals": [
         {
@@ -123751,6 +126117,25 @@
             "currency": "INR",
             "amount": 7080000000,
             "amount_inr": 7080000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal acts on LCC Projects ₹427 crore IPO",
+          "client": "LCC Projects",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-llc-projects-427-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹427 crore",
+            "currency": "INR",
+            "amount": 4270000000,
+            "amount_inr": 4270000000,
             "approx": false
           }
         }
@@ -124340,6 +126725,38 @@
       "snapshot": "Trilegal, Cooley, AZB, Latham, SAM, CMS INDUSLAW act on CRED securing $900 million from Meta"
     },
     {
+      "id": 3939,
+      "name": "Rishab Taori",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Dosti Realty proposed IPO"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, TT&A, Hogan Lovells Cadwalader act on Dosti Realty proposed IPO",
+          "client": "Dosti Realty proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-hogan-lovells-cadwalader-act-on-dosti-realty-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Trilegal, TT&A, Hogan Lovells Cadwalader act on Dosti Realty proposed IPO"
+    },
+    {
       "id": 1827,
       "name": "Rishabh Bhargava",
       "firm": "Anagram Partners",
@@ -124666,7 +127083,8 @@
         "SEDEMAC",
         "Adani Enterprises",
         "NSE",
-        "Adani Energy Solutions"
+        "Adani Energy Solutions",
+        "JSW One"
       ],
       "deals": [
         {
@@ -124720,6 +127138,25 @@
             "currency": "INR",
             "amount": 35000000000,
             "amount_inr": 35000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
             "approx": false
           }
         }
@@ -125230,7 +127667,8 @@
       ],
       "clients": [
         "NSE",
-        "Swiggy"
+        "Swiggy",
+        "JSW One"
       ],
       "deals": [
         {
@@ -125258,6 +127696,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "NSE IPO: Which law firms are advising the stock exchange on its public listing?"
@@ -126661,7 +129118,8 @@
       "role_bucket": "Partner",
       "transaction_types": [
         "IPO",
-        "acquisition"
+        "acquisition",
+        "stake acquisition"
       ],
       "practice_areas": [
         "Capital Markets",
@@ -126670,7 +129128,8 @@
       "clients": [
         "Bain Capital",
         "Crystal Crop Protection",
-        "Tenneco India & Promoter Selling Shareholder"
+        "Tenneco India & Promoter Selling Shareholder",
+        "ChrysCapital"
       ],
       "deals": [
         {
@@ -126709,6 +129168,20 @@
           ],
           "practice_areas": [
             "Capital Markets"
+          ],
+          "value": null
+        },
+        {
+          "headline": "SAM advises ChrysCapital on minority stake acquisition in Linux Laboratories; K Law advises Tata Healthcare Fund II and III",
+          "client": "ChrysCapital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-chryscapital-on-minority-stake-acquisition-in-linux-laboratories",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ],
           "value": null
         }
@@ -127008,6 +129481,21 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Vritti Law, Trilegal act on Khandelwal Laboratories' ₹325 crore sale of business to Auro Pharma"
@@ -127369,6 +129857,38 @@
         }
       ],
       "snapshot": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ"
+    },
+    {
+      "id": 3970,
+      "name": "Rohit Kumar S",
+      "firm": "Trilegal",
+      "role": "Counsel",
+      "role_bucket": "Counsel",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Remunance Services"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal advises Remunance Services on its acquisition by Hightekers Group",
+          "client": "Remunance Services",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-remunance-services-on-its-acquisition-by-hightekers-group",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Trilegal advises Remunance Services on its acquisition by Hightekers Group"
     },
     {
       "id": 3760,
@@ -127939,6 +130459,34 @@
       "snapshot": "DSK Legal, Troutman Pepper Locke advise Energage on merger with Engagedly"
     },
     {
+      "id": 3915,
+      "name": "Roshini Bansal",
+      "firm": "Trilegal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise"
+    },
+    {
       "id": 2146,
       "name": "Roshni Bansal",
       "firm": "Trilegal",
@@ -128249,6 +130797,36 @@
       "snapshot": "CAM advises Jindal Power on acquisition of 1320 MW thermal power plant in Haryana"
     },
     {
+      "id": 3947,
+      "name": "Ruchir Sinha",
+      "firm": "Resolüt Partners",
+      "role": "Managing Partner",
+      "role_bucket": "Managing Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "IRB Infrastructure Trust"
+      ],
+      "deals": [
+        {
+          "headline": "Resolüt Partners advises IRB Infrastructure Trust on ₹2,744 crore sale of road assets",
+          "client": "IRB Infrastructure Trust",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/resolt-partners-advises-irb-infrastructure-trust-on-2744-crore-sale-of-road-assets",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹2,744 crore",
+            "currency": "INR",
+            "amount": 27440000000,
+            "amount_inr": 27440000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Resolüt Partners advises IRB Infrastructure Trust on ₹2,744 crore sale of road assets"
+    },
+    {
       "id": 3449,
       "name": "Ruchita Krishnan",
       "firm": "Universal Legal",
@@ -128497,6 +131075,38 @@
         }
       ],
       "snapshot": "OYO IPO 3.0: The law firms behind its ₹6650 crore public issue"
+    },
+    {
+      "id": 3972,
+      "name": "Rudresh Mandal",
+      "firm": "Fox Mandal & Associates",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "SD International proposed IPO"
+      ],
+      "deals": [
+        {
+          "headline": "Fox & Mandal acts on SD International proposed IPO",
+          "client": "SD International proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/fox-mandal-acts-on-sd-international-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Fox & Mandal acts on SD International proposed IPO"
     },
     {
       "id": 2939,
@@ -128884,6 +131494,38 @@
         }
       ],
       "snapshot": "Khaitan, JSA act on Weavers acquiring majority stake in Centrum Housing Finance"
+    },
+    {
+      "id": 3934,
+      "name": "Rupam Das",
+      "firm": "Saraf and Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "JSW Infrastructure"
+      ],
+      "deals": [
+        {
+          "headline": "Saraf and Partners advises JSW Infrastructure on acquisition of NCR Rail Infrastructure",
+          "client": "JSW Infrastructure",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/saraf-and-partners-advises-jsw-infrastructure-on-acquisition-of-ncr-rail-infrastructure",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Saraf and Partners advises JSW Infrastructure on acquisition of NCR Rail Infrastructure"
     },
     {
       "id": 3237,
@@ -129930,6 +132572,21 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal, CAM set up Bain Capital - Sattva Group $100 million co-living platform under 'Colive' brand"
@@ -130679,6 +133336,21 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal advises Mahindra Lifespaces on JV with Mitsui Fudosan for Bengaluru housing project"
@@ -132898,7 +135570,8 @@
       ],
       "clients": [
         "Qualiance International IPO",
-        "Vardaan Biotech"
+        "Vardaan Biotech",
+        "SG Encon IPO"
       ],
       "deals": [
         {
@@ -132936,6 +135609,25 @@
             "currency": "INR",
             "amount": 900000000,
             "amount_inr": 900000000,
+            "approx": true
+          }
+        },
+        {
+          "headline": "Legacy Law Offices acts on SG Encon IPO",
+          "client": "SG Encon IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-sg-encon-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹75 crore+",
+            "currency": "INR",
+            "amount": 750000000,
+            "amount_inr": 750000000,
             "approx": true
           }
         }
@@ -132996,7 +135688,7 @@
           "id": 3753,
           "firm": "Legacy Law Offices",
           "role": "Associate",
-          "deal_count": 2
+          "deal_count": 3
         }
       ],
       "firm_verification": {
@@ -133117,6 +135809,36 @@
         }
       ],
       "snapshot": "Capitaland sells ITPC Chennai to Mindspace, 360 One for ₹3000 crore - Bar and Bench"
+    },
+    {
+      "id": 3949,
+      "name": "Sammahith Addoor",
+      "firm": "Resolüt Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "IRB Infrastructure Trust"
+      ],
+      "deals": [
+        {
+          "headline": "Resolüt Partners advises IRB Infrastructure Trust on ₹2,744 crore sale of road assets",
+          "client": "IRB Infrastructure Trust",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/resolt-partners-advises-irb-infrastructure-trust-on-2744-crore-sale-of-road-assets",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹2,744 crore",
+            "currency": "INR",
+            "amount": 27440000000,
+            "amount_inr": 27440000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Resolüt Partners advises IRB Infrastructure Trust on ₹2,744 crore sale of road assets"
     },
     {
       "id": 3654,
@@ -134195,6 +136917,21 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Vritti Law, Trilegal act on Khandelwal Laboratories' ₹325 crore sale of business to Auro Pharma"
@@ -134526,14 +137263,18 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "acquisition",
+        "stake acquisition"
       ],
       "practice_areas": [
-        "Capital Markets"
+        "Capital Markets",
+        "Mergers & Acquisitions"
       ],
       "clients": [
         "Tenneco India & Promoter Selling Shareholder",
-        "Investor Selling Shareholders"
+        "Investor Selling Shareholders",
+        "ChrysCapital"
       ],
       "deals": [
         {
@@ -134559,6 +137300,20 @@
           ],
           "practice_areas": [
             "Capital Markets"
+          ],
+          "value": null
+        },
+        {
+          "headline": "SAM advises ChrysCapital on minority stake acquisition in Linux Laboratories; K Law advises Tata Healthcare Fund II and III",
+          "client": "ChrysCapital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-chryscapital-on-minority-stake-acquisition-in-linux-laboratories",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ],
           "value": null
         }
@@ -137118,7 +139873,8 @@
         "Lead Managers",
         "Motilal Oswal Group",
         "Dhoot Transmission",
-        "Varmora Granito"
+        "Varmora Granito",
+        "JSW One"
       ],
       "deals": [
         {
@@ -137184,6 +139940,25 @@
             "currency": "INR",
             "amount": 7080000000,
             "amount_inr": 7080000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
             "approx": false
           }
         }
@@ -139951,6 +142726,40 @@
       "snapshot": "JSA, Trilegal act on Apax Partners investing ₹1,500 crore in iD Fresh Food - Bar and Bench"
     },
     {
+      "id": 3965,
+      "name": "Shalini Prem",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "ChrysCapital"
+      ],
+      "deals": [
+        {
+          "headline": "SAM advises ChrysCapital on minority stake acquisition in Linux Laboratories; K Law advises Tata Healthcare Fund II and III",
+          "client": "ChrysCapital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-chryscapital-on-minority-stake-acquisition-in-linux-laboratories",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "SAM advises ChrysCapital on minority stake acquisition in Linux Laboratories; K Law advises Tata..."
+    },
+    {
       "id": 107,
       "name": "Shambhavi Anand",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -141484,6 +144293,21 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal, CAM set up Bain Capital - Sattva Group $100 million co-living platform under 'Colive' brand",
@@ -141536,7 +144360,7 @@
           "id": 2148,
           "firm": "Trilegal",
           "role": "Associate",
-          "deal_count": 1
+          "deal_count": 2
         }
       ],
       "firm_verification": {
@@ -141589,6 +144413,44 @@
       "clients": [],
       "deals": [],
       "snapshot": null
+    },
+    {
+      "id": 3943,
+      "name": "Shashank Ugrankar",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "JSW One"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO"
     },
     {
       "id": 2891,
@@ -143473,6 +146335,36 @@
       "snapshot": "SAM acts on Tractor Junction ₹200 crore fundraise - Bar and Bench"
     },
     {
+      "id": 3951,
+      "name": "Shivam Yadav",
+      "firm": "Resolüt Partners",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "IRB Infrastructure Trust"
+      ],
+      "deals": [
+        {
+          "headline": "Resolüt Partners advises IRB Infrastructure Trust on ₹2,744 crore sale of road assets",
+          "client": "IRB Infrastructure Trust",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/resolt-partners-advises-irb-infrastructure-trust-on-2744-crore-sale-of-road-assets",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹2,744 crore",
+            "currency": "INR",
+            "amount": 27440000000,
+            "amount_inr": 27440000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Resolüt Partners advises IRB Infrastructure Trust on ₹2,744 crore sale of road assets"
+    },
+    {
       "id": 2529,
       "name": "Shivanand Nayak",
       "firm": "AZB & Partners",
@@ -144090,6 +146982,40 @@
       "snapshot": "Trilegal advises Mahindra Lifespaces on JV with Mitsui Fudosan for Bengaluru housing project"
     },
     {
+      "id": 3962,
+      "name": "Shivani Pattnaik",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition",
+        "stake acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "ChrysCapital"
+      ],
+      "deals": [
+        {
+          "headline": "SAM advises ChrysCapital on minority stake acquisition in Linux Laboratories; K Law advises Tata Healthcare Fund II and III",
+          "client": "ChrysCapital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-chryscapital-on-minority-stake-acquisition-in-linux-laboratories",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "SAM advises ChrysCapital on minority stake acquisition in Linux Laboratories; K Law advises Tata..."
+    },
+    {
       "id": 2072,
       "name": "Shivani Shenoy",
       "firm": "AZB & Partners",
@@ -144433,6 +147359,44 @@
         }
       ],
       "snapshot": "CAM advises Hiranandani Financial Services on raising ₹800 crore from Vitruvian"
+    },
+    {
+      "id": 3945,
+      "name": "Shivesh Aggarwal",
+      "firm": "Trilegal",
+      "role": "Counsel",
+      "role_bucket": "Counsel",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "JSW One"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO"
     },
     {
       "id": 950,
@@ -144906,6 +147870,21 @@
             "currency": "INR",
             "amount": 15000000000,
             "amount_inr": 15000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
             "approx": false
           }
         }
@@ -147206,6 +150185,36 @@
       "snapshot": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Adani Enterprises ... - Bar and Bench"
     },
     {
+      "id": 3948,
+      "name": "Shreyas Bhushan",
+      "firm": "Resolüt Partners",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "IRB Infrastructure Trust"
+      ],
+      "deals": [
+        {
+          "headline": "Resolüt Partners advises IRB Infrastructure Trust on ₹2,744 crore sale of road assets",
+          "client": "IRB Infrastructure Trust",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/resolt-partners-advises-irb-infrastructure-trust-on-2744-crore-sale-of-road-assets",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹2,744 crore",
+            "currency": "INR",
+            "amount": 27440000000,
+            "amount_inr": 27440000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Resolüt Partners advises IRB Infrastructure Trust on ₹2,744 crore sale of road assets"
+    },
+    {
       "id": 2240,
       "name": "Shridha Malhotra",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -147391,6 +150400,21 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal, CAM, Latham, AZB, Equilex, Macfarlanes advise on Mittal-Poonawalla consortium ..."
@@ -151323,6 +154347,21 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune"
@@ -151697,6 +154736,34 @@
       "snapshot": "Trilegal, Verist Law, TT&A, Hogan Lovells act on Marri Retail ₹522 crore+ proposed IPO"
     },
     {
+      "id": 3922,
+      "name": "Sidharth Ray",
+      "firm": "Trilegal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise"
+    },
+    {
       "id": 453,
       "name": "Sidharth Sankar Pattnaik",
       "firm": "Trilegal",
@@ -152066,13 +155133,17 @@
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "acquisition",
+        "stake acquisition"
       ],
       "practice_areas": [
-        "Capital Markets"
+        "Capital Markets",
+        "Mergers & Acquisitions"
       ],
       "clients": [
-        "Tenneco India & Promoter Selling Shareholder"
+        "Tenneco India & Promoter Selling Shareholder",
+        "ChrysCapital"
       ],
       "deals": [
         {
@@ -152085,6 +155156,20 @@
           ],
           "practice_areas": [
             "Capital Markets"
+          ],
+          "value": null
+        },
+        {
+          "headline": "SAM advises ChrysCapital on minority stake acquisition in Linux Laboratories; K Law advises Tata Healthcare Fund II and III",
+          "client": "ChrysCapital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-chryscapital-on-minority-stake-acquisition-in-linux-laboratories",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ],
           "value": null
         }
@@ -152509,9 +155594,15 @@
       "firm": "Cyril Amarchand Mangaldas",
       "role": "Partner",
       "role_bucket": "Partner",
-      "transaction_types": [],
-      "practice_areas": [],
-      "clients": [],
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "JSW One"
+      ],
       "deals": [
         {
           "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
@@ -152521,6 +155612,25 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise"
@@ -153321,7 +156431,8 @@
         "Book Running Lead Managers",
         "GSP Crop Science",
         "APAR Industries",
-        "Aragen Life Sciences"
+        "Aragen Life Sciences",
+        "Dosti Realty proposed IPO"
       ],
       "deals": [
         {
@@ -153400,6 +156511,19 @@
             "amount_inr": 8000000000,
             "approx": true
           }
+        },
+        {
+          "headline": "Trilegal, TT&A, Hogan Lovells Cadwalader act on Dosti Realty proposed IPO",
+          "client": "Dosti Realty proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-hogan-lovells-cadwalader-act-on-dosti-realty-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": null
         }
       ],
       "snapshot": "CAM, Trilegal act on SEDEMAC Mechatronics ~₹1,087 crore IPO - Bar and Bench"
@@ -153847,6 +156971,21 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal advises EAAA India Alternatives on acquisition of 1 million sqft office park in Pune"
@@ -154612,13 +157751,16 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
+        "IPO",
         "joint venture"
       ],
       "practice_areas": [
+        "Capital Markets",
         "Corporate & Commercial"
       ],
       "clients": [
-        "ONGC"
+        "ONGC",
+        "JSW One"
       ],
       "deals": [
         {
@@ -154633,6 +157775,25 @@
             "Corporate & Commercial"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM acts on ONGC - MOL joint venture"
@@ -155457,6 +158618,44 @@
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas advises Krishna Institute of Medical Sciences on ₹1,500 crore QIP"
+    },
+    {
+      "id": 3959,
+      "name": "Sreedatri Dhar",
+      "firm": "DSK Legal",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "Viyash Scientific"
+      ],
+      "deals": [
+        {
+          "headline": "DSK Legal advises Viyash Scientific on ₹188 crore acquisition of BioForLife Italia",
+          "client": "Viyash Scientific",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/dsk-legal-advise-viyash-scientific-on-188-crore-acquisition-of-bioforlife-italia",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": {
+            "raw": "₹188 crore",
+            "currency": "INR",
+            "amount": 1880000000,
+            "amount_inr": 1880000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "DSK Legal advises Viyash Scientific on ₹188 crore acquisition of BioForLife Italia"
     },
     {
       "id": 2326,
@@ -157706,7 +160905,7 @@
           "id": 1867,
           "firm": "Hogan Lovells Cadwalader",
           "role": "Senior Associate",
-          "deal_count": 2
+          "deal_count": 3
         }
       ],
       "firm_verification": {
@@ -157729,7 +160928,8 @@
       ],
       "clients": [
         "Book-Running Lead Managers",
-        "Rentomojo"
+        "Rentomojo",
+        "Dosti Realty proposed IPO"
       ],
       "deals": [
         {
@@ -157765,6 +160965,19 @@
             "amount_inr": 12550000000,
             "approx": false
           }
+        },
+        {
+          "headline": "Trilegal, TT&A, Hogan Lovells Cadwalader act on Dosti Realty proposed IPO",
+          "client": "Dosti Realty proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-hogan-lovells-cadwalader-act-on-dosti-realty-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": null
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas, S&R Associates, Hogan Lovells Cadwalader act on Lohia ...",
@@ -158277,6 +161490,34 @@
         }
       ],
       "snapshot": "Trilegal advises DSP Finance on its merger with Volt Money"
+    },
+    {
+      "id": 3917,
+      "name": "Suhaschandra BS",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise"
     },
     {
       "id": 343,
@@ -159096,6 +162337,30 @@
       "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat"
     },
     {
+      "id": 3953,
+      "name": "Supriya Majumdar",
+      "firm": "Elarra Law Offices",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [
+        "Godrej Properties"
+      ],
+      "deals": [
+        {
+          "headline": "Elarra Law Offices advises Godrej Properties on acquiring development rights of luxury project in South Mumbai",
+          "client": "Godrej Properties",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/elarra-law-offices-advises-godrej-properties-on-acquiring-development-rights-of-luxury-project-in-south-mumbai",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "Elarra Law Offices advises Godrej Properties on acquiring development rights of luxury project in South Mumbai"
+    },
+    {
       "id": 1272,
       "name": "Supriya Saxena",
       "firm": "JSA Advocates & Solicitors",
@@ -159503,7 +162768,8 @@
         "Qualiance International IPO",
         "Vardaan Biotech",
         "Nexa Defence IPO",
-        "Dinotarp IPO"
+        "Dinotarp IPO",
+        "SG Encon IPO"
       ],
       "deals": [
         {
@@ -159600,6 +162866,25 @@
             "amount_inr": 269300000,
             "approx": false
           }
+        },
+        {
+          "headline": "Legacy Law Offices acts on SG Encon IPO",
+          "client": "SG Encon IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-sg-encon-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹75 crore+",
+            "currency": "INR",
+            "amount": 750000000,
+            "amount_inr": 750000000,
+            "approx": true
+          }
         }
       ],
       "snapshot": "Legacy Law Offices acts on Dain Colour Chem IPO",
@@ -159658,7 +162943,7 @@
           "id": 3453,
           "firm": "Legacy Law Offices",
           "role": "Partner",
-          "deal_count": 5
+          "deal_count": 6
         }
       ],
       "firm_verification": {
@@ -159826,6 +163111,21 @@
             "amount_inr": 12550000000,
             "approx": false
           }
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM, Trilegal, TT&A, Hogan Lovells act on Rentomojo proposed ₹150 crore+ IPO"
@@ -159929,13 +163229,15 @@
       "role": "Principal Associate",
       "role_bucket": "Principal Associate",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "stake acquisition"
       ],
       "practice_areas": [
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Aica Kogyo Co"
+        "Aica Kogyo Co",
+        "ChrysCapital"
       ],
       "deals": [
         {
@@ -159945,6 +163247,20 @@
           "source": "Bar and Bench",
           "types": [
             "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        },
+        {
+          "headline": "SAM advises ChrysCapital on minority stake acquisition in Linux Laboratories; K Law advises Tata Healthcare Fund II and III",
+          "client": "ChrysCapital",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-chryscapital-on-minority-stake-acquisition-in-linux-laboratories",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition",
+            "stake acquisition"
           ],
           "practice_areas": [
             "Mergers & Acquisitions"
@@ -162190,8 +165506,8 @@
       "id": 1461,
       "name": "Tanushri More",
       "firm": "Cyril Amarchand Mangaldas",
-      "role": "Senior Associate",
-      "role_bucket": "Senior Associate",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
       "transaction_types": [
         "IPO"
       ],
@@ -162199,7 +165515,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Clean Max/Promoters"
+        "Clean Max/Promoters",
+        "JSW One"
       ],
       "deals": [
         {
@@ -162214,6 +165531,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM, Khaitan, SAM act on Clean Max Enviro Energy IPO"
@@ -162256,6 +165592,72 @@
         }
       ],
       "snapshot": "JSA, A&G, Gibson Dunn, AZB, Simpson Thacher, Latham, CAM act on SingTel - KKR billion ..."
+    },
+    {
+      "id": 3941,
+      "name": "Tanvi Agarwal",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "JSW One"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO"
+    },
+    {
+      "id": 3926,
+      "name": "Tanvi Godiwala",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise"
     },
     {
       "id": 227,
@@ -164298,8 +167700,8 @@
       "id": 2468,
       "name": "Thomas J. Vallianeth",
       "firm": "Trilegal",
-      "role": "Counsel",
-      "role_bucket": "Counsel",
+      "role": "Partner",
+      "role_bucket": "Partner",
       "transaction_types": [],
       "practice_areas": [],
       "clients": [
@@ -164314,6 +167716,21 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "TT&A, Trilegal, Gibson Dunn act on Neysa securing $1 billion+ funding from"
@@ -166589,7 +170006,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "ARCIL"
+        "ARCIL",
+        "JSW One"
       ],
       "deals": [
         {
@@ -166608,6 +170026,25 @@
             "currency": "INR",
             "amount": 7320000000,
             "amount_inr": 7320000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
             "approx": false
           }
         }
@@ -168065,6 +171502,21 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Capitaland sells ITPC Chennai to Mindspace, 360 One for ₹3000 crore - Bar and Bench"
@@ -169173,6 +172625,21 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas advises as Hyundai and TVS join hands to develop electric 3 ..."
@@ -170717,7 +174184,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Veegaland Homes"
+        "Veegaland Homes",
+        "Swastika Infra’s"
       ],
       "deals": [
         {
@@ -170736,6 +174204,25 @@
             "currency": "INR",
             "amount": 2100000000,
             "amount_inr": 2100000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Vidhigya Associates acts on Swastika Infra’s ₹200 crore IPO and pre-IPO placement",
+          "client": "Swastika Infra’s",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/vidhigya-associates-acts-on-swastika-infras-200-crore-ipo-and-pre-ipo-placement",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹200 crore",
+            "currency": "INR",
+            "amount": 2000000000,
+            "amount_inr": 2000000000,
             "approx": false
           }
         }
@@ -171012,6 +174499,44 @@
         }
       ],
       "snapshot": "Khaitan & Co, Trilegal act on Blackstone-backed EPL - Indovida Packaging merger"
+    },
+    {
+      "id": 3946,
+      "name": "Vedika Jhunjhunwala",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "JSW One"
+      ],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO"
     },
     {
       "id": 3187,
@@ -172461,6 +175986,38 @@
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech"
+    },
+    {
+      "id": 3974,
+      "name": "Vidyansh Chandra",
+      "firm": "Fox Mandal & Associates",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "SD International proposed IPO"
+      ],
+      "deals": [
+        {
+          "headline": "Fox & Mandal acts on SD International proposed IPO",
+          "client": "SD International proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/fox-mandal-acts-on-sd-international-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Fox & Mandal acts on SD International proposed IPO"
     },
     {
       "id": 2895,
@@ -174954,8 +178511,8 @@
       "id": 2028,
       "name": "Vishesh Jain",
       "firm": "Cyril Amarchand Mangaldas",
-      "role": "Associate",
-      "role_bucket": "Associate",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
       "transaction_types": [
         "IPO"
       ],
@@ -174988,6 +178545,21 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "SAM, CAM, Latham act on Groww ₹6,632 crore IPO - Bar and Bench"
@@ -175589,6 +179161,38 @@
       "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat"
     },
     {
+      "id": 3933,
+      "name": "Vivek Pareek",
+      "firm": "Saraf and Partners",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "JSW Infrastructure"
+      ],
+      "deals": [
+        {
+          "headline": "Saraf and Partners advises JSW Infrastructure on acquisition of NCR Rail Infrastructure",
+          "client": "JSW Infrastructure",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/saraf-and-partners-advises-jsw-infrastructure-on-acquisition-of-ncr-rail-infrastructure",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Saraf and Partners advises JSW Infrastructure on acquisition of NCR Rail Infrastructure"
+    },
+    {
       "id": 655,
       "name": "Vivek Rathore",
       "firm": "Cyril Amarchand Mangaldas",
@@ -175875,6 +179479,21 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹3,000 crore",
+            "currency": "INR",
+            "amount": 30000000000,
+            "amount_inr": 30000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Capitaland sells ITPC Chennai to Mindspace, 360 One for ₹3000 crore - Bar and Bench"
@@ -177268,7 +180887,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Sunshine Pictures"
+        "Sunshine Pictures",
+        "Swastika Infra’s"
       ],
       "deals": [
         {
@@ -177287,6 +180907,25 @@
             "currency": "INR",
             "amount": 2820000000,
             "amount_inr": 2820000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Vidhigya Associates acts on Swastika Infra’s ₹200 crore IPO and pre-IPO placement",
+          "client": "Swastika Infra’s",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/vidhigya-associates-acts-on-swastika-infras-200-crore-ipo-and-pre-ipo-placement",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹200 crore",
+            "currency": "INR",
+            "amount": 2000000000,
+            "amount_inr": 2000000000,
             "approx": false
           }
         }
@@ -177433,7 +181072,8 @@
         "Atomberg",
         "Aragen Life Sciences",
         "Karamtara Engineering",
-        "Centella Mauritius Holdings"
+        "Centella Mauritius Holdings",
+        "JSW One"
       ],
       "deals": [
         {
@@ -177638,6 +181278,25 @@
             "currency": "INR",
             "amount": 47000000000,
             "amount_inr": 47000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO",
+          "client": "JSW One",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹3,054 crore",
+            "currency": "INR",
+            "amount": 30540000000,
+            "amount_inr": 30540000000,
             "approx": false
           }
         }
@@ -179007,7 +182666,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Vardaan Biotech"
+        "Vardaan Biotech",
+        "SG Encon IPO"
       ],
       "deals": [
         {
@@ -179026,6 +182686,25 @@
             "currency": "INR",
             "amount": 900000000,
             "amount_inr": 900000000,
+            "approx": true
+          }
+        },
+        {
+          "headline": "Legacy Law Offices acts on SG Encon IPO",
+          "client": "SG Encon IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-sg-encon-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹75 crore+",
+            "currency": "INR",
+            "amount": 750000000,
+            "amount_inr": 750000000,
             "approx": true
           }
         }
