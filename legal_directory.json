@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 3971,
-    "firms": 139,
-    "deals": 594,
+    "people": 3992,
+    "firms": 141,
+    "deals": 607,
     "practice_areas": 6
   },
   "firms": [
@@ -79,6 +79,7 @@
     "Lex Consult",
     "Lexygen",
     "Linklaters",
+    "Linklaters Singapore Pte. Ltd",
     "Lks",
     "Luthra and Luthra",
     "Luthra and Luthra Law Offices India",
@@ -121,6 +122,7 @@
     "Simpson Thacher",
     "Solicis Lex",
     "Squire Patton Boggs",
+    "Stratage Law Partners",
     "Sullivan & Cromwell",
     "T&R Law Offices",
     "TLH Advocates",
@@ -980,7 +982,7 @@
     },
     {
       "firm": "Cyril Amarchand Mangaldas",
-      "people_count": 615,
+      "people_count": 616,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -1350,6 +1352,7 @@
             1689,
             3402,
             3436,
+            3981,
             2490,
             962,
             882,
@@ -2230,8 +2233,19 @@
     },
     {
       "firm": "HSA Advocates",
-      "people_count": 3,
+      "people_count": 8,
       "practice_groups": [
+        {
+          "area": "Banking & Finance",
+          "person_ids": [
+            3984,
+            3371,
+            3982,
+            3986,
+            3983,
+            3985
+          ]
+        },
         {
           "area": "Mergers & Acquisitions",
           "person_ids": [
@@ -3018,7 +3032,7 @@
     },
     {
       "firm": "Khaitan & Co",
-      "people_count": 591,
+      "people_count": 596,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -3322,12 +3336,14 @@
             3023,
             3138,
             3269,
+            3976,
             3444,
             3353,
             3595,
             281,
             3350,
             366,
+            3978,
             1230,
             340,
             3029,
@@ -3422,6 +3438,7 @@
             3092,
             3090,
             3441,
+            3977,
             3142,
             357,
             3437,
@@ -3653,6 +3670,7 @@
             3534,
             161,
             1754,
+            3979,
             285,
             1763,
             3504,
@@ -3682,6 +3700,7 @@
             2133,
             1703,
             761,
+            3980,
             1766,
             3506,
             3533,
@@ -3890,7 +3909,7 @@
     },
     {
       "firm": "Legacy Law Offices",
-      "people_count": 13,
+      "people_count": 14,
       "practice_groups": [
         {
           "area": "Capital Markets",
@@ -3907,6 +3926,7 @@
             3784,
             3453,
             3853,
+            3996,
             3785
           ]
         }
@@ -4014,6 +4034,11 @@
           ]
         }
       ]
+    },
+    {
+      "firm": "Linklaters Singapore Pte. Ltd",
+      "people_count": 0,
+      "practice_groups": []
     },
     {
       "firm": "Lks",
@@ -4615,7 +4640,7 @@
     },
     {
       "firm": "Shardul Amarchand Mangaldas & Co",
-      "people_count": 433,
+      "people_count": 434,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -4664,6 +4689,7 @@
             2199,
             144,
             2219,
+            1479,
             373,
             3961,
             1320,
@@ -4701,6 +4727,7 @@
             1173,
             2996,
             2698,
+            1481,
             1580,
             2345,
             1963,
@@ -4717,6 +4744,7 @@
             1321,
             1368,
             1742,
+            1478,
             1579,
             2995,
             2422,
@@ -4867,6 +4895,7 @@
             1150,
             1006,
             105,
+            3991,
             2241,
             367,
             1477,
@@ -4920,6 +4949,7 @@
             1167,
             1483,
             1475,
+            3561,
             2699,
             2696,
             2697,
@@ -5011,7 +5041,6 @@
             2415,
             2740,
             2432,
-            3561,
             3034,
             2445,
             2425,
@@ -5258,6 +5287,21 @@
       ]
     },
     {
+      "firm": "Stratage Law Partners",
+      "people_count": 4,
+      "practice_groups": [
+        {
+          "area": "Private Equity & Venture Capital",
+          "person_ids": [
+            3989,
+            3987,
+            3990,
+            3988
+          ]
+        }
+      ]
+    },
+    {
       "firm": "Sullivan & Cromwell",
       "people_count": 29,
       "practice_groups": [
@@ -5383,7 +5427,7 @@
     },
     {
       "firm": "Talwar Thakore & Associates",
-      "people_count": 83,
+      "people_count": 84,
       "practice_groups": [
         {
           "area": "Private Equity & Venture Capital",
@@ -5480,6 +5524,7 @@
             3774,
             1353,
             729,
+            3994,
             3344,
             978,
             979
@@ -5587,7 +5632,7 @@
     },
     {
       "firm": "Trilegal",
-      "people_count": 573,
+      "people_count": 575,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -6018,6 +6063,145 @@
           ]
         },
         {
+          "area": "Capital Markets",
+          "person_ids": [
+            3550,
+            813,
+            710,
+            2190,
+            2601,
+            814,
+            2035,
+            1177,
+            1174,
+            3340,
+            2969,
+            2909,
+            3511,
+            2602,
+            2195,
+            9,
+            2907,
+            3993,
+            524,
+            815,
+            1176,
+            514,
+            2458,
+            1845,
+            125,
+            3896,
+            1175,
+            128,
+            126,
+            2998,
+            2036,
+            2129,
+            1695,
+            763,
+            3992,
+            418,
+            3013,
+            270,
+            3601,
+            2600,
+            973,
+            2181,
+            776,
+            3339,
+            975,
+            1843,
+            419,
+            2194,
+            1694,
+            2059,
+            713,
+            778,
+            2937,
+            2908,
+            1696,
+            2180,
+            2196,
+            2118,
+            974,
+            2941,
+            1846,
+            513,
+            127,
+            2119,
+            711,
+            1269,
+            2120,
+            777,
+            1178,
+            1263,
+            2560,
+            1270,
+            271,
+            1266,
+            2268,
+            1267,
+            2128,
+            1787,
+            415,
+            1788,
+            602,
+            1264,
+            2968,
+            3499,
+            2942,
+            520,
+            2940,
+            2938,
+            512,
+            3939,
+            3548,
+            519,
+            2939,
+            2020,
+            764,
+            2858,
+            517,
+            1789,
+            3494,
+            2191,
+            515,
+            600,
+            1268,
+            416,
+            417,
+            3549,
+            762,
+            3945,
+            130,
+            1697,
+            816,
+            2837,
+            516,
+            2970,
+            3922,
+            3077,
+            129,
+            3806,
+            2967,
+            1438,
+            779,
+            3778,
+            1844,
+            420,
+            712,
+            601,
+            1017,
+            414,
+            972,
+            3895,
+            1265,
+            2686,
+            518,
+            2559
+          ]
+        },
+        {
           "area": "Unclassified",
           "person_ids": [
             3918,
@@ -6132,7 +6316,6 @@
             2978,
             3078,
             2408,
-            3922,
             2151,
             1823,
             870,
@@ -6151,140 +6334,6 @@
             3346,
             866,
             1821
-          ]
-        },
-        {
-          "area": "Capital Markets",
-          "person_ids": [
-            3550,
-            813,
-            710,
-            2190,
-            2601,
-            814,
-            2035,
-            1177,
-            1174,
-            3340,
-            2969,
-            2909,
-            3511,
-            2602,
-            2195,
-            9,
-            2907,
-            524,
-            815,
-            1176,
-            514,
-            2458,
-            1845,
-            125,
-            3896,
-            1175,
-            128,
-            126,
-            2998,
-            2036,
-            2129,
-            1695,
-            763,
-            418,
-            3013,
-            270,
-            3601,
-            2600,
-            973,
-            2181,
-            776,
-            3339,
-            975,
-            1843,
-            419,
-            2194,
-            1694,
-            713,
-            778,
-            2937,
-            2908,
-            1696,
-            2180,
-            2196,
-            2118,
-            974,
-            2941,
-            1846,
-            513,
-            127,
-            2119,
-            711,
-            1269,
-            2120,
-            777,
-            1178,
-            1263,
-            2560,
-            1270,
-            271,
-            1266,
-            2268,
-            1267,
-            2128,
-            1787,
-            415,
-            1788,
-            602,
-            1264,
-            2968,
-            3499,
-            2942,
-            520,
-            2940,
-            2938,
-            512,
-            3939,
-            3548,
-            519,
-            2939,
-            764,
-            2858,
-            517,
-            1789,
-            3494,
-            2191,
-            515,
-            600,
-            1268,
-            416,
-            417,
-            3549,
-            762,
-            3945,
-            130,
-            1697,
-            816,
-            2837,
-            516,
-            2970,
-            3077,
-            129,
-            3806,
-            2967,
-            1438,
-            779,
-            3778,
-            1844,
-            420,
-            712,
-            601,
-            1017,
-            414,
-            972,
-            3895,
-            1265,
-            2686,
-            518,
-            2559
           ]
         },
         {
@@ -6488,7 +6537,7 @@
     },
     {
       "firm": "Vidhigya Associates",
-      "people_count": 5,
+      "people_count": 6,
       "practice_groups": [
         {
           "area": "Capital Markets",
@@ -6497,6 +6546,7 @@
             3486,
             3485,
             3805,
+            3995,
             3487
           ]
         }
@@ -7190,7 +7240,8 @@
       "clients": [
         "Amagi",
         "Shiprocket",
-        "Rentomojo"
+        "Rentomojo",
+        "AceVector"
       ],
       "deals": [
         {
@@ -7241,6 +7292,25 @@
             "currency": "INR",
             "amount": 12550000000,
             "amount_inr": 12550000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "CAM, TT&A, JSA, Sidley Austin act on AceVector ₹420 crore IPO",
+          "client": "AceVector",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-tta-jsa-sidley-austin-act-on-acevector-420-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹420 crore",
+            "currency": "INR",
+            "amount": 4200000000,
+            "amount_inr": 4200000000,
             "approx": false
           }
         }
@@ -7630,7 +7700,8 @@
         "Belrise Industries",
         "IFC",
         "International Finance Corporation",
-        "Shiprocket"
+        "Shiprocket",
+        "AceVector"
       ],
       "deals": [
         {
@@ -7697,6 +7768,25 @@
             "currency": "INR",
             "amount": 16170000000,
             "amount_inr": 16170000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "CAM, TT&A, JSA, Sidley Austin act on AceVector ₹420 crore IPO",
+          "client": "AceVector",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-tta-jsa-sidley-austin-act-on-acevector-420-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹420 crore",
+            "currency": "INR",
+            "amount": 4200000000,
+            "amount_inr": 4200000000,
             "approx": false
           }
         }
@@ -7811,6 +7901,44 @@
         }
       ],
       "snapshot": "JSA, Khaitan act on Coforge's $2.35 billion acquisition of Encora - Bar and Bench"
+    },
+    {
+      "id": 3984,
+      "name": "Aasiya Khan",
+      "firm": "HSA Advocates",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [
+        "financing"
+      ],
+      "practice_areas": [
+        "Banking & Finance"
+      ],
+      "clients": [
+        "Piramal Finance"
+      ],
+      "deals": [
+        {
+          "headline": "HSA Advocates advises Piramal Finance on ₹266 crore financing for Solitaire VTP Group’s residential projects in Pune",
+          "client": "Piramal Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/hsa-advocates-advises-piramal-finance-on-266-crore-financing-for-solitaire-vtp-groups-residential-projects-in-pune",
+          "source": "Bar & Bench",
+          "types": [
+            "financing"
+          ],
+          "practice_areas": [
+            "Banking & Finance"
+          ],
+          "value": {
+            "raw": "₹266 crore",
+            "currency": "INR",
+            "amount": 2660000000,
+            "amount_inr": 2660000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "HSA Advocates advises Piramal Finance on ₹266 crore financing for Solitaire VTP Group’s residential..."
     },
     {
       "id": 398,
@@ -8754,6 +8882,38 @@
         }
       ],
       "snapshot": "Elarra Law Offices advises Godrej Properties on acquiring development rights of luxury project in South Mumbai"
+    },
+    {
+      "id": 3989,
+      "name": "Abhay Gaur",
+      "firm": "Stratage Law Partners",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Nutriventia securing investment from Ndude Labs"
+      ],
+      "deals": [
+        {
+          "headline": "Stratage Law Partners, Cyril Amarchand Mangaldas act on Nutriventia securing investment from Ndude Labs",
+          "client": "Nutriventia securing investment from Ndude Labs",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/stratage-law-partners-cyril-amarchand-mangaldas-act-on-nutriventia-securing-investment-from-ndude-labs",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Stratage Law Partners, Cyril Amarchand Mangaldas act on Nutriventia securing investment from Ndude Labs"
     },
     {
       "id": 3213,
@@ -9741,7 +9901,9 @@
         "Nobel Hygiene",
         "Kanohar Electricals",
         "Rentomojo",
-        "Dosti Realty proposed IPO"
+        "Dosti Realty proposed IPO",
+        "AceVector",
+        "Anarock"
       ],
       "deals": [
         {
@@ -9917,6 +10079,44 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "CAM, TT&A, JSA, Sidley Austin act on AceVector ₹420 crore IPO",
+          "client": "AceVector",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-tta-jsa-sidley-austin-act-on-acevector-420-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹420 crore",
+            "currency": "INR",
+            "amount": 4200000000,
+            "amount_inr": 4200000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Khaitan & Co, Verist Law, JSA, TT&A, Linklaters act on Anarock ₹1,000 crore proposed IPO",
+          "client": "Anarock",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-verist-law-jsa-tta-linklaters-act-on-anarock-1000-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,000 crore",
+            "currency": "INR",
+            "amount": 10000000000,
+            "amount_inr": 10000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "JSA, TT&A, Baker & McKenzie advise brokers on Mylan Inc's ₹3,679 crore exit from Biocon"
@@ -10546,7 +10746,8 @@
       "clients": [
         "Lohia Corp",
         "Dhoot Transmission",
-        "Elevate Campuses"
+        "Elevate Campuses",
+        "AceVector"
       ],
       "deals": [
         {
@@ -10599,6 +10800,25 @@
             "currency": "INR",
             "amount": 21000000000,
             "amount_inr": 21000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "CAM, TT&A, JSA, Sidley Austin act on AceVector ₹420 crore IPO",
+          "client": "AceVector",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-tta-jsa-sidley-austin-act-on-acevector-420-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹420 crore",
+            "currency": "INR",
+            "amount": 4200000000,
+            "amount_inr": 4200000000,
             "approx": false
           }
         }
@@ -11481,7 +11701,8 @@
         "Jefferies India Private Limited",
         "Kanohar Electricals",
         "Rentomojo",
-        "Dosti Realty proposed IPO"
+        "Dosti Realty proposed IPO",
+        "Anarock"
       ],
       "deals": [
         {
@@ -11565,6 +11786,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Khaitan & Co, Verist Law, JSA, TT&A, Linklaters act on Anarock ₹1,000 crore proposed IPO",
+          "client": "Anarock",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-verist-law-jsa-tta-linklaters-act-on-anarock-1000-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,000 crore",
+            "currency": "INR",
+            "amount": 10000000000,
+            "amount_inr": 10000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "JSA, TT&A, Baker & McKenzie advise brokers on Mylan Inc's ₹3,679 crore exit from Biocon"
@@ -12290,7 +12530,8 @@
         "NSE",
         "Powerica & Promoter Selling Shareholders",
         "Anant Raj",
-        "LEAP India"
+        "LEAP India",
+        "AceVector"
       ],
       "deals": [
         {
@@ -12363,6 +12604,25 @@
             "currency": "INR",
             "amount": 24800000000,
             "amount_inr": 24800000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "CAM, TT&A, JSA, Sidley Austin act on AceVector ₹420 crore IPO",
+          "client": "AceVector",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-tta-jsa-sidley-austin-act-on-acevector-420-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹420 crore",
+            "currency": "INR",
+            "amount": 4200000000,
+            "amount_inr": 4200000000,
             "approx": false
           }
         }
@@ -14312,7 +14572,7 @@
           "id": 3341,
           "firm": "Talwar Thakore & Associates",
           "role": "Senior Associate",
-          "deal_count": 1
+          "deal_count": 2
         },
         {
           "id": 2880,
@@ -14333,13 +14593,15 @@
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
+        "IPO",
         "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
       ],
       "clients": [
-        "APAR Industries"
+        "APAR Industries",
+        "Anarock"
       ],
       "deals": [
         {
@@ -14358,6 +14620,25 @@
             "currency": "INR",
             "amount": 25000000000,
             "amount_inr": 25000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Khaitan & Co, Verist Law, JSA, TT&A, Linklaters act on Anarock ₹1,000 crore proposed IPO",
+          "client": "Anarock",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-verist-law-jsa-tta-linklaters-act-on-anarock-1000-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,000 crore",
+            "currency": "INR",
+            "amount": 10000000000,
+            "amount_inr": 10000000000,
             "approx": false
           }
         }
@@ -14424,7 +14705,7 @@
           "id": 3341,
           "firm": "Talwar Thakore & Associates",
           "role": "Senior Associate",
-          "deal_count": 1
+          "deal_count": 2
         }
       ],
       "firm_verification": {
@@ -14521,13 +14802,16 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "financing"
       ],
       "practice_areas": [
+        "Banking & Finance",
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Purvah Green Power"
+        "Purvah Green Power",
+        "Piramal Finance"
       ],
       "deals": [
         {
@@ -14542,6 +14826,25 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "HSA Advocates advises Piramal Finance on ₹266 crore financing for Solitaire VTP Group’s residential projects in Pune",
+          "client": "Piramal Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/hsa-advocates-advises-piramal-finance-on-266-crore-financing-for-solitaire-vtp-groups-residential-projects-in-pune",
+          "source": "Bar & Bench",
+          "types": [
+            "financing"
+          ],
+          "practice_areas": [
+            "Banking & Finance"
+          ],
+          "value": {
+            "raw": "₹266 crore",
+            "currency": "INR",
+            "amount": 2660000000,
+            "amount_inr": 2660000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Khaitan & Co advises Purvah Green Power on acquisition of 6 Renewable Energy SPVs from ReNew"
@@ -15305,7 +15608,8 @@
       ],
       "clients": [
         "Sterlite Technologies Limited",
-        "Hero Motors"
+        "Hero Motors",
+        "AceVector"
       ],
       "deals": [
         {
@@ -15337,6 +15641,25 @@
             "currency": "INR",
             "amount": 10000000000,
             "amount_inr": 10000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "CAM, TT&A, JSA, Sidley Austin act on AceVector ₹420 crore IPO",
+          "client": "AceVector",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-tta-jsa-sidley-austin-act-on-acevector-420-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹420 crore",
+            "currency": "INR",
+            "amount": 4200000000,
+            "amount_inr": 4200000000,
             "approx": false
           }
         }
@@ -15397,7 +15720,7 @@
           "id": 913,
           "firm": "Cyril Amarchand Mangaldas",
           "role": "Senior Associate",
-          "deal_count": 2
+          "deal_count": 3
         },
         {
           "id": 3618,
@@ -15439,7 +15762,7 @@
           "id": 913,
           "firm": "Cyril Amarchand Mangaldas",
           "role": "Senior Associate",
-          "deal_count": 2
+          "deal_count": 3
         },
         {
           "id": 841,
@@ -17878,7 +18201,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "Anarock"
       ],
       "deals": [
         {
@@ -17893,6 +18217,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Khaitan & Co, Verist Law, JSA, TT&A, Linklaters act on Anarock ₹1,000 crore proposed IPO",
+          "client": "Anarock",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-verist-law-jsa-tta-linklaters-act-on-anarock-1000-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,000 crore",
+            "currency": "INR",
+            "amount": 10000000000,
+            "amount_inr": 10000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal, Verist Law, TT&A, Hogan Lovells act on Marri Retail ₹522 crore+ proposed IPO"
@@ -21333,7 +21676,8 @@
       "clients": [
         "Arvind",
         "Avtar Steel",
-        "Ekkaa Electronics"
+        "Ekkaa Electronics",
+        "J B Ecotex proposed IPO"
       ],
       "deals": [
         {
@@ -21391,6 +21735,25 @@
             "amount": 7250000000,
             "amount_inr": 7250000000,
             "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, CMS INDUSLAW act on J B Ecotex proposed IPO",
+          "client": "J B Ecotex proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cms-induslaw-act-on-j-b-ecotex-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "up to ₹ 400 crore",
+            "currency": "INR",
+            "amount": 4000000000,
+            "amount_inr": 4000000000,
+            "approx": true
           }
         }
       ],
@@ -23021,7 +23384,8 @@
         "Shiprocket",
         "Dhoot Transmission",
         "Piramal Finance",
-        "Hero Motors"
+        "Hero Motors",
+        "AceVector"
       ],
       "deals": [
         {
@@ -23145,6 +23509,25 @@
             "currency": "INR",
             "amount": 10000000000,
             "amount_inr": 10000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "CAM, TT&A, JSA, Sidley Austin act on AceVector ₹420 crore IPO",
+          "client": "AceVector",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-tta-jsa-sidley-austin-act-on-acevector-420-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹420 crore",
+            "currency": "INR",
+            "amount": 4200000000,
+            "amount_inr": 4200000000,
             "approx": false
           }
         }
@@ -24890,6 +25273,7 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "IPO",
         "QIP"
       ],
       "practice_areas": [
@@ -24897,7 +25281,8 @@
       ],
       "clients": [
         "Brookfield India Real Estate Trust",
-        "KIMS"
+        "KIMS",
+        "Moneyview"
       ],
       "deals": [
         {
@@ -24938,6 +25323,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas, Trilegal act on Moneyview ₹1,091 crore IPO",
+          "client": "Moneyview",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-trilegal-act-on-moneyview-1091-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,091 crore",
+            "currency": "INR",
+            "amount": 10910000000,
+            "amount_inr": 10910000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Trilegal act on Brookfield India REIT ₹2,600 crore QIP"
@@ -27090,13 +27494,15 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "IPO",
         "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
       ],
       "clients": [
-        "Belrise Industries"
+        "Belrise Industries",
+        "AceVector"
       ],
       "deals": [
         {
@@ -27111,6 +27517,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "CAM, TT&A, JSA, Sidley Austin act on AceVector ₹420 crore IPO",
+          "client": "AceVector",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-tta-jsa-sidley-austin-act-on-acevector-420-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹420 crore",
+            "currency": "INR",
+            "amount": 4200000000,
+            "amount_inr": 4200000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas, Trilegal, Sidley Austin act on Belrise Industries ₹1,700 crore QIP"
@@ -29050,7 +29475,8 @@
         "KIMS",
         "Turtlemint & investor selling shareholders",
         "WeWork India and Embassy Buildcon LLP",
-        "Aequs"
+        "Aequs",
+        "Moneyview"
       ],
       "deals": [
         {
@@ -29117,6 +29543,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas, Trilegal act on Moneyview ₹1,091 crore IPO",
+          "client": "Moneyview",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-trilegal-act-on-moneyview-1091-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,091 crore",
+            "currency": "INR",
+            "amount": 10910000000,
+            "amount_inr": 10910000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas advises Krishna Institute of Medical Sciences on ₹1,500 crore QIP"
@@ -29170,7 +29615,8 @@
       ],
       "clients": [
         "Book Running Lead Managers",
-        "Arvind"
+        "Arvind",
+        "J B Ecotex proposed IPO"
       ],
       "deals": [
         {
@@ -29203,6 +29649,25 @@
             "amount": 5000000000,
             "amount_inr": 5000000000,
             "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, CMS INDUSLAW act on J B Ecotex proposed IPO",
+          "client": "J B Ecotex proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cms-induslaw-act-on-j-b-ecotex-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "up to ₹ 400 crore",
+            "currency": "INR",
+            "amount": 4000000000,
+            "amount_inr": 4000000000,
+            "approx": true
           }
         }
       ],
@@ -31262,7 +31727,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Ekkaa Electronics"
+        "Ekkaa Electronics",
+        "J B Ecotex proposed IPO"
       ],
       "deals": [
         {
@@ -31282,6 +31748,25 @@
             "amount": 7250000000,
             "amount_inr": 7250000000,
             "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, CMS INDUSLAW act on J B Ecotex proposed IPO",
+          "client": "J B Ecotex proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cms-induslaw-act-on-j-b-ecotex-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "up to ₹ 400 crore",
+            "currency": "INR",
+            "amount": 4000000000,
+            "amount_inr": 4000000000,
+            "approx": true
           }
         }
       ],
@@ -32157,6 +32642,44 @@
       }
     },
     {
+      "id": 3993,
+      "name": "Anushka Gupta",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Moneyview"
+      ],
+      "deals": [
+        {
+          "headline": "Shardul Amarchand Mangaldas, Trilegal act on Moneyview ₹1,091 crore IPO",
+          "client": "Moneyview",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-trilegal-act-on-moneyview-1091-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,091 crore",
+            "currency": "INR",
+            "amount": 10910000000,
+            "amount_inr": 10910000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Shardul Amarchand Mangaldas, Trilegal act on Moneyview ₹1,091 crore IPO"
+    },
+    {
       "id": 3942,
       "name": "Anushka Gurnani",
       "firm": "Cyril Amarchand Mangaldas",
@@ -32207,7 +32730,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Vardaan Biotech"
+        "Vardaan Biotech",
+        "Himalaya Nutravedics IPO"
       ],
       "deals": [
         {
@@ -32227,6 +32751,25 @@
             "amount": 900000000,
             "amount_inr": 900000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "Legacy Law Offices acts on Himalaya Nutravedics IPO",
+          "client": "Himalaya Nutravedics IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-himalaya-nutravedics-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹26.5 crore",
+            "currency": "INR",
+            "amount": 265000000,
+            "amount_inr": 265000000,
+            "approx": false
           }
         }
       ],
@@ -32286,7 +32829,7 @@
           "id": 3786,
           "firm": "Legacy Law Offices",
           "role": "Associate",
-          "deal_count": 1
+          "deal_count": 2
         }
       ],
       "firm_verification": {
@@ -32357,7 +32900,8 @@
       ],
       "clients": [
         "Arvind",
-        "Ekkaa Electronics"
+        "Ekkaa Electronics",
+        "J B Ecotex proposed IPO"
       ],
       "deals": [
         {
@@ -32396,6 +32940,25 @@
             "amount": 7250000000,
             "amount_inr": 7250000000,
             "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, CMS INDUSLAW act on J B Ecotex proposed IPO",
+          "client": "J B Ecotex proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cms-induslaw-act-on-j-b-ecotex-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "up to ₹ 400 crore",
+            "currency": "INR",
+            "amount": 4000000000,
+            "amount_inr": 4000000000,
+            "approx": true
           }
         }
       ],
@@ -35787,7 +36350,8 @@
         "Adani Enterprises Limited and lead managers",
         "Book Running Lead Managers",
         "Pranav Constructions'",
-        "Varmora Granito"
+        "Varmora Granito",
+        "Runwal Enterprises"
       ],
       "deals": [
         {
@@ -35856,6 +36420,25 @@
             "currency": "INR",
             "amount": 7080000000,
             "amount_inr": 7080000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co acts on Runwal Enterprises ₹500 crore IPO",
+          "client": "Runwal Enterprises",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-acts-on-runwal-enterprises-500-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹500 crore",
+            "currency": "INR",
+            "amount": 5000000000,
+            "amount_inr": 5000000000,
             "approx": false
           }
         }
@@ -42569,13 +43152,15 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "IPO",
         "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
       ],
       "clients": [
-        "Manorama Industries"
+        "Manorama Industries",
+        "AceVector"
       ],
       "deals": [
         {
@@ -42590,6 +43175,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "CAM, TT&A, JSA, Sidley Austin act on AceVector ₹420 crore IPO",
+          "client": "AceVector",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-tta-jsa-sidley-austin-act-on-acevector-420-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹420 crore",
+            "currency": "INR",
+            "amount": 4200000000,
+            "amount_inr": 4200000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "JSA, Verist Law, Duane Morris & Selvam act on Manorama Industries ₹500 crore QIP"
@@ -43419,6 +44023,15 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "Khaitan & Co advised RR Kabel on acquisition of U M Cables",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advised-rr-kabel-on-acquisition-of-u-m-cables",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
         }
       ],
       "snapshot": "Trilegal advises Sona Comstar on partnership with Japan's DENSO Corp"
@@ -43592,7 +44205,8 @@
         "KKR's €1.2 billion acquisition of Medicover India",
         "Shiprocket",
         "Dhoot Transmission",
-        "Rentomojo"
+        "Rentomojo",
+        "AceVector"
       ],
       "deals": [
         {
@@ -43744,6 +44358,25 @@
             "currency": "INR",
             "amount": 12550000000,
             "amount_inr": 12550000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "CAM, TT&A, JSA, Sidley Austin act on AceVector ₹420 crore IPO",
+          "client": "AceVector",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-tta-jsa-sidley-austin-act-on-acevector-420-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹420 crore",
+            "currency": "INR",
+            "amount": 4200000000,
+            "amount_inr": 4200000000,
             "approx": false
           }
         }
@@ -44521,6 +45154,15 @@
             "amount_inr": 1100000000,
             "approx": false
           }
+        },
+        {
+          "headline": "Khaitan & Co advised RR Kabel on acquisition of U M Cables",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advised-rr-kabel-on-acquisition-of-u-m-cables",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
         }
       ],
       "snapshot": "Khaitan & Co, Cyril Amarchand Mangaldas act on Embio securing investment from True North"
@@ -44543,7 +45185,8 @@
       "clients": [
         "Manorama Industries",
         "Book Running Lead Managers",
-        "Globus Spirits"
+        "Globus Spirits",
+        "AceVector"
       ],
       "deals": [
         {
@@ -44603,6 +45246,25 @@
             "currency": "INR",
             "amount": 2000000000,
             "amount_inr": 2000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "CAM, TT&A, JSA, Sidley Austin act on AceVector ₹420 crore IPO",
+          "client": "AceVector",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-tta-jsa-sidley-austin-act-on-acevector-420-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹420 crore",
+            "currency": "INR",
+            "amount": 4200000000,
+            "amount_inr": 4200000000,
             "approx": false
           }
         }
@@ -48614,7 +49276,8 @@
       "clients": [
         "Book-Running Lead Managers",
         "Rentomojo",
-        "Dosti Realty proposed IPO"
+        "Dosti Realty proposed IPO",
+        "AceVector"
       ],
       "deals": [
         {
@@ -48661,6 +49324,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "CAM, TT&A, JSA, Sidley Austin act on AceVector ₹420 crore IPO",
+          "client": "AceVector",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-tta-jsa-sidley-austin-act-on-acevector-420-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹420 crore",
+            "currency": "INR",
+            "amount": 4200000000,
+            "amount_inr": 4200000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM, Trilegal, TT&A, Hogan Lovells act on Rentomojo proposed ₹150 crore+ IPO"
@@ -48744,6 +49426,38 @@
         }
       ],
       "snapshot": "VERTICES PARTNERS assists Ledgers on entry into UAE"
+    },
+    {
+      "id": 3987,
+      "name": "Darshan Upadhyay",
+      "firm": "Stratage Law Partners",
+      "role": "Managing Partner",
+      "role_bucket": "Managing Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Nutriventia securing investment from Ndude Labs"
+      ],
+      "deals": [
+        {
+          "headline": "Stratage Law Partners, Cyril Amarchand Mangaldas act on Nutriventia securing investment from Ndude Labs",
+          "client": "Nutriventia securing investment from Ndude Labs",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/stratage-law-partners-cyril-amarchand-mangaldas-act-on-nutriventia-securing-investment-from-ndude-labs",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Stratage Law Partners, Cyril Amarchand Mangaldas act on Nutriventia securing investment from Ndude Labs"
     },
     {
       "id": 3488,
@@ -50312,15 +51026,19 @@
       "role": "Principal Associate",
       "role_bucket": "Principal Associate",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "divestment"
       ],
       "practice_areas": [
-        "Capital Markets"
+        "Capital Markets",
+        "Mergers & Acquisitions"
       ],
       "clients": [
         "Brookfield",
         "Groww",
-        "Orkla India, Orkla ASA, and Orkla Asia Pacific Pte. Ltd."
+        "Orkla India, Orkla ASA, and Orkla Asia Pacific Pte. Ltd.",
+        "Mubadala",
+        "Moneyview"
       ],
       "deals": [
         {
@@ -50361,6 +51079,38 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises Mubadala on divestment of stake in Cube Highways Trust",
+          "client": "Mubadala",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-mubadala-on-divestment-of-stake-in-cube-highways-trust",
+          "source": "Bar & Bench",
+          "types": [
+            "divestment"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas, Trilegal act on Moneyview ₹1,091 crore IPO",
+          "client": "Moneyview",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-trilegal-act-on-moneyview-1091-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,091 crore",
+            "currency": "INR",
+            "amount": 10910000000,
+            "amount_inr": 10910000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM, Khaitan, SAM act on Clean Max Enviro Energy IPO"
@@ -53451,7 +54201,8 @@
         "Amagi",
         "KKR's €1.2 billion acquisition of Medicover India",
         "Dhoot Transmission",
-        "JSW One"
+        "JSW One",
+        "AceVector"
       ],
       "deals": [
         {
@@ -53521,6 +54272,25 @@
             "currency": "INR",
             "amount": 30540000000,
             "amount_inr": 30540000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "CAM, TT&A, JSA, Sidley Austin act on AceVector ₹420 crore IPO",
+          "client": "AceVector",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-tta-jsa-sidley-austin-act-on-acevector-420-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹420 crore",
+            "currency": "INR",
+            "amount": 4200000000,
+            "amount_inr": 4200000000,
             "approx": false
           }
         }
@@ -55434,6 +56204,44 @@
       "snapshot": "JSA advises PepsiCo on Exclusive Bottling Arrangement in India with Varun Beverages"
     },
     {
+      "id": 3992,
+      "name": "Dwija Vasavada",
+      "firm": "Trilegal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Moneyview"
+      ],
+      "deals": [
+        {
+          "headline": "Shardul Amarchand Mangaldas, Trilegal act on Moneyview ₹1,091 crore IPO",
+          "client": "Moneyview",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-trilegal-act-on-moneyview-1091-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,091 crore",
+            "currency": "INR",
+            "amount": 10910000000,
+            "amount_inr": 10910000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Shardul Amarchand Mangaldas, Trilegal act on Moneyview ₹1,091 crore IPO"
+    },
+    {
       "id": 1586,
       "name": "Dyanraj Desai",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -56552,7 +57360,8 @@
         "Selling Shareholders",
         "INDO-MIM",
         "Book Running Lead Managers",
-        "Rentomojo"
+        "Rentomojo",
+        "Moneyview"
       ],
       "deals": [
         {
@@ -56623,6 +57432,25 @@
             "currency": "INR",
             "amount": 12550000000,
             "amount_inr": 12550000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas, Trilegal act on Moneyview ₹1,091 crore IPO",
+          "client": "Moneyview",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-trilegal-act-on-moneyview-1091-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,091 crore",
+            "currency": "INR",
+            "amount": 10910000000,
+            "amount_inr": 10910000000,
             "approx": false
           }
         }
@@ -58138,6 +58966,38 @@
         }
       ],
       "snapshot": "Khaitan & Co, Trilegal act on Blackstone-backed EPL - Indovida Packaging merger"
+    },
+    {
+      "id": 3990,
+      "name": "Gaurav Deep Agrawal",
+      "firm": "Stratage Law Partners",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Nutriventia securing investment from Ndude Labs"
+      ],
+      "deals": [
+        {
+          "headline": "Stratage Law Partners, Cyril Amarchand Mangaldas act on Nutriventia securing investment from Ndude Labs",
+          "client": "Nutriventia securing investment from Ndude Labs",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/stratage-law-partners-cyril-amarchand-mangaldas-act-on-nutriventia-securing-investment-from-ndude-labs",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Stratage Law Partners, Cyril Amarchand Mangaldas act on Nutriventia securing investment from Ndude Labs"
     },
     {
       "id": 1135,
@@ -60326,6 +61186,7 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
+        "IPO",
         "QIP"
       ],
       "practice_areas": [
@@ -60336,7 +61197,8 @@
         "Goldman Sachs (India) Finance Private Limited",
         "JSW Energy",
         "Swiggy",
-        "Morgan Stanley"
+        "Morgan Stanley",
+        "AceVector"
       ],
       "deals": [
         {
@@ -60410,6 +61272,25 @@
             "currency": "INR",
             "amount": 23905000000,
             "amount_inr": 23905000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "CAM, TT&A, JSA, Sidley Austin act on AceVector ₹420 crore IPO",
+          "client": "AceVector",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-tta-jsa-sidley-austin-act-on-acevector-420-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹420 crore",
+            "currency": "INR",
+            "amount": 4200000000,
+            "amount_inr": 4200000000,
             "approx": false
           }
         }
@@ -62017,7 +62898,8 @@
       "transaction_types": [
         "IPO",
         "QIP",
-        "acquisition"
+        "acquisition",
+        "divestment"
       ],
       "practice_areas": [
         "Capital Markets",
@@ -62029,7 +62911,9 @@
         "Groww",
         "Brookfield",
         "Cube Highways Trust",
-        "Bharat Forge"
+        "Bharat Forge",
+        "Mubadala",
+        "Moneyview"
       ],
       "deals": [
         {
@@ -62119,6 +63003,38 @@
             "currency": "INR",
             "amount": 20000000000,
             "amount_inr": 20000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises Mubadala on divestment of stake in Cube Highways Trust",
+          "client": "Mubadala",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-mubadala-on-divestment-of-stake-in-cube-highways-trust",
+          "source": "Bar & Bench",
+          "types": [
+            "divestment"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas, Trilegal act on Moneyview ₹1,091 crore IPO",
+          "client": "Moneyview",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-trilegal-act-on-moneyview-1091-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,091 crore",
+            "currency": "INR",
+            "amount": 10910000000,
+            "amount_inr": 10910000000,
             "approx": false
           }
         }
@@ -65020,6 +65936,44 @@
       "snapshot": "Reliance brings SKIMS to India; Khaitan & Co advises"
     },
     {
+      "id": 3982,
+      "name": "Himani Singh",
+      "firm": "HSA Advocates",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "financing"
+      ],
+      "practice_areas": [
+        "Banking & Finance"
+      ],
+      "clients": [
+        "Piramal Finance"
+      ],
+      "deals": [
+        {
+          "headline": "HSA Advocates advises Piramal Finance on ₹266 crore financing for Solitaire VTP Group’s residential projects in Pune",
+          "client": "Piramal Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/hsa-advocates-advises-piramal-finance-on-266-crore-financing-for-solitaire-vtp-groups-residential-projects-in-pune",
+          "source": "Bar & Bench",
+          "types": [
+            "financing"
+          ],
+          "practice_areas": [
+            "Banking & Finance"
+          ],
+          "value": {
+            "raw": "₹266 crore",
+            "currency": "INR",
+            "amount": 2660000000,
+            "amount_inr": 2660000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "HSA Advocates advises Piramal Finance on ₹266 crore financing for Solitaire VTP Group’s residential..."
+    },
+    {
       "id": 850,
       "name": "Himanshi Khanna",
       "firm": "Dentons Link Legal",
@@ -65139,7 +66093,8 @@
       ],
       "clients": [
         "Sunshine Pictures",
-        "Adroit Industries'"
+        "Adroit Industries'",
+        "A-One Steels India"
       ],
       "deals": [
         {
@@ -65177,6 +66132,25 @@
             "currency": "INR",
             "amount": 1500000000,
             "amount_inr": 1500000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Vidhigya Associates acts on A-One Steels India ₹405 crore IPO",
+          "client": "A-One Steels India",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/vidhigya-associates-acts-on-a-one-steels-india-405-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹405 crore",
+            "currency": "INR",
+            "amount": 4050000000,
+            "amount_inr": 4050000000,
             "approx": false
           }
         }
@@ -66230,7 +67204,8 @@
       "clients": [
         "Jefferies India",
         "Aragen Life Sciences",
-        "Nobel Hygiene"
+        "Nobel Hygiene",
+        "AceVector"
       ],
       "deals": [
         {
@@ -66278,6 +67253,25 @@
             "amount": 1500000000,
             "amount_inr": 1500000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "CAM, TT&A, JSA, Sidley Austin act on AceVector ₹420 crore IPO",
+          "client": "AceVector",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-tta-jsa-sidley-austin-act-on-acevector-420-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹420 crore",
+            "currency": "INR",
+            "amount": 4200000000,
+            "amount_inr": 4200000000,
+            "approx": false
           }
         }
       ],
@@ -66336,6 +67330,44 @@
         }
       ],
       "snapshot": "JSA, Cyril Amarchand Mangaldas act on Allianz - Jio General Insurance JV"
+    },
+    {
+      "id": 3991,
+      "name": "Indraneel Godsay",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Moneyview"
+      ],
+      "deals": [
+        {
+          "headline": "Shardul Amarchand Mangaldas, Trilegal act on Moneyview ₹1,091 crore IPO",
+          "client": "Moneyview",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-trilegal-act-on-moneyview-1091-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,091 crore",
+            "currency": "INR",
+            "amount": 10910000000,
+            "amount_inr": 10910000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Shardul Amarchand Mangaldas, Trilegal act on Moneyview ₹1,091 crore IPO"
     },
     {
       "id": 3868,
@@ -66492,6 +67524,15 @@
             "amount_inr": 1100000000,
             "approx": false
           }
+        },
+        {
+          "headline": "Khaitan & Co advised RR Kabel on acquisition of U M Cables",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advised-rr-kabel-on-acquisition-of-u-m-cables",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
         }
       ],
       "snapshot": "Khaitan & Co, Cyril Amarchand Mangaldas act on Embio securing investment from True North"
@@ -68477,7 +69518,8 @@
         "Selling Shareholders",
         "MEMG Group",
         "Duroflex",
-        "Rentomojo"
+        "Rentomojo",
+        "Moneyview"
       ],
       "deals": [
         {
@@ -68535,6 +69577,25 @@
             "currency": "INR",
             "amount": 12550000000,
             "amount_inr": 12550000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas, Trilegal act on Moneyview ₹1,091 crore IPO",
+          "client": "Moneyview",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-trilegal-act-on-moneyview-1091-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,091 crore",
+            "currency": "INR",
+            "amount": 10910000000,
+            "amount_inr": 10910000000,
             "approx": false
           }
         }
@@ -74262,17 +75323,20 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
+        "IPO",
         "acquisition",
         "merger"
       ],
       "practice_areas": [
+        "Capital Markets",
         "Mergers & Acquisitions"
       ],
       "clients": [
         "Abu Dhabi National Energy Company (TAQA)",
         "Bain Capital",
         "Blackstone",
-        "Berry Street - Healthify merger"
+        "Berry Street - Healthify merger",
+        "Moneyview"
       ],
       "deals": [
         {
@@ -74318,6 +75382,25 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas, Trilegal act on Moneyview ₹1,091 crore IPO",
+          "client": "Moneyview",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-trilegal-act-on-moneyview-1091-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,091 crore",
+            "currency": "INR",
+            "amount": 10910000000,
+            "amount_inr": 10910000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM, Trilegal act on MEIL Energy acquiring a 250 MW thermal power project in Tamil Nadu ..."
@@ -75131,6 +76214,15 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ],
+          "value": null
+        },
+        {
+          "headline": "Khaitan & Co advised RR Kabel on acquisition of U M Cables",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advised-rr-kabel-on-acquisition-of-u-m-cables",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
           "value": null
         }
       ],
@@ -77741,14 +78833,17 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "divestment"
       ],
       "practice_areas": [
-        "Capital Markets"
+        "Capital Markets",
+        "Mergers & Acquisitions"
       ],
       "clients": [
         "Brookfield",
-        "Groww"
+        "Groww",
+        "Mubadala"
       ],
       "deals": [
         {
@@ -77774,6 +78869,19 @@
           ],
           "practice_areas": [
             "Capital Markets"
+          ],
+          "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises Mubadala on divestment of stake in Cube Highways Trust",
+          "client": "Mubadala",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-mubadala-on-divestment-of-stake-in-cube-highways-trust",
+          "source": "Bar & Bench",
+          "types": [
+            "divestment"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ],
           "value": null
         }
@@ -78902,6 +80010,44 @@
       "snapshot": "JSA advises on India leg of Cisco's acquisition of WideField Security"
     },
     {
+      "id": 3986,
+      "name": "Kermina Patel",
+      "firm": "HSA Advocates",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "financing"
+      ],
+      "practice_areas": [
+        "Banking & Finance"
+      ],
+      "clients": [
+        "Piramal Finance"
+      ],
+      "deals": [
+        {
+          "headline": "HSA Advocates advises Piramal Finance on ₹266 crore financing for Solitaire VTP Group’s residential projects in Pune",
+          "client": "Piramal Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/hsa-advocates-advises-piramal-finance-on-266-crore-financing-for-solitaire-vtp-groups-residential-projects-in-pune",
+          "source": "Bar & Bench",
+          "types": [
+            "financing"
+          ],
+          "practice_areas": [
+            "Banking & Finance"
+          ],
+          "value": {
+            "raw": "₹266 crore",
+            "currency": "INR",
+            "amount": 2660000000,
+            "amount_inr": 2660000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "HSA Advocates advises Piramal Finance on ₹266 crore financing for Solitaire VTP Group’s residential..."
+    },
+    {
       "id": 3755,
       "name": "Keshav Pareek",
       "firm": "Saraf and Partners",
@@ -78972,7 +80118,8 @@
       "clients": [
         "Book Running Lead Managers",
         "Nobel Hygiene",
-        "Kanohar Electricals"
+        "Kanohar Electricals",
+        "Anarock"
       ],
       "deals": [
         {
@@ -79023,6 +80170,25 @@
             "currency": "INR",
             "amount": 10550000000,
             "amount_inr": 10550000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Khaitan & Co, Verist Law, JSA, TT&A, Linklaters act on Anarock ₹1,000 crore proposed IPO",
+          "client": "Anarock",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-verist-law-jsa-tta-linklaters-act-on-anarock-1000-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,000 crore",
+            "currency": "INR",
+            "amount": 10000000000,
+            "amount_inr": 10000000000,
             "approx": false
           }
         }
@@ -80296,6 +81462,28 @@
       "snapshot": "TT&A, S&R, SAM, Agram act on Tata Motors acquiring controlling stake in Freight Tiger"
     },
     {
+      "id": 3976,
+      "name": "Kinshuk Jhunjhunwala",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advised RR Kabel on acquisition of U M Cables",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advised-rr-kabel-on-acquisition-of-u-m-cables",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "Khaitan & Co advised RR Kabel on acquisition of U M Cables"
+    },
+    {
       "id": 680,
       "name": "Kirstin Fyffe",
       "firm": "Weil Gotshal",
@@ -80560,13 +81748,15 @@
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
+        "IPO",
         "QIP"
       ],
       "practice_areas": [
         "Capital Markets"
       ],
       "clients": [
-        "Arvind"
+        "Arvind",
+        "J B Ecotex proposed IPO"
       ],
       "deals": [
         {
@@ -80586,6 +81776,25 @@
             "amount": 5000000000,
             "amount_inr": 5000000000,
             "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, CMS INDUSLAW act on J B Ecotex proposed IPO",
+          "client": "J B Ecotex proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cms-induslaw-act-on-j-b-ecotex-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "up to ₹ 400 crore",
+            "currency": "INR",
+            "amount": 4000000000,
+            "amount_inr": 4000000000,
+            "approx": true
           }
         }
       ],
@@ -86364,7 +87573,8 @@
         "Book Running Lead Managers",
         "Motilal Oswal Group",
         "Atomberg",
-        "JSW One"
+        "JSW One",
+        "Runwal Enterprises"
       ],
       "deals": [
         {
@@ -86443,6 +87653,25 @@
             "currency": "INR",
             "amount": 30540000000,
             "amount_inr": 30540000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co acts on Runwal Enterprises ₹500 crore IPO",
+          "client": "Runwal Enterprises",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-acts-on-runwal-enterprises-500-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹500 crore",
+            "currency": "INR",
+            "amount": 5000000000,
+            "amount_inr": 5000000000,
             "approx": false
           }
         }
@@ -86634,7 +87863,9 @@
         "Book Running Lead Managers",
         "Travelstack and founder promoters",
         "Globus Spirits",
-        "Nobel Hygiene"
+        "Nobel Hygiene",
+        "AceVector",
+        "Anarock"
       ],
       "deals": [
         {
@@ -86742,6 +87973,44 @@
             "amount": 1500000000,
             "amount_inr": 1500000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "CAM, TT&A, JSA, Sidley Austin act on AceVector ₹420 crore IPO",
+          "client": "AceVector",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-tta-jsa-sidley-austin-act-on-acevector-420-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹420 crore",
+            "currency": "INR",
+            "amount": 4200000000,
+            "amount_inr": 4200000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Khaitan & Co, Verist Law, JSA, TT&A, Linklaters act on Anarock ₹1,000 crore proposed IPO",
+          "client": "Anarock",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-verist-law-jsa-tta-linklaters-act-on-anarock-1000-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,000 crore",
+            "currency": "INR",
+            "amount": 10000000000,
+            "amount_inr": 10000000000,
+            "approx": false
           }
         }
       ],
@@ -87270,7 +88539,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "AceVector"
       ],
       "deals": [
         {
@@ -87298,6 +88568,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "CAM, TT&A, JSA, Sidley Austin act on AceVector ₹420 crore IPO",
+          "client": "AceVector",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-tta-jsa-sidley-austin-act-on-acevector-420-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹420 crore",
+            "currency": "INR",
+            "amount": 4200000000,
+            "amount_inr": 4200000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "SAM advises Aye Finance on ₹1,010 Crore IPO - Bar and Bench"
@@ -87581,7 +88870,8 @@
         "Motilal Oswal Group",
         "Gujarat Themis Biosyn",
         "Pranav Constructions'",
-        "Varmora Granito"
+        "Varmora Granito",
+        "Runwal Enterprises"
       ],
       "deals": [
         {
@@ -87812,6 +89102,25 @@
             "currency": "INR",
             "amount": 7080000000,
             "amount_inr": 7080000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co acts on Runwal Enterprises ₹500 crore IPO",
+          "client": "Runwal Enterprises",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-acts-on-runwal-enterprises-500-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹500 crore",
+            "currency": "INR",
+            "amount": 5000000000,
+            "amount_inr": 5000000000,
             "approx": false
           }
         }
@@ -90075,10 +91384,12 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "divestment"
       ],
       "practice_areas": [
-        "Capital Markets"
+        "Capital Markets",
+        "Mergers & Acquisitions"
       ],
       "clients": [
         "Brookfield",
@@ -90090,7 +91401,9 @@
         "Tenneco India & Promoter Selling Shareholder",
         "Investor Selling Shareholders",
         "PhysicsWallah and the selling shareholders",
-        "Dhoot Transmission"
+        "Dhoot Transmission",
+        "Mubadala",
+        "Moneyview"
       ],
       "deals": [
         {
@@ -90235,6 +91548,38 @@
             "currency": "INR",
             "amount": 30660000000,
             "amount_inr": 30660000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises Mubadala on divestment of stake in Cube Highways Trust",
+          "client": "Mubadala",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-mubadala-on-divestment-of-stake-in-cube-highways-trust",
+          "source": "Bar & Bench",
+          "types": [
+            "divestment"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas, Trilegal act on Moneyview ₹1,091 crore IPO",
+          "client": "Moneyview",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-trilegal-act-on-moneyview-1091-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,091 crore",
+            "currency": "INR",
+            "amount": 10910000000,
+            "amount_inr": 10910000000,
             "approx": false
           }
         }
@@ -91760,7 +93105,8 @@
         "Book Running Lead Managers",
         "Arvind",
         "Avtar Steel",
-        "Ekkaa Electronics"
+        "Ekkaa Electronics",
+        "J B Ecotex proposed IPO"
       ],
       "deals": [
         {
@@ -91844,6 +93190,25 @@
             "amount": 7250000000,
             "amount_inr": 7250000000,
             "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, CMS INDUSLAW act on J B Ecotex proposed IPO",
+          "client": "J B Ecotex proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cms-induslaw-act-on-j-b-ecotex-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "up to ₹ 400 crore",
+            "currency": "INR",
+            "amount": 4000000000,
+            "amount_inr": 4000000000,
+            "approx": true
           }
         }
       ],
@@ -92339,6 +93704,52 @@
       "snapshot": "TPG-led consortium to acquire Aseem Infra Finance; CAM, Linklaters, Trilegal, SAM advise",
       "same_name_elsewhere": [
         {
+          "id": 3978,
+          "firm": "Khaitan & Co",
+          "role": "Partner",
+          "deal_count": 1
+        },
+        {
+          "id": 2670,
+          "firm": "Cyril Amarchand Mangaldas",
+          "role": "Senior Associate",
+          "deal_count": 2
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "CAM's Mayank Jain is a documented Employment/ESOP associate. A 'Mayank Jain' also appears on a Trilegal deal team. No LinkedIn/bio directly ties the two together."
+      }
+    },
+    {
+      "id": 3978,
+      "name": "Mayank Jain",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advised RR Kabel on acquisition of U M Cables",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advised-rr-kabel-on-acquisition-of-u-m-cables",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "Khaitan & Co advised RR Kabel on acquisition of U M Cables",
+      "same_name_elsewhere": [
+        {
+          "id": 278,
+          "firm": "Trilegal",
+          "role": "Senior Associate",
+          "deal_count": 3
+        },
+        {
           "id": 2670,
           "firm": "Cyril Amarchand Mangaldas",
           "role": "Senior Associate",
@@ -92402,6 +93813,12 @@
           "firm": "Trilegal",
           "role": "Senior Associate",
           "deal_count": 3
+        },
+        {
+          "id": 3978,
+          "firm": "Khaitan & Co",
+          "role": "Partner",
+          "deal_count": 1
         }
       ],
       "firm_verification": {
@@ -97274,7 +98691,8 @@
         "Book Running Lead Managers",
         "Gaja Capital",
         "Kanohar Electricals",
-        "Varmora Granito"
+        "Varmora Granito",
+        "J B Ecotex proposed IPO"
       ],
       "deals": [
         {
@@ -97393,6 +98811,25 @@
             "amount": 7080000000,
             "amount_inr": 7080000000,
             "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, CMS INDUSLAW act on J B Ecotex proposed IPO",
+          "client": "J B Ecotex proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cms-induslaw-act-on-j-b-ecotex-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "up to ₹ 400 crore",
+            "currency": "INR",
+            "amount": 4000000000,
+            "amount_inr": 4000000000,
+            "approx": true
           }
         }
       ],
@@ -97836,6 +99273,44 @@
       "snapshot": "NSE IPO: Which law firms are advising the stock exchange on its public listing?"
     },
     {
+      "id": 3979,
+      "name": "Nagashayana Srinivasaiah",
+      "firm": "Khaitan & Co",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Runwal Enterprises"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Khaitan & Co acts on Runwal Enterprises ₹500 crore IPO",
+          "client": "Runwal Enterprises",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-acts-on-runwal-enterprises-500-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹500 crore",
+            "currency": "INR",
+            "amount": 5000000000,
+            "amount_inr": 5000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Trilegal, Khaitan & Co acts on Runwal Enterprises ₹500 crore IPO"
+    },
+    {
       "id": 1553,
       "name": "Naimi Kamdar",
       "firm": "Cyril Amarchand Mangaldas",
@@ -98067,7 +99542,9 @@
         "Vardaan Biotech",
         "Nexa Defence IPO",
         "Dinotarp IPO",
-        "SG Encon IPO"
+        "SG Encon IPO",
+        "Himalaya Nutravedics IPO",
+        "Auto Recycling Systems IPO"
       ],
       "deals": [
         {
@@ -98202,6 +99679,44 @@
             "amount_inr": 750000000,
             "approx": true
           }
+        },
+        {
+          "headline": "Legacy Law Offices acts on Himalaya Nutravedics IPO",
+          "client": "Himalaya Nutravedics IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-himalaya-nutravedics-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹26.5 crore",
+            "currency": "INR",
+            "amount": 265000000,
+            "amount_inr": 265000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Legacy Law Offices acts on Auto Recycling Systems IPO",
+          "client": "Auto Recycling Systems IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-auto-recycling-systems-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹72.26 crore+",
+            "currency": "INR",
+            "amount": 722600000,
+            "amount_inr": 722600000,
+            "approx": true
+          }
         }
       ],
       "snapshot": "Legacy Law Offices acts on Apar Advertisers IPO",
@@ -98260,7 +99775,7 @@
           "id": 3047,
           "firm": "Legacy Law Offices",
           "role": "Counsel",
-          "deal_count": 7
+          "deal_count": 9
         }
       ],
       "firm_verification": {
@@ -99165,7 +100680,8 @@
       ],
       "clients": [
         "Jefferies India Private Limited",
-        "Varmora Granito"
+        "Varmora Granito",
+        "J B Ecotex proposed IPO"
       ],
       "deals": [
         {
@@ -99198,6 +100714,25 @@
             "amount": 7080000000,
             "amount_inr": 7080000000,
             "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, CMS INDUSLAW act on J B Ecotex proposed IPO",
+          "client": "J B Ecotex proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cms-induslaw-act-on-j-b-ecotex-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "up to ₹ 400 crore",
+            "currency": "INR",
+            "amount": 4000000000,
+            "amount_inr": 4000000000,
+            "approx": true
           }
         }
       ],
@@ -102022,6 +103557,7 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
+        "IPO",
         "QIP",
         "acquisition"
       ],
@@ -102030,7 +103566,8 @@
         "Mergers & Acquisitions"
       ],
       "clients": [
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "AceVector"
       ],
       "deals": [
         {
@@ -102047,6 +103584,25 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "CAM, TT&A, JSA, Sidley Austin act on AceVector ₹420 crore IPO",
+          "client": "AceVector",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-tta-jsa-sidley-austin-act-on-acevector-420-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹420 crore",
+            "currency": "INR",
+            "amount": 4200000000,
+            "amount_inr": 4200000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "SAM, Linklaters act on Biocon Limited ₹4,150 crore QIP - Bar and Bench"
@@ -102951,7 +104507,8 @@
       "transaction_types": [
         "IPO",
         "QIP",
-        "acquisition"
+        "acquisition",
+        "divestment"
       ],
       "practice_areas": [
         "Capital Markets",
@@ -102976,7 +104533,8 @@
         "Cube Highways Trust",
         "Dhoot Transmission",
         "Bharat Forge",
-        "Elevate Campuses"
+        "Elevate Campuses",
+        "Mubadala"
       ],
       "deals": [
         {
@@ -103258,6 +104816,19 @@
             "amount_inr": 21000000000,
             "approx": false
           }
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises Mubadala on divestment of stake in Cube Highways Trust",
+          "client": "Mubadala",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-mubadala-on-divestment-of-stake-in-cube-highways-trust",
+          "source": "Bar & Bench",
+          "types": [
+            "divestment"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Trilegal act on Brookfield India REIT ₹2,600 crore QIP"
@@ -103829,7 +105400,8 @@
       "clients": [
         "Placement agents",
         "Powerica & Promoter Selling Shareholders",
-        "JSW One"
+        "JSW One",
+        "AceVector"
       ],
       "deals": [
         {
@@ -103876,6 +105448,25 @@
             "currency": "INR",
             "amount": 30540000000,
             "amount_inr": 30540000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "CAM, TT&A, JSA, Sidley Austin act on AceVector ₹420 crore IPO",
+          "client": "AceVector",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-tta-jsa-sidley-austin-act-on-acevector-420-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹420 crore",
+            "currency": "INR",
+            "amount": 4200000000,
+            "amount_inr": 4200000000,
             "approx": false
           }
         }
@@ -106834,7 +108425,8 @@
       "clients": [
         "Piramal Enterprises Limited and Piramal Finance Limited",
         "Book running lead managers",
-        "SPR Auto Technologies"
+        "SPR Auto Technologies",
+        "Moneyview"
       ],
       "deals": [
         {
@@ -106879,6 +108471,25 @@
             "currency": "INR",
             "amount": 10000000000,
             "amount_inr": 10000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas, Trilegal act on Moneyview ₹1,091 crore IPO",
+          "client": "Moneyview",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-trilegal-act-on-moneyview-1091-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,091 crore",
+            "currency": "INR",
+            "amount": 10910000000,
+            "amount_inr": 10910000000,
             "approx": false
           }
         }
@@ -107787,7 +109398,8 @@
       "clients": [
         "Jefferies India Private Limited",
         "Lead Managers",
-        "Kanohar Electricals"
+        "Kanohar Electricals",
+        "J B Ecotex proposed IPO"
       ],
       "deals": [
         {
@@ -107833,6 +109445,25 @@
             "amount": 10550000000,
             "amount_inr": 10550000000,
             "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, CMS INDUSLAW act on J B Ecotex proposed IPO",
+          "client": "J B Ecotex proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cms-induslaw-act-on-j-b-ecotex-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "up to ₹ 400 crore",
+            "currency": "INR",
+            "amount": 4000000000,
+            "amount_inr": 4000000000,
+            "approx": true
           }
         }
       ],
@@ -110101,7 +111732,8 @@
         "Atlanta Electricals",
         "IIFL Securities Limited and Motilal Oswal Investment Advisors Limited",
         "Pranav Constructions'",
-        "Varmora Granito"
+        "Varmora Granito",
+        "Runwal Enterprises"
       ],
       "deals": [
         {
@@ -110165,6 +111797,25 @@
             "currency": "INR",
             "amount": 7080000000,
             "amount_inr": 7080000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co acts on Runwal Enterprises ₹500 crore IPO",
+          "client": "Runwal Enterprises",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-acts-on-runwal-enterprises-500-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹500 crore",
+            "currency": "INR",
+            "amount": 5000000000,
+            "amount_inr": 5000000000,
             "approx": false
           }
         }
@@ -112583,6 +114234,15 @@
           "headline": "Khaitan & Co assists RPG Life Sciences on carve-out of its API business",
           "client": "RPG Life Sciences",
           "url": "https://www.barandbench.com/dealstreet/khaitan-co-assists-rpg-life-sciences-on-carve-out-of-its-api-business",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "Khaitan & Co advised RR Kabel on acquisition of U M Cables",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advised-rr-kabel-on-acquisition-of-u-m-cables",
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": [],
@@ -115126,7 +116786,8 @@
       ],
       "clients": [
         "Arvind",
-        "Ekkaa Electronics"
+        "Ekkaa Electronics",
+        "J B Ecotex proposed IPO"
       ],
       "deals": [
         {
@@ -115165,6 +116826,25 @@
             "amount": 7250000000,
             "amount_inr": 7250000000,
             "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, CMS INDUSLAW act on J B Ecotex proposed IPO",
+          "client": "J B Ecotex proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cms-induslaw-act-on-j-b-ecotex-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "up to ₹ 400 crore",
+            "currency": "INR",
+            "amount": 4000000000,
+            "amount_inr": 4000000000,
+            "approx": true
           }
         }
       ],
@@ -116179,7 +117859,8 @@
       "clients": [
         "Apar Advertisers IPO",
         "Dain Colour Chem IPO",
-        "SG Encon IPO"
+        "SG Encon IPO",
+        "Himalaya Nutravedics IPO"
       ],
       "deals": [
         {
@@ -116237,6 +117918,25 @@
             "amount": 750000000,
             "amount_inr": 750000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "Legacy Law Offices acts on Himalaya Nutravedics IPO",
+          "client": "Himalaya Nutravedics IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-himalaya-nutravedics-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹26.5 crore",
+            "currency": "INR",
+            "amount": 265000000,
+            "amount_inr": 265000000,
+            "approx": false
           }
         }
       ],
@@ -116296,7 +117996,7 @@
           "id": 3048,
           "firm": "Legacy Law Offices",
           "role": "Associate Partner",
-          "deal_count": 3
+          "deal_count": 4
         }
       ],
       "firm_verification": {
@@ -120476,7 +122176,8 @@
         "Sunshine Pictures",
         "Veegaland Homes",
         "Adroit Industries'",
-        "Swastika Infra’s"
+        "Swastika Infra’s",
+        "A-One Steels India"
       ],
       "deals": [
         {
@@ -120552,6 +122253,25 @@
             "currency": "INR",
             "amount": 2000000000,
             "amount_inr": 2000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Vidhigya Associates acts on A-One Steels India ₹405 crore IPO",
+          "client": "A-One Steels India",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/vidhigya-associates-acts-on-a-one-steels-india-405-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹405 crore",
+            "currency": "INR",
+            "amount": 4050000000,
+            "amount_inr": 4050000000,
             "approx": false
           }
         }
@@ -120938,7 +122658,8 @@
         "Book Running Lead Managers",
         "Gaja Capital",
         "Kanohar Electricals",
-        "Varmora Granito"
+        "Varmora Granito",
+        "J B Ecotex proposed IPO"
       ],
       "deals": [
         {
@@ -121022,6 +122743,25 @@
             "amount": 7080000000,
             "amount_inr": 7080000000,
             "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, CMS INDUSLAW act on J B Ecotex proposed IPO",
+          "client": "J B Ecotex proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cms-induslaw-act-on-j-b-ecotex-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "up to ₹ 400 crore",
+            "currency": "INR",
+            "amount": 4000000000,
+            "amount_inr": 4000000000,
+            "approx": true
           }
         }
       ],
@@ -121351,7 +123091,8 @@
       ],
       "clients": [
         "Gaja Capital",
-        "Kanohar Electricals"
+        "Kanohar Electricals",
+        "J B Ecotex proposed IPO"
       ],
       "deals": [
         {
@@ -121390,6 +123131,25 @@
             "amount": 10550000000,
             "amount_inr": 10550000000,
             "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, CMS INDUSLAW act on J B Ecotex proposed IPO",
+          "client": "J B Ecotex proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cms-induslaw-act-on-j-b-ecotex-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "up to ₹ 400 crore",
+            "currency": "INR",
+            "amount": 4000000000,
+            "amount_inr": 4000000000,
+            "approx": true
           }
         }
       ],
@@ -125767,7 +127527,9 @@
         "Kanohar Electricals",
         "Paisalo",
         "Varmora Granito",
-        "LCC Projects"
+        "LCC Projects",
+        "Runwal Enterprises",
+        "J B Ecotex proposed IPO"
       ],
       "deals": [
         {
@@ -126137,6 +127899,44 @@
             "amount": 4270000000,
             "amount_inr": 4270000000,
             "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co acts on Runwal Enterprises ₹500 crore IPO",
+          "client": "Runwal Enterprises",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-acts-on-runwal-enterprises-500-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹500 crore",
+            "currency": "INR",
+            "amount": 5000000000,
+            "amount_inr": 5000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, CMS INDUSLAW act on J B Ecotex proposed IPO",
+          "client": "J B Ecotex proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cms-induslaw-act-on-j-b-ecotex-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "up to ₹ 400 crore",
+            "currency": "INR",
+            "amount": 4000000000,
+            "amount_inr": 4000000000,
+            "approx": true
           }
         }
       ],
@@ -130315,7 +132115,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Brookfield"
+        "Brookfield",
+        "Moneyview"
       ],
       "deals": [
         {
@@ -130330,6 +132131,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas, Trilegal act on Moneyview ₹1,091 crore IPO",
+          "client": "Moneyview",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-trilegal-act-on-moneyview-1091-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,091 crore",
+            "currency": "INR",
+            "amount": 10910000000,
+            "amount_inr": 10910000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM, Khaitan, SAM act on Clean Max Enviro Energy IPO"
@@ -131377,7 +133197,8 @@
       ],
       "clients": [
         "Book Running Lead Managers",
-        "Anmol"
+        "Anmol",
+        "Runwal Enterprises"
       ],
       "deals": [
         {
@@ -131409,6 +133230,25 @@
             "currency": "INR",
             "amount": 18000000000,
             "amount_inr": 18000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co acts on Runwal Enterprises ₹500 crore IPO",
+          "client": "Runwal Enterprises",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-acts-on-runwal-enterprises-500-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹500 crore",
+            "currency": "INR",
+            "amount": 5000000000,
+            "amount_inr": 5000000000,
             "approx": false
           }
         }
@@ -131724,7 +133564,8 @@
         "KIMS",
         "Groww",
         "Biocon Limited",
-        "WeWork India and Embassy Buildcon LLP"
+        "WeWork India and Embassy Buildcon LLP",
+        "Moneyview"
       ],
       "deals": [
         {
@@ -131806,6 +133647,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas, Trilegal act on Moneyview ₹1,091 crore IPO",
+          "client": "Moneyview",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-trilegal-act-on-moneyview-1091-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,091 crore",
+            "currency": "INR",
+            "amount": 10910000000,
+            "amount_inr": 10910000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Shardul Amarchand Mangaldas, Trilegal act on Ather Energy ₹1,300 crore QIP"
@@ -132788,7 +134648,8 @@
       ],
       "clients": [
         "Manorama Industries",
-        "Book Running Lead Managers"
+        "Book Running Lead Managers",
+        "AceVector"
       ],
       "deals": [
         {
@@ -132831,6 +134692,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "CAM, TT&A, JSA, Sidley Austin act on AceVector ₹420 crore IPO",
+          "client": "AceVector",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-tta-jsa-sidley-austin-act-on-acevector-420-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹420 crore",
+            "currency": "INR",
+            "amount": 4200000000,
+            "amount_inr": 4200000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "JSA, Verist Law, Duane Morris & Selvam act on Manorama Industries ₹500 crore QIP"
@@ -133194,7 +135074,8 @@
       ],
       "clients": [
         "Book Running Lead Managers",
-        "Avtar Steel"
+        "Avtar Steel",
+        "J B Ecotex proposed IPO"
       ],
       "deals": [
         {
@@ -133226,6 +135107,25 @@
             "currency": "INR",
             "amount": 5850000000,
             "amount_inr": 5850000000,
+            "approx": true
+          }
+        },
+        {
+          "headline": "Trilegal, CMS INDUSLAW act on J B Ecotex proposed IPO",
+          "client": "J B Ecotex proposed IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cms-induslaw-act-on-j-b-ecotex-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "up to ₹ 400 crore",
+            "currency": "INR",
+            "amount": 4000000000,
+            "amount_inr": 4000000000,
             "approx": true
           }
         }
@@ -133295,15 +135195,18 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
+        "IPO",
         "acquisition"
       ],
       "practice_areas": [
+        "Capital Markets",
         "Mergers & Acquisitions"
       ],
       "clients": [
         "Mahindra Lifespaces",
         "HDFC Capital Advisors",
-        "EAAA India Alternatives"
+        "EAAA India Alternatives",
+        "Runwal Enterprises"
       ],
       "deals": [
         {
@@ -133349,6 +135252,25 @@
             "currency": "INR",
             "amount": 30000000000,
             "amount_inr": 30000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co acts on Runwal Enterprises ₹500 crore IPO",
+          "client": "Runwal Enterprises",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-acts-on-runwal-enterprises-500-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹500 crore",
+            "currency": "INR",
+            "amount": 5000000000,
+            "amount_inr": 5000000000,
             "approx": false
           }
         }
@@ -136295,7 +138217,8 @@
         "Placement Agents",
         "Power Finance Corporation and lead managers",
         "Adani Energy Solutions",
-        "Varmora Granito"
+        "Varmora Granito",
+        "Runwal Enterprises"
       ],
       "deals": [
         {
@@ -136368,6 +138291,25 @@
             "currency": "INR",
             "amount": 7080000000,
             "amount_inr": 7080000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co acts on Runwal Enterprises ₹500 crore IPO",
+          "client": "Runwal Enterprises",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-acts-on-runwal-enterprises-500-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹500 crore",
+            "currency": "INR",
+            "amount": 5000000000,
+            "amount_inr": 5000000000,
             "approx": false
           }
         }
@@ -137004,10 +138946,15 @@
       "firm": "Shardul Amarchand Mangaldas & Co",
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
       "clients": [
-        "Union Bank of India"
+        "Union Bank of India",
+        "Moneyview"
       ],
       "deals": [
         {
@@ -137022,6 +138969,25 @@
             "currency": "USD",
             "amount": 600000000,
             "amount_inr": 52800000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas, Trilegal act on Moneyview ₹1,091 crore IPO",
+          "client": "Moneyview",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-trilegal-act-on-moneyview-1091-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,091 crore",
+            "currency": "INR",
+            "amount": 10910000000,
+            "amount_inr": 10910000000,
             "approx": false
           }
         }
@@ -144558,7 +146524,8 @@
         "MEMG Group",
         "Book Running Lead Managers",
         "SPR Auto Technologies",
-        "Karamtara Engineering"
+        "Karamtara Engineering",
+        "Moneyview"
       ],
       "deals": [
         {
@@ -144648,6 +146615,25 @@
             "currency": "INR",
             "amount": 8750000000,
             "amount_inr": 8750000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas, Trilegal act on Moneyview ₹1,091 crore IPO",
+          "client": "Moneyview",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-trilegal-act-on-moneyview-1091-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,091 crore",
+            "currency": "INR",
+            "amount": 10910000000,
+            "amount_inr": 10910000000,
             "approx": false
           }
         }
@@ -146106,7 +148092,8 @@
       ],
       "clients": [
         "Investor Selling Shareholders",
-        "Nobel Hygiene"
+        "Nobel Hygiene",
+        "Anarock"
       ],
       "deals": [
         {
@@ -146139,6 +148126,25 @@
             "amount": 1500000000,
             "amount_inr": 1500000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "Khaitan & Co, Verist Law, JSA, TT&A, Linklaters act on Anarock ₹1,000 crore proposed IPO",
+          "client": "Anarock",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-verist-law-jsa-tta-linklaters-act-on-anarock-1000-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,000 crore",
+            "currency": "INR",
+            "amount": 10000000000,
+            "amount_inr": 10000000000,
+            "approx": false
           }
         }
       ],
@@ -146746,7 +148752,8 @@
       ],
       "clients": [
         "Book Running Lead Managers",
-        "Globus Spirits"
+        "Globus Spirits",
+        "AceVector"
       ],
       "deals": [
         {
@@ -146793,6 +148800,25 @@
             "currency": "INR",
             "amount": 2000000000,
             "amount_inr": 2000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "CAM, TT&A, JSA, Sidley Austin act on AceVector ₹420 crore IPO",
+          "client": "AceVector",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-tta-jsa-sidley-austin-act-on-acevector-420-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹420 crore",
+            "currency": "INR",
+            "amount": 4200000000,
+            "amount_inr": 4200000000,
             "approx": false
           }
         }
@@ -149899,7 +151925,8 @@
       ],
       "clients": [
         "Augmont",
-        "Anmol"
+        "Anmol",
+        "Runwal Enterprises"
       ],
       "deals": [
         {
@@ -149931,6 +151958,25 @@
             "currency": "INR",
             "amount": 18000000000,
             "amount_inr": 18000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co acts on Runwal Enterprises ₹500 crore IPO",
+          "client": "Runwal Enterprises",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-acts-on-runwal-enterprises-500-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹500 crore",
+            "currency": "INR",
+            "amount": 5000000000,
+            "amount_inr": 5000000000,
             "approx": false
           }
         }
@@ -150113,7 +152159,8 @@
         "Capri Loans and Nuvama Wealth Management Limited",
         "Atlanta Electricals",
         "Adani Energy Solutions",
-        "Paisalo"
+        "Paisalo",
+        "Runwal Enterprises"
       ],
       "deals": [
         {
@@ -150178,6 +152225,25 @@
             "currency": "INR",
             "amount": 3000000000,
             "amount_inr": 3000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co acts on Runwal Enterprises ₹500 crore IPO",
+          "client": "Runwal Enterprises",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-acts-on-runwal-enterprises-500-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹500 crore",
+            "currency": "INR",
+            "amount": 5000000000,
+            "amount_inr": 5000000000,
             "approx": false
           }
         }
@@ -152010,6 +154076,7 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
+        "IPO",
         "QIP"
       ],
       "practice_areas": [
@@ -152019,7 +154086,8 @@
         "Poonawalla Fincorp (issuer)",
         "IDFC FIRST Bank",
         "Union Bank of India",
-        "IFC"
+        "IFC",
+        "Moneyview"
       ],
       "deals": [
         {
@@ -152077,6 +154145,25 @@
             "currency": "USD",
             "amount": 500000000,
             "amount_inr": 44000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas, Trilegal act on Moneyview ₹1,091 crore IPO",
+          "client": "Moneyview",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-trilegal-act-on-moneyview-1091-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,091 crore",
+            "currency": "INR",
+            "amount": 10910000000,
+            "amount_inr": 10910000000,
             "approx": false
           }
         }
@@ -152914,7 +155001,8 @@
         "Atlanta Electricals",
         "Power Finance Corporation and lead managers",
         "Gujarat Themis Biosyn",
-        "Pranav Constructions'"
+        "Pranav Constructions'",
+        "Runwal Enterprises"
       ],
       "deals": [
         {
@@ -153018,6 +155106,25 @@
             "currency": "INR",
             "amount": 3510000000,
             "amount_inr": 3510000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co acts on Runwal Enterprises ₹500 crore IPO",
+          "client": "Runwal Enterprises",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-acts-on-runwal-enterprises-500-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹500 crore",
+            "currency": "INR",
+            "amount": 5000000000,
+            "amount_inr": 5000000000,
             "approx": false
           }
         }
@@ -153596,6 +155703,44 @@
         }
       ],
       "snapshot": "Snabbit snaps up $56 million from Series D fundraise; JSA, Shardul Amarchand Mangaldas ..."
+    },
+    {
+      "id": 3980,
+      "name": "Siddharth Melepurath",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Runwal Enterprises"
+      ],
+      "deals": [
+        {
+          "headline": "Trilegal, Khaitan & Co acts on Runwal Enterprises ₹500 crore IPO",
+          "client": "Runwal Enterprises",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-acts-on-runwal-enterprises-500-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹500 crore",
+            "currency": "INR",
+            "amount": 5000000000,
+            "amount_inr": 5000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Trilegal, Khaitan & Co acts on Runwal Enterprises ₹500 crore IPO"
     },
     {
       "id": 111,
@@ -154741,9 +156886,15 @@
       "firm": "Trilegal",
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
-      "transaction_types": [],
-      "practice_areas": [],
-      "clients": [],
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Moneyview"
+      ],
       "deals": [
         {
           "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise",
@@ -154757,6 +156908,25 @@
             "currency": "INR",
             "amount": 30000000000,
             "amount_inr": 30000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas, Trilegal act on Moneyview ₹1,091 crore IPO",
+          "client": "Moneyview",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-trilegal-act-on-moneyview-1091-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,091 crore",
+            "currency": "INR",
+            "amount": 10910000000,
+            "amount_inr": 10910000000,
             "approx": false
           }
         }
@@ -156944,6 +159114,44 @@
       "snapshot": "Trilegal, CAM, Latham, AZB, Equilex, Macfarlanes advise on Mittal-Poonawalla consortium ..."
     },
     {
+      "id": 3994,
+      "name": "Soham Vakil",
+      "firm": "Talwar Thakore & Associates",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Anarock"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co, Verist Law, JSA, TT&A, Linklaters act on Anarock ₹1,000 crore proposed IPO",
+          "client": "Anarock",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-verist-law-jsa-tta-linklaters-act-on-anarock-1000-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,000 crore",
+            "currency": "INR",
+            "amount": 10000000000,
+            "amount_inr": 10000000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Khaitan & Co, Verist Law, JSA, TT&A, Linklaters act on Anarock ₹1,000 crore proposed IPO"
+    },
+    {
       "id": 3321,
       "name": "Sohni Kherada",
       "firm": "Trilegal",
@@ -157665,6 +159873,44 @@
       "snapshot": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore"
     },
     {
+      "id": 3981,
+      "name": "Soumya Mohanty",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "AceVector"
+      ],
+      "deals": [
+        {
+          "headline": "CAM, TT&A, JSA, Sidley Austin act on AceVector ₹420 crore IPO",
+          "client": "AceVector",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cam-tta-jsa-sidley-austin-act-on-acevector-420-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹420 crore",
+            "currency": "INR",
+            "amount": 4200000000,
+            "amount_inr": 4200000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "CAM, TT&A, JSA, Sidley Austin act on AceVector ₹420 crore IPO"
+    },
+    {
       "id": 3533,
       "name": "Soumya Mohapatra",
       "firm": "Khaitan & Co",
@@ -157743,6 +159989,38 @@
         }
       ],
       "snapshot": "SAM acts on JSW Energy ₹3,000 crore preferential issue - Bar and Bench"
+    },
+    {
+      "id": 3988,
+      "name": "Soumya Shanker",
+      "firm": "Stratage Law Partners",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Nutriventia securing investment from Ndude Labs"
+      ],
+      "deals": [
+        {
+          "headline": "Stratage Law Partners, Cyril Amarchand Mangaldas act on Nutriventia securing investment from Ndude Labs",
+          "client": "Nutriventia securing investment from Ndude Labs",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/stratage-law-partners-cyril-amarchand-mangaldas-act-on-nutriventia-securing-investment-from-ndude-labs",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Stratage Law Partners, Cyril Amarchand Mangaldas act on Nutriventia securing investment from Ndude Labs"
     },
     {
       "id": 2490,
@@ -159685,6 +161963,44 @@
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas, TT&A act on Adani's ₹3,050 crore acquisition of IntelliSmart"
+    },
+    {
+      "id": 3983,
+      "name": "Srivar Awasthi",
+      "firm": "HSA Advocates",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [
+        "financing"
+      ],
+      "practice_areas": [
+        "Banking & Finance"
+      ],
+      "clients": [
+        "Piramal Finance"
+      ],
+      "deals": [
+        {
+          "headline": "HSA Advocates advises Piramal Finance on ₹266 crore financing for Solitaire VTP Group’s residential projects in Pune",
+          "client": "Piramal Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/hsa-advocates-advises-piramal-finance-on-266-crore-financing-for-solitaire-vtp-groups-residential-projects-in-pune",
+          "source": "Bar & Bench",
+          "types": [
+            "financing"
+          ],
+          "practice_areas": [
+            "Banking & Finance"
+          ],
+          "value": {
+            "raw": "₹266 crore",
+            "currency": "INR",
+            "amount": 2660000000,
+            "amount_inr": 2660000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "HSA Advocates advises Piramal Finance on ₹266 crore financing for Solitaire VTP Group’s residential..."
     },
     {
       "id": 3217,
@@ -162769,7 +165085,9 @@
         "Vardaan Biotech",
         "Nexa Defence IPO",
         "Dinotarp IPO",
-        "SG Encon IPO"
+        "SG Encon IPO",
+        "Himalaya Nutravedics IPO",
+        "Auto Recycling Systems IPO"
       ],
       "deals": [
         {
@@ -162885,6 +165203,44 @@
             "amount_inr": 750000000,
             "approx": true
           }
+        },
+        {
+          "headline": "Legacy Law Offices acts on Himalaya Nutravedics IPO",
+          "client": "Himalaya Nutravedics IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-himalaya-nutravedics-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹26.5 crore",
+            "currency": "INR",
+            "amount": 265000000,
+            "amount_inr": 265000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Legacy Law Offices acts on Auto Recycling Systems IPO",
+          "client": "Auto Recycling Systems IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-auto-recycling-systems-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹72.26 crore+",
+            "currency": "INR",
+            "amount": 722600000,
+            "amount_inr": 722600000,
+            "approx": true
+          }
         }
       ],
       "snapshot": "Legacy Law Offices acts on Dain Colour Chem IPO",
@@ -162943,7 +165299,7 @@
           "id": 3453,
           "firm": "Legacy Law Offices",
           "role": "Partner",
-          "deal_count": 6
+          "deal_count": 8
         }
       ],
       "firm_verification": {
@@ -167302,7 +169658,8 @@
       ],
       "clients": [
         "Book Running Lead Managers",
-        "merger of Happiest Minds into ITC Infotech"
+        "merger of Happiest Minds into ITC Infotech",
+        "Runwal Enterprises"
       ],
       "deals": [
         {
@@ -167343,6 +169700,25 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co acts on Runwal Enterprises ₹500 crore IPO",
+          "client": "Runwal Enterprises",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-acts-on-runwal-enterprises-500-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹500 crore",
+            "currency": "INR",
+            "amount": 5000000000,
+            "amount_inr": 5000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "NSE IPO: Which law firms are advising the stock exchange on its public listing?"
@@ -168032,7 +170408,8 @@
       ],
       "clients": [
         "Investor Selling Shareholders",
-        "Globus Spirits"
+        "Globus Spirits",
+        "Anarock"
       ],
       "deals": [
         {
@@ -168064,6 +170441,25 @@
             "currency": "INR",
             "amount": 2000000000,
             "amount_inr": 2000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Khaitan & Co, Verist Law, JSA, TT&A, Linklaters act on Anarock ₹1,000 crore proposed IPO",
+          "client": "Anarock",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-verist-law-jsa-tta-linklaters-act-on-anarock-1000-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,000 crore",
+            "currency": "INR",
+            "amount": 10000000000,
+            "amount_inr": 10000000000,
             "approx": false
           }
         }
@@ -169056,7 +171452,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Aavishkar Capital"
+        "Aavishkar Capital",
+        "PLIX as Marico acquires additional stake for"
       ],
       "deals": [
         {
@@ -169071,6 +171468,21 @@
             "Private Equity & Venture Capital"
           ],
           "value": null
+        },
+        {
+          "headline": "VERTICES PARTNERS advises PLIX as Marico acquires additional stake for ₹1,012 crore",
+          "client": "PLIX as Marico acquires additional stake for",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/vertices-partners-advises-plix-as-marico-acquires-additional-stake-for-1012-crore",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹1,012 crore",
+            "currency": "INR",
+            "amount": 10120000000,
+            "amount_inr": 10120000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Fox & Mandal, VERTICES PARTNERS, Shardul Amarchand Mangaldas act on Gnani.AI ..."
@@ -172148,6 +174560,44 @@
       "snapshot": "CAM, TT&A assist in Juspay securing $50 million from Westbridge Capital"
     },
     {
+      "id": 3985,
+      "name": "Vanita Dave",
+      "firm": "HSA Advocates",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "financing"
+      ],
+      "practice_areas": [
+        "Banking & Finance"
+      ],
+      "clients": [
+        "Piramal Finance"
+      ],
+      "deals": [
+        {
+          "headline": "HSA Advocates advises Piramal Finance on ₹266 crore financing for Solitaire VTP Group’s residential projects in Pune",
+          "client": "Piramal Finance",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/hsa-advocates-advises-piramal-finance-on-266-crore-financing-for-solitaire-vtp-groups-residential-projects-in-pune",
+          "source": "Bar & Bench",
+          "types": [
+            "financing"
+          ],
+          "practice_areas": [
+            "Banking & Finance"
+          ],
+          "value": {
+            "raw": "₹266 crore",
+            "currency": "INR",
+            "amount": 2660000000,
+            "amount_inr": 2660000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "HSA Advocates advises Piramal Finance on ₹266 crore financing for Solitaire VTP Group’s residential..."
+    },
+    {
       "id": 420,
       "name": "Vansh Dhoka",
       "firm": "Trilegal",
@@ -173405,7 +175855,8 @@
         "Aavishkar Capital",
         "Aavishkaar Capital",
         "FlipSpaces",
-        "GreyLabs AI"
+        "GreyLabs AI",
+        "PLIX as Marico acquires additional stake for"
       ],
       "deals": [
         {
@@ -173462,6 +175913,21 @@
             "Private Equity & Venture Capital"
           ],
           "value": null
+        },
+        {
+          "headline": "VERTICES PARTNERS advises PLIX as Marico acquires additional stake for ₹1,012 crore",
+          "client": "PLIX as Marico acquires additional stake for",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/vertices-partners-advises-plix-as-marico-acquires-additional-stake-for-1012-crore",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹1,012 crore",
+            "currency": "INR",
+            "amount": 10120000000,
+            "amount_inr": 10120000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Fox & Mandal, VERTICES PARTNERS, Shardul Amarchand Mangaldas act on Gnani.AI ..."
@@ -173555,7 +176021,8 @@
       "clients": [
         "Book Running Lead Managers",
         "JM Financial Limited and Motilal Oswal Investment Advisors Limited",
-        "Anmol"
+        "Anmol",
+        "Runwal Enterprises"
       ],
       "deals": [
         {
@@ -173613,6 +176080,25 @@
             "currency": "INR",
             "amount": 18000000000,
             "amount_inr": 18000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co acts on Runwal Enterprises ₹500 crore IPO",
+          "client": "Runwal Enterprises",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-acts-on-runwal-enterprises-500-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹500 crore",
+            "currency": "INR",
+            "amount": 5000000000,
+            "amount_inr": 5000000000,
             "approx": false
           }
         }
@@ -174273,7 +176759,8 @@
       "clients": [
         "Lead Managers",
         "Book running lead managers",
-        "Anmol"
+        "Anmol",
+        "Moneyview"
       ],
       "deals": [
         {
@@ -174318,6 +176805,25 @@
             "currency": "INR",
             "amount": 18000000000,
             "amount_inr": 18000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas, Trilegal act on Moneyview ₹1,091 crore IPO",
+          "client": "Moneyview",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-trilegal-act-on-moneyview-1091-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,091 crore",
+            "currency": "INR",
+            "amount": 10910000000,
+            "amount_inr": 10910000000,
             "approx": false
           }
         }
@@ -175669,7 +178175,69 @@
           "value": null
         }
       ],
-      "snapshot": "FleetX acquires Pando.ai; JSA, CMS INDUSLAW advise"
+      "snapshot": "FleetX acquires Pando.ai; JSA, CMS INDUSLAW advise",
+      "same_name_elsewhere": [
+        {
+          "id": 3995,
+          "firm": "Vidhigya Associates",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
+      "id": 3995,
+      "name": "Vidisha Shetty",
+      "firm": "Vidhigya Associates",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "A-One Steels India"
+      ],
+      "deals": [
+        {
+          "headline": "Vidhigya Associates acts on A-One Steels India ₹405 crore IPO",
+          "client": "A-One Steels India",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/vidhigya-associates-acts-on-a-one-steels-india-405-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹405 crore",
+            "currency": "INR",
+            "amount": 4050000000,
+            "amount_inr": 4050000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Vidhigya Associates acts on A-One Steels India ₹405 crore IPO",
+      "same_name_elsewhere": [
+        {
+          "id": 3473,
+          "firm": "JSA Advocates & Solicitors",
+          "role": "Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 428,
@@ -176910,7 +179478,8 @@
         "SUGAR Cosmetics",
         "Aavishkaar Capital",
         "GreyLabs AI",
-        "Balwaan Krishi"
+        "Balwaan Krishi",
+        "PLIX as Marico acquires additional stake for"
       ],
       "deals": [
         {
@@ -176998,6 +179567,21 @@
             "currency": "INR",
             "amount": 1000000000,
             "amount_inr": 1000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "VERTICES PARTNERS advises PLIX as Marico acquires additional stake for ₹1,012 crore",
+          "client": "PLIX as Marico acquires additional stake for",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/vertices-partners-advises-plix-as-marico-acquires-additional-stake-for-1012-crore",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": {
+            "raw": "₹1,012 crore",
+            "currency": "INR",
+            "amount": 10120000000,
+            "amount_inr": 10120000000,
             "approx": false
           }
         }
@@ -177145,7 +179729,8 @@
         "SPR Auto Technologies",
         "Karamtara Engineering",
         "Rentomojo",
-        "Anmol"
+        "Anmol",
+        "Moneyview"
       ],
       "deals": [
         {
@@ -177282,6 +179867,25 @@
             "currency": "INR",
             "amount": 18000000000,
             "amount_inr": 18000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas, Trilegal act on Moneyview ₹1,091 crore IPO",
+          "client": "Moneyview",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-trilegal-act-on-moneyview-1091-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,091 crore",
+            "currency": "INR",
+            "amount": 10910000000,
+            "amount_inr": 10910000000,
             "approx": false
           }
         }
@@ -177788,6 +180392,28 @@
         }
       ],
       "snapshot": "Trilegal advises Carlyle on ₹2,100 crore stake acquisition in Edelweiss's Nido Home Finance"
+    },
+    {
+      "id": 3977,
+      "name": "Viraj Doshi",
+      "firm": "Khaitan & Co",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Khaitan & Co advised RR Kabel on acquisition of U M Cables",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advised-rr-kabel-on-acquisition-of-u-m-cables",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "Khaitan & Co advised RR Kabel on acquisition of U M Cables"
     },
     {
       "id": 2113,
@@ -180622,7 +183248,8 @@
       ],
       "clients": [
         "Book-Running Lead Managers",
-        "Kanohar Electricals"
+        "Kanohar Electricals",
+        "Anarock"
       ],
       "deals": [
         {
@@ -180654,6 +183281,25 @@
             "currency": "INR",
             "amount": 10550000000,
             "amount_inr": 10550000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Khaitan & Co, Verist Law, JSA, TT&A, Linklaters act on Anarock ₹1,000 crore proposed IPO",
+          "client": "Anarock",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-verist-law-jsa-tta-linklaters-act-on-anarock-1000-crore-proposed-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹1,000 crore",
+            "currency": "INR",
+            "amount": 10000000000,
+            "amount_inr": 10000000000,
             "approx": false
           }
         }
@@ -180933,6 +183579,56 @@
       "snapshot": "Vidhigya Associates acts on Sunshine Pictures ₹282 crore IPO"
     },
     {
+      "id": 3996,
+      "name": "Yash Dogra",
+      "firm": "Legacy Law Offices",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Auto Recycling Systems IPO"
+      ],
+      "deals": [
+        {
+          "headline": "Legacy Law Offices acts on Auto Recycling Systems IPO",
+          "client": "Auto Recycling Systems IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-auto-recycling-systems-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹72.26 crore+",
+            "currency": "INR",
+            "amount": 722600000,
+            "amount_inr": 722600000,
+            "approx": true
+          }
+        }
+      ],
+      "snapshot": "Legacy Law Offices acts on Auto Recycling Systems IPO",
+      "same_name_elsewhere": [
+        {
+          "id": 3904,
+          "firm": "MV Kini",
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
+    },
+    {
       "id": 3904,
       "name": "Yash Dogra",
       "firm": "MV Kini",
@@ -180968,7 +183664,19 @@
           }
         }
       ],
-      "snapshot": "MV Kini, Legacy Law Offices acts on Smart Roof Solar IPO"
+      "snapshot": "MV Kini, Legacy Law Offices acts on Smart Roof Solar IPO",
+      "same_name_elsewhere": [
+        {
+          "id": 3996,
+          "firm": "Legacy Law Offices",
+          "role": "Senior Associate",
+          "deal_count": 1
+        }
+      ],
+      "firm_verification": {
+        "verdict": "UNVERIFIED",
+        "evidence": "Not yet researched."
+      }
     },
     {
       "id": 1687,
@@ -182600,7 +185308,8 @@
       "clients": [
         "Adani Enterprises Limited and lead managers",
         "Pranav Constructions'",
-        "Varmora Granito"
+        "Varmora Granito",
+        "Runwal Enterprises"
       ],
       "deals": [
         {
@@ -182649,6 +185358,25 @@
             "amount_inr": 7080000000,
             "approx": false
           }
+        },
+        {
+          "headline": "Trilegal, Khaitan & Co acts on Runwal Enterprises ₹500 crore IPO",
+          "client": "Runwal Enterprises",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-acts-on-runwal-enterprises-500-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹500 crore",
+            "currency": "INR",
+            "amount": 5000000000,
+            "amount_inr": 5000000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Trilegal acts on Adani Enterprises ₹1,000 crore NCD issue - Bar and Bench"
@@ -182667,7 +185395,8 @@
       ],
       "clients": [
         "Vardaan Biotech",
-        "SG Encon IPO"
+        "SG Encon IPO",
+        "Himalaya Nutravedics IPO"
       ],
       "deals": [
         {
@@ -182706,6 +185435,25 @@
             "amount": 750000000,
             "amount_inr": 750000000,
             "approx": true
+          }
+        },
+        {
+          "headline": "Legacy Law Offices acts on Himalaya Nutravedics IPO",
+          "client": "Himalaya Nutravedics IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-himalaya-nutravedics-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹26.5 crore",
+            "currency": "INR",
+            "amount": 265000000,
+            "amount_inr": 265000000,
+            "approx": false
           }
         }
       ],
