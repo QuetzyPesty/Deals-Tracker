@@ -17906,5 +17906,334 @@
         "firm": "Legacy Law Offices"
       }
     ]
+  },
+  {
+    "headline": "JSA advises United Spirits on investment in Nuvola Spirits",
+    "client": "United Spirits",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-united-spirits-on-investment-in-nuvola-spirits",
+    "snippet": "United Spirits Limited has made an investment in Nuvola Spirits Private Limited by way of subscription to 17,350 compulsorily convertible preference shares and 10 equity shares of Nuvola for an aggregate consideration of ₹2.69 crore. JSA Advocates and Solicitors advised United Spirits on this transaction. The transaction was led by Probir Roy Chowdhury (Partner) and Yajas Setlur (Partner), with support from Bhargavi Kuchewar (Senior Associate), Associates Moushami Nayak and Tejaswini Sundar. Nuv",
+    "law_firms": [
+      "JSA Advocates & Solicitors"
+    ],
+    "transaction_types": [
+      "investment"
+    ],
+    "deal_value": {
+      "raw": "₹2.69 crore",
+      "currency": "INR",
+      "amount": 26900000,
+      "amount_inr": 26900000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "body"
+    },
+    "people": [
+      {
+        "name": "Probir Roy Chowdhury",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Yajas Setlur",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Bhargavi Kuchewar",
+        "role": "Senior Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Moushami Nayak",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Tejaswini Sundar",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      }
+    ]
+  },
+  {
+    "headline": "Cyril Amarchand Mangaldas advised L Catterton India Fund on its investment in Nandhana Foods",
+    "client": null,
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advised-l-catterton-india-fund-on-its-investment-in-nandhana-foods",
+    "snippet": "L Catterton India Fund has made an investment in Nandhana Foods Private Limited by way of a subscription to newly issued equity shares and the acquisition of equity shares from existing shareholders. Cyril Amarchand Mangaldas advised L Catterton on this transaction. The Firm advised on all aspects of the transaction, including the legal due diligence and the transaction documents. The transaction team was led by Aditi Manchanda (Partner), Saloni Shroff (Partner), and Sonakshi Arora (Partner), wi",
+    "law_firms": [
+      "Cyril Amarchand Mangaldas"
+    ],
+    "transaction_types": [],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Aditi Manchanda",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Saloni Shroff",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Sonakshi Arora",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Geetika Myer",
+        "role": "Principal Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Kaushik Raichura",
+        "role": "Senior Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Harshvardhan Tripathi",
+        "role": "Senior Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Shravan Subramanian",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Karan Anand",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Biplab Lenin",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Pratiti Shah",
+        "role": "Senior Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Abe Abraham",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Faiza Khan",
+        "role": "Principal Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Harshit Chauhan",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Swati Sharma",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Arya Tripathy",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Andri Shukla",
+        "role": "Principal Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Pundreek Dwivedi",
+        "role": "Senior Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Milind Yadav",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Dylan Sharma",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      }
+    ]
+  },
+  {
+    "headline": "ALMT Legal acts on Vishal Nirmiti ₹178 crore IPO",
+    "client": "Vishal Nirmiti",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/almt-legal-acts-on-vishal-nirmiti-178-crore-ipo",
+    "snippet": "Vishal Nirmiti Limited has raised ₹178 crore from an initial public offering of equity shares, comprising a fresh issue of equity shares aggregating to ₹145 crore and an offer for sale by Promoter Selling Shareholder for ₹33 crore. ALMT Legal, Bangalore advised and acted as the sole legal counsel for Vishal Nirmiti on this IPO. Saffron Capital Advisors Private Limited acted as Book Running Lead Manager The transaction team was led by Rajat Bopaiah (Senior Partner), Souvik Paul Mazumdar (Senior P",
+    "law_firms": [
+      "ALMT Legal"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "deal_value": {
+      "raw": "₹178 crore",
+      "currency": "INR",
+      "amount": 1780000000,
+      "amount_inr": 1780000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Rajat Bopaiah",
+        "role": "Senior Partner",
+        "firm": "ALMT Legal"
+      },
+      {
+        "name": "Souvik Paul Mazumdar",
+        "role": "Senior Partner",
+        "firm": "ALMT Legal"
+      },
+      {
+        "name": "Natasha Ponnappa",
+        "role": "Principal Associate",
+        "firm": "ALMT Legal"
+      },
+      {
+        "name": "Nikhil Krishna",
+        "role": "Associate",
+        "firm": "ALMT Legal"
+      },
+      {
+        "name": "Gunjan S",
+        "role": "Associate",
+        "firm": "ALMT Legal"
+      }
+    ]
+  },
+  {
+    "headline": "Shardul Amarchand Mangaldas advises SageOne on acquisition by ASK Asset Management",
+    "client": "SageOne",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-sageone-on-acquisition-by-ask-asset-management",
+    "snippet": "ASK Asset Management Private Limited, a Blackstone-backed asset management platform, has acquired 100% of the shareholding of SageOne Investment Managers LLP. Shardul Amarchand Mangaldas & Co advised SageOne Investment Managers LLP, its founder Mr. Samit Vartak, SageOne Ventures LLP and the sellers, advising on all aspects of the transaction, including the negotiation and finalisation of the acquisition agreement, the agreement with ASK Investment Managers Limited and other transaction documents",
+    "law_firms": [
+      "Shardul Amarchand Mangaldas & Co"
+    ],
+    "transaction_types": [
+      "acquisition"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Jay Gandhi",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Abhishek Parekh",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Namrata Bhagwatula",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Nayanikaa Shukla",
+        "role": "Senior Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Awantika Yash",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Aayush Bafna",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Yaman Verma",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Saachi Kale",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Aman Singh Sethi",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co",
+        "source": "ner"
+      },
+      {
+        "name": "Apurv Jain",
+        "role": "Senior Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co",
+        "source": "ner"
+      }
+    ]
+  },
+  {
+    "headline": "Legacy Law Offices acts on Solanki Mechanic Works IPO",
+    "client": "Solanki Mechanic Works IPO",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-solanki-mechanic-works-ipo",
+    "snippet": "Solanki Mechanic Works Limited has filed its Draft Red Herring Prospectus for an Initial Public Offering on the Bombay Stock Exchange SME platform for a book-built offer for an entirely fresh issue of 25,92,727 shares, with an offer size of ₹18 crore+. Legacy Law Offices advised Solanki Mechanic Works as well as the Book Running Lead Manager, Swaraj Capital Services Private Limited, on this SME IPO. The transaction team comprised of Naman Anand (Counsel), and Associates Geetika Joshi, Meghna Shu",
+    "law_firms": [
+      "Legacy Law Offices"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "deal_value": {
+      "raw": "₹18 crore+",
+      "currency": "INR",
+      "amount": 180000000,
+      "amount_inr": 180000000,
+      "approx": true,
+      "fx_asof": null,
+      "source": "body"
+    },
+    "people": [
+      {
+        "name": "Naman Anand",
+        "role": "Counsel",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Geetika Joshi",
+        "role": "Associate",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Meghna Shukla",
+        "role": "Associate",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Pavitra Balgi",
+        "role": "Associate",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Yukti Goel",
+        "role": "Associate",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Surbhi Narang",
+        "role": "Partner",
+        "firm": "Legacy Law Offices"
+      }
+    ]
   }
 ]

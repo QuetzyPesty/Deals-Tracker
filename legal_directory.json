@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 3992,
+    "people": 4002,
     "firms": 141,
-    "deals": 607,
+    "deals": 612,
     "practice_areas": 6
   },
   "firms": [
@@ -177,8 +177,19 @@
     },
     {
       "firm": "ALMT Legal",
-      "people_count": 14,
+      "people_count": 15,
       "practice_groups": [
+        {
+          "area": "Capital Markets",
+          "person_ids": [
+            1509,
+            4003,
+            2007,
+            2008,
+            1505,
+            2006
+          ]
+        },
         {
           "area": "Private Equity & Venture Capital",
           "person_ids": [
@@ -188,16 +199,6 @@
             3255,
             1508,
             3254
-          ]
-        },
-        {
-          "area": "Capital Markets",
-          "person_ids": [
-            1509,
-            2007,
-            2008,
-            1505,
-            2006
           ]
         },
         {
@@ -982,7 +983,7 @@
     },
     {
       "firm": "Cyril Amarchand Mangaldas",
-      "people_count": 616,
+      "people_count": 621,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -1438,9 +1439,12 @@
             2787,
             2794,
             2521,
+            4002,
             2659,
             2603,
+            4000,
             568,
+            3999,
             3249,
             2155,
             898,
@@ -1492,6 +1496,7 @@
             3435,
             2955,
             834,
+            4001,
             831,
             489,
             2788,
@@ -1518,6 +1523,7 @@
             2953,
             2330,
             2321,
+            3998,
             1456,
             2331,
             3662,
@@ -2399,7 +2405,7 @@
     },
     {
       "firm": "JSA Advocates & Solicitors",
-      "people_count": 388,
+      "people_count": 389,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
@@ -2617,6 +2623,7 @@
             454,
             1192,
             3005,
+            1502,
             1162,
             741,
             3012,
@@ -2724,6 +2731,7 @@
             100,
             501,
             2890,
+            3997,
             1918,
             3331,
             434,
@@ -4640,18 +4648,20 @@
     },
     {
       "firm": "Shardul Amarchand Mangaldas & Co",
-      "people_count": 434,
+      "people_count": 437,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
           "person_ids": [
             3963,
             1319,
+            4005,
             1603,
             2245,
             2646,
             2647,
             1591,
+            368,
             380,
             2349,
             3464,
@@ -4679,12 +4689,14 @@
             2214,
             2461,
             214,
+            1744,
             2459,
             2702,
             2423,
             1592,
             2205,
             2208,
+            2855,
             1638,
             2199,
             144,
@@ -4749,9 +4761,11 @@
             2995,
             2422,
             2206,
+            1869,
             1315,
             1169,
             1511,
+            4004,
             1964,
             1610,
             409,
@@ -4792,6 +4806,7 @@
             2238,
             1149,
             597,
+            4006,
             2965,
             1323,
             2809,
@@ -4837,6 +4852,7 @@
             2351,
             1611,
             2246,
+            1743,
             2997,
             2342,
             2204
@@ -4998,7 +5014,6 @@
             2372,
             1240,
             1870,
-            1744,
             2436,
             372,
             2373,
@@ -5028,7 +5043,6 @@
             1871,
             378,
             2437,
-            1869,
             3544,
             3036,
             2433,
@@ -5059,7 +5073,6 @@
             381,
             3881,
             2435,
-            1743,
             3771
           ]
         },
@@ -8129,6 +8142,38 @@
       }
     },
     {
+      "id": 4005,
+      "name": "Aayush Bafna",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "SageOne"
+      ],
+      "deals": [
+        {
+          "headline": "Shardul Amarchand Mangaldas advises SageOne on acquisition by ASK Asset Management",
+          "client": "SageOne",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-sageone-on-acquisition-by-ask-asset-management",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Shardul Amarchand Mangaldas advises SageOne on acquisition by ASK Asset Management"
+    },
+    {
       "id": 1852,
       "name": "Aayush Gupta",
       "firm": "Trilegal",
@@ -8854,6 +8899,15 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ],
+          "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advised L Catterton India Fund on its investment in Nandhana Foods",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advised-l-catterton-india-fund-on-its-investment-in-nandhana-foods",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
           "value": null
         }
       ],
@@ -11928,15 +11982,18 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
-        "IPO"
+        "IPO",
+        "acquisition"
       ],
       "practice_areas": [
-        "Capital Markets"
+        "Capital Markets",
+        "Mergers & Acquisitions"
       ],
       "clients": [
         "Macquarie Asset Management",
         "Brookfield",
-        "Aequs"
+        "Aequs",
+        "SageOne"
       ],
       "deals": [
         {
@@ -11971,6 +12028,19 @@
           ],
           "practice_areas": [
             "Capital Markets"
+          ],
+          "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises SageOne on acquisition by ASK Asset Management",
+          "client": "SageOne",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-sageone-on-acquisition-by-ask-asset-management",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
           ],
           "value": null
         }
@@ -13732,6 +13802,15 @@
           "client": "Hiranandani Financial Services & Founders",
           "url": "https://www.barandbench.com/dealstreet/cam-advises-hiranandani-financial-services-on-raising-800-crore-from-vitruvian",
           "source": "Bar and Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advised L Catterton India Fund on its investment in Nandhana Foods",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advised-l-catterton-india-fund-on-its-investment-in-nandhana-foods",
+          "source": "Bar & Bench",
           "types": [],
           "practice_areas": [],
           "value": null
@@ -21968,7 +22047,8 @@
         "Norwest Venture Partners X & Alpha Wave Global",
         "Aica Kogyo Co",
         "Mitsui Fudosan",
-        "Emirates NBD"
+        "Emirates NBD",
+        "SageOne"
       ],
       "deals": [
         {
@@ -22011,6 +22091,19 @@
           "client": "Emirates NBD",
           "url": "https://www.barandbench.com/dealstreet/emirates-nbd-set-to-acquire-60-stake-in-rbl-bank-sam-azb-advise",
           "source": "Bar and Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises SageOne on acquisition by ASK Asset Management",
+          "client": "SageOne",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-sageone-on-acquisition-by-ask-asset-management",
+          "source": "Bar & Bench",
           "types": [
             "acquisition"
           ],
@@ -25676,8 +25769,8 @@
       "id": 557,
       "name": "Andri Shukla",
       "firm": "Cyril Amarchand Mangaldas",
-      "role": "Senior Associate",
-      "role_bucket": "Senior Associate",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
       "transaction_types": [
         "acquisition"
       ],
@@ -25713,6 +25806,15 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ],
+          "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advised L Catterton India Fund on its investment in Nandhana Foods",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advised-l-catterton-india-fund-on-its-investment-in-nandhana-foods",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
           "value": null
         }
       ],
@@ -33988,10 +34090,15 @@
       "firm": "Shardul Amarchand Mangaldas & Co",
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "Investors"
+        "Investors",
+        "SageOne"
       ],
       "deals": [
         {
@@ -34001,6 +34108,19 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises SageOne on acquisition by ASK Asset Management",
+          "client": "SageOne",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-sageone-on-acquisition-by-ask-asset-management",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
           "value": null
         }
       ],
@@ -38078,6 +38198,15 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advised L Catterton India Fund on its investment in Nandhana Foods",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advised-l-catterton-india-fund-on-its-investment-in-nandhana-foods",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
         }
       ],
       "snapshot": "CAM advises Ministry of Petroleum and Natural Gas on drafting of Petroleum and ... - Bar and Bench"
@@ -41834,15 +41963,18 @@
       "role_bucket": "Associate",
       "transaction_types": [
         "IPO",
+        "acquisition",
         "investment"
       ],
       "practice_areas": [
         "Capital Markets",
+        "Mergers & Acquisitions",
         "Private Equity & Venture Capital"
       ],
       "clients": [
         "Aequs",
-        "NDR Smart Spaces"
+        "NDR Smart Spaces",
+        "SageOne"
       ],
       "deals": [
         {
@@ -41876,6 +42008,19 @@
             "amount_inr": 2250000000,
             "approx": false
           }
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises SageOne on acquisition by ASK Asset Management",
+          "client": "SageOne",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-sageone-on-acquisition-by-ask-asset-management",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
         }
       ],
       "snapshot": "SAM, Rajani, Trilegal act on Aequs ₹1,100 crore IPO and pre-IPO placement"
@@ -44701,14 +44846,17 @@
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "investment"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
         "GeBBS Healthcare Solutions Inc.",
-        "Marvell (India leg)"
+        "Marvell (India leg)",
+        "United Spirits"
       ],
       "deals": [
         {
@@ -44736,6 +44884,25 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "JSA advises United Spirits on investment in Nuvola Spirits",
+          "client": "United Spirits",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-united-spirits-on-investment-in-nuvola-spirits",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹2.69 crore",
+            "currency": "INR",
+            "amount": 26900000,
+            "amount_inr": 26900000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "JSA advises GeBBS Healthcare Solutions on acquisition of RND OptimizAR"
@@ -46012,6 +46179,15 @@
           "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
           "client": null,
           "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advised L Catterton India Fund on its investment in Nandhana Foods",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advised-l-catterton-india-fund-on-its-investment-in-nandhana-foods",
           "source": "Bar & Bench",
           "types": [],
           "practice_areas": [],
@@ -56274,6 +56450,28 @@
       "snapshot": "SAM advises Anzen India on acquisition of majority stake in 12 Solar"
     },
     {
+      "id": 4002,
+      "name": "Dylan Sharma",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas advised L Catterton India Fund on its investment in Nandhana Foods",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advised-l-catterton-india-fund-on-its-investment-in-nandhana-foods",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas advised L Catterton India Fund on its investment in Nandhana Foods"
+    },
+    {
       "id": 2659,
       "name": "Dyuti Anand",
       "firm": "Cyril Amarchand Mangaldas",
@@ -58011,6 +58209,28 @@
         }
       ],
       "snapshot": "JSA, JM+P act on Iscon Balaji Foods $215 million Series A fundraise"
+    },
+    {
+      "id": 4000,
+      "name": "Faiza Khan",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas advised L Catterton India Fund on its investment in Nandhana Foods",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advised-l-catterton-india-fund-on-its-investment-in-nandhana-foods",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas advised L Catterton India Fund on its investment in Nandhana Foods"
     },
     {
       "id": 500,
@@ -60880,7 +61100,8 @@
       ],
       "clients": [
         "Dain Colour Chem IPO",
-        "Vardaan Biotech"
+        "Vardaan Biotech",
+        "Solanki Mechanic Works IPO"
       ],
       "deals": [
         {
@@ -60918,6 +61139,25 @@
             "currency": "INR",
             "amount": 900000000,
             "amount_inr": 900000000,
+            "approx": true
+          }
+        },
+        {
+          "headline": "Legacy Law Offices acts on Solanki Mechanic Works IPO",
+          "client": "Solanki Mechanic Works IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-solanki-mechanic-works-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹18 crore+",
+            "currency": "INR",
+            "amount": 180000000,
+            "amount_inr": 180000000,
             "approx": true
           }
         }
@@ -60965,6 +61205,28 @@
         }
       ],
       "snapshot": "CAM, SAM act on Devyani International – Sapphire Foods merger"
+    },
+    {
+      "id": 3999,
+      "name": "Geetika Myer",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Principal Associate",
+      "role_bucket": "Principal Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas advised L Catterton India Fund on its investment in Nandhana Foods",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advised-l-catterton-india-fund-on-its-investment-in-nandhana-foods",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas advised L Catterton India Fund on its investment in Nandhana Foods"
     },
     {
       "id": 1659,
@@ -61953,6 +62215,44 @@
         }
       ],
       "snapshot": "ALMT Legal, K Law act on Kappi Machines funds and partnership with Sedna HoReCa"
+    },
+    {
+      "id": 4003,
+      "name": "Gunjan S",
+      "firm": "ALMT Legal",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "IPO"
+      ],
+      "practice_areas": [
+        "Capital Markets"
+      ],
+      "clients": [
+        "Vishal Nirmiti"
+      ],
+      "deals": [
+        {
+          "headline": "ALMT Legal acts on Vishal Nirmiti ₹178 crore IPO",
+          "client": "Vishal Nirmiti",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/almt-legal-acts-on-vishal-nirmiti-178-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹178 crore",
+            "currency": "INR",
+            "amount": 1780000000,
+            "amount_inr": 1780000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "ALMT Legal acts on Vishal Nirmiti ₹178 crore IPO"
     },
     {
       "id": 1485,
@@ -64360,6 +64660,15 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advised L Catterton India Fund on its investment in Nandhana Foods",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advised-l-catterton-india-fund-on-its-investment-in-nandhana-foods",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech"
@@ -65342,8 +65651,8 @@
       "id": 653,
       "name": "Harshvardhan Tripathi",
       "firm": "Cyril Amarchand Mangaldas",
-      "role": "Associate",
-      "role_bucket": "Associate",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
       "transaction_types": [
         "acquisition"
       ],
@@ -65365,6 +65674,15 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ],
+          "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advised L Catterton India Fund on its investment in Nandhana Foods",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advised-l-catterton-india-fund-on-its-investment-in-nandhana-foods",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
           "value": null
         }
       ],
@@ -71565,6 +71883,7 @@
       "transaction_types": [
         "IPO",
         "QIP",
+        "acquisition",
         "investment",
         "merger"
       ],
@@ -71578,7 +71897,8 @@
         "Brookfield India Real Estate Trust",
         "Brookfield",
         "Sapphire Foods",
-        "NDR Smart Spaces"
+        "NDR Smart Spaces",
+        "SageOne"
       ],
       "deals": [
         {
@@ -71647,6 +71967,19 @@
             "amount_inr": 2250000000,
             "approx": false
           }
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises SageOne on acquisition by ASK Asset Management",
+          "client": "SageOne",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-sageone-on-acquisition-by-ask-asset-management",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
         }
       ],
       "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat"
@@ -77146,6 +77479,15 @@
             "Corporate & Commercial"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advised L Catterton India Fund on its investment in Nandhana Foods",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advised-l-catterton-india-fund-on-its-investment-in-nandhana-foods",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
         }
       ],
       "snapshot": "Cyril Amarchand Mangaldas advises as Hyundai and TVS join hands to develop electric 3 ..."
@@ -79141,6 +79483,15 @@
           "practice_areas": [
             "Private Equity & Venture Capital"
           ],
+          "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advised L Catterton India Fund on its investment in Nandhana Foods",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advised-l-catterton-india-fund-on-its-investment-in-nandhana-foods",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
           "value": null
         }
       ],
@@ -94751,7 +95102,8 @@
         "Qualiance International IPO",
         "Vardaan Biotech",
         "Nexa Defence IPO",
-        "Dinotarp IPO"
+        "Dinotarp IPO",
+        "Solanki Mechanic Works IPO"
       ],
       "deals": [
         {
@@ -94866,6 +95218,25 @@
             "amount": 269300000,
             "amount_inr": 269300000,
             "approx": false
+          }
+        },
+        {
+          "headline": "Legacy Law Offices acts on Solanki Mechanic Works IPO",
+          "client": "Solanki Mechanic Works IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-solanki-mechanic-works-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹18 crore+",
+            "currency": "INR",
+            "amount": 180000000,
+            "amount_inr": 180000000,
+            "approx": true
           }
         }
       ],
@@ -96186,6 +96557,15 @@
           "client": "Hiranandani Financial Services & Founders",
           "url": "https://www.barandbench.com/dealstreet/cam-advises-hiranandani-financial-services-on-raising-800-crore-from-vitruvian",
           "source": "Bar and Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advised L Catterton India Fund on its investment in Nandhana Foods",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advised-l-catterton-india-fund-on-its-investment-in-nandhana-foods",
+          "source": "Bar & Bench",
           "types": [],
           "practice_areas": [],
           "value": null
@@ -97805,7 +98185,8 @@
       "transaction_types": [
         "Series B",
         "acquisition",
-        "fundraise"
+        "fundraise",
+        "investment"
       ],
       "practice_areas": [
         "Mergers & Acquisitions",
@@ -97813,7 +98194,8 @@
       ],
       "clients": [
         "Coforge",
-        "Matel"
+        "Matel",
+        "United Spirits"
       ],
       "deals": [
         {
@@ -97846,6 +98228,25 @@
             "currency": "INR",
             "amount": 1300000000,
             "amount_inr": 1300000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "JSA advises United Spirits on investment in Nuvola Spirits",
+          "client": "United Spirits",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-united-spirits-on-investment-in-nuvola-spirits",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹2.69 crore",
+            "currency": "INR",
+            "amount": 26900000,
+            "amount_inr": 26900000,
             "approx": false
           }
         }
@@ -99544,7 +99945,8 @@
         "Dinotarp IPO",
         "SG Encon IPO",
         "Himalaya Nutravedics IPO",
-        "Auto Recycling Systems IPO"
+        "Auto Recycling Systems IPO",
+        "Solanki Mechanic Works IPO"
       ],
       "deals": [
         {
@@ -99717,6 +100119,25 @@
             "amount_inr": 722600000,
             "approx": true
           }
+        },
+        {
+          "headline": "Legacy Law Offices acts on Solanki Mechanic Works IPO",
+          "client": "Solanki Mechanic Works IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-solanki-mechanic-works-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹18 crore+",
+            "currency": "INR",
+            "amount": 180000000,
+            "amount_inr": 180000000,
+            "approx": true
+          }
         }
       ],
       "snapshot": "Legacy Law Offices acts on Apar Advertisers IPO",
@@ -99775,7 +100196,7 @@
           "id": 3047,
           "firm": "Legacy Law Offices",
           "role": "Counsel",
-          "deal_count": 9
+          "deal_count": 10
         }
       ],
       "firm_verification": {
@@ -100207,10 +100628,15 @@
       "firm": "Shardul Amarchand Mangaldas & Co",
       "role": "Partner",
       "role_bucket": "Partner",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "Dhoot Automotive Systems"
+        "Dhoot Automotive Systems",
+        "SageOne"
       ],
       "deals": [
         {
@@ -100220,6 +100646,19 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises SageOne on acquisition by ASK Asset Management",
+          "client": "SageOne",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-sageone-on-acquisition-by-ask-asset-management",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
           "value": null
         }
       ],
@@ -101130,7 +101569,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Promoter Selling Shareholders"
+        "Promoter Selling Shareholders",
+        "Vishal Nirmiti"
       ],
       "deals": [
         {
@@ -101145,6 +101585,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "ALMT Legal acts on Vishal Nirmiti ₹178 crore IPO",
+          "client": "Vishal Nirmiti",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/almt-legal-acts-on-vishal-nirmiti-178-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹178 crore",
+            "currency": "INR",
+            "amount": 1780000000,
+            "amount_inr": 1780000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "AZB, JSA act on Canara Robeco ~₹1,326 crore IPO"
@@ -101854,6 +102313,38 @@
         }
       ],
       "snapshot": "Khaitan, CAM guide Saregama India's ₹325 crore investment in Sanjay Leela Bhansali's studio"
+    },
+    {
+      "id": 4004,
+      "name": "Nayanikaa Shukla",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "SageOne"
+      ],
+      "deals": [
+        {
+          "headline": "Shardul Amarchand Mangaldas advises SageOne on acquisition by ASK Asset Management",
+          "client": "SageOne",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-sageone-on-acquisition-by-ask-asset-management",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Shardul Amarchand Mangaldas advises SageOne on acquisition by ASK Asset Management"
     },
     {
       "id": 1020,
@@ -104447,7 +104938,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Promoter Selling Shareholders"
+        "Promoter Selling Shareholders",
+        "Vishal Nirmiti"
       ],
       "deals": [
         {
@@ -104462,6 +104954,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "ALMT Legal acts on Vishal Nirmiti ₹178 crore IPO",
+          "client": "Vishal Nirmiti",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/almt-legal-acts-on-vishal-nirmiti-178-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹178 crore",
+            "currency": "INR",
+            "amount": 1780000000,
+            "amount_inr": 1780000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "AZB, JSA act on Canara Robeco ~₹1,326 crore IPO"
@@ -110725,7 +111236,8 @@
       "clients": [
         "Apar Advertisers IPO",
         "Dain Colour Chem IPO",
-        "Nexa Defence IPO"
+        "Nexa Defence IPO",
+        "Solanki Mechanic Works IPO"
       ],
       "deals": [
         {
@@ -110782,6 +111294,25 @@
             "currency": "INR",
             "amount": 302000000,
             "amount_inr": 302000000,
+            "approx": true
+          }
+        },
+        {
+          "headline": "Legacy Law Offices acts on Solanki Mechanic Works IPO",
+          "client": "Solanki Mechanic Works IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-solanki-mechanic-works-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹18 crore+",
+            "currency": "INR",
+            "amount": 180000000,
+            "amount_inr": 180000000,
             "approx": true
           }
         }
@@ -116224,8 +116755,8 @@
       "id": 2564,
       "name": "Pratiti Shah",
       "firm": "Cyril Amarchand Mangaldas",
-      "role": "Associate",
-      "role_bucket": "Associate",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
       "transaction_types": [
         "acquisition",
         "merger"
@@ -116275,6 +116806,15 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ],
+          "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advised L Catterton India Fund on its investment in Nandhana Foods",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advised-l-catterton-india-fund-on-its-investment-in-nandhana-foods",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
           "value": null
         }
       ],
@@ -118997,6 +119537,7 @@
         "Series B",
         "acquisition",
         "fundraise",
+        "investment",
         "stake acquisition"
       ],
       "practice_areas": [
@@ -119008,7 +119549,8 @@
         "Marvell (India leg)",
         "Vobis Ventures",
         "MO Alternates",
-        "Matel"
+        "Matel",
+        "United Spirits"
       ],
       "deals": [
         {
@@ -119082,6 +119624,25 @@
             "currency": "INR",
             "amount": 1300000000,
             "amount_inr": 1300000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "JSA advises United Spirits on investment in Nuvola Spirits",
+          "client": "United Spirits",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-united-spirits-on-investment-in-nuvola-spirits",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹2.69 crore",
+            "currency": "INR",
+            "amount": 26900000,
+            "amount_inr": 26900000,
             "approx": false
           }
         }
@@ -119307,6 +119868,28 @@
         }
       ],
       "snapshot": "JSA advises Nuveen on Indian law aspects of £9.9 billion takeover of Schroders"
+    },
+    {
+      "id": 4001,
+      "name": "Pundreek Dwivedi",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Senior Associate",
+      "role_bucket": "Senior Associate",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas advised L Catterton India Fund on its investment in Nandhana Foods",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advised-l-catterton-india-fund-on-its-investment-in-nandhana-foods",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas advised L Catterton India Fund on its investment in Nandhana Foods"
     },
     {
       "id": 1171,
@@ -122910,7 +123493,8 @@
       "clients": [
         "Bodycraft and its promoters",
         "Promoter Selling Shareholders",
-        "Kappi Machines funds and partnership with Sedna HoReCa"
+        "Kappi Machines funds and partnership with Sedna HoReCa",
+        "Vishal Nirmiti"
       ],
       "deals": [
         {
@@ -122943,6 +123527,25 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "ALMT Legal acts on Vishal Nirmiti ₹178 crore IPO",
+          "client": "Vishal Nirmiti",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/almt-legal-acts-on-vishal-nirmiti-178-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹178 crore",
+            "currency": "INR",
+            "amount": 1780000000,
+            "amount_inr": 1780000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "ALMT Legal, Shardul Amarchand Mangaldas, Rajani Associates act on Bodycraft ₹120 ..."
@@ -134158,6 +134761,38 @@
       "snapshot": "Cyril Amarchand Mangaldas advises as Hyundai and TVS join hands to develop electric 3 ..."
     },
     {
+      "id": 4006,
+      "name": "Saachi Kale",
+      "firm": "Shardul Amarchand Mangaldas & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
+      "clients": [
+        "SageOne"
+      ],
+      "deals": [
+        {
+          "headline": "Shardul Amarchand Mangaldas advises SageOne on acquisition by ASK Asset Management",
+          "client": "SageOne",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-sageone-on-acquisition-by-ask-asset-management",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
+          "value": null
+        }
+      ],
+      "snapshot": "Shardul Amarchand Mangaldas advises SageOne on acquisition by ASK Asset Management"
+    },
+    {
       "id": 1739,
       "name": "Saad Khanani",
       "firm": "Latham & Watkins",
@@ -136655,6 +137290,15 @@
           "practice_areas": [
             "Mergers & Acquisitions"
           ],
+          "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advised L Catterton India Fund on its investment in Nandhana Foods",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advised-l-catterton-india-fund-on-its-investment-in-nandhana-foods",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
           "value": null
         }
       ],
@@ -150612,6 +151256,15 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advised L Catterton India Fund on its investment in Nandhana Foods",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advised-l-catterton-india-fund-on-its-investment-in-nandhana-foods",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
         }
       ],
       "snapshot": "White & Case, AZB, Sullivan, Cyril Amarchand Mangaldas, Linklaters act on Sun Pharma's ..."
@@ -159383,6 +160036,28 @@
       "snapshot": "Trilegal, Cyril Amarchand Mangaldas, Hogan Lovells Cadwalader act on ARCIL ₹732 crore IPO"
     },
     {
+      "id": 3998,
+      "name": "Sonakshi Arora",
+      "firm": "Cyril Amarchand Mangaldas",
+      "role": "Partner",
+      "role_bucket": "Partner",
+      "transaction_types": [],
+      "practice_areas": [],
+      "clients": [],
+      "deals": [
+        {
+          "headline": "Cyril Amarchand Mangaldas advised L Catterton India Fund on its investment in Nandhana Foods",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advised-l-catterton-india-fund-on-its-investment-in-nandhana-foods",
+          "source": "Bar & Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        }
+      ],
+      "snapshot": "Cyril Amarchand Mangaldas advised L Catterton India Fund on its investment in Nandhana Foods"
+    },
+    {
       "id": 2859,
       "name": "Sonakshi Das",
       "firm": "JSA Advocates & Solicitors",
@@ -160649,7 +161324,8 @@
         "Capital Markets"
       ],
       "clients": [
-        "Promoter Selling Shareholders"
+        "Promoter Selling Shareholders",
+        "Vishal Nirmiti"
       ],
       "deals": [
         {
@@ -160664,6 +161340,25 @@
             "Capital Markets"
           ],
           "value": null
+        },
+        {
+          "headline": "ALMT Legal acts on Vishal Nirmiti ₹178 crore IPO",
+          "client": "Vishal Nirmiti",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/almt-legal-acts-on-vishal-nirmiti-178-crore-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹178 crore",
+            "currency": "INR",
+            "amount": 1780000000,
+            "amount_inr": 1780000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "AZB, JSA act on Canara Robeco ~₹1,326 crore IPO"
@@ -165087,7 +165782,8 @@
         "Dinotarp IPO",
         "SG Encon IPO",
         "Himalaya Nutravedics IPO",
-        "Auto Recycling Systems IPO"
+        "Auto Recycling Systems IPO",
+        "Solanki Mechanic Works IPO"
       ],
       "deals": [
         {
@@ -165241,6 +165937,25 @@
             "amount_inr": 722600000,
             "approx": true
           }
+        },
+        {
+          "headline": "Legacy Law Offices acts on Solanki Mechanic Works IPO",
+          "client": "Solanki Mechanic Works IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-solanki-mechanic-works-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹18 crore+",
+            "currency": "INR",
+            "amount": 180000000,
+            "amount_inr": 180000000,
+            "approx": true
+          }
         }
       ],
       "snapshot": "Legacy Law Offices acts on Dain Colour Chem IPO",
@@ -165299,7 +166014,7 @@
           "id": 3453,
           "firm": "Legacy Law Offices",
           "role": "Partner",
-          "deal_count": 8
+          "deal_count": 9
         }
       ],
       "firm_verification": {
@@ -166365,7 +167080,7 @@
       "id": 41,
       "name": "Swati Sharma",
       "firm": "Cyril Amarchand Mangaldas",
-      "role": "Partner, Head - Intellectual Property",
+      "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
         "IPO",
@@ -166456,6 +167171,15 @@
           "client": "Dixon Technologies (India) Limited",
           "url": "https://www.barandbench.com/dealstreet/cam-advises-dixon-on-acquiring-51-shareholding-in-qtech-india",
           "source": "Bar and Bench",
+          "types": [],
+          "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas advised L Catterton India Fund on its investment in Nandhana Foods",
+          "client": null,
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advised-l-catterton-india-fund-on-its-investment-in-nandhana-foods",
+          "source": "Bar & Bench",
           "types": [],
           "practice_areas": [],
           "value": null
@@ -169505,6 +170229,44 @@
         }
       ],
       "snapshot": "CAM, Latham, Trilegal, JSA, Khaitan act on Manipal Hospitals ₹8,000 crore proposed IPO"
+    },
+    {
+      "id": 3997,
+      "name": "Tejaswini Sundar",
+      "firm": "JSA Advocates & Solicitors",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "United Spirits"
+      ],
+      "deals": [
+        {
+          "headline": "JSA advises United Spirits on investment in Nuvola Spirits",
+          "client": "United Spirits",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-united-spirits-on-investment-in-nuvola-spirits",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹2.69 crore",
+            "currency": "INR",
+            "amount": 26900000,
+            "amount_inr": 26900000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "JSA advises United Spirits on investment in Nuvola Spirits"
     },
     {
       "id": 182,
@@ -182987,7 +183749,8 @@
       "transaction_types": [
         "Series A",
         "acquisition",
-        "fundraise"
+        "fundraise",
+        "investment"
       ],
       "practice_areas": [
         "Mergers & Acquisitions",
@@ -182997,7 +183760,8 @@
         "A91 Partners",
         "GeBBS Healthcare Solutions Inc.",
         "Marvell (India leg)",
-        "Coforge"
+        "Coforge",
+        "United Spirits"
       ],
       "deals": [
         {
@@ -183052,6 +183816,25 @@
             "Mergers & Acquisitions"
           ],
           "value": null
+        },
+        {
+          "headline": "JSA advises United Spirits on investment in Nuvola Spirits",
+          "client": "United Spirits",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-united-spirits-on-investment-in-nuvola-spirits",
+          "source": "Bar & Bench",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹2.69 crore",
+            "currency": "INR",
+            "amount": 26900000,
+            "amount_inr": 26900000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "JSA acts on Deccan AI $25 million Series A fundraise - Bar and Bench"
@@ -183108,10 +183891,15 @@
       "firm": "Shardul Amarchand Mangaldas & Co",
       "role": "Partner",
       "role_bucket": "Partner",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "acquisition"
+      ],
+      "practice_areas": [
+        "Mergers & Acquisitions"
+      ],
       "clients": [
-        "Investors"
+        "Investors",
+        "SageOne"
       ],
       "deals": [
         {
@@ -183121,6 +183909,19 @@
           "source": "Bar and Bench",
           "types": [],
           "practice_areas": [],
+          "value": null
+        },
+        {
+          "headline": "Shardul Amarchand Mangaldas advises SageOne on acquisition by ASK Asset Management",
+          "client": "SageOne",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-sageone-on-acquisition-by-ask-asset-management",
+          "source": "Bar & Bench",
+          "types": [
+            "acquisition"
+          ],
+          "practice_areas": [
+            "Mergers & Acquisitions"
+          ],
           "value": null
         }
       ],
@@ -185396,7 +186197,8 @@
       "clients": [
         "Vardaan Biotech",
         "SG Encon IPO",
-        "Himalaya Nutravedics IPO"
+        "Himalaya Nutravedics IPO",
+        "Solanki Mechanic Works IPO"
       ],
       "deals": [
         {
@@ -185454,6 +186256,25 @@
             "amount": 265000000,
             "amount_inr": 265000000,
             "approx": false
+          }
+        },
+        {
+          "headline": "Legacy Law Offices acts on Solanki Mechanic Works IPO",
+          "client": "Solanki Mechanic Works IPO",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-solanki-mechanic-works-ipo",
+          "source": "Bar & Bench",
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹18 crore+",
+            "currency": "INR",
+            "amount": 180000000,
+            "amount_inr": 180000000,
+            "approx": true
           }
         }
       ],
