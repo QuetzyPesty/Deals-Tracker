@@ -103,6 +103,29 @@ check("three outlets, one deal -> one record, two also_reported_by",
 LEDE = ("Khaitan & Co advised the National Investment and Infrastructure Fund on the first closing "
         "of NIIF Infrastructure Fund II, its second flagship fund, which raised commitments from "
         "domestic and international investors")
+check("verb and legal-entity expansion (real Odyssey Energy ECB pair)",
+      n_after([rec("Dua Associates advises Odyssey Energy Solutions on availing €7 million ECB from BIO", BB + "od", ["Dua Associates"]),
+               rec("Dua Associates advises Odyssey Energy Solutions Procure VI Pvt. Ltd. on EUR 7 million ECB from BIO",
+                   LL + "od-550953", ["Dua Associates"])]) == 1)
+
+check("two sides of one JV reported by different counsel (real PwC pair)",
+      n_after([rec("JSA acts on PwC India - PwC US joint venture", BB + "pwc", ["JSA Advocates & Solicitors"]),
+               rec("Khaitan & Co Advises PwC US On Joint Venture With PwC India", LL + "pwc-552801", ["Khaitan & Co"])]) == 1)
+
+check("firm list empty on one side, seven shared entity names (real Samara pair)",
+      n_after([rec("Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals",
+                   BB + "sam", ["Trilegal", "JSA Advocates & Solicitors", "Solicis Lex"]),
+               rec("Samara Capital To Invest In Associated Road Carriers, Calyx Container Terminals To Build Integrated B2B Logistics Platform",
+                   LL + "sam-552634", [])]) == 1)
+
+check("IPO: headline total vs a body-stated fresh-issue tranche is not a conflict",
+      n_after([rec("Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO", BB + "jsw",
+                   ["Cyril Amarchand Mangaldas", "Trilegal", "Khaitan & Co"],
+                   value={"amount_inr": 30_540_000_000, "source": "headline"}),
+               rec("Khaitan & Co Advised JSW Steel And JSW Cement On The Proposed IPO Of JSW One Platforms Limited",
+                   LE + "jsw-990301", ["Khaitan & Co"],
+                   value={"amount_inr": 13_000_000_000, "source": "body"})]) == 1)
+
 check("copied press-release text under unrelated headlines",
       n_after([rec("NIIF closes first round of second flagship fund", BB + "n1", ["Khaitan & Co"], snippet=LEDE),
                rec("Khaitan & Co Advises NIIF on First Close of Its Second Flagship Infrastructure Fund",
@@ -160,6 +183,14 @@ check("same team on two different deals does not merge on people alone",
 check("two different people-move articles at one firm",
       n_after([rec("Anil Kumar joins Khaitan & Co as Partner", BB + "m1", ["Khaitan & Co"], client=None),
                rec("Sunita Rao joins Khaitan & Co as Partner", LE + "m2-9", ["Khaitan & Co"], client=None)]) == 2)
+
+check("different counsel, same company, different transactions",
+      n_after([rec("AZB advises Tata Power on acquisition of Alpha Solar", BB + "t1", ["AZB & Partners"]),
+               rec("Trilegal advises Tata Power on sale of Beta Hydro stake", LE + "t2-1", ["Trilegal"])]) == 2)
+
+check("different counsel, Series A vs Series B of one company",
+      n_after([rec("Trilegal advises Acme Robotics on Series A fundraise", BB + "r1", ["Trilegal"]),
+               rec("JSA advises Acme Robotics on Series B fundraise", LE + "r2-1", ["JSA Advocates & Solicitors"])]) == 2)
 
 check("no shared firm and different clients",
       n_after([rec("AZB advises Alpha on acquisition of Beta", BB + "z1", ["AZB & Partners"]),

@@ -38,7 +38,8 @@ from urllib.parse import urlsplit
 
 sys.path.insert(0, str(Path(__file__).parent))
 from extraction import (  # noqa: E402
-    BARE_INR_RE, MONEY_RE, canonical_firm, normalize_name, parse_money,
+    BARE_INR_RE, MONEY_RE, canonical_firm, known_firms_in_text, normalize_name,
+    parse_money,
 )
 
 # ---- tunables (calibrated on the real corpus; see tests/test_dedup.py) ------
@@ -46,6 +47,7 @@ LEDE_COPY_SIM = 0.55          # word-3-gram Jaccard of opening text => copied pr
 HEADLINE_SIM = 0.75           # overlap coefficient of significant headline tokens
 HEADLINE_SIM_WITH_PEOPLE = 0.5
 PEOPLE_SHARED_MIN = 3
+NESTED_ENTITIES_MIN = 5       # no shared firm, one headline nested in the other
 PEOPLE_JACCARD_MIN = 0.6
 VALUE_TOLERANCE = 0.15        # same deal quoted in INR vs USD at different rates
 DATE_WINDOW_DAYS = 14
@@ -68,6 +70,8 @@ counsel legal lead led team firm firms law laws llp llc ltd limited pvt
 private pte inc incorporated corp corporation co company plc partners
 partner associates associate advocates solicitors
 also along alongside together jointly both said
+availing avail availed securing secure secured providing provides provided
+sanctioning sanctioned obtaining obtain obtained setting up
 india indian indias
 """.split())
 # deal-shape words that carry no identity: two different deals share them
@@ -173,7 +177,7 @@ def _lede(record):
 # ---- per-record features ---------------------------------------------------
 class Features:
     __slots__ = (
-        "rec", "idx", "url", "host", "slug", "firms", "firm_words", "head_norm",
+        "rec", "idx", "url", "host", "slug", "firms", "firms_soft", "firm_words", "head_norm",
         "tokens", "rare", "core", "marks", "lede_norm", "lede_shingles", "people",
         "value_inr", "date", "personnel", "label", "n_people",
     )
@@ -212,6 +216,11 @@ def build_features(records, is_personnel_move):
             if c:
                 firms.add(c)
         f.firms = firms
+        # firms named in the opening text too. Used only to MATCH records:
+        # an article whose own firm list came out empty ("28MAEI, EY, J Sagar
+        # Associates and Solicis Lex advised ...") still has to be comparable.
+        f.firms_soft = firms | set(known_firms_in_text(r.get("headline") or "")) | set(
+            known_firms_in_text((r.get("snippet") or "")[:500]))
         f.firm_words = _firm_words(firms)
         headline = r.get("headline") or ""
         f.head_norm = " ".join(_words(headline))
@@ -224,6 +233,11 @@ def build_features(records, is_personnel_move):
         f.n_people = len(r.get("people") or [])
         value = r.get("deal_value")
         inr = value.get("amount_inr") if isinstance(value, dict) else None
+        if isinstance(value, dict) and value.get("source") == "body":
+            # a figure lifted from the body is often one tranche of the deal
+            # (the fresh-issue part of an IPO, one lender's share), so it can
+            # disagree with the headline total without being a different deal
+            inr = None
         if not inr:
             hit = parse_money(headline)
             inr = hit["amount_inr"] if hit else None
@@ -321,8 +335,7 @@ def compare(a, b):
         return None, detail
 
     # --- SOFT: different articles, same deal --------------------------------
-    if not (a.firms and b.firms and a.firms & b.firms):
-        return None, detail
+    shared_firms = a.firms_soft & b.firms_soft
     if gap is not None and gap > DATE_WINDOW_DAYS:
         detail["veto"] = "date-gap"
         return None, detail
@@ -349,6 +362,20 @@ def compare(a, b):
 
     if entity_clash:
         detail["veto"] = "entity-clash"
+        return None, detail
+
+    if not shared_firms:
+        # The two sides of one deal are often reported separately by their
+        # own counsel (JSA for one JV partner, Khaitan for the other). With no
+        # firm in common the headlines must name EXACTLY the same entities.
+        if (a.tokens and a.tokens == b.tokens and len(a.tokens) >= 3
+                and len(shared_rare) >= 1):
+            return "same-entities-different-counsel", detail
+        # One headline is the other plus extra description, and they share five
+        # or more identity words (Samara Capital / Associated Road Carriers /
+        # Calyx Container Terminals). Five specific names do not coincide.
+        if nested and len(shared_rare) >= NESTED_ENTITIES_MIN:
+            return "nested-entities", detail
         return None, detail
 
     if lede_sim >= LEDE_COPY_SIM and shared_rare:

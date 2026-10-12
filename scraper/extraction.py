@@ -151,6 +151,59 @@ def parse_headline(headline):
     return {"law_firms": firms, "client": client, "transaction_types": txn_types}
 
 
+# --- headline shapes used by Legal Era / LiveLaw -------------------------------
+# Bar & Bench writes "Khaitan advises Foo on bar". The other outlets write
+# Title Case past tense ("Khaitan & Co Advised Foo On Bar"), sometimes with the
+# firm as a trailing clause ("A, B Enter Merger Framework; Khaitan & Co Advises
+# on Transaction"), and sometimes omit the client ("Khaitan Advised on X's
+# divestment"). parse_headline() is left alone so Bar & Bench output cannot
+# change; this is the looser sibling.
+LOOSE_VERB = (
+    r"(?:acted\s+(?:on|for|as)|acts\s+(?:on|for|as)|act\s+on|advis(?:es|ed|e|ing)|"
+    r"assist(?:s|ed|ing)?|represent(?:s|ed|ing)?|counsel(?:led|s)?\s+to)"
+)
+HEADLINE_LOOSE = re.compile(
+    rf"^(?P<firms>.+?)\s+{LOOSE_VERB}\s+(?P<rest>.+)$", re.I
+)
+TRAILING_FIRM_CLAUSE = re.compile(
+    rf";\s*(?P<firms>[^;]+?)\s+{LOOSE_VERB}\b", re.I
+)
+_CLIENT_CUT = re.compile(r"\s+(?:on|in|for|to|through|by|from|of|with|over)\s+|[’']s\s+", re.I)
+
+
+def _split_firms_loose(raw):
+    parts = re.split(r",\s*|\s+and\s+", raw.strip(), flags=re.I)
+    out = []
+    for p in parts:
+        c = canonical_firm(p.strip())
+        if c and c not in out:
+            out.append(c)
+    return out
+
+
+def parse_headline_loose(headline):
+    """Same return shape as parse_headline()."""
+    h = " ".join((headline or "").split())
+    txn = [k for k in TXN_KEYWORDS if k.lower() in h.lower()]
+    m = HEADLINE_LOOSE.match(h)
+    if m and ";" not in m.group("firms"):
+        firms_raw, rest = m.group("firms"), m.group("rest")
+        if ":" in firms_raw:
+            before, after = firms_raw.rsplit(":", 1)
+            if "," in after or " and " in after.lower():
+                firms_raw = after.strip()
+        rest = re.sub(r"^(?:on|for|in|as)\s+", "", rest, flags=re.I)
+        client = _CLIENT_CUT.split(rest, maxsplit=1)[0]
+        client = re.split(r"[₹$]|\s+\d|\s+(?:INR|USD|Rs\.?|EUR|GBP)\b", client)[0].strip(" ,;:-")
+        return {"law_firms": _split_firms_loose(firms_raw), "client": client or None,
+                "transaction_types": txn}
+    t = TRAILING_FIRM_CLAUSE.search(h)
+    if t:
+        return {"law_firms": _split_firms_loose(t.group("firms")), "client": None,
+                "transaction_types": txn}
+    return {"law_firms": [], "client": None, "transaction_types": txn}
+
+
 # Personnel-move headlines don't have a "<firms> act on/advise <client>"
 # shape, so parse_headline()'s HEADLINE_VERB never matches them and there's
 # no headline-declared firm list to snap body-text mentions onto. These
@@ -266,6 +319,62 @@ def _is_name_word(word):
     return bare[:1].isupper() or bare.lower() in _NAME_PARTICLES
 
 
+_SINGULAR_ROLES_BY_LENGTH = sorted(ROLE_WORDS, key=lambda r: -len(r.split()))
+
+
+def _starts_plural_marker(tokens, i):
+    """True at a plural role marker OR a singular role word: either one ends a
+    running "Partners A and B" name list ("..., Principal Associate C")."""
+    for marker in PLURAL_MARKERS_BY_LENGTH:
+        n = len(marker.split())
+        if tokens[i:i + n] == marker.split():
+            return True
+    for role in _SINGULAR_ROLES_BY_LENGTH:
+        n = len(role.split())
+        if tokens[i:i + n] == role.split() and i + n < len(tokens):
+            return True
+    return False
+
+
+def _marker_ends_a_firm_name(tokens, start):
+    """True when the plural role word at tokens[start] directly follows a
+    capitalised word or an ampersand, i.e. it closes a firm name."""
+    if start <= 0:
+        return False
+    prev = tokens[start - 1]
+    if prev == "&":
+        return True
+    if prev in (",", "and", "of", "by"):
+        return False
+    bare = prev.strip("()")
+    return bare[:1].isupper() and bare.isalpha() and not prev.endswith((".", ":", ";"))
+
+
+# "Partner Kartick Maheshwari, Principal Associate Debottam Chattopadhyay and
+# Senior Associate Shruti Jaju": the role comes first and is singular, with no
+# parentheses. LiveLaw's Khaitan reprints use it throughout. A role word must
+# stand on its own (not the tail of "J Sagar Associates") and the name must be
+# two or more capitalised words ending at punctuation, "and", or a lowercase
+# word, so a following firm name or sentence does not leak in.
+PREFIX_ROLE_RE = re.compile(
+    rf"(?<![A-Za-z&])(?P<role>{ROLE_ALTERNATION})\s+(?P<name>{NAME_PATTERN})"
+    r"(?=\s*(?:[,;.)]|$)|\s+(?:and|were|was|led|from|at|of|in|for|who|also|with|along)\b)"
+)
+
+
+def extract_prefix_role_credits(paragraph):
+    out = []
+    for m in PREFIX_ROLE_RE.finditer(paragraph):
+        name = m.group("name").strip()
+        words = name.split()
+        # a name never contains a role word; this is a run-on like
+        # "Partner Senior Associate X" or a firm ("Counsel Lex Mundi")
+        if any(w in {r for role in ROLE_WORDS for r in role.split()} for w in words):
+            continue
+        out.append((name, m.group("role")))
+    return out
+
+
 def extract_plural_list_credits(paragraph):
     """Plain word-by-word scan (no regex) for 'Associates A, B and C' style
     credits, where several names share one plural role marker."""
@@ -283,11 +392,20 @@ def extract_plural_list_credits(paragraph):
         if not matched_marker:
             i += 1
             continue
+        if _marker_ends_a_firm_name(tokens, i - len(matched_marker.split())):
+            # "J Sagar Associates and Solicis Lex advised ..." / "Fox Mandal &
+            # Associates": the word is the tail of a firm name, not a role
+            continue
         role = PLURAL_ROLE_MARKERS[matched_marker]
         names = []
         current = []
         while i < len(tokens):
             w = tokens[i]
+            if _starts_plural_marker(tokens, i):
+                # "Partners A and B, Senior Associates C, D": the next marker
+                # ends this list. Without this "Senior Associates C" was read
+                # as one long name and D, E inherited the wrong role.
+                break
             if w in (",", "and"):
                 if current:
                     names.append(" ".join(current))
@@ -332,6 +450,28 @@ _ALIAS_TEXTS = sorted(
     set(_ALIAS_TEXTS) | {a.replace("&", "and") for a in _ALIAS_TEXTS if "&" in a},
     key=len, reverse=True,
 )
+
+
+_ALIAS_SCAN = re.compile(
+    r"(?<![A-Za-z0-9&])(" + "|".join(re.escape(a) for a in _ALIAS_TEXTS) + r")(?![A-Za-z0-9])",
+    re.I,
+)
+
+
+def known_firms_in_text(text):
+    """Canonical corpus firms named anywhere in `text`. Looser than
+    leading_known_firm(): it only feeds de-duplication matching, never the
+    firm list a deal is stored with. Short abbreviations (SAM, CAM, JSA, TT&A)
+    count only when written as abbreviations."""
+    found = []
+    for m in _ALIAS_SCAN.finditer(text or ""):
+        alias = m.group(1)
+        if len(alias) <= 4 and alias != alias.upper():
+            continue
+        c = canonical_firm(alias)
+        if c and c not in found:
+            found.append(c)
+    return found
 
 
 def leading_known_firm(paragraph):
@@ -461,7 +601,8 @@ def extract_people(paragraphs, fallback_firm, known_firms=()):
                 current_firm = None
         para_firms.append((para, current_firm))
 
-        credits = extract_paren_credits(para) + extract_plural_list_credits(para)
+        credits = (extract_paren_credits(para) + extract_plural_list_credits(para)
+                   + extract_prefix_role_credits(para))
         for name, role in credits:
             # a firm name sitting next to a role word ("Cyril Amarchand
             # Mangaldas (Partner)", crediting the firm itself rather than
@@ -565,6 +706,23 @@ def body_attribution_firms(paragraphs):
         if raw not in out:
             out.append(raw)
     return out
+
+
+def firms_from_names(names, paragraphs):
+    """firms_from_topics() for sources that expose an entity list as plain
+    names (JSON-LD `keywords`) rather than /topic/ links. Same rule: a firm
+    counts only when the curated list AND a body attribution sentence agree."""
+    topics = sorted({_slugify_firm(n) for n in names if _slugify_firm(n)})
+    if not topics:
+        return []
+    firms = []
+    for raw in body_attribution_firms(paragraphs):
+        if not _topic_match(raw, topics):
+            continue
+        cname = canonical_firm(raw)
+        if cname and cname not in firms:
+            firms.append(cname)
+    return firms
 
 
 def firms_from_topics(html, paragraphs):
