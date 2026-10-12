@@ -198,6 +198,32 @@ def _keywords(ld):
     return [k.strip() for k in kw if isinstance(k, str) and k.strip()]
 
 
+# Both outlets file some non-deal stories under their deals section: court
+# rulings the firm acted in, office openings, hires. A directory of deals must
+# not carry those as deals.
+NON_DEAL_HEADLINE = re.compile(
+    # Unambiguous litigation / firm-news phrases only. Deliberately absent:
+    #  - "NCLT", "High Court", "Tribunal": also in headlines about court-
+    #    sanctioned mergers, which are real deals;
+    #  - "elevate", "appoint", "promote", "induct": hires and promotions are
+    #    caught by is_personnel_move(), and a bare word match dropped a real
+    #    mandate for "Elevate Campuses".
+    r"\b(arbitra\w*|upholds?|quash\w*|dismiss\w*|writ petition|verdict|judgment|"
+    r"(?:expands?|expansion)\s+(?:of\s+|its\s+|their\s+)?(?:presence|team|footprint|practice|office|offices)|"
+    r"new office|opens (?:a )?(?:new )?office|"
+    r"announces (?:strategic |new )?(?:team|office|hire|partner|practice)|"
+    r"launches (?:new )?(?:practice|office))\b",
+    re.I,
+)
+
+
+def _flat(name):
+    """Comparable form of a firm name: '&' and 'and' are the same word, case
+    and punctuation do not matter (the headline says "Lakshmikumaran &
+    Sridharan", the keyword list says "Lakshmikumaran and Sridharan")."""
+    return re.sub(r"[^a-z0-9]+", "", re.sub(r"\band\b|&", "", name.lower()))
+
+
 def parse_article(source, url, html):
     """Returns a deal record, or None when the page is not a usable article."""
     soup = BeautifulSoup(html, "lxml")
@@ -233,6 +259,8 @@ def parse_article(source, url, html):
         "keywords": keywords,
     }
 
+    if NON_DEAL_HEADLINE.search(headline):
+        return None
     parsed = parse_headline_loose(headline)
     if not parsed["law_firms"] and is_personnel_move(headline):
         people = parse_personnel_move_people(headline)
@@ -242,13 +270,13 @@ def parse_article(source, url, html):
 
     tagged = firms_from_names(keywords, paragraphs)
     firms = list(tagged)
-    kw_slugs = {re.sub(r"[^a-z0-9]+", "", k.lower().replace("&", "")) for k in keywords}
+    kw_slugs = {_flat(k) for k in keywords}
     for f in parsed["law_firms"]:
         if f in firms:
             continue
         # a headline-only firm is trusted when the corpus knows it or the
         # curated keyword list also names it
-        flat = re.sub(r"[^a-z0-9]+", "", f.lower().replace("&", ""))
+        flat = _flat(f)
         if f.lower() in KNOWN_FIRMS or any(flat and (flat in k or k in flat) for k in kw_slugs if k):
             firms.append(f)
     firms = _drop_fragment_firms(discover_corpus_firms(paragraphs, firms))
@@ -262,6 +290,9 @@ def parse_article(source, url, html):
     value = extract_deal_value(headline, paragraphs)
     if value:
         record["deal_value"] = value
+    if not record["law_firms"] and not record["people"]:
+        # nothing a lawyer directory can use: no firm, no named lawyer
+        return None
     return record
 
 
@@ -352,8 +383,12 @@ def run(source, argv=None):
                     raise
                 except Exception as e:
                     print(f"failed to reparse {old['url']}: {e}")
-                    rec = None
-                out.append(rec or old)
+                    out.append(old)
+                    continue
+                if rec is None:
+                    print(f"dropping non-deal / empty record: {old['url']}")
+                    continue
+                out.append(rec)
         except Blocked as e:
             print(f"BLOCKED: {e}; keeping stored records for the rest")
             out.extend(deals[len(out):])

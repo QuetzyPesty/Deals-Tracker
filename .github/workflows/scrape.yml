@@ -1,4 +1,4 @@
-name: Bar & Bench Scrape (every 2 days)
+name: Deal Sources Scrape (every 2 days)
 
 on:
   schedule:
@@ -23,8 +23,27 @@ jobs:
       - name: Install spaCy English model
         run: python -m pip install "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl"
 
-      - name: Scrape new deals
+      # Each source is independent: a block, an outage or a layout change in
+      # one must not stop the others or stop the rebuild. The scrapers exit 0
+      # on a 403/429 and keep what they already stored.
+      - name: Scrape Bar & Bench
         run: python scraper/scrape_barandbench.py
+
+      - name: Scrape Legal Era
+        continue-on-error: true
+        run: python scraper/scrape_legalera.py --pages 2 --max-new 40
+
+      - name: Scrape LiveLaw
+        continue-on-error: true
+        run: python scraper/scrape_livelaw.py --pages 2 --max-new 40
+
+      # Fail before committing if extraction or de-duplication regressed, so a
+      # bad parser change cannot overwrite good data on main.
+      - name: Offline tests
+        run: |
+          python tests/test_firm_extraction.py
+          python tests/test_dedup.py
+          python tests/test_sources.py
 
       - name: Rebuild directory DB + JSON
         run: python build_directory.py
@@ -34,9 +53,12 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          git config user.name "barandbench-bot"
+          git config user.name "deals-scrape-bot"
           git config user.email "actions@github.com"
           git add barandbench_deals.json scraper/seen_urls.json \
+                  legalera_deals.json scraper/seen_legalera.json \
+                  livelaw_deals.json scraper/seen_livelaw.json \
+                  dedup_report.json \
                   legal_directory.db legal_directory.json index.html
           git diff --staged --quiet || git commit -m "Scrape: $(date -u +%Y-%m-%d)"
           git push

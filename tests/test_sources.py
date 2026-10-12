@@ -111,6 +111,19 @@ check("article with no credits yields a deal and no invented people",
       r["law_firms"] == ["Dua Associates"] and r["people"] == [], (r["law_firms"], r["people"]))
 check("EUR value", r["deal_value"]["currency"] == "EUR" and r["deal_value"]["amount"] == 7_000_000)
 
+# --------------------------------------------------------- non-deal filter
+print("non-deal filter")
+nd = ns.NON_DEAL_HEADLINE
+check("a client called 'Elevate' is not firm news (regression: dropped a real CAM IPO)",
+      not nd.search("Cyril Amarchand Mangaldas Advised Book Running Lead Managers On Elevate Campuses’ IPO"))
+check("'expansion' alone is not firm news", not nd.search("Khaitan & Co Advises Mahindra On Capacity Expansion Financing"))
+check("court-sanctioned merger headlines are not dropped",
+      not nd.search("Trilegal Advised Acme On NCLT-Approved Scheme Of Amalgamation"))
+check("office openings and rulings are dropped",
+      bool(nd.search("ASM Law Chambers Expands Presence With New Office In Mumbai"))
+      and bool(nd.search("Gujarat High Court Upholds Land Acquisition; UNUC Legal Represents NHSRCL"))
+      and bool(nd.search("Kochhar & Co. Represents Air Liquide in Arbitration Against Vedanta")))
+
 # --------------------------------------------------------- fetch behaviour
 print("fetching")
 check("User-Agent identifies the project and avoids the words these sites block",

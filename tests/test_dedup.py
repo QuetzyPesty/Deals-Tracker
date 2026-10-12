@@ -126,6 +126,19 @@ check("IPO: headline total vs a body-stated fresh-issue tranche is not a conflic
                    LE + "jsw-990301", ["Khaitan & Co"],
                    value={"amount_inr": 13_000_000_000, "source": "body"})]) == 1)
 
+TRILEGAL_TEAM = [("Sai Krishna Bharathan", "Trilegal"), ("Raina Mitra", "Trilegal"),
+                 ("Archi Jain", "Trilegal"), ("Annika Bohra", "Trilegal")]
+check("one deal, buyer's and target's counsel each published separately, a hub lists both (real Prestige case)",
+      n_after([
+          rec("CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise", BB + "hub",
+              ["Trilegal", "Cyril Amarchand Mangaldas"], people=TRILEGAL_TEAM,
+              value={"amount_inr": 30_000_000_000, "source": "headline"}),
+          rec("Trilegal Advised CPPIB On INR 30 Billion Investment In Prestige Hospitality Ventures", LE + "t-1", ["Trilegal"],
+              people=TRILEGAL_TEAM, value={"amount_inr": 30_000_000_000, "source": "headline"}),
+          rec("Cyril Amarchand Mangaldas Advised Prestige Group On CPP Investments’ Proposed INR 3,000 Crore Investment...",
+              LE + "c-2", ["Cyril Amarchand Mangaldas"], value={"amount_inr": 30_000_000_000, "source": "headline"}),
+      ]) == 1)
+
 check("copied press-release text under unrelated headlines",
       n_after([rec("NIIF closes first round of second flagship fund", BB + "n1", ["Khaitan & Co"], snippet=LEDE),
                rec("Khaitan & Co Advises NIIF on First Close of Its Second Flagship Infrastructure Fund",
@@ -192,6 +205,23 @@ check("different counsel, Series A vs Series B of one company",
       n_after([rec("Trilegal advises Acme Robotics on Series A fundraise", BB + "r1", ["Trilegal"]),
                rec("JSA advises Acme Robotics on Series B fundraise", LE + "r2-1", ["JSA Advocates & Solicitors"])]) == 2)
 
+check("same issuer and name words, QIP vs bond issue (type conflict)",
+      n_after([rec("Trilegal advises Reliance Retail Ventures on ₹2,000 crore QIP", BB + "q", ["Trilegal"]),
+               rec("Trilegal Advised Reliance Retail Ventures On Its Bond Issue", LE + "b-1", ["Trilegal"])]) == 2)
+
+check("same issuer, IPO vs an acquisition by it",
+      n_after([rec("Khaitan & Co advises Zenith Foods Limited on its IPO", BB + "i", ["Khaitan & Co"]),
+               rec("Khaitan & Co Advised Zenith Foods Limited On Acquisition Of Snackco", LE + "a-1", ["Khaitan & Co"])]) == 2)
+
+check("a hub record must not bridge two spokes that contradict each other",
+      n_after([
+          rec("Trilegal, JSA act on Acme acquisition of Beta Industries", BB + "h", ["Trilegal", "JSA Advocates & Solicitors"]),
+          rec("Trilegal advises Acme on ₹100 crore acquisition of Beta Industries", LE + "s1-1", ["Trilegal"],
+              value={"amount_inr": 1_000_000_000, "source": "headline"}),
+          rec("JSA advises Acme on ₹900 crore acquisition of Beta Industries", LL + "s2-2", ["JSA Advocates & Solicitors"],
+              value={"amount_inr": 9_000_000_000, "source": "headline"}),
+      ]) == 2)
+
 check("no shared firm and different clients",
       n_after([rec("AZB advises Alpha on acquisition of Beta", BB + "z1", ["AZB & Partners"]),
                rec("Trilegal advises Gamma on acquisition of Delta", LE + "z2-1", ["Trilegal"])]) == 2)
@@ -246,8 +276,9 @@ print("real corpus")
 recs = json.loads((ROOT / "structured_deals.json").read_text()) \
     + json.loads((ROOT / "barandbench_deals.json").read_text())
 merged, report = run(recs)
-check("real corpus: only a handful of merges (guards against a runaway rule)",
-      report["removed_duplicates"] <= 15, report["removed_duplicates"])
+check("real corpus: merges stay a small fraction (guards against a runaway rule)",
+      report["removed_duplicates"] <= 0.05 * report["input_records"],
+      (report["removed_duplicates"], report["input_records"]))
 heads = " ".join(r["headline"] for r in merged)
 check("real corpus: both Indus Infra Trust deals survive",
       sum("Indus Infra Trust" in r["headline"] for r in merged) >= 2)

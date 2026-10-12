@@ -47,6 +47,7 @@ LEDE_COPY_SIM = 0.55          # word-3-gram Jaccard of opening text => copied pr
 HEADLINE_SIM = 0.75           # overlap coefficient of significant headline tokens
 HEADLINE_SIM_WITH_PEOPLE = 0.5
 PEOPLE_SHARED_MIN = 3
+NESTED_SAME_COUNSEL_MIN = 3   # shared firm, one headline nested in the other, same deal type
 NESTED_ENTITIES_MIN = 5       # no shared firm, one headline nested in the other
 PEOPLE_JACCARD_MIN = 0.6
 VALUE_TOLERANCE = 0.15        # same deal quoted in INR vs USD at different rates
@@ -92,6 +93,22 @@ _CURRENCY_TOKENS = {"inr", "usd", "rs", "eur", "gbp", "us"}
 # Things that tell two otherwise-identical headlines apart: a funding round,
 # a fund number, a capacity. A headline that carries one the other lacks, in
 # both directions, is a different deal.
+# Coarse deal-type classes. Two headlines about the same issuer that name
+# DIFFERENT classes (a QIP and a bond issue, an IPO and an acquisition) are
+# different deals however many name words they share.
+_TYPE_CLASSES = {
+    "ipo": re.compile(r"\bipos?\b|initial public offer|\bdrhp\b|\blisting\b|\blisted\b"),
+    "qip": re.compile(r"\bqips?\b|qualified institutional|rights issue"),
+    "debt": re.compile(r"\bbonds?\b|debentures?|\bncds?\b|\bnotes?\b|\bloans?\b|\becb\b|credit|facilit|refinanc|lend|borrow|sanction"),
+    # acquisition, stake sale, investment and fund-raising are one family: the
+    # same transaction is described as "stake acquisition" by one outlet and
+    # "to invest in" by another
+    "equity": re.compile(
+        r"acqui|buyout|takeover|purchas|divest|\bsale\b|\bsell|\bsold\b|carve-?out|stake|"
+        r"invest|fund-?rais|funding|\bseries [a-z]\b|\bround\b|\braise|subscri|infusion|"
+        r"preferential|warrants?"
+    ),
+}
 _MARK_WORDS_RE = re.compile(
     r"\b(series|round|tranche|phase|class|fund|tier|package|batch)\s+([a-z]|[ivx]{1,4}|\d+)\b"
 )
@@ -178,7 +195,7 @@ def _lede(record):
 class Features:
     __slots__ = (
         "rec", "idx", "url", "host", "slug", "firms", "firms_soft", "firm_words", "head_norm",
-        "tokens", "rare", "core", "marks", "lede_norm", "lede_shingles", "people",
+        "tokens", "rare", "core", "marks", "types", "lede_norm", "lede_shingles", "people",
         "value_inr", "date", "personnel", "label", "n_people",
     )
 
@@ -246,6 +263,7 @@ def build_features(records, is_personnel_move):
         f.personnel = bool(is_personnel_move(headline) and not r.get("client"))
         f.label = source_label(r)
         f.marks = _marks(headline)
+        f.types = {k for k, rx in _TYPE_CLASSES.items() if rx.search(_clean(headline))}
         f.tokens = None  # filled once corpus frequencies are known
         f.rare = None
         f.core = None
@@ -320,6 +338,8 @@ def compare(a, b):
         detail["marks"] = [sorted(a.marks), sorted(b.marks)]
         return None, detail
 
+    types_disjoint = bool(a.types and b.types and not (a.types & b.types))
+
     # --- HARD: same article text --------------------------------------------
     if a.head_norm and a.head_norm == b.head_norm and _firm_compatible(a, b):
         if gap is None or gap <= HEADLINE_DATE_WINDOW_DAYS:
@@ -335,6 +355,10 @@ def compare(a, b):
         return None, detail
 
     # --- SOFT: different articles, same deal --------------------------------
+    if types_disjoint:
+        detail["veto"] = "type-conflict"
+        detail["types"] = [sorted(a.types), sorted(b.types)]
+        return None, detail
     shared_firms = a.firms_soft & b.firms_soft
     if gap is not None and gap > DATE_WINDOW_DAYS:
         detail["veto"] = "date-gap"
@@ -380,6 +404,11 @@ def compare(a, b):
 
     if lede_sim >= LEDE_COPY_SIM and shared_rare:
         return "copied-text", detail
+    # One headline's identity words are all inside the other's, they share
+    # at least three, and both name the same kind of deal. Generic words
+    # ("proposed", "group") dilute head_sim, so it cannot be the gate here.
+    if (nested and len(shared_rare) >= NESTED_SAME_COUNSEL_MIN and a.types & b.types):
+        return "nested-same-type", detail
     if (head_sim >= HEADLINE_SIM and len(shared_rare) >= 2
             and (nested or (len(a_only) <= 1 and len(b_only) <= 1))):
         return "headline-entities", detail
@@ -391,8 +420,17 @@ def compare(a, b):
 
 # ---- clustering ------------------------------------------------------------
 def cluster(feats):
-    """Complete-linkage clustering in a deterministic order. Returns a list of
-    lists of Features, plus the rule log."""
+    """Greedy clustering in a deterministic order. Returns clusters, the rule
+    log and the near-miss list.
+
+    A candidate joins a cluster when it matches at least one member AND no
+    other member contradicts it. A member contradicts it when the pair is
+    vetoed (value, date, entity, round) or when the two are by the SAME counsel
+    yet failed every rule. Two articles by DIFFERENT counsel that merely do not
+    match each other are tolerated: when one deal is covered once by the buyer's
+    lawyers and once by the seller's, the only thing connecting those articles
+    is the record that lists both firms.
+    """
     order = sorted(
         feats,
         key=lambda f: (SOURCE_RANK.get(f.label, 9), f.url, f.idx),
@@ -403,23 +441,31 @@ def cluster(feats):
     for f in order:
         placed = False
         for c in clusters:
-            rules = []
+            matches = []
             ok = True
             for m in c:
                 rule, detail = compare(f, m)
-                if rule is None:
+                if rule is not None:
+                    matches.append((rule, m, detail))
+                    continue
+                same_counsel = bool(f.firms and m.firms and f.firms & m.firms)
+                veto = detail.get("veto")
+                # An entity-clash is a guess from headline wording ("CPPIB" vs
+                # "CPP Investments" looks like two investors). Between two
+                # articles by different counsel it is not allowed to veto a
+                # link that another member already established; value, date,
+                # round and deal-type vetoes are facts and always do.
+                if veto and (veto != "entity-clash" or same_counsel):
                     ok = False
-                    # an otherwise-strong candidate stopped by a veto is worth
-                    # a human look
-                    if detail.get("veto") and (
-                        detail.get("head_sim", 0) >= 0.6 or detail.get("lede_sim", 0) >= 0.4
-                    ):
+                    if detail.get("head_sim", 0) >= 0.6 or detail.get("lede_sim", 0) >= 0.4:
                         near.append((f, m, detail))
                     break
-                rules.append((rule, m, detail))
-            if ok:
+                if same_counsel:
+                    ok = False  # same counsel, no rule fired: not provably one deal
+                    break
+            if ok and matches:
                 c.append(f)
-                for rule, m, detail in rules:
+                for rule, m, detail in matches:
                     log.append((f, m, rule, detail))
                 placed = True
                 break
@@ -514,6 +560,9 @@ def dedupe(records, is_personnel_move, best_role=None):
     merged.sort(key=lambda r: (SOURCE_RANK.get(source_label(r), 9), normalize_url(r.get("url"))))
 
     by_rule = Counter(rule for _, _, rule, _ in log)
+    rules_for = {}
+    for f_, m_, rule_, _ in log:
+        rules_for.setdefault(f_.rec.get("url"), []).append(rule_)
     report = {
         "input_records": len(records),
         "output_records": len(merged),
@@ -525,7 +574,10 @@ def dedupe(records, is_personnel_move, best_role=None):
                          "headline": c[0].rec.get("headline")},
                 "duplicates": [
                     {"source": m.label, "url": m.rec.get("url"),
-                     "headline": m.rec.get("headline")}
+                     "headline": m.rec.get("headline"),
+                     "rules": sorted(set(rules_for.get(m.rec.get("url"), [])
+                                         + [r for f_, m_, r, _ in log
+                                            if m_.rec.get("url") == m.rec.get("url")]))}
                     for m in c[1:]
                 ],
             }
