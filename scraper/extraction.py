@@ -589,10 +589,16 @@ def firms_from_topics(html, paragraphs):
 # ("... on ₹9,825 crore ...", "... for $206 million"). Three currencies and
 # four magnitude words cover essentially all of it.
 
-CURRENCY_SYMBOL = {"₹": "INR", "$": "USD", "€": "EUR", "£": "GBP"}
+CURRENCY_SYMBOL = {
+    "₹": "INR", "$": "USD", "€": "EUR", "£": "GBP",
+    # written-out codes: Legal Era and LiveLaw write "INR 30 Billion" and
+    # "USD 100 Million" where Bar & Bench uses symbols
+    "INR": "INR", "RS": "INR", "RS.": "INR", "USD": "USD", "US$": "USD",
+    "EUR": "EUR", "GBP": "GBP",
+}
 MAGNITUDE = {
-    "crore": 10_000_000, "cr": 10_000_000,
-    "lakh": 100_000, "lac": 100_000,
+    "crore": 10_000_000, "crores": 10_000_000, "cr": 10_000_000,
+    "lakh": 100_000, "lakhs": 100_000, "lac": 100_000, "lacs": 100_000,
     "million": 1_000_000, "mn": 1_000_000,
     "billion": 1_000_000_000, "bn": 1_000_000_000,
 }
@@ -608,8 +614,17 @@ FX_TO_INR = {"INR": 1.0, "USD": 88.0, "EUR": 96.0, "GBP": 112.0}
 _APPROX = r"(?:~|about|approx\w*|around|over|up\s?to|more\s+than|nearly|almost|upwards\s+of)\s*"
 MONEY_RE = re.compile(
     rf"(?P<approx>{_APPROX})?"
-    r"(?P<cur>[₹$€£])\s?(?P<amt>\d[\d,]*(?:\.\d+)?)\s*"
-    r"(?P<unit>crore|cr|lakh|lac|million|mn|billion|bn)?"
+    r"(?P<cur>[₹$€£]|(?<![A-Za-z])(?:INR|Rs\.?|USD|US\$|EUR|GBP)(?![A-Za-z]))"
+    r"\s?(?P<amt>\d[\d,]*(?:\.\d+)?)(?!\d)\s*"
+    r"(?P<unit>crores?|cr|lakhs?|lacs?|million|mn|billion|bn)?(?![A-Za-z])"
+    r"(?P<plus>\s*\+)?",
+    re.I,
+)
+# "1,940 crores" with no currency mark is still rupees: crore and lakh are
+# Indian units. Million/billion without a currency are ambiguous and ignored.
+BARE_INR_RE = re.compile(
+    rf"(?P<approx>{_APPROX})?"
+    r"(?<![\d,.])(?P<amt>\d[\d,]*(?:\.\d+)?)(?!\d)\s*(?P<unit>crores?|cr|lakhs?|lacs?)(?![A-Za-z])"
     r"(?P<plus>\s*\+)?",
     re.I,
 )
@@ -625,10 +640,15 @@ DEAL_SENTENCE = re.compile(
 
 def parse_money(text):
     """First money-shaped figure in `text`, normalised. None if there isn't one."""
-    m = MONEY_RE.search(text or "")
-    if not m:
+    text = text or ""
+    m = MONEY_RE.search(text)
+    bare = BARE_INR_RE.search(text)
+    if bare and (m is None or bare.start() < m.start()):
+        m, currency = bare, "INR"
+    elif m:
+        currency = CURRENCY_SYMBOL.get(m.group("cur").upper().replace(" ", ""))
+    else:
         return None
-    currency = CURRENCY_SYMBOL.get(m.group("cur"))
     if not currency:
         return None
     try:
