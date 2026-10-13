@@ -1,11 +1,22 @@
 import json
 import re
 import sqlite3
+import sys
 from pathlib import Path
 
 BASE = Path(__file__).parent
 SRC = BASE / "structured_deals.json"
 SCRAPED_SRC = BASE / "barandbench_deals.json"
+# One raw file per live source. Files stay un-merged on disk (provenance is
+# preserved and a better dedup rule can be applied to history by rebuilding);
+# scraper/dedup.py collapses them at build time.
+SOURCE_FILES = [
+    SRC,
+    SCRAPED_SRC,
+    BASE / "legalera_deals.json",
+    BASE / "livelaw_deals.json",
+]
+DEDUP_REPORT_PATH = BASE / "dedup_report.json"
 DB_PATH = BASE / "legal_directory.db"
 JSON_PATH = BASE / "legal_directory.json"
 VERIFICATION_PATH = BASE / "firm_history_verification.json"
@@ -413,9 +424,17 @@ def merge_unaffiliated_people(cur):
 
 
 def main():
-    deals = json.loads(SRC.read_text())
-    if SCRAPED_SRC.exists():
-        deals = deals + json.loads(SCRAPED_SRC.read_text())
+    deals = []
+    for path in SOURCE_FILES:
+        if path.exists():
+            deals += json.loads(path.read_text())
+
+    # Strict cross-source dedup. The same deal is re-published by several
+    # outlets under different URLs; deals.url UNIQUE alone cannot see that.
+    sys.path.insert(0, str(BASE / "scraper"))
+    import dedup  # noqa: E402  (lazy: dedup imports extraction, which imports this module)
+    deals, dedup_report = dedup.dedupe(deals, is_personnel_move, best_role)
+    DEDUP_REPORT_PATH.write_text(json.dumps(dedup_report, indent=2, ensure_ascii=False))
     verification = json.loads(VERIFICATION_PATH.read_text()) if VERIFICATION_PATH.exists() else {}
     verification.pop("_readme", None)
 
@@ -453,7 +472,16 @@ def main():
             value_amount INTEGER,
             value_inr INTEGER,
             value_approx INTEGER DEFAULT 0,
-            value_source TEXT
+            value_source TEXT,
+            published_at TEXT
+        );
+        -- Every outlet that carried a deal. deals.url/source is the richest
+        -- copy; the rest are the same deal re-published elsewhere.
+        CREATE TABLE deal_sources (
+            deal_id INTEGER REFERENCES deals(id),
+            source TEXT,
+            url TEXT,
+            is_primary INTEGER NOT NULL DEFAULT 0
         );
         CREATE TABLE deal_types (
             deal_id INTEGER REFERENCES deals(id),
@@ -535,10 +563,11 @@ def main():
         else:
             cur.execute(
                 "INSERT OR IGNORE INTO deals(headline, client, source, url, snippet, "
-                "value_raw, value_currency, value_amount, value_inr, value_approx, value_source) "
-                "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                "value_raw, value_currency, value_amount, value_inr, value_approx, value_source, "
+                "published_at) "
+                "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
                 (d["headline"], d.get("client"), d.get("source"), d.get("url"), d.get("snippet"),
-                 *_deal_value_columns(d.get("deal_value"))),
+                 *_deal_value_columns(d.get("deal_value")), d.get("published_at")),
             )
             cur.execute("SELECT id FROM deals WHERE url = ?", (d.get("url"),))
             row = cur.fetchone()
@@ -550,6 +579,16 @@ def main():
                 )
                 row = cur.fetchone()
             deal_id = row[0]
+
+            cur.execute(
+                "INSERT INTO deal_sources(deal_id, source, url, is_primary) VALUES (?, ?, ?, 1)",
+                (deal_id, d.get("source"), d.get("url")),
+            )
+            for other in d.get("also_reported_by") or []:
+                cur.execute(
+                    "INSERT INTO deal_sources(deal_id, source, url, is_primary) VALUES (?, ?, ?, 0)",
+                    (deal_id, other.get("source"), other.get("url")),
+                )
 
             types = d.get("transaction_types", [])
             for t in types:
@@ -655,12 +694,21 @@ def main():
             ]
             txn_types.update(types)
             practice_areas.update(areas)
+            also = [
+                {"source": r[0], "url": r[1]}
+                for r in cur.execute(
+                    "SELECT source, url FROM deal_sources "
+                    "WHERE deal_id = ? AND is_primary = 0 ORDER BY source, url",
+                    (did,),
+                ).fetchall()
+            ]
             deals_list.append(
                 {
                     "headline": headline,
                     "client": effective_client,
                     "url": url,
                     "source": source,
+                    **({"also_reported_by": also} if also else {}),
                     "types": types,
                     "practice_areas": areas,
                     "value": (
@@ -775,6 +823,11 @@ def main():
 
     conn.close()
 
+    print(
+        f"dedup: {dedup_report['input_records']} source records -> "
+        f"{dedup_report['output_records']} ({dedup_report['removed_duplicates']} duplicates merged, "
+        f"{len(dedup_report['near_misses'])} near-misses kept apart; see {DEDUP_REPORT_PATH.name})"
+    )
     print(f"people: {stats['people']}  firms: {stats['firms']}  deals: {stats['deals']}")
     print(f"skipped malformed person names: {skipped_people}")
     print(f"personnel-move articles excluded from deal count: {skipped_personnel_moves}")

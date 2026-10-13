@@ -1,0 +1,1319 @@
+{
+  "input_records": 724,
+  "output_records": 692,
+  "removed_duplicates": 32,
+  "merges_by_rule": {
+    "same-url": 1,
+    "headline-entities": 14,
+    "same-slug": 4,
+    "nested-same-type": 6,
+    "same-headline": 1,
+    "same-team-and-entities": 2,
+    "same-core-headline": 2,
+    "same-entities-different-counsel": 1,
+    "nested-entities": 1
+  },
+  "merged_groups": [
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/amp/story/dealstreet/shardul-amarchand-mangaldas-advises-krishna-institute-of-medical-sciences-on-1500-crore-qip",
+        "headline": "Shardul Amarchand Mangaldas advises Krishna Institute of Medical Sciences on ₹1,500 crore QIP"
+      },
+      "duplicates": [
+        {
+          "source": "Bar & Bench",
+          "url": "https://www.barandbench.com/dealstreet/shardul-amarchand-mangaldas-advises-krishna-institute-of-medical-sciences-on-1500-crore-qip",
+          "headline": "Shardul Amarchand Mangaldas, Cyril Amarchand Mangaldas act on Krishna Institute of ...",
+          "rules": [
+            "same-slug"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/amp/story/dealstreet/white-case-azb-partners-sullivan-cromwell-cyril-amarchand-mangaldas-act-on-sun-pharmas-billion-dollar-acquisition-of-organon",
+        "headline": "White & Case, AZB, Sullivan, Cyril Amarchand Mangaldas act on Sun Pharma's $11.75 ..."
+      },
+      "duplicates": [
+        {
+          "source": "Bar & Bench",
+          "url": "https://www.barandbench.com/dealstreet/white-case-azb-partners-sullivan-cromwell-cyril-amarchand-mangaldas-act-on-sun-pharmas-billion-dollar-acquisition-of-organon",
+          "headline": "White & Case, AZB, Sullivan, Cyril Amarchand Mangaldas, Linklaters act on Sun Pharma's ...",
+          "rules": [
+            "same-slug"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/amp/story/news/corporate/cam-director-kushal-ramotre-joins-jsa-as-a-partner",
+        "headline": "CAM Director Kushal Ramotre joins JSA as a Partner"
+      },
+      "duplicates": [
+        {
+          "source": "Bar & Bench",
+          "url": "https://www.barandbench.com/news/corporate/cam-director-kushal-ramotre-joins-jsa-as-a-partner",
+          "headline": "CAM Director Kushal Ramotre joins JSA as a Partner - Bar and Bench",
+          "rules": [
+            "same-slug"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/amp/story/news/corporate/sam-counsel-anoopam-n-prasad-sets-up-chambers",
+        "headline": "Former Shardul Amarchand Mangaldas lawyer Anoopam N Prasad sets up chambers"
+      },
+      "duplicates": [
+        {
+          "source": "Bar & Bench",
+          "url": "https://www.barandbench.com/news/corporate/sam-counsel-anoopam-n-prasad-sets-up-chambers",
+          "headline": "Former Shardul Amarchand Mangaldas lawyer Anoopam N Prasad sets up chambers",
+          "rules": [
+            "same-slug"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-sr-associates-hogan-lovells-cadwalader-act-on-lohia-corp-1101-crore-ipo",
+        "headline": "Cyril Amarchand Mangaldas, S&R Associates, Hogan Lovells Cadwalader act on Lohia ..."
+      },
+      "duplicates": [
+        {
+          "source": "Bar & Bench",
+          "url": "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-sr-associates-hogan-lovells-cadwalader-act-on-lohia-corp-1101-crore-ipo",
+          "headline": "Cyril Amarchand Mangaldas, S&R Associates, Hogan Lovells Cadwalader act on Lohia Corp ₹1,101 crore IPO",
+          "rules": [
+            "same-url"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/dealstreet/khaitan-jsa-act-on-weavers-acquiring-majority-stake-in-centrum-housing-finance",
+        "headline": "Khaitan, JSA act on Weavers acquiring majority stake in Centrum Housing Finance"
+      },
+      "duplicates": [
+        {
+          "source": "Bar & Bench",
+          "url": "https://www.barandbench.com/dealstreet/jsa-acts-on-weaver-acquiring-majority-stake-in-centrum-housing-finance",
+          "headline": "JSA acts on Weaver acquiring majority stake in Centrum Housing Finance -",
+          "rules": [
+            "headline-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/dealstreet/khaitan-co-assists-rpg-life-sciences-on-carve-out-of-its-api-business",
+        "headline": "Khaitan & Co assists RPG Life Sciences on carve-out of its API business"
+      },
+      "duplicates": [
+        {
+          "source": "LiveLaw",
+          "url": "https://www.livelaw.in/law-firms/deals/khaitan-co-advises-rpg-life-sciences-api-business-carve-out-553394",
+          "headline": "Khaitan & Co Advises RPG Life Sciences On API Business Carve-Out and InvAscent Investment",
+          "rules": [
+            "nested-same-type"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/dealstreet/kochhar-co-acts-on-novargi-group-cerec-metalform-jv",
+        "headline": "Kochhar & Co acts on Novargi Group - Cerec Metalform JV"
+      },
+      "duplicates": [
+        {
+          "source": "LiveLaw",
+          "url": "https://www.livelaw.in/law-firms/deals/kochhar-co-advises-novargi-group-joint-venture-cerec-metalform-india-544906",
+          "headline": "Kochhar & Co. Advises NOVARGI Group On Joint Venture With CEREC Metalform In India",
+          "rules": [
+            "headline-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-latham-watkins-act-on-dhoot-transmission-3066-crore-ipo",
+        "headline": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO"
+      },
+      "duplicates": [
+        {
+          "source": "Bar & Bench",
+          "url": "https://www.barandbench.com/dealstreet/shardul-amarchand-mangaldas-desai-diwanji-act-on-dhoot-transmission-ridevision-collaboration",
+          "headline": "Shardul Amarchand Mangaldas, Desai & Diwanji act on Dhoot Transmission",
+          "rules": [
+            "headline-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/dealstreet/skyroot-rockets-to-unicorn-status-with-60-million-fundraise-trilegal-tta-advise-2",
+        "headline": "Skyroot rockets to Unicorn status with $60 million fundraise; Trilegal, TT&A, CAM advise"
+      },
+      "duplicates": [
+        {
+          "source": "Bar & Bench",
+          "url": "https://www.barandbench.com/dealstreet/skyroot-rockets-to-unicorn-status-with-60-million-fundraise-trilegal-tta-advise",
+          "headline": "Skyroot rockets to Unicorn status with $60 million fundraise; Trilegal, TT&A advise",
+          "rules": [
+            "nested-same-type"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise",
+        "headline": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-cppib-prestige-hospitality-inr-30-billion-990329",
+          "headline": "Trilegal Advised CPPIB On INR 30 Billion Investment In Prestige Hospitality Ventures",
+          "rules": [
+            "same-team-and-entities"
+          ]
+        },
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/cam-prestige-cpp-investments-hospitality-investment-990210",
+          "headline": "Cyril Amarchand Mangaldas Advised Prestige Group On CPP Investments’ Proposed INR 3,000 Crore Investment...",
+          "rules": [
+            "nested-same-type"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advised-l-catterton-india-fund-on-its-investment-in-nandhana-foods",
+        "headline": "Cyril Amarchand Mangaldas advised L Catterton India Fund on its investment in Nandhana Foods"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/cyril-amarchand-mangaldas-l-catterton-nandhana-foods-investment-990148",
+          "headline": "Cyril Amarchand Mangaldas Advised L Catterton India Fund On Its Investment In Nandhana Foods",
+          "rules": [
+            "same-headline"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+        "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech"
+      },
+      "duplicates": [
+        {
+          "source": "LiveLaw",
+          "url": "https://www.livelaw.in/law-firms/deals/happiest-minds-technologies-itc-infotech-enter-merger-framework-khaitan-co-advises-on-transaction-552365",
+          "headline": "Happiest Minds Technologies, ITC Infotech Enter Merger Framework; Khaitan & Co Advises on Transaction",
+          "rules": [
+            "headline-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo",
+        "headline": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/khaitan-jsw-one-platforms-proposed-ipo-990531",
+          "headline": "Khaitan & Co Advised JSW Steel And JSW Cement On The Proposed IPO Of JSW One Platforms Limited",
+          "rules": [
+            "headline-entities"
+          ]
+        },
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-mitsui-jsw-one-platforms-ipo-990109",
+          "headline": "Trilegal Advised Mitsui & Co. On Proposed INR 3,054 Crore IPO Of JSW One Platforms",
+          "rules": [
+            "headline-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/dsk-legal-advise-viyash-scientific-on-188-crore-acquisition-of-bioforlife-italia",
+        "headline": "DSK Legal advises Viyash Scientific on ₹188 crore acquisition of BioForLife Italia"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/dsk-legal-viyash-alivira-bioforlife-acquisition-990213",
+          "headline": "DSK Legal Advised Viyash Scientific And Alivira Animal Health On Acquisition Of BioForLife Italia",
+          "rules": [
+            "nested-same-type"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/dua-associates-advises-odyssey-energy-solutions-on-availing-7-million-ecb-from-bio",
+        "headline": "Dua Associates advises Odyssey Energy Solutions on availing €7 million ECB from BIO"
+      },
+      "duplicates": [
+        {
+          "source": "LiveLaw",
+          "url": "https://www.livelaw.in/law-firms/deals/dua-associates-advises-odyssey-energy-solutions-procure-vi-pvt-ltd-on-eur-7-million-ecb-from-bio-550953",
+          "headline": "Dua Associates advises Odyssey Energy Solutions Procure VI Pvt. Ltd. on EUR 7 million ECB from BIO",
+          "rules": [
+            "nested-same-type"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "LiveLaw",
+        "url": "https://www.livelaw.in/law-firms/deals/khaitan-co-advises-pwc-us-on-joint-venture-with-pwc-india-552801",
+        "headline": "Khaitan & Co Advises PwC US On Joint Venture With PwC India"
+      },
+      "duplicates": [
+        {
+          "source": "Bar & Bench",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-pwcs-india-us-joint-venture",
+          "headline": "JSA acts on PwC India - PwC US joint venture",
+          "rules": [
+            "same-entities-different-counsel"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advised-rr-kabel-on-acquisition-of-u-m-cables",
+        "headline": "Khaitan & Co advised RR Kabel on acquisition of U M Cables"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/khaitan-advised-rr-kabel-um-cables-acquisition-990441",
+          "headline": "Khaitan & Co Advised RR Kabel On Acquisition Of Optical Fibre and Related Cable Business Of U M Cables",
+          "rules": [
+            "nested-same-type"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-assists-niif-on-setting-up-19000-crore-infrastructure-fund",
+        "headline": "Khaitan & Co assists NIIF on setting up ₹19,000 crore infrastructure fund"
+      },
+      "duplicates": [
+        {
+          "source": "LiveLaw",
+          "url": "https://www.livelaw.in/law-firms/deals/khaitan-co-advises-niif-on-first-close-of-its-second-flagship-infrastructure-fund-554248",
+          "headline": "Khaitan & Co Advises NIIF on First Close of Its Second Flagship Infrastructure Fund",
+          "rules": [
+            "headline-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/kochhar-co-advises-grip-fio-advisors-on-launch-of-grip-primeyield-i",
+        "headline": "Kochhar & Co advises Grip FIO Advisors on launch of Grip PrimeYield – I"
+      },
+      "duplicates": [
+        {
+          "source": "LiveLaw",
+          "url": "https://www.livelaw.in/law-firms/deals/kochhar-co-advises-grip-fio-advisors-llp-on-launch-of-grip-primeyield-i-category-ii-aif-scheme-546203",
+          "headline": "Kochhar & Co. Advises Grip FIO Advisors LLP On Launch Of Grip PrimeYield– I, Category II AIF Scheme",
+          "rules": [
+            "headline-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/kochhar-co-advises-investors-on-strategic-stake-acquisition-in-england-based-parklife-innovations",
+        "headline": "Kochhar & Co advises investors on strategic stake acquisition in England-based Parklife Innovations"
+      },
+      "duplicates": [
+        {
+          "source": "LiveLaw",
+          "url": "https://www.livelaw.in/law-firms/deals/kochhar-co-advises-investors-strategic-acquisition-stake-parklife-innovations-limited-550279",
+          "headline": "Kochhar & Co. Advises Investors On Strategic Acquisition Of Stake In Parklife Innovations Limited",
+          "rules": [
+            "headline-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-cyril-amarchand-mangaldas-act-on-elevate-campuses-2100-crore-ipo",
+        "headline": "Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/cyril-amarchand-mangaldas-elevate-campuses-ipo-990152",
+          "headline": "Cyril Amarchand Mangaldas Advised Book Running Lead Managers On Elevate Campuses’ IPO",
+          "rules": [
+            "headline-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Legal Era",
+        "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-lcc-projects-successful-ipo-listing-990131",
+        "headline": "Trilegal Advised On The Successful Listing Of LCC Projects Aggregating To INR 4,271.41 Million"
+      },
+      "duplicates": [
+        {
+          "source": "Bar & Bench",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-llc-projects-427-crore-ipo",
+          "headline": "Trilegal acts on LCC Projects ₹427 crore IPO",
+          "rules": [
+            "same-team-and-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-remunance-services-on-its-acquisition-by-hightekers-group",
+        "headline": "Trilegal advises Remunance Services on its acquisition by Hightekers Group"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-remunance-hightekers-acquisition-990126",
+          "headline": "Trilegal Advised Remunance Services On Its Acquisition By The Hightekers Group",
+          "rules": [
+            "same-core-headline"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-cms-induslaw-act-on-j-b-ecotex-proposed-ipo",
+        "headline": "Trilegal, CMS INDUSLAW act on J B Ecotex proposed IPO"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-jb-ecotex-proposed-ipo-990155",
+          "headline": "Trilegal Advised J B Ecotex On Its Proposed IPO",
+          "rules": [
+            "same-core-headline"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-jsa-solicis-lex-act-on-samara-capitals-stake-acquisition-in-associated-road-carriers-calyx-container-terminals",
+        "headline": "Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals"
+      },
+      "duplicates": [
+        {
+          "source": "LiveLaw",
+          "url": "https://www.livelaw.in/law-firms/deals/samara-capital-to-invest-in-associated-road-carriers-calyx-container-terminals-to-build-integrated-b2b-logistics-platform-552634",
+          "headline": "Samara Capital To Invest In Associated Road Carriers, Calyx Container Terminals To Build Integrated B2B...",
+          "rules": [
+            "nested-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-varmora-granito-708-crore-ipo",
+        "headline": "Trilegal, Khaitan & Co act on Varmora Granito ₹708 crore IPO"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-varmora-granito-carlyle-ipo-990122",
+          "headline": "Trilegal Advised Varmora Granito And The Carlyle Group On INR 7,080.21 Million IPO By Varmora Granito",
+          "rules": [
+            "headline-entities"
+          ]
+        },
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/khaitan-co-varmora-granito-ipo-brlms-990217",
+          "headline": "Khaitan & Co Advised BRLMs On Varmora Granito’s IPO",
+          "rules": [
+            "headline-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-acts-on-runwal-enterprises-500-crore-ipo",
+        "headline": "Trilegal, Khaitan & Co acts on Runwal Enterprises ₹500 crore IPO"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/trilegal-runwal-enterprises-ipo-990285",
+          "headline": "Trilegal Advised Runwal Enterprises On INR 5,000 Million IPO",
+          "rules": [
+            "headline-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-hogan-lovells-cadwalader-act-on-dosti-realty-proposed-ipo",
+        "headline": "Trilegal, TT&A, Hogan Lovells Cadwalader act on Dosti Realty proposed IPO"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-dosti-realty-proposed-ipo-990150",
+          "headline": "Trilegal Advised Dosti Realty On Its Proposed IPO",
+          "rules": [
+            "headline-entities"
+          ]
+        }
+      ]
+    }
+  ],
+  "near_misses": [
+    {
+      "a": "CAM acts on ONGC - MOL joint venture",
+      "a_url": "https://www.barandbench.com/dealstreet/cam-acts-on-ongc-mol-joint-venture",
+      "b": "CAM acts on Adani Power - Druk Green Power Corp joint venture - Bar and Bench",
+      "b_url": "https://www.barandbench.com/dealstreet/cam-acts-on-adani-power-druk-green-power-corp-joint-venture",
+      "date_gap_days": null,
+      "head_sim": 0.6,
+      "lede_sim": 0.07,
+      "shared_rare": [
+        "joint"
+      ],
+      "a_only": [
+        "mol",
+        "ongc"
+      ],
+      "b_only": [
+        "adani",
+        "druk",
+        "green",
+        "power"
+      ],
+      "shared_people": 0,
+      "people_jaccard": 0.0,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "CAM, SAM, Trilegal act on Amagi Media Labs ₹1,788.62 crore IPO - Bar and Bench",
+      "a_url": "https://www.barandbench.com/dealstreet/cam-sam-trilegal-act-on-amagi-media-labs-178862-crore-ipo",
+      "b": "Zepto lines up CAM, SAM, Latham & Watkins for IPO push - Bar and Bench",
+      "b_url": "https://www.barandbench.com/dealstreet/cam-sam-act-on-zepto-proposed-ipo",
+      "date_gap_days": null,
+      "head_sim": 0.62,
+      "lede_sim": 0.02,
+      "shared_rare": [],
+      "a_only": [
+        "amagi",
+        "labs",
+        "media"
+      ],
+      "b_only": [
+        "lines",
+        "push",
+        "zepto"
+      ],
+      "shared_people": 1,
+      "people_jaccard": 0.03,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "CAM, S&R, Hogan Lovells act on Sudeep Pharma ₹895 crore IPO - BarandBench",
+      "a_url": "https://www.barandbench.com/dealstreet/cam-sr-associates-hogan-lovells-act-on-sudeep-pharma-895-crore-ipo",
+      "b": "CAM, AZB, Hogan Lovells act on Park Hospitals ₹920 crore IPO",
+      "b_url": "https://www.barandbench.com/dealstreet/cam-azb-hogan-lovells-act-on-park-hospitals-920-crore-ipo",
+      "date_gap_days": null,
+      "head_sim": 0.71,
+      "lede_sim": 0.1,
+      "shared_rare": [
+        "hogan",
+        "lovells"
+      ],
+      "a_only": [
+        "barandbench",
+        "pharma",
+        "sudeep"
+      ],
+      "b_only": [
+        "hospitals",
+        "park"
+      ],
+      "shared_people": 2,
+      "people_jaccard": 0.05,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "IC RegFin Legal, Rajani Associates, SAM act on NowPurchase fundraise",
+      "a_url": "https://www.barandbench.com/dealstreet/ic-regfin-legal-rajani-associates-sam-act-on-nowpurchase-fundraise",
+      "b": "Fox & Mandal, VERTICES PARTNERS, Shardul Amarchand Mangaldas act on Gnani.AI ...",
+      "b_url": "https://www.barandbench.com/dealstreet/fox-mandal-vertices-partners-shardul-amarchand-mangaldas-act-on-gnaniai-series-b-fundraise",
+      "date_gap_days": null,
+      "head_sim": 0.0,
+      "lede_sim": 0.44,
+      "shared_rare": [],
+      "a_only": [
+        "ic",
+        "nowpurchase",
+        "rajani",
+        "regfin"
+      ],
+      "b_only": [
+        "ai",
+        "fox",
+        "gnani",
+        "mandal",
+        "vertices"
+      ],
+      "shared_people": 3,
+      "people_jaccard": 0.16,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "IC RegFin Legal, SAM act on Nivaan Care Series A fundraise - BarandBench",
+      "a_url": "https://www.barandbench.com/dealstreet/ic-regfin-legal-sam-act-on-nivaan-care-series-a-fundraise",
+      "b": "IC RegFin Legal, Rajani Associates, SAM act on NowPurchase fundraise",
+      "b_url": "https://www.barandbench.com/dealstreet/ic-regfin-legal-rajani-associates-sam-act-on-nowpurchase-fundraise",
+      "date_gap_days": null,
+      "head_sim": 0.67,
+      "lede_sim": 0.24,
+      "shared_rare": [
+        "ic",
+        "regfin"
+      ],
+      "a_only": [
+        "barandbench",
+        "care",
+        "nivaan"
+      ],
+      "b_only": [
+        "nowpurchase",
+        "rajani"
+      ],
+      "shared_people": 0,
+      "people_jaccard": 0.0,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "JSA acts on Deccan AI $25 million Series A fundraise - Bar and Bench",
+      "a_url": "https://www.barandbench.com/dealstreet/jsa-acts-on-deccan-ai-25-million-series-a-fundraise",
+      "b": "JSA acts on Bacancy Systems Series A fundraise - Bar and Bench",
+      "b_url": "https://www.barandbench.com/dealstreet/jsa-acts-on-bacancy-systems-series-a-fundraise",
+      "date_gap_days": null,
+      "head_sim": 0.67,
+      "lede_sim": 0.09,
+      "shared_rare": [],
+      "a_only": [
+        "ai",
+        "deccan"
+      ],
+      "b_only": [
+        "bacancy",
+        "systems"
+      ],
+      "shared_people": 0,
+      "people_jaccard": 0.0,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "JSA advises Fairdeal.Market on $15 million Series A Fundraise - Bar and Bench",
+      "a_url": "https://www.barandbench.com/dealstreet/jsa-advises-fairdealmarket-on-15-million-series-a-fundraise",
+      "b": "JSA acts on Bacancy Systems Series A fundraise - Bar and Bench",
+      "b_url": "https://www.barandbench.com/dealstreet/jsa-acts-on-bacancy-systems-series-a-fundraise",
+      "date_gap_days": null,
+      "head_sim": 0.67,
+      "lede_sim": 0.08,
+      "shared_rare": [],
+      "a_only": [
+        "fairdeal",
+        "market"
+      ],
+      "b_only": [
+        "bacancy",
+        "systems"
+      ],
+      "shared_people": 0,
+      "people_jaccard": 0.0,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "JSA advises Ixigo on majority stake acquisition in Brevistay - Bar and Bench",
+      "a_url": "https://www.barandbench.com/dealstreet/jsa-advises-ixigo-on-majority-stake-acquisition-in-brevistay",
+      "b": "DMD Advocates advises Rabyte on majority stake acquisition by Hakuto - Bar and Bench",
+      "b_url": "https://www.barandbench.com/amp/story/dealstreet/dmd-advocates-advises-rabyte-on-majority-stake-acquisition-by-hakuto",
+      "date_gap_days": null,
+      "head_sim": 0.71,
+      "lede_sim": 0.05,
+      "shared_rare": [],
+      "a_only": [
+        "brevistay",
+        "ixigo"
+      ],
+      "b_only": [
+        "dmd",
+        "hakuto",
+        "rabyte"
+      ],
+      "shared_people": 0,
+      "people_jaccard": 0.0,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "JSA advises Manipal Hospitals on ₹495 crore hospital acquisition in Mumbai",
+      "a_url": "https://www.barandbench.com/dealstreet/jsa-advises-manipal-hospitals-on-495-crore-hospital-acquisition-in-mumbai",
+      "b": "JSA advises ASG Eye Hospital on ₹450 crore acquisition of Sharp Sight Eye Hospitals",
+      "b_url": "https://www.barandbench.com/dealstreet/jsa-advises-asg-eye-hospital-on-450-crore-acquisition-of-sharp-sight-eye-hospitals",
+      "date_gap_days": null,
+      "head_sim": 0.67,
+      "lede_sim": 0.1,
+      "shared_rare": [
+        "hospital",
+        "hospitals"
+      ],
+      "a_only": [
+        "manipal",
+        "mumbai"
+      ],
+      "b_only": [
+        "asg",
+        "eye",
+        "sharp",
+        "sight"
+      ],
+      "shared_people": 0,
+      "people_jaccard": 0.0,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "JSA, Khaitan act on Coforge's $2.35 billion acquisition of Encora - Bar and Bench",
+      "a_url": "https://www.barandbench.com/dealstreet/jsa-khaitan-act-on-coforges-235-billion-acquisition-of-encora",
+      "b": "JSA advises GeBBS Healthcare Solutions on acquisition of RND OptimizAR",
+      "b_url": "https://www.barandbench.com/dealstreet/jsa-advises-gebbs-healthcare-solutions-on-acquisition-of-rnd-optimizar",
+      "date_gap_days": null,
+      "head_sim": 0.17,
+      "lede_sim": 0.58,
+      "shared_rare": [],
+      "a_only": [
+        "coforge",
+        "encora"
+      ],
+      "b_only": [
+        "gebbs",
+        "healthcare",
+        "optimizar",
+        "rnd",
+        "solutions"
+      ],
+      "shared_people": 10,
+      "people_jaccard": 0.24,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "SAM advises Omega Hospitals majority stake acquisition in Cytecare Hospitals",
+      "a_url": "https://www.barandbench.com/dealstreet/sam-advises-omega-hospitals-majority-stake-acquisition-in-cytecare-hospitals",
+      "b": "SAM advises Anzen India on acquisition of majority stake in 12 Solar",
+      "b_url": "https://www.barandbench.com/dealstreet/sam-advises-anzen-india-on-acquisition-of-majority-stake-in-12-solar-portfolio-spvs",
+      "date_gap_days": null,
+      "head_sim": 0.67,
+      "lede_sim": 0.11,
+      "shared_rare": [],
+      "a_only": [
+        "cytecare",
+        "hospitals",
+        "omega"
+      ],
+      "b_only": [
+        "anzen",
+        "solar"
+      ],
+      "shared_people": 0,
+      "people_jaccard": 0.0,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "SAM advises Velora Hospitality to develop Marriott-branded hotel project in Goa",
+      "a_url": "https://www.barandbench.com/dealstreet/sam-advises-velora-hospitality-to-develop-marriott-branded-hotel-project-in-goa",
+      "b": "SAM advises Oriental Structural Engineers on divestment of Rajiv – Chowk (Sohna) Highway",
+      "b_url": "https://www.barandbench.com/dealstreet/sam-advises-oriental-structural-engineers-on-divestment-of-rajiv-chowk-sohna-highway",
+      "date_gap_days": null,
+      "head_sim": 0.11,
+      "lede_sim": 0.41,
+      "shared_rare": [],
+      "a_only": [
+        "branded",
+        "develop",
+        "goa",
+        "hospitality",
+        "hotel",
+        "marriott",
+        "project",
+        "velora"
+      ],
+      "b_only": [
+        "chowk",
+        "engineers",
+        "highway",
+        "oriental",
+        "rajiv",
+        "sohna",
+        "structural"
+      ],
+      "shared_people": 0,
+      "people_jaccard": 0.0,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "SAM, Phoenix Legal act on Seekho $28 million fundraise - Bar and Bench",
+      "a_url": "https://www.barandbench.com/dealstreet/sam-phoenix-legal-act-on-seekho-28-million-series-b-fundraise",
+      "b": "SAM advises Attentive.ai on $30.5 million Series B fundraise - Bar and Bench",
+      "b_url": "https://www.barandbench.com/dealstreet/sam-advises-attentiveai-on-their-305-million-series-b-fundraise",
+      "date_gap_days": null,
+      "head_sim": 0.71,
+      "lede_sim": 0.25,
+      "shared_rare": [],
+      "a_only": [
+        "phoenix",
+        "seekho"
+      ],
+      "b_only": [
+        "ai",
+        "attentive"
+      ],
+      "shared_people": 0,
+      "people_jaccard": 0.0,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Shardul Amarchand Mangaldas, Khaitan, Davis Polk act on Crystal Crop Protection's ...",
+      "a_url": "https://www.barandbench.com/dealstreet/shardul-amarchand-mangaldas-khaitan-davis-polk-act-on-crystal-crop-protections-2268-crore-acquisition-of-fmc-india",
+      "b": "SAM, CAM, Hogan Lovells act on Billdesk's acquisition of Worldline -",
+      "b_url": "https://www.barandbench.com/dealstreet/sam-cam-hogan-lovells-act-on-billdesks-acquisition-of-worldline",
+      "date_gap_days": null,
+      "head_sim": 0.0,
+      "lede_sim": 0.48,
+      "shared_rare": [],
+      "a_only": [
+        "crop",
+        "crystal",
+        "protection"
+      ],
+      "b_only": [
+        "billdesk",
+        "hogan",
+        "lovells",
+        "worldline"
+      ],
+      "shared_people": 3,
+      "people_jaccard": 0.04,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "S&R Associates, JSA act on Euro Pratik ₹451 crore IPO - Bar and Bench",
+      "a_url": "https://www.barandbench.com/dealstreet/sr-associates-jsa-act-on-euro-pratik-451-crore-ipo",
+      "b": "CAM, JSA act on Anantam Highways Trust ₹400 crore IPO - Bar and Bench",
+      "b_url": "https://www.barandbench.com/dealstreet/cam-jsa-act-on-anantam-highways-trust-400-crore-ipo",
+      "date_gap_days": null,
+      "head_sim": 0.67,
+      "lede_sim": 0.0,
+      "shared_rare": [],
+      "a_only": [
+        "euro",
+        "pratik"
+      ],
+      "b_only": [
+        "anantam",
+        "highways",
+        "trust"
+      ],
+      "shared_people": 2,
+      "people_jaccard": 0.08,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Trilegal acts on Chartered Speed ₹855 crore IPO - Bar and Bench",
+      "a_url": "https://www.barandbench.com/dealstreet/trilegal-acts-on-chartered-speed-855-crore-ipo",
+      "b": "Khaitan & Co, Trilegal act on Capillary Technologies ₹877 crore IPO - Bar and Bench",
+      "b_url": "https://www.barandbench.com/dealstreet/khaitan-co-trilegal-act-on-capillary-technologies-877-crore-ipo",
+      "date_gap_days": null,
+      "head_sim": 0.67,
+      "lede_sim": 0.03,
+      "shared_rare": [],
+      "a_only": [
+        "chartered",
+        "speed"
+      ],
+      "b_only": [
+        "capillary",
+        "technologies"
+      ],
+      "shared_people": 0,
+      "people_jaccard": 0.0,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Trilegal, DSK Legal act on Laser Power & Infra ₹742 crore IPO - Bar and Bench",
+      "a_url": "https://www.barandbench.com/dealstreet/trilegal-dsk-legal-act-on-laser-power-infra-742-crore-ipo",
+      "b": "Trilegal acts on Chartered Speed ₹855 crore IPO - Bar and Bench",
+      "b_url": "https://www.barandbench.com/dealstreet/trilegal-acts-on-chartered-speed-855-crore-ipo",
+      "date_gap_days": null,
+      "head_sim": 0.67,
+      "lede_sim": 0.16,
+      "shared_rare": [],
+      "a_only": [
+        "infra",
+        "laser",
+        "power"
+      ],
+      "b_only": [
+        "chartered",
+        "speed"
+      ],
+      "shared_people": 1,
+      "people_jaccard": 0.06,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Trilegal, JSA act on Atlanta Electricals ~₹687 crore IPO - Bar and Bench",
+      "a_url": "https://www.barandbench.com/dealstreet/trilegal-jsa-act-on-atlanta-electricals-687-crore-ipo",
+      "b": "Trilegal, DSK Legal act on Laser Power & Infra ₹742 crore IPO - Bar and Bench",
+      "b_url": "https://www.barandbench.com/dealstreet/trilegal-dsk-legal-act-on-laser-power-infra-742-crore-ipo",
+      "date_gap_days": null,
+      "head_sim": 0.67,
+      "lede_sim": 0.08,
+      "shared_rare": [],
+      "a_only": [
+        "atlanta",
+        "electricals"
+      ],
+      "b_only": [
+        "infra",
+        "laser",
+        "power"
+      ],
+      "shared_people": 0,
+      "people_jaccard": 0.0,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Trilegal, JSA act on Shivalaya Construction ₹450 crore+ IPO - Bar and Bench",
+      "a_url": "https://www.barandbench.com/dealstreet/trilegal-jsa-act-on-shivalaya-construction-450-crore-ipo",
+      "b": "CAM, JSA act on Anantam Highways Trust ₹400 crore IPO - Bar and Bench",
+      "b_url": "https://www.barandbench.com/dealstreet/cam-jsa-act-on-anantam-highways-trust-400-crore-ipo",
+      "date_gap_days": null,
+      "head_sim": 0.67,
+      "lede_sim": 0.03,
+      "shared_rare": [],
+      "a_only": [
+        "construction",
+        "shivalaya"
+      ],
+      "b_only": [
+        "anantam",
+        "highways",
+        "trust"
+      ],
+      "shared_people": 3,
+      "people_jaccard": 0.12,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Trilegal, JSA act on Shivalaya Construction ₹450 crore+ IPO - Bar and Bench",
+      "a_url": "https://www.barandbench.com/dealstreet/trilegal-jsa-act-on-shivalaya-construction-450-crore-ipo",
+      "b": "S&R Associates, JSA act on Euro Pratik ₹451 crore IPO - Bar and Bench",
+      "b_url": "https://www.barandbench.com/dealstreet/sr-associates-jsa-act-on-euro-pratik-451-crore-ipo",
+      "date_gap_days": null,
+      "head_sim": 0.67,
+      "lede_sim": 0.0,
+      "shared_rare": [],
+      "a_only": [
+        "construction",
+        "shivalaya"
+      ],
+      "b_only": [
+        "euro",
+        "pratik"
+      ],
+      "shared_people": 2,
+      "people_jaccard": 0.08,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Trilegal, JSA act on Shivalaya Construction ₹450 crore+ IPO - Bar and Bench",
+      "a_url": "https://www.barandbench.com/dealstreet/trilegal-jsa-act-on-shivalaya-construction-450-crore-ipo",
+      "b": "Trilegal acts on GSP Crop Science ₹400 crore IPO - Bar and Bench",
+      "b_url": "https://www.barandbench.com/dealstreet/trilegal-acts-on-gsp-crop-science-400-crore-ipo",
+      "date_gap_days": null,
+      "head_sim": 0.67,
+      "lede_sim": 0.03,
+      "shared_rare": [],
+      "a_only": [
+        "construction",
+        "shivalaya"
+      ],
+      "b_only": [
+        "crop",
+        "gsp",
+        "science"
+      ],
+      "shared_people": 0,
+      "people_jaccard": 0.0,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Trilegal, JSA act on Shivalaya Construction ₹450 crore+ IPO - Bar and Bench",
+      "a_url": "https://www.barandbench.com/dealstreet/trilegal-jsa-act-on-shivalaya-construction-450-crore-ipo",
+      "b": "Trilegal, CMS INDUSLAW act on EMI Metals ₹500 crore+ proposed IPO - Bar and Bench",
+      "b_url": "https://www.barandbench.com/dealstreet/trilegal-cms-induslaw-act-on-emi-metals-500-crore-proposed-ipo",
+      "date_gap_days": null,
+      "head_sim": 0.67,
+      "lede_sim": 0.09,
+      "shared_rare": [],
+      "a_only": [
+        "construction",
+        "shivalaya"
+      ],
+      "b_only": [
+        "cms",
+        "emi",
+        "induslaw",
+        "metals"
+      ],
+      "shared_people": 2,
+      "people_jaccard": 0.08,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Trilegal, JSA, Hogan Lovells act on Studds ₹455 crore IPO - Bar and Bench",
+      "a_url": "https://www.barandbench.com/dealstreet/trilegal-jsa-hogan-lovells-act-on-studds-455-crore-ipo",
+      "b": "S&R Associates, JSA act on Euro Pratik ₹451 crore IPO - Bar and Bench",
+      "b_url": "https://www.barandbench.com/dealstreet/sr-associates-jsa-act-on-euro-pratik-451-crore-ipo",
+      "date_gap_days": null,
+      "head_sim": 0.67,
+      "lede_sim": 0.16,
+      "shared_rare": [],
+      "a_only": [
+        "hogan",
+        "lovells",
+        "studds"
+      ],
+      "b_only": [
+        "euro",
+        "pratik"
+      ],
+      "shared_people": 0,
+      "people_jaccard": 0.0,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Trilegal, JSA, Hogan Lovells act on Studds ₹455 crore IPO - Bar and Bench",
+      "a_url": "https://www.barandbench.com/dealstreet/trilegal-jsa-hogan-lovells-act-on-studds-455-crore-ipo",
+      "b": "Trilegal, JSA act on Shivalaya Construction ₹450 crore+ IPO - Bar and Bench",
+      "b_url": "https://www.barandbench.com/dealstreet/trilegal-jsa-act-on-shivalaya-construction-450-crore-ipo",
+      "date_gap_days": null,
+      "head_sim": 0.67,
+      "lede_sim": 0.0,
+      "shared_rare": [],
+      "a_only": [
+        "hogan",
+        "lovells",
+        "studds"
+      ],
+      "b_only": [
+        "construction",
+        "shivalaya"
+      ],
+      "shared_people": 2,
+      "people_jaccard": 0.07,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Trilegal, Khaitan act on INDO-MIM ₹1,000 crore+ proposed IPO - Bar and Bench",
+      "a_url": "https://www.barandbench.com/dealstreet/trilegal-khaitan-act-on-indo-mim-1000-crore-proposed-ipo",
+      "b": "Khaitan & Co, Trilegal act on Capillary Technologies ₹877 crore IPO - Bar and Bench",
+      "b_url": "https://www.barandbench.com/dealstreet/khaitan-co-trilegal-act-on-capillary-technologies-877-crore-ipo",
+      "date_gap_days": null,
+      "head_sim": 0.67,
+      "lede_sim": 0.03,
+      "shared_rare": [],
+      "a_only": [
+        "indo",
+        "mim"
+      ],
+      "b_only": [
+        "capillary",
+        "technologies"
+      ],
+      "shared_people": 0,
+      "people_jaccard": 0.0,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Trilegal, Khaitan act on INDO-MIM ₹1,000 crore+ proposed IPO - Bar and Bench",
+      "a_url": "https://www.barandbench.com/dealstreet/trilegal-khaitan-act-on-indo-mim-1000-crore-proposed-ipo",
+      "b": "Trilegal acts on Chartered Speed ₹855 crore IPO - Bar and Bench",
+      "b_url": "https://www.barandbench.com/dealstreet/trilegal-acts-on-chartered-speed-855-crore-ipo",
+      "date_gap_days": null,
+      "head_sim": 0.67,
+      "lede_sim": 0.23,
+      "shared_rare": [],
+      "a_only": [
+        "indo",
+        "mim"
+      ],
+      "b_only": [
+        "chartered",
+        "speed"
+      ],
+      "shared_people": 0,
+      "people_jaccard": 0.0,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "VERTICES PARTNERS, SAM act on GreyLabs Series A fundraise",
+      "a_url": "https://www.barandbench.com/dealstreet/vertices-partners-sam-act-on-greylabs-series-a-fundraise",
+      "b": "IC RegFin Legal, SAM act on Nivaan Care Series A fundraise - BarandBench",
+      "b_url": "https://www.barandbench.com/dealstreet/ic-regfin-legal-sam-act-on-nivaan-care-series-a-fundraise",
+      "date_gap_days": null,
+      "head_sim": 0.6,
+      "lede_sim": 0.06,
+      "shared_rare": [],
+      "a_only": [
+        "greylabs",
+        "vertices"
+      ],
+      "b_only": [
+        "barandbench",
+        "care",
+        "ic",
+        "nivaan",
+        "regfin"
+      ],
+      "shared_people": 0,
+      "people_jaccard": 0.0,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Khaitan & Co, TT&A, JSA act on Nobel Hygiene ₹150 crore+ proposed IPO",
+      "a_url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-jsa-act-on-nobel-hygiene-150-crore-proposed-ipo",
+      "b": "CAM, Trilegal, TT&A, Hogan Lovells act on Rentomojo proposed ₹150 crore+ IPO",
+      "b_url": "https://www.barandbench.com/dealstreet/cam-trilegal-tta-hogan-lovells-act-on-rentomojo-proposed-150-crore-ipo",
+      "date_gap_days": null,
+      "head_sim": 0.67,
+      "lede_sim": 0.03,
+      "shared_rare": [],
+      "a_only": [
+        "hygiene",
+        "nobel"
+      ],
+      "b_only": [
+        "hogan",
+        "lovells",
+        "rentomojo"
+      ],
+      "shared_people": 1,
+      "people_jaccard": 0.02,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Rajani Associates acts on Shanti Inorganics IPO",
+      "a_url": "https://www.barandbench.com/law-firms/dealstreet/rajani-associates-acts-on-shanti-inorganics-ipo",
+      "b": "Rajani Associates acts on Silver Storm Parks IPO",
+      "b_url": "https://www.barandbench.com/dealstreet/rajani-associates-acts-on-silver-storm-parks-ipo",
+      "date_gap_days": null,
+      "head_sim": 0.33,
+      "lede_sim": 0.57,
+      "shared_rare": [],
+      "a_only": [
+        "inorganics",
+        "shanti"
+      ],
+      "b_only": [
+        "parks",
+        "silver",
+        "storm"
+      ],
+      "shared_people": 2,
+      "people_jaccard": 0.4,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Trilegal, TT&A, Hogan Lovells Cadwalader act on Dosti Realty proposed IPO",
+      "a_url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-hogan-lovells-cadwalader-act-on-dosti-realty-proposed-ipo",
+      "b": "CAM, Trilegal, TT&A, Hogan Lovells act on Rentomojo proposed ₹150 crore+ IPO",
+      "b_url": "https://www.barandbench.com/dealstreet/cam-trilegal-tta-hogan-lovells-act-on-rentomojo-proposed-150-crore-ipo",
+      "date_gap_days": null,
+      "head_sim": 0.6,
+      "lede_sim": 0.04,
+      "shared_rare": [],
+      "a_only": [
+        "dosti",
+        "realty"
+      ],
+      "b_only": [
+        "hogan",
+        "lovells",
+        "rentomojo"
+      ],
+      "shared_people": 3,
+      "people_jaccard": 0.09,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Trilegal, TT&A, Hogan Lovells Cadwalader act on Dosti Realty proposed IPO",
+      "a_url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-hogan-lovells-cadwalader-act-on-dosti-realty-proposed-ipo",
+      "b": "Trilegal, Verist Law, TT&A, Hogan Lovells act on Marri Retail ₹522 crore+ proposed IPO",
+      "b_url": "https://www.barandbench.com/dealstreet/trilegal-verist-law-tta-hogan-lovells-act-on-marri-retail-522-crore-proposed-ipo",
+      "date_gap_days": null,
+      "head_sim": 0.6,
+      "lede_sim": 0.04,
+      "shared_rare": [],
+      "a_only": [
+        "dosti",
+        "realty"
+      ],
+      "b_only": [
+        "hogan",
+        "lovells",
+        "marri",
+        "retail",
+        "verist"
+      ],
+      "shared_people": 1,
+      "people_jaccard": 0.03,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Trilegal, TT&A, Hogan Lovells Cadwalader act on Dosti Realty proposed IPO",
+      "a_url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-hogan-lovells-cadwalader-act-on-dosti-realty-proposed-ipo",
+      "b": "Cyril Amarchand Mangaldas, TT&A, Trilegal act on Aragen Life Sciences ₹800 crore+ proposed IPO",
+      "b_url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-tta-trilegal-act-on-aragen-life-sciences-800-crore-proposed-ipo",
+      "date_gap_days": null,
+      "head_sim": 0.6,
+      "lede_sim": 0.11,
+      "shared_rare": [],
+      "a_only": [
+        "dosti",
+        "realty"
+      ],
+      "b_only": [
+        "aragen",
+        "life",
+        "sciences"
+      ],
+      "shared_people": 4,
+      "people_jaccard": 0.15,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Trilegal, TT&A, Hogan Lovells Cadwalader act on Dosti Realty proposed IPO",
+      "a_url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-hogan-lovells-cadwalader-act-on-dosti-realty-proposed-ipo",
+      "b": "Khaitan & Co, TT&A, JSA act on Nobel Hygiene ₹150 crore+ proposed IPO",
+      "b_url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-jsa-act-on-nobel-hygiene-150-crore-proposed-ipo",
+      "date_gap_days": null,
+      "head_sim": 0.6,
+      "lede_sim": 0.08,
+      "shared_rare": [],
+      "a_only": [
+        "dosti",
+        "realty"
+      ],
+      "b_only": [
+        "hygiene",
+        "nobel"
+      ],
+      "shared_people": 2,
+      "people_jaccard": 0.06,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Khaitan & Co Advised Brookfield Asset Management On Acquisition Of Eight Warehousing Assets From ESR...",
+      "a_url": "https://www.legaleraonline.com/deal-street/khaitan-co-advised-brookfield-acquisition-esr-warehousing-assets-990500",
+      "b": "Khaitan & Co advises Logicap on acquisition of warehousing assets from Xander",
+      "b_url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-logicap-on-acquisition-of-warehousing-assets-from-xander",
+      "date_gap_days": null,
+      "head_sim": 0.6,
+      "lede_sim": 0.01,
+      "shared_rare": [
+        "assets",
+        "warehousing"
+      ],
+      "a_only": [
+        "asset",
+        "brookfield",
+        "eight",
+        "esr",
+        "management"
+      ],
+      "b_only": [
+        "logicap",
+        "xander"
+      ],
+      "shared_people": 2,
+      "people_jaccard": 0.04,
+      "veto": "entity-clash"
+    }
+  ]
+}

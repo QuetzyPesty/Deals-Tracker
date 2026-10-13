@@ -22,12 +22,21 @@ test('sorting by largest deal puts the biggest first and the unreported last', a
   await page.selectOption('#sortSelect', 'largest');
   const cells = page.locator('.deal-count');
   await expect(cells.first()).toContainText('₹');
-  // Descending, with the unreported tail excluded from the comparison.
-  const values = await page.evaluate(() =>
-    [...document.querySelectorAll('.deal-count')]
-      .map(e => e.innerText)
-      .filter(t => t.includes('₹'))
-      .map(t => Number(t.replace(/[^\d]/g, ''))));
+  // Descending, with the unreported tail excluded from the comparison. Cells
+  // are parsed to a rupee number (decimals and the crore/lakh/million/billion
+  // unit included): comparing the digits alone reads "₹2,390.5 crore" as 23905
+  // and "INR 10,000 Million" as larger than the equal "₹1,000 crore". Cells in
+  // other currencies are skipped; a subsequence of a sorted list is sorted.
+  const values = await page.evaluate(() => {
+    const UNIT = { crore: 1e7, cr: 1e7, lakh: 1e5, lac: 1e5, million: 1e6, mn: 1e6, billion: 1e9, bn: 1e9 };
+    const parse = (t) => {
+      const m = t.match(/(?:₹|INR|Rs\.?)\s?([\d,]+(?:\.\d+)?)\s*(crore|cr|lakh|lac|million|mn|billion|bn)?/i);
+      return m ? Number(m[1].replace(/,/g, '')) * (UNIT[(m[2] || '').toLowerCase()] || 1) : null;
+    };
+    return [...document.querySelectorAll('.deal-count')]
+      .map(e => parse(e.innerText))
+      .filter(v => v !== null);
+  });
   expect(values.length).toBeGreaterThan(10);
   const sorted = [...values].sort((a, b) => b - a);
   expect(values).toEqual(sorted);
@@ -202,4 +211,42 @@ test('profile shows largest and total reported deal chips, and never zero for un
   expect(r.withV).toMatch(/unreported/);
   expect(r.noV).toContain('Not reported');
   expect(r.noV).not.toMatch(/₹\s*0/);
+});
+
+test('a deal carried by several outlets lists the other outlets, each as an outbound link', async ({ page }) => {
+  const errors = [];
+  page.on('pageerror', e => errors.push(String(e)));
+  await page.goto('/index.html');
+  const r = await page.evaluate(() => {
+    const p = PEOPLE.find(x => x.deals.some(d => d.also_reported_by && d.also_reported_by.length));
+    const d = p.deals.find(x => x.also_reported_by && x.also_reported_by.length);
+    state.selectedId = p.id;
+    renderDetail();
+    const card = [...document.querySelectorAll('.deal-card')]
+      .find(c => c.querySelector('a').getAttribute('href') === d.url);
+    const links = [...card.querySelectorAll('.meta a.also')];
+    return {
+      expected: d.also_reported_by.map(o => o.url),
+      hrefs: links.map(a => a.getAttribute('href')),
+      targets: links.map(a => a.getAttribute('target')),
+      rels: links.map(a => a.getAttribute('rel')),
+      meta: card.querySelector('.meta').innerText,
+    };
+  });
+  expect(r.meta).toContain('also:');
+  expect(r.hrefs).toEqual(r.expected);
+  expect(r.targets.every(t => t === '_blank')).toBe(true);
+  expect(r.rels.every(x => /noopener/.test(x))).toBe(true);
+  expect(errors).toEqual([]);
+});
+
+test('a single-outlet deal shows no "also:" label', async ({ page }) => {
+  await page.goto('/index.html');
+  const meta = await page.evaluate(() => {
+    const p = PEOPLE.find(x => x.deals.length && x.deals.every(d => !d.also_reported_by));
+    state.selectedId = p.id;
+    renderDetail();
+    return document.querySelector('.deal-card .meta').innerText;
+  });
+  expect(meta).not.toContain('also:');
 });

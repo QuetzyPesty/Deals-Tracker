@@ -373,6 +373,7 @@
   .deal-card a{ color:var(--on-surface); text-decoration:none; font-weight:600; font-size:13px; line-height:1.4; }
   .deal-card a:hover{ text-decoration:underline; }
   .deal-card .meta{ font-size:11.5px; color:var(--on-surface-var); margin-top:5px; }
+  .deal-card .meta a.also{ color:inherit; font-weight:400; text-decoration:underline; }
   .deal-card .txn-chips{ display:flex; gap:5px; margin-top:6px; flex-wrap:wrap; }
   /* The reported size of the transaction. A fact about the deal, not a score
      for the lawyer, so it stays quiet rather than becoming a headline number. */
@@ -1108,7 +1109,10 @@ function renderDetail(){
       ${v && v.raw ? `<div class="deal-size"${v.amount_inr && v.currency !== 'INR'
         ? ` title="≈ ${escAttr(fmtInr(v.amount_inr))} at a fixed reference rate — shown for ranking only"` : ''}>${
         v.approx ? '~' : ''}${esc(v.raw)}</div>` : ''}
-      <div class="meta">${d.client? esc(d.client)+' · ' : ''}${esc(d.source||'')}</div>
+      <div class="meta">${d.client? esc(d.client)+' · ' : ''}${esc(d.source||'')}${
+        d.also_reported_by && d.also_reported_by.length
+          ? ' · also: ' + d.also_reported_by.map(o=>`<a class="also" href="${escAttr(o.url||'#')}" target="_blank" rel="noopener">${esc(o.source||'link')}</a>`).join(', ')
+          : ''}</div>
       <div class="txn-chips">${d.types.map(t=>`<span class="txn-tag">${esc(t)}</span>`).join('')}</div>
     </div>`;
   });
