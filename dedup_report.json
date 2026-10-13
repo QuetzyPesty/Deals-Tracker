@@ -1,7 +1,7 @@
 {
-  "input_records": 724,
-  "output_records": 692,
-  "removed_duplicates": 32,
+  "input_records": 727,
+  "output_records": 694,
+  "removed_duplicates": 33,
   "merges_by_rule": {
     "same-url": 1,
     "headline-entities": 14,
@@ -9,7 +9,7 @@
     "nested-same-type": 6,
     "same-headline": 1,
     "same-team-and-entities": 2,
-    "same-core-headline": 2,
+    "same-core-headline": 3,
     "same-entities-different-counsel": 1,
     "nested-entities": 1
   },
@@ -417,6 +417,23 @@
           "headline": "Trilegal acts on LCC Projects ₹427 crore IPO",
           "rules": [
             "same-team-and-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-macnica-inc-on-acquisition-of-elektronika-sales",
+        "headline": "Trilegal advises Macnica Inc. on acquisition of Elektronika Sales"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-macnica-acquisition-elektronika-sales-990467",
+          "headline": "Trilegal Advised Macnica Inc. On The Acquisition Of Elektronika Sales",
+          "rules": [
+            "same-core-headline"
           ]
         }
       ]

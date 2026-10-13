@@ -18235,5 +18235,113 @@
         "firm": "Legacy Law Offices"
       }
     ]
+  },
+  {
+    "headline": "Shardul Amarchand Mangaldas assists Tata Capital on sanctioning ₹540 crore to Jayaswal Neco Industries",
+    "client": "Tata Capital",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-assists-tata-capital-on-sanctioning-540-crore-to-jayaswal-neco-industries",
+    "snippet": "Tata Capital Limited has sanctioned a ₹540 crore secured rupee term loan facility to Jayaswal Neco Industries Limited. Shardul Amarchand Mangaldas & Co advised Tata Capital on this financing transaction. The transaction team consisted of Veena Sivaramakrishnan (Partner), Dhananjai Charan (Partner), Yash Kahandole (Principal Associate) and Shruti Mishra (Associate). The financing will support the construction, development and commissioning of Jayaswal Neco Industries’ proposed 1.50 million tonnes",
+    "law_firms": [
+      "Shardul Amarchand Mangaldas & Co"
+    ],
+    "transaction_types": [],
+    "deal_value": {
+      "raw": "₹540 crore",
+      "currency": "INR",
+      "amount": 5400000000,
+      "amount_inr": 5400000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Veena Sivaramakrishnan",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Dhananjai Charan",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Yash Kahandole",
+        "role": "Principal Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Shruti Mishra",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      }
+    ]
+  },
+  {
+    "headline": "Trilegal advises Macnica Inc. on acquisition of Elektronika Sales",
+    "client": "Macnica Inc.",
+    "source": "Bar & Bench",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-macnica-inc-on-acquisition-of-elektronika-sales",
+    "snippet": "Macnica, Inc. has acquired Elektronika Sales Private Limited. Trilegal advised Macnica, Inc. on this acquisition. The Firm's role included undertaking legal due diligence, and drafting, negotiation and finalisation of the transaction documents. The Corporate team advising on this matter was led by Charandeep Kaur (Partner) and Tejas Adiga (Partner), with suppoer from Shivesh Aggarwal (Counsel), Ramanpreet Singh (Senior Associate), Nikita Rajesh (Senior Associate), Associates Aadira Menon, Yash G",
+    "law_firms": [
+      "Trilegal"
+    ],
+    "transaction_types": [
+      "acquisition"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Charandeep Kaur",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Tejas Adiga",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Shivesh Aggarwal",
+        "role": "Counsel",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Ramanpreet Singh",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Nikita Rajesh",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Aadira Menon",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Yash Gupta",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Anshita Arora",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Gautam Chawla",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Madhav Kapoor",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      }
+    ]
   }
 ]

@@ -2070,5 +2070,75 @@
       "fx_asof": null,
       "source": "headline"
     }
+  },
+  {
+    "headline": "Dua Associates Advises Piramal Finance Limited In Its Financing Of Nimbus Projects Limited",
+    "client": "Piramal Finance Limited",
+    "source": "LiveLaw",
+    "source_id": "livelaw",
+    "url": "https://www.livelaw.in/law-firms/deals/dua-associates-advises-piramal-finance-limited-financing-nimbus-projects-limited-540825",
+    "snippet": "Dua Associates advised Piramal Finance Limited in connection with financing extended to (i) Nimbus Projects Limited and (ii) IITL-Nimbus The Palm Village for the development of the residential group housing project, Nimbus-The Palm Village, located in the Yamuna Expressway Industrial Development Area. The financing comprised facilities aggregating ₹250 crore, including ₹200 crore extended to Nimbus Projects Limited and ₹50 crore to IITL-Nimbus The Palm Village. The firm's mandate included conduc",
+    "law_firms": [
+      "Dua Associates is a full-service Indian law firm with offices across multiple cities. The firm"
+    ],
+    "transaction_types": [
+      "financing"
+    ],
+    "people": [
+      {
+        "name": "Prateek Bedi",
+        "role": "Partner",
+        "firm": "Dua Associates is a full-service Indian law firm with offices across multiple cities. The firm"
+      },
+      {
+        "name": "Angad Varma",
+        "role": "Partner",
+        "firm": "Dua Associates is a full-service Indian law firm with offices across multiple cities. The firm"
+      },
+      {
+        "name": "Nityashjit Kaur",
+        "role": "Partner",
+        "firm": "Dua Associates is a full-service Indian law firm with offices across multiple cities. The firm"
+      },
+      {
+        "name": "Bhaskar Mishra",
+        "role": "Partner",
+        "firm": "Dua Associates is a full-service Indian law firm with offices across multiple cities. The firm"
+      },
+      {
+        "name": "Toyesh Tiwari",
+        "role": "Partner",
+        "firm": "Dua Associates is a full-service Indian law firm with offices across multiple cities. The firm"
+      },
+      {
+        "name": "Rishabh Halwai",
+        "role": "Principal Associate",
+        "firm": "Dua Associates is a full-service Indian law firm with offices across multiple cities. The firm"
+      },
+      {
+        "name": "Anukriti Prakash",
+        "role": "Senior Associate",
+        "firm": "Dua Associates is a full-service Indian law firm with offices across multiple cities. The firm"
+      }
+    ],
+    "published_at": "2026-07-11T17:16:34+05:30",
+    "keywords": [
+      "Dua Associates",
+      "Piramal Finance",
+      "Nimbus Projects",
+      "₹250 crore financing",
+      "Yamuna Expressway",
+      "real estate",
+      "deal advisory"
+    ],
+    "deal_value": {
+      "raw": "₹250 crore",
+      "currency": "INR",
+      "amount": 2500000000,
+      "amount_inr": 2500000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "body"
+    }
   }
 ]
