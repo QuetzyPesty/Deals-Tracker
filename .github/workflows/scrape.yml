@@ -37,6 +37,13 @@ jobs:
         continue-on-error: true
         run: python scraper/scrape_livelaw.py --pages 2 --max-new 40
 
+      # Merger-control filings: an enrichment source, so a failure here must
+      # never block the deal scrape (the scraper keeps the stored file on any
+      # error, 403 or layout change).
+      - name: Scrape CCI filings
+        continue-on-error: true
+        run: python scraper/scrape_cci.py
+
       # Fail before committing if extraction or de-duplication regressed, so a
       # bad parser change cannot overwrite good data on main.
       - name: Offline tests
@@ -44,6 +51,8 @@ jobs:
           python tests/test_firm_extraction.py
           python tests/test_dedup.py
           python tests/test_sources.py
+          python tests/test_dates.py
+          python tests/test_cci.py
 
       - name: Rebuild directory DB + JSON
         run: python build_directory.py
@@ -58,7 +67,7 @@ jobs:
           git add barandbench_deals.json scraper/seen_urls.json \
                   legalera_deals.json scraper/seen_legalera.json \
                   livelaw_deals.json scraper/seen_livelaw.json \
-                  dedup_report.json \
+                  dedup_report.json cci_filings.json cci_report.json deal_dates.json \
                   legal_directory.db legal_directory.json index.html
           git diff --staged --quiet || git commit -m "Scrape: $(date -u +%Y-%m-%d)"
           git push

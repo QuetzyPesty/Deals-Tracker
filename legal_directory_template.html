@@ -226,7 +226,8 @@
      their thumbs take it. */
   /* Per-person deal-size chips. Reported figures only: "not reported" is muted,
      never shown as zero. */
-  .size-chips{ display:flex; flex-wrap:wrap; gap:8px; margin:12px 0 0; }
+  .size-chips, .last-deal-chips{ display:flex; flex-wrap:wrap; gap:8px; margin:12px 0 0; }
+  .last-deal-chips + .size-chips{ margin-top:8px; }
   .size-chip{ display:flex; flex-direction:column; gap:1px; padding:6px 12px; border-radius:14px;
     background:var(--surface-2, rgba(127,127,127,.12)); font-size:11px; color:var(--on-surface-var); }
   .size-chip b{ font-size:14px; color:var(--on-surface); font-weight:700; }
@@ -373,6 +374,10 @@
   .deal-card a{ color:var(--on-surface); text-decoration:none; font-weight:600; font-size:13px; line-height:1.4; }
   .deal-card a:hover{ text-decoration:underline; }
   .deal-card .meta{ font-size:11.5px; color:var(--on-surface-var); margin-top:5px; }
+  .deal-card .cci-line{ margin-top:6px; }
+  .deal-card .cci-badge{ display:inline-block; font-size:11px; padding:2px 8px; border-radius:10px;
+    background:var(--surface-2, rgba(127,127,127,.12)); color:var(--on-surface); text-decoration:none; font-weight:500; }
+  .deal-card a.cci-badge:hover{ text-decoration:underline; }
   .deal-card .meta a.also{ color:inherit; font-weight:400; text-decoration:underline; }
   .deal-card .txn-chips{ display:flex; gap:5px; margin-top:6px; flex-wrap:wrap; }
   /* The reported size of the transaction. A fact about the deal, not a score
@@ -514,11 +519,12 @@ let state = {
   practiceFilters: new Set(),
   sizeLo: 0,               // index into SIZE_STOPS_CR; 0 = no lower bound
   sizeHi: null,            // index into SIZE_STOPS_CR; null = no upper bound (set below)
+  recencyDays: 0,          // 0 = any date; else only people with a deal reported within this many days
   expandedFirms: new Set(),
   collapsedSections: new Set(), // filter category headers folded shut: 'practice' | 'role' | 'txn'
   collapsedFirmGroups: new Set(), // firm headings folded shut in the "By firm" main view
   selectedId: null,
-  sortBy: 'deals', // 'deals' | 'name' | 'firm' | 'largest' | 'total' -- ignored
+  sortBy: 'deals', // 'deals' | 'name' | 'firm' | 'largest' | 'total' | 'recent' -- ignored
                    // while a search query is active (relevance wins then)
 };
 
@@ -573,6 +579,41 @@ PEOPLE.forEach(p => p.deals.forEach(d => { if(dealValue(d)) VALUED_DEALS.add(d.u
 const SIZE_STOPS_CR = [0, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, Infinity];
 const SIZE_MAX_IDX = SIZE_STOPS_CR.length - 1;
 state.sizeHi = SIZE_MAX_IDX;
+// ---- recency ------------------------------------------------------------------
+// "Date reported" is the earliest publication date among the outlets that
+// carried the deal (build_directory merges duplicates and keeps the earliest).
+// It is when the market was TOLD, not when the deal closed. A deal with no
+// date is unknown, not old: it never passes a recency filter and sorts last,
+// the same way an unreported size is treated.
+const RECENCY_OPTIONS = [[0,'Any time'],[30,'Last 30 days'],[90,'Last 90 days'],[365,'Last year']];
+function dealDate(d){ return d && d.published_at ? String(d.published_at).slice(0,10) : null; }
+function lastDealDate(p){
+  let best = null;
+  for(const d of p.deals){ const t = dealDate(d); if(t && (best === null || t > best)) best = t; }
+  return best;
+}
+function daysSince(isoDate){
+  if(!isoDate) return null;
+  const then = Date.parse(isoDate + 'T00:00:00Z');
+  if(Number.isNaN(then)) return null;
+  const now = new Date();
+  const today = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+  return Math.floor((today - then) / 86400000);
+}
+function fmtDate(isoDate){
+  if(!isoDate) return '';
+  const d = new Date(isoDate + 'T00:00:00Z');
+  if(Number.isNaN(d.getTime())) return '';
+  return d.toLocaleDateString('en-GB', {day:'numeric', month:'short', year:'numeric', timeZone:'UTC'});
+}
+function recencyFilterActive(){ return state.recencyDays > 0; }
+function matchesRecency(p){
+  if(!recencyFilterActive()) return true;
+  return p.deals.some(d => { const n = daysSince(dealDate(d)); return n !== null && n <= state.recencyDays; });
+}
+const DATED_DEALS = new Set();
+PEOPLE.forEach(p => p.deals.forEach(d => { if(dealDate(d)) DATED_DEALS.add(d.url || d.headline); }));
+
 function sizeFilterActive(){ return state.sizeLo > 0 || state.sizeHi < SIZE_MAX_IDX; }
 // A person passes when at least ONE of their deals has a reported size inside
 // the range. An unreported deal never passes -- it is unknown, not small, so it
@@ -598,12 +639,12 @@ function sizeReadout(){
 }
 
 document.getElementById('stats').textContent =
-  `${DATA.stats.people} people · ${DATA.stats.firms} firms · ${DATA.stats.practice_areas} practice areas · ${DATA.stats.deals} deals tracked · ${VALUED_DEALS.size} with a reported size`;
+  `${DATA.stats.people} people · ${DATA.stats.firms} firms · ${DATA.stats.practice_areas} practice areas · ${DATA.stats.deals} deals tracked · ${VALUED_DEALS.size} with a reported size · ${DATED_DEALS.size} with a reported date`;
 
 function activeFilterCount(){
   return (state.firmFilter?1:0) + (state.practiceFilterSet?1:0) +
     state.roleFilters.size + state.txnFilters.size + state.practiceFilters.size +
-    (state.query?1:0) + (sizeFilterActive()?1:0);
+    (state.query?1:0) + (sizeFilterActive()?1:0) + (recencyFilterActive()?1:0);
 }
 
 function clearAllFilters(){
@@ -613,6 +654,7 @@ function clearAllFilters(){
   state.txnFilters = new Set();
   state.practiceFilters = new Set();
   state.sizeLo = 0; state.sizeHi = SIZE_MAX_IDX;
+  state.recencyDays = 0;
   state.query = '';
   document.getElementById('search').value = '';
   if(typeof updateSearchClearBtn === 'function') updateSearchClearBtn();
@@ -635,6 +677,7 @@ function matchesFilters(p){
   if(state.txnFilters.size && ![...state.txnFilters].some(t=>p.transaction_types.includes(t))) return false;
   if(state.practiceFilters.size && ![...state.practiceFilters].some(a=>p.practice_areas.includes(a))) return false;
   if(!matchesSize(p)) return false;
+  if(!matchesRecency(p)) return false;
   if(!matchesQuery(p, state.query.toLowerCase())) return false;
   return true;
 }
@@ -653,6 +696,7 @@ function countsExcluding(exclude){
     if(exclude!=='txn' && state.txnFilters.size && ![...state.txnFilters].some(t=>p.transaction_types.includes(t))) return false;
     if(exclude!=='practice' && state.practiceFilters.size && ![...state.practiceFilters].some(a=>p.practice_areas.includes(a))) return false;
     if(exclude!=='size' && !matchesSize(p)) return false;
+    if(exclude!=='recency' && !matchesRecency(p)) return false;
     if(exclude!=='query' && !matchesQuery(p, state.query.toLowerCase())) return false;
     return true;
   };
@@ -694,6 +738,18 @@ function sortPeople(list){
   // the same as the partner who led it. Both are offered rather than one being
   // picked for the reader. People with no reported figure keep their relative
   // order and sit after everyone who has one.
+  // Most recent deal: by the newest date any of the person's deals was
+  // reported. People with no dated deal keep their relative order after
+  // everyone who has one.
+  if(state.sortBy === 'recent'){
+    return list.slice().sort((a,b)=>{
+      const da = lastDealDate(a), db = lastDealDate(b);
+      if(da === null && db === null) return b.deals.length - a.deals.length;
+      if(da === null) return 1;
+      if(db === null) return -1;
+      return db.localeCompare(da) || b.deals.length - a.deals.length;
+    });
+  }
   if(state.sortBy === 'largest' || state.sortBy === 'total'){
     const of = state.sortBy === 'largest' ? largestDeal : totalDealValue;
     return list.slice().sort((a,b)=>{
@@ -747,6 +803,24 @@ function renderRail(){
         <div class="size-ticks">${[[0,'Any'],[4,'₹100 cr'],[7,'₹1,000 cr'],[10,'₹10,000 cr']].map(([i,t])=>`<span style="left:${i/span*100}%">${t}</span>`).join('')}</div>
         <p class="size-note">Matches people on a deal with a reported size in this range. ${VALUED_DEALS.size} of ${DATA.stats.deals} deals report a figure; unreported deals are left out while this is set.</p>
       </div>`;
+    }
+  }
+
+  {
+    const collapsed = state.collapsedSections.has('recency');
+    html += `<div class="rail-section-head"><h3>Date reported</h3>
+      <button class="expand-all-btn ${collapsed?'collapsed':''}" data-toggle-section="recency" title="${collapsed?'Expand':'Collapse'}">
+        <span class="arrow">▾</span>
+      </button></div>`;
+    if(!collapsed){
+      const pool = PEOPLE.filter(countsExcluding('recency'));
+      const liveFor = (days)=> days === 0 ? pool.length
+        : pool.filter(p=>p.deals.some(d=>{ const n = daysSince(dealDate(d)); return n !== null && n <= days; })).length;
+      html += `<div class="chip-row" id="recencyRow">${RECENCY_OPTIONS.map(([days,label])=>{
+        const live = liveFor(days);
+        return `<button class="chip ${state.recencyDays===days?'active':''}" data-recency="${days}" style="${live||state.recencyDays===days?'':'opacity:.45'}">${esc(label)} <span style="opacity:.65;font-size:10px;">${live}</span></button>`;
+      }).join('')}</div>
+      <p class="size-note">Counts people with a deal first reported in the window. ${DATED_DEALS.size} of ${DATA.stats.deals} deals carry a date; undated deals are left out while this is set.</p>`;
     }
   }
 
@@ -823,6 +897,14 @@ function renderRail(){
       el.addEventListener('change', ()=>{ sync(w); renderAll(); });
     });
   }
+
+  document.querySelectorAll('[data-recency]').forEach(el=>{
+    el.addEventListener('click', ()=>{
+      state.recencyDays = +el.getAttribute('data-recency');
+      renderAll();
+      persistStateToHash();
+    });
+  });
 
   const clearBtn = document.getElementById('clearFiltersBtn');
   if(clearBtn && activeCount){
@@ -915,6 +997,10 @@ function personRowHtml(p){
       <div class="txn-chips">${txns.map(t=>`<span class="txn-tag">${esc(t)}</span>`).join('')}${p.transaction_types.length>3?`<span class="txn-tag">+${p.transaction_types.length-3}</span>`:''}</div>
     </div>
     <div class="deal-count">${(()=>{
+      if(state.sortBy === 'recent'){
+        const t = lastDealDate(p);
+        return t ? `<b>${esc(fmtDate(t))}</b>last deal` : `<b class="unreported">—</b>no date`;
+      }
       if(state.sortBy !== 'largest' && state.sortBy !== 'total') {
         return `<b>${p.deals.length}</b>deal${p.deals.length===1?'':'s'}`;
       }
@@ -933,6 +1019,7 @@ function sortControlHtml(){
   return `<div class="sort-control"><label for="sortSelect">Sort</label>
     <select id="sortSelect">
       <option value="deals" ${state.sortBy==='deals'?'selected':''}>Most deals</option>
+      <option value="recent" ${state.sortBy==='recent'?'selected':''}>Most recent deal</option>
       <option value="name" ${state.sortBy==='name'?'selected':''}>Name (A–Z)</option>
       <option value="firm" ${state.sortBy==='firm'?'selected':''}>Firm size</option>
       <option value="largest" ${state.sortBy==='largest'?'selected':''}>Largest reported deal</option>
@@ -1039,6 +1126,28 @@ function sizeChipsHtml(p){
   </div>`;
 }
 
+// A CCI filing attached by name (see scraper/cci_match.py). It says the
+// transaction was notified for merger control; it is a pointer to the public
+// record, not a statement about the deal's merits.
+function cciBadgeHtml(c){
+  const when = c.decided ? `${c.status || 'Decided'} ${fmtDate(c.decided)}` : `Filed ${fmtDate(c.notified)}${c.status ? ' · ' + c.status : ''}`;
+  const url = c.order_url || c.summary_url;
+  const label = `<b>CCI</b> ${esc(when)}`;
+  const tip = `CCI combination ${c.combination_no}: ${c.parties || ''}`;
+  return url
+    ? `<div class="cci-line"><a class="cci-badge" href="${escAttr(url)}" target="_blank" rel="noopener" title="${escAttr(tip)}">${label}</a></div>`
+    : `<div class="cci-line"><span class="cci-badge" title="${escAttr(tip)}">${label}</span></div>`;
+}
+
+function lastDealChipHtml(p){
+  const t = lastDealDate(p);
+  const dated = p.deals.filter(d => dealDate(d)).length;
+  if(!t){
+    return `<div class="last-deal-chips"><div class="size-chip none"><b>No date</b>latest deal reported · none of ${p.deals.length} deal${p.deals.length===1?'':'s'} carry a date</div></div>`;
+  }
+  return `<div class="last-deal-chips"><div class="size-chip" id="lastDealChip" title="Most recent date any of this person's deals was first reported"><b>${esc(fmtDate(t))}</b>latest deal reported${dated < p.deals.length ? ` · ${p.deals.length - dated} undated` : ''}</div></div>`;
+}
+
 function renderDetail(){
   const aside = document.getElementById('detail');
   const app = document.getElementById('app');
@@ -1064,6 +1173,7 @@ function renderDetail(){
       <div><b>${p.transaction_types.length}</b>txn types</div>
       <div><b>${p.clients.length}</b>named clients</div>
     </div>
+    ${lastDealChipHtml(p)}
     ${sizeChipsHtml(p)}
   </div>
   <div class="detail-body">`;
@@ -1110,9 +1220,11 @@ function renderDetail(){
         ? ` title="≈ ${escAttr(fmtInr(v.amount_inr))} at a fixed reference rate — shown for ranking only"` : ''}>${
         v.approx ? '~' : ''}${esc(v.raw)}</div>` : ''}
       <div class="meta">${d.client? esc(d.client)+' · ' : ''}${esc(d.source||'')}${
+        dealDate(d) ? ` · <span class="deal-date" title="Earliest publication date among the outlets that carried this deal">Reported ${esc(fmtDate(dealDate(d)))}</span>` : ''}${
         d.also_reported_by && d.also_reported_by.length
           ? ' · also: ' + d.also_reported_by.map(o=>`<a class="also" href="${escAttr(o.url||'#')}" target="_blank" rel="noopener">${esc(o.source||'link')}</a>`).join(', ')
           : ''}</div>
+      ${d.cci ? cciBadgeHtml(d.cci) : ''}
       <div class="txn-chips">${d.types.map(t=>`<span class="txn-tag">${esc(t)}</span>`).join('')}</div>
     </div>`;
   });
@@ -1219,6 +1331,7 @@ function persistStateToHash(){
   if(state.txnFilters.size) parts.push('txn=' + encodeURIComponent([...state.txnFilters].join('|')));
   if(state.practiceFilters.size) parts.push('practice=' + encodeURIComponent([...state.practiceFilters].join('|')));
   if(sizeFilterActive()) parts.push('size=' + state.sizeLo + '-' + state.sizeHi);
+  if(recencyFilterActive()) parts.push('recent=' + state.recencyDays);
   if(state.view !== 'person') parts.push('view=' + state.view);
   if(state.sortBy !== 'deals') parts.push('sort=' + state.sortBy);
   const hash = parts.length ? '#' + parts.join('&') : ' ';
@@ -1239,6 +1352,7 @@ function restoreStateFromHash(){
     const m = params.get('size').match(/^(\d+)-(\d+)$/);
     if(m && +m[1] <= +m[2] && +m[2] <= SIZE_MAX_IDX){ state.sizeLo = +m[1]; state.sizeHi = +m[2]; }
   }
+  if(params.has('recent') && RECENCY_OPTIONS.some(o=>o[0] === +params.get('recent'))) state.recencyDays = +params.get('recent');
   if(params.has('view') && params.get('view')==='firm') state.view = 'firm';
   if(params.has('sort')) state.sortBy = params.get('sort');
   searchInput.value = state.query;
