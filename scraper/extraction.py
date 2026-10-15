@@ -693,6 +693,43 @@ def _topic_match(name, topics):
     return None
 
 
+# FIRM_CONTEXT_RE's name group is deliberately permissive (it allows "." and
+# ","), which lets it run on past the firm: "Dua Associates is a full-service
+# Indian law firm ... cities. The firm" (an About-the-firm paragraph, then
+# "The firm advised ..."), "JSA Advocates & Solicitors secured the CCI approval
+# for this merger. The Firm", "Khaitan & Co acted". Everything from the first
+# finite verb or sentence break onward is not part of the name.
+_NAME_STOP_RE = re.compile(
+    r"\s+(?:is|are|was|were|has|have|had|will|would|can|could|also|previously|recently|"
+    r"successfully|acted|acts|advised|advises|secured|represented|represents|assisted|"
+    r"served|provided|handled)\b.*$"
+    r"|(?<=[A-Za-z]{3})[.!?]\s+[A-Z].*$"
+)
+_ENTITY_WORD_RE = re.compile(
+    r"\b(Limited|Ltd|Private|Pvt|Securities|Bank|Holdings|Finance|Financial|Insurance|"
+    r"Industries|Corporation|Corp|Inc|Capital Markets|Mutual Fund|Trust)\b\.?"
+)
+_LAW_WORD_RE = re.compile(
+    r"\b(Law|Laws|Legal|Advocates?|Solicitors?|Associates|Partners|Chambers|Attorneys?|"
+    r"Counsel|LLP|Co|Company|Lex|Juris)\b|&\s*Co\b"
+)
+
+
+def clean_firm_candidate(raw):
+    """The firm name at the start of an attribution match, or None.
+
+    Cuts the match at the first finite verb / sentence break, then refuses
+    what is plainly not a law firm: more than eight words, or a company or
+    bank ("ICICI Securities Limited and Jefferies India Private Limited" were
+    the BRLMs a firm advised, not a firm) that carries no law-firm word."""
+    name = _NAME_STOP_RE.sub("", raw or "").strip(" ,;:-")
+    if not name or len(name.split()) > 8:
+        return None
+    if _ENTITY_WORD_RE.search(name) and not _LAW_WORD_RE.search(name):
+        return None
+    return name
+
+
 def body_attribution_firms(paragraphs):
     """Names that open a firm-attribution sentence, in document order."""
     out = []
@@ -702,6 +739,9 @@ def body_attribution_firms(paragraphs):
             continue
         raw = FIRM_TAIL_RE.sub("", m.group(1).strip())
         if not raw or raw.lower().startswith("the firm"):
+            continue
+        raw = clean_firm_candidate(raw)
+        if not raw:
             continue
         if raw not in out:
             out.append(raw)

@@ -124,6 +124,42 @@ check("office openings and rulings are dropped",
       and bool(nd.search("Gujarat High Court Upholds Land Acquisition; UNUC Legal Represents NHSRCL"))
       and bool(nd.search("Kochhar & Co. Represents Air Liquide in Arbitration Against Vedanta")))
 
+# ------------------------------------------- firm names that are not firm names
+print("garbage firm names (production regressions, 2026-10-13 scrape)")
+import re as _re  # noqa: E402
+
+NOT_A_FIRM_VERB = _re.compile(r"\b(is|are|was|were|has|have|had|secured|advised|acted)\b")
+
+
+def firm_ok(f):
+    return len(f.split()) <= 8 and not NOT_A_FIRM_VERB.search(f) and not _re.search(r"[a-z]{3,}\.\s+[A-Z]", f)
+
+
+r = parse(LL, "ll_dua_boilerplate")
+check("an 'About the firm' paragraph does not become the firm name (LiveLaw / Dua Associates)",
+      r["law_firms"] == ["Dua Associates"], r["law_firms"])
+check("...and its lawyers are still attributed to the real firm",
+      r["people"] and all(p["firm"] == "Dua Associates" for p in r["people"]),
+      [(p["name"], p["firm"]) for p in r["people"]][:3])
+
+r = parse(LE, "le_runwal_brlm")
+check("the bankers named as BRLMs are not law firms (Legal Era / Runwal)",
+      r["law_firms"] == [KHAITAN], r["law_firms"])
+check("...and no lawyer is attributed to a bank",
+      all(p["firm"] in (KHAITAN, None) for p in r["people"]), {p["firm"] for p in r["people"]})
+
+import scrape_barandbench as _bb  # noqa: E402
+_bb.fetch = lambda u: gzip.open(FX.parent / "interglobe-accor-sentence.html.gz", "rt", encoding="utf8").read()
+r = _bb.parse_article("https://www.barandbench.com/law-firms/dealstreet/jsa-secures-cci-approval-for-interglobe-accor-hospitality-merger",
+                      "JSA secures CCI approval for InterGlobe - Accor hospitality merger")
+check("a sentence is not a firm name (Bar & Bench / JSA, pre-existing bug)",
+      all(firm_ok(f) for f in r["law_firms"]) and "JSA Advocates & Solicitors" in r["law_firms"], r["law_firms"])
+check("every firm in every committed source file is a plausible name",
+      all(firm_ok(f) for name in ("barandbench_deals.json", "legalera_deals.json", "livelaw_deals.json")
+          for d in json.loads((ROOT / name).read_text()) for f in d["law_firms"]),
+      [f for name in ("barandbench_deals.json", "legalera_deals.json", "livelaw_deals.json")
+       for d in json.loads((ROOT / name).read_text()) for f in d["law_firms"] if not firm_ok(f)])
+
 # --------------------------------------------------------- fetch behaviour
 print("fetching")
 check("User-Agent identifies the project and avoids the words these sites block",
