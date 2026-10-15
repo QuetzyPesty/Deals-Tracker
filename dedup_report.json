@@ -1,10 +1,10 @@
 {
-  "input_records": 727,
-  "output_records": 694,
-  "removed_duplicates": 33,
+  "input_records": 746,
+  "output_records": 711,
+  "removed_duplicates": 35,
   "merges_by_rule": {
     "same-url": 1,
-    "headline-entities": 14,
+    "headline-entities": 16,
     "same-slug": 4,
     "nested-same-type": 6,
     "same-headline": 1,
@@ -356,6 +356,40 @@
     {
       "kept": {
         "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-dentons-link-legal-hogan-lovells-cadwalader-act-on-inox-green-energy-300-crore-qip",
+        "headline": "Khaitan & Co, Dentons Link Legal, Hogan Lovells Cadwalader act on INOX Green Energy ₹300 crore QIP"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/khaitan-inox-green-energy-300-crore-qip-990533",
+          "headline": "Khaitan & Co Advised Inox Green Energy Services Limited On INR 300 Crore QIP",
+          "rules": [
+            "headline-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-trilegal-act-on-inox-clean-energy-10000-crore-proposed-ipo",
+        "headline": "Khaitan & Co, Trilegal act on Inox Clean Energy ₹10,000 crore proposed IPO"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/khaitan-co-advised-inox-clean-energy-inr-100000-million-ipo-990476",
+          "headline": "Khaitan & Co Advised Inox Clean Energy Limited On Its Proposed INR 100,000 Million IPO",
+          "rules": [
+            "headline-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
         "url": "https://www.barandbench.com/law-firms/dealstreet/kochhar-co-advises-grip-fio-advisors-on-launch-of-grip-primeyield-i",
         "headline": "Kochhar & Co advises Grip FIO Advisors on launch of Grip PrimeYield – I"
       },
@@ -606,10 +640,7 @@
       "date_gap_days": null,
       "head_sim": 0.71,
       "lede_sim": 0.1,
-      "shared_rare": [
-        "hogan",
-        "lovells"
-      ],
+      "shared_rare": [],
       "a_only": [
         "barandbench",
         "pharma",
@@ -879,8 +910,6 @@
       ],
       "b_only": [
         "billdesk",
-        "hogan",
-        "lovells",
         "worldline"
       ],
       "shared_people": 3,
@@ -1063,50 +1092,6 @@
       "veto": "entity-clash"
     },
     {
-      "a": "Trilegal, JSA, Hogan Lovells act on Studds ₹455 crore IPO - Bar and Bench",
-      "a_url": "https://www.barandbench.com/dealstreet/trilegal-jsa-hogan-lovells-act-on-studds-455-crore-ipo",
-      "b": "S&R Associates, JSA act on Euro Pratik ₹451 crore IPO - Bar and Bench",
-      "b_url": "https://www.barandbench.com/dealstreet/sr-associates-jsa-act-on-euro-pratik-451-crore-ipo",
-      "date_gap_days": null,
-      "head_sim": 0.67,
-      "lede_sim": 0.16,
-      "shared_rare": [],
-      "a_only": [
-        "hogan",
-        "lovells",
-        "studds"
-      ],
-      "b_only": [
-        "euro",
-        "pratik"
-      ],
-      "shared_people": 0,
-      "people_jaccard": 0.0,
-      "veto": "entity-clash"
-    },
-    {
-      "a": "Trilegal, JSA, Hogan Lovells act on Studds ₹455 crore IPO - Bar and Bench",
-      "a_url": "https://www.barandbench.com/dealstreet/trilegal-jsa-hogan-lovells-act-on-studds-455-crore-ipo",
-      "b": "Trilegal, JSA act on Shivalaya Construction ₹450 crore+ IPO - Bar and Bench",
-      "b_url": "https://www.barandbench.com/dealstreet/trilegal-jsa-act-on-shivalaya-construction-450-crore-ipo",
-      "date_gap_days": null,
-      "head_sim": 0.67,
-      "lede_sim": 0.0,
-      "shared_rare": [],
-      "a_only": [
-        "hogan",
-        "lovells",
-        "studds"
-      ],
-      "b_only": [
-        "construction",
-        "shivalaya"
-      ],
-      "shared_people": 2,
-      "people_jaccard": 0.07,
-      "veto": "entity-clash"
-    },
-    {
       "a": "Trilegal, Khaitan act on INDO-MIM ₹1,000 crore+ proposed IPO - Bar and Bench",
       "a_url": "https://www.barandbench.com/dealstreet/trilegal-khaitan-act-on-indo-mim-1000-crore-proposed-ipo",
       "b": "Khaitan & Co, Trilegal act on Capillary Technologies ₹877 crore IPO - Bar and Bench",
@@ -1173,28 +1158,6 @@
       "veto": "entity-clash"
     },
     {
-      "a": "Khaitan & Co, TT&A, JSA act on Nobel Hygiene ₹150 crore+ proposed IPO",
-      "a_url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-jsa-act-on-nobel-hygiene-150-crore-proposed-ipo",
-      "b": "CAM, Trilegal, TT&A, Hogan Lovells act on Rentomojo proposed ₹150 crore+ IPO",
-      "b_url": "https://www.barandbench.com/dealstreet/cam-trilegal-tta-hogan-lovells-act-on-rentomojo-proposed-150-crore-ipo",
-      "date_gap_days": null,
-      "head_sim": 0.67,
-      "lede_sim": 0.03,
-      "shared_rare": [],
-      "a_only": [
-        "hygiene",
-        "nobel"
-      ],
-      "b_only": [
-        "hogan",
-        "lovells",
-        "rentomojo"
-      ],
-      "shared_people": 1,
-      "people_jaccard": 0.02,
-      "veto": "entity-clash"
-    },
-    {
       "a": "Rajani Associates acts on Shanti Inorganics IPO",
       "a_url": "https://www.barandbench.com/law-firms/dealstreet/rajani-associates-acts-on-shanti-inorganics-ipo",
       "b": "Rajani Associates acts on Silver Storm Parks IPO",
@@ -1219,28 +1182,6 @@
     {
       "a": "Trilegal, TT&A, Hogan Lovells Cadwalader act on Dosti Realty proposed IPO",
       "a_url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-hogan-lovells-cadwalader-act-on-dosti-realty-proposed-ipo",
-      "b": "CAM, Trilegal, TT&A, Hogan Lovells act on Rentomojo proposed ₹150 crore+ IPO",
-      "b_url": "https://www.barandbench.com/dealstreet/cam-trilegal-tta-hogan-lovells-act-on-rentomojo-proposed-150-crore-ipo",
-      "date_gap_days": null,
-      "head_sim": 0.6,
-      "lede_sim": 0.04,
-      "shared_rare": [],
-      "a_only": [
-        "dosti",
-        "realty"
-      ],
-      "b_only": [
-        "hogan",
-        "lovells",
-        "rentomojo"
-      ],
-      "shared_people": 3,
-      "people_jaccard": 0.09,
-      "veto": "entity-clash"
-    },
-    {
-      "a": "Trilegal, TT&A, Hogan Lovells Cadwalader act on Dosti Realty proposed IPO",
-      "a_url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-hogan-lovells-cadwalader-act-on-dosti-realty-proposed-ipo",
       "b": "Trilegal, Verist Law, TT&A, Hogan Lovells act on Marri Retail ₹522 crore+ proposed IPO",
       "b_url": "https://www.barandbench.com/dealstreet/trilegal-verist-law-tta-hogan-lovells-act-on-marri-retail-522-crore-proposed-ipo",
       "date_gap_days": null,
@@ -1252,8 +1193,6 @@
         "realty"
       ],
       "b_only": [
-        "hogan",
-        "lovells",
         "marri",
         "retail",
         "verist"
