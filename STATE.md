@@ -13,6 +13,9 @@ Baseline before this work (main @116ed41): 612 deals, 4002 people, 141 firms.
 | T5 | LiveLaw scraper + fixtures + tests | done | `python3 tests/test_sources.py` | 8ac1d24, aa15577 |
 | T6 | workflow gate, live backfill, rebuild, Playwright (fixed a pre-existing flawed sort test, +2 UI tests) | done | `npm test` -> 15 passed | see git log |
 
+## Post-merge fixes
+- F1 (2026-10-15): firm-attribution candidates could run across a sentence ("Dua Associates is a full-service ... The firm"), pick up trailing verbs ("Khaitan & Co acted"), or be the bankers a firm advised ("ICICI Securities Limited and Jefferies ..."). Fixed in `extraction.clean_firm_candidate`; 5 records re-parsed; firms 153 -> 148. Verify: `python3 tests/test_sources.py` (the "every firm ... is a plausible name" check scans all committed source files).
+
 ## Deferred
 - CCI combination orders as an enrichment layer (JSON endpoint verified: GET /combination/orders-section31 with full DataTables params).
 - Possible missed twin: Laser Power & Infra IPO ("$1,200 crore" typo in one B&B headline vs ₹742 crore); kept apart by the value veto.
