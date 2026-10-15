@@ -1,7 +1,7 @@
 {
   "stats": {
-    "people": 4166,
-    "firms": 153,
+    "people": 4162,
+    "firms": 148,
     "deals": 674,
     "practice_areas": 6
   },
@@ -41,7 +41,6 @@
     "Desai & Diwanji",
     "Dhir & Dhir Associates",
     "Dua Associates",
-    "Dua Associates is a full-service Indian law firm with offices across multiple cities. The firm",
     "Duane Morris & Selvam",
     "Economic Laws Practice",
     "Elarra Law Offices",
@@ -60,20 +59,16 @@
     "Hogan Lovells",
     "Hogan Lovells Cadwalader",
     "IC RegFin Legal Partners",
-    "ICICI Securities Limited and Jefferies India Private Limited",
     "Ikigai Law",
     "IndiaLaw",
     "IndusLaw",
     "JSA Advocates & Solicitors",
-    "JSA Advocates & Solicitors secured the CCI approval for this merger. The Firm",
-    "JSA had previously",
     "Jones Day",
     "K Law",
     "K&L Gates",
     "KNM & Partners",
     "Kelley Drye",
     "Khaitan & Co",
-    "Khaitan & Co acted",
     "Khaled Al-Marri & Partners",
     "Khimani & Associates",
     "Kochhar & Co",
@@ -2050,19 +2045,31 @@
     },
     {
       "firm": "Dua Associates",
-      "people_count": 15,
+      "people_count": 18,
       "practice_groups": [
         {
           "area": "Private Equity & Venture Capital",
           "person_ids": [
-            4101,
-            4100,
-            4103,
+            4097,
+            4096,
+            4099,
             3399,
             3400,
-            4099,
-            4102,
+            4095,
+            4098,
             3401
+          ]
+        },
+        {
+          "area": "Banking & Finance",
+          "person_ids": [
+            4092,
+            4096,
+            4093,
+            3399,
+            3400,
+            4095,
+            4094
           ]
         },
         {
@@ -2077,27 +2084,9 @@
         {
           "area": "Unclassified",
           "person_ids": [
-            4104,
-            4106,
-            4105
-          ]
-        }
-      ]
-    },
-    {
-      "firm": "Dua Associates is a full-service Indian law firm with offices across multiple cities. The firm",
-      "people_count": 7,
-      "practice_groups": [
-        {
-          "area": "Banking & Finance",
-          "person_ids": [
-            4093,
-            4098,
-            4095,
-            4094,
-            4092,
-            4097,
-            4096
+            4100,
+            4102,
+            4101
           ]
         }
       ]
@@ -2505,11 +2494,6 @@
           ]
         }
       ]
-    },
-    {
-      "firm": "ICICI Securities Limited and Jefferies India Private Limited",
-      "people_count": 0,
-      "practice_groups": []
     },
     {
       "firm": "Ikigai Law",
@@ -3057,13 +3041,13 @@
         {
           "area": "Corporate & Commercial",
           "person_ids": [
-            4133,
+            4129,
             1415,
             1448,
             1414,
             1430,
             1586,
-            4132,
+            4128,
             1413,
             1424,
             1447,
@@ -3075,7 +3059,7 @@
             1429,
             3928,
             1607,
-            4131,
+            4127,
             1606
           ]
         },
@@ -3097,16 +3081,6 @@
           ]
         }
       ]
-    },
-    {
-      "firm": "JSA Advocates & Solicitors secured the CCI approval for this merger. The Firm",
-      "people_count": 0,
-      "practice_groups": []
-    },
-    {
-      "firm": "JSA had previously",
-      "people_count": 0,
-      "practice_groups": []
     },
     {
       "firm": "Jones Day",
@@ -3224,7 +3198,7 @@
             1654,
             3475,
             53,
-            4108,
+            4104,
             1814,
             4051,
             1996,
@@ -3279,7 +3253,7 @@
             2404,
             1935,
             2700,
-            4113,
+            4109,
             1901,
             157,
             1931,
@@ -3306,13 +3280,13 @@
             4049,
             56,
             1850,
-            4110,
+            4106,
             356,
             2149,
             1855,
             346,
             2511,
-            4109,
+            4105,
             2015,
             1481,
             2023,
@@ -3333,7 +3307,7 @@
             3553,
             3466,
             3544,
-            4107,
+            4103,
             1949,
             61,
             3551,
@@ -3391,7 +3365,7 @@
             2028,
             2034,
             1670,
-            4112,
+            4108,
             55,
             1868,
             3516,
@@ -3410,7 +3384,7 @@
             3315,
             4050,
             2007,
-            4111,
+            4107,
             3588,
             4053,
             2524,
@@ -3938,37 +3912,37 @@
         {
           "area": "Corporate & Commercial",
           "person_ids": [
-            4118,
-            4125,
+            4114,
+            4121,
             3591,
             1878,
             3597,
+            4112,
             4116,
-            4120,
-            4117,
+            4113,
             605,
-            4119,
+            4115,
             2700,
-            4128,
+            4124,
             3507,
             1690,
-            4123,
+            4119,
             162,
             1666,
             1960,
             3521,
-            4115,
+            4111,
             2044,
-            4114,
+            4110,
             161,
-            4127,
+            4123,
             1841,
             1949,
             1940,
             2699,
-            4130,
+            4126,
             1947,
-            4121,
+            4117,
             2152,
             205,
             594,
@@ -3979,11 +3953,11 @@
             1584,
             361,
             1667,
-            4122,
+            4118,
             3508,
-            4129,
-            4126,
-            4124
+            4125,
+            4122,
+            4120
           ]
         },
         {
@@ -3997,11 +3971,6 @@
           ]
         }
       ]
-    },
-    {
-      "firm": "Khaitan & Co acted",
-      "people_count": 0,
-      "practice_groups": []
     },
     {
       "firm": "Khaled Al-Marri & Partners",
@@ -4029,10 +3998,10 @@
         {
           "area": "Unclassified",
           "person_ids": [
-            4136,
+            4132,
             3605,
-            4137,
-            4138
+            4133,
+            4134
           ]
         },
         {
@@ -4062,8 +4031,8 @@
         {
           "area": "Private Equity & Venture Capital",
           "person_ids": [
-            4134,
-            4135
+            4130,
+            4131
           ]
         }
       ]
@@ -4102,25 +4071,25 @@
         {
           "area": "Mergers & Acquisitions",
           "person_ids": [
-            4161,
-            4160,
-            4145,
-            4153,
-            4155,
-            4150,
-            4156,
-            4158,
-            4147,
-            4159,
-            4144,
-            4152,
-            4146,
-            4154,
-            4162,
             4157,
-            4148,
+            4156,
+            4141,
             4149,
-            4151
+            4151,
+            4146,
+            4152,
+            4154,
+            4143,
+            4155,
+            4140,
+            4148,
+            4142,
+            4150,
+            4158,
+            4153,
+            4144,
+            4145,
+            4147
           ]
         },
         {
@@ -5613,35 +5582,35 @@
         {
           "area": "Capital Markets",
           "person_ids": [
-            4165,
-            4164,
-            4163,
-            4166
+            4161,
+            4160,
+            4159,
+            4162
           ]
         },
         {
           "area": "Mergers & Acquisitions",
           "person_ids": [
-            4167,
-            4168
+            4163,
+            4164
           ]
         },
         {
           "area": "Unclassified",
           "person_ids": [
-            4170
+            4166
           ]
         },
         {
           "area": "Corporate & Commercial",
           "person_ids": [
-            4169
+            4165
           ]
         },
         {
           "area": "Private Equity & Venture Capital",
           "person_ids": [
-            4163
+            4159
           ]
         }
       ]
@@ -5784,8 +5753,8 @@
         {
           "area": "Unclassified",
           "person_ids": [
-            4172,
-            4171
+            4168,
+            4167
           ]
         }
       ]
@@ -7801,7 +7770,7 @@
       "snapshot": "Trilegal advises Iswarya Health on securing ₹355 crore investment from OrbiMed"
     },
     {
-      "id": 4118,
+      "id": 4114,
       "name": "Aanya Desai",
       "firm": "Khaitan & Co",
       "role": "Associate",
@@ -7839,7 +7808,7 @@
       "snapshot": "Khaitan & Co Advises PwC US On Joint Venture With PwC India"
     },
     {
-      "id": 4133,
+      "id": 4129,
       "name": "Aarathi R Menon",
       "firm": "JSA Advocates & Solicitors",
       "role": "Associate",
@@ -9401,7 +9370,7 @@
       "snapshot": "CAM, Khaitan, SAM act on Clean Max Enviro Energy IPO"
     },
     {
-      "id": 4125,
+      "id": 4121,
       "name": "Aayush Pandey",
       "firm": "Khaitan & Co",
       "role": "Associate",
@@ -18732,7 +18701,7 @@
       "snapshot": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
     },
     {
-      "id": 4161,
+      "id": 4157,
       "name": "Aishwarya Narasimhan",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Associate",
@@ -22441,7 +22410,7 @@
       "snapshot": "CAM, Trilegal act on Powerica ₹1,100 crore IPO - Bar and Bench"
     },
     {
-      "id": 4160,
+      "id": 4156,
       "name": "Alekhya Kanda",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Senior Associate",
@@ -24737,7 +24706,7 @@
       "snapshot": "Trilegal, Verist Law, TT&A, Hogan Lovells act on Marri Retail ₹522 crore+ proposed IPO"
     },
     {
-      "id": 4170,
+      "id": 4166,
       "name": "Amit Bansal",
       "firm": "Singhania & Co",
       "role": "Partner",
@@ -27804,9 +27773,9 @@
       "snapshot": "Khaitan & Co Advised Multiples Private Equity On USD 100 Million Investment In Brahma AI"
     },
     {
-      "id": 4093,
+      "id": 4092,
       "name": "Angad Varma",
-      "firm": "Dua Associates is a full-service Indian law firm with offices across multiple cities. The firm",
+      "firm": "Dua Associates",
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
@@ -27842,7 +27811,7 @@
       "snapshot": "Dua Associates Advises Piramal Finance Limited In Its Financing Of Nimbus Projects Limited"
     },
     {
-      "id": 4101,
+      "id": 4097,
       "name": "Angad Verma",
       "firm": "Dua Associates",
       "role": "Partner",
@@ -28842,7 +28811,7 @@
       "snapshot": "Dua Associates Advised Lingyi Itech As Its India Legal Counsel For Its US$1.06 Billion Hong Kong IPO"
     },
     {
-      "id": 4136,
+      "id": 4132,
       "name": "Anirudh Mukherjee",
       "firm": "Kochhar & Co",
       "role": "Partner",
@@ -31516,7 +31485,7 @@
       "snapshot": "Advent International set to invest ~₹2,750 crore in Aditya Birla Housing Finance; CAM, AZB advise"
     },
     {
-      "id": 4141,
+      "id": 4137,
       "name": "Annanya Elhence",
       "firm": null,
       "role": "Associate",
@@ -33884,7 +33853,7 @@
       "snapshot": "CAM, Trilegal act on SEDEMAC Mechatronics ~₹1,087 crore IPO - Bar and Bench"
     },
     {
-      "id": 4134,
+      "id": 4130,
       "name": "Anuj Kaila",
       "firm": "Kochhar & Co",
       "role": "Partner",
@@ -34235,69 +34204,22 @@
       "snapshot": "CAM advises Hiranandani Financial Services on raising ₹800 crore from Vitruvian"
     },
     {
-      "id": 4100,
+      "id": 4096,
       "name": "Anukriti Prakash",
       "firm": "Dua Associates",
-      "role": "Associate",
-      "role_bucket": "Associate",
-      "transaction_types": [
-        "investment"
-      ],
-      "practice_areas": [
-        "Private Equity & Venture Capital"
-      ],
-      "clients": [
-        "SWAMIH Investment Fund-I"
-      ],
-      "deals": [
-        {
-          "headline": "Dua Associates Advises SWAMIH Investment Fund-I On ₹399.5 Crore Funding For Greater Noida Housing Project",
-          "client": "SWAMIH Investment Fund-I",
-          "url": "https://www.livelaw.in/law-firms/deals/dua-associates-advises-swamih-investment-fund-i-3995-crore-funding-greater-noida-housing-project-520728",
-          "source": "LiveLaw",
-          "types": [
-            "investment"
-          ],
-          "practice_areas": [
-            "Private Equity & Venture Capital"
-          ],
-          "value": {
-            "raw": "₹399.5 Crore",
-            "currency": "INR",
-            "amount": 3995000000,
-            "amount_inr": 3995000000,
-            "approx": false
-          }
-        }
-      ],
-      "snapshot": "Dua Associates Advises SWAMIH Investment Fund-I On ₹399.5 Crore Funding For Greater Noida Housing Project",
-      "same_name_elsewhere": [
-        {
-          "id": 4098,
-          "firm": "Dua Associates is a full-service Indian law firm with offices across multiple cities. The firm",
-          "role": "Senior Associate",
-          "deal_count": 1
-        }
-      ],
-      "firm_verification": {
-        "verdict": "UNVERIFIED",
-        "evidence": "Not yet researched."
-      }
-    },
-    {
-      "id": 4098,
-      "name": "Anukriti Prakash",
-      "firm": "Dua Associates is a full-service Indian law firm with offices across multiple cities. The firm",
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
-        "financing"
+        "financing",
+        "investment"
       ],
       "practice_areas": [
-        "Banking & Finance"
+        "Banking & Finance",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Piramal Finance Limited"
+        "Piramal Finance Limited",
+        "SWAMIH Investment Fund-I"
       ],
       "deals": [
         {
@@ -34318,21 +34240,28 @@
             "amount_inr": 2500000000,
             "approx": false
           }
-        }
-      ],
-      "snapshot": "Dua Associates Advises Piramal Finance Limited In Its Financing Of Nimbus Projects Limited",
-      "same_name_elsewhere": [
+        },
         {
-          "id": 4100,
-          "firm": "Dua Associates",
-          "role": "Associate",
-          "deal_count": 1
+          "headline": "Dua Associates Advises SWAMIH Investment Fund-I On ₹399.5 Crore Funding For Greater Noida Housing Project",
+          "client": "SWAMIH Investment Fund-I",
+          "url": "https://www.livelaw.in/law-firms/deals/dua-associates-advises-swamih-investment-fund-i-3995-crore-funding-greater-noida-housing-project-520728",
+          "source": "LiveLaw",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹399.5 Crore",
+            "currency": "INR",
+            "amount": 3995000000,
+            "amount_inr": 3995000000,
+            "approx": false
+          }
         }
       ],
-      "firm_verification": {
-        "verdict": "UNVERIFIED",
-        "evidence": "Not yet researched."
-      }
+      "snapshot": "Dua Associates Advises Piramal Finance Limited In Its Financing Of Nimbus Projects Limited"
     },
     {
       "id": 1177,
@@ -34383,7 +34312,7 @@
       "snapshot": "Trilegal advises Apollo on subscribing to $500 million notes issued by an Adani Energy ..."
     },
     {
-      "id": 4145,
+      "id": 4141,
       "name": "Anupam Misra",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Associate Partner",
@@ -36878,7 +36807,7 @@
       "snapshot": "CAM, AZB act on Warburg Pincus acquiring stake in Fleur Hotels - Bar and Bench"
     },
     {
-      "id": 4165,
+      "id": 4161,
       "name": "Apoorva Kuthiala",
       "firm": "Singhania & Co",
       "role": "Principal Associate",
@@ -43426,7 +43355,7 @@
       "snapshot": "TPG-led consortium to acquire Aseem Infra Finance; CAM, Linklaters, Trilegal, SAM advise"
     },
     {
-      "id": 4167,
+      "id": 4163,
       "name": "Atharv Gupta",
       "firm": "Singhania & Co",
       "role": "Senior Associate",
@@ -43514,7 +43443,7 @@
       "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat"
     },
     {
-      "id": 4116,
+      "id": 4112,
       "name": "Atif Ahmed",
       "firm": "Khaitan & Co",
       "role": "Principal Associate",
@@ -43778,7 +43707,7 @@
       "snapshot": "Khaitan & Co acts on Muthoot FinCorp ₹3,000 crore IPO"
     },
     {
-      "id": 4153,
+      "id": 4149,
       "name": "Atrijo Banerjee",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Associate",
@@ -44688,7 +44617,7 @@
       "snapshot": "Veritas Legal, Shardul Amarchand Mangaldas advise on 360 One Alternates ... - Bar and Bench"
     },
     {
-      "id": 4108,
+      "id": 4104,
       "name": "Avantika Singh",
       "firm": "Khaitan & Co",
       "role": "Associate",
@@ -44842,7 +44771,7 @@
       "snapshot": "Trilegal, CAM, Latham, AZB, Equilex, Macfarlanes advise on Mittal-Poonawalla consortium ..."
     },
     {
-      "id": 4120,
+      "id": 4116,
       "name": "Avik Biswas",
       "firm": "Khaitan & Co",
       "role": "Partner",
@@ -48851,9 +48780,9 @@
       "snapshot": "Shardul Amarchand Mangaldas advises Krishna Institute of Medical Sciences on ₹1,500 crore QIP"
     },
     {
-      "id": 4095,
+      "id": 4093,
       "name": "Bhaskar Mishra",
-      "firm": "Dua Associates is a full-service Indian law firm with offices across multiple cities. The firm",
+      "firm": "Dua Associates",
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
@@ -51793,7 +51722,7 @@
       "snapshot": "CAM, Trilegal act on MEIL Energy acquiring a 250 MW thermal power project in Tamil Nadu ..."
     },
     {
-      "id": 4155,
+      "id": 4151,
       "name": "Charms Mathews",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Senior Associate",
@@ -51825,7 +51754,7 @@
       "snapshot": "Lakshmikumaran & Sridharan Attorneys Advises Toyota Group On Acquisition Of Car Dealership Business From..."
     },
     {
-      "id": 4143,
+      "id": 4139,
       "name": "Charms Matthew",
       "firm": null,
       "role": "Associate",
@@ -52337,7 +52266,7 @@
       "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha..."
     },
     {
-      "id": 4117,
+      "id": 4113,
       "name": "Chirag Mitta",
       "firm": "Khaitan & Co",
       "role": "Associate",
@@ -54090,7 +54019,7 @@
       "snapshot": "White & Case, AZB, Sullivan, Cyril Amarchand Mangaldas act on Sun Pharma's $11.75 ..."
     },
     {
-      "id": 4150,
+      "id": 4146,
       "name": "Debanik Bid",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Principal Associate",
@@ -58701,7 +58630,7 @@
       "snapshot": "Khaitan & Co, Trilegal, Linklaters act on JSW Infrastructure ₹7,502 crore QIP"
     },
     {
-      "id": 4156,
+      "id": 4152,
       "name": "Dinesh Babu Eedi",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Partner",
@@ -59491,7 +59420,7 @@
       "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat"
     },
     {
-      "id": 4164,
+      "id": 4160,
       "name": "Diviay Chadha",
       "firm": "Singhania & Co",
       "role": "Partner",
@@ -67669,7 +67598,7 @@
       "snapshot": "Dhir & Dhir Associates assists in Powertronix Engineering proposed IPO"
     },
     {
-      "id": 4158,
+      "id": 4154,
       "name": "Guru Charan Anumula",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Associate",
@@ -71776,7 +71705,7 @@
       "snapshot": "Khaitan & Co advises Reliance on exclusive India partnership with Fabletics"
     },
     {
-      "id": 4140,
+      "id": 4136,
       "name": "Hima Swetha",
       "firm": null,
       "role": "Associate",
@@ -73958,7 +73887,7 @@
       "snapshot": "JSA advises on India leg of Cisco's acquisition of WideField Security"
     },
     {
-      "id": 4132,
+      "id": 4128,
       "name": "Ishaan Chakrabarti",
       "firm": "JSA Advocates & Solicitors",
       "role": "Senior Associate",
@@ -74040,7 +73969,7 @@
       "snapshot": "Trilegal, CAM, Latham, AZB, Equilex, Macfarlanes advise on Mittal-Poonawalla consortium ...",
       "same_name_elsewhere": [
         {
-          "id": 4132,
+          "id": 4128,
           "firm": "JSA Advocates & Solicitors",
           "role": "Senior Associate",
           "deal_count": 1
@@ -75545,7 +75474,7 @@
       "snapshot": "Trilegal, TT&A, Hogan Lovells Cadwalader act on APAR Industries ₹2,500 crore QIP"
     },
     {
-      "id": 4119,
+      "id": 4115,
       "name": "Jahanvi Tuli",
       "firm": "Khaitan & Co",
       "role": "Associate",
@@ -78904,7 +78833,7 @@
       "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech"
     },
     {
-      "id": 4147,
+      "id": 4143,
       "name": "Jeevesh Jain",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Associate",
@@ -81013,7 +80942,7 @@
       "snapshot": "CAM, SAM, JSA, Linklaters act on Shadowfax ₹1,907 crore IPO - Bar and Bench"
     },
     {
-      "id": 4113,
+      "id": 4109,
       "name": "Joshua George",
       "firm": "Khaitan & Co",
       "role": "Associate",
@@ -81111,7 +81040,7 @@
       "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha..."
     },
     {
-      "id": 4128,
+      "id": 4124,
       "name": "Joshua Kurien George",
       "firm": "Khaitan & Co",
       "role": "Associate",
@@ -83608,7 +83537,7 @@
       "snapshot": "TLH Advocates advises Arete Hospitals on sale of hospital business to Aurevia Hospitals"
     },
     {
-      "id": 4103,
+      "id": 4099,
       "name": "Kapil Saxena",
       "firm": "Dua Associates",
       "role": "Principal Associate",
@@ -91049,7 +90978,7 @@
       "snapshot": "CAM advises Statkraft A.S. on 100% stake sale of wholly owned subsidiary, Mandakini Jal Urja"
     },
     {
-      "id": 4159,
+      "id": 4155,
       "name": "Kumar Panda",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Principal Associate",
@@ -91147,7 +91076,7 @@
       "snapshot": "SAM, Linklaters act on Biocon Limited ₹4,150 crore QIP - Bar and Bench",
       "same_name_elsewhere": [
         {
-          "id": 4169,
+          "id": 4165,
           "firm": "Singhania & Co",
           "role": "Principal Associate",
           "deal_count": 1
@@ -91159,7 +91088,7 @@
       }
     },
     {
-      "id": 4169,
+      "id": 4165,
       "name": "Kumar Shubham",
       "firm": "Singhania & Co",
       "role": "Principal Associate",
@@ -91362,7 +91291,7 @@
       "snapshot": "Capitaland sells ITPC Chennai to Mindspace, 360 One for ₹3000 crore - Bar and Bench"
     },
     {
-      "id": 4144,
+      "id": 4140,
       "name": "Kunal Arora",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Partner",
@@ -93276,7 +93205,7 @@
       "snapshot": "Blackstone-backed Nexus shops for Kolkata mall Diamond Plaza; Khaitan, SAM advise"
     },
     {
-      "id": 4135,
+      "id": 4131,
       "name": "Lavanya Ambalkar",
       "firm": "Kochhar & Co",
       "role": "Associate",
@@ -94510,7 +94439,7 @@
       "snapshot": "Trilegal, AZB & Partners act on PMI Electro Mobility securing $310 million investment from KKR"
     },
     {
-      "id": 4123,
+      "id": 4119,
       "name": "Madhav Khosla",
       "firm": "Khaitan & Co",
       "role": "Partner",
@@ -98295,7 +98224,7 @@
       "snapshot": "SAM, CAM, Hogan Lovells act on Billdesk's acquisition of Worldline"
     },
     {
-      "id": 4137,
+      "id": 4133,
       "name": "Manish Dembla",
       "firm": "Kochhar & Co",
       "role": "Partner",
@@ -100816,7 +100745,7 @@
       "snapshot": "SAM, CAM, Latham act on Groww ₹6,632 crore IPO - Bar and Bench"
     },
     {
-      "id": 4152,
+      "id": 4148,
       "name": "Mathanki Narayanan",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Associate",
@@ -101655,7 +101584,7 @@
       }
     },
     {
-      "id": 4172,
+      "id": 4168,
       "name": "Mayank Kumar",
       "firm": "TLH Advocates & Solicitors",
       "role": "Senior Associate",
@@ -102291,7 +102220,7 @@
       "snapshot": "Trilegal advises Agrow Allied Ventures on raising ₹186 crore from ICICI Ventures"
     },
     {
-      "id": 4115,
+      "id": 4111,
       "name": "Megha Agarwal",
       "firm": "Khaitan & Co",
       "role": "Partner",
@@ -103857,7 +103786,7 @@
       "snapshot": "SAM advises on ₹2,300 crore refinancing of Jayaswal Neco Industries - Bar and Bench"
     },
     {
-      "id": 4110,
+      "id": 4106,
       "name": "Mihir Gupte",
       "firm": "Khaitan & Co",
       "role": "Senior Associate",
@@ -104715,7 +104644,7 @@
       "snapshot": "SAM advises Anzen India on acquisition of majority stake in 12 Solar"
     },
     {
-      "id": 4146,
+      "id": 4142,
       "name": "Mitushi Garg",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Principal Associate",
@@ -109719,7 +109648,7 @@
       "snapshot": "DMD Advocates, JSA act on acquisition of Noble Seeds by BASF | Nunhems"
     },
     {
-      "id": 4109,
+      "id": 4105,
       "name": "Naresh Khanna",
       "firm": "Khaitan & Co",
       "role": "Associate",
@@ -109806,7 +109735,7 @@
       "snapshot": "Lex Consult, JSA act on Supply6 Series A fundraise"
     },
     {
-      "id": 4138,
+      "id": 4134,
       "name": "Narinder Kaul",
       "firm": "Kochhar & Co",
       "role": "Senior Associate",
@@ -110650,7 +110579,7 @@
       "snapshot": "Shardul Amarchand Mangaldas advises SageOne on acquisition by ASK Asset Management"
     },
     {
-      "id": 4114,
+      "id": 4110,
       "name": "Nayantara Kutty",
       "firm": "Khaitan & Co",
       "role": "Partner",
@@ -110968,7 +110897,7 @@
       }
     },
     {
-      "id": 4154,
+      "id": 4150,
       "name": "Neelambera Sandeepan",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Partner",
@@ -111854,7 +111783,7 @@
       "snapshot": "Khaitan & Co, JSA act on Matel ₹130 crore Series B fundraise"
     },
     {
-      "id": 4162,
+      "id": 4158,
       "name": "Netri Agrawal",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Associate",
@@ -116713,13 +116642,16 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
+        "financing",
         "investment"
       ],
       "practice_areas": [
+        "Banking & Finance",
         "Private Equity & Venture Capital"
       ],
       "clients": [
         "Odyssey Energy Solutions",
+        "Piramal Finance Limited",
         "SWAMIH Investment Fund-I"
       ],
       "deals": [
@@ -116745,6 +116677,25 @@
           }
         },
         {
+          "headline": "Dua Associates Advises Piramal Finance Limited In Its Financing Of Nimbus Projects Limited",
+          "client": "Piramal Finance Limited",
+          "url": "https://www.livelaw.in/law-firms/deals/dua-associates-advises-piramal-finance-limited-financing-nimbus-projects-limited-540825",
+          "source": "LiveLaw",
+          "types": [
+            "financing"
+          ],
+          "practice_areas": [
+            "Banking & Finance"
+          ],
+          "value": {
+            "raw": "₹250 crore",
+            "currency": "INR",
+            "amount": 2500000000,
+            "amount_inr": 2500000000,
+            "approx": false
+          }
+        },
+        {
           "headline": "Dua Associates Advises SWAMIH Investment Fund-I On ₹399.5 Crore Funding For Greater Noida Housing Project",
           "client": "SWAMIH Investment Fund-I",
           "url": "https://www.livelaw.in/law-firms/deals/dua-associates-advises-swamih-investment-fund-i-3995-crore-funding-greater-noida-housing-project-520728",
@@ -116764,69 +116715,7 @@
           }
         }
       ],
-      "snapshot": "Dua Associates advises Odyssey Energy Solutions on availing €7 million ECB from BIO",
-      "same_name_elsewhere": [
-        {
-          "id": 4094,
-          "firm": "Dua Associates is a full-service Indian law firm with offices across multiple cities. The firm",
-          "role": "Partner",
-          "deal_count": 1
-        }
-      ],
-      "firm_verification": {
-        "verdict": "UNVERIFIED",
-        "evidence": "Not yet researched."
-      }
-    },
-    {
-      "id": 4094,
-      "name": "Nityashjit Kaur",
-      "firm": "Dua Associates is a full-service Indian law firm with offices across multiple cities. The firm",
-      "role": "Partner",
-      "role_bucket": "Partner",
-      "transaction_types": [
-        "financing"
-      ],
-      "practice_areas": [
-        "Banking & Finance"
-      ],
-      "clients": [
-        "Piramal Finance Limited"
-      ],
-      "deals": [
-        {
-          "headline": "Dua Associates Advises Piramal Finance Limited In Its Financing Of Nimbus Projects Limited",
-          "client": "Piramal Finance Limited",
-          "url": "https://www.livelaw.in/law-firms/deals/dua-associates-advises-piramal-finance-limited-financing-nimbus-projects-limited-540825",
-          "source": "LiveLaw",
-          "types": [
-            "financing"
-          ],
-          "practice_areas": [
-            "Banking & Finance"
-          ],
-          "value": {
-            "raw": "₹250 crore",
-            "currency": "INR",
-            "amount": 2500000000,
-            "amount_inr": 2500000000,
-            "approx": false
-          }
-        }
-      ],
-      "snapshot": "Dua Associates Advises Piramal Finance Limited In Its Financing Of Nimbus Projects Limited",
-      "same_name_elsewhere": [
-        {
-          "id": 3399,
-          "firm": "Dua Associates",
-          "role": "Partner",
-          "deal_count": 2
-        }
-      ],
-      "firm_verification": {
-        "verdict": "UNVERIFIED",
-        "evidence": "Not yet researched."
-      }
+      "snapshot": "Dua Associates advises Odyssey Energy Solutions on availing €7 million ECB from BIO"
     },
     {
       "id": 194,
@@ -118444,7 +118333,7 @@
       "snapshot": "Trilegal advises Körber on acquiring 100% ownership of Godrej Körber Supply Chain"
     },
     {
-      "id": 4171,
+      "id": 4167,
       "name": "Palash Taing",
       "firm": "TLH Advocates & Solicitors",
       "role": "Principal Associate",
@@ -119316,7 +119205,7 @@
       "snapshot": "Trilegal, Khaitan & Co, Hogan Lovells Cadwalader act on INDO-MIM ₹3,812 crore IPO"
     },
     {
-      "id": 4127,
+      "id": 4123,
       "name": "Parimal Kaushik",
       "firm": "Khaitan & Co",
       "role": "Associate",
@@ -119592,7 +119481,7 @@
       "snapshot": "CAM, AZB act on Warburg Pincus acquiring stake in Fleur Hotels - Bar and Bench",
       "same_name_elsewhere": [
         {
-          "id": 4157,
+          "id": 4153,
           "firm": "Lakshmikumaran & Sridharan Attorneys",
           "role": "Principal Associate",
           "deal_count": 1
@@ -119604,7 +119493,7 @@
       }
     },
     {
-      "id": 4157,
+      "id": 4153,
       "name": "Parth Agrawal",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Principal Associate",
@@ -122417,7 +122306,7 @@
       "snapshot": "Aritra Partners, JSA act on Ethereal Machines $28.5 million Series B fundraise"
     },
     {
-      "id": 4107,
+      "id": 4103,
       "name": "Pragyansh Nigam",
       "firm": "Khaitan & Co",
       "role": "Senior Associate",
@@ -125102,13 +124991,16 @@
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
+        "financing",
         "investment"
       ],
       "practice_areas": [
+        "Banking & Finance",
         "Private Equity & Venture Capital"
       ],
       "clients": [
         "Odyssey Energy Solutions",
+        "Piramal Finance Limited",
         "SWAMIH Investment Fund-I",
         "Kwality Animal Feeds Private Limited"
       ],
@@ -125131,6 +125023,25 @@
             "currency": "EUR",
             "amount": 7000000,
             "amount_inr": 672000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Dua Associates Advises Piramal Finance Limited In Its Financing Of Nimbus Projects Limited",
+          "client": "Piramal Finance Limited",
+          "url": "https://www.livelaw.in/law-firms/deals/dua-associates-advises-piramal-finance-limited-financing-nimbus-projects-limited-540825",
+          "source": "LiveLaw",
+          "types": [
+            "financing"
+          ],
+          "practice_areas": [
+            "Banking & Finance"
+          ],
+          "value": {
+            "raw": "₹250 crore",
+            "currency": "INR",
+            "amount": 2500000000,
+            "amount_inr": 2500000000,
             "approx": false
           }
         },
@@ -125169,69 +125080,7 @@
           }
         }
       ],
-      "snapshot": "Dua Associates advises Odyssey Energy Solutions on availing €7 million ECB from BIO",
-      "same_name_elsewhere": [
-        {
-          "id": 4092,
-          "firm": "Dua Associates is a full-service Indian law firm with offices across multiple cities. The firm",
-          "role": "Partner",
-          "deal_count": 1
-        }
-      ],
-      "firm_verification": {
-        "verdict": "UNVERIFIED",
-        "evidence": "Not yet researched."
-      }
-    },
-    {
-      "id": 4092,
-      "name": "Prateek Bedi",
-      "firm": "Dua Associates is a full-service Indian law firm with offices across multiple cities. The firm",
-      "role": "Partner",
-      "role_bucket": "Partner",
-      "transaction_types": [
-        "financing"
-      ],
-      "practice_areas": [
-        "Banking & Finance"
-      ],
-      "clients": [
-        "Piramal Finance Limited"
-      ],
-      "deals": [
-        {
-          "headline": "Dua Associates Advises Piramal Finance Limited In Its Financing Of Nimbus Projects Limited",
-          "client": "Piramal Finance Limited",
-          "url": "https://www.livelaw.in/law-firms/deals/dua-associates-advises-piramal-finance-limited-financing-nimbus-projects-limited-540825",
-          "source": "LiveLaw",
-          "types": [
-            "financing"
-          ],
-          "practice_areas": [
-            "Banking & Finance"
-          ],
-          "value": {
-            "raw": "₹250 crore",
-            "currency": "INR",
-            "amount": 2500000000,
-            "amount_inr": 2500000000,
-            "approx": false
-          }
-        }
-      ],
-      "snapshot": "Dua Associates Advises Piramal Finance Limited In Its Financing Of Nimbus Projects Limited",
-      "same_name_elsewhere": [
-        {
-          "id": 3400,
-          "firm": "Dua Associates",
-          "role": "Partner",
-          "deal_count": 3
-        }
-      ],
-      "firm_verification": {
-        "verdict": "UNVERIFIED",
-        "evidence": "Not yet researched."
-      }
+      "snapshot": "Dua Associates advises Odyssey Energy Solutions on availing €7 million ECB from BIO"
     },
     {
       "id": 2029,
@@ -132041,7 +131890,7 @@
       "snapshot": "Khaitan & Co advises Reliance on exclusive India partnership with Fabletics"
     },
     {
-      "id": 4104,
+      "id": 4100,
       "name": "Rahul Goyal",
       "firm": "Dua Associates",
       "role": "Principal Associate",
@@ -134415,7 +134264,7 @@
       "snapshot": "SAM, Khaitan, A&O Shearman act on Tenneco India ₹3,600 crore IPO - Bar and Bench"
     },
     {
-      "id": 4130,
+      "id": 4126,
       "name": "Rajshree Lohia",
       "firm": "Khaitan & Co",
       "role": "Senior Associate",
@@ -139311,69 +139160,22 @@
       "snapshot": "JSA acts on Goyaz Jewellery ₹130 crore Series A Fundraise"
     },
     {
-      "id": 4099,
+      "id": 4095,
       "name": "Rishabh Halwai",
       "firm": "Dua Associates",
-      "role": "Senior Associate",
-      "role_bucket": "Senior Associate",
-      "transaction_types": [
-        "investment"
-      ],
-      "practice_areas": [
-        "Private Equity & Venture Capital"
-      ],
-      "clients": [
-        "SWAMIH Investment Fund-I"
-      ],
-      "deals": [
-        {
-          "headline": "Dua Associates Advises SWAMIH Investment Fund-I On ₹399.5 Crore Funding For Greater Noida Housing Project",
-          "client": "SWAMIH Investment Fund-I",
-          "url": "https://www.livelaw.in/law-firms/deals/dua-associates-advises-swamih-investment-fund-i-3995-crore-funding-greater-noida-housing-project-520728",
-          "source": "LiveLaw",
-          "types": [
-            "investment"
-          ],
-          "practice_areas": [
-            "Private Equity & Venture Capital"
-          ],
-          "value": {
-            "raw": "₹399.5 Crore",
-            "currency": "INR",
-            "amount": 3995000000,
-            "amount_inr": 3995000000,
-            "approx": false
-          }
-        }
-      ],
-      "snapshot": "Dua Associates Advises SWAMIH Investment Fund-I On ₹399.5 Crore Funding For Greater Noida Housing Project",
-      "same_name_elsewhere": [
-        {
-          "id": 4097,
-          "firm": "Dua Associates is a full-service Indian law firm with offices across multiple cities. The firm",
-          "role": "Principal Associate",
-          "deal_count": 1
-        }
-      ],
-      "firm_verification": {
-        "verdict": "UNVERIFIED",
-        "evidence": "Not yet researched."
-      }
-    },
-    {
-      "id": 4097,
-      "name": "Rishabh Halwai",
-      "firm": "Dua Associates is a full-service Indian law firm with offices across multiple cities. The firm",
       "role": "Principal Associate",
       "role_bucket": "Principal Associate",
       "transaction_types": [
-        "financing"
+        "financing",
+        "investment"
       ],
       "practice_areas": [
-        "Banking & Finance"
+        "Banking & Finance",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Piramal Finance Limited"
+        "Piramal Finance Limited",
+        "SWAMIH Investment Fund-I"
       ],
       "deals": [
         {
@@ -139394,21 +139196,28 @@
             "amount_inr": 2500000000,
             "approx": false
           }
-        }
-      ],
-      "snapshot": "Dua Associates Advises Piramal Finance Limited In Its Financing Of Nimbus Projects Limited",
-      "same_name_elsewhere": [
+        },
         {
-          "id": 4099,
-          "firm": "Dua Associates",
-          "role": "Senior Associate",
-          "deal_count": 1
+          "headline": "Dua Associates Advises SWAMIH Investment Fund-I On ₹399.5 Crore Funding For Greater Noida Housing Project",
+          "client": "SWAMIH Investment Fund-I",
+          "url": "https://www.livelaw.in/law-firms/deals/dua-associates-advises-swamih-investment-fund-i-3995-crore-funding-greater-noida-housing-project-520728",
+          "source": "LiveLaw",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "₹399.5 Crore",
+            "currency": "INR",
+            "amount": 3995000000,
+            "amount_inr": 3995000000,
+            "approx": false
+          }
         }
       ],
-      "firm_verification": {
-        "verdict": "UNVERIFIED",
-        "evidence": "Not yet researched."
-      }
+      "snapshot": "Dua Associates Advises Piramal Finance Limited In Its Financing Of Nimbus Projects Limited"
     },
     {
       "id": 3364,
@@ -139782,7 +139591,7 @@
       "snapshot": "Khaitan & Co, Hogan Lovells Cadwalader act on Aditya Infotech ₹1,500 crore QIP"
     },
     {
-      "id": 4168,
+      "id": 4164,
       "name": "Rishev Andotra",
       "firm": "Singhania & Co",
       "role": "Associate",
@@ -140526,7 +140335,7 @@
       "snapshot": "Shardul Amarchand Mangaldas, Khaitan, Davis Polk act on Crystal Crop Protection's ..."
     },
     {
-      "id": 4121,
+      "id": 4117,
       "name": "Rithika Reddy Varanasi",
       "firm": "Khaitan & Co",
       "role": "Partner",
@@ -142524,7 +142333,7 @@
       "snapshot": "Lex Consult, JSA act on Supply6 Series A fundraise",
       "same_name_elsewhere": [
         {
-          "id": 4163,
+          "id": 4159,
           "firm": "Singhania & Co",
           "role": "Managing Partner",
           "deal_count": 2
@@ -142536,7 +142345,7 @@
       }
     },
     {
-      "id": 4163,
+      "id": 4159,
       "name": "Rohit Jain",
       "firm": "Singhania & Co",
       "role": "Managing Partner",
@@ -146253,7 +146062,7 @@
       "snapshot": "Capitaland sells ITPC Chennai to Mindspace, 360 One for ₹3000 crore - Bar and Bench"
     },
     {
-      "id": 4106,
+      "id": 4102,
       "name": "Sahil Dhawan",
       "firm": "Dua Associates",
       "role": "Partner",
@@ -147769,7 +147578,7 @@
       "snapshot": "Khaitan & Co, Trilegal act on ESDS ₹720 crore IPO"
     },
     {
-      "id": 4105,
+      "id": 4101,
       "name": "Salil Gulati",
       "firm": "Dua Associates",
       "role": "Partner",
@@ -154576,7 +154385,7 @@
       "snapshot": "JSA acts on Shubham Housing Development Finance $96 million fundraise"
     },
     {
-      "id": 4148,
+      "id": 4144,
       "name": "Satwik Mohapatra",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Associate",
@@ -161484,7 +161293,7 @@
       "snapshot": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Piramal Finance ₹2,100 crore QIP"
     },
     {
-      "id": 4112,
+      "id": 4108,
       "name": "Shivansh Jain",
       "firm": "Khaitan & Co",
       "role": "Associate",
@@ -168073,7 +167882,7 @@
       "snapshot": "CAM advises Inox Clean Energy on acquisition of SkyPower MENA - BarandBench"
     },
     {
-      "id": 4111,
+      "id": 4107,
       "name": "Siddhant Shetty",
       "firm": "Khaitan & Co",
       "role": "Senior Associate",
@@ -174309,7 +174118,7 @@
       "snapshot": "CAM advises Cerberus and IFC on ₹1,600 crore NCD subscription - Bar and Bench"
     },
     {
-      "id": 4149,
+      "id": 4145,
       "name": "Srabonee Roy",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Partner",
@@ -179819,7 +179628,7 @@
       "snapshot": "Rajani Associates assists Associated Power Structures on securing ₹1,225 crore from ..."
     },
     {
-      "id": 4151,
+      "id": 4147,
       "name": "Sushmita Sharma",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Associate",
@@ -185020,7 +184829,7 @@
       "snapshot": "TT&A, Paul Weiss, Avisen Legal act on Carrier acquiring 75F Inc."
     },
     {
-      "id": 4122,
+      "id": 4118,
       "name": "Tomu Francis",
       "firm": "Khaitan & Co",
       "role": "Partner",
@@ -185198,7 +185007,7 @@
       "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha..."
     },
     {
-      "id": 4102,
+      "id": 4098,
       "name": "Toyesh Tewari",
       "firm": "Dua Associates",
       "role": "Partner",
@@ -185236,9 +185045,9 @@
       "snapshot": "Dua Associates Advises SWAMIH Investment Fund-I On ₹399.5 Crore Funding For Greater Noida Housing Project"
     },
     {
-      "id": 4096,
+      "id": 4094,
       "name": "Toyesh Tiwari",
-      "firm": "Dua Associates is a full-service Indian law firm with offices across multiple cities. The firm",
+      "firm": "Dua Associates",
       "role": "Partner",
       "role_bucket": "Partner",
       "transaction_types": [
@@ -187213,7 +187022,7 @@
       "snapshot": "SAM, CAM, Hogan Lovells act on Billdesk's acquisition of Worldline"
     },
     {
-      "id": 4166,
+      "id": 4162,
       "name": "Utkarsh Gaba",
       "firm": "Singhania & Co",
       "role": "Senior Associate",
@@ -195810,7 +195619,7 @@
       "snapshot": "Trilegal advises Carlyle on ₹2,100 crore stake acquisition in Edelweiss's Nido Home Finance"
     },
     {
-      "id": 4129,
+      "id": 4125,
       "name": "Vishakha Ranga",
       "firm": "Khaitan & Co",
       "role": "Associate",
@@ -198397,7 +198206,7 @@
       "snapshot": "JSA advises TIL on rights issue and stake acquisition in Tulip Compression - Bar and Bench"
     },
     {
-      "id": 4126,
+      "id": 4122,
       "name": "Yajas Achal",
       "firm": "Khaitan & Co",
       "role": "Associate",
@@ -201372,7 +201181,7 @@
       "snapshot": "Trilegal advises Sona Comstar on partnership with Japan's DENSO Corp"
     },
     {
-      "id": 4131,
+      "id": 4127,
       "name": "Zarish Ali",
       "firm": "JSA Advocates & Solicitors",
       "role": "Principal Associate",
@@ -201410,7 +201219,7 @@
       "snapshot": "Khaitan & Co Advises PwC US On Joint Venture With PwC India"
     },
     {
-      "id": 4124,
+      "id": 4120,
       "name": "Zarnaab Aswad",
       "firm": "Khaitan & Co",
       "role": "Principal Associate",
