@@ -48,6 +48,7 @@ from build_directory import (  # noqa: E402
     normalize_name,
 )
 from extraction import (  # noqa: E402
+    published_at_from_html,
     BASE,
     CURRENCY_SYMBOL,
     DEAL_SENTENCE,
@@ -277,6 +278,7 @@ def parse_article(url, headline):
             "headline": headline,
             "client": None,
             "source": "Bar & Bench",
+            "published_at": published_at_from_html(html),
             "url": url,
             "snippet": snippet,
             "law_firms": law_firms,
@@ -305,6 +307,7 @@ def parse_article(url, headline):
         "headline": headline,
         "client": parsed["client"],
         "source": "Bar & Bench",
+        "published_at": published_at_from_html(html),
         "url": url,
         "snippet": snippet,
         "law_firms": law_firms,

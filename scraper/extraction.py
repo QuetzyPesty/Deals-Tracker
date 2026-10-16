@@ -151,6 +151,19 @@ def parse_headline(headline):
     return {"law_firms": firms, "client": client, "transaction_types": txn_types}
 
 
+_DATE_PUBLISHED_RE = re.compile(r'"datePublished"\s*:\s*"([^"]+)"')
+_META_PUBLISHED_RE = re.compile(
+    r'<meta[^>]+(?:property|name)=["\']article:published_time["\'][^>]+content=["\']([^"\']+)["\']', re.I)
+
+
+def published_at_from_html(html):
+    """ISO publish timestamp from a page's JSON-LD (`datePublished`) or
+    article:published_time meta tag, or None. Regex rather than a parse so it
+    is cheap to call on every article."""
+    m = _DATE_PUBLISHED_RE.search(html or "") or _META_PUBLISHED_RE.search(html or "")
+    return m.group(1).strip() if m else None
+
+
 # --- headline shapes used by Legal Era / LiveLaw -------------------------------
 # Bar & Bench writes "Khaitan advises Foo on bar". The other outlets write
 # Title Case past tense ("Khaitan & Co Advised Foo On Bar"), sometimes with the

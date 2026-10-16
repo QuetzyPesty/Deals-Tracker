@@ -17,6 +17,8 @@ SOURCE_FILES = [
     BASE / "livelaw_deals.json",
 ]
 DEDUP_REPORT_PATH = BASE / "dedup_report.json"
+CCI_PATH = BASE / "cci_filings.json"
+CCI_REPORT_PATH = BASE / "cci_report.json"
 DB_PATH = BASE / "legal_directory.db"
 JSON_PATH = BASE / "legal_directory.json"
 VERIFICATION_PATH = BASE / "firm_history_verification.json"
@@ -429,12 +431,24 @@ def main():
         if path.exists():
             deals += json.loads(path.read_text())
 
+    # Publication dates recovered after the fact (legacy records, one-off
+    # backfill). A record's own published_at always wins.
+    sys.path.insert(0, str(BASE / "scraper"))
+    import dates  # noqa: E402
+    dated = dates.apply_sidecar(deals, dates.load_sidecar(BASE / "deal_dates.json"))
+
     # Strict cross-source dedup. The same deal is re-published by several
     # outlets under different URLs; deals.url UNIQUE alone cannot see that.
-    sys.path.insert(0, str(BASE / "scraper"))
     import dedup  # noqa: E402  (lazy: dedup imports extraction, which imports this module)
     deals, dedup_report = dedup.dedupe(deals, is_personnel_move, best_role)
     DEDUP_REPORT_PATH.write_text(json.dumps(dedup_report, indent=2, ensure_ascii=False))
+
+    # CCI merger-control filings, attached to deals by name (annotation only;
+    # see scraper/cci_match.py for why it prefers a miss to a wrong match).
+    import cci_match  # noqa: E402
+    filings = json.loads(CCI_PATH.read_text()) if CCI_PATH.exists() else []
+    cci_report = cci_match.attach(deals, filings)
+    CCI_REPORT_PATH.write_text(json.dumps(cci_report, indent=2, ensure_ascii=False))
     verification = json.loads(VERIFICATION_PATH.read_text()) if VERIFICATION_PATH.exists() else {}
     verification.pop("_readme", None)
 
@@ -477,6 +491,12 @@ def main():
         );
         -- Every outlet that carried a deal. deals.url/source is the richest
         -- copy; the rest are the same deal re-published elsewhere.
+        -- A CCI combination filing attached to a deal by name matching.
+        CREATE TABLE deal_cci (
+            deal_id INTEGER REFERENCES deals(id),
+            combination_no TEXT, status TEXT, notified TEXT, decided TEXT,
+            summary_url TEXT, order_url TEXT, parties TEXT
+        );
         CREATE TABLE deal_sources (
             deal_id INTEGER REFERENCES deals(id),
             source TEXT,
@@ -590,6 +610,15 @@ def main():
                     (deal_id, other.get("source"), other.get("url")),
                 )
 
+            if d.get("cci"):
+                c = d["cci"]
+                cur.execute(
+                    "INSERT INTO deal_cci(deal_id, combination_no, status, notified, decided, "
+                    "summary_url, order_url, parties) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+                    (deal_id, c.get("combination_no"), c.get("status"), c.get("notified"),
+                     c.get("decided"), c.get("summary_url"), c.get("order_url"), c.get("parties")),
+                )
+
             types = d.get("transaction_types", [])
             for t in types:
                 cur.execute(
@@ -663,7 +692,8 @@ def main():
         deal_rows = cur.execute(
             """
             SELECT d.id, d.headline, d.client, d.url, d.source, pd.client_override,
-                   d.value_raw, d.value_currency, d.value_amount, d.value_inr, d.value_approx
+                   d.value_raw, d.value_currency, d.value_amount, d.value_inr, d.value_approx,
+                   d.published_at
             FROM deals d
             JOIN person_deals pd ON pd.deal_id = d.id
             WHERE pd.person_id = ?
@@ -676,7 +706,7 @@ def main():
         txn_types = set()
         practice_areas = set()
         for (did, headline, client, url, source, client_override,
-             v_raw, v_cur, v_amt, v_inr, v_approx) in deal_rows:
+             v_raw, v_cur, v_amt, v_inr, v_approx, published_at) in deal_rows:
             effective_client = client_override or client
             if effective_client and effective_client not in clients:
                 clients.append(effective_client)
@@ -702,12 +732,20 @@ def main():
                     (did,),
                 ).fetchall()
             ]
+            cci_row = cur.execute(
+                "SELECT combination_no, status, notified, decided, summary_url, order_url, parties "
+                "FROM deal_cci WHERE deal_id = ?", (did,)
+            ).fetchone()
             deals_list.append(
                 {
                     "headline": headline,
                     "client": effective_client,
                     "url": url,
                     "source": source,
+                    **({"published_at": published_at[:10]} if published_at else {}),
+                    **({"cci": dict(zip(
+                        ("combination_no", "status", "notified", "decided",
+                         "summary_url", "order_url", "parties"), cci_row))} if cci_row else {}),
                     **({"also_reported_by": also} if also else {}),
                     "types": types,
                     "practice_areas": areas,

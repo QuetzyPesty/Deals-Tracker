@@ -51,8 +51,14 @@ NESTED_SAME_COUNSEL_MIN = 3   # shared firm, one headline nested in the other, s
 NESTED_ENTITIES_MIN = 5       # no shared firm, one headline nested in the other
 PEOPLE_JACCARD_MIN = 0.6
 VALUE_TOLERANCE = 0.15        # same deal quoted in INR vs USD at different rates
-DATE_WINDOW_DAYS = 14
-HEADLINE_DATE_WINDOW_DAYS = 45  # identical headline, republished later
+# Measured, not guessed: once publication dates existed for 98% of records, the
+# merged pairs' gaps were 0-9 days for most and up to 72 days for outlets that
+# covered signing and completion separately (RPG Life Sciences 63, Dhoot
+# Transmission 72). A 14-day window had split five real duplicates. Widening
+# past 90 adds no further merges; value/entity/round/type vetoes, not the
+# date, are what keep recurring issuers apart.
+DATE_WINDOW_DAYS = 90
+HEADLINE_DATE_WINDOW_DAYS = 120  # identical headline, republished later
 
 SOURCE_BY_HOST = {
     "barandbench.com": "Bar & Bench",

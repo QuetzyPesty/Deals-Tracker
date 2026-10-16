@@ -183,6 +183,16 @@ check("same wording template, different company (Series A pattern)",
       n_after([rec("JSA acts on Deccan AI $25 million Series A fundraise", BB + "d", ["JSA Advocates & Solicitors"]),
                rec("JSA acts on Bacancy Systems Series A fundraise", BB + "b", ["JSA Advocates & Solicitors"])]) == 2)
 
+check("same deal covered at signing and at completion, 63 days apart (real RPG Life Sciences gap)",
+      n_after([rec("Khaitan & Co assists RPG Life Sciences on carve-out of its API business", BB + "rpg", ["Khaitan & Co"],
+                   published_at="2026-08-04"),
+               rec("Khaitan & Co Advises RPG Life Sciences On API Business Carve-Out and InvAscent Investment", LL + "rpg-1",
+                   ["Khaitan & Co"], published_at="2026-10-06")]) == 1)
+
+check("same issuer, near-identical wording, 120+ days apart stays two deals",
+      n_after([rec("Trilegal advises Foo Infra on bond issuance", LE + "x-1", ["Trilegal"], published_at="2026-01-05"),
+               rec("Trilegal advises Foo Infra on bond issuance programme", LL + "y-2", ["Trilegal"], published_at="2026-05-20")]) == 2)
+
 check("same deal wording but dates months apart (recurring issuer)",
       n_after([rec("Trilegal advises Foo Infra on bond issuance", LE + "x-1", ["Trilegal"], published_at="2026-01-05"),
                rec("Trilegal advises Foo Infra on bond issuance programme", LL + "y-2", ["Trilegal"], published_at="2026-09-20")]) == 2)

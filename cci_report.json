@@ -1,0 +1,173 @@
+{
+  "filings": 1466,
+  "deals": 711,
+  "matched": [
+    {
+      "headline": "CAM advises Jindal Power on acquisition of 1320 MW thermal power plant in Haryana",
+      "url": "https://www.barandbench.com/dealstreet/cam-advises-jindal-power-on-acquisition-of-1320-mw-thermal-power-plant-in-haryana",
+      "reported": "2025-11-03T11:54:11Z",
+      "combination_no": "C-2025/08/1318",
+      "status": "Approved",
+      "notified": "2025-08-19",
+      "decided": "2025-09-30",
+      "summary_url": "https://www.cci.gov.in/combination/order/details/summary/1628/0/orders-section31",
+      "order_url": "https://www.cci.gov.in/combination/order/details/order/1628/0/orders-section31",
+      "parties": "Jindal Power Limited",
+      "confidence": "high",
+      "entities": [
+        "jindal power"
+      ],
+      "gap_days": -76
+    },
+    {
+      "headline": "CAM, AZB act on Warburg Pincus acquiring stake in Fleur Hotels - Bar and Bench",
+      "url": "https://www.barandbench.com/dealstreet/cam-azb-act-on-warburg-pincus-acquiring-stake-in-fleur-hotels",
+      "reported": "2026-01-16T09:05:00Z",
+      "combination_no": "C-2026/02/1382",
+      "status": "Approved",
+      "notified": "2026-02-10",
+      "decided": "2026-04-07",
+      "summary_url": "https://www.cci.gov.in/combination/order/details/summary/1708/0/orders-section31",
+      "order_url": "https://www.cci.gov.in/combination/order/details/order/1708/0/orders-section31",
+      "parties": "1. Coastal Cedar Investments B.V. 2. Lemon Tree Hotels Limited 3. Fleur Hotels Limited and Others",
+      "confidence": "high",
+      "entities": [
+        "fleur hotels"
+      ],
+      "gap_days": 25
+    },
+    {
+      "headline": "Cyril Amarchand Mangaldas advises True North on sale of majority stake in Shree Digvijay Cement",
+      "url": "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-advises-true-north-on-sale-of-majority-stake-in-shree-digvijay-cement",
+      "reported": "2025-09-11T06:45:03Z",
+      "combination_no": "C-2025/09/1332",
+      "status": "Approved",
+      "notified": "2025-09-24",
+      "decided": "2025-11-18",
+      "summary_url": "https://www.cci.gov.in/combination/order/details/summary/1644/0/orders-section31",
+      "order_url": "https://www.cci.gov.in/combination/order/details/order/1644/0/orders-section31",
+      "parties": "1. India Resurgence Asset Management Business Private Limited - Fund Manager of India Resurgence Fund 2. Shree Digvijay Cement Company Limited",
+      "confidence": "high",
+      "entities": [
+        "shree digvijay cement"
+      ],
+      "gap_days": 13
+    },
+    {
+      "headline": "Emirates NBD set to acquire 60% stake in RBL Bank, SAM, AZB advise - Bar and Bench",
+      "url": "https://www.barandbench.com/dealstreet/emirates-nbd-set-to-acquire-60-stake-in-rbl-bank-sam-azb-advise",
+      "reported": "2025-10-24T13:13:29Z",
+      "combination_no": "C-2025/11/1350",
+      "status": "Approved",
+      "notified": "2025-11-27",
+      "decided": "2026-01-20",
+      "summary_url": "https://www.cci.gov.in/combination/order/details/summary/1667/0/orders-section31",
+      "order_url": "https://www.cci.gov.in/combination/order/details/order/1667/0/orders-section31",
+      "parties": "Emirates NBD Bank (P.J.S.C.)",
+      "confidence": "high",
+      "entities": [
+        "emirates nbd"
+      ],
+      "gap_days": 34
+    },
+    {
+      "headline": "Khaitan & Co, Trilegal act on Blackstone-backed EPL - Indovida Packaging merger",
+      "url": "https://www.barandbench.com/dealstreet/khaitan-co-acts-on-blackstone-backed-epl-indovida-packaging-merger",
+      "reported": "2026-04-02T04:09:11Z",
+      "combination_no": "C-2026/04/1403",
+      "status": "Approved",
+      "notified": "2026-04-01",
+      "decided": "2026-05-26",
+      "summary_url": "https://www.cci.gov.in/combination/order/details/summary/1731/0/orders-section31",
+      "order_url": "https://www.cci.gov.in/combination/order/details/order/1731/0/orders-section31",
+      "parties": "1. Indovida India Private Limited​ 2. EPL Limited",
+      "confidence": "high",
+      "entities": [
+        "indovida"
+      ],
+      "gap_days": -1
+    },
+    {
+      "headline": "Khaitan & Co, Shardul Amarchand Mangaldas act on BNP Paribas Cardif acquiring stake in IndiaFirst Life Insurance",
+      "url": "https://www.barandbench.com/dealstreet/khaitan-co-advises-bnp-paribas-cardif-on-stake-acquisition-in-indiafirst-life-insurance",
+      "reported": "2026-08-05T06:02:09Z",
+      "combination_no": "C-2026/08/1451",
+      "status": "Approved",
+      "notified": "2026-08-10",
+      "decided": "2026-09-29",
+      "summary_url": "https://www.cci.gov.in/combination/order/details/summary/1790/0/orders-section31",
+      "order_url": null,
+      "parties": "BNP Paribas Cardif​",
+      "confidence": "high",
+      "entities": [
+        "bnp paribas cardif"
+      ],
+      "gap_days": 5
+    },
+    {
+      "headline": "Touchstone Partners secures CCI clearance for amalgamation of Go Digit Infoworks with Go Digit General Insurance",
+      "url": "https://www.barandbench.com/dealstreet/touchstone-partners-secures-cci-clearance-for-amalgamation-of-go-digit-infoworks-with-go-digit-general-insurance",
+      "reported": "2026-08-01T04:44:29Z",
+      "combination_no": "C-2026/05/1421",
+      "status": "Approved",
+      "notified": "2026-05-12",
+      "decided": "2026-07-28",
+      "summary_url": "https://www.cci.gov.in/combination/order/details/summary/1753/0/orders-section31",
+      "order_url": "https://www.cci.gov.in/combination/order/details/order/1753/0/orders-section31",
+      "parties": "1. FAL Corporation 2. Go Digit Infoworks Services Private Limited 3. Go Digit General Insurance Limited",
+      "confidence": "high",
+      "entities": [
+        "go digit infoworks",
+        "go digit general insurance"
+      ],
+      "gap_days": -81
+    },
+    {
+      "headline": "Trilegal advises GRT Jewellers on ₹1,034 crore stake acquisition in TBZ",
+      "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-grt-jewellers-on-1034-crore-stake-acquisition-in-tbz",
+      "reported": "2026-09-10T11:42:32Z",
+      "combination_no": "C-2026/09/1461",
+      "status": "Approved",
+      "notified": "2026-09-02",
+      "decided": "2026-10-13",
+      "summary_url": "https://www.cci.gov.in/combination/order/details/summary/1801/0/orders-section31",
+      "order_url": null,
+      "parties": "GRT Jewellers (India) Private Limited​",
+      "confidence": "high",
+      "entities": [
+        "grt jewellers"
+      ],
+      "gap_days": -8
+    },
+    {
+      "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+      "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+      "reported": "2026-09-04T10:41:57Z",
+      "combination_no": "C-2026/05/1419",
+      "status": "Approved",
+      "notified": "2026-05-07",
+      "decided": "2026-07-07",
+      "summary_url": "https://www.cci.gov.in/combination/order/details/summary/1751/0/orders-section31",
+      "order_url": "https://www.cci.gov.in/combination/order/details/order/1751/0/orders-section31",
+      "parties": "1. upGrad Education Private Limited 2. Sorting Hat Technologies Private Limited",
+      "confidence": "high",
+      "entities": [
+        "upgrad"
+      ],
+      "gap_days": -120
+    }
+  ],
+  "ambiguous": [],
+  "reasons": {
+    "no-name-evidence": 203,
+    "type-gate": 438,
+    "evidence-below-threshold": 59,
+    "matched": 11
+  },
+  "filing_claimed_by_several_deals": {
+    "C-2025/06/1294": [
+      "JSA, TT&A, Ashurst act on SMBC sale of shares in Kotak Mahindra Bank for Rs 6,256 crore",
+      "SMBC acquires further stake in YES Bank from Carlyle, JSA, SAM advise - Bar and Bench"
+    ]
+  }
+}

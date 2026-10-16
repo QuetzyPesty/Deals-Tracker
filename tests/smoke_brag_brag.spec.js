@@ -250,3 +250,99 @@ test('a single-outlet deal shows no "also:" label', async ({ page }) => {
   });
   expect(meta).not.toContain('also:');
 });
+
+// ----------------------------------------------------------- recency / date reported
+test('sorting by most recent deal orders people by their newest reported date, undated last', async ({ page }) => {
+  const errors = [];
+  page.on('pageerror', e => errors.push(String(e)));
+  await page.goto('/index.html');
+  await page.selectOption('#sortSelect', 'recent');
+  const r = await page.evaluate(() => {
+    const ids = [...document.querySelectorAll('.person-row')].slice(0, 400).map(e => +e.getAttribute('data-id'));
+    const last = ids.map(id => lastDealDate(PEOPLE.find(p => p.id === id)));
+    return { last, firstCell: document.querySelector('.person-row .deal-count').innerText };
+  });
+  const dated = r.last.filter(x => x !== null);
+  expect(dated.length).toBeGreaterThan(10);
+  expect(dated).toEqual([...dated].sort().reverse());
+  // once an undated person appears, nobody dated may follow
+  const firstNull = r.last.indexOf(null);
+  if (firstNull !== -1) expect(r.last.slice(firstNull).every(x => x === null)).toBe(true);
+  expect(r.firstCell).toMatch(/last deal/);
+  expect(errors).toEqual([]);
+});
+
+test('"reported within" filter keeps only people with a deal in the window, persists and clears', async ({ page }) => {
+  await page.goto('/index.html');
+  await page.evaluate(() => { state.recencyDays = 0; });
+  const total = await page.evaluate(() => PEOPLE.length);
+  await page.locator('[data-recency="365"]').click();
+  const r = await page.evaluate(() => ({
+    shown: [...document.querySelectorAll('.person-row')].map(e => +e.getAttribute('data-id')),
+    expected: PEOPLE.filter(p => p.deals.some(d => { const n = daysSince(dealDate(d)); return n !== null && n <= 365; })).map(p => p.id),
+    hash: location.hash,
+  }));
+  expect(r.expected.length).toBeGreaterThan(0);
+  expect(r.expected.length).toBeLessThan(total);
+  expect(new Set(r.shown)).toEqual(new Set(r.expected.slice(0, r.shown.length)));
+  expect(r.hash).toContain('recent=365');
+
+  await page.reload();
+  expect(await page.evaluate(() => state.recencyDays)).toBe(365);
+  await page.locator('#clearFiltersBtn').click();
+  expect(await page.evaluate(() => state.recencyDays)).toBe(0);
+});
+
+test('an undated deal is unknown, not recent: it never passes a recency filter', async ({ page }) => {
+  await page.goto('/index.html');
+  const r = await page.evaluate(() => {
+    const undatedOnly = PEOPLE.find(p => p.deals.length && p.deals.every(d => !dealDate(d)));
+    if (!undatedOnly) return { skipped: true };
+    state.recencyDays = 365;
+    return { skipped: false, passes: matchesRecency(undatedOnly) };
+  });
+  if (!r.skipped) expect(r.passes).toBe(false);
+});
+
+test('a malformed recent= hash value is ignored', async ({ page }) => {
+  const errors = [];
+  page.on('pageerror', e => errors.push(String(e)));
+  await page.goto('/index.html#recent=7');
+  expect(await page.evaluate(() => state.recencyDays)).toBe(0);
+  expect(errors).toEqual([]);
+});
+
+test('deal cards show the reported date and, when matched, an outbound CCI link', async ({ page }) => {
+  await page.goto('/index.html');
+  const r = await page.evaluate(() => {
+    const dated = PEOPLE.find(p => p.deals.some(d => dealDate(d)));
+    const withCci = PEOPLE.find(p => p.deals.some(d => d.cci));
+    const open = (p) => { state.selectedId = p.id; renderDetail(); return [...document.querySelectorAll('.deal-card')]; };
+    const cards = open(dated);
+    const dateCard = cards.find(c => c.querySelector('.deal-date'));
+    const out = { dateText: dateCard ? dateCard.querySelector('.deal-date').innerText : null };
+    if (withCci) {
+      const ccards = open(withCci);
+      const b = ccards.map(c => c.querySelector('a.cci-badge')).find(Boolean);
+      out.cci = b ? { href: b.getAttribute('href'), target: b.getAttribute('target'), rel: b.getAttribute('rel'), text: b.innerText } : null;
+    }
+    return out;
+  });
+  expect(r.dateText).toMatch(/^Reported \d{1,2} \w{3} \d{4}$/);
+  if (r.cci !== undefined && r.cci) {
+    expect(r.cci.href).toMatch(/^https:\/\/www\.cci\.gov\.in\//);
+    expect(r.cci.target).toBe('_blank');
+    expect(r.cci.rel).toMatch(/noopener/);
+    expect(r.cci.text).toMatch(/^CCI/);
+  }
+});
+
+test('profile shows the latest deal reported', async ({ page }) => {
+  await page.goto('/index.html');
+  const r = await page.evaluate(() => {
+    const p = PEOPLE.find(x => x.deals.some(d => dealDate(d)));
+    state.selectedId = p.id; renderDetail();
+    return { chip: document.querySelector('#lastDealChip').innerText, expected: fmtDate(lastDealDate(p)) };
+  });
+  expect(r.chip).toContain(r.expected);
+});
