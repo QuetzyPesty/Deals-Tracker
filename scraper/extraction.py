@@ -112,13 +112,32 @@ TXN_KEYWORDS = (
 )
 
 
+def split_firm_names(raw):
+    """Split "A, B and C" into firm names without breaking a firm whose own
+    name contains "and": "Luthra and Luthra" is one firm, not "Luthra" twice.
+    A pair of neighbours is rejoined when the joined text is a known firm
+    (an alias or canonical name in build_directory.FIRM_ALIASES)."""
+    out = []
+    for chunk in re.split(r",\s*", raw.strip()):
+        pieces = re.split(r"\s+and\s+", chunk, flags=re.I)
+        i = 0
+        while i < len(pieces):
+            # longest known firm first, so "A and B and C" can rejoin the A+B pair
+            for j in range(len(pieces), i + 1, -1):
+                joined = " and ".join(pieces[i:j])
+                if joined.strip().lower() in FIRM_ALIASES:
+                    out.append(joined.strip())
+                    i = j
+                    break
+            else:
+                out.append(pieces[i].strip())
+                i += 1
+    return [p for p in out if p]
+
+
 def split_firm_list(raw):
-    parts = re.split(r",\s*|\s+and\s+", raw.strip())
     firms = []
-    for p in parts:
-        p = p.strip()
-        if not p:
-            continue
+    for p in split_firm_names(raw):
         cname = canonical_firm(p)
         if cname:
             firms.append(cname)
@@ -185,9 +204,8 @@ _CLIENT_CUT = re.compile(r"\s+(?:on|in|for|to|through|by|from|of|with|over)\s+|[
 
 
 def _split_firms_loose(raw):
-    parts = re.split(r",\s*|\s+and\s+", raw.strip(), flags=re.I)
     out = []
-    for p in parts:
+    for p in split_firm_names(raw):
         c = canonical_firm(p.strip())
         if c and c not in out:
             out.append(c)
@@ -751,6 +769,16 @@ def clean_firm_candidate(raw):
     return name
 
 
+def split_fused_firms(name):
+    """"Dentons Link Legal and Hogan Lovells Cadwalader advised the BRLM" names
+    two firms, not one. Split only when EVERY piece opens with a known firm, so
+    "Advocates and Solicitors" or "Luthra and Luthra" stay whole."""
+    parts = split_firm_names(name)
+    if len(parts) > 1 and all(leading_known_firm(p) for p in parts):
+        return parts
+    return [name]
+
+
 def body_attribution_firms(paragraphs):
     """Names that open a firm-attribution sentence, in document order."""
     out = []
@@ -764,7 +792,28 @@ def body_attribution_firms(paragraphs):
         raw = clean_firm_candidate(raw)
         if not raw:
             continue
-        if raw not in out:
+        for name in split_fused_firms(raw):
+            if name not in out:
+                out.append(name)
+    return out
+
+
+def _attributed_names(paragraphs, topics):
+    """body_attribution_firms() with fused names split: "Sidley Austin and FBT
+    Gibbons advised ..." names two firms. Split only when at least one piece is
+    vouched for (a page topic tag or the known-firm list) and no piece is a
+    bare law word, so "Saraf and Partners" or "Advocates and Solicitors" stay
+    whole. Each piece still has to pass the topic check on its own afterwards,
+    so an unvouched piece is dropped, never invented."""
+    out = []
+    for raw in body_attribution_firms(paragraphs):
+        parts = split_firm_names(raw)
+        vouched = [bool(_topic_match(p, topics) or leading_known_firm(p)) for p in parts]
+        if (len(parts) > 1 and any(vouched)
+                and all(v or (len(p.split()) >= 2 and not _LAW_WORD_RE.fullmatch(p))
+                        for p, v in zip(parts, vouched))):
+            out.extend(parts)
+        else:
             out.append(raw)
     return out
 
@@ -777,7 +826,7 @@ def firms_from_names(names, paragraphs):
     if not topics:
         return []
     firms = []
-    for raw in body_attribution_firms(paragraphs):
+    for raw in _attributed_names(paragraphs, topics):
         if not _topic_match(raw, topics):
             continue
         cname = canonical_firm(raw)
@@ -794,7 +843,7 @@ def firms_from_topics(html, paragraphs):
     if not topics:
         return []
     firms = []
-    for raw in body_attribution_firms(paragraphs):
+    for raw in _attributed_names(paragraphs, topics):
         if not _topic_match(raw, topics):
             continue
         cname = canonical_firm(raw)

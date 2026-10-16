@@ -186,6 +186,43 @@ check("every firm in every committed source file is a plausible name",
       [f for name in ("barandbench_deals.json", "legalera_deals.json", "livelaw_deals.json")
        for d in json.loads((ROOT / name).read_text()) for f in d["law_firms"] if not firm_ok(f)])
 
+# ----------------------------------------------- firms whose name contains "and"
+print("fused and split firm names")
+import extraction as _ex  # noqa: E402
+from build_directory import canonical_firm  # noqa: E402
+
+for parse_fn in (_ex.parse_headline, _ex.parse_headline_loose):
+    check(f"{parse_fn.__name__}: 'Luthra and Luthra' stays one firm",
+          parse_fn("Luthra and Luthra acts on Armee Infotech on ₹300 crore IPO")["law_firms"] == ["Luthra and Luthra"],
+          parse_fn("Luthra and Luthra acts on Armee Infotech on ₹300 crore IPO")["law_firms"])
+    check(f"{parse_fn.__name__}: 'Crawford Bayley, Luthra and Luthra' is two firms",
+          parse_fn("Crawford Bayley, Luthra and Luthra act on Master Chains IPO")["law_firms"]
+          == ["Crawford Bayley", "Luthra and Luthra"])
+    check(f"{parse_fn.__name__}: 'AZB and Trilegal' is still two firms",
+          parse_fn("AZB and Trilegal act on Foo IPO")["law_firms"] == ["AZB & Partners", "Trilegal"])
+
+check("one firm written three ways is one firm",
+      {canonical_firm(n) for n in ("Kanga & Co", "Kanga & Company, Advocates and Solicitors", "Kanga and Co")} == {"Kanga & Co"}
+      and {canonical_firm(n) for n in ("Luthra and Luthra", "Luthra and Luthra Law Offices India", "Luthra & Luthra")}
+      == {"Luthra and Luthra"})
+check("two known firms joined by 'and' are split",
+      _ex.split_fused_firms("Dentons Link Legal and Hogan Lovells Cadwalader") == ["Dentons Link Legal", "Hogan Lovells Cadwalader"])
+check("a single firm with 'and' in its name is not split",
+      all(_ex.split_fused_firms(n) == [n] for n in ("Luthra and Luthra", "Kanga & Company, Advocates and Solicitors")))
+check("page topics vouch for a split: Sidley Austin and FBT Gibbons",
+      _ex._attributed_names(["Sidley Austin and FBT Gibbons advised the Government on this offer."], ["sidley-austin"])
+      == ["Sidley Austin", "FBT Gibbons"])
+check("...but 'Saraf and Partners' / 'Advocates and Solicitors' are never split",
+      _ex._attributed_names(["Saraf and Partners advised the company on this deal."], ["saraf-and-partners"]) == ["Saraf and Partners"]
+      and _ex._attributed_names(["Advocates and Solicitors advised the company on this deal."], ["advocates"])
+      == ["Advocates and Solicitors"])
+_all_firms = {f for name in ("barandbench_deals.json", "legalera_deals.json", "livelaw_deals.json")
+              for d in json.loads((ROOT / name).read_text()) for f in d["law_firms"]}
+check("no committed firm is two firms fused together",
+      not [f for f in _all_firms if len(_ex.split_fused_firms(f)) > 1], [f for f in _all_firms if len(_ex.split_fused_firms(f)) > 1])
+check("no committed firm is a truncated 'Luthra' / 'Kanga & Company, ...' variant",
+      not ({"Luthra", "Kanga & Company, Advocates and Solicitors"} & _all_firms))
+
 # --------------------------------------------------------- fetch behaviour
 print("fetching")
 check("User-Agent identifies the project and avoids the words these sites block",
