@@ -1,7 +1,7 @@
 {
   "stats": {
     "people": 4224,
-    "firms": 154,
+    "firms": 151,
     "deals": 698,
     "practice_areas": 6
   },
@@ -35,7 +35,6 @@
     "Cyril Amarchand Mangaldas",
     "DMD Advocates",
     "DSK Legal",
-    "DSK Legal teams",
     "Davis Polk",
     "Dentons Link Legal",
     "Dentons Link Legal and Hogan Lovells Cadwalader",
@@ -73,7 +72,6 @@
     "Kanga & Company, Advocates and Solicitors",
     "Kelley Drye",
     "Khaitan & Co",
-    "Khaitan & Co regularly",
     "Khaled Al-Marri & Partners",
     "Khimani & Associates",
     "Kochhar & Co",
@@ -96,7 +94,6 @@
     "McDermott Will & Schulte",
     "Mindspright Legal",
     "Morgan Lewis",
-    "Motilal Oswal Investment Advisors Limited",
     "Noerr",
     "Norton Rose Fulbright",
     "NovoJuris Legal",
@@ -1957,11 +1954,6 @@
           ]
         }
       ]
-    },
-    {
-      "firm": "DSK Legal teams",
-      "people_count": 0,
-      "practice_groups": []
     },
     {
       "firm": "Davis Polk",
@@ -4049,11 +4041,6 @@
       ]
     },
     {
-      "firm": "Khaitan & Co regularly",
-      "people_count": 0,
-      "practice_groups": []
-    },
-    {
       "firm": "Khaled Al-Marri & Partners",
       "people_count": 3,
       "practice_groups": [
@@ -4522,11 +4509,6 @@
           ]
         }
       ]
-    },
-    {
-      "firm": "Motilal Oswal Investment Advisors Limited",
-      "people_count": 0,
-      "practice_groups": []
     },
     {
       "firm": "Noerr",
@@ -9323,9 +9305,9 @@
         "Adani Enterprises Limited and lead managers",
         "Power Finance Corporation and lead managers",
         "Muthoot Finance Limited",
+        "LCC Projects",
         "Paisalo",
-        "Gujarat Themis Biosyn",
-        "The Successful Listing"
+        "Gujarat Themis Biosyn"
       ],
       "deals": [
         {
@@ -9373,6 +9355,32 @@
           "value": null
         },
         {
+          "headline": "Trilegal acts on LCC Projects ₹427 crore IPO",
+          "client": "LCC Projects",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-llc-projects-427-crore-ipo",
+          "source": "Bar & Bench",
+          "published_at": "2026-09-30",
+          "also_reported_by": [
+            {
+              "source": "Legal Era",
+              "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-lcc-projects-successful-ipo-listing-990131"
+            }
+          ],
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹427 crore",
+            "currency": "INR",
+            "amount": 4270000000,
+            "amount_inr": 4270000000,
+            "approx": false
+          }
+        },
+        {
           "headline": "Trilegal advises Paisalo on ₹300 crore NCD issuance",
           "client": "Paisalo",
           "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-paisalo-on-300-crore-ncd-issuance",
@@ -9405,32 +9413,6 @@
             "currency": "INR",
             "amount": 7500000000,
             "amount_inr": 7500000000,
-            "approx": false
-          }
-        },
-        {
-          "headline": "Trilegal Advised On The Successful Listing Of LCC Projects Aggregating To INR 4,271.41 Million",
-          "client": "The Successful Listing",
-          "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-lcc-projects-successful-ipo-listing-990131",
-          "source": "Legal Era",
-          "published_at": "2026-09-30",
-          "also_reported_by": [
-            {
-              "source": "Bar & Bench",
-              "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-llc-projects-427-crore-ipo"
-            }
-          ],
-          "types": [
-            "IPO"
-          ],
-          "practice_areas": [
-            "Capital Markets"
-          ],
-          "value": {
-            "raw": "INR 4,271.41 Million",
-            "currency": "INR",
-            "amount": 4271410000,
-            "amount_inr": 4271410000,
             "approx": false
           }
         }
@@ -18878,9 +18860,9 @@
         "Placement Agents",
         "Adani Enterprises Limited and lead managers",
         "Inox Clean Energy",
+        "LCC Projects",
         "Motilal Oswal Group",
-        "Gujarat Themis Biosyn",
-        "The Successful Listing"
+        "Gujarat Themis Biosyn"
       ],
       "deals": [
         {
@@ -18944,6 +18926,32 @@
           }
         },
         {
+          "headline": "Trilegal acts on LCC Projects ₹427 crore IPO",
+          "client": "LCC Projects",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-llc-projects-427-crore-ipo",
+          "source": "Bar & Bench",
+          "published_at": "2026-09-30",
+          "also_reported_by": [
+            {
+              "source": "Legal Era",
+              "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-lcc-projects-successful-ipo-listing-990131"
+            }
+          ],
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹427 crore",
+            "currency": "INR",
+            "amount": 4270000000,
+            "amount_inr": 4270000000,
+            "approx": false
+          }
+        },
+        {
           "headline": "Trilegal advises Motilal Oswal Group on ₹1500 crore commitment in Inox Clean Energy",
           "client": "Motilal Oswal Group",
           "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-motilal-oswal-group-on-1500-crore-commitment-in-inox-clean-energy",
@@ -18976,32 +18984,6 @@
             "currency": "INR",
             "amount": 7500000000,
             "amount_inr": 7500000000,
-            "approx": false
-          }
-        },
-        {
-          "headline": "Trilegal Advised On The Successful Listing Of LCC Projects Aggregating To INR 4,271.41 Million",
-          "client": "The Successful Listing",
-          "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-lcc-projects-successful-ipo-listing-990131",
-          "source": "Legal Era",
-          "published_at": "2026-09-30",
-          "also_reported_by": [
-            {
-              "source": "Bar & Bench",
-              "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-llc-projects-427-crore-ipo"
-            }
-          ],
-          "types": [
-            "IPO"
-          ],
-          "practice_areas": [
-            "Capital Markets"
-          ],
-          "value": {
-            "raw": "INR 4,271.41 Million",
-            "currency": "INR",
-            "amount": 4271410000,
-            "amount_inr": 4271410000,
             "approx": false
           }
         }
@@ -47233,10 +47215,10 @@
         "Muthoot Finance",
         "Atlanta Electricals",
         "Inox Clean Energy",
+        "LCC Projects",
         "Pranav Constructions'",
         "Paisalo",
-        "Gujarat Themis Biosyn",
-        "The Successful Listing"
+        "Gujarat Themis Biosyn"
       ],
       "deals": [
         {
@@ -47402,6 +47384,32 @@
           }
         },
         {
+          "headline": "Trilegal acts on LCC Projects ₹427 crore IPO",
+          "client": "LCC Projects",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-llc-projects-427-crore-ipo",
+          "source": "Bar & Bench",
+          "published_at": "2026-09-30",
+          "also_reported_by": [
+            {
+              "source": "Legal Era",
+              "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-lcc-projects-successful-ipo-listing-990131"
+            }
+          ],
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹427 crore",
+            "currency": "INR",
+            "amount": 4270000000,
+            "amount_inr": 4270000000,
+            "approx": false
+          }
+        },
+        {
           "headline": "Trilegal acts on Pranav Constructions' ₹351 crore IPO",
           "client": "Pranav Constructions'",
           "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-pranav-constructions-351-crore-ipo",
@@ -47454,32 +47462,6 @@
             "currency": "INR",
             "amount": 7500000000,
             "amount_inr": 7500000000,
-            "approx": false
-          }
-        },
-        {
-          "headline": "Trilegal Advised On The Successful Listing Of LCC Projects Aggregating To INR 4,271.41 Million",
-          "client": "The Successful Listing",
-          "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-lcc-projects-successful-ipo-listing-990131",
-          "source": "Legal Era",
-          "published_at": "2026-09-30",
-          "also_reported_by": [
-            {
-              "source": "Bar & Bench",
-              "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-llc-projects-427-crore-ipo"
-            }
-          ],
-          "types": [
-            "IPO"
-          ],
-          "practice_areas": [
-            "Capital Markets"
-          ],
-          "value": {
-            "raw": "INR 4,271.41 Million",
-            "currency": "INR",
-            "amount": 4271410000,
-            "amount_inr": 4271410000,
             "approx": false
           }
         }
@@ -62603,8 +62585,8 @@
         "Placement agents",
         "Book Running Lead Managers",
         "Inox Clean Energy",
-        "Paisalo",
-        "The Successful Listing"
+        "LCC Projects",
+        "Paisalo"
       ],
       "deals": [
         {
@@ -62662,6 +62644,32 @@
           }
         },
         {
+          "headline": "Trilegal acts on LCC Projects ₹427 crore IPO",
+          "client": "LCC Projects",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-llc-projects-427-crore-ipo",
+          "source": "Bar & Bench",
+          "published_at": "2026-09-30",
+          "also_reported_by": [
+            {
+              "source": "Legal Era",
+              "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-lcc-projects-successful-ipo-listing-990131"
+            }
+          ],
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹427 crore",
+            "currency": "INR",
+            "amount": 4270000000,
+            "amount_inr": 4270000000,
+            "approx": false
+          }
+        },
+        {
           "headline": "Trilegal advises Paisalo on ₹300 crore NCD issuance",
           "client": "Paisalo",
           "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-paisalo-on-300-crore-ncd-issuance",
@@ -62674,32 +62682,6 @@
             "currency": "INR",
             "amount": 3000000000,
             "amount_inr": 3000000000,
-            "approx": false
-          }
-        },
-        {
-          "headline": "Trilegal Advised On The Successful Listing Of LCC Projects Aggregating To INR 4,271.41 Million",
-          "client": "The Successful Listing",
-          "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-lcc-projects-successful-ipo-listing-990131",
-          "source": "Legal Era",
-          "published_at": "2026-09-30",
-          "also_reported_by": [
-            {
-              "source": "Bar & Bench",
-              "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-llc-projects-427-crore-ipo"
-            }
-          ],
-          "types": [
-            "IPO"
-          ],
-          "practice_areas": [
-            "Capital Markets"
-          ],
-          "value": {
-            "raw": "INR 4,271.41 Million",
-            "currency": "INR",
-            "amount": 4271410000,
-            "amount_inr": 4271410000,
             "approx": false
           }
         }
@@ -116398,9 +116380,9 @@
         "Adani Enterprises Limited and lead managers",
         "India’s Largest OFS of",
         "Inox Clean Energy",
+        "LCC Projects",
         "Motilal Oswal Group",
-        "Gujarat Themis Biosyn",
-        "The Successful Listing"
+        "Gujarat Themis Biosyn"
       ],
       "deals": [
         {
@@ -116456,6 +116438,32 @@
           }
         },
         {
+          "headline": "Trilegal acts on LCC Projects ₹427 crore IPO",
+          "client": "LCC Projects",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-llc-projects-427-crore-ipo",
+          "source": "Bar & Bench",
+          "published_at": "2026-09-30",
+          "also_reported_by": [
+            {
+              "source": "Legal Era",
+              "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-lcc-projects-successful-ipo-listing-990131"
+            }
+          ],
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹427 crore",
+            "currency": "INR",
+            "amount": 4270000000,
+            "amount_inr": 4270000000,
+            "approx": false
+          }
+        },
+        {
           "headline": "Trilegal advises Motilal Oswal Group on ₹1500 crore commitment in Inox Clean Energy",
           "client": "Motilal Oswal Group",
           "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-motilal-oswal-group-on-1500-crore-commitment-in-inox-clean-energy",
@@ -116488,32 +116496,6 @@
             "currency": "INR",
             "amount": 7500000000,
             "amount_inr": 7500000000,
-            "approx": false
-          }
-        },
-        {
-          "headline": "Trilegal Advised On The Successful Listing Of LCC Projects Aggregating To INR 4,271.41 Million",
-          "client": "The Successful Listing",
-          "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-lcc-projects-successful-ipo-listing-990131",
-          "source": "Legal Era",
-          "published_at": "2026-09-30",
-          "also_reported_by": [
-            {
-              "source": "Bar & Bench",
-              "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-llc-projects-427-crore-ipo"
-            }
-          ],
-          "types": [
-            "IPO"
-          ],
-          "practice_areas": [
-            "Capital Markets"
-          ],
-          "value": {
-            "raw": "INR 4,271.41 Million",
-            "currency": "INR",
-            "amount": 4271410000,
-            "amount_inr": 4271410000,
             "approx": false
           }
         }
@@ -148152,6 +148134,7 @@
         "India’s Largest OFS of",
         "Inox Clean Energy",
         "Gaja Capital",
+        "LCC Projects",
         "Pranav Constructions'",
         "Motilal Oswal Group",
         "Paisalo",
@@ -148159,8 +148142,7 @@
         "J B Ecotex proposed IPO",
         "Varmora Granito",
         "Runwal Enterprises",
-        "Kanohar Electricals",
-        "The Successful Listing"
+        "Kanohar Electricals"
       ],
       "deals": [
         {
@@ -148438,6 +148420,32 @@
           }
         },
         {
+          "headline": "Trilegal acts on LCC Projects ₹427 crore IPO",
+          "client": "LCC Projects",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-llc-projects-427-crore-ipo",
+          "source": "Bar & Bench",
+          "published_at": "2026-09-30",
+          "also_reported_by": [
+            {
+              "source": "Legal Era",
+              "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-lcc-projects-successful-ipo-listing-990131"
+            }
+          ],
+          "types": [
+            "IPO"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "₹427 crore",
+            "currency": "INR",
+            "amount": 4270000000,
+            "amount_inr": 4270000000,
+            "approx": false
+          }
+        },
+        {
           "headline": "Trilegal acts on Pranav Constructions' ₹351 crore IPO",
           "client": "Pranav Constructions'",
           "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-pranav-constructions-351-crore-ipo",
@@ -148624,32 +148632,6 @@
             "currency": "INR",
             "amount": 10550000000,
             "amount_inr": 10550000000,
-            "approx": false
-          }
-        },
-        {
-          "headline": "Trilegal Advised On The Successful Listing Of LCC Projects Aggregating To INR 4,271.41 Million",
-          "client": "The Successful Listing",
-          "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-lcc-projects-successful-ipo-listing-990131",
-          "source": "Legal Era",
-          "published_at": "2026-09-30",
-          "also_reported_by": [
-            {
-              "source": "Bar & Bench",
-              "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-llc-projects-427-crore-ipo"
-            }
-          ],
-          "types": [
-            "IPO"
-          ],
-          "practice_areas": [
-            "Capital Markets"
-          ],
-          "value": {
-            "raw": "INR 4,271.41 Million",
-            "currency": "INR",
-            "amount": 4271410000,
-            "amount_inr": 4271410000,
             "approx": false
           }
         }
