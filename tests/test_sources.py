@@ -131,9 +131,35 @@ import re as _re  # noqa: E402
 NOT_A_FIRM_VERB = _re.compile(r"\b(is|are|was|were|has|have|had|secured|advised|acted)\b")
 
 
-def firm_ok(f):
-    return len(f.split()) <= 8 and not NOT_A_FIRM_VERB.search(f) and not _re.search(r"[a-z]{3,}\.\s+[A-Z]", f)
+from extraction import clean_firm_candidate  # noqa: E402
 
+
+def firm_ok(f):
+    """Plausible = the pipeline's own cleaner would not change or reject it."""
+    return clean_firm_candidate(f) == f
+
+
+KEEP_NAMES = ["Khaitan & Co", "AZB & Partners", "Cyril Amarchand Mangaldas", "Shardul Amarchand Mangaldas & Co",
+              "J Sagar Associates", "Luthra and Luthra Law Offices India", "S&R Associates", "Fox Mandal & Associates",
+              "Talwar Thakore & Associates", "Law Offices of Panag & Babu", "Dentons Link Legal", "Trilegal",
+              "Kochhar & Co.", "IC RegFin Legal", "Crawford Bayley & Co", "Anand and Anand", "Veritas Legal",
+              "Linklaters Singapore Pte. Ltd"]
+TRIM_NAMES = {"Khaitan & Co regularly": "Khaitan & Co", "DSK Legal teams": "DSK Legal", "JSA had previously": "JSA",
+              "Khaitan & Co acted": "Khaitan & Co", "Trilegal also": "Trilegal", "AZB & Partners often": "AZB & Partners",
+              "Dua Associates is a full-service Indian law firm": "Dua Associates",
+              "JSA Advocates & Solicitors secured the CCI approval for this merger. The Firm": "JSA Advocates & Solicitors"}
+check("legitimate firm names pass through the cleaner unchanged",
+      all(clean_firm_candidate(n) == n for n in KEEP_NAMES), [n for n in KEEP_NAMES if clean_firm_candidate(n) != n])
+check("a firm name followed by any lowercase word is cut there (not an enumerated verb list)",
+      all(clean_firm_candidate(k) == v for k, v in TRIM_NAMES.items()),
+      {k: clean_firm_candidate(k) for k, v in TRIM_NAMES.items() if clean_firm_candidate(k) != v})
+check("a bank / company that is not a law firm is rejected",
+      clean_firm_candidate("Motilal Oswal Investment Advisors Limited") is None
+      and clean_firm_candidate("ICICI Securities Limited and Jefferies India Private Limited") is None)
+
+r = parse(LE, "le_anta_regularly")
+check("'Khaitan & Co regularly advised ...' yields Khaitan & Co (Legal Era / ANTA, real article)",
+      r["law_firms"] == [KHAITAN], r["law_firms"])
 
 r = parse(LL, "ll_dua_boilerplate")
 check("an 'About the firm' paragraph does not become the firm name (LiveLaw / Dua Associates)",

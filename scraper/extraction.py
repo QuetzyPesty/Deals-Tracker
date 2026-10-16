@@ -712,11 +712,18 @@ def _topic_match(name, topics):
 # "The firm advised ..."), "JSA Advocates & Solicitors secured the CCI approval
 # for this merger. The Firm", "Khaitan & Co acted". Everything from the first
 # finite verb or sentence break onward is not part of the name.
+# A firm name is capitalised words plus a few lowercase connectors ("and", "of",
+# "the", "de" ...). The first OTHER lowercase word after the first word ends the
+# name: "Khaitan & Co regularly", "Dua Associates is", "JSA had previously",
+# "Khaitan & Co acted". This replaces an enumerated list of verbs, which missed
+# "regularly" the day after it was written.
+_NAME_CONNECTORS = r"and|of|the|de|la|van|von|der|del|for"
 _NAME_STOP_RE = re.compile(
-    r"\s+(?:is|are|was|were|has|have|had|will|would|can|could|also|previously|recently|"
-    r"successfully|acted|acts|advised|advises|secured|represented|represents|assisted|"
-    r"served|provided|handled)\b.*$"
-    r"|(?<=[A-Za-z]{3})[.!?]\s+[A-Z].*$"
+    rf"\s+(?!(?:{_NAME_CONNECTORS})\b)[a-z][a-z'’-]*\b.*$"
+    # sentence break: 3+ letters then ". Capital", but not an abbreviation that
+    # ends a firm name ("Linklaters Singapore Pte. Ltd", "Foo Pvt. Ltd")
+    r"|(?<=[A-Za-z]{3})(?<!Pte)(?<!Pvt)(?<!Ltd)(?<!Inc)(?<!LLC)(?<!LLP)(?<!Corp)(?<!Mr)(?<!Ms)(?<!Dr)(?<!Jr)(?<!Sr)"
+    r"[.!?]\s+[A-Z].*$"
 )
 _ENTITY_WORD_RE = re.compile(
     r"\b(Limited|Ltd|Private|Pvt|Securities|Bank|Holdings|Finance|Financial|Insurance|"
@@ -738,7 +745,8 @@ def clean_firm_candidate(raw):
     name = _NAME_STOP_RE.sub("", raw or "").strip(" ,;:-")
     if not name or len(name.split()) > 8:
         return None
-    if _ENTITY_WORD_RE.search(name) and not _LAW_WORD_RE.search(name):
+    if (_ENTITY_WORD_RE.search(name) and not _LAW_WORD_RE.search(name)
+            and not leading_known_firm(name)):
         return None
     return name
 

@@ -34,6 +34,9 @@ Dedup uses earliest published_at as the deal's "date reported".
 - CCI coverage is low by design (9 of 674 deals): most deals are not merger-control notifiable, and a name join is only trusted on a full party name.
 - Roughly 10 deals stay undated (6 legacy URLs are gone, 6 pages carry no date): shown as "unknown", never guessed.
 
+- F2 (2026-10-16): the first manual workflow run after #3 showed `Khaitan & Co regularly` on main: F1's enumerated verb list missed an adverb. Replaced by a structural rule (a firm name is capitalised words plus connectors; the first other lowercase word ends it), with exemptions for "Pte./Ltd./Pvt." abbreviations and for names starting with a known firm. Re-parsed the 3 stale records (`DSK Legal teams`, `Khaitan & Co regularly`, a BRLM bank); firms 154 -> 151. Verify: `python3 tests/test_sources.py`.
+- Open (pre-existing on main, Bar & Bench name handling): `Luthra and Luthra` splits on "and", `Kanga & Co` vs `Kanga & Company, Advocates and Solicitors` unaliased, `Dentons Link Legal and Hogan Lovells Cadwalader` is two firms in one string.
+
 ## Deferred
 - Possible missed twin: Laser Power & Infra IPO ("$1,200 crore" typo in one B&B headline vs ₹742 crore); kept apart by the value veto.
 - LiveLaw headlines using verbs outside the loose-verb list ("Concludes", "Completes") yield no firm and are dropped when the body has no credits.
