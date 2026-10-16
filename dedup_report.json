@@ -1,6 +1,6 @@
 {
-  "input_records": 754,
-  "output_records": 718,
+  "input_records": 758,
+  "output_records": 722,
   "removed_duplicates": 36,
   "merges_by_rule": {
     "same-url": 1,
