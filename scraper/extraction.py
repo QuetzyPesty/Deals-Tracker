@@ -112,13 +112,32 @@ TXN_KEYWORDS = (
 )
 
 
+def split_firm_names(raw):
+    """Split "A, B and C" into firm names without breaking a firm whose own
+    name contains "and": "Luthra and Luthra" is one firm, not "Luthra" twice.
+    A pair of neighbours is rejoined when the joined text is a known firm
+    (an alias or canonical name in build_directory.FIRM_ALIASES)."""
+    out = []
+    for chunk in re.split(r",\s*", raw.strip()):
+        pieces = re.split(r"\s+and\s+", chunk, flags=re.I)
+        i = 0
+        while i < len(pieces):
+            # longest known firm first, so "A and B and C" can rejoin the A+B pair
+            for j in range(len(pieces), i + 1, -1):
+                joined = " and ".join(pieces[i:j])
+                if joined.strip().lower() in FIRM_ALIASES:
+                    out.append(joined.strip())
+                    i = j
+                    break
+            else:
+                out.append(pieces[i].strip())
+                i += 1
+    return [p for p in out if p]
+
+
 def split_firm_list(raw):
-    parts = re.split(r",\s*|\s+and\s+", raw.strip())
     firms = []
-    for p in parts:
-        p = p.strip()
-        if not p:
-            continue
+    for p in split_firm_names(raw):
         cname = canonical_firm(p)
         if cname:
             firms.append(cname)
@@ -185,9 +204,8 @@ _CLIENT_CUT = re.compile(r"\s+(?:on|in|for|to|through|by|from|of|with|over)\s+|[
 
 
 def _split_firms_loose(raw):
-    parts = re.split(r",\s*|\s+and\s+", raw.strip(), flags=re.I)
     out = []
-    for p in parts:
+    for p in split_firm_names(raw):
         c = canonical_firm(p.strip())
         if c and c not in out:
             out.append(c)
@@ -712,11 +730,18 @@ def _topic_match(name, topics):
 # "The firm advised ..."), "JSA Advocates & Solicitors secured the CCI approval
 # for this merger. The Firm", "Khaitan & Co acted". Everything from the first
 # finite verb or sentence break onward is not part of the name.
+# A firm name is capitalised words plus a few lowercase connectors ("and", "of",
+# "the", "de" ...). The first OTHER lowercase word after the first word ends the
+# name: "Khaitan & Co regularly", "Dua Associates is", "JSA had previously",
+# "Khaitan & Co acted". This replaces an enumerated list of verbs, which missed
+# "regularly" the day after it was written.
+_NAME_CONNECTORS = r"and|of|the|de|la|van|von|der|del|for"
 _NAME_STOP_RE = re.compile(
-    r"\s+(?:is|are|was|were|has|have|had|will|would|can|could|also|previously|recently|"
-    r"successfully|acted|acts|advised|advises|secured|represented|represents|assisted|"
-    r"served|provided|handled)\b.*$"
-    r"|(?<=[A-Za-z]{3})[.!?]\s+[A-Z].*$"
+    rf"\s+(?!(?:{_NAME_CONNECTORS})\b)[a-z][a-z'’-]*\b.*$"
+    # sentence break: 3+ letters then ". Capital", but not an abbreviation that
+    # ends a firm name ("Linklaters Singapore Pte. Ltd", "Foo Pvt. Ltd")
+    r"|(?<=[A-Za-z]{3})(?<!Pte)(?<!Pvt)(?<!Ltd)(?<!Inc)(?<!LLC)(?<!LLP)(?<!Corp)(?<!Mr)(?<!Ms)(?<!Dr)(?<!Jr)(?<!Sr)"
+    r"[.!?]\s+[A-Z].*$"
 )
 _ENTITY_WORD_RE = re.compile(
     r"\b(Limited|Ltd|Private|Pvt|Securities|Bank|Holdings|Finance|Financial|Insurance|"
@@ -738,9 +763,20 @@ def clean_firm_candidate(raw):
     name = _NAME_STOP_RE.sub("", raw or "").strip(" ,;:-")
     if not name or len(name.split()) > 8:
         return None
-    if _ENTITY_WORD_RE.search(name) and not _LAW_WORD_RE.search(name):
+    if (_ENTITY_WORD_RE.search(name) and not _LAW_WORD_RE.search(name)
+            and not leading_known_firm(name)):
         return None
     return name
+
+
+def split_fused_firms(name):
+    """"Dentons Link Legal and Hogan Lovells Cadwalader advised the BRLM" names
+    two firms, not one. Split only when EVERY piece opens with a known firm, so
+    "Advocates and Solicitors" or "Luthra and Luthra" stay whole."""
+    parts = split_firm_names(name)
+    if len(parts) > 1 and all(leading_known_firm(p) for p in parts):
+        return parts
+    return [name]
 
 
 def body_attribution_firms(paragraphs):
@@ -756,7 +792,28 @@ def body_attribution_firms(paragraphs):
         raw = clean_firm_candidate(raw)
         if not raw:
             continue
-        if raw not in out:
+        for name in split_fused_firms(raw):
+            if name not in out:
+                out.append(name)
+    return out
+
+
+def _attributed_names(paragraphs, topics):
+    """body_attribution_firms() with fused names split: "Sidley Austin and FBT
+    Gibbons advised ..." names two firms. Split only when at least one piece is
+    vouched for (a page topic tag or the known-firm list) and no piece is a
+    bare law word, so "Saraf and Partners" or "Advocates and Solicitors" stay
+    whole. Each piece still has to pass the topic check on its own afterwards,
+    so an unvouched piece is dropped, never invented."""
+    out = []
+    for raw in body_attribution_firms(paragraphs):
+        parts = split_firm_names(raw)
+        vouched = [bool(_topic_match(p, topics) or leading_known_firm(p)) for p in parts]
+        if (len(parts) > 1 and any(vouched)
+                and all(v or (len(p.split()) >= 2 and not _LAW_WORD_RE.fullmatch(p))
+                        for p, v in zip(parts, vouched))):
+            out.extend(parts)
+        else:
             out.append(raw)
     return out
 
@@ -769,7 +826,7 @@ def firms_from_names(names, paragraphs):
     if not topics:
         return []
     firms = []
-    for raw in body_attribution_firms(paragraphs):
+    for raw in _attributed_names(paragraphs, topics):
         if not _topic_match(raw, topics):
             continue
         cname = canonical_firm(raw)
@@ -786,7 +843,7 @@ def firms_from_topics(html, paragraphs):
     if not topics:
         return []
     firms = []
-    for raw in body_attribution_firms(paragraphs):
+    for raw in _attributed_names(paragraphs, topics):
         if not _topic_match(raw, topics):
             continue
         cname = canonical_firm(raw)

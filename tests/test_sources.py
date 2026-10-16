@@ -131,9 +131,35 @@ import re as _re  # noqa: E402
 NOT_A_FIRM_VERB = _re.compile(r"\b(is|are|was|were|has|have|had|secured|advised|acted)\b")
 
 
-def firm_ok(f):
-    return len(f.split()) <= 8 and not NOT_A_FIRM_VERB.search(f) and not _re.search(r"[a-z]{3,}\.\s+[A-Z]", f)
+from extraction import clean_firm_candidate  # noqa: E402
 
+
+def firm_ok(f):
+    """Plausible = the pipeline's own cleaner would not change or reject it."""
+    return clean_firm_candidate(f) == f
+
+
+KEEP_NAMES = ["Khaitan & Co", "AZB & Partners", "Cyril Amarchand Mangaldas", "Shardul Amarchand Mangaldas & Co",
+              "J Sagar Associates", "Luthra and Luthra Law Offices India", "S&R Associates", "Fox Mandal & Associates",
+              "Talwar Thakore & Associates", "Law Offices of Panag & Babu", "Dentons Link Legal", "Trilegal",
+              "Kochhar & Co.", "IC RegFin Legal", "Crawford Bayley & Co", "Anand and Anand", "Veritas Legal",
+              "Linklaters Singapore Pte. Ltd"]
+TRIM_NAMES = {"Khaitan & Co regularly": "Khaitan & Co", "DSK Legal teams": "DSK Legal", "JSA had previously": "JSA",
+              "Khaitan & Co acted": "Khaitan & Co", "Trilegal also": "Trilegal", "AZB & Partners often": "AZB & Partners",
+              "Dua Associates is a full-service Indian law firm": "Dua Associates",
+              "JSA Advocates & Solicitors secured the CCI approval for this merger. The Firm": "JSA Advocates & Solicitors"}
+check("legitimate firm names pass through the cleaner unchanged",
+      all(clean_firm_candidate(n) == n for n in KEEP_NAMES), [n for n in KEEP_NAMES if clean_firm_candidate(n) != n])
+check("a firm name followed by any lowercase word is cut there (not an enumerated verb list)",
+      all(clean_firm_candidate(k) == v for k, v in TRIM_NAMES.items()),
+      {k: clean_firm_candidate(k) for k, v in TRIM_NAMES.items() if clean_firm_candidate(k) != v})
+check("a bank / company that is not a law firm is rejected",
+      clean_firm_candidate("Motilal Oswal Investment Advisors Limited") is None
+      and clean_firm_candidate("ICICI Securities Limited and Jefferies India Private Limited") is None)
+
+r = parse(LE, "le_anta_regularly")
+check("'Khaitan & Co regularly advised ...' yields Khaitan & Co (Legal Era / ANTA, real article)",
+      r["law_firms"] == [KHAITAN], r["law_firms"])
 
 r = parse(LL, "ll_dua_boilerplate")
 check("an 'About the firm' paragraph does not become the firm name (LiveLaw / Dua Associates)",
@@ -159,6 +185,43 @@ check("every firm in every committed source file is a plausible name",
           for d in json.loads((ROOT / name).read_text()) for f in d["law_firms"]),
       [f for name in ("barandbench_deals.json", "legalera_deals.json", "livelaw_deals.json")
        for d in json.loads((ROOT / name).read_text()) for f in d["law_firms"] if not firm_ok(f)])
+
+# ----------------------------------------------- firms whose name contains "and"
+print("fused and split firm names")
+import extraction as _ex  # noqa: E402
+from build_directory import canonical_firm  # noqa: E402
+
+for parse_fn in (_ex.parse_headline, _ex.parse_headline_loose):
+    check(f"{parse_fn.__name__}: 'Luthra and Luthra' stays one firm",
+          parse_fn("Luthra and Luthra acts on Armee Infotech on ₹300 crore IPO")["law_firms"] == ["Luthra and Luthra"],
+          parse_fn("Luthra and Luthra acts on Armee Infotech on ₹300 crore IPO")["law_firms"])
+    check(f"{parse_fn.__name__}: 'Crawford Bayley, Luthra and Luthra' is two firms",
+          parse_fn("Crawford Bayley, Luthra and Luthra act on Master Chains IPO")["law_firms"]
+          == ["Crawford Bayley", "Luthra and Luthra"])
+    check(f"{parse_fn.__name__}: 'AZB and Trilegal' is still two firms",
+          parse_fn("AZB and Trilegal act on Foo IPO")["law_firms"] == ["AZB & Partners", "Trilegal"])
+
+check("one firm written three ways is one firm",
+      {canonical_firm(n) for n in ("Kanga & Co", "Kanga & Company, Advocates and Solicitors", "Kanga and Co")} == {"Kanga & Co"}
+      and {canonical_firm(n) for n in ("Luthra and Luthra", "Luthra and Luthra Law Offices India", "Luthra & Luthra")}
+      == {"Luthra and Luthra"})
+check("two known firms joined by 'and' are split",
+      _ex.split_fused_firms("Dentons Link Legal and Hogan Lovells Cadwalader") == ["Dentons Link Legal", "Hogan Lovells Cadwalader"])
+check("a single firm with 'and' in its name is not split",
+      all(_ex.split_fused_firms(n) == [n] for n in ("Luthra and Luthra", "Kanga & Company, Advocates and Solicitors")))
+check("page topics vouch for a split: Sidley Austin and FBT Gibbons",
+      _ex._attributed_names(["Sidley Austin and FBT Gibbons advised the Government on this offer."], ["sidley-austin"])
+      == ["Sidley Austin", "FBT Gibbons"])
+check("...but 'Saraf and Partners' / 'Advocates and Solicitors' are never split",
+      _ex._attributed_names(["Saraf and Partners advised the company on this deal."], ["saraf-and-partners"]) == ["Saraf and Partners"]
+      and _ex._attributed_names(["Advocates and Solicitors advised the company on this deal."], ["advocates"])
+      == ["Advocates and Solicitors"])
+_all_firms = {f for name in ("barandbench_deals.json", "legalera_deals.json", "livelaw_deals.json")
+              for d in json.loads((ROOT / name).read_text()) for f in d["law_firms"]}
+check("no committed firm is two firms fused together",
+      not [f for f in _all_firms if len(_ex.split_fused_firms(f)) > 1], [f for f in _all_firms if len(_ex.split_fused_firms(f)) > 1])
+check("no committed firm is a truncated 'Luthra' / 'Kanga & Company, ...' variant",
+      not ({"Luthra", "Kanga & Company, Advocates and Solicitors"} & _all_firms))
 
 # --------------------------------------------------------- fetch behaviour
 print("fetching")
