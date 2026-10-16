@@ -1,15 +1,15 @@
 {
-  "input_records": 746,
-  "output_records": 711,
-  "removed_duplicates": 35,
+  "input_records": 754,
+  "output_records": 718,
+  "removed_duplicates": 36,
   "merges_by_rule": {
     "same-url": 1,
     "headline-entities": 16,
     "same-slug": 4,
     "nested-same-type": 6,
     "same-headline": 1,
+    "same-core-headline": 4,
     "same-team-and-entities": 2,
-    "same-core-headline": 3,
     "same-entities-different-counsel": 1,
     "nested-entities": 1
   },
@@ -332,6 +332,23 @@
           "headline": "Khaitan & Co Advised RR Kabel On Acquisition Of Optical Fibre and Related Cable Business Of U M Cables",
           "rules": [
             "nested-same-type"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Legal Era",
+        "url": "https://www.legaleraonline.com/deal-street/khaitan-sgs-india-prescient-cyber-acquisition-990630",
+        "headline": "Khaitan & Co Advised SGS India On Acquisition Of Prescient Cyber Audit & Assurance"
+      },
+      "duplicates": [
+        {
+          "source": "Bar & Bench",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-sgs-india-on-acquisition-of-prescient-cyber-audit-assurance",
+          "headline": "Khaitan & Co advises SGS India on acquisition of Prescient Cyber Audit & Assurance",
+          "rules": [
+            "same-core-headline"
           ]
         }
       ]
@@ -927,6 +944,30 @@
       ],
       "shared_people": 2,
       "people_jaccard": 0.4,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Rajani Associates advises Genesys International Corp on ₹125 crore rights issue",
+      "a_url": "https://www.barandbench.com/law-firms/dealstreet/rajani-associates-advises-genesys-international-corp-on-125-crore-rights-issue",
+      "b": "Rajani Associates acts on Scoobee Day Garments rights issue",
+      "b_url": "https://www.barandbench.com/law-firms/dealstreet/rajani-associates-acts-on-scoobee-day-garments-rights-issue",
+      "date_gap_days": 45,
+      "head_sim": 0.4,
+      "lede_sim": 0.41,
+      "shared_rare": [
+        "rights"
+      ],
+      "a_only": [
+        "genesys",
+        "international"
+      ],
+      "b_only": [
+        "day",
+        "garments",
+        "scoobee"
+      ],
+      "shared_people": 2,
+      "people_jaccard": 0.67,
       "veto": "entity-clash"
     },
     {
