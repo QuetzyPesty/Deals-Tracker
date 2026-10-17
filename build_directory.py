@@ -432,11 +432,36 @@ def merge_unaffiliated_people(cur):
     return merged
 
 
+# Pages that are not deal announcements at all. The legacy export picked up two
+# Legally India forum threads ("Good PE/VC team in Trilegal GGN"): a question
+# from a reader is not a deal, and its commenters are not deal counsel.
+NON_DEAL_URL = re.compile(r"legallyindia\.com/convos/", re.I)
+
+
+def is_non_deal_page(record):
+    return bool(NON_DEAL_URL.search(record.get("url") or ""))
+
+
 def main():
     deals = []
     for path in SOURCE_FILES:
         if path.exists():
             deals += json.loads(path.read_text())
+    n_pages = len(deals)
+    deals = [d for d in deals if not is_non_deal_page(d)]
+    if n_pages != len(deals):
+        print(f"discussion pages excluded from deals: {n_pages - len(deals)}")
+
+    # The legacy export never carried a deal size, though 208 of its 376
+    # headlines state one ("... Laser Power & Infra ₹742 crore IPO"). Read it
+    # from the headline, exactly as the live scrapers do.
+    sys.path.insert(0, str(BASE / "scraper"))
+    from extraction import extract_deal_value  # noqa: E402
+    for d in deals:
+        if not d.get("deal_value"):
+            value = extract_deal_value(d.get("headline") or "", [])
+            if value:
+                d["deal_value"] = value
 
     # Publication dates recovered after the fact (legacy records, one-off
     # backfill). A record's own published_at always wins.

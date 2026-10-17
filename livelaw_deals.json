@@ -2140,5 +2140,38 @@
       "fx_asof": null,
       "source": "body"
     }
+  },
+  {
+    "headline": "AMS Legal Concludes Title Due Diligence For Land Parcels Worth ₹1,000 Crores",
+    "client": null,
+    "source": "LiveLaw",
+    "source_id": "livelaw",
+    "url": "https://www.livelaw.in/law-firms/deals/ams-legal-concludes-title-due-diligence-for-land-parcels-worth-1000-crores-537145",
+    "snippet": "AMS Legal has announced the completion of comprehensive title due diligence and the issuance of title opinions for several large-scale land parcels across South India and Maharashtra. The collective deal value for these engagements is estimated at ₹1,000 crores. Project Highlights The firm managed due diligence for several significant land parcels, including: Complexity and Execution The mandate required a deep dive into historical title records, revenue documentation, and encumbrance data. AMS ",
+    "law_firms": [
+      "AMS Legal"
+    ],
+    "transaction_types": [],
+    "people": [],
+    "published_at": "2026-06-08T13:22:25+05:30",
+    "keywords": [
+      "AMS Legal",
+      "Real Estate",
+      "Title Due Diligence",
+      "Title Opinion",
+      "Land Acquisition",
+      "Property Law",
+      "South India",
+      "Maharashtra"
+    ],
+    "deal_value": {
+      "raw": "₹1,000 Crores",
+      "currency": "INR",
+      "amount": 10000000000,
+      "amount_inr": 10000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   }
 ]

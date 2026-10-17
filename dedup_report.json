@@ -1,14 +1,15 @@
 {
-  "input_records": 758,
-  "output_records": 722,
-  "removed_duplicates": 36,
+  "input_records": 756,
+  "output_records": 717,
+  "removed_duplicates": 39,
   "merges_by_rule": {
     "same-url": 1,
     "headline-entities": 16,
     "same-slug": 4,
     "nested-same-type": 6,
+    "same-core-headline": 5,
+    "ipo-draft-then-final": 2,
     "same-headline": 1,
-    "same-core-headline": 4,
     "same-team-and-entities": 2,
     "same-entities-different-counsel": 1,
     "nested-entities": 1
@@ -78,6 +79,23 @@
           "headline": "Former Shardul Amarchand Mangaldas lawyer Anoopam N Prasad sets up chambers",
           "rules": [
             "same-slug"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo",
+        "headline": "Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO"
+      },
+      "duplicates": [
+        {
+          "source": "Bar & Bench",
+          "url": "https://www.barandbench.com/dealstreet/cam-trilegal-tta-hogan-lovells-act-on-rentomojo-proposed-150-crore-ipo",
+          "headline": "CAM, Trilegal, TT&A, Hogan Lovells act on Rentomojo proposed ₹150 crore+ IPO",
+          "rules": [
+            "ipo-draft-then-final"
           ]
         }
       ]
@@ -180,6 +198,40 @@
           "headline": "Skyroot rockets to Unicorn status with $60 million fundraise; Trilegal, TT&A advise",
           "rules": [
             "nested-same-type"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/dealstreet/trilegal-dsk-legal-act-on-laser-power-infra-742-crore-ipo",
+        "headline": "Trilegal, DSK Legal act on Laser Power & Infra ₹742 crore IPO - Bar and Bench"
+      },
+      "duplicates": [
+        {
+          "source": "Bar & Bench",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-acts-on-laser-power-infra-1200-crore-ipo",
+          "headline": "Trilegal acts on Laser Power & Infra $1,200 crore IPO - Bar and Bench",
+          "rules": [
+            "same-core-headline"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/dealstreet/trilegal-khaitan-co-hogan-lovells-cadwalader-act-on-indo-mim-3812-crore-ipo",
+        "headline": "Trilegal, Khaitan & Co, Hogan Lovells Cadwalader act on INDO-MIM ₹3,812 crore IPO"
+      },
+      "duplicates": [
+        {
+          "source": "Bar & Bench",
+          "url": "https://www.barandbench.com/dealstreet/trilegal-khaitan-act-on-indo-mim-1000-crore-proposed-ipo",
+          "headline": "Trilegal, Khaitan act on INDO-MIM ₹1,000 crore+ proposed IPO - Bar and Bench",
+          "rules": [
+            "ipo-draft-then-final"
           ]
         }
       ]
@@ -840,6 +892,72 @@
       "veto": "entity-clash"
     },
     {
+      "a": "Trilegal acts on Laser Power & Infra $1,200 crore IPO - Bar and Bench",
+      "a_url": "https://www.barandbench.com/dealstreet/trilegal-acts-on-laser-power-infra-1200-crore-ipo",
+      "b": "Khaitan & Co, Trilegal act on Capillary Technologies ₹877 crore IPO - Bar and Bench",
+      "b_url": "https://www.barandbench.com/dealstreet/khaitan-co-trilegal-act-on-capillary-technologies-877-crore-ipo",
+      "date_gap_days": null,
+      "head_sim": 0.67,
+      "lede_sim": 0.0,
+      "shared_rare": [],
+      "a_only": [
+        "infra",
+        "laser",
+        "power"
+      ],
+      "b_only": [
+        "capillary",
+        "technologies"
+      ],
+      "shared_people": 0,
+      "people_jaccard": 0.0,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Trilegal acts on Laser Power & Infra $1,200 crore IPO - Bar and Bench",
+      "a_url": "https://www.barandbench.com/dealstreet/trilegal-acts-on-laser-power-infra-1200-crore-ipo",
+      "b": "Trilegal acts on Chartered Speed ₹855 crore IPO - Bar and Bench",
+      "b_url": "https://www.barandbench.com/dealstreet/trilegal-acts-on-chartered-speed-855-crore-ipo",
+      "date_gap_days": null,
+      "head_sim": 0.67,
+      "lede_sim": 0.03,
+      "shared_rare": [],
+      "a_only": [
+        "infra",
+        "laser",
+        "power"
+      ],
+      "b_only": [
+        "chartered",
+        "speed"
+      ],
+      "shared_people": 0,
+      "people_jaccard": 0.0,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Trilegal, JSA act on Atlanta Electricals ~₹687 crore IPO - Bar and Bench",
+      "a_url": "https://www.barandbench.com/dealstreet/trilegal-jsa-act-on-atlanta-electricals-687-crore-ipo",
+      "b": "Trilegal acts on Laser Power & Infra $1,200 crore IPO - Bar and Bench",
+      "b_url": "https://www.barandbench.com/dealstreet/trilegal-acts-on-laser-power-infra-1200-crore-ipo",
+      "date_gap_days": null,
+      "head_sim": 0.67,
+      "lede_sim": 0.0,
+      "shared_rare": [],
+      "a_only": [
+        "atlanta",
+        "electricals"
+      ],
+      "b_only": [
+        "infra",
+        "laser",
+        "power"
+      ],
+      "shared_people": 0,
+      "people_jaccard": 0.0,
+      "veto": "entity-clash"
+    },
+    {
       "a": "Trilegal, JSA act on Shivalaya Construction ₹450 crore+ IPO - Bar and Bench",
       "a_url": "https://www.barandbench.com/dealstreet/trilegal-jsa-act-on-shivalaya-construction-450-crore-ipo",
       "b": "CAM, JSA act on Anantam Highways Trust ₹400 crore IPO - Bar and Bench",
@@ -880,6 +998,28 @@
       ],
       "shared_people": 2,
       "people_jaccard": 0.08,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Trilegal, JSA act on Shivalaya Construction ₹450 crore+ IPO - Bar and Bench",
+      "a_url": "https://www.barandbench.com/dealstreet/trilegal-jsa-act-on-shivalaya-construction-450-crore-ipo",
+      "b": "Trilegal acts on Laser Power & Infra $1,200 crore IPO - Bar and Bench",
+      "b_url": "https://www.barandbench.com/dealstreet/trilegal-acts-on-laser-power-infra-1200-crore-ipo",
+      "date_gap_days": null,
+      "head_sim": 0.67,
+      "lede_sim": 0.0,
+      "shared_rare": [],
+      "a_only": [
+        "construction",
+        "shivalaya"
+      ],
+      "b_only": [
+        "infra",
+        "laser",
+        "power"
+      ],
+      "shared_people": 0,
+      "people_jaccard": 0.0,
       "veto": "entity-clash"
     },
     {

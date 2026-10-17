@@ -223,6 +223,41 @@ check("no committed firm is two firms fused together",
 check("no committed firm is a truncated 'Luthra' / 'Kanga & Company, ...' variant",
       not ({"Luthra", "Kanga & Company, Advocates and Solicitors"} & _all_firms))
 
+# ---------------------------------------- headlines whose verb we do not know
+print("headline fallbacks")
+check("a firm opening the headline AND named in the curated keywords is the firm, whatever the verb",
+      _ex.lead_keyword_firms("AMS Legal Concludes Title Due Diligence For Land Parcels Worth ₹1,000 Crores",
+                             ["AMS Legal", "Real Estate", "Title Due Diligence"]) == ["AMS Legal"])
+check("...a client opening the headline is not read as a firm",
+      _ex.lead_keyword_firms("Samara Capital To Invest In Associated Road Carriers",
+                             ["Samara Capital", "Associated Road Carriers"]) == [])
+check("...and a keyword that is not at the start of the headline is not used",
+      _ex.lead_keyword_firms("Foo Ltd Hires Khaitan & Co For Merger", ["Khaitan & Co"]) == [])
+check("an office-expansion headline is firm news, not a deal, however it is worded",
+      all(ns.NON_DEAL_HEADLINE.search(h) for h in (
+          "Arogya Legal Expands Its Mumbai Presence", "ASM Law Chambers Expands Presence With New Office In Mumbai",
+          "Kochhar & Co Announces Strategic Team Expansion In Delhi")))
+check("...but a real deal headline is not caught by it",
+      not any(ns.NON_DEAL_HEADLINE.search(h) for h in (
+          "Khaitan & Co Advised Elevate Campuses On Its IPO", "Trilegal Advised Apollo On Expansion Of Its Hospital Business Financing")))
+check("'$1,200 crore' is a typo, not a figure: no value (crore is a rupee unit)",
+      _ex.parse_money("Trilegal acts on Laser Power & Infra $1,200 crore IPO") is None
+      and _ex.parse_money("₹742 crore IPO")["amount_inr"] == 7_420_000_000
+      and _ex.parse_money("a $3.3 billion offer")["currency"] == "USD")
+
+import build_directory as _bd  # noqa: E402
+check("a forum thread is not a deal, a dealstreet article is",
+      _bd.is_non_deal_page({"url": "https://www.legallyindia.com/convos/topic/452520-good-pevc-team-in-trilegal-ggn"})
+      and not _bd.is_non_deal_page({"url": "https://www.barandbench.com/law-firms/dealstreet/x"}))
+
+import sqlite3  # noqa: E402
+_db = sqlite3.connect(str(ROOT / "legal_directory.db"))
+check("every built deal whose headline states a size carries that size (the legacy export had none)",
+      not [h for h, v in _db.execute("select headline, value_raw from deals") if v is None and _ex.parse_money(h)],
+      [h for h, v in _db.execute("select headline, value_raw from deals") if v is None and _ex.parse_money(h)][:3])
+check("no forum thread is in the built deals",
+      not list(_db.execute("select url from deals where url like '%legallyindia.com/convos/%'")))
+
 # --------------------------------------------------------- fetch behaviour
 print("fetching")
 check("User-Agent identifies the project and avoids the words these sites block",

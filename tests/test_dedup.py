@@ -236,6 +236,40 @@ check("no shared firm and different clients",
       n_after([rec("AZB advises Alpha on acquisition of Beta", BB + "z1", ["AZB & Partners"]),
                rec("Trilegal advises Gamma on acquisition of Delta", LE + "z2-1", ["Trilegal"])]) == 2)
 
+# ------------------------------------------------- one IPO, reported twice
+print("ipo draft -> final")
+DRAFT = rec("CAM, Trilegal, TT&A, Hogan Lovells act on Rentomojo proposed ₹150 crore+ IPO",
+            BB + "rentomojo-draft", ["Cyril Amarchand Mangaldas", "Trilegal", "TT&A", "Hogan Lovells"], types=["IPO"])
+FINAL = rec("Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO",
+            BB + "rentomojo-final", ["Cyril Amarchand Mangaldas", "Trilegal", "TT&A", "Hogan Lovells Cadwalader"],
+            people=[("Vijay Parthasarathi", "Trilegal")], types=["IPO"], published_at="2026-09-23T05:39:19Z")
+m, rep = run([DRAFT, FINAL])
+check("a draft-stage IPO article and the final one are one deal despite the size changing",
+      len(m) == 1 and m[0]["url"] == FINAL["url"] and m[0]["published_at"].startswith("2026-09-23"),
+      [x["headline"] for x in m])
+check("...by the dedicated rule, not by loosening the value veto",
+      rep["merges_by_rule"].get("ipo-draft-then-final") == 1, rep["merges_by_rule"])
+check("...and a value conflict outside that pair is still a veto",
+      n_after([rec("Trilegal acts on Foo Bar ₹500 crore QIP", BB + "q1", ["Trilegal"], types=["QIP"]),
+               rec("Trilegal acts on Foo Bar ₹900 crore QIP", BB + "q2", ["Trilegal"], types=["QIP"])]) == 2)
+check("two 'proposed' IPO articles with different sizes are not merged (no final to pair with)",
+      n_after([DRAFT, rec("CAM, Trilegal act on Rentomojo proposed ₹900 crore IPO", BB + "rentomojo-draft2",
+                           ["Cyril Amarchand Mangaldas", "Trilegal"], types=["IPO"])]) == 2)
+check("a different issuer with the same counsel is not merged",
+      n_after([DRAFT, rec("Cyril Amarchand Mangaldas, Trilegal act on Zomato ₹1,255 crore IPO", BB + "zomato",
+                           ["Cyril Amarchand Mangaldas", "Trilegal"], types=["IPO"])]) == 2)
+check("a draft dated AFTER the final is not a draft of it",
+      n_after([dict(DRAFT, published_at="2026-11-01"), FINAL]) == 2)
+check("a draft more than a year before the final is a different attempt",
+      n_after([dict(DRAFT, published_at="2025-01-01"), FINAL]) == 2)
+check("no shared counsel: not merged",
+      n_after([DRAFT, rec("JSA acts on Rentomojo ₹1,255 crore IPO", BB + "rentomojo-jsa", ["JSA Advocates & Solicitors"],
+                           types=["IPO"])]) == 2)
+check("a '$1,200 crore' typo carries no value, so it cannot veto: the Laser Power twin merges",
+      n_after([rec("Trilegal acts on Laser Power & Infra $1,200 crore IPO", BB + "lp1", ["Trilegal"], types=["IPO"]),
+               rec("Trilegal, DSK Legal act on Laser Power & Infra ₹742 crore IPO", BB + "lp2", ["Trilegal", "DSK Legal"],
+                   types=["IPO"])]) == 1)
+
 # --------------------------------------------------------------- properties
 print("properties")
 
