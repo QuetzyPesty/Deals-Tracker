@@ -212,6 +212,34 @@ def _split_firms_loose(raw):
     return out
 
 
+def lead_keyword_firms(headline, keywords):
+    """Firm named by the headline's opening words when the headline has no verb
+    we recognise ("AMS Legal Concludes Title Due Diligence ...", "Dua Associates
+    Steers ..."). There is deliberately no verb list: the outlet's own curated
+    keyword list has to name the firm AND the headline has to open with that
+    exact name AND the name has to look like a law firm (a law-firm word, or a
+    firm the corpus already knows). A client opening a headline ("Samara
+    Capital To Invest In ...") fails the last test, so it is never read as a firm."""
+    flat_head = _flat_words(headline)
+    out = []
+    for kw in keywords or []:
+        flat_kw = _flat_words(kw)
+        if not flat_kw or not (flat_head == flat_kw or flat_head.startswith(flat_kw + " ")):
+            continue
+        name = canonical_firm(" ".join(kw.split()))
+        if not name:
+            continue
+        if not (_LAW_WORD_RE.search(name) or name.lower() in KNOWN_FIRMS or leading_known_firm(name)):
+            continue
+        if name not in out:
+            out.append(name)
+    return out
+
+
+def _flat_words(text):
+    return " ".join(re.findall(r"[a-z0-9&]+", (text or "").lower().replace("&", " & ")))
+
+
 def parse_headline_loose(headline):
     """Same return shape as parse_headline()."""
     h = " ".join((headline or "").split())
@@ -871,6 +899,8 @@ MAGNITUDE = {
     "billion": 1_000_000_000, "bn": 1_000_000_000,
 }
 
+INDIAN_UNITS = {"crore", "crores", "cr", "lakh", "lakhs", "lac", "lacs"}
+
 # Indicative rates, deliberately hard-coded rather than fetched. A scheduled
 # job that looked up live FX would silently restate the value of every deal
 # already recorded, and two runs of the same article would disagree. These
@@ -924,6 +954,12 @@ def parse_money(text):
     except ValueError:
         return None
     unit = (m.group("unit") or "").lower()
+    # "$1,200 crore" is a typo, not a figure: crore and lakh are rupee units,
+    # so the symbol and the unit contradict. Reading it as dollars made a
+    # US$12 billion IPO out of a ₹1,200 crore one; guessing the other way would
+    # be inventing a number. No figure is better than a wrong one.
+    if currency != "INR" and unit in INDIAN_UNITS:
+        return None
     amount *= MAGNITUDE.get(unit, 1)
     if amount <= 0:
         return None

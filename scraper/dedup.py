@@ -59,6 +59,7 @@ VALUE_TOLERANCE = 0.15        # same deal quoted in INR vs USD at different rate
 # date, are what keep recurring issuers apart.
 DATE_WINDOW_DAYS = 90
 HEADLINE_DATE_WINDOW_DAYS = 120  # identical headline, republished later
+IPO_STAGE_WINDOW_DAYS = 400      # draft filing -> listing can take most of a year
 
 SOURCE_BY_HOST = {
     "barandbench.com": "Bar & Bench",
@@ -311,6 +312,33 @@ def _value_conflict(a, b):
     return (hi - lo) / hi > VALUE_TOLERANCE
 
 
+_PROPOSED_RE = re.compile(r"\bproposed\b|\bdrhp\b")
+
+
+def _ipo_stage_twins(a, b):
+    """One IPO reported twice: when the draft prospectus is filed ("proposed
+    ₹150 crore+ IPO") and when it prices ("₹1,255 crore IPO"). The size grows or
+    shrinks between the two, so the value veto must not apply, and the same
+    company's IPO happens once. Deliberately narrow: both are IPOs, exactly one
+    headline says "proposed"/"DRHP", they share counsel, and one headline's
+    identity words sit entirely inside the other's (the issuer's name)."""
+    if not ("ipo" in a.types and "ipo" in b.types):
+        return False
+    if bool(_PROPOSED_RE.search(a.head_norm)) == bool(_PROPOSED_RE.search(b.head_norm)):
+        return False
+    if not (a.firms_soft & b.firms_soft):
+        return False
+    shared = a.rare & b.rare
+    if not shared or not (a.rare <= b.rare or b.rare <= a.rare):
+        return False
+    gap = _date_gap(a, b)
+    if gap is not None:
+        draft, final = (a, b) if _PROPOSED_RE.search(a.head_norm) else (b, a)
+        if gap > IPO_STAGE_WINDOW_DAYS or draft.date > final.date:
+            return False
+    return True
+
+
 def _date_gap(a, b):
     if not a.date or not b.date:
         return None
@@ -336,6 +364,8 @@ def compare(a, b):
     gap = _date_gap(a, b)
     detail["date_gap_days"] = gap
     if _value_conflict(a, b):
+        if _ipo_stage_twins(a, b):
+            return "ipo-draft-then-final", detail
         detail["veto"] = "value-conflict"
         return None, detail
 

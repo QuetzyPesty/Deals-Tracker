@@ -42,6 +42,7 @@ from extraction import (  # noqa: E402
     _drop_fragment_firms,
     KNOWN_FIRMS,
     canonical_firm,
+    lead_keyword_firms,
     parse_headline_loose,
     parse_personnel_move_people,
 )
@@ -209,7 +210,7 @@ NON_DEAL_HEADLINE = re.compile(
     #    caught by is_personnel_move(), and a bare word match dropped a real
     #    mandate for "Elevate Campuses".
     r"\b(arbitra\w*|upholds?|quash\w*|dismiss\w*|writ petition|verdict|judgment|"
-    r"(?:expands?|expansion)\s+(?:of\s+|its\s+|their\s+)?(?:presence|team|footprint|practice|office|offices)|"
+    r"(?:expands?|expansion)\s+(?:of\s+|its\s+|their\s+)?(?:\w+\s+){0,2}?(?:presence|team|footprint|practice|office|offices)|"
     r"new office|opens (?:a )?(?:new )?office|"
     r"announces (?:strategic |new )?(?:team|office|hire|partner|practice)|"
     r"launches (?:new )?(?:practice|office))\b",
@@ -262,6 +263,10 @@ def parse_article(source, url, html):
     if NON_DEAL_HEADLINE.search(headline):
         return None
     parsed = parse_headline_loose(headline)
+    if not parsed["law_firms"] and not is_personnel_move(headline):
+        # a verb we do not recognise: the curated keywords + the headline's
+        # opening words still name the firm
+        parsed["law_firms"] = lead_keyword_firms(headline, keywords)
     if not parsed["law_firms"] and is_personnel_move(headline):
         people = parse_personnel_move_people(headline)
         record["people"] = people
@@ -397,6 +402,30 @@ def run(source, argv=None):
         return 0
 
     have = {canonical_url(d["url"]) for d in deals}
+    if "--retry-dropped" in argv:
+        # URLs fetched before but not kept (no firm, not a deal). After a rule
+        # improves, some of them may now qualify; litigation and firm-news
+        # pages are filtered out again by the same rules.
+        again = sorted(u for u in seen if canonical_url(u) not in have)
+        added = 0
+        try:
+            for url in again:
+                try:
+                    rec = parse_article(source, url, fetcher.get(url))
+                except Blocked:
+                    raise
+                except Exception as e:
+                    print(f"failed to parse {url}: {e}")
+                    continue
+                if rec is not None:
+                    deals.append(rec)
+                    added += 1
+                    print(f"now kept: {rec['headline']}  firms={rec['law_firms']}")
+        except Blocked as e:
+            print(f"BLOCKED: {e}; stopping")
+        save_json(source.out_path, deals)
+        print(f"retried {len(again)} dropped URLs; {added} now kept; {len(deals)} total")
+        return 0
     try:
         urls = discover(source, fetcher, pages)
     except Blocked as e:

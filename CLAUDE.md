@@ -27,7 +27,7 @@ Python 3.11 (requests, beautifulsoup4, lxml, optional spaCy), SQLite, a static H
 - `.github/workflows/scrape.yml` — scheduled scrape (every 2 days): scrape each source, run the offline tests, rebuild, render, commit.
 
 ## Commands
-- Scrape: `python3 scraper/scrape_barandbench.py`, `python3 scraper/scrape_legalera.py [--pages N] [--max-new N] [--reparse-all]`, `python3 scraper/scrape_livelaw.py` (same flags), `python3 scraper/scrape_cci.py [--full]`, `python3 scraper/dates.py [--limit N]`
+- Scrape: `python3 scraper/scrape_barandbench.py`, `python3 scraper/scrape_legalera.py [--pages N] [--max-new N] [--reparse-all] [--retry-dropped]`, `python3 scraper/scrape_livelaw.py` (same flags; `--retry-dropped` re-fetches URLs seen but not kept, after an extraction rule improves), `python3 scraper/scrape_cci.py [--full]`, `python3 scraper/dates.py [--limit N]`
 - Build: `python3 build_directory.py && python3 render_html.py`
 - Python tests: `python3 tests/test_firm_extraction.py && python3 tests/test_dedup.py && python3 tests/test_sources.py && python3 tests/test_dates.py && python3 tests/test_cci.py`
 - Browser tests: `npm ci && npm test` (serves the repo root on :4174; needs `index.html` built first)
@@ -40,6 +40,7 @@ Python 3.11 (requests, beautifulsoup4, lxml, optional spaCy), SQLite, a static H
 - A CCI match is a name join with no shared id, so `cci_match.py` prefers a miss to a wrong match; any loosening needs a positive AND a negative test in `tests/test_cci.py`.
 - The CI bot commits `Scrape: <date>` to main every two days, so branches fall behind quickly.
 - Scraped sites are third-party publishers: keep the per-request delay and the honest User-Agent (Legal Era returns 403 for UAs containing "bot" or "crawler"; never impersonate a browser). Use path-suffix pagination, never `?page=` (disallowed by robots.txt).
+- The legacy export has no deal sizes; `build_directory.py` reads them from headlines. A size is never taken from a contradictory figure (`$1,200 crore`). Forum threads (`legallyindia.com/convos/`) are not deals and are dropped at build.
 - Firm attribution is deliberately conservative: a wrong firm is treated as worse than a missing one.
 - The CI workflow runs the five Python test files before committing; the Playwright suite is not run in CI.
 
