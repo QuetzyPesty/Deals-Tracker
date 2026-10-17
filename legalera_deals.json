@@ -5890,5 +5890,85 @@
       "intellectual property",
       "transaction advisory"
     ]
+  },
+  {
+    "headline": "Trilegal Advised DailyObjects On INR 332 Crore Series C Funding Round",
+    "client": "DailyObjects",
+    "source": "Legal Era",
+    "source_id": "legalera",
+    "url": "https://www.legaleraonline.com/deal-street/trilegal-dailyobjects-inr-332-crore-series-c-funding-990749",
+    "snippet": "Trilegal acted as the legal advisor to Firki Wholesale Private Limited, operating under the brand name DailyObjects, on its Series C funding round of approximately INR 332 crores, led by Xponentia Capital Partners, Anicut Capital and Axiom Asia Private Capital (the “Transaction”). Transaction is structured as a combination of a primary infusion of capital into DailyObjects by Xponentia Capital Partners, Anicut Capital, Axiom Asia Private Capital, Sattva Family Office and certain angel investors,",
+    "law_firms": [
+      "Trilegal ’s"
+    ],
+    "transaction_types": [
+      "Series C"
+    ],
+    "people": [
+      {
+        "name": "Nikhil Sachdeva",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Narayan Gupta",
+        "role": "Counsel",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Tushar Bakshi",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Ayush Sharma",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Aman Bhardwaj",
+        "role": "Associate",
+        "firm": "Trilegal"
+      }
+    ],
+    "published_at": "2026-10-16T17:45:29+05:30",
+    "keywords": [
+      "Trilegal",
+      "Firki Wholesale Private Limited",
+      "DailyObjects",
+      "INR 332 crore funding",
+      "Series C funding",
+      "Xponentia Capital Partners",
+      "Anicut Capital",
+      "Axiom Asia Private Capital",
+      "Sattva Family Office",
+      "angel investors",
+      "primary investment",
+      "secondary sale",
+      "lifestyle-tech brand",
+      "consumer technology",
+      "design-led brand",
+      "shareholders’ agreement",
+      "share subscription agreement",
+      "share purchase agreement",
+      "employment agreements",
+      "corporate law",
+      "Nikhil Sachdeva",
+      "Narayan Gupta",
+      "Tushar Bakshi",
+      "Ayush Sharma",
+      "Aman Bhardwaj",
+      "international expansion",
+      "India"
+    ],
+    "deal_value": {
+      "raw": "INR 332 Crore",
+      "currency": "INR",
+      "amount": 3320000000,
+      "amount_inr": 3320000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   }
 ]

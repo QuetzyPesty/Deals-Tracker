@@ -1,7 +1,7 @@
 {
-  "input_records": 756,
-  "output_records": 717,
-  "removed_duplicates": 39,
+  "input_records": 761,
+  "output_records": 720,
+  "removed_duplicates": 41,
   "merges_by_rule": {
     "same-url": 1,
     "headline-entities": 16,
@@ -10,7 +10,7 @@
     "same-core-headline": 5,
     "ipo-draft-then-final": 2,
     "same-headline": 1,
-    "same-team-and-entities": 2,
+    "same-team-and-entities": 4,
     "same-entities-different-counsel": 1,
     "nested-entities": 1
   },
@@ -356,6 +356,23 @@
     },
     {
       "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/hsfk-khaitan-co-advise-university-of-western-australia-on-setting-up-campus-in-india",
+        "headline": "Herbert Smith Freehills Kramer, Khaitan & Co advise the University of Western Australia on setting up a campus in India"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/khaitan-co-advised-uwa-mumbai-chennai-campus-setup-990699",
+          "headline": "Khaitan & Co Advised The University Of Western Australia On Setting Up Campuses In Mumbai And Chennai",
+          "rules": [
+            "same-team-and-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
         "source": "LiveLaw",
         "url": "https://www.livelaw.in/law-firms/deals/khaitan-co-advises-pwc-us-on-joint-venture-with-pwc-india-552801",
         "headline": "Khaitan & Co Advises PwC US On Joint Venture With PwC India"
@@ -518,6 +535,23 @@
           "source": "Legal Era",
           "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-lcc-projects-successful-ipo-listing-990131",
           "headline": "Trilegal Advised On The Successful Listing Of LCC Projects Aggregating To INR 4,271.41 Million",
+          "rules": [
+            "same-team-and-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-dailyobjects-on-332-crore-series-c-fundraise",
+        "headline": "Trilegal advises DailyObjects on ₹332 crore Series C fundraise"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/trilegal-dailyobjects-inr-332-crore-series-c-funding-990749",
+          "headline": "Trilegal Advised DailyObjects On INR 332 Crore Series C Funding Round",
           "rules": [
             "same-team-and-entities"
           ]
