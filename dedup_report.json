@@ -1,13 +1,13 @@
 {
-  "input_records": 761,
-  "output_records": 720,
-  "removed_duplicates": 41,
+  "input_records": 765,
+  "output_records": 723,
+  "removed_duplicates": 42,
   "merges_by_rule": {
     "same-url": 1,
     "headline-entities": 16,
     "same-slug": 4,
     "nested-same-type": 6,
-    "same-core-headline": 5,
+    "same-core-headline": 6,
     "ipo-draft-then-final": 2,
     "same-headline": 1,
     "same-team-and-entities": 4,
@@ -681,6 +681,23 @@
           "headline": "Trilegal Advised Dosti Realty On Its Proposed IPO",
           "rules": [
             "headline-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Legal Era",
+        "url": "https://www.legaleraonline.com/deal-street/azb-partners-esr-brookfield-450-million-warehousing-sale-990647",
+        "headline": "AZB & Partners Advised ESR Logistics Fund On USD 450 Million Sale Of Warehousing Portfolio To Brookfield"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/azb-partners-esr-logistics-fund-brookfield-450-million-warehousing-sale-990784",
+          "headline": "AZB & Partners Advised ESR Logistics Fund On US$450 Million Sale Of Warehousing Portfolio To Brookfield",
+          "rules": [
+            "same-core-headline"
           ]
         }
       ]
