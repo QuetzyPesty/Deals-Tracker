@@ -6246,5 +6246,164 @@
       "fx_asof": "2026-09-01",
       "source": "headline"
     }
+  },
+  {
+    "headline": "Khaitan & Co Advised U M Cables On Sale Of Optical Fibre Cable Business To RR Kabel",
+    "client": "U M Cables",
+    "source": "Legal Era",
+    "source_id": "legalera",
+    "url": "https://www.legaleraonline.com/deal-street/khaitan-co-um-cables-rr-kabel-optical-fibre-business-sale-990868",
+    "snippet": "Khaitan & Co advised U M Cables Limited, a wholly owned subsidiary of Usha Martin Limited, on the sale of its optical fibre and related cable manufacturing and sales business to RR Kabel Limited through a slump sale. U M Cables Limited is engaged in the manufacture and sale of optical fibre and related cables. RR Kabel Limited is a leading Indian wires and cables manufacturer. The transaction marks RR Kabel’s entry into the optical fibre cable segment and expands its presence in the broader comm",
+    "law_firms": [
+      "Khaitan & Co"
+    ],
+    "transaction_types": [],
+    "people": [
+      {
+        "name": "Anuj Shah",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Prithwijit Gangopadhyay",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Vibhav Seth",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Sanjana Dwivedi",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Yashvi Chandak",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Sneh Shah",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Pal Jain",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Sharad Abhyankar",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Saranya Mishra",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      }
+    ],
+    "published_at": "2026-10-21T16:30:43+05:30",
+    "keywords": [
+      "Khaitan & Co",
+      "U M Cables Limited",
+      "Usha Martin Limited",
+      "RR Kabel Limited",
+      "optical fibre cable business",
+      "slump sale",
+      "cable manufacturing",
+      "optical fibre cables",
+      "communication cables market",
+      "Anuj Shah",
+      "Prithwijit Gangopadhyay",
+      "Vibhav Seth",
+      "Sanjana Dwivedi",
+      "Yashvi Chandak",
+      "Sneh Shah",
+      "Pal Jain",
+      "Arvind Baheti",
+      "Sharad Abhyankar",
+      "Saranya Mishra",
+      "direct tax",
+      "indirect tax",
+      "SEBI regulatory aspects"
+    ]
+  },
+  {
+    "headline": "Trilegal Advised HD Fire On INR 7,121.32 Million IPO",
+    "client": "HD Fire",
+    "source": "Legal Era",
+    "source_id": "legalera",
+    "url": "https://www.legaleraonline.com/deal-street/trilegal-hd-fire-ipo-990867",
+    "snippet": "Trilegal advised HD Fire Protect Limited (HD Fire) on its successful initial public offering (IPO), aggregating to approximately INR 7,121.32 million. The issue comprised an offer for sale of 26,284,500 equity shares with a face value of INR 5 each by certain promoters. HD Fire is an Indian manufacturer and supplier of fire protection equipment and systems, offering a comprehensive portfolio spanning water, foam and gas-based fire suppression systems, also generally known as firefighting product",
+    "law_firms": [
+      "Trilegal"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "people": [
+      {
+        "name": "Richa Choudhary",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Maitreya Rajurkar",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Pooja Tada",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Shreyansh Gupta",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Naman Shah",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Arnab Goswami",
+        "role": "Associate",
+        "firm": "Trilegal"
+      }
+    ],
+    "published_at": "2026-10-21T14:15:50+05:30",
+    "keywords": [
+      "Trilegal",
+      "HD Fire Protect Limited",
+      "HD Fire IPO",
+      "INR 7",
+      "121.32 million IPO",
+      "initial public offering",
+      "offer for sale",
+      "capital markets",
+      "Richa Choudhary",
+      "Maitreya Rajurkar",
+      "Pooja Tada",
+      "Shreyansh Gupta",
+      "Naman Shah",
+      "Arnab Goswami",
+      "Ambit Private Limited",
+      "Anand Rathi Advisors Limited",
+      "IIFL Capital Services Limited"
+    ],
+    "deal_value": {
+      "raw": "INR 7,121.32 Million",
+      "currency": "INR",
+      "amount": 7121320000,
+      "amount_inr": 7121320000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   }
 ]

@@ -1,6 +1,6 @@
 {
-  "filings": 1466,
-  "deals": 723,
+  "filings": 1468,
+  "deals": 729,
   "matched": [
     {
       "headline": "CAM advises Jindal Power on acquisition of 1320 MW thermal power plant in Haryana",
@@ -140,6 +140,24 @@
       "gap_days": -8
     },
     {
+      "headline": "TT&A, Trilegal act on Impact Fund Denmark investing $35 million in GreenCell Mobility",
+      "url": "https://www.barandbench.com/law-firms/dealstreet/tta-trilegal-act-on-impact-fund-denmark-investing-35-million-in-greencell-mobility",
+      "reported": "2026-10-21T05:59:50Z",
+      "combination_no": "C-2026/08/1449",
+      "status": "Approved",
+      "notified": "2026-08-04",
+      "decided": "2026-10-13",
+      "summary_url": "https://www.cci.gov.in/combination/order/details/summary/1788/0/orders-section31",
+      "order_url": null,
+      "parties": "1. Impact Fund Denmark 2. Belgian Investment Company for Developing Countries SA/NV 3. Orios Fund IIIa",
+      "confidence": "high",
+      "entities": [
+        "impact",
+        "denmark"
+      ],
+      "gap_days": -78
+    },
+    {
       "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
       "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
       "reported": "2026-09-04T10:41:57Z",
@@ -155,14 +173,31 @@
         "upgrad"
       ],
       "gap_days": -120
+    },
+    {
+      "headline": "Warburg Pincus acquires Integrace from True North, Temasek; CAM, Khaitan, JSA advise",
+      "url": "https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+      "reported": "2026-08-25T03:01:06Z",
+      "combination_no": "C-2026/09/1466",
+      "status": "Approved",
+      "notified": "2026-09-09",
+      "decided": "2026-10-21",
+      "summary_url": "https://www.cci.gov.in/combination/order/details/summary/1806/0/orders-section31",
+      "order_url": null,
+      "parties": "Integrace Private Limited and Morning Waves Investments B.V.",
+      "confidence": "high",
+      "entities": [
+        "integrace"
+      ],
+      "gap_days": 15
     }
   ],
   "ambiguous": [],
   "reasons": {
-    "no-name-evidence": 209,
-    "type-gate": 444,
-    "evidence-below-threshold": 59,
-    "matched": 11
+    "no-name-evidence": 212,
+    "type-gate": 446,
+    "evidence-below-threshold": 58,
+    "matched": 13
   },
   "filing_claimed_by_several_deals": {
     "C-2025/06/1294": [

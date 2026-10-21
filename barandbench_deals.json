@@ -19728,5 +19728,428 @@
         "firm": "Trilegal"
       }
     ]
+  },
+  {
+    "headline": "Dua Associates advises Piramal Finance on ₹125 crore financing for residential projects in Bengaluru",
+    "client": "Piramal Finance",
+    "source": "Bar & Bench",
+    "published_at": "2026-10-21T06:07:19Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/dua-associates-advises-piramal-finance-on-125-crore-financing-for-residential-projects-in-bengaluru",
+    "snippet": "Piramal Finance Limited has sanctioned finances aggregating to ₹125 crore for two residential group housing projects in Bengaluru, Karnataka. The transactions involved financing of ₹80 crore to Akarsh Dwellings Private Limited for its residential project, Adarsh Primrose, and ₹45 crore to Adarsh Developers for its project, Adarsh Stratuss. Dua Associates advised Piramal Finance on these financing transactions. The transaction team consisted Prateek Bedi (Partner), Angad Varma (Partner), Rahul Go",
+    "law_firms": [
+      "Dua Associates"
+    ],
+    "transaction_types": [
+      "financing"
+    ],
+    "deal_value": {
+      "raw": "₹125 crore",
+      "currency": "INR",
+      "amount": 1250000000,
+      "amount_inr": 1250000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Prateek Bedi",
+        "role": "Partner",
+        "firm": "Dua Associates"
+      },
+      {
+        "name": "Angad Varma",
+        "role": "Partner",
+        "firm": "Dua Associates"
+      },
+      {
+        "name": "Rahul Goyal",
+        "role": "Partner",
+        "firm": "Dua Associates"
+      },
+      {
+        "name": "Bhaskar Mishra",
+        "role": "Partner",
+        "firm": "Dua Associates"
+      },
+      {
+        "name": "Prashant Kumar",
+        "role": "Partner",
+        "firm": "Dua Associates"
+      },
+      {
+        "name": "Vaibhav Tripathi",
+        "role": "Senior Associate",
+        "firm": "Dua Associates"
+      },
+      {
+        "name": "Pushkar Athreyas",
+        "role": "Associate",
+        "firm": "Dua Associates"
+      }
+    ]
+  },
+  {
+    "headline": "DSK Legal advises Foundry on seed fundraise",
+    "client": "Foundry",
+    "source": "Bar & Bench",
+    "published_at": "2026-10-21T06:05:42Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/dsk-legal-advises-foundry-on-seed-fundraise",
+    "snippet": "Goodspeed Ventures Private Limited, dba Foundry, has raised capital from a seed fundraise Co-led by BEENEXT and Kettleborough VC, with participation from angel investors. DSK Legal advised Foundry and its founder, Ankit Jain, on this fundraise. The transaction was led by Rangam Sharma (Associate Partner), with support from Aditya Shah (Associate). Niraj Kumar (Partner), Kirat Singh Nagra (Partner) and Pranav Vyas (Partner) provided strategic inputs on the deal. Founded by former Dyson India MD A",
+    "law_firms": [
+      "DSK Legal"
+    ],
+    "transaction_types": [
+      "fundraise"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Rangam Sharma",
+        "role": "Associate Partner",
+        "firm": "DSK Legal"
+      },
+      {
+        "name": "Aditya Shah",
+        "role": "Associate",
+        "firm": "DSK Legal"
+      },
+      {
+        "name": "Niraj Kumar",
+        "role": "Partner",
+        "firm": "DSK Legal"
+      },
+      {
+        "name": "Kirat Singh Nagra",
+        "role": "Partner",
+        "firm": "DSK Legal"
+      },
+      {
+        "name": "Pranav Vyas",
+        "role": "Partner",
+        "firm": "DSK Legal"
+      }
+    ]
+  },
+  {
+    "headline": "SNG & Partners advises ICICI managed Fund on acquisition of Purva Ruby Properties",
+    "client": "ICICI managed Fund",
+    "source": "Bar & Bench",
+    "published_at": "2026-10-21T06:04:52Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/sng-partners-advises-icici-managed-fund-on-acquisition-of-purva-ruby-properties",
+    "snippet": "ICICI Prudential Office Yield Optimiser Fund – AIF II, managed by ICICI Prudential Asset Management Company Limited, has made a structured acquisition of Purva Ruby Properties Private Limited. The acquisition was made through Prishal Office Parks III Private Limited, which is owned by the ICICI Fund. SNG & Partners advised ICICI Fund on the overall legal structuring, due diligence and execution, including the design and implementation of a multi-leg transaction framework. The Firm’s scope includ",
+    "law_firms": [
+      "SNG & Partners"
+    ],
+    "transaction_types": [
+      "acquisition"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Ayushi Parnami",
+        "role": "Principal Associate",
+        "firm": "SNG & Partners"
+      },
+      {
+        "name": "Eesha Govilla",
+        "role": "Senior Associate",
+        "firm": "SNG & Partners"
+      },
+      {
+        "name": "Bhavya Chopra",
+        "role": "Associate",
+        "firm": "SNG & Partners"
+      },
+      {
+        "name": "Mohit Goyal",
+        "role": "Associate",
+        "firm": "SNG & Partners"
+      },
+      {
+        "name": "Sparsh Sinha",
+        "role": "Associate",
+        "firm": "SNG & Partners"
+      },
+      {
+        "name": "Arjun Khanna",
+        "role": "Associate",
+        "firm": "SNG & Partners"
+      },
+      {
+        "name": "Aditi Mishra",
+        "role": "Associate",
+        "firm": "SNG & Partners"
+      },
+      {
+        "name": "Devyani Dhawan",
+        "role": "Counsel",
+        "firm": "SNG & Partners"
+      }
+    ]
+  },
+  {
+    "headline": "Fox & Mandal advises Tenty Limited on proposed IPO",
+    "client": "Tenty Limited",
+    "source": "Bar & Bench",
+    "published_at": "2026-10-21T06:04:31Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/fox-mandal-advises-tenty-limited-on-proposed-ipo",
+    "snippet": "Tenty Limited has filed a draft red herring prospectus for an initial public offering of equity shares on the National Stock Exchange of India Limited (NSE) and BSE Limited (BSE). Fox & Mandal is advising Tenty on this IPO. The Firm advised the Company on legal due diligence and drafting of the Offer Document. The transaction team consists of Prashaant Rajput (Partner), Rudresh Mandal (Principal Associate), Associates Shrinwantu Choudhury and Ayushi Sinha. Tenty Limited is a manufacturer of rigi",
+    "law_firms": [
+      "Fox Mandal & Associates"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Prashaant Rajput",
+        "role": "Partner",
+        "firm": "Fox Mandal & Associates"
+      },
+      {
+        "name": "Rudresh Mandal",
+        "role": "Principal Associate",
+        "firm": "Fox Mandal & Associates"
+      },
+      {
+        "name": "Shrinwantu Choudhury",
+        "role": "Associate",
+        "firm": "Fox Mandal & Associates"
+      },
+      {
+        "name": "Ayushi Sinha",
+        "role": "Associate",
+        "firm": "Fox Mandal & Associates"
+      }
+    ]
+  },
+  {
+    "headline": "TT&A, Trilegal act on Impact Fund Denmark investing $35 million in GreenCell Mobility",
+    "client": "Impact Fund Denmark investing",
+    "source": "Bar & Bench",
+    "published_at": "2026-10-21T05:59:50Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/tta-trilegal-act-on-impact-fund-denmark-investing-35-million-in-greencell-mobility",
+    "snippet": "Danish SDG Investment Fund II K/S (SDG II), managed by Impact Fund Denmark (IFU) has made an equity investment amounting to $35 million in GreenCell Mobility Private Limited. TT&A advised Danish SDG Investment Fund on this transaction. The transaction team consisted of Dushyant Bagga (Partner), Akshay Malhotra (Partner), Akshita Alok (Counsel), Aditi Somani (Managing Associate), Aishik Majumder (Senior Associate) and Megha Rana (Associate). Trilegal advised GreenCell Mobility on this transaction",
+    "law_firms": [
+      "Talwar Thakore & Associates",
+      "Trilegal"
+    ],
+    "transaction_types": [],
+    "deal_value": {
+      "raw": "$35 million",
+      "currency": "USD",
+      "amount": 35000000,
+      "amount_inr": 3080000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Dushyant Bagga",
+        "role": "Partner",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Akshay Malhotra",
+        "role": "Partner",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Akshita Alok",
+        "role": "Counsel",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Aishik Majumder",
+        "role": "Senior Associate",
+        "firm": "Talwar Thakore & Associates"
+      },
+      {
+        "name": "Megha Rana",
+        "role": "Associate",
+        "firm": "Talwar Thakore & Associates"
+      }
+    ]
+  },
+  {
+    "headline": "Khaitan & Co advises Vector Line Capital $75 million investment in Tessolve Semiconductor",
+    "client": "Vector Line Capital",
+    "source": "Bar & Bench",
+    "published_at": "2026-10-21T05:59:16Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-vector-line-capital-75-million-investment-in-tessolve-semiconductor",
+    "snippet": "Vector Line Capital has made an investment of $75 million in Tessolve Semiconductor Private Limited. Khaitan & Co advised Vector Line Capital on this investment. The core team consisted of Kapish Mandhyan (Partner), Reshma Abraham (Counsel), Deep Shah (Principal Associate), Aanya Desai (Associate) and Krisha Devani (Associate). The following provided support: Funds: Divaspati Singh (Partner), Khusboo Agarwal (Counsel), Samarth Chopra (Senior Associate) and Parv Pancholi (Associate); Tax: Rahul J",
+    "law_firms": [
+      "Khaitan & Co"
+    ],
+    "transaction_types": [
+      "investment"
+    ],
+    "deal_value": {
+      "raw": "$75 million",
+      "currency": "USD",
+      "amount": 75000000,
+      "amount_inr": 6600000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Kapish Mandhyan",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Reshma Abraham",
+        "role": "Counsel",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Deep Shah",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Aanya Desai",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Krisha Devani",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Divaspati Singh",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Khusboo Agarwal",
+        "role": "Counsel",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Samarth Chopra",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Parv Pancholi",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Rahul Jain",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Jinisha Jain",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Krishnal Shailesh Agrawal",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Krunal Himanshu Mehta",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Anshuman Sakle",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Alisha Mehra",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Vidhi Maharishi",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      }
+    ]
+  },
+  {
+    "headline": "Veritas Legal, Norton Rose Fulbright, Freshfields act on Aegis Logistics' $809 million majority stake acquisition in Tristar Holdings",
+    "client": "Aegis Logistics'",
+    "source": "Bar & Bench",
+    "published_at": "2026-10-21T05:58:13Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/veritas-legal-norton-rose-fulbright-freshfields-act-on-aegis-logistics-809-million-majority-stake-acquisition-in-tristar-holdings",
+    "snippet": "Aegis Logistics Limited has acquired an 89.8% stake in Tristar Holdings Limited for a consideration of $809 million. Veritas Legal advised Aegis Logistics on this acquisition. The transaction team consisted of Abhijit Joshi (Founding & Managing Partner), Rustam Mulla (Senior Partner), Kunal Doshi (Senior Partner), Kanisha Vora (Partner), Jhinook Roy (Partner & Head - Projects, Infrastructure and Finance) and Aditya Thakore (Principal Associate). They were supported by the following: Due diligenc",
+    "law_firms": [
+      "Veritas Legal",
+      "Norton Rose Fulbright",
+      "Freshfields"
+    ],
+    "transaction_types": [
+      "acquisition",
+      "stake acquisition"
+    ],
+    "deal_value": {
+      "raw": "$809 million",
+      "currency": "USD",
+      "amount": 809000000,
+      "amount_inr": 71192000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Rustam Mulla",
+        "role": "Senior Partner",
+        "firm": "Veritas Legal"
+      },
+      {
+        "name": "Kunal Doshi",
+        "role": "Senior Partner",
+        "firm": "Veritas Legal"
+      },
+      {
+        "name": "Kanisha Vora",
+        "role": "Partner",
+        "firm": "Veritas Legal"
+      },
+      {
+        "name": "Aditya Thakore",
+        "role": "Principal Associate",
+        "firm": "Veritas Legal"
+      },
+      {
+        "name": "Zenia Cassinath",
+        "role": "Partner",
+        "firm": "Veritas Legal"
+      },
+      {
+        "name": "Pervez Akhtar",
+        "role": "Partner",
+        "firm": "Freshfields"
+      },
+      {
+        "name": "Zyl Gow",
+        "role": "Counsel",
+        "firm": "Freshfields"
+      },
+      {
+        "name": "Nalothiya Nambirajah",
+        "role": "Senior Associate",
+        "firm": "Freshfields"
+      },
+      {
+        "name": "Andrea Pandazopoulos",
+        "role": "Associate",
+        "firm": "Freshfields"
+      }
+    ]
   }
 ]

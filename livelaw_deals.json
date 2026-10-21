@@ -2173,5 +2173,44 @@
       "fx_asof": null,
       "source": "headline"
     }
+  },
+  {
+    "headline": "Kochhar & Co. Advises Samit Enterprises on Follow-On Investment in Australian Mineral Exploration...",
+    "client": "Samit Enterprises",
+    "source": "LiveLaw",
+    "source_id": "livelaw",
+    "url": "https://www.livelaw.in/law-firms/deals/kochhar-co-advises-samit-enterprises-on-follow-on-investment-in-australian-mineral-exploration-technology-company-555355",
+    "snippet": "Kochhar & Co. advised Samit Enterprises Private Limited in connection with its participation in a follow-on investment in SensOre_X Pty Ltd, an Australian company engaged in mineral exploration technology and services, including lithium exploration. The investment involved a contractual arrangement with Alpha Future Funds S.C.S., a Luxembourg-based investment fund, and the exercise of a subscription option to acquire additional shares in SensOre_X Pty Ltd. Kochhar & Co. acted as legal counsel to",
+    "law_firms": [
+      "Kochhar & Co"
+    ],
+    "transaction_types": [
+      "investment"
+    ],
+    "people": [
+      {
+        "name": "Ketan Mukhija",
+        "role": "Partner",
+        "firm": "Kochhar & Co"
+      },
+      {
+        "name": "Deepika Gautam",
+        "role": "Senior Associate",
+        "firm": "Kochhar & Co"
+      },
+      {
+        "name": "Piyush Senapati",
+        "role": "Associate",
+        "firm": "Kochhar & Co"
+      }
+    ],
+    "published_at": "2026-10-20T10:38:46+05:30",
+    "keywords": [
+      "Kochhar & Co.",
+      "Samit Enterprises",
+      "SensOre",
+      "Follow-On Investment",
+      "Lithium Exploration"
+    ]
   }
 ]

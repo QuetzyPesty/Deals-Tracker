@@ -1,16 +1,16 @@
 {
-  "input_records": 765,
-  "output_records": 723,
-  "removed_duplicates": 42,
+  "input_records": 775,
+  "output_records": 729,
+  "removed_duplicates": 46,
   "merges_by_rule": {
     "same-url": 1,
-    "headline-entities": 16,
+    "headline-entities": 17,
     "same-slug": 4,
-    "nested-same-type": 6,
-    "same-core-headline": 6,
+    "nested-same-type": 8,
+    "same-core-headline": 7,
     "ipo-draft-then-final": 2,
     "same-headline": 1,
-    "same-team-and-entities": 4,
+    "same-team-and-entities": 5,
     "same-entities-different-counsel": 1,
     "nested-entities": 1
   },
@@ -340,6 +340,23 @@
     {
       "kept": {
         "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/dsk-legal-advises-foundry-on-seed-fundraise",
+        "headline": "DSK Legal advises Foundry on seed fundraise"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/dsk-legal-foundry-series-seed-funding-round-990808",
+          "headline": "DSK Legal Advised Foundry On Series Seed Funding Round",
+          "rules": [
+            "same-team-and-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
         "url": "https://www.barandbench.com/law-firms/dealstreet/dua-associates-advises-odyssey-energy-solutions-on-availing-7-million-ecb-from-bio",
         "headline": "Dua Associates advises Odyssey Energy Solutions on availing €7 million ECB from BIO"
       },
@@ -350,6 +367,23 @@
           "headline": "Dua Associates advises Odyssey Energy Solutions Procure VI Pvt. Ltd. on EUR 7 million ECB from BIO",
           "rules": [
             "nested-same-type"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/dua-associates-advises-piramal-finance-on-125-crore-financing-for-residential-projects-in-bengaluru",
+        "headline": "Dua Associates advises Piramal Finance on ₹125 crore financing for residential projects in Bengaluru"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/dua-associates-piramal-finance-125-crore-bengaluru-projects-990794",
+          "headline": "Dua Associates Advised Piramal Finance On ₹125 Crore Financing For Two Bengaluru Residential Projects",
+          "rules": [
+            "headline-entities"
           ]
         }
       ]
@@ -390,11 +424,19 @@
     },
     {
       "kept": {
-        "source": "Bar & Bench",
-        "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advised-rr-kabel-on-acquisition-of-u-m-cables",
-        "headline": "Khaitan & Co advised RR Kabel on acquisition of U M Cables"
+        "source": "Legal Era",
+        "url": "https://www.legaleraonline.com/deal-street/khaitan-co-um-cables-rr-kabel-optical-fibre-business-sale-990868",
+        "headline": "Khaitan & Co Advised U M Cables On Sale Of Optical Fibre Cable Business To RR Kabel"
       },
       "duplicates": [
+        {
+          "source": "Bar & Bench",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advised-rr-kabel-on-acquisition-of-u-m-cables",
+          "headline": "Khaitan & Co advised RR Kabel on acquisition of U M Cables",
+          "rules": [
+            "nested-same-type"
+          ]
+        },
         {
           "source": "Legal Era",
           "url": "https://www.legaleraonline.com/deal-street/khaitan-advised-rr-kabel-um-cables-acquisition-990441",
@@ -416,6 +458,23 @@
           "source": "Bar & Bench",
           "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-sgs-india-on-acquisition-of-prescient-cyber-audit-assurance",
           "headline": "Khaitan & Co advises SGS India on acquisition of Prescient Cyber Audit & Assurance",
+          "rules": [
+            "same-core-headline"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-vector-line-capital-75-million-investment-in-tessolve-semiconductor",
+        "headline": "Khaitan & Co advises Vector Line Capital $75 million investment in Tessolve Semiconductor"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/khaitan-co-advised-vector-line-capital-tessolve-75m-investment-990701",
+          "headline": "Khaitan & Co Advised Vector Line Capital On US$75 Million Investment In Tessolve Semiconductor",
           "rules": [
             "same-core-headline"
           ]
