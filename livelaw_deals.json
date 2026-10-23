@@ -2212,5 +2212,62 @@
       "Follow-On Investment",
       "Lithium Exploration"
     ]
+  },
+  {
+    "headline": "Kochhar & Co. Advises Agrawal Infrabuild On ₹1,200 Crore Ludhiana Toll Road Insolvency Resolution",
+    "client": "Agrawal Infrabuild",
+    "source": "LiveLaw",
+    "source_id": "livelaw",
+    "url": "https://www.livelaw.in/law-firms/deals/kochhar-co-advises-agrawal-infrabuild-on-1200-crore-ludhiana-toll-road-insolvency-resolution-555658",
+    "snippet": "Kochhar & Co. has advised Agrawal Infrabuild Private Limited, the successful resolution applicant, in connection with the submission of a resolution plan worth approximately ₹1,200 crore for Ludhiana Talwandi Toll Roads Private Limited, formerly known as Essel Ludhiana Talwandi Toll Roads Private Limited. The firm advised on the overall resolution strategy for the corporate debtor under the Insolvency and Bankruptcy Code, 2016, including the review of the information memorandum issued under Sect",
+    "law_firms": [
+      "Kochhar & Co"
+    ],
+    "transaction_types": [],
+    "people": [
+      {
+        "name": "Krishna Vijay Singh",
+        "role": "Senior Partner",
+        "firm": "Kochhar & Co"
+      },
+      {
+        "name": "Manish Dembla",
+        "role": "Partner",
+        "firm": "Kochhar & Co"
+      },
+      {
+        "name": "Vrinda Taneja",
+        "role": "Associate",
+        "firm": "Kochhar & Co"
+      },
+      {
+        "name": "Anshu Gupta",
+        "role": "Associate",
+        "firm": "Kochhar & Co"
+      },
+      {
+        "name": "Deepanshi Trivedi",
+        "role": "Senior Associate",
+        "firm": "Kochhar & Co"
+      }
+    ],
+    "published_at": "2026-10-22T21:53:12+05:30",
+    "keywords": [
+      "Kochhar & Co.",
+      "Agrawal Infrabuild",
+      "Ludhiana Talwandi Toll Roads",
+      "Insolvency and Bankruptcy Code",
+      "Resolution Plan",
+      "Corporate Insolvency"
+    ],
+    "deal_value": {
+      "raw": "₹1,200 Crore",
+      "currency": "INR",
+      "amount": 12000000000,
+      "amount_inr": 12000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   }
 ]

@@ -1,12 +1,12 @@
 {
-  "input_records": 775,
-  "output_records": 729,
-  "removed_duplicates": 46,
+  "input_records": 788,
+  "output_records": 740,
+  "removed_duplicates": 48,
   "merges_by_rule": {
     "same-url": 1,
     "headline-entities": 17,
     "same-slug": 4,
-    "nested-same-type": 8,
+    "nested-same-type": 10,
     "same-core-headline": 7,
     "ipo-draft-then-final": 2,
     "same-headline": 1,
@@ -449,6 +449,23 @@
     },
     {
       "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-dilip-buildcon-on-solar-portfolio-divestment",
+        "headline": "Khaitan & Co advises Dilip Buildcon on Solar Portfolio divestment"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/khaitan-dilip-buildcon-solar-portfolio-divestment-990532",
+          "headline": "Khaitan & Co Advised On Dilip Buildcon’s Proposed Solar Portfolio Divestment To Alpha Alternatives Fund...",
+          "rules": [
+            "nested-same-type"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
         "source": "Legal Era",
         "url": "https://www.legaleraonline.com/deal-street/khaitan-sgs-india-prescient-cyber-acquisition-990630",
         "headline": "Khaitan & Co Advised SGS India On Acquisition Of Prescient Cyber Audit & Assurance"
@@ -477,6 +494,23 @@
           "headline": "Khaitan & Co Advised Vector Line Capital On US$75 Million Investment In Tessolve Semiconductor",
           "rules": [
             "same-core-headline"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-assists-anta-sports-on-acquiring-shares-in-puma",
+        "headline": "Khaitan & Co assists ANTA Sports on acquiring shares in PUMA"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/khaitan-co-advised-anta-puma-stake-acquisition-pn3-approval-990700",
+          "headline": "Khaitan & Co Advised ANTA Sports Products Limited On PN3 Approval For Proposed Acquisition Of PUMA Stake",
+          "rules": [
+            "nested-same-type"
           ]
         }
       ]
@@ -1288,6 +1322,35 @@
       ],
       "shared_people": 2,
       "people_jaccard": 0.04,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Kochhar & Co. Advises Agrawal Infrabuild On ₹1,200 Crore Ludhiana Toll Road Insolvency Resolution",
+      "a_url": "https://www.livelaw.in/law-firms/deals/kochhar-co-advises-agrawal-infrabuild-on-1200-crore-ludhiana-toll-road-insolvency-resolution-555658",
+      "b": "Kochhar & Co advised Agrawal Infrabuild on submission of ₹1,200 crore resolution plan for Ludhiana Talwandi Toll Roads",
+      "b_url": "https://www.barandbench.com/law-firms/dealstreet/kochhar-co-advised-agrawal-infrabuild-on-submission-of-1200-crore-resolution-plan-for-ludhiana-talwandi-toll-roads",
+      "date_gap_days": 0,
+      "head_sim": 0.75,
+      "lede_sim": 0.18,
+      "shared_rare": [
+        "agrawal",
+        "infrabuild",
+        "ludhiana",
+        "resolution",
+        "toll"
+      ],
+      "a_only": [
+        "insolvency",
+        "road"
+      ],
+      "b_only": [
+        "plan",
+        "roads",
+        "submission",
+        "talwandi"
+      ],
+      "shared_people": 5,
+      "people_jaccard": 0.83,
       "veto": "entity-clash"
     }
   ]
