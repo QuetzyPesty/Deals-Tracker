@@ -1,16 +1,17 @@
 {
-  "input_records": 788,
-  "output_records": 740,
-  "removed_duplicates": 48,
+  "input_records": 804,
+  "output_records": 750,
+  "removed_duplicates": 54,
   "merges_by_rule": {
     "same-url": 1,
-    "headline-entities": 17,
+    "headline-entities": 21,
     "same-slug": 4,
-    "nested-same-type": 10,
+    "nested-same-type": 12,
     "same-core-headline": 7,
     "ipo-draft-then-final": 2,
     "same-headline": 1,
     "same-team-and-entities": 5,
+    "copied-text": 1,
     "same-entities-different-counsel": 1,
     "nested-entities": 1
   },
@@ -280,6 +281,23 @@
     },
     {
       "kept": {
+        "source": "Legal Era",
+        "url": "https://www.legaleraonline.com/deal-street/cyril-amarchand-mangaldas-triveni-power-transmission-listing-990904",
+        "headline": "Cyril Amarchand Mangaldas Advised Triveni Power Transmission On Listing Following Demerger"
+      },
+      "duplicates": [
+        {
+          "source": "Bar & Bench",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-triveni-power-transmission-on-listing-of-shares-post-demerger",
+          "headline": "Cyril Amarchand Mangaldas advises Triveni Power Transmission on listing of shares post-demerger",
+          "rules": [
+            "headline-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
         "source": "Bar & Bench",
         "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
         "headline": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech"
@@ -383,6 +401,16 @@
           "url": "https://www.legaleraonline.com/deal-street/dua-associates-piramal-finance-125-crore-bengaluru-projects-990794",
           "headline": "Dua Associates Advised Piramal Finance On ₹125 Crore Financing For Two Bengaluru Residential Projects",
           "rules": [
+            "copied-text",
+            "headline-entities"
+          ]
+        },
+        {
+          "source": "LiveLaw",
+          "url": "https://www.livelaw.in/law-firms/deals/dua-associates-advises-piramal-finance-limited-125-crore-financing-two-residential-projects-bengaluru-556005",
+          "headline": "Dua Associates Advises Piramal Finance Limited On ₹125 Crore Financing For Two Residential Projects In...",
+          "rules": [
+            "copied-text",
             "headline-entities"
           ]
         }
@@ -620,6 +648,23 @@
     {
       "kept": {
         "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-fusion-cx-702-crore-ipo",
+        "headline": "Trilegal acts on Fusion CX ₹702 crore IPO"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/trilegal-fusion-cx-inr-7020-million-ipo-990897",
+          "headline": "Trilegal Advised Fusion CX On INR 7,020 Million IPO",
+          "rules": [
+            "headline-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
         "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-llc-projects-427-crore-ipo",
         "headline": "Trilegal acts on LCC Projects ₹427 crore IPO"
       },
@@ -764,6 +809,31 @@
     {
       "kept": {
         "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-chandhiok-mahajan-act-on-hd-fire-protect-712-crore-ipo",
+        "headline": "Trilegal, TT&A, Chandhiok & Mahajan act on HD Fire Protect ₹712 crore IPO"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/trilegal-hd-fire-ipo-990867",
+          "headline": "Trilegal Advised HD Fire On INR 7,121.32 Million IPO",
+          "rules": [
+            "headline-entities"
+          ]
+        },
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/chandhiok-mahajan-advised-hd-fire-protect-inr-7121-million-ipo-990997",
+          "headline": "Chandhiok & Mahajan Advised On HD Fire Protect’s INR 7,121.32 Million IPO",
+          "rules": [
+            "nested-same-type"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
         "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-hogan-lovells-cadwalader-act-on-dosti-realty-proposed-ipo",
         "headline": "Trilegal, TT&A, Hogan Lovells Cadwalader act on Dosti Realty proposed IPO"
       },
@@ -774,6 +844,23 @@
           "headline": "Trilegal Advised Dosti Realty On Its Proposed IPO",
           "rules": [
             "headline-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Legal Era",
+        "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-greencell-mobility-usd-35-million-fundraise-impact-fund-denmark-991048",
+        "headline": "Trilegal Advised GreenCell Mobility On USD 35 Million Fundraise From Impact Fund Denmark"
+      },
+      "duplicates": [
+        {
+          "source": "Bar & Bench",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-trilegal-act-on-impact-fund-denmark-investing-35-million-in-greencell-mobility",
+          "headline": "TT&A, Trilegal act on Impact Fund Denmark investing $35 million in GreenCell Mobility",
+          "rules": [
+            "nested-same-type"
           ]
         }
       ]
@@ -805,7 +892,10 @@
       "date_gap_days": 24,
       "head_sim": 0.71,
       "lede_sim": 0.1,
-      "shared_rare": [],
+      "shared_rare": [
+        "hogan",
+        "lovells"
+      ],
       "a_only": [
         "barandbench",
         "pharma",
@@ -986,6 +1076,8 @@
       ],
       "b_only": [
         "billdesk",
+        "hogan",
+        "lovells",
         "worldline"
       ],
       "shared_people": 3,
@@ -1167,6 +1259,50 @@
       "veto": "entity-clash"
     },
     {
+      "a": "Trilegal, JSA, Hogan Lovells act on Studds ₹455 crore IPO - Bar and Bench",
+      "a_url": "https://www.barandbench.com/dealstreet/trilegal-jsa-hogan-lovells-act-on-studds-455-crore-ipo",
+      "b": "S&R Associates, JSA act on Euro Pratik ₹451 crore IPO - Bar and Bench",
+      "b_url": "https://www.barandbench.com/dealstreet/sr-associates-jsa-act-on-euro-pratik-451-crore-ipo",
+      "date_gap_days": 10,
+      "head_sim": 0.67,
+      "lede_sim": 0.16,
+      "shared_rare": [],
+      "a_only": [
+        "hogan",
+        "lovells",
+        "studds"
+      ],
+      "b_only": [
+        "euro",
+        "pratik"
+      ],
+      "shared_people": 0,
+      "people_jaccard": 0.0,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Trilegal, JSA, Hogan Lovells act on Studds ₹455 crore IPO - Bar and Bench",
+      "a_url": "https://www.barandbench.com/dealstreet/trilegal-jsa-hogan-lovells-act-on-studds-455-crore-ipo",
+      "b": "Trilegal, JSA act on Shivalaya Construction ₹450 crore+ IPO - Bar and Bench",
+      "b_url": "https://www.barandbench.com/dealstreet/trilegal-jsa-act-on-shivalaya-construction-450-crore-ipo",
+      "date_gap_days": 60,
+      "head_sim": 0.67,
+      "lede_sim": 0.0,
+      "shared_rare": [],
+      "a_only": [
+        "hogan",
+        "lovells",
+        "studds"
+      ],
+      "b_only": [
+        "construction",
+        "shivalaya"
+      ],
+      "shared_people": 2,
+      "people_jaccard": 0.07,
+      "veto": "entity-clash"
+    },
+    {
       "a": "Trilegal, Khaitan act on INDO-MIM ₹1,000 crore+ proposed IPO - Bar and Bench",
       "a_url": "https://www.barandbench.com/dealstreet/trilegal-khaitan-act-on-indo-mim-1000-crore-proposed-ipo",
       "b": "Khaitan & Co, Trilegal act on Capillary Technologies ₹877 crore IPO - Bar and Bench",
@@ -1206,6 +1342,28 @@
       ],
       "shared_people": 0,
       "people_jaccard": 0.0,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Khaitan & Co, TT&A, JSA act on Nobel Hygiene ₹150 crore+ proposed IPO",
+      "a_url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-jsa-act-on-nobel-hygiene-150-crore-proposed-ipo",
+      "b": "CAM, Trilegal, TT&A, Hogan Lovells act on Rentomojo proposed ₹150 crore+ IPO",
+      "b_url": "https://www.barandbench.com/dealstreet/cam-trilegal-tta-hogan-lovells-act-on-rentomojo-proposed-150-crore-ipo",
+      "date_gap_days": null,
+      "head_sim": 0.67,
+      "lede_sim": 0.03,
+      "shared_rare": [],
+      "a_only": [
+        "hygiene",
+        "nobel"
+      ],
+      "b_only": [
+        "hogan",
+        "lovells",
+        "rentomojo"
+      ],
+      "shared_people": 1,
+      "people_jaccard": 0.02,
       "veto": "entity-clash"
     },
     {
@@ -1252,6 +1410,28 @@
       ],
       "shared_people": 2,
       "people_jaccard": 0.67,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Trilegal, TT&A, Hogan Lovells Cadwalader act on Dosti Realty proposed IPO",
+      "a_url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-hogan-lovells-cadwalader-act-on-dosti-realty-proposed-ipo",
+      "b": "CAM, Trilegal, TT&A, Hogan Lovells act on Rentomojo proposed ₹150 crore+ IPO",
+      "b_url": "https://www.barandbench.com/dealstreet/cam-trilegal-tta-hogan-lovells-act-on-rentomojo-proposed-150-crore-ipo",
+      "date_gap_days": null,
+      "head_sim": 0.6,
+      "lede_sim": 0.04,
+      "shared_rare": [],
+      "a_only": [
+        "dosti",
+        "realty"
+      ],
+      "b_only": [
+        "hogan",
+        "lovells",
+        "rentomojo"
+      ],
+      "shared_people": 3,
+      "people_jaccard": 0.09,
       "veto": "entity-clash"
     },
     {

@@ -2269,5 +2269,40 @@
       "fx_asof": null,
       "source": "headline"
     }
+  },
+  {
+    "headline": "Dua Associates Advises Piramal Finance Limited On ₹125 Crore Financing For Two Residential Projects In...",
+    "client": "Piramal Finance Limited",
+    "source": "LiveLaw",
+    "source_id": "livelaw",
+    "url": "https://www.livelaw.in/law-firms/deals/dua-associates-advises-piramal-finance-limited-125-crore-financing-two-residential-projects-bengaluru-556005",
+    "snippet": "Dua Associates advised Piramal Finance Limited on financing transactions aggregating ₹125 crore for two residential group housing projects in Bengaluru, Karnataka. The transactions involved financing of ₹80 crore to Akarsh Dwellings Private Limited for its residential project, Adarsh Primrose, and ₹45 crore to Adarsh Developers for its project, Adarsh Stratuss. Dua Associates' mandate encompassed transaction documentation and title verification for both projects. The transaction team comprised P",
+    "law_firms": [
+      "Dua Associates"
+    ],
+    "transaction_types": [
+      "financing"
+    ],
+    "people": [],
+    "published_at": "2026-10-26T17:38:27+05:30",
+    "keywords": [
+      "Dua Associates",
+      "Piramal Finance Limited",
+      "₹125 Crore Financing",
+      "Bengaluru Real Estate",
+      "Adarsh Primrose",
+      "Adarsh Stratuss",
+      "Banking and Finance",
+      "Real Estate Financing"
+    ],
+    "deal_value": {
+      "raw": "₹125 Crore",
+      "currency": "INR",
+      "amount": 1250000000,
+      "amount_inr": 1250000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   }
 ]

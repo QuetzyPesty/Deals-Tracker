@@ -1,6 +1,6 @@
 {
   "filings": 1468,
-  "deals": 740,
+  "deals": 750,
   "matched": [
     {
       "headline": "CAM advises Jindal Power on acquisition of 1320 MW thermal power plant in Haryana",
@@ -140,24 +140,6 @@
       "gap_days": -8
     },
     {
-      "headline": "TT&A, Trilegal act on Impact Fund Denmark investing $35 million in GreenCell Mobility",
-      "url": "https://www.barandbench.com/law-firms/dealstreet/tta-trilegal-act-on-impact-fund-denmark-investing-35-million-in-greencell-mobility",
-      "reported": "2026-10-21T05:59:50Z",
-      "combination_no": "C-2026/08/1449",
-      "status": "Approved",
-      "notified": "2026-08-04",
-      "decided": "2026-10-13",
-      "summary_url": "https://www.cci.gov.in/combination/order/details/summary/1788/0/orders-section31",
-      "order_url": null,
-      "parties": "1. Impact Fund Denmark 2. Belgian Investment Company for Developing Countries SA/NV 3. Orios Fund IIIa",
-      "confidence": "high",
-      "entities": [
-        "impact",
-        "denmark"
-      ],
-      "gap_days": -78
-    },
-    {
       "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
       "url": "https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
       "reported": "2026-09-04T10:41:57Z",
@@ -190,13 +172,31 @@
         "integrace"
       ],
       "gap_days": 15
+    },
+    {
+      "headline": "Trilegal Advised GreenCell Mobility On USD 35 Million Fundraise From Impact Fund Denmark",
+      "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-greencell-mobility-usd-35-million-fundraise-impact-fund-denmark-991048",
+      "reported": "2026-10-21",
+      "combination_no": "C-2026/08/1449",
+      "status": "Approved",
+      "notified": "2026-08-04",
+      "decided": "2026-10-13",
+      "summary_url": "https://www.cci.gov.in/combination/order/details/summary/1788/0/orders-section31",
+      "order_url": null,
+      "parties": "1. Impact Fund Denmark 2. Belgian Investment Company for Developing Countries SA/NV 3. Orios Fund IIIa",
+      "confidence": "high",
+      "entities": [
+        "impact",
+        "denmark"
+      ],
+      "gap_days": -78
     }
   ],
   "ambiguous": [],
   "reasons": {
-    "no-name-evidence": 215,
-    "type-gate": 452,
-    "evidence-below-threshold": 60,
+    "no-name-evidence": 219,
+    "type-gate": 457,
+    "evidence-below-threshold": 61,
     "matched": 13
   },
   "filing_claimed_by_several_deals": {
