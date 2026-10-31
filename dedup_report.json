@@ -1,17 +1,17 @@
 {
-  "input_records": 804,
-  "output_records": 750,
-  "removed_duplicates": 54,
+  "input_records": 843,
+  "output_records": 782,
+  "removed_duplicates": 61,
   "merges_by_rule": {
     "same-url": 1,
-    "headline-entities": 21,
+    "headline-entities": 20,
     "same-slug": 4,
-    "nested-same-type": 12,
+    "nested-same-type": 16,
     "same-core-headline": 7,
     "ipo-draft-then-final": 2,
-    "same-headline": 1,
-    "same-team-and-entities": 5,
-    "copied-text": 1,
+    "same-headline": 2,
+    "same-team-and-entities": 7,
+    "copied-text": 3,
     "same-entities-different-counsel": 1,
     "nested-entities": 1
   },
@@ -375,6 +375,40 @@
     {
       "kept": {
         "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/dsk-legal-advises-stride-ventures-on-investment-into-veefin-solutions",
+        "headline": "DSK Legal advises Stride Ventures on investment into Veefin Solutions"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/dsk-legal-advised-stride-ventures-debt-fund-4-investment-veefin-solutions-991067",
+          "headline": "DSK Legal Advised Stride Ventures Debt Fund 4 On Investment In Veefin Solutions Limited",
+          "rules": [
+            "nested-same-type"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/dsk-legal-touchstone-partners-act-on-stride-ventures-investment-into-buildmex-infra",
+        "headline": "DSK Legal, Touchstone Partners act on Stride Ventures' investment into Buildmex-Infra"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/dsk-legal-advised-stride-ventures-debt-fund-4-investment-buildmex-infra-991062",
+          "headline": "DSK Legal Advised Stride Ventures Debt Fund 4 On Investment In Buildmex-Infra Private Limited",
+          "rules": [
+            "nested-same-type"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
         "url": "https://www.barandbench.com/law-firms/dealstreet/dua-associates-advises-odyssey-energy-solutions-on-availing-7-million-ecb-from-bio",
         "headline": "Dua Associates advises Odyssey Energy Solutions on availing €7 million ECB from BIO"
       },
@@ -563,6 +597,23 @@
     {
       "kept": {
         "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-cyril-amarchand-mangaldas-baker-mckenzie-act-on-acquisition-of-entab-by-nelnet",
+        "headline": "Khaitan & Co, Cyril Amarchand Mangaldas, Baker McKenzie act on acquisition of Entab by Nelnet"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/khaitan-co-entab-infotech-acquisition-nelnet-business-services-990894",
+          "headline": "Khaitan & Co Advised Entab Infotech On Acquisition By Nelnet Business Services",
+          "rules": [
+            "headline-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
         "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-dentons-link-legal-hogan-lovells-cadwalader-act-on-inox-green-energy-300-crore-qip",
         "headline": "Khaitan & Co, Dentons Link Legal, Hogan Lovells Cadwalader act on INOX Green Energy ₹300 crore QIP"
       },
@@ -572,7 +623,34 @@
           "url": "https://www.legaleraonline.com/deal-street/khaitan-inox-green-energy-300-crore-qip-990533",
           "headline": "Khaitan & Co Advised Inox Green Energy Services Limited On INR 300 Crore QIP",
           "rules": [
-            "headline-entities"
+            "nested-same-type"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-metalegal-act-on-loreal-acquiring-majority-stake-in-innovist",
+        "headline": "Khaitan & Co, Metalegal act on L'Oreal acquiring majority stake in Innovist"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/khaitan-co-advised-loreal-india-acquisition-majority-stake-innovist-991053",
+          "headline": "Khaitan & Co Advised L’Oréal India On Acquisition Of Majority Stake In Innovist",
+          "rules": [
+            "copied-text",
+            "same-headline"
+          ]
+        },
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/khaitan-co-advised-loreal-india-acquisition-majority-stake-innovist-991107",
+          "headline": "Khaitan & Co Advised L’Oréal India On Acquisition Of Majority Stake In Innovist",
+          "rules": [
+            "copied-text",
+            "same-headline"
           ]
         }
       ]
@@ -589,7 +667,24 @@
           "url": "https://www.legaleraonline.com/deal-street/khaitan-co-advised-inox-clean-energy-inr-100000-million-ipo-990476",
           "headline": "Khaitan & Co Advised Inox Clean Energy Limited On Its Proposed INR 100,000 Million IPO",
           "rules": [
-            "headline-entities"
+            "nested-same-type"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-latham-sam-linklaters-act-on-persistent-systems-4264-crore-qip",
+        "headline": "Khaitan, Latham, SAM, Linklaters act on Persistent Systems ₹4,264 crore QIP"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/khaitan-co-advised-persistent-systems-maiden-inr-42646-million-qip-991105",
+          "headline": "Khaitan & Co Advised Persistent Systems Limited On Its Maiden INR 42,646.10 Million QIP",
+          "rules": [
+            "same-team-and-entities"
           ]
         }
       ]
@@ -624,6 +719,23 @@
           "headline": "Kochhar & Co. Advises Investors On Strategic Acquisition Of Stake In Parklife Innovations Limited",
           "rules": [
             "headline-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/morrison-foerster-khaitan-co-advises-autodesk-on-acquisition-of-select-tech-assets-intellectual-property-from-bimdex",
+        "headline": "Morrison Foerster, Khaitan & Co advises Autodesk on acquisition of select tech assets, intellectual property from BIMDeX"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/khaitan-co-advised-autodesk-bimdex-technology-acquisition-990478",
+          "headline": "Khaitan & Co Advised Autodesk On Acquisition Of Select Technology Assets And Intellectual Property From...",
+          "rules": [
+            "same-team-and-entities"
           ]
         }
       ]
@@ -1345,6 +1457,29 @@
       "veto": "entity-clash"
     },
     {
+      "a": "DSK Legal, Touchstone Partners act on Stride Ventures' investment into Buildmex-Infra",
+      "a_url": "https://www.barandbench.com/law-firms/dealstreet/dsk-legal-touchstone-partners-act-on-stride-ventures-investment-into-buildmex-infra",
+      "b": "DSK Legal advises Stride Ventures on investment into Veefin Solutions",
+      "b_url": "https://www.barandbench.com/law-firms/dealstreet/dsk-legal-advises-stride-ventures-on-investment-into-veefin-solutions",
+      "date_gap_days": 1,
+      "head_sim": 0.6,
+      "lede_sim": 0.61,
+      "shared_rare": [
+        "stride"
+      ],
+      "a_only": [
+        "buildmex",
+        "infra"
+      ],
+      "b_only": [
+        "solutions",
+        "veefin"
+      ],
+      "shared_people": 3,
+      "people_jaccard": 0.6,
+      "veto": "entity-clash"
+    },
+    {
       "a": "Khaitan & Co, TT&A, JSA act on Nobel Hygiene ₹150 crore+ proposed IPO",
       "a_url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-jsa-act-on-nobel-hygiene-150-crore-proposed-ipo",
       "b": "CAM, Trilegal, TT&A, Hogan Lovells act on Rentomojo proposed ₹150 crore+ IPO",
@@ -1386,6 +1521,28 @@
       ],
       "shared_people": 2,
       "people_jaccard": 0.4,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Rajani Associates acts on Shanti Inorganics IPO",
+      "a_url": "https://www.barandbench.com/law-firms/dealstreet/rajani-associates-acts-on-shanti-inorganics-ipo",
+      "b": "Rajani Associates acts on Ravita Engineering Services ₹116 crore IPO",
+      "b_url": "https://www.barandbench.com/law-firms/dealstreet/rajani-associates-acts-on-ravita-engineering-services-116-crore-ipo",
+      "date_gap_days": 39,
+      "head_sim": 0.33,
+      "lede_sim": 0.41,
+      "shared_rare": [],
+      "a_only": [
+        "inorganics",
+        "shanti"
+      ],
+      "b_only": [
+        "engineering",
+        "ravita",
+        "services"
+      ],
+      "shared_people": 2,
+      "people_jaccard": 0.67,
       "veto": "entity-clash"
     },
     {
@@ -1475,6 +1632,29 @@
       ],
       "shared_people": 2,
       "people_jaccard": 0.06,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "DSK Legal Advised Stride Ventures Debt Fund 4 On Investment In Buildmex-Infra Private Limited",
+      "a_url": "https://www.legaleraonline.com/deal-street/dsk-legal-advised-stride-ventures-debt-fund-4-investment-buildmex-infra-991062",
+      "b": "DSK Legal advises Stride Ventures on investment into Veefin Solutions",
+      "b_url": "https://www.barandbench.com/law-firms/dealstreet/dsk-legal-advises-stride-ventures-on-investment-into-veefin-solutions",
+      "date_gap_days": 2,
+      "head_sim": 0.6,
+      "lede_sim": 0.34,
+      "shared_rare": [
+        "stride"
+      ],
+      "a_only": [
+        "buildmex",
+        "infra"
+      ],
+      "b_only": [
+        "solutions",
+        "veefin"
+      ],
+      "shared_people": 3,
+      "people_jaccard": 0.6,
       "veto": "entity-clash"
     },
     {

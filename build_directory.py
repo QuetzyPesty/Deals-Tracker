@@ -202,6 +202,10 @@ def canonical_firm(name):
     key = cleaned.lower()
     if key in NON_FIRM_PHRASES or re.match(r"^(his|her)\s+chambers\b", key):
         return None
+    # a semicolon separates clauses of a headline; no firm name contains one,
+    # so this is a sentence fragment, not a firm
+    if ";" in key:
+        return None
     # a client's own internal legal team, e.g. "Oravel Stays Limited
     # (in-house)" -- that's the client, not an external law firm
     if re.search(r"\(\s*in-?house\b", key):

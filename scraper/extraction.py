@@ -149,6 +149,11 @@ def parse_headline(headline):
     if not m:
         return {"law_firms": [], "client": None, "transaction_types": []}
     firms_raw = m.group("firms")
+    # A firm list never spans a semicolon. "<deal description>; Kanga & Co
+    # advises sellers" otherwise swallows the whole description as a "firm";
+    # the firms are only what follows the last semicolon.
+    if ";" in firms_raw:
+        firms_raw = firms_raw.rsplit(";", 1)[1].strip()
     # Some headlines carry a subtitle before the firm list, e.g. "LIC Stake
     # Sale: Dentons Link Legal, Trilegal ..." -- drop everything up to and
     # including the colon or the subtitle leaks in as a fake "firm". BUT at

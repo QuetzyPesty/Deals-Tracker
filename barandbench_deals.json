@@ -21182,5 +21182,1326 @@
         "firm": "Talwar Thakore & Associates"
       }
     ]
+  },
+  {
+    "headline": "AZB & Partners, S&R Associates, Hogan Lovells Cadwalader acts on Paras Hospitals ₹1,450 crore IPO",
+    "client": "Paras Hospitals",
+    "source": "Bar & Bench",
+    "published_at": "2026-10-31T06:54:59Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/azb-partners-sr-associates-hogan-lovells-cadwalader-acts-on-paras-hospitals-1450-crore-ipo",
+    "snippet": "Paras Healthcare Limited has raised ₹1,450 crore from an initial public offering of equity shares which comprised a fresh issue and an offer for sale by selling shareholders. AZB & Partners advised Paras Hospitals on this IPO. The transaction was led by Agnik Bhattacharyya (Senior Partner) and Sweta Ananthanarayanan (Partner), with support from Tanaiy Tewari (Senior Associate). S&R Associates served as the Indian legal counsel for the book running lead managers JM Financial Limited, BOFA Securit",
+    "law_firms": [
+      "AZB & Partners",
+      "S&R Associates",
+      "Hogan Lovells Cadwalader"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "deal_value": {
+      "raw": "₹1,450 crore",
+      "currency": "INR",
+      "amount": 14500000000,
+      "amount_inr": 14500000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Agnik Bhattacharyya",
+        "role": "Senior Partner",
+        "firm": "AZB & Partners"
+      },
+      {
+        "name": "Sweta Ananthanarayanan",
+        "role": "Partner",
+        "firm": "AZB & Partners"
+      },
+      {
+        "name": "Tanaiy Tewari",
+        "role": "Senior Associate",
+        "firm": "AZB & Partners"
+      },
+      {
+        "name": "Varun Jetly",
+        "role": "Counsel",
+        "firm": "Hogan Lovells Cadwalader"
+      },
+      {
+        "name": "Sanjana Ravjiani",
+        "role": "Associate",
+        "firm": "Hogan Lovells Cadwalader"
+      }
+    ]
+  },
+  {
+    "headline": "Rajani Associates acts on Ravita Engineering Services ₹116 crore IPO",
+    "client": "Ravita Engineering Services",
+    "source": "Bar & Bench",
+    "published_at": "2026-10-31T06:45:29Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/rajani-associates-acts-on-ravita-engineering-services-116-crore-ipo",
+    "snippet": "Ravita Engineering Services Limited has raised ₹116.05 crore from an initial public offering of equity shares. Rajani Associates advised Ravita Engineering Services as well as the book running lead manager Vivro Financial Services Private Limited on this IPO. The Firm's scope of work included conducting legal and secretarial diligence; preparing and finalizing responses to queries raised by the NSE; preparing and finalizing all ancillary documents and all agreements; and drafting, reviewing and ",
+    "law_firms": [
+      "Rajani Associates"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "deal_value": {
+      "raw": "₹116 crore",
+      "currency": "INR",
+      "amount": 1160000000,
+      "amount_inr": 1160000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Sangeeta Lakhi",
+        "role": "Senior Partner",
+        "firm": "Rajani Associates"
+      },
+      {
+        "name": "Sommya Khandelwal",
+        "role": "Associate",
+        "firm": "Rajani Associates"
+      },
+      {
+        "name": "Addvit Shrivastava",
+        "role": "Associate",
+        "firm": "Rajani Associates"
+      }
+    ]
+  },
+  {
+    "headline": "Argus Partners acts on Scimplify $25 million Series C fundraise",
+    "client": "Scimplify",
+    "source": "Bar & Bench",
+    "published_at": "2026-10-31T06:44:01Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/argus-partners-acts-on-scimplify-25-million-series-c-fundraise",
+    "snippet": "Cocreate Global Technologies Private Limited, dba Scimplify, has raised $25 million from a Series C fundraise led by Hitachi Ventures, with participation from Accel, Bertelsmann Investments, 3one4 Capital, Omnivore, and other strategic investors, including Henkel and Teknor Apex. Argus Partners advised Scimplify on this fundraise. The transaction team consisted of Ankit Guha (Partner), Vallishree Chandra (Partner), Associates Srishti Sneha and Amruth Rao. Scimplify is a Bengaluru-based specialit",
+    "law_firms": [
+      "Argus Partners"
+    ],
+    "transaction_types": [
+      "Series C",
+      "fundraise"
+    ],
+    "deal_value": {
+      "raw": "$25 million",
+      "currency": "USD",
+      "amount": 25000000,
+      "amount_inr": 2200000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Ankit Guha",
+        "role": "Partner",
+        "firm": "Argus Partners"
+      },
+      {
+        "name": "Vallishree Chandra",
+        "role": "Partner",
+        "firm": "Argus Partners"
+      },
+      {
+        "name": "Srishti Sneha",
+        "role": "Associate",
+        "firm": "Argus Partners"
+      },
+      {
+        "name": "Amruth Rao",
+        "role": "Associate",
+        "firm": "Argus Partners"
+      }
+    ]
+  },
+  {
+    "headline": "Khaitan & Co advises as BKT Tyres wheels in Pirelli to India",
+    "client": "as BKT Tyres wheels in Pirelli to India",
+    "source": "Bar & Bench",
+    "published_at": "2026-10-31T06:43:31Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-as-bkt-tyres-wheels-in-pirelli-to-india",
+    "snippet": "Balkrishna Industries Limited (BKT Tyres) has entered into a strategic agreement with Pirelli to capture opportunities in the Indian car tyre market. Khaitan & Co advised BKT Tyres on this transaction. The core team consisted of Purti Minawala (Partner), Ayush Sinha (Principal Associate), Abhijeet Kamath (Principal Associate), Associates Shanay Patrawala and Manvi Talwar. The following provided assistance: Litigation aspects: Sanjeev Kapoor (Senior Partner); Listed entity obligations: Sudhir Bas",
+    "law_firms": [
+      "Khaitan & Co"
+    ],
+    "transaction_types": [],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Purti Minawala",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Ayush Sinha",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Abhijeet Kamath",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Shanay Patrawala",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Manvi Talwar",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Sanjeev Kapoor",
+        "role": "Senior Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Sudipta Bhattacharjee",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Rahul Jain",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Krishnal Agrawal",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Adheesh Nargolkar",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Shailendra Bhandare",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Janaksinh Jhala",
+        "role": "Counsel",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Abhishek Kumar",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Anshuman Sakle",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Alisha Mehra",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Deepak Kumar",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Atman Desai",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Vivan Jhaveri",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      }
+    ]
+  },
+  {
+    "headline": "JSA advises Zen Technologies on majority stake acquisition in Cogknit Semantics",
+    "client": "Zen Technologies",
+    "source": "Bar & Bench",
+    "published_at": "2026-10-31T06:43:07Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-zen-technologies-on-majority-stake-acquisition-in-cogknit-semantics",
+    "snippet": "Zen Technologies Limited has made an acquisition of a 51.98% stake on a fully diluted basis in Cogknit Semantics Private Limited. JSA Advocates and Solicitors advised Zen Technologies on this acquisition. The transaction was led by Sidharrth Shankar (Partner), with support from Nandini Seth (Partner), Karan Vermani (Counsel), Eksha Narayan (Senior Associate) and Rahul Nayyar (Associate) on the mergers and acquisitions aspects. The finance team comprised Karan Mitroo (Partner) and Samarth Sharma ",
+    "law_firms": [
+      "JSA Advocates & Solicitors"
+    ],
+    "transaction_types": [
+      "acquisition",
+      "stake acquisition"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Sidharrth Shankar",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Nandini Seth",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Karan Vermani",
+        "role": "Counsel",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Eksha Narayan",
+        "role": "Senior Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Rahul Nayyar",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Karan Mitroo",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Samarth Sharma",
+        "role": "Principal Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Aditya Vardhan Dayal",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Pranav Rao N",
+        "role": "Senior Associate",
+        "firm": "JSA Advocates & Solicitors"
+      }
+    ]
+  },
+  {
+    "headline": "Khaitan, Latham, SAM, Linklaters act on Persistent Systems ₹4,264 crore QIP",
+    "client": "Persistent Systems",
+    "source": "Bar & Bench",
+    "published_at": "2026-10-30T05:47:08Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-latham-sam-linklaters-act-on-persistent-systems-4264-crore-qip",
+    "snippet": "Persistent Systems Limited has raised ₹4,264.61 crore from its maiden Qualified Institutional Placement of equity shares. Khaitan & Co advised Persistent Systems on this QIP, as to Indian law. The transaction team consisted of Sudhir Bassi (Executive Director), Gautham Srinivas (Partner), Sathvik Ponnappa (Partner), Vaishnavi Gupta (Senior Associate), Associates Dharini Shanker, Vidushi Tanya, Nalin Agnihotri and Pranav Bajpai. Latham & Watkins served as the international legal counsel for Persi",
+    "law_firms": [
+      "Khaitan & Co",
+      "Shardul Amarchand Mangaldas & Co",
+      "Linklaters",
+      "Latham & Watkins"
+    ],
+    "transaction_types": [
+      "QIP"
+    ],
+    "deal_value": {
+      "raw": "₹4,264 crore",
+      "currency": "INR",
+      "amount": 42640000000,
+      "amount_inr": 42640000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Gautham Srinivas",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Sathvik Ponnappa",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Vaishnavi Gupta",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Dharini Shanker",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Vidushi Tanya",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Nalin Agnihotri",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Pranav Bajpai",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Ishan Seth",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Kamiya Marwah",
+        "role": "Senior Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Deeksha Dhingra",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Sakshi Sharma",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      }
+    ]
+  },
+  {
+    "headline": "DSK Legal, Touchstone Partners act on Stride Ventures' investment into Buildmex-Infra",
+    "client": "Stride Ventures' investment into Buildmex-Infra",
+    "source": "Bar & Bench",
+    "published_at": "2026-10-30T05:46:44Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/dsk-legal-touchstone-partners-act-on-stride-ventures-investment-into-buildmex-infra",
+    "snippet": "Stride Ventures Debt Fund 4 has subscribed to non-convertible debentures issued by Buildmex-Infra Private Limited on a private placement basis. DSK Legal advised Stride Ventures on this investment. The Firm advised on, drafted, negotiated and finalised the transaction documentation. The transaction was led by Rangam Sharma (Associate Partner), with support from Associates Anushka Kashyap and Aditya Shah. Niraj Kumar (Partner) provided strategic inputs on the deal. Touchstone Partners acted as le",
+    "law_firms": [
+      "DSK Legal",
+      "Touchstone Partners"
+    ],
+    "transaction_types": [
+      "investment"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Rangam Sharma",
+        "role": "Associate Partner",
+        "firm": "DSK Legal"
+      },
+      {
+        "name": "Anushka Kashyap",
+        "role": "Associate",
+        "firm": "DSK Legal"
+      },
+      {
+        "name": "Aditya Shah",
+        "role": "Associate",
+        "firm": "DSK Legal"
+      },
+      {
+        "name": "Niraj Kumar",
+        "role": "Partner",
+        "firm": "DSK Legal"
+      }
+    ]
+  },
+  {
+    "headline": "JSA, Argus Partners act on myTVS ₹425 crore Series D fundraise",
+    "client": "myTVS",
+    "source": "Bar & Bench",
+    "published_at": "2026-10-30T05:42:33Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-argus-partners-act-on-mytvs-425-crore-series-d-fundraise",
+    "snippet": "TVS Automobile Solutions Private Limited, owner of omnichannel brand myTVS, has raised ₹425 crore from a Series D fundraise led by CE-Invests. JSA Advocates & Solicitors advised myTVS on this fundraise. The transaction was led by Rishabh Gupta (Partner), with support from Akshath Mithal (Principal Associate), Associates Jyotiranjan Mallick, Saurabh Chatterji and Debmalya Biswas. Vaibhav Choukse (Partner), Ela Bali (Partner), Faiz Siddiqui (Senior Associate) and Aarathi R Menon (Associate) advise",
+    "law_firms": [
+      "JSA Advocates & Solicitors",
+      "Argus Partners"
+    ],
+    "transaction_types": [
+      "Series D",
+      "fundraise"
+    ],
+    "deal_value": {
+      "raw": "₹425 crore",
+      "currency": "INR",
+      "amount": 4250000000,
+      "amount_inr": 4250000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Rishabh Gupta",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Akshath Mithal",
+        "role": "Principal Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Jyotiranjan Mallick",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Saurabh Chatterji",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Debmalya Biswas",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Vaibhav Choukse",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Ela Bali",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Faiz Siddiqui",
+        "role": "Senior Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Aarathi R Menon",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Abhinav Bhalaik",
+        "role": "Partner",
+        "firm": "Argus Partners"
+      },
+      {
+        "name": "Vallishree Chandra",
+        "role": "Partner",
+        "firm": "Argus Partners"
+      },
+      {
+        "name": "Srishti Sneha",
+        "role": "Associate",
+        "firm": "Argus Partners"
+      }
+    ]
+  },
+  {
+    "headline": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Cemindia ₹1,400 crore QIP",
+    "client": "Cemindia",
+    "source": "Bar & Bench",
+    "published_at": "2026-10-29T09:29:59Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-linklaters-act-on-cemindia-1400-crore-qip",
+    "snippet": "Cemindia Projects Limited has raised ₹1,400 crore from a qualified institutions placement of equity shares. Cyril Amarchand Mangaldas advised Cemindia on this QIP. The transaction was led by Devaki Mankad (Partner, Regional Co-Head - Capital Markets - West), with assistance from Raksha Raina (Senior Associate), Associates Archit Jain, Aniruddh Saraswat, Aditya Maheshwari, Aria Seth, Akshat Sharma and Jahnavi Seethamraju. Trilegal advised the placement agents, SBI Capital Markets Limited, ICICI S",
+    "law_firms": [
+      "Cyril Amarchand Mangaldas",
+      "Trilegal",
+      "Linklaters"
+    ],
+    "transaction_types": [
+      "QIP"
+    ],
+    "deal_value": {
+      "raw": "₹1,400 crore",
+      "currency": "INR",
+      "amount": 14000000000,
+      "amount_inr": 14000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Devaki Mankad",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Raksha Raina",
+        "role": "Senior Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Archit Jain",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Aniruddh Saraswat",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Aditya Maheshwari",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Aria Seth",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Akshat Sharma",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Jahnavi Seethamraju",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Richa Choudhary",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Maitreya Rajurkar",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Avanti Kale",
+        "role": "Counsel",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Aayush Khandelwal",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Siddhant Mishra",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Yug Gambhir",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Adya Singh",
+        "role": "Associate",
+        "firm": "Trilegal"
+      }
+    ]
+  },
+  {
+    "headline": "DSK Legal advises Stride Ventures on investment into Veefin Solutions",
+    "client": "Stride Ventures",
+    "source": "Bar & Bench",
+    "published_at": "2026-10-29T09:29:44Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/dsk-legal-advises-stride-ventures-on-investment-into-veefin-solutions",
+    "snippet": "Stride Ventures Debt Fund 4 has subscribed to non-convertible debentures issued by Veefin Solutions Limited on a private placement basis. DSK Legal advised Stride Ventures on this investment. The Firm advised on, drafted, negotiated and finalised the transaction documentation. The transaction was led by Rangam Sharma (Associate Partner), with support from Associates Tarun Agarwal and Anushka Kashyap. Niraj Kumar (Partner) provided strategic inputs on the deal. Veefin Solutions is engaged in faci",
+    "law_firms": [
+      "DSK Legal"
+    ],
+    "transaction_types": [
+      "investment"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Rangam Sharma",
+        "role": "Associate Partner",
+        "firm": "DSK Legal"
+      },
+      {
+        "name": "Tarun Agarwal",
+        "role": "Associate",
+        "firm": "DSK Legal"
+      },
+      {
+        "name": "Anushka Kashyap",
+        "role": "Associate",
+        "firm": "DSK Legal"
+      },
+      {
+        "name": "Niraj Kumar",
+        "role": "Partner",
+        "firm": "DSK Legal"
+      }
+    ]
+  },
+  {
+    "headline": "JSA advises Forsee Power on joint venture with Varroc Engineering",
+    "client": "Forsee Power",
+    "source": "Bar & Bench",
+    "published_at": "2026-10-29T09:29:24Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-forsee-power-on-joint-venture-with-varroc-engineering",
+    "snippet": "Forsee Power S.A. is forming a joint venture in India with Varroc Engineering Limited, Forsee Power India Private Limited. The transaction involves the sale of Forsee France’s equity shares in Forsee India to Varroc, the issuance of equity shares and optionally convertible redeemable preference shares (OCRPS) by Forsee India to Varroc, the establishment of shareholders’ and governance rights between Forsee France and Varroc, and the licensing of technology by Forsee France to Forsee India. JSA A",
+    "law_firms": [
+      "JSA Advocates & Solicitors"
+    ],
+    "transaction_types": [
+      "joint venture"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Kartik Jain",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Dushyant Thakur",
+        "role": "Senior Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Anmol Mahajan",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors"
+      }
+    ]
+  },
+  {
+    "headline": "Trilegal, Shardul Amarchand Mangaldas act on Zetwerk ₹5,012 crore IPO",
+    "client": "Zetwerk",
+    "source": "Bar & Bench",
+    "published_at": "2026-10-29T09:28:43Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-shardul-amarchand-mangaldas-act-on-zetwerk-5012-crore-ipo",
+    "snippet": "Zetwerk Manufacturing Businesses Limited has made an initial public offering of equity shares comprised of an offer for sale by the company’s promoter selling shareholders, investor selling shareholders, promoter group selling shareholder and individual selling shareholders, aggregating to approximately ₹5,012.328 crore. The offering was made in India and overseas, including to qualified institutional buyers in the United States under Rule 144A and in offshore transactions outside the United Sta",
+    "law_firms": [
+      "Trilegal",
+      "Shardul Amarchand Mangaldas & Co"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "deal_value": {
+      "raw": "₹5,012 crore",
+      "currency": "INR",
+      "amount": 50120000000,
+      "amount_inr": 50120000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Vijay Parthasarathi",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Vinay Sirohia",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Harshvardhan Lahiri",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Prajna Kariappa K",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Sanath Rajesh",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Shubh Dutta Ojha",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Rishabh Shah",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Sanchit Gupta",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Kosturi Ghosh",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Adhunika Premkumar",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Shreejith R",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Nikhil Naredi",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Krupa Brahmbhatt",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Koshy Mammen",
+        "role": "Senior Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Dhanashree Singe",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Shariba Tasneem",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Abhit Tanay",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Arpitha Krishnan",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      }
+    ]
+  },
+  {
+    "headline": "DSK Legal, AMR Law, CAM, SAM act on GreatWhite Electricals change in ownership",
+    "client": "GreatWhite Electricals change in ownership",
+    "source": "Bar & Bench",
+    "published_at": "2026-10-29T07:10:25Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/dsk-legal-amr-law-cam-sam-act-on-greatwhite-electricals-change-in-ownership",
+    "snippet": "Hemang Jadavji Shah and certain other sellers have sold off their entire shareholding, representing 50% of the issued and paid-up share capital, in Great White Global Private Limited, to Mehul Jadavji Shah and an alternate investment fund. The transaction involved resolving a longstanding shareholder dispute between Hemang Jadavji Shah and Mehul Jadavji Shah, who each held a 50% stake in the Company. The dispute was the subject of proceedings before the National Company Law Tribunal, Mumbai Benc",
+    "law_firms": [
+      "DSK Legal",
+      "Cyril Amarchand Mangaldas",
+      "Shardul Amarchand Mangaldas & Co",
+      "AMR Law"
+    ],
+    "transaction_types": [],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Ajay Shaw",
+        "role": "Partner",
+        "firm": "DSK Legal"
+      },
+      {
+        "name": "Akanksha Tiwary",
+        "role": "Partner",
+        "firm": "DSK Legal"
+      },
+      {
+        "name": "Priyashi Chhajer",
+        "role": "Senior Associate",
+        "firm": "DSK Legal"
+      },
+      {
+        "name": "Gaurav Mistry",
+        "role": "Partner",
+        "firm": "DSK Legal"
+      }
+    ]
+  },
+  {
+    "headline": "Khaitan & Co, Metalegal act on L'Oreal acquiring majority stake in Innovist",
+    "client": "L'Oreal acquiring majority stake in Innovist",
+    "source": "Bar & Bench",
+    "published_at": "2026-10-29T07:06:36Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-metalegal-act-on-loreal-acquiring-majority-stake-in-innovist",
+    "snippet": "L'Oreal India Private Limited has acquired a majority stake in Onesto Labs Private Limited (Innovist), a leading digital-first Indian personal care house of brands. The transaction involves the upfront acquisition of a majority stake in Innovist through an all-cash secondary purchase of shares from its promoter and existing shareholders. As part of the transaction, L'Oréal has also secured the right to acquire the remaining minority stake held by Innovist’s founding team. Khaitan & Co advised L'",
+    "law_firms": [
+      "Khaitan & Co",
+      "Metalegal"
+    ],
+    "transaction_types": [],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Surbhi Kejriwal",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Vedika Bhandari",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Nikhil Singh",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Sanjitha Ravi",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Rabindra Jhunjhunwala",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Bharat Jain",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Krishnal Shailesh Agrawal",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Mayank Jain",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Rajshree Lohia",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Anshuman Sakle",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Siddharth Pravin Bagul",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Sana Vaidya",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Priyal Shukla",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Supratim Chakraborty",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Shailendra Bhandare",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Deepak Kumar",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Shramana Dwibedi",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Vaishali Adhikari",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Ashutosh Mishra",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Ishita Khanna",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Madhav Govind",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Vidhi Damani",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Disha Basnet",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Vedaant Agarwal",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Sanjay Khan Nagra",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Vishakha Sharma",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Mehul Shah",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Rushabh Gala",
+        "role": "Counsel",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Dr Siddharth Srivastava",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Rashneet Kaur",
+        "role": "Counsel",
+        "firm": "Khaitan & Co"
+      }
+    ]
+  },
+  {
+    "headline": "VERTICES PARTNERS acts on Karta AI seed fundraise",
+    "client": "Karta AI seed fundraise",
+    "source": "Bar & Bench",
+    "published_at": "2026-10-29T07:06:02Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/vertices-partners-acts-on-karta-ai-seed-fundraise",
+    "snippet": "Dreamzest Technologies Private Limited, dba Karta AI, has raised ₹28.52 crore [USD 3 million] from a seed fundraise led by Peer Capital and Cedar Hill Capital, with participation from other Wyser VC, CDM Capital and Seedstars. VERTICES PARTNERS advised Karta AI on this fundraise. The transaction was led by Manu Varghese (Partner) along with a team that included Hemant Srivastava (Associate Manager), Associates Abhishikha Moyal and Priyanshi Bainwala. Marga Law represented Capier Investments Indi",
+    "law_firms": [
+      "Vertices Partners",
+      "Samvād: Partners"
+    ],
+    "transaction_types": [
+      "fundraise"
+    ],
+    "deal_value": {
+      "raw": "₹28.52 crore",
+      "currency": "INR",
+      "amount": 285200000,
+      "amount_inr": 285200000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "body"
+    },
+    "people": [
+      {
+        "name": "Manu Varghese",
+        "role": "Partner",
+        "firm": "Vertices Partners"
+      },
+      {
+        "name": "Abhishikha Moyal",
+        "role": "Associate",
+        "firm": "Vertices Partners"
+      },
+      {
+        "name": "Priyanshi Bainwala",
+        "role": "Associate",
+        "firm": "Vertices Partners"
+      }
+    ]
+  },
+  {
+    "headline": "Shardul Amarchand Mangaldas, Khaitan & Co, Linklaters act on Bonfiglioli ₹2,533 crore IPO",
+    "client": "Bonfiglioli",
+    "source": "Bar & Bench",
+    "published_at": "2026-10-29T07:03:11Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-khaitan-co-act-on-bonfiglioli-2533-crore-ipo",
+    "snippet": "Bonfiglioli Transmissions Limited has made an initial public offering of equity shares comprised of an offer for sale by Bonfiglioli S.p.A., the company’s promoter, aggregating to ₹2,533.66 crore. Shardul Amarchand Mangaldas & Co (SAM) advised Bonfiglioli Transmissions and its promoter, Bonfiglioli S.p.A., on this IPO. The transaction team consisted of Nikhil Naredi (Partner), Karun Prakash (Partner), Trishita Dasgupta (Partner), Harini Jambunathan (Senior Associate), Anaya Jain (Associate) and ",
+    "law_firms": [
+      "Khaitan & Co",
+      "Shardul Amarchand Mangaldas & Co",
+      "Linklaters"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "deal_value": {
+      "raw": "₹2,533 crore",
+      "currency": "INR",
+      "amount": 25330000000,
+      "amount_inr": 25330000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Nikhil Naredi",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Karun Prakash",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Trishita Dasgupta",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Harini Jambunathan",
+        "role": "Senior Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Anaya Jain",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Gouri Mahabalshetti",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Ritika Khare",
+        "role": "Principal Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Abhimanyu Bhattacharya",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Anshul Mordia",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Kaushlendra Palawat",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Siddharth Jain",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Hrishi Kapadia",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Sakshi Verma",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Debarshi Ghosh Dastidar",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Amit Singh",
+        "role": "Partner",
+        "firm": "Linklaters"
+      }
+    ]
+  },
+  {
+    "headline": "Khaitan & Co, Cyril Amarchand Mangaldas, Baker McKenzie act on acquisition of Entab by Nelnet",
+    "client": "acquisition of Entab by Nelnet",
+    "source": "Bar & Bench",
+    "published_at": "2026-10-29T06:51:34Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-cyril-amarchand-mangaldas-baker-mckenzie-act-on-acquisition-of-entab-by-nelnet",
+    "snippet": "Entab Infotech Private Limited has been acquired by Nelnet Business Services (NBS), a division of Nelnet, Inc. Khaitan & Co advised Entab and its promoters on this acquisition. The Firm was involved in: acting as legal counsel to the Client for the transaction including negotiating, drafting and reviewing the definitive agreements with the acquirer; regulatory advice and support; execution of the transaction documents and closing assistance; and reviewing and finalising the employment agreement ",
+    "law_firms": [
+      "Khaitan & Co",
+      "Cyril Amarchand Mangaldas",
+      "Baker McKenzie"
+    ],
+    "transaction_types": [
+      "acquisition"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Anand Mehta",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Ravali Rayaprolu",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Akhil Wilson Thomas",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Yash Dawda",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Jimmy Bhatt",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Jinisha Jain",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Krunal Mehta",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      }
+    ]
+  },
+  {
+    "headline": "Morrison Foerster, Khaitan & Co advises Autodesk on acquisition of select tech assets, intellectual property from BIMDeX",
+    "client": "Autodesk",
+    "source": "Bar & Bench",
+    "published_at": "2026-10-28T14:58:55Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/morrison-foerster-khaitan-co-advises-autodesk-on-acquisition-of-select-tech-assets-intellectual-property-from-bimdex",
+    "snippet": "Autodesk Inc has entered into a definitive agreement with BIMDeX, wherein Autodesk acquire select technology assets and intellectual property, as well as hire a subset of the BIMXDex team. Morrison Foerster was the lead counsel for Autodesk on this acquisition Khaitan & Co advised Autodesk on the Indian law aspects of this acquisition and the hiring of a subset of the BIMDeX team in India. The core transaction team comprised Monika Srivastava (Partner), Sanchit Agarwal (Partner) and Romit Kohli ",
+    "law_firms": [
+      "Khaitan & Co",
+      "Morrison Foerster"
+    ],
+    "transaction_types": [
+      "acquisition"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Monika Srivastava",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Sanchit Agarwal",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Romit Kohli",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Ritu Shaktawat",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Abhinav Rastogi",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Shailendra Bhandare",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Supratim Chakraborty",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      }
+    ]
+  },
+  {
+    "headline": "Anupam Rasayan India acquires controlling stake in Bliss GVS Pharma; Kanga & Co advises sellers",
+    "client": "sellers",
+    "source": "Bar & Bench",
+    "published_at": "2026-10-28T14:58:37Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/anupam-rasayan-india-acquires-controlling-stake-in-bliss-gvs-pharma-kanga-co-advises-sellers",
+    "snippet": "Anupam Rasayan India Limited, through its wholly owned subsidiary, Mates Visa Consultancy Private Limited, has acquired 5,09,86,264 equity shares, representing 47.95% of the equity share capital of Bliss GVS Pharma Limited, pursuant to the completion of the share purchase agreement and the consequent mandatory open offer. The share purchase agreement was executed amongst Anupam Rasayan India and the sellers, comprising the promoters of Bliss GVS Pharma and certain other shareholders. Kanga & Co ",
+    "law_firms": [
+      "Kanga & Co"
+    ],
+    "transaction_types": [],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Chetan Thakkar",
+        "role": "Senior Partner",
+        "firm": "Kanga & Co"
+      },
+      {
+        "name": "Jalees Shaikh",
+        "role": "Senior Associate",
+        "firm": "Kanga & Co"
+      },
+      {
+        "name": "Tejal Patankar",
+        "role": "Principal Associate",
+        "firm": "Kanga & Co"
+      },
+      {
+        "name": "Sachi Ray",
+        "role": "Associate",
+        "firm": "Kanga & Co"
+      },
+      {
+        "name": "Vansh Chadha",
+        "role": "Associate",
+        "firm": "Kanga & Co"
+      },
+      {
+        "name": "Suphla Singh",
+        "role": "Associate",
+        "firm": "Kanga & Co"
+      },
+      {
+        "name": "Meghna Sharma",
+        "role": "Associate",
+        "firm": "Kanga & Co"
+      }
+    ]
+  },
+  {
+    "headline": "Which law firms are advising on Anthropic's IPO?",
+    "client": null,
+    "source": "Bar & Bench",
+    "published_at": "2026-10-28T07:47:22Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/which-law-firms-are-advising-on-anthropics-ipo",
+    "snippet": "Five international law firms - including Wilson Sonsini Goodrich & Rosati, Freshfields, Cravath, Swaine & Moore, Orrick and Cleary Gottlieb Steen & Hamilton - are advising artificial intelligence company Anthropic and various stakeholders in connection with its proposed initial public offering (IPO) in the United States. The details emerged from the registration statement filed by Anthropic with the US Securities and Exchange Commission (SEC) on October 26. Wilson Sonsini Goodrich & Rosati is ac",
+    "law_firms": [
+      "Wilson Sonsini Goodrich & Rosati",
+      "Cravath",
+      "Cleary Gottlieb Steen & Hamilton"
+    ],
+    "transaction_types": [],
+    "deal_value": null,
+    "people": []
   }
 ]

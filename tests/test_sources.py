@@ -180,6 +180,15 @@ r = _bb.parse_article("https://www.barandbench.com/law-firms/dealstreet/jsa-secu
                       "JSA secures CCI approval for InterGlobe - Accor hospitality merger")
 check("a sentence is not a firm name (Bar & Bench / JSA, pre-existing bug)",
       all(firm_ok(f) for f in r["law_firms"]) and "JSA Advocates & Solicitors" in r["law_firms"], r["law_firms"])
+import extraction as _hx  # noqa: E402
+r = _hx.parse_headline("Anupam Rasayan India acquires controlling stake in Bliss GVS Pharma; Kanga & Co advises sellers")
+check("a deal description before a semicolon is not part of the firm list (Bar & Bench / Kanga & Co)",
+      r["law_firms"] == ["Kanga & Co"] and r["client"] == "sellers", r)
+r = _hx.parse_headline("Foo acquires Bar; Kanga & Co, Trilegal advise on the deal")
+check("...and a trailing multi-firm list after the semicolon is still split",
+      r["law_firms"] == ["Kanga & Co", "Trilegal"], r["law_firms"])
+check("a semicolon never survives into a firm name (defence in depth)",
+      __import__("build_directory").canonical_firm("Foo acquires Bar; Kanga & Co") is None)
 check("every firm in every committed source file is a plausible name",
       all(firm_ok(f) for name in ("barandbench_deals.json", "legalera_deals.json", "livelaw_deals.json")
           for d in json.loads((ROOT / name).read_text()) for f in d["law_firms"]),
