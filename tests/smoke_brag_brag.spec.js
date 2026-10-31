@@ -346,3 +346,43 @@ test('profile shows the latest deal reported', async ({ page }) => {
   });
   expect(r.chip).toContain(r.expected);
 });
+
+// --- firm hierarchy view ----------------------------------------------------
+test('hierarchy view groups each firm by seniority tier, partners above associates', async ({ page }) => {
+  const errors = [];
+  page.on('pageerror', e => errors.push(String(e)));
+  await page.goto('/index.html#view=hier');
+  await expect(page.locator('#view-hier')).toHaveClass(/active/);
+  await expect(page.locator('.hier-firm').first()).toBeVisible();
+  // collapsed by default; opening one firm reveals tiers in seniority order
+  await page.evaluate(() => document.querySelector('.hier-head').click());
+  const r = await page.evaluate(() => {
+    const titles = [...document.querySelectorAll('.hier-firm')[0].querySelectorAll('.hier-tier-title')].map(e => e.firstChild.textContent.trim());
+    const order = ['Leadership','Partners','Counsel & advocates','Associates','Other roles'];
+    const idx = titles.map(t => order.indexOf(t));
+    const members = [...document.querySelectorAll('.hier-firm')[0].querySelectorAll('.hier-member')].length;
+    const firm = document.querySelector('.hier-head .hier-name').textContent;
+    const expected = PEOPLE.filter(p => (p.firm || 'Unknown firm') === firm).length;
+    return { titles, sorted: idx.every((v,i)=> i===0 || v > idx[i-1]), members, expected };
+  });
+  expect(r.titles.length).toBeGreaterThan(0);
+  expect(r.sorted).toBe(true);
+  expect(r.members).toBe(r.expected);
+  expect(errors).toEqual([]);
+});
+
+test('hierarchy member opens the profile; view persists in the hash', async ({ page }) => {
+  await page.goto('/index.html#view=hier');
+  await page.evaluate(() => document.querySelector('.hier-head').click());
+  await page.evaluate(() => document.querySelector('.hier-member').click());
+  await expect(page.locator('#detail .name')).toBeVisible();
+  await expect(page).toHaveURL(/view=hier/);
+  await page.evaluate(() => document.getElementById('view-person').click());
+  await expect(page).not.toHaveURL(/view=/);
+});
+
+test('hierarchy view respects filters and auto-opens a lone firm', async ({ page }) => {
+  await page.goto('/index.html#view=hier&firm=Trilegal');
+  await expect(page.locator('.hier-firm')).toHaveCount(1);
+  await expect(page.locator('.hier-tier').first()).toBeVisible();
+});

@@ -284,6 +284,24 @@
   }
   .firm-heading .swatch{ width:9px;height:9px;border-radius:50%; }
   .firm-heading .rail-expand{ width:auto; font-size:10px; }
+  /* Firm hierarchy view: one card per firm, members grouped by seniority tier. */
+  .hier-firm{ margin:12px 24px; border:1px solid var(--outline); border-radius:14px; background:var(--surface-1); overflow:hidden; }
+  .hier-head{ display:flex; align-items:center; gap:10px; padding:12px 16px; cursor:pointer; flex-wrap:wrap; }
+  .hier-head .swatch{ width:10px; height:10px; border-radius:50%; }
+  .hier-head .hier-name{ font-weight:700; font-size:14px; }
+  .hier-head .hier-total{ opacity:.6; font-size:12px; }
+  .hier-summary{ display:flex; gap:6px; flex-wrap:wrap; margin-left:auto; }
+  .hier-summary span{ font-size:10.5px; padding:2px 8px; border-radius:10px; background:rgba(127,127,127,.14); color:var(--on-surface-var); }
+  .hier-tier{ padding:4px 16px 10px 34px; border-top:1px solid var(--outline); }
+  .hier-tier-title{ font-size:11px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; color:var(--on-surface-var); margin:10px 0 4px; }
+  .hier-tier-title i{ font-style:normal; opacity:.6; font-weight:500; }
+  .hier-member{ display:flex; align-items:center; gap:10px; padding:5px 8px; border-radius:8px; cursor:pointer; font-size:13px; }
+  .hier-member:hover{ background:rgba(127,127,127,.12); }
+  .hier-member.selected{ background:rgba(127,127,127,.2); }
+  .hier-member .hm-name{ font-weight:600; }
+  .hier-member .hm-role{ font-size:11px; color:var(--on-surface-var); }
+  .hier-member .hm-areas{ margin-left:auto; display:flex; gap:4px; }
+  .hier-member .hm-deals{ font-size:11px; color:var(--on-surface-var); min-width:52px; text-align:right; }
   .list-toolbar{
     position:sticky; top:0; z-index:3;
     background:var(--surface); backdrop-filter: blur(6px);
@@ -477,6 +495,7 @@
     <div class="view-toggle">
       <button id="view-person" class="active">By person</button>
       <button id="view-firm">By firm</button>
+      <button id="view-hier">Firm hierarchy</button>
     </div>
     <div class="stats" id="stats"></div>
   </header>
@@ -522,6 +541,7 @@ let state = {
   recencyDays: 0,          // 0 = any date; else only people with a deal reported within this many days
   expandedFirms: new Set(),
   collapsedSections: new Set(), // filter category headers folded shut: 'practice' | 'role' | 'txn'
+  openHierFirms: new Set(),     // firms expanded in the hierarchy view
   collapsedFirmGroups: new Set(), // firm headings folded shut in the "By firm" main view
   selectedId: null,
   sortBy: 'deals', // 'deals' | 'name' | 'firm' | 'largest' | 'total' | 'recent' -- ignored
@@ -1038,6 +1058,45 @@ function wireSortControl(){
   }
 }
 
+// Seniority tiers for the hierarchy view. Bucketed by seniority only (the
+// practice-area qualifier is already gone from role_bucket); order in each
+// tier follows the order listed here.
+const HIER_TIERS = [
+  ['Leadership', ['Founder','Managing Partner','Senior Partner']],
+  ['Partners', ['Partner','Associate Partner']],
+  ['Counsel & advocates', ['Counsel','Senior Advocate','Advocate','Consultant']],
+  ['Associates', ['Principal Associate','Senior Associate','Associate']],
+];
+function hierTierOf(p){
+  const i = HIER_TIERS.findIndex(t => t[1].includes(p.role_bucket));
+  return i < 0 ? HIER_TIERS.length : i;   // unknown / "Other" goes last
+}
+function hierFirmHtml(f, members, open){
+  const tiers = [...HIER_TIERS.map(t=>t[0]), 'Other roles'].map(()=>[]);
+  members.forEach(p => tiers[hierTierOf(p)].push(p));
+  const names = [...HIER_TIERS.map(t=>t[0]), 'Other roles'];
+  const rank = p => { const t = HIER_TIERS[hierTierOf(p)]; return t ? t[1].indexOf(p.role_bucket) : 0; };
+  const summary = tiers.map((m,i)=> m.length ? `<span>${m.length} ${esc(names[i].toLowerCase())}</span>` : '').join('');
+  let html = `<div class="hier-firm" data-hier-firm="${escAttr(f)}">
+    <div class="hier-head" data-toggle-hier="${escAttr(f)}">
+      <span class="rail-expand ${open?'open':''}">▸</span>
+      <span class="swatch" style="background:${firmHsl(f,45)}"></span>
+      <span class="hier-name">${esc(f)}</span><span class="hier-total">${members.length}</span>
+      <div class="hier-summary">${summary}</div></div>`;
+  if(open){
+    tiers.forEach((m,i)=>{
+      if(!m.length) return;
+      m.sort((a,b)=> rank(a)-rank(b) || b.deals.length-a.deals.length || a.name.localeCompare(b.name));
+      html += `<div class="hier-tier"><div class="hier-tier-title">${esc(names[i])} <i>${m.length}</i></div>` +
+        m.map(p=>`<div class="hier-member" data-id="${p.id}">
+          <span class="hm-name">${esc(p.name)}</span><span class="hm-role">${esc(p.role_bucket || '')}</span>
+          <span class="hm-areas">${p.practice_areas.slice(0,2).map(a=>`<span class="txn-tag">${esc(a)}</span>`).join('')}</span>
+          <span class="hm-deals">${p.deals.length} deal${p.deals.length===1?'':'s'}</span></div>`).join('') + `</div>`;
+    });
+  }
+  return html + `</div>`;
+}
+
 function renderList(){
   const list = document.getElementById('list');
   const filtered = PEOPLE.filter(matchesFilters);
@@ -1049,7 +1108,28 @@ function renderList(){
     return;
   }
 
-  if(state.view === 'firm'){
+  if(state.view === 'hier'){
+    const byFirm = {};
+    filtered.forEach(p => { (byFirm[p.firm || 'Unknown firm'] = byFirm[p.firm || 'Unknown firm'] || []).push(p); });
+    const firmsSorted = Object.keys(byFirm).sort((a,b)=> byFirm[b].length - byFirm[a].length);
+    // a single firm (filter or search narrowed to one) opens by itself
+    const autoOpen = firmsSorted.length === 1;
+    const isOpen = f => autoOpen || state.openHierFirms.has(f);
+    const allOpen = firmsSorted.length > 0 && firmsSorted.every(isOpen);
+    list.innerHTML = `<div class="list-toolbar" style="display:flex;align-items:center;gap:14px;">
+      <button class="expand-all-btn ${allOpen?'':'collapsed'}" id="toggleAllHier"><span class="arrow">▾</span>${allOpen?'Collapse all firms':'Expand all firms'}</button>
+      <span style="font-size:11.5px;color:var(--on-surface-var)">${firmsSorted.length} firm${firmsSorted.length===1?'':'s'} · members grouped by seniority</span></div>` +
+      firmsSorted.map(f => hierFirmHtml(f, byFirm[f].slice(), isOpen(f))).join('');
+    document.getElementById('toggleAllHier').addEventListener('click', ()=>{
+      state.openHierFirms = allOpen ? new Set() : new Set(firmsSorted);
+      renderList();
+    });
+    list.querySelectorAll('[data-toggle-hier]').forEach(el=>el.addEventListener('click', ()=>{
+      const f = el.getAttribute('data-toggle-hier');
+      if(state.openHierFirms.has(f)) state.openHierFirms.delete(f); else state.openHierFirms.add(f);
+      renderList();
+    }));
+  } else if(state.view === 'firm'){
     const byFirm = {};
     filtered.forEach(p=>{
       const key = p.firm || 'Unknown firm';
@@ -1092,7 +1172,7 @@ function renderList(){
     wireSortControl();
   }
 
-  list.querySelectorAll('.person-row').forEach(el=>{
+  list.querySelectorAll('.person-row, .hier-member').forEach(el=>{
     el.addEventListener('click', ()=>{
       const id = Number(el.getAttribute('data-id'));
       state.selectedId = state.selectedId === id ? null : id;
@@ -1102,7 +1182,7 @@ function renderList(){
   });
 
   if(state.selectedId != null){
-    const sel = list.querySelector(`.person-row[data-id="${state.selectedId}"]`);
+    const sel = list.querySelector(`.person-row[data-id="${state.selectedId}"], .hier-member[data-id="${state.selectedId}"]`);
     if(sel) sel.classList.add('selected');
   }
 }
@@ -1303,20 +1383,16 @@ searchClearBtn.addEventListener('click', ()=>{
   persistStateToHash();
 });
 
-document.getElementById('view-person').addEventListener('click', ()=>{
-  state.view = 'person';
-  document.getElementById('view-person').classList.add('active');
-  document.getElementById('view-firm').classList.remove('active');
+function setView(v){
+  state.view = v;
+  [['person','view-person'],['firm','view-firm'],['hier','view-hier']].forEach(([k,id])=>
+    document.getElementById(id).classList.toggle('active', k===v));
   renderList();
   persistStateToHash();
-});
-document.getElementById('view-firm').addEventListener('click', ()=>{
-  state.view = 'firm';
-  document.getElementById('view-firm').classList.add('active');
-  document.getElementById('view-person').classList.remove('active');
-  renderList();
-  persistStateToHash();
-});
+}
+document.getElementById('view-person').addEventListener('click', ()=>setView('person'));
+document.getElementById('view-firm').addEventListener('click', ()=>setView('firm'));
+document.getElementById('view-hier').addEventListener('click', ()=>setView('hier'));
 
 // ---- Shareable/bookmarkable filter state via the URL hash ----
 // Kept deliberately simple (a flat query-string-like format), and uses
@@ -1353,11 +1429,11 @@ function restoreStateFromHash(){
     if(m && +m[1] <= +m[2] && +m[2] <= SIZE_MAX_IDX){ state.sizeLo = +m[1]; state.sizeHi = +m[2]; }
   }
   if(params.has('recent') && RECENCY_OPTIONS.some(o=>o[0] === +params.get('recent'))) state.recencyDays = +params.get('recent');
-  if(params.has('view') && params.get('view')==='firm') state.view = 'firm';
+  if(params.has('view') && ['firm','hier'].includes(params.get('view'))) state.view = params.get('view');
   if(params.has('sort')) state.sortBy = params.get('sort');
   searchInput.value = state.query;
-  if(state.view === 'firm'){
-    document.getElementById('view-firm').classList.add('active');
+  if(state.view !== 'person'){
+    document.getElementById('view-' + (state.view === 'hier' ? 'hier' : 'firm')).classList.add('active');
     document.getElementById('view-person').classList.remove('active');
   }
 }
