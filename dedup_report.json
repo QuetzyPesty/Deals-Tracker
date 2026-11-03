@@ -1,12 +1,12 @@
 {
-  "input_records": 843,
-  "output_records": 782,
-  "removed_duplicates": 61,
+  "input_records": 848,
+  "output_records": 786,
+  "removed_duplicates": 62,
   "merges_by_rule": {
     "same-url": 1,
     "headline-entities": 20,
     "same-slug": 4,
-    "nested-same-type": 16,
+    "nested-same-type": 17,
     "same-core-headline": 7,
     "ipo-draft-then-final": 2,
     "same-headline": 2,
@@ -480,6 +480,23 @@
           "headline": "JSA acts on PwC India - PwC US joint venture",
           "rules": [
             "same-entities-different-counsel"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-natco-pharma-1279-crore-rights-issue",
+        "headline": "Khaitan & Co acts on NATCO Pharma ₹1,279 crore rights issue"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/khaitan-co-advised-natco-pharma-limited-inr-12794-million-rights-issue-991156",
+          "headline": "Khaitan & Co Advised NATCO Pharma Limited On INR 12,794 Million Rights Issue",
+          "rules": [
+            "nested-same-type"
           ]
         }
       ]

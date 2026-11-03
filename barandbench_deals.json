@@ -22503,5 +22503,58 @@
     "transaction_types": [],
     "deal_value": null,
     "people": []
+  },
+  {
+    "headline": "Khaitan & Co acts on NATCO Pharma ₹1,279 crore rights issue",
+    "client": "NATCO Pharma",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-02T05:36:39Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-natco-pharma-1279-crore-rights-issue",
+    "snippet": "NATCO Pharma Limited has made a rights issue of 17,058,082 fully paid-up equity shares, aggregating to ₹1,279.4 crore. Khaitan & Co advised NATCO Pharma on this rights issue. The transaction team consisted of Thomas George (Partner), Nagashayana Srinivasaiah (Partner), Pooja Agarwal (Senior Associate), Tharun Vadlapatla (Senior Associate), Anand Sivasankaran (Associate) and Shishir Tripathi (Associate). If you would like your Deals, Columns, Press Releases to be published on Bar & Bench, please ",
+    "law_firms": [
+      "Khaitan & Co"
+    ],
+    "transaction_types": [],
+    "deal_value": {
+      "raw": "₹1,279 crore",
+      "currency": "INR",
+      "amount": 12790000000,
+      "amount_inr": 12790000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Thomas George",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Nagashayana Srinivasaiah",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Pooja Agarwal",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Tharun Vadlapatla",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Anand Sivasankaran",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Shishir Tripathi",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      }
+    ]
   }
 ]

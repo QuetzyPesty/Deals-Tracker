@@ -1,6 +1,6 @@
 {
-  "filings": 1474,
-  "deals": 782,
+  "filings": 1476,
+  "deals": 786,
   "matched": [
     {
       "headline": "CAM advises Jindal Power on acquisition of 1320 MW thermal power plant in Haryana",
@@ -96,7 +96,7 @@
       "notified": "2026-08-10",
       "decided": "2026-09-29",
       "summary_url": "https://www.cci.gov.in/combination/order/details/summary/1790/0/orders-section31",
-      "order_url": null,
+      "order_url": "https://www.cci.gov.in/combination/order/details/order/1790/0/orders-section31",
       "parties": "BNP Paribas Cardif​",
       "confidence": "high",
       "entities": [
@@ -211,9 +211,9 @@
   ],
   "ambiguous": [],
   "reasons": {
-    "no-name-evidence": 228,
-    "type-gate": 478,
-    "evidence-below-threshold": 62,
+    "no-name-evidence": 229,
+    "type-gate": 480,
+    "evidence-below-threshold": 63,
     "matched": 14
   },
   "filing_claimed_by_several_deals": {
