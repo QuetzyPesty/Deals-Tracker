@@ -1,16 +1,16 @@
 {
-  "input_records": 848,
-  "output_records": 786,
-  "removed_duplicates": 62,
+  "input_records": 861,
+  "output_records": 796,
+  "removed_duplicates": 65,
   "merges_by_rule": {
     "same-url": 1,
     "headline-entities": 20,
     "same-slug": 4,
-    "nested-same-type": 17,
+    "nested-same-type": 19,
     "same-core-headline": 7,
     "ipo-draft-then-final": 2,
+    "same-team-and-entities": 8,
     "same-headline": 2,
-    "same-team-and-entities": 7,
     "copied-text": 3,
     "same-entities-different-counsel": 1,
     "nested-entities": 1
@@ -275,6 +275,23 @@
           "headline": "Cyril Amarchand Mangaldas Advised L Catterton India Fund On Its Investment In Nandhana Foods",
           "rules": [
             "same-headline"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advised-onemi-technology-solutions-on-832-crore-fundraise",
+        "headline": "Cyril Amarchand Mangaldas advised OnEMI Technology Solutions on ₹832 crore fundraise"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/cyril-amarchand-mangaldas-advised-onemi-technology-solutions-inr-832-crore-fund-raise-991259",
+          "headline": "Cyril Amarchand Mangaldas Advised OnEMI Technology Solutions Limited on INR 832 Crore Fund Raise Through...",
+          "rules": [
+            "nested-same-type"
           ]
         }
       ]
@@ -562,6 +579,23 @@
     },
     {
       "kept": {
+        "source": "Legal Era",
+        "url": "https://www.legaleraonline.com/deal-street/khaitan-co-advised-sumitomo-corporation-acquisition-49-percent-stake-clean-solar-power-baniyana-991161",
+        "headline": "Khaitan & Co Advised Sumitomo Corporation On Acquisition Of 49% Equity Shareholding In Clean Solar Power..."
+      },
+      "duplicates": [
+        {
+          "source": "Bar & Bench",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-sumitomo-corp-on-acquiring-49-stake-in-hero-groups-clean-solar-power",
+          "headline": "Khaitan & Co advises Sumitomo Corp on acquiring 49% stake in Hero Group's Clean Solar Power",
+          "rules": [
+            "nested-same-type"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
         "source": "Bar & Bench",
         "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-vector-line-capital-75-million-investment-in-tessolve-semiconductor",
         "headline": "Khaitan & Co advises Vector Line Capital $75 million investment in Tessolve Semiconductor"
@@ -607,6 +641,23 @@
           "headline": "Khaitan & Co Advises NIIF on First Close of Its Second Flagship Infrastructure Fund",
           "rules": [
             "headline-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-cyril-amarchand-mangaldas-act-on-sfc-environmental-technologies-ipo",
+        "headline": "Khaitan & Co, Cyril Amarchand Mangaldas act on SFC Environmental Technologies IPO"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/cyril-amarchand-mangaldas-advised-brlms-sfc-environmental-technologies-ipo-991294",
+          "headline": "Cyril Amarchand Mangaldas Advised Book Running Lead Managers As Indian Legal Counsel On SFC Environmental ...",
+          "rules": [
+            "same-team-and-entities"
           ]
         }
       ]
@@ -1494,6 +1545,28 @@
       ],
       "shared_people": 3,
       "people_jaccard": 0.6,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Kanga & Co acts on Jai Parvati Forge ₹300 crore+ proposed IPO",
+      "a_url": "https://www.barandbench.com/law-firms/dealstreet/kanga-co-acts-on-jai-parvati-forge-300-crore-proposed-ipo",
+      "b": "Kanga & Co acts on Bandhan TMX ₹280 crore+ proposed IPO",
+      "b_url": "https://www.barandbench.com/law-firms/dealstreet/kanga-co-acts-on-bandhan-tmx-280-crore-proposed-ipo",
+      "date_gap_days": 20,
+      "head_sim": 0.6,
+      "lede_sim": 0.29,
+      "shared_rare": [],
+      "a_only": [
+        "forge",
+        "jai",
+        "parvati"
+      ],
+      "b_only": [
+        "bandhan",
+        "tmx"
+      ],
+      "shared_people": 1,
+      "people_jaccard": 0.08,
       "veto": "entity-clash"
     },
     {
