@@ -645,6 +645,10 @@ def merge_cluster(members, best_role=None):
                 continue
             if not cur.get("firm") and p.get("firm"):
                 cur["firm"] = p["firm"]
+            # the client a firm acted for comes from that outlet's own text; an
+            # outlet that did not state one must not erase another's
+            if not cur.get("client") and p.get("client"):
+                cur["client"] = p["client"]
             if p.get("role"):
                 if not cur.get("role"):
                     cur["role"] = p["role"]

@@ -368,6 +368,16 @@ few = rec("Khaitan & Co advises Foo on Bar Series B", BB + "few-1", ["Khaitan & 
 few2 = rec("Khaitan & Co Advised Foo Holdings On A Different Matter", LE + "few-2", ["Khaitan & Co"], "Legal Era", "", TEAM[:4])
 check("four shared lawyers are not enough on their own", n_after([few, few2]) == 2)
 
+# a firm's client survives a merge, and an outlet that states none cannot erase it
+cl_a = rec("Khaitan & Co acts on Foo Holdings fundraise", BB + "cl-a", ["Khaitan & Co"], "Bar & Bench",
+           "", [("Asha Rao", "Khaitan & Co")], published_at="2026-10-01")
+cl_a["people"][0]["client"] = "Multiples"
+cl_b = rec("Khaitan & Co Advised On Foo Holdings Fundraise", LE + "cl-b", ["Khaitan & Co"], "Legal Era",
+           "", [("Asha Rao", "Khaitan & Co")], published_at="2026-10-02")
+m = run([cl_a, cl_b])[0]
+check("a person's per-firm client survives a cross-outlet merge",
+      len(m) == 1 and m[0]["people"][0].get("client") == "Multiples", m[0]["people"])
+
 # ---------------------------------------------------------- real-corpus gate
 print("real corpus")
 recs = json.loads((ROOT / "structured_deals.json").read_text()) \

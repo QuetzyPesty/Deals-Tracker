@@ -643,18 +643,86 @@ def extract_firm_context(paragraph, known_firms=()):
     return None
 
 
+# --- per-firm client --------------------------------------------------------
+# The headline names ONE client ("... act on Brahma AI $150 million fundraise"),
+# but a deal has a client per firm: Slaughter and May acted for Brahma AI while
+# Khaitan acted for the investor Multiples. Crediting every lawyer with the
+# headline's client is wrong for all but one side. The article's own attribution
+# sentence for each firm names its client, so that is read -- but only when it
+# is unambiguous; otherwise nothing is recorded (a miss, never a guess).
+_CLIENT_VERB_RE = re.compile(
+    r"\b(?:advised|advises|is advising|represented|represents|is representing|"
+    r"acted\s+for|acts\s+for|acted\s+as\s+(?:the\s+)?(?:[A-Za-z]+\s+){0,2}?counsel\s+(?:to|for)|"
+    r"acts\s+as\s+(?:the\s+)?(?:[A-Za-z]+\s+){0,2}?counsel\s+(?:to|for))\s+(?P<rest>.+)$"
+)
+# the client phrase ends at the first of these
+_CLIENT_CUT_RE = re.compile(
+    r"\s+(?:on|as|in|with|for|regarding|through|during|from|to|at|by|namely|including|being|which|who)\s+|"
+    r"[,;:(–—]|\s-\s|\.(?:\s|$)"
+)
+# a role or a class of parties, not a name
+_GENERIC_CLIENT_WORDS = {
+    "the", "a", "an", "its", "their", "his", "her", "both", "all", "each", "certain", "various",
+    "several", "individual", "existing", "other", "such", "these", "those", "one", "two", "three",
+    "sellers", "seller", "buyers", "buyer", "lenders", "lender", "investors", "investor", "shareholders",
+    "shareholder", "promoters", "promoter", "brlms", "brlm", "managers", "manager", "underwriters",
+    "parties", "party", "entities", "sponsors", "vendors", "purchasers", "founders", "borrowers",
+    "company", "companies", "clients", "client", "group", "management", "agent", "agents",
+}
+
+
+def client_from_attribution(paragraph):
+    """The client named in a firm-attribution sentence ("Khaitan & Co advised
+    Multiples as the Indian legal counsel" -> "Multiples"), or None when the
+    sentence is ambiguous: several parties ("acted for both A and B"), a class
+    of parties ("the Selling Shareholders", "the BRLMs"), or anything that does
+    not read as a plain proper name."""
+    paragraph = " ".join(paragraph.split())  # non-breaking spaces would hide " and "
+    sentence = re.split(r"(?<=[a-z0-9\)])\.\s+(?=[A-Z])", paragraph.strip(), maxsplit=1)[0]
+    m = _CLIENT_VERB_RE.search(sentence)
+    if not m:
+        return None
+    rest = m.group("rest").strip()
+    if re.search(r"\bas well as\b|\balong with\b|\btogether with\b", rest[:120], re.I):
+        return None  # the firm acted for several parties
+    cut = _CLIENT_CUT_RE.search(rest)
+    client = (rest[:cut.start()] if cut else rest).strip(" .,;:-")
+    if not client or " and " in f" {client.lower()} " or " & " in client and len(client.split()) > 4:
+        return None
+    words = client.split()
+    if not 1 <= len(words) <= 6 or not (words[0][0].isupper() or words[0][0].isdigit()):
+        return None
+    if any(w.lower().strip(".,") in _GENERIC_CLIENT_WORDS for w in words):
+        return None
+    if _is_firm_not_person(client):
+        return None
+    return client
+
+
+# a paragraph that talks about advising/representing someone ends the scope of
+# the client read from the firm's opening sentence: it may be about another
+# party's team ("The team advising Individual Selling Shareholders comprised ...")
+_CLIENT_SCOPE_BREAK_RE = re.compile(
+    r"\b(advis\w*|acting|acted|represent\w*|on behalf|behalf of|counsel\s+(?:to|for)|team\s+for)\b", re.I)
+
+
 def extract_people(paragraphs, fallback_firm, known_firms=()):
     seen = set()
     people = []
     para_firms = []  # (cleaned_paragraph, firm_in_effect) -- reused below
     current_firm = fallback_firm
+    current_client = None
     for raw_para in paragraphs:
         para = _strip_nickname_parens(raw_para)
         lead_firm = leading_known_firm(para)
         context_firm = lead_firm or extract_firm_context(para, known_firms)
         if context_firm:
             current_firm = context_firm
+            # the sentence that hands over to a firm also names its client
+            current_client = client_from_attribution(para)
         else:
+            if current_client and _CLIENT_SCOPE_BREAK_RE.search(para):
+                current_client = None
             m = FIRM_CONTEXT_RE.match(para.strip())
             if (m and not para.strip().lower().startswith("the firm")
                     and _looks_like_firm_name(m.group(1).strip())):
@@ -663,6 +731,7 @@ def extract_people(paragraphs, fallback_firm, known_firms=()):
                 # labelled JSA: a confident wrong answer, which is worse than none.
                 # Drop the context instead and let them come out unattributed.
                 current_firm = None
+                current_client = None
         para_firms.append((para, current_firm))
 
         credits = (extract_paren_credits(para) + extract_plural_list_credits(para)
@@ -678,7 +747,10 @@ def extract_people(paragraphs, fallback_firm, known_firms=()):
             if key in seen:
                 continue
             seen.add(key)
-            people.append({"name": name, "role": role, "firm": current_firm})
+            person = {"name": name, "role": role, "firm": current_firm}
+            if current_client and current_firm:
+                person["client"] = current_client
+            people.append(person)
 
     # Secondary, precision-gated NER pass (see ner_supplement.py) -- only
     # ever fills genuine gaps the regex above missed. Every candidate must

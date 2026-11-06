@@ -37,6 +37,7 @@ def parse(name):
     firms = S._drop_fragment_firms(
         S.discover_corpus_firms(paragraphs, S.firms_from_topics(html, paragraphs)))
     people = S.extract_people(paragraphs, firms[0] if firms else None, known_firms=firms)
+    parse.last_people = people
     return firms, {p["name"]: p["firm"] for p in people}
 
 
@@ -98,6 +99,27 @@ CASES = [
 ]
 
 
+# name -> client the article's own attribution sentence gives that lawyer's firm.
+# The headline names only one client, so crediting everyone with it is wrong for
+# the other side of the deal. None = ambiguous, no client may be recorded.
+CLIENTS = [
+    ("brahma-two-clients.html.gz", {
+        "David Griffith-Jones": "Brahma AI",           # Slaughter and May
+        "Shishir Vayttaden": "Multiples",              # Khaitan & Co
+        "Angad Banerji": "Multiples",
+        "Chrissy Findlay": "Multiples"}),              # Eversheds Sutherland
+    ("adani-act-as.html.gz", {
+        "Subhalakshmi Naskar": "Adani Airports",
+        "Vikram Raghani": "Temasek Holdings",
+        "Sonali Mahapatra": "BlackRock managed funds",
+        # AZB "acted for both Alpha Wave Global and Premji Invest": ambiguous
+        "Vaidhyanathan Iyer": None}),
+    ("shiprocket-served-as.html.gz", {
+        # the Selling Shareholders / BRLMs are classes of parties, not names
+        "Gautham Srinivas": None}),
+]
+
+
 def main():
     failures = []
     for fixture, want_firms, want_people in CASES:
@@ -114,6 +136,14 @@ def main():
         if stray:
             failures.append(f"{fixture}: people attributed to unconfirmed firms: {sorted(stray)}")
         print(f"  {'ok  ' if not missing else 'FAIL'} {fixture:28} {len(firms)} firms, {len(people)} people")
+
+    for fixture, want in CLIENTS:
+        parse(fixture)
+        got = {p["name"]: p.get("client") for p in parse.last_people}
+        for name, client in want.items():
+            if got.get(name, "<missing>") != client:
+                failures.append(f"{fixture}: {name} client -> {got.get(name, '<missing>')!r}, expected {client!r}")
+        print(f"  ok   per-firm clients {fixture}" if not [f for f in failures if f.startswith(fixture)] else f"  FAIL per-firm clients {fixture}")
 
     if failures:
         print("\nFAILURES:")

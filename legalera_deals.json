@@ -627,37 +627,44 @@
       {
         "name": "Monika Srivastava",
         "role": "Partner",
-        "firm": "Khaitan & Co"
+        "firm": "Khaitan & Co",
+        "client": "Autodesk Inc"
       },
       {
         "name": "Sanchit Agarwal",
         "role": "Partner",
-        "firm": "Khaitan & Co"
+        "firm": "Khaitan & Co",
+        "client": "Autodesk Inc"
       },
       {
         "name": "Romit Kohli",
         "role": "Senior Associate",
-        "firm": "Khaitan & Co"
+        "firm": "Khaitan & Co",
+        "client": "Autodesk Inc"
       },
       {
         "name": "Ritu Shaktawat",
         "role": "Partner",
-        "firm": "Khaitan & Co"
+        "firm": "Khaitan & Co",
+        "client": "Autodesk Inc"
       },
       {
         "name": "Abhinav Rastogi",
         "role": "Partner",
-        "firm": "Khaitan & Co"
+        "firm": "Khaitan & Co",
+        "client": "Autodesk Inc"
       },
       {
         "name": "Shailendra Bhandare",
         "role": "Partner",
-        "firm": "Khaitan & Co"
+        "firm": "Khaitan & Co",
+        "client": "Autodesk Inc"
       },
       {
         "name": "Supratim Chakraborty",
         "role": "Partner",
-        "firm": "Khaitan & Co"
+        "firm": "Khaitan & Co",
+        "client": "Autodesk Inc"
       }
     ],
     "published_at": "2026-10-09T16:45:19+05:30",
@@ -4591,27 +4598,32 @@
       {
         "name": "Bhavik Narsana",
         "role": "Partner",
-        "firm": "Khaitan & Co"
+        "firm": "Khaitan & Co",
+        "client": "Anarock Property Consultants Limited"
       },
       {
         "name": "Kinshuk Jhunjhunwala",
         "role": "Partner",
-        "firm": "Khaitan & Co"
+        "firm": "Khaitan & Co",
+        "client": "Anarock Property Consultants Limited"
       },
       {
         "name": "Ipshita Dey",
         "role": "Senior Associate",
-        "firm": "Khaitan & Co"
+        "firm": "Khaitan & Co",
+        "client": "Anarock Property Consultants Limited"
       },
       {
         "name": "Pragya Mishra",
         "role": "Associate",
-        "firm": "Khaitan & Co"
+        "firm": "Khaitan & Co",
+        "client": "Anarock Property Consultants Limited"
       },
       {
         "name": "Thrisha Rai",
         "role": "Associate",
-        "firm": "Khaitan & Co"
+        "firm": "Khaitan & Co",
+        "client": "Anarock Property Consultants Limited"
       },
       {
         "name": "Deepak Kumar",
@@ -4895,22 +4907,26 @@
       {
         "name": "Surya Sreenivasan",
         "role": "Partner",
-        "firm": "Cyril Amarchand Mangaldas"
+        "firm": "Cyril Amarchand Mangaldas",
+        "client": "Adani Power Limited"
       },
       {
         "name": "Medha Rao",
         "role": "Principal Associate",
-        "firm": "Cyril Amarchand Mangaldas"
+        "firm": "Cyril Amarchand Mangaldas",
+        "client": "Adani Power Limited"
       },
       {
         "name": "Tanuj Agarwal",
         "role": "Senior Associate",
-        "firm": "Cyril Amarchand Mangaldas"
+        "firm": "Cyril Amarchand Mangaldas",
+        "client": "Adani Power Limited"
       },
       {
         "name": "Paridhi Adani",
         "role": "Partner",
-        "firm": "Cyril Amarchand Mangaldas"
+        "firm": "Cyril Amarchand Mangaldas",
+        "client": "Adani Power Limited"
       }
     ],
     "published_at": "2026-10-14T11:02:57+05:30",
@@ -5244,27 +5260,32 @@
       {
         "name": "Kapish Mandhyan",
         "role": "Partner",
-        "firm": "Khaitan & Co"
+        "firm": "Khaitan & Co",
+        "client": "Vector Line Capital"
       },
       {
         "name": "Reshma Abraham",
         "role": "Counsel",
-        "firm": "Khaitan & Co"
+        "firm": "Khaitan & Co",
+        "client": "Vector Line Capital"
       },
       {
         "name": "Deep Shah",
         "role": "Principal Associate",
-        "firm": "Khaitan & Co"
+        "firm": "Khaitan & Co",
+        "client": "Vector Line Capital"
       },
       {
         "name": "Aanya Desai",
         "role": "Associate",
-        "firm": "Khaitan & Co"
+        "firm": "Khaitan & Co",
+        "client": "Vector Line Capital"
       },
       {
         "name": "Krisha Devani",
         "role": "Associate",
-        "firm": "Khaitan & Co"
+        "firm": "Khaitan & Co",
+        "client": "Vector Line Capital"
       },
       {
         "name": "Divaspati Singh",
@@ -9286,17 +9307,20 @@
       {
         "name": "Vivaik Sharma",
         "role": "Partner",
-        "firm": "Cyril Amarchand Mangaldas"
+        "firm": "Cyril Amarchand Mangaldas",
+        "client": "International Solar Alliance"
       },
       {
         "name": "Mudit Burad",
         "role": "Associate",
-        "firm": "Cyril Amarchand Mangaldas"
+        "firm": "Cyril Amarchand Mangaldas",
+        "client": "International Solar Alliance"
       },
       {
         "name": "Santosh Jankiram",
         "role": "Senior Partner",
-        "firm": "Cyril Amarchand Mangaldas"
+        "firm": "Cyril Amarchand Mangaldas",
+        "client": "International Solar Alliance"
       }
     ],
     "published_at": "2026-11-03T11:12:07+05:30",
@@ -9329,12 +9353,14 @@
       {
         "name": "Ravi Dubey",
         "role": "Partner",
-        "firm": "Cyril Amarchand Mangaldas"
+        "firm": "Cyril Amarchand Mangaldas",
+        "client": "OnEMI Technology Solutions Limited"
       },
       {
         "name": "Ramgovind Kuruppath",
         "role": "Partner",
-        "firm": "Cyril Amarchand Mangaldas"
+        "firm": "Cyril Amarchand Mangaldas",
+        "client": "OnEMI Technology Solutions Limited"
       },
       {
         "name": "Nayana Dasgupta",

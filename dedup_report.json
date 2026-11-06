@@ -1,20 +1,19 @@
 {
   "input_records": 866,
-  "output_records": 788,
-  "removed_duplicates": 78,
+  "output_records": 787,
+  "removed_duplicates": 79,
   "merges_by_rule": {
     "same-url": 1,
-    "headline-entities": 7,
+    "headline-entities": 8,
     "same-slug": 4,
-    "nested-same-type": 11,
+    "nested-same-type": 9,
     "same-core-headline": 7,
     "ipo-draft-then-final": 2,
-    "same-team-same-issuer": 36,
+    "same-team-same-issuer": 39,
     "same-team-and-entities": 3,
     "same-headline": 2,
     "same-team-near-identical": 4,
     "copied-text": 3,
-    "same-entities-different-counsel": 1,
     "nested-entities": 1
   },
   "merged_groups": [
@@ -530,17 +529,17 @@
     },
     {
       "kept": {
-        "source": "LiveLaw",
-        "url": "https://www.livelaw.in/law-firms/deals/khaitan-co-advises-pwc-us-on-joint-venture-with-pwc-india-552801",
-        "headline": "Khaitan & Co Advises PwC US On Joint Venture With PwC India"
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-pwcs-india-us-joint-venture",
+        "headline": "JSA acts on PwC India - PwC US joint venture"
       },
       "duplicates": [
         {
-          "source": "Bar & Bench",
-          "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-pwcs-india-us-joint-venture",
-          "headline": "JSA acts on PwC India - PwC US joint venture",
+          "source": "LiveLaw",
+          "url": "https://www.livelaw.in/law-firms/deals/khaitan-co-advises-pwc-us-on-joint-venture-with-pwc-india-552801",
+          "headline": "Khaitan & Co Advises PwC US On Joint Venture With PwC India",
           "rules": [
-            "same-entities-different-counsel"
+            "same-team-same-issuer"
           ]
         }
       ]
@@ -564,15 +563,15 @@
     },
     {
       "kept": {
-        "source": "Legal Era",
-        "url": "https://www.legaleraonline.com/deal-street/khaitan-co-um-cables-rr-kabel-optical-fibre-business-sale-990868",
-        "headline": "Khaitan & Co Advised U M Cables On Sale Of Optical Fibre Cable Business To RR Kabel"
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advised-rr-kabel-on-acquisition-of-u-m-cables",
+        "headline": "Khaitan & Co advised RR Kabel on acquisition of U M Cables"
       },
       "duplicates": [
         {
-          "source": "Bar & Bench",
-          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advised-rr-kabel-on-acquisition-of-u-m-cables",
-          "headline": "Khaitan & Co advised RR Kabel on acquisition of U M Cables",
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/khaitan-co-um-cables-rr-kabel-optical-fibre-business-sale-990868",
+          "headline": "Khaitan & Co Advised U M Cables On Sale Of Optical Fibre Cable Business To RR Kabel",
           "rules": [
             "nested-same-type",
             "same-team-same-issuer"
@@ -917,6 +916,23 @@
     {
       "kept": {
         "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-chryscapital-on-minority-stake-acquisition-in-linux-laboratories",
+        "headline": "SAM advises ChrysCapital on minority stake acquisition in Linux Laboratories; K Law advises Tata Healthcare Fund II and III"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/cam-advised-linux-laboratories-chryscapital-tata-capital-990355",
+          "headline": "Cyril Amarchand Mangaldas Advised Linux Laboratories Private Limited On Acquisition Of Stake By...",
+          "rules": [
+            "headline-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
         "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-cyril-amarchand-mangaldas-act-on-elevate-campuses-2100-crore-ipo",
         "headline": "Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO"
       },
@@ -1229,17 +1245,17 @@
     },
     {
       "kept": {
-        "source": "Legal Era",
-        "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-greencell-mobility-usd-35-million-fundraise-impact-fund-denmark-991048",
-        "headline": "Trilegal Advised GreenCell Mobility On USD 35 Million Fundraise From Impact Fund Denmark"
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/tta-trilegal-act-on-impact-fund-denmark-investing-35-million-in-greencell-mobility",
+        "headline": "TT&A, Trilegal act on Impact Fund Denmark investing $35 million in GreenCell Mobility"
       },
       "duplicates": [
         {
-          "source": "Bar & Bench",
-          "url": "https://www.barandbench.com/law-firms/dealstreet/tta-trilegal-act-on-impact-fund-denmark-investing-35-million-in-greencell-mobility",
-          "headline": "TT&A, Trilegal act on Impact Fund Denmark investing $35 million in GreenCell Mobility",
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-greencell-mobility-usd-35-million-fundraise-impact-fund-denmark-991048",
+          "headline": "Trilegal Advised GreenCell Mobility On USD 35 Million Fundraise From Impact Fund Denmark",
           "rules": [
-            "nested-same-type"
+            "same-team-same-issuer"
           ]
         }
       ]
@@ -1541,7 +1557,7 @@
       "date_gap_days": 33,
       "component_of_total": true,
       "head_sim": 0.75,
-      "lede_sim": 0.15,
+      "lede_sim": 0.14,
       "shared_rare": [],
       "a_only": [
         "anarock"
@@ -1708,6 +1724,30 @@
       "veto": "entity-clash"
     },
     {
+      "a": "Cyril Amarchand Mangaldas Advised Novo Tellus Capital Partners On Vector Line Capital’s USD 75 Million...",
+      "a_url": "https://www.legaleraonline.com/deal-street/cyril-amarchand-mangaldas-advised-novo-tellus-vector-line-capital-usd-75-million-investment-tessolve-991199",
+      "b": "Khaitan & Co advises Vector Line Capital $75 million investment in Tessolve Semiconductor",
+      "b_url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-vector-line-capital-75-million-investment-in-tessolve-semiconductor",
+      "date_gap_days": 9,
+      "head_sim": 0.67,
+      "lede_sim": 0.04,
+      "shared_rare": [
+        "line",
+        "vector"
+      ],
+      "a_only": [
+        "novo",
+        "tellus"
+      ],
+      "b_only": [
+        "semiconductor",
+        "tessolve"
+      ],
+      "shared_people": 3,
+      "people_jaccard": 0.16,
+      "veto": "entity-clash"
+    },
+    {
       "a": "DSK Legal Advised Stride Ventures Debt Fund 4 On Investment In Buildmex-Infra Private Limited",
       "a_url": "https://www.legaleraonline.com/deal-street/dsk-legal-advised-stride-ventures-debt-fund-4-investment-buildmex-infra-991062",
       "b": "DSK Legal advises Stride Ventures on investment into Veefin Solutions",
@@ -1755,6 +1795,31 @@
       ],
       "shared_people": 2,
       "people_jaccard": 0.04,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Trilegal Advised Blackstone-Backed ASK Investment Managers on Proposed Acquisition of SageOne Investment...",
+      "a_url": "https://www.legaleraonline.com/deal-street/trilegal-ask-investment-sageone-acquisition-990607",
+      "b": "Shardul Amarchand Mangaldas advises SageOne on acquisition by ASK Asset Management",
+      "b_url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-sageone-on-acquisition-by-ask-asset-management",
+      "date_gap_days": 4,
+      "head_sim": 0.6,
+      "lede_sim": 0.03,
+      "shared_rare": [
+        "ask",
+        "sageone"
+      ],
+      "a_only": [
+        "backed",
+        "blackstone",
+        "managers"
+      ],
+      "b_only": [
+        "asset",
+        "management"
+      ],
+      "shared_people": 25,
+      "people_jaccard": 0.71,
       "veto": "entity-clash"
     }
   ]
