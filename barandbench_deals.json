@@ -23116,5 +23116,90 @@
         "firm": "Kanga & Co"
       }
     ]
+  },
+  {
+    "headline": "K Law advises on India leg of Sagility's $32 million acquisition of Chirok Health",
+    "client": "on India leg of Sagility's",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-06T08:23:03Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/k-law-advises-on-india-leg-of-sagilitys-32-million-acquisition-of-chirok-health",
+    "snippet": "Krishnamurthy & Co (K Law) has advised Sagility Limited on the Indian legal aspects of its $32.35 million acquisition of Chirok Health LLC, through its wholly owned US subsidiary, Sagility (US) Holdings Inc. The K Law team was led by Christopher Rao (Partner), and included Nidhi Acharya (Senior Associate), Salini Augusty (Senior Associate) and Shreya Acharya (Associate). Cooley LLP acted as US legal counsel to Sagility, while Polsinelli PC represented Chirok. The transaction involved the acquisi",
+    "law_firms": [
+      "Cooley",
+      "K Law",
+      "Krishnamurthy & Co"
+    ],
+    "transaction_types": [
+      "acquisition"
+    ],
+    "deal_value": {
+      "raw": "$32 million",
+      "currency": "USD",
+      "amount": 32000000,
+      "amount_inr": 2816000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Christopher Rao",
+        "role": "Partner",
+        "firm": "Krishnamurthy & Co"
+      },
+      {
+        "name": "Nidhi Acharya",
+        "role": "Senior Associate",
+        "firm": "Krishnamurthy & Co"
+      },
+      {
+        "name": "Salini Augusty",
+        "role": "Senior Associate",
+        "firm": "Krishnamurthy & Co"
+      },
+      {
+        "name": "Shreya Acharya",
+        "role": "Associate",
+        "firm": "Krishnamurthy & Co"
+      }
+    ]
+  },
+  {
+    "headline": "M. T. Miskita & Co advises Adani Group on ₹335 crore stake sale in Monte South project developer",
+    "client": "Adani Group",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-06T08:22:29Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/m-t-miskita-co-advises-adani-group-on-335-crore-stake-sale-in-monte-south-project-developer",
+    "snippet": "Adani Group has sold off its 60% stake in Swayam Realtors and Traders LLP, which is developing the landmark Monte South project at Byculla, Mumbai, to Marathon Nextgen Realty Limited, for an aggregate consideration of up to ₹335 crore, comprising cash consideration of up to ₹135 crore and a bank guarantee of ₹200 crore. M. T. Miskita & Co advised Adani Group on this transaction. The transaction team comprised of Viren Miskita (Managing Partner), Neha Mehta (Partner) and Jhanvee Shah (Associate).",
+    "law_firms": [
+      "M. T. Miskita & Co"
+    ],
+    "transaction_types": [],
+    "deal_value": {
+      "raw": "₹335 crore",
+      "currency": "INR",
+      "amount": 3350000000,
+      "amount_inr": 3350000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Viren Miskita",
+        "role": "Managing Partner",
+        "firm": "M. T. Miskita & Co"
+      },
+      {
+        "name": "Neha Mehta",
+        "role": "Partner",
+        "firm": "M. T. Miskita & Co"
+      },
+      {
+        "name": "Jhanvee Shah",
+        "role": "Associate",
+        "firm": "M. T. Miskita & Co"
+      }
+    ]
   }
 ]
