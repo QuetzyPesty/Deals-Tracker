@@ -266,7 +266,7 @@ def parse_article(url, headline):
     # testing. If parse_headline() actually found real firms, trust that
     # over a keyword match; only fall back to the personnel-move extractor
     # when deal-shaped parsing found nothing to work with.
-    parsed = parse_headline(headline)
+    parsed = parse_headline(headline, evidence=paragraphs)
     if not parsed["law_firms"] and is_personnel_move(headline):
         # not a deal -- build_directory.py excludes these from the deals
         # table/count regardless, but extract what we can about the

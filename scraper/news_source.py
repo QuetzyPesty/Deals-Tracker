@@ -262,7 +262,7 @@ def parse_article(source, url, html):
 
     if NON_DEAL_HEADLINE.search(headline):
         return None
-    parsed = parse_headline_loose(headline)
+    parsed = parse_headline_loose(headline, evidence=paragraphs)
     if not parsed["law_firms"] and not is_personnel_move(headline):
         # a verb we do not recognise: the curated keywords + the headline's
         # opening words still name the firm

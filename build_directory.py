@@ -25,6 +25,22 @@ VERIFICATION_PATH = BASE / "firm_history_verification.json"
 
 # Canonicalize firm name variants that refer to the same firm.
 FIRM_ALIASES = {
+    # firm names containing "and": headlines split these into two fake firms
+    # unless the whole name is known
+    "slaughter and may": "Slaughter and May",
+    # one firm, several spellings between a headline and its own article body
+    "tlh": "TLH Advocates & Solicitors",
+    "tlh advocates": "TLH Advocates & Solicitors",
+    "tlh, advocates & solicitors": "TLH Advocates & Solicitors",
+    "tlh advocates & solicitors": "TLH Advocates & Solicitors",
+    "vidhigya associates, advocates": "Vidhigya Associates",
+    "vidhigya associates": "Vidhigya Associates",
+    "chandiok & mahajan": "Chandhiok & Mahajan",
+    "s&co": "Singhania & Co",
+    "singhania & co": "Singhania & Co",
+    "lks": "Lakshmikumaran & Sridharan Attorneys",
+    "lakshmikumaran & sridharan attorneys": "Lakshmikumaran & Sridharan Attorneys",
+    "lakshmikumaran and sridharan attorneys": "Lakshmikumaran & Sridharan Attorneys",
     "jsa": "JSA Advocates & Solicitors",
     "jsa advocates & solicitors": "JSA Advocates & Solicitors",
     "sam": "Shardul Amarchand Mangaldas & Co",
@@ -212,6 +228,11 @@ def canonical_firm(name):
         return None
     if key in FIRM_ALIASES:
         return FIRM_ALIASES[key]
+    # Legal Era writes "Lakshmikumaran And Sridharan", Bar & Bench "&": the same
+    # firm. Only a known firm is folded together, never a guess.
+    alt = key.replace(" and ", " & ")
+    if alt != key and alt in FIRM_ALIASES:
+        return FIRM_ALIASES[alt]
     return _smart_title(cleaned)
 
 

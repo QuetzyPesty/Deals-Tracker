@@ -3899,8 +3899,7 @@
     "law_firms": [
       "Dentons Link Legal",
       "Trilegal",
-      "Sidley Austin",
-      "FBT Gibbons"
+      "Sidley Austin and FBT Gibbons"
     ],
     "transaction_types": [],
     "deal_value": {
@@ -4559,6 +4558,7 @@
     "headline": "CMS INDUSLAW, ELP act on Avtar Steel ₹585 crore+ proposed IPO",
     "client": "Avtar Steel",
     "source": "Bar & Bench",
+    "published_at": "2026-08-19T13:50:52Z",
     "url": "https://www.barandbench.com/law-firms/dealstreet/cms-induslaw-elp-act-on-avtar-steel-585-crore-proposed-ipo",
     "snippet": "Avtar Steel Limited has filed a Draft Red Herring Prospectus with SEBI for an initial public offering comprising a fresh issue of equity shares aggregating up to ₹585 crore and an offer for sale of up to 5,000,000 equity shares by the promoter selling shareholder. CMS INDUSLAW is advising Avtar Steel on the capital markets and regulatory aspects of the proposed IPO, including the preparation and filing of the DRHP and related transaction documentation, securities law and regulatory matters, and ",
     "law_firms": [
@@ -4581,37 +4581,44 @@
       {
         "name": "Mathew Thomas",
         "role": "Partner",
-        "firm": "CMS INDUSLAW"
+        "firm": "CMS INDUSLAW",
+        "client": "Avtar Steel"
       },
       {
         "name": "Anjanesh Vatsa",
         "role": "Principal Associate",
-        "firm": "CMS INDUSLAW"
+        "firm": "CMS INDUSLAW",
+        "client": "Avtar Steel"
       },
       {
         "name": "Aman Bahl",
         "role": "Senior Associate",
-        "firm": "CMS INDUSLAW"
+        "firm": "CMS INDUSLAW",
+        "client": "Avtar Steel"
       },
       {
         "name": "Khushi Dua",
         "role": "Associate",
-        "firm": "CMS INDUSLAW"
+        "firm": "CMS INDUSLAW",
+        "client": "Avtar Steel"
       },
       {
         "name": "Nikita Srivastava",
         "role": "Associate",
-        "firm": "CMS INDUSLAW"
+        "firm": "CMS INDUSLAW",
+        "client": "Avtar Steel"
       },
       {
         "name": "Sahil Mehta",
         "role": "Associate",
-        "firm": "CMS INDUSLAW"
+        "firm": "CMS INDUSLAW",
+        "client": "Avtar Steel"
       },
       {
         "name": "Sanjana Gupta",
         "role": "Associate",
-        "firm": "CMS INDUSLAW"
+        "firm": "CMS INDUSLAW",
+        "client": "Avtar Steel"
       },
       {
         "name": "Geeta Dhania",
@@ -4643,8 +4650,7 @@
         "role": "Associate",
         "firm": "Economic Laws Practice"
       }
-    ],
-    "published_at": "2026-08-19T13:50:52Z"
+    ]
   },
   {
     "headline": "JSA advises BlissClub on ₹160 crore Series B fundraise",
@@ -7285,7 +7291,7 @@
     "url": "https://www.barandbench.com/law-firms/dealstreet/tlh-advocates-advises-arete-hospitals-on-sale-of-hospital-business-to-aurevia-hospitals",
     "snippet": "Arete Institute of Medical Sciences Private Limited has divested its 250-bed multispecialty hospital business in Gachibowli, Hyderabad, to Aurevia Hospitals Private Limited, by way of a Business Transfer Agreement executed on 03 July 2026. TLH, Advocates & Solicitors represented Arete Institute of Medical Sciences on this transaction. The transaction was led by Yasasvi G.V . (Partner), with support from Associates Kapil Devnani and Srujana Kuchimanchi. The hospital will be operated by Krishna In",
     "law_firms": [
-      "TLH Advocates"
+      "TLH Advocates & Solicitors"
     ],
     "transaction_types": [],
     "deal_value": null,
@@ -7293,12 +7299,14 @@
       {
         "name": "Kapil Devnani",
         "role": "Associate",
-        "firm": null
+        "firm": "TLH Advocates & Solicitors",
+        "client": "Arete Institute of Medical Sciences"
       },
       {
         "name": "Srujana Kuchimanchi",
         "role": "Associate",
-        "firm": null
+        "firm": "TLH Advocates & Solicitors",
+        "client": "Arete Institute of Medical Sciences"
       }
     ]
   },
@@ -12720,37 +12728,37 @@
         "name": "Manisha Shroff",
         "role": "Partner",
         "firm": "Khaitan & Co",
-        "client": "Capri Loans"
+        "client": "Capri Loans"
       },
       {
         "name": "Mohit Nad",
         "role": "Counsel",
         "firm": "Khaitan & Co",
-        "client": "Capri Loans"
+        "client": "Capri Loans"
       },
       {
         "name": "Aparna Arya",
         "role": "Senior Associate",
         "firm": "Khaitan & Co",
-        "client": "Capri Loans"
+        "client": "Capri Loans"
       },
       {
         "name": "Nandini Arya",
         "role": "Associate",
         "firm": "Khaitan & Co",
-        "client": "Capri Loans"
+        "client": "Capri Loans"
       },
       {
         "name": "Sneh Shah",
         "role": "Partner",
         "firm": "Khaitan & Co",
-        "client": "Capri Loans"
+        "client": "Capri Loans"
       },
       {
         "name": "Pal Jain",
         "role": "Associate",
         "firm": "Khaitan & Co",
-        "client": "Capri Loans"
+        "client": "Capri Loans"
       },
       {
         "name": "Rahul Gulati",
@@ -14459,8 +14467,7 @@
     "url": "https://www.barandbench.com/law-firms/dealstreet/lks-advises-raghava-life-sciences-on-sale-of-api-business-to-rpg-active-pharma",
     "snippet": "Raghava Life Sciences Private Limited has transfered its Active Pharmaceutical Ingredients (API) business to RPG Active Pharma Limited, a subsidiary of RPG Life Sciences Limited through a slump sale. Lakshmikumaran & Sridharan Attorneys advised Raghava Life Sciences on this transaction. The Firm's mandate encompassed drafting, review, negotiation and finalisation of all transaction documents, including the Business Transfer Agreement, Disclosure Letter, Conveyance Deeds, Employee Release Documen",
     "law_firms": [
-      "Lakshmikumaran & Sridharan Attorneys",
-      "Lks"
+      "Lakshmikumaran & Sridharan Attorneys"
     ],
     "transaction_types": [],
     "deal_value": null,
@@ -17894,7 +17901,6 @@
     "url": "https://www.barandbench.com/law-firms/dealstreet/vidhigya-associates-acts-on-swastika-infras-200-crore-ipo-and-pre-ipo-placement",
     "snippet": "Swastika Infra Limited has raised an aggregate of ₹200.88 crore through its Initial Public Offering and pre-IPO placement. The IPO comprised a fresh issue of ₹128.50 crore and an Offer for Sale of ₹32.38 crore. Prior to the IPO, the Company undertook a Pre-IPO Placement of 24,24,242 Equity Shares aggregating ₹40 crore, which was completed prior to the filing of the Red Herring Prospectus. The amount raised pursuant to the Pre-IPO Placement was adjusted against the Fresh Issue. Vidhigya Associate",
     "law_firms": [
-      "Vidhigya Associates, Advocates",
       "Vidhigya Associates"
     ],
     "transaction_types": [
@@ -17913,17 +17919,17 @@
       {
         "name": "Rahul Pandey",
         "role": "Managing Partner",
-        "firm": null
+        "firm": "Vidhigya Associates"
       },
       {
         "name": "Vedang Mehta",
         "role": "Associate Partner",
-        "firm": null
+        "firm": "Vidhigya Associates"
       },
       {
         "name": "Yash Desai",
         "role": "Senior Associate",
-        "firm": null
+        "firm": "Vidhigya Associates"
       }
     ]
   },
@@ -17956,37 +17962,37 @@
         "name": "Albin Thomas",
         "role": "Partner",
         "firm": "Trilegal",
-        "client": "Dosti Realty"
+        "client": "Dosti Realty"
       },
       {
         "name": "Arsh Sinha",
         "role": "Senior Associate",
         "firm": "Trilegal",
-        "client": "Dosti Realty"
+        "client": "Dosti Realty"
       },
       {
         "name": "Snehal Kaushal",
         "role": "Associate",
         "firm": "Trilegal",
-        "client": "Dosti Realty"
+        "client": "Dosti Realty"
       },
       {
         "name": "Anand Kumar",
         "role": "Associate",
         "firm": "Trilegal",
-        "client": "Dosti Realty"
+        "client": "Dosti Realty"
       },
       {
         "name": "Mohak Agarwal",
         "role": "Associate",
         "firm": "Trilegal",
-        "client": "Dosti Realty"
+        "client": "Dosti Realty"
       },
       {
         "name": "Rishab Taori",
         "role": "Associate",
         "firm": "Trilegal",
-        "client": "Dosti Realty"
+        "client": "Dosti Realty"
       },
       {
         "name": "Abhinav Kumar",
@@ -18871,55 +18877,55 @@
         "name": "Richa Choudhary",
         "role": "Partner",
         "firm": "Trilegal",
-        "client": "Runwal Enterprises"
+        "client": "Runwal Enterprises"
       },
       {
         "name": "Maitreya Rajurkar",
         "role": "Partner",
         "firm": "Trilegal",
-        "client": "Runwal Enterprises"
+        "client": "Runwal Enterprises"
       },
       {
         "name": "Pooja Tada",
         "role": "Senior Associate",
         "firm": "Trilegal",
-        "client": "Runwal Enterprises"
+        "client": "Runwal Enterprises"
       },
       {
         "name": "Yug Gambhir",
         "role": "Associate",
         "firm": "Trilegal",
-        "client": "Runwal Enterprises"
+        "client": "Runwal Enterprises"
       },
       {
         "name": "Siddhant Mishra",
         "role": "Associate",
         "firm": "Trilegal",
-        "client": "Runwal Enterprises"
+        "client": "Runwal Enterprises"
       },
       {
         "name": "Samruddhi Varma",
         "role": "Associate",
         "firm": "Trilegal",
-        "client": "Runwal Enterprises"
+        "client": "Runwal Enterprises"
       },
       {
         "name": "Shreyansh Gupta",
         "role": "Associate",
         "firm": "Trilegal",
-        "client": "Runwal Enterprises"
+        "client": "Runwal Enterprises"
       },
       {
         "name": "Arnab Goswami",
         "role": "Associate",
         "firm": "Trilegal",
-        "client": "Runwal Enterprises"
+        "client": "Runwal Enterprises"
       },
       {
         "name": "Sai Krishna Bharathan",
         "role": "Partner",
         "firm": "Trilegal",
-        "client": "Runwal Enterprises"
+        "client": "Runwal Enterprises"
       },
       {
         "name": "Madhur Kohli",
@@ -22093,8 +22099,7 @@
     "law_firms": [
       "Slaughter and May",
       "Eversheds Sutherland",
-      "Khaitan & Co",
-      "May"
+      "Khaitan & Co"
     ],
     "transaction_types": [
       "fundraise"
@@ -22112,27 +22117,32 @@
       {
         "name": "David Griffith-Jones",
         "role": "Partner",
-        "firm": null
+        "firm": "Slaughter and May",
+        "client": "Brahma AI"
       },
       {
         "name": "Harry Hecht",
         "role": "Partner",
-        "firm": null
+        "firm": "Slaughter and May",
+        "client": "Brahma AI"
       },
       {
         "name": "Gareth Miles",
         "role": "Partner",
-        "firm": null
+        "firm": "Slaughter and May",
+        "client": "Brahma AI"
       },
       {
         "name": "Duncan Blaikie",
         "role": "Partner",
-        "firm": null
+        "firm": "Slaughter and May",
+        "client": "Brahma AI"
       },
       {
         "name": "Jonathan Slade",
         "role": "Partner",
-        "firm": null
+        "firm": "Slaughter and May",
+        "client": "Brahma AI"
       },
       {
         "name": "Chrissy Findlay",
@@ -23067,17 +23077,17 @@
       {
         "name": "Pratima Pratihar",
         "role": "Senior Associate",
-        "firm": null
+        "firm": "Chandhiok & Mahajan"
       },
       {
         "name": "Sparsh Sharma",
         "role": "Associate",
-        "firm": null
+        "firm": "Chandhiok & Mahajan"
       },
       {
         "name": "Saba Alam",
         "role": "Associate",
-        "firm": null
+        "firm": "Chandhiok & Mahajan"
       }
     ]
   },

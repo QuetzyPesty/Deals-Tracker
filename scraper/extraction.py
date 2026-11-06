@@ -112,7 +112,23 @@ TXN_KEYWORDS = (
 )
 
 
-def split_firm_names(raw):
+_ATTRIBUTION_VERBS = (r"(?:also\s+)?(?:advised|advises|is advising|represented|represents|is representing|"
+                      r"acted|acts|served)\b")
+
+
+def _norm_for_match(text):
+    return re.sub(r"\s+", " ", (text or "").replace("&", " and ").replace("\xa0", " ")).lower().strip()
+
+
+def _opens_attribution(name, evidence):
+    """A body paragraph that BEGINS with `name` and goes straight into an
+    attribution verb ("Slaughter and May advised Brahma AI ...")."""
+    target = _norm_for_match(name)
+    rx = re.compile(rf"^{re.escape(target)}\s*(?:\([^)]*\)\s*)?{_ATTRIBUTION_VERBS}")
+    return any(rx.match(_norm_for_match(p)) for p in evidence or ())
+
+
+def split_firm_names(raw, evidence=None):
     """Split "A, B and C" into firm names without breaking a firm whose own
     name contains "and": "Luthra and Luthra" is one firm, not "Luthra" twice.
     A pair of neighbours is rejoined when the joined text is a known firm
@@ -130,21 +146,33 @@ def split_firm_names(raw):
                     i = j
                     break
             else:
+                # Not a known firm. The article body can still settle it: when
+                # the joined name opens an attribution sentence and neither
+                # half does on its own, "Slaughter and May" is one firm, not
+                # "Slaughter" and "May". Two firms credited jointly would be
+                # introduced by their own sentences, so this stays rare.
+                if (evidence and i + 1 < len(pieces)
+                        and _opens_attribution(f"{pieces[i]} and {pieces[i + 1]}", evidence)
+                        and not _opens_attribution(pieces[i], evidence)
+                        and not _opens_attribution(pieces[i + 1], evidence)):
+                    out.append(f"{pieces[i].strip()} and {pieces[i + 1].strip()}")
+                    i += 2
+                    continue
                 out.append(pieces[i].strip())
                 i += 1
     return [p for p in out if p]
 
 
-def split_firm_list(raw):
+def split_firm_list(raw, evidence=None):
     firms = []
-    for p in split_firm_names(raw):
+    for p in split_firm_names(raw, evidence):
         cname = canonical_firm(p)
         if cname:
             firms.append(cname)
     return firms
 
 
-def parse_headline(headline):
+def parse_headline(headline, evidence=None):
     m = HEADLINE_VERB.match(headline)
     if not m:
         return {"law_firms": [], "client": None, "transaction_types": []}
@@ -165,7 +193,7 @@ def parse_headline(headline):
         before, after = firms_raw.rsplit(":", 1)
         if "," in after or " and " in after.lower():
             firms_raw = after.strip()
-    firms = split_firm_list(firms_raw)
+    firms = split_firm_list(firms_raw, evidence)
     rest = m.group("rest")
     client = rest.split(" on ")[0].strip() if " on " in rest else rest.strip()
     # trim trailing deal-size/description noise: "Arboreal ₹230 crore Series
@@ -208,9 +236,9 @@ TRAILING_FIRM_CLAUSE = re.compile(
 _CLIENT_CUT = re.compile(r"\s+(?:on|in|for|to|through|by|from|of|with|over)\s+|[’']s\s+", re.I)
 
 
-def _split_firms_loose(raw):
+def _split_firms_loose(raw, evidence=None):
     out = []
-    for p in split_firm_names(raw):
+    for p in split_firm_names(raw, evidence):
         c = canonical_firm(p.strip())
         if c and c not in out:
             out.append(c)
@@ -245,7 +273,7 @@ def _flat_words(text):
     return " ".join(re.findall(r"[a-z0-9&]+", (text or "").lower().replace("&", " & ")))
 
 
-def parse_headline_loose(headline):
+def parse_headline_loose(headline, evidence=None):
     """Same return shape as parse_headline()."""
     h = " ".join((headline or "").split())
     txn = [k for k in TXN_KEYWORDS if k.lower() in h.lower()]
@@ -259,11 +287,11 @@ def parse_headline_loose(headline):
         rest = re.sub(r"^(?:on|for|in|as)\s+", "", rest, flags=re.I)
         client = _CLIENT_CUT.split(rest, maxsplit=1)[0]
         client = re.split(r"[₹$]|\s+\d|\s+(?:INR|USD|Rs\.?|EUR|GBP)\b", client)[0].strip(" ,;:-")
-        return {"law_firms": _split_firms_loose(firms_raw), "client": client or None,
+        return {"law_firms": _split_firms_loose(firms_raw, evidence), "client": client or None,
                 "transaction_types": txn}
     t = TRAILING_FIRM_CLAUSE.search(h)
     if t:
-        return {"law_firms": _split_firms_loose(t.group("firms")), "client": None,
+        return {"law_firms": _split_firms_loose(t.group("firms"), evidence), "client": None,
                 "transaction_types": txn}
     return {"law_firms": [], "client": None, "transaction_types": txn}
 
@@ -577,6 +605,24 @@ def _looks_like_firm_name(raw):
     return not any(w.lower() in _NOT_A_FIRM_WORDS for w in words)
 
 
+# A banker or registrar introduced the same way as a law firm ("Narnolia
+# Financial Services Limited acted as the Book Running Lead Manager") is not a
+# change of law firm; treating it as one wiped the firm and left the lawyers
+# named after it unattributed.
+_FINANCIAL_NAME_RE = re.compile(
+    r"\b(capital|securities|bank|financial|finance|merchant|markets|equities|investment|"
+    r"registrar|depository|trustee|credit|broking|brokers?)\b", re.I)
+_LEGAL_CUE_RE = re.compile(r"\b(legal|law|counsel|advis\w+|represent\w+|acted\s+for|acts\s+for)\b", re.I)
+
+
+def _is_legal_handover(paragraph, subject):
+    if _FINANCIAL_NAME_RE.search(subject):
+        return False
+    sentence = re.split(r"(?<=[a-z0-9\)])\.\s+(?=[A-Z])", paragraph.strip(), maxsplit=1)[0]
+    # "acted as the Book Running Lead Manager" has no legal cue; "advised" does
+    return bool(_LEGAL_CUE_RE.search(sentence[len(subject):]))
+
+
 def _is_firm_not_person(name):
     """A credited "name" that is really a firm: exact corpus match, opens with
     a corpus firm, or is the truncated front of one ("Duane Morris" for
@@ -725,7 +771,8 @@ def extract_people(paragraphs, fallback_firm, known_firms=()):
                 current_client = None
             m = FIRM_CONTEXT_RE.match(para.strip())
             if (m and not para.strip().lower().startswith("the firm")
-                    and _looks_like_firm_name(m.group(1).strip())):
+                    and _looks_like_firm_name(m.group(1).strip())
+                    and _is_legal_handover(para, m.group(1).strip())):
                 # This paragraph hands over to a firm we could not resolve. Carrying
                 # the previous firm forward is how TT&A's three lawyers ended up
                 # labelled JSA: a confident wrong answer, which is worse than none.

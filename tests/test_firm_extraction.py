@@ -23,6 +23,7 @@ sys.path.insert(0, str(ROOT / "scraper"))
 
 from bs4 import BeautifulSoup  # noqa: E402
 import scrape_barandbench as S  # noqa: E402
+import extraction as _ex  # noqa: E402
 
 FIXTURES = Path(__file__).parent / "fixtures"
 
@@ -120,6 +121,48 @@ CLIENTS = [
 ]
 
 
+# Whole-article cases (headline + body), for bugs that live in the headline split
+# or in the firm hand-over rather than in the credit extraction alone.
+LL_BASE = "https://www.livelaw.in/law-firms/deals/"
+WHOLE = [
+    # "Slaughter and May" was split at the "and" into "Slaughter" + a fake firm
+    # "May", whose presence made the real name ambiguous and left all five of
+    # its lawyers without a firm.
+    ("bb", "slaughter-and-may.html.gz",
+     "https://www.barandbench.com/law-firms/dealstreet/slaughter-and-may-eversheds-sutherland-khaitan-co-act-on-brahma-ai-150-million-fundraise",
+     "Slaughter and May, Eversheds Sutherland, Khaitan & Co act on Brahma AI $150 million fundraise",
+     {"Slaughter and May", "Eversheds Sutherland", "Khaitan & Co"}, {"David Griffith-Jones": "Slaughter and May"}),
+    # Legal Era / LiveLaw spell it "And"; it was split into two fake firms
+    ("ll", "lks-and-brenntag.html.gz",
+     LL_BASE + "lakshmikumaran-and-sridharan-attorneys-brenntag-group-raj-petro-specialities-296838",
+     "Lakshmikumaran And Sridharan Attorneys Advises Brenntag Group On Sale Of Raj Petro Specialities To Shell...",
+     {"Lakshmikumaran & Sridharan Attorneys"}, {"Srabonee Roy": "Lakshmikumaran & Sridharan Attorneys"}),
+    # the paragraph after the law firm's introduction names a banker
+    # ("acted as the Book Running Lead Manager"), which wiped the firm
+    ("ll", "singhania-banker.html.gz",
+     LL_BASE + "singhania-co-anondita-medicare-695-crore-sme-ipo-listing-law-firms-deal-update-303316",
+     "Singhania & Co. Advises Anondita Medicare On ₹69.5 Crore SME IPO Listing",
+     {"Singhania & Co"}, {"Rohit Jain": "Singhania & Co"}),
+    ("ll", "lks-toyota.html.gz",
+     LL_BASE + "lakshmikumaran-sridharan-attorneys-advises-toyota-group-acquisition-car-dealership-business-ravindu-motors-private-limited-310363",
+     "Lakshmikumaran & Sridharan Attorneys Advises Toyota Group On Acquisition Of Car Dealership Business From...",
+     {"Lakshmikumaran & Sridharan Attorneys"}, {"Srabonee Roy": "Lakshmikumaran & Sridharan Attorneys"}),
+]
+
+
+def whole_article(kind, fixture, url, headline):
+    html = gzip.open(FIXTURES / fixture, "rt", encoding="utf8").read()
+    if kind == "bb":
+        old, S.fetch = S.fetch, (lambda u: html)
+        try:
+            return S.parse_article(url, headline)
+        finally:
+            S.fetch = old
+    import news_source as ns
+    from scrape_livelaw import SOURCE as LL
+    return ns.parse_article(LL, url, html)
+
+
 def main():
     failures = []
     for fixture, want_firms, want_people in CASES:
@@ -144,6 +187,47 @@ def main():
             if got.get(name, "<missing>") != client:
                 failures.append(f"{fixture}: {name} client -> {got.get(name, '<missing>')!r}, expected {client!r}")
         print(f"  ok   per-firm clients {fixture}" if not [f for f in failures if f.startswith(fixture)] else f"  FAIL per-firm clients {fixture}")
+
+    for kind, fixture, url, headline, want_firms, want_people in WHOLE:
+        rec = whole_article(kind, fixture, url, headline)
+        before = len(failures)
+        if set(rec["law_firms"]) != want_firms:
+            failures.append(f"{fixture}: firms {rec['law_firms']}, expected {sorted(want_firms)}")
+        got = {p["name"]: p["firm"] for p in rec["people"]}
+        for name, firm in want_people.items():
+            if got.get(name) != firm:
+                failures.append(f"{fixture}: {name} -> {got.get(name)!r}, expected {firm!r}")
+        lost = [p["name"] for p in rec["people"] if not p["firm"]]
+        if lost:
+            failures.append(f"{fixture}: unattributed on a single-firm article: {lost[:4]}")
+        print(f"  {'ok  ' if len(failures) == before else 'FAIL'} whole article {fixture}")
+
+    # the generic rule, on a firm nobody has heard of
+    body_one = ["Quill and Quire Legal advised Acme on this transaction."]
+    got = _ex.split_firm_names("Quill and Quire Legal, Trilegal", body_one)
+    if got != ["Quill and Quire Legal", "Trilegal"]:
+        failures.append(f"unknown 'X and Y' firm not rejoined from the body: {got}")
+    # two firms that each get their own sentence stay two firms
+    body_two = ["Sidley Austin advised Acme.", "FBT Gibbons advised Acme."]
+    got = _ex.split_firm_names("Sidley Austin and FBT Gibbons", body_two)
+    if got != ["Sidley Austin", "FBT Gibbons"]:
+        failures.append(f"two separate firms were fused: {got}")
+    # no evidence at all: behaviour is unchanged (split)
+    if _ex.split_firm_names("Quill and Quire Legal") != ["Quill", "Quire Legal"]:
+        failures.append("splitting without evidence changed")
+    from build_directory import canonical_firm
+    for spellings, want in [
+        (["TLH Advocates", "TLH, Advocates & Solicitors"], "TLH Advocates & Solicitors"),
+        (["Vidhigya Associates", "Vidhigya Associates, Advocates"], "Vidhigya Associates"),
+        (["Chandhiok & Mahajan", "Chandiok & Mahajan"], "Chandhiok & Mahajan"),
+        (["Singhania & Co.", "S&Co."], "Singhania & Co"),
+        (["LKS", "Lakshmikumaran And Sridharan Attorneys", "Lakshmikumaran & Sridharan Attorneys"],
+         "Lakshmikumaran & Sridharan Attorneys"),
+    ]:
+        got = {canonical_firm(x) for x in spellings}
+        if got != {want}:
+            failures.append(f"spellings of one firm not folded together: {spellings} -> {got}")
+    print("  ok   generic 'and' rejoin" if not any("'X and Y'" in f or "fused" in f or "without evidence" in f for f in failures) else "  FAIL generic 'and' rejoin")
 
     if failures:
         print("\nFAILURES:")

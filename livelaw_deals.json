@@ -1382,14 +1382,12 @@
       {
         "name": "Palash Taing",
         "role": "Principal Associate",
-        "firm": "TLH Advocates & Solicitors",
-        "client": "Andhra Pradesh Industrial Infrastructure Corporation Ltd"
+        "firm": "TLH Advocates & Solicitors"
       },
       {
         "name": "Mayank Kumar",
         "role": "Senior Associate",
-        "firm": "TLH Advocates & Solicitors",
-        "client": "Andhra Pradesh Industrial Infrastructure Corporation Ltd"
+        "firm": "TLH Advocates & Solicitors"
       }
     ],
     "published_at": "2026-02-25T14:47:09+05:30",
@@ -1488,27 +1486,27 @@
       {
         "name": "Kunal Arora",
         "role": "Partner",
-        "firm": null
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
       },
       {
         "name": "Anupam Misra",
         "role": "Associate Partner",
-        "firm": null
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
       },
       {
         "name": "Mitushi Garg",
         "role": "Principal Associate",
-        "firm": null
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
       },
       {
         "name": "Jeevesh Jain",
         "role": "Associate",
-        "firm": null
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
       },
       {
         "name": "Satwik Mohapatra",
         "role": "Associate",
-        "firm": null
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
       }
     ],
     "published_at": "2025-11-24T22:32:29+05:30",
@@ -1533,87 +1531,87 @@
       {
         "name": "Srabonee Roy",
         "role": "Partner",
-        "firm": null
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
       },
       {
         "name": "Debanik Bid",
         "role": "Principal Associate",
-        "firm": null
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
       },
       {
         "name": "Sushmita Sharma",
         "role": "Associate",
-        "firm": null
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
       },
       {
         "name": "Mathanki Narayanan",
         "role": "Associate",
-        "firm": null
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
       },
       {
         "name": "Atrijo Banerjee",
         "role": "Associate",
-        "firm": null
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
       },
       {
         "name": "Neelambera Sandeepan",
         "role": "Partner",
-        "firm": null
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
       },
       {
         "name": "Charms Mathews",
         "role": "Senior Associate",
-        "firm": null
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
       },
       {
         "name": "Kunal Arora",
         "role": "Partner",
-        "firm": null
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
       },
       {
         "name": "Mitushi Garg",
         "role": "Senior Associate",
-        "firm": null
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
       },
       {
         "name": "Jeevesh Jain",
         "role": "Associate",
-        "firm": null
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
       },
       {
         "name": "Dinesh Babu Eedi",
         "role": "Partner",
-        "firm": null
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
       },
       {
         "name": "Parth Agrawal",
         "role": "Principal Associate",
-        "firm": null
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
       },
       {
         "name": "Guru Charan Anumula",
         "role": "Associate",
-        "firm": null
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
       },
       {
         "name": "Kumar Panda",
         "role": "Principal Associate",
-        "firm": null
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
       },
       {
         "name": "Alekhya Kanda",
         "role": "Senior Associate",
-        "firm": null
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
       },
       {
         "name": "Aishwarya Narasimhan",
         "role": "Associate",
-        "firm": null
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
       },
       {
         "name": "Netri Agrawal",
         "role": "Associate",
-        "firm": null
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
       }
     ],
     "published_at": "2025-11-18T17:31:23+05:30",
@@ -1687,7 +1685,19 @@
       {
         "name": "Rohit Jain",
         "role": "Managing Partner",
-        "firm": null
+        "firm": "Singhania & Co"
+      },
+      {
+        "name": "Nitish Mawkin",
+        "role": "Associate Partner",
+        "firm": "Singhania & Co",
+        "source": "ner"
+      },
+      {
+        "name": "Sagar Shrestha",
+        "role": "Senior Associate",
+        "firm": "Singhania & Co",
+        "source": "ner"
       }
     ],
     "published_at": "2025-09-13T18:03:48+05:30",
@@ -1747,12 +1757,24 @@
       {
         "name": "Atharv Gupta",
         "role": "Senior Associate",
-        "firm": null
+        "firm": "Singhania & Co"
       },
       {
         "name": "Rishev Andotra",
         "role": "Associate",
-        "firm": null
+        "firm": "Singhania & Co"
+      },
+      {
+        "name": "Kumar Shubham",
+        "role": "Principal Associate",
+        "firm": "Singhania & Co",
+        "source": "ner"
+      },
+      {
+        "name": "Archita Chaturvedi",
+        "role": "Associate",
+        "firm": "Singhania & Co",
+        "source": "ner"
       }
     ],
     "published_at": "2025-09-10T14:45:55+05:30",
@@ -1784,22 +1806,22 @@
       {
         "name": "Rohit Jain",
         "role": "Managing Partner",
-        "firm": null
+        "firm": "Singhania & Co"
       },
       {
         "name": "Diviay Chadha",
         "role": "Partner",
-        "firm": null
+        "firm": "Singhania & Co"
       },
       {
         "name": "Apoorva Kuthiala",
         "role": "Principal Associate",
-        "firm": null
+        "firm": "Singhania & Co"
       },
       {
         "name": "Utkarsh Gaba",
         "role": "Senior Associate",
-        "firm": null
+        "firm": "Singhania & Co"
       }
     ],
     "published_at": "2025-09-09T14:13:05+05:30",
@@ -1828,35 +1850,34 @@
     "url": "https://www.livelaw.in/law-firms/deals/lakshmikumaran-and-sridharan-attorneys-brenntag-group-raj-petro-specialities-296838",
     "snippet": "Lakshmikumaran and Sridharan Attorneys (LKS) advised and acted for the Brenntag group (“Brenntag”) in the sale of 100% of Raj Petro Specialities Private Limited (“Raj Petro”) to Shell group. A full-suit of legal services was provided by Lakshmikumaran & Sridharan Attorneys team, comprising chiefly of Srabonee Roy (Partner), Hima Swetha (Associate) and Annanya Elhence (Associate) from the M&A and Corporate team, and Neelambera Sandeepan (Partner) and Charms Matthew (Associate) from the Competitio",
     "law_firms": [
-      "Lakshmikumaran",
-      "Sridharan Attorneys"
+      "Lakshmikumaran & Sridharan Attorneys"
     ],
     "transaction_types": [],
     "people": [
       {
         "name": "Srabonee Roy",
         "role": "Partner",
-        "firm": null
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
       },
       {
         "name": "Hima Swetha",
         "role": "Associate",
-        "firm": null
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
       },
       {
         "name": "Annanya Elhence",
         "role": "Associate",
-        "firm": null
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
       },
       {
         "name": "Neelambera Sandeepan",
         "role": "Partner",
-        "firm": null
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
       },
       {
         "name": "Charms Matthew",
         "role": "Associate",
-        "firm": null
+        "firm": "Lakshmikumaran & Sridharan Attorneys"
       }
     ],
     "published_at": "2025-07-08T12:46:46+05:30",
@@ -1930,7 +1951,14 @@
     "transaction_types": [
       "investment"
     ],
-    "people": [],
+    "people": [
+      {
+        "name": "Nitish Mawkin",
+        "role": "Associate Partner",
+        "firm": "Singhania & Co",
+        "source": "ner"
+      }
+    ],
     "published_at": "2025-06-23T12:58:21+05:30",
     "keywords": [
       "Singhania & Co",
@@ -1983,7 +2011,20 @@
     "transaction_types": [
       "acquisition"
     ],
-    "people": [],
+    "people": [
+      {
+        "name": "Kumar Shubham",
+        "role": "Principal Associate",
+        "firm": "Singhania & Co",
+        "source": "ner"
+      },
+      {
+        "name": "Atharv Gupta",
+        "role": "Associate",
+        "firm": "Singhania & Co",
+        "source": "ner"
+      }
+    ],
     "published_at": "2025-05-28T10:45:29+05:30",
     "keywords": [
       "Singhania & Co",
@@ -2004,7 +2045,14 @@
     "transaction_types": [
       "Series A"
     ],
-    "people": [],
+    "people": [
+      {
+        "name": "Nitish Mawkin",
+        "role": "Associate Partner",
+        "firm": "Singhania & Co",
+        "source": "ner"
+      }
+    ],
     "published_at": "2025-05-13T09:26:33+05:30",
     "keywords": [
       "Singhania & Co",
@@ -2097,7 +2145,37 @@
       {
         "name": "Amit Bansal",
         "role": "Partner",
-        "firm": null
+        "firm": "Singhania & Co"
+      },
+      {
+        "name": "Nitish Mawkin",
+        "role": "Associate Partner",
+        "firm": "Singhania & Co",
+        "source": "ner"
+      },
+      {
+        "name": "Chaishta Channan",
+        "role": "Associate",
+        "firm": "Singhania & Co",
+        "source": "ner"
+      },
+      {
+        "name": "Ambuja Jain",
+        "role": "Associate",
+        "firm": "Singhania & Co",
+        "source": "ner"
+      },
+      {
+        "name": "Shivangi Sharma",
+        "role": "Associate",
+        "firm": "Singhania & Co",
+        "source": "ner"
+      },
+      {
+        "name": "Garima Goel",
+        "role": "Associate",
+        "firm": "Singhania & Co",
+        "source": "ner"
       }
     ],
     "published_at": "2025-04-29T21:52:00+05:30",
@@ -2156,7 +2234,32 @@
       "Singhania & Co"
     ],
     "transaction_types": [],
-    "people": [],
+    "people": [
+      {
+        "name": "Nitish Mawkin",
+        "role": "Associate Partner",
+        "firm": "Singhania & Co",
+        "source": "ner"
+      },
+      {
+        "name": "Chaishta Channan",
+        "role": "Associate",
+        "firm": "Singhania & Co",
+        "source": "ner"
+      },
+      {
+        "name": "Shivangi Sharma",
+        "role": "Associate",
+        "firm": "Singhania & Co",
+        "source": "ner"
+      },
+      {
+        "name": "Garima Goel",
+        "role": "Associate",
+        "firm": "Singhania & Co",
+        "source": "ner"
+      }
+    ],
     "published_at": "2025-04-22T10:44:39+05:30",
     "keywords": [
       "Singhania & Co",
