@@ -315,6 +315,59 @@ check("merge unions people, fills a missing firm, keeps one row per person",
 check("source labels are normalised (richer record is primary, both labelled)",
       {m[0]["source"], m[0]["also_reported_by"][0]["source"]} == {"Bar & Bench", "Legal Era"})
 
+# ------------------------------------------- same team, headlines written apart
+# Bar & Bench and Legal Era write the same press release under unrelated
+# headlines, and sometimes quote different figures (the whole round vs one
+# investor's slice). The credited team and the issuer's name are the evidence.
+print("same team across outlets")
+TEAM = [(f"Lawyer{chr(65 + i)} Khan", "Khaitan & Co") for i in range(10)]
+bb = rec("Slaughter and May, Eversheds Sutherland, Khaitan & Co act on Brahma AI $150 million fundraise",
+         BB + "brahma", ["Slaughter and May", "Eversheds Sutherland", "Khaitan & Co"], "Bar & Bench",
+         "Brahma AI has raised $150 million, with a $100 million investment by Multiples Alternate Asset Management.",
+         TEAM, value={"amount_inr": 13_200_000_000, "source": "headline"}, published_at="2026-10-20")
+le = rec("Khaitan & Co Advised Multiples Private Equity On USD 100 Million Investment In Brahma AI",
+         LE + "brahma-1", ["Khaitan & Co"], "Legal Era",
+         "Khaitan & Co advised Multiples on its aggregate USD 100 million investment in Brahma AI Holdings.",
+         TEAM, value={"amount_inr": 8_800_000_000, "source": "headline"}, published_at="2026-10-30")
+check("one round reported as total and as one investor's slice is one deal (Brahma AI)",
+      n_after([bb, le]) == 1)
+
+other = dict(bb, snippet="Brahma AI has raised $150 million from several investors.")
+check("...but a different figure that the other side does NOT state is still a veto",
+      n_after([other, le]) == 2)
+
+bkt = rec("Khaitan & Co advises as BKT Tyres wheels in Pirelli to India", BB + "bkt", ["Khaitan & Co"],
+          "Bar & Bench", "", TEAM[:8], published_at="2026-10-10")
+bki = rec("Khaitan & Co Advised Balkrishna Industries Limited On Strategic Partnership With Pirelli",
+          LE + "bki-2", ["Khaitan & Co"], "Legal Era", "", TEAM[:8], published_at="2026-10-12")
+check("a near-identical team merges despite the issuer being named two ways (BKT / Balkrishna)",
+      n_after([bkt, bki]) == 1)
+
+# Consecutive deals for one group by one team must NOT merge: this is the
+# false positive the first version of the rule produced.
+ACME = [(f"Partner{chr(65 + i)} Rao", "Cyril Amarchand Mangaldas") for i in range(10)]
+ent = rec("Cyril Amarchand Mangaldas acts on Adani Enterprises ₹25,000 crore QIP", BB + "adani-ent",
+          ["Cyril Amarchand Mangaldas"], "Bar & Bench", "Adani Enterprises has raised funds via a QIP.",
+          ACME, published_at="2026-10-01")
+nrg = rec("Cyril Amarchand Mangaldas acts on Adani Energy Solutions ₹3,500 crore QIP", BB + "adani-nrg",
+          ["Cyril Amarchand Mangaldas"], "Bar & Bench", "Adani Energy Solutions has raised funds via a QIP.",
+          ACME[:7] + [(f"Other{i} Mehta", "Cyril Amarchand Mangaldas") for i in range(5)],
+          published_at="2026-10-03")
+check("the same team on two Adani group companies' deals stays two deals",
+      n_after([ent, nrg]) == 2)
+
+amb1 = rec("Cyril Amarchand Mangaldas cements Ambuja - ACC merger", BB + "amb-acc",
+           ["Cyril Amarchand Mangaldas"], "Bar & Bench", "", ACME, published_at="2026-10-01")
+amb2 = rec("Cyril Amarchand Mangaldas acts on Ambuja Cements - Orient Cement merger", BB + "amb-orient",
+           ["Cyril Amarchand Mangaldas"], "Bar & Bench", "", ACME[:6] + [(f"Z{i} Iyer", "Cyril Amarchand Mangaldas") for i in range(6)],
+           published_at="2026-10-05")
+check("Ambuja-ACC and Ambuja-Orient (same team, different target) stay two deals",
+      n_after([amb1, amb2]) == 2)
+
+few = rec("Khaitan & Co advises Foo on Bar Series B", BB + "few-1", ["Khaitan & Co"], "Bar & Bench", "", TEAM[:4])
+few2 = rec("Khaitan & Co Advised Foo Holdings On A Different Matter", LE + "few-2", ["Khaitan & Co"], "Legal Era", "", TEAM[:4])
+check("four shared lawyers are not enough on their own", n_after([few, few2]) == 2)
+
 # ---------------------------------------------------------- real-corpus gate
 print("real corpus")
 recs = json.loads((ROOT / "structured_deals.json").read_text()) \

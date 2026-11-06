@@ -50,6 +50,21 @@ PEOPLE_SHARED_MIN = 3
 NESTED_SAME_COUNSEL_MIN = 3   # shared firm, one headline nested in the other, same deal type
 NESTED_ENTITIES_MIN = 5       # no shared firm, one headline nested in the other
 PEOPLE_JACCARD_MIN = 0.6
+# Same named deal team across outlets. Headlines are written in very different
+# styles ("CAM, TT&A, JSA act on AceVector ₹420 crore IPO" vs "Cyril Amarchand
+# Mangaldas Acted As The Indian Legal Counsel To AceVector Limited On Its ..."),
+# so headline similarity is the wrong gate for press-release copies; the
+# credited team is the stronger signal. Three things must agree: a shared firm,
+# a shared lawyer team, and a distinctive issuer name. A large firm's partners
+# recur across unrelated deals, so the team size alone is never enough.
+TEAM_SHARED_MIN = 5
+TEAM_JACCARD_MIN = 0.35       # with ONE distinctive shared headline word
+TEAM_RARE_ALONE_MIN = 2       # ...or this many, whatever the team overlap
+# A team this close to identical is the same deal even when the headlines name
+# different entities ("BKT Tyres" / "Balkrishna Industries"). Measured: the
+# consecutive-deals-for-one-group pairs that must stay apart overlap at most 0.52
+# (Adani Enterprises vs Adani Energy Solutions); the genuine duplicates at 0.78+.
+TEAM_NEAR_IDENTICAL = 0.75
 VALUE_TOLERANCE = 0.15        # same deal quoted in INR vs USD at different rates
 # Measured, not guessed: once publication dates existed for 98% of records, the
 # merged pairs' gaps were 0-9 days for most and up to 72 days for outlets that
@@ -81,6 +96,7 @@ also along alongside together jointly both said
 availing avail availed securing secure secured providing provides provided
 sanctioning sanctioned obtaining obtain obtained setting up
 india indian indias
+bar bench
 """.split())
 # deal-shape words that carry no identity: two different deals share them
 _GENERIC = set("""
@@ -198,12 +214,21 @@ def _lede(record):
     return record.get("snippet") or ""
 
 
+def _amounts_in(text):
+    out = set()
+    for m in MONEY_RE.finditer(text or ""):
+        hit = parse_money(m.group(0))
+        if hit and hit.get("amount_inr"):
+            out.add(hit["amount_inr"])
+    return out
+
+
 # ---- per-record features ---------------------------------------------------
 class Features:
     __slots__ = (
         "rec", "idx", "url", "host", "slug", "firms", "firms_soft", "firm_words", "head_norm",
         "tokens", "rare", "core", "marks", "types", "lede_norm", "lede_shingles", "people",
-        "value_inr", "date", "personnel", "label", "n_people",
+        "value_inr", "date", "personnel", "label", "n_people", "amounts",
     )
 
 
@@ -266,11 +291,19 @@ def build_features(records, is_personnel_move):
             hit = parse_money(headline)
             inr = hit["amount_inr"] if hit else None
         f.value_inr = inr
+        # every money figure the headline or opening text states, so a headline
+        # that quotes one investor's slice can be matched to the total round
+        f.amounts = _amounts_in(headline + " " + (r.get("snippet") or ""))
         f.date = _parse_date(r.get("published_at"))
         f.personnel = bool(is_personnel_move(headline) and not r.get("client"))
         f.label = source_label(r)
         f.marks = _marks(headline)
         f.types = {k for k, rx in _TYPE_CLASSES.items() if rx.search(_clean(headline))}
+        if not f.types:
+            # a headline cut off at "..." names no deal type; the opening text
+            # does ("Adani Enterprises ... " is a QIP, its sibling an NCD issue)
+            f.types = {k for k, rx in _TYPE_CLASSES.items()
+                       if rx.search(_clean((r.get("snippet") or "")[:250]))}
         f.tokens = None  # filled once corpus frequencies are known
         f.rare = None
         f.core = None
@@ -310,6 +343,19 @@ def _value_conflict(a, b):
         return False
     hi, lo = max(a.value_inr, b.value_inr), min(a.value_inr, b.value_inr)
     return (hi - lo) / hi > VALUE_TOLERANCE
+
+
+def _component_of_total(a, b):
+    """The smaller headline figure is stated in the larger deal's own text:
+    "$150 million fundraise ... with a $100 million investment by Multiples"
+    and "Multiples ... USD 100 Million Investment". One outlet reports the whole
+    round, the other one investor's slice, so the figures disagree without the
+    deals being different. Needs the exact figure, within 1%, on the other
+    side; a mere "smaller number" is not evidence."""
+    if not a.value_inr or not b.value_inr:
+        return False
+    small, big = (a, b) if a.value_inr < b.value_inr else (b, a)
+    return any(abs(x - small.value_inr) / small.value_inr <= 0.01 for x in big.amounts)
 
 
 _PROPOSED_RE = re.compile(r"\bproposed\b|\bdrhp\b")
@@ -363,11 +409,17 @@ def compare(a, b):
 
     gap = _date_gap(a, b)
     detail["date_gap_days"] = gap
+    component = False
     if _value_conflict(a, b):
         if _ipo_stage_twins(a, b):
             return "ipo-draft-then-final", detail
-        detail["veto"] = "value-conflict"
-        return None, detail
+        if _component_of_total(a, b):
+            # not a veto, but not enough alone either: only the same-team rule
+            # below may merge such a pair
+            component = True
+        else:
+            detail["veto"] = "value-conflict"
+            return None, detail
 
     if a.marks and b.marks and (a.marks - b.marks) and (b.marks - a.marks):
         detail["veto"] = "mark-mismatch"
@@ -389,6 +441,8 @@ def compare(a, b):
 
     if a.personnel or b.personnel:
         return None, detail
+    if component:
+        detail["component_of_total"] = True
 
     # --- SOFT: different articles, same deal --------------------------------
     if types_disjoint:
@@ -420,8 +474,32 @@ def compare(a, b):
     # fully nested: one headline's identity tokens are all inside the other's
     nested = bool(shared_rare) and (not a_only or not b_only)
 
+    if (entity_clash and shared_firms and shared_rare
+            and len(shared_people) >= TEAM_SHARED_MIN and people_jacc >= TEAM_NEAR_IDENTICAL):
+        return "same-team-near-identical", detail
+
     if entity_clash:
         detail["veto"] = "entity-clash"
+        return None, detail
+
+    # Same lawyers, same firm, same issuer name. Deliberately AFTER the entity
+    # clash veto: one team often does consecutive deals for one group (Adani
+    # Enterprises then Adani Energy Solutions, Ambuja-ACC then Ambuja-Orient),
+    # and the differing target names are the only thing telling them apart.
+    if shared_firms and len(shared_people) >= TEAM_SHARED_MIN:
+        equal_value = bool(a.value_inr and b.value_inr and not _value_conflict(a, b))
+        # Two names that each carry a word the other lacks (ACC / Orient) are
+        # two targets: the same team doing consecutive deals for one group.
+        # Either one headline's identity words sit inside the other's, or the
+        # stated values agree.
+        same_entities = not a_only or not b_only
+        if (same_entities or equal_value) and (
+                len(shared_rare) >= TEAM_RARE_ALONE_MIN
+                or (shared_rare or equal_value) and people_jacc >= TEAM_JACCARD_MIN
+                or (component and shared_rare and people_jacc >= TEAM_JACCARD_MIN)):
+            return "same-team-same-issuer", detail
+    if component:
+        detail["veto"] = "value-conflict"
         return None, detail
 
     if not shared_firms:
