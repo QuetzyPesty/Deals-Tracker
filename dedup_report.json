@@ -1,18 +1,18 @@
 {
-  "input_records": 866,
-  "output_records": 787,
-  "removed_duplicates": 79,
+  "input_records": 871,
+  "output_records": 790,
+  "removed_duplicates": 81,
   "merges_by_rule": {
     "same-url": 1,
     "headline-entities": 8,
     "same-slug": 4,
     "nested-same-type": 9,
-    "same-core-headline": 7,
+    "same-core-headline": 8,
     "ipo-draft-then-final": 2,
     "same-team-same-issuer": 39,
     "same-team-and-entities": 3,
     "same-headline": 2,
-    "same-team-near-identical": 4,
+    "same-team-near-identical": 5,
     "copied-text": 3,
     "nested-entities": 1
   },
@@ -814,6 +814,23 @@
     {
       "kept": {
         "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-novojuris-legal-act-on-giva-100-million-series-d-fundraise",
+        "headline": "Khaitan & Co, NovoJuris Legal act on Giva $100 million Series D fundraise"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/khaitan-and-co-advised-giva-usd-100-million-series-d-fundraise-991388",
+          "headline": "Khaitan & Co Advised Giva On Its USD 100 Million Series D Fundraise",
+          "rules": [
+            "same-core-headline"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
         "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-trilegal-act-on-inox-clean-energy-10000-crore-proposed-ipo",
         "headline": "Khaitan & Co, Trilegal act on Inox Clean Energy ₹10,000 crore proposed IPO"
       },
@@ -994,6 +1011,23 @@
           "headline": "Khaitan & Co Advised Multiples Private Equity On USD 100 Million Investment In Brahma AI",
           "rules": [
             "same-team-same-issuer"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-establishment-of-dedicated-separately-managed-account-for-sumitomo-mitsui-trust-bank",
+        "headline": "Trilegal acts on establishment of  dedicated separately managed account for Sumitomo Mitsui Trust Bank"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-one-planet-partners-sumitomo-mitsui-trust-bank-separately-managed-account-991379",
+          "headline": "Trilegal Advised One Planet Partners On Establishment Of Dedicated Separately Managed Account For...",
+          "rules": [
+            "same-team-near-identical"
           ]
         }
       ]

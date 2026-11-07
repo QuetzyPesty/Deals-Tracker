@@ -25469,5 +25469,325 @@
         "firm": "M. T. Miskita & Co"
       }
     ]
+  },
+  {
+    "headline": "Shardul Amarchand Mangaldas acts on acquisition of Pathways School Gurgaon by Lighthouse Learning",
+    "client": "acquisition of Pathways School Gurgaon by Lighthouse Learning",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-07T07:00:00Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-acts-on-acquisition-of-pathways-school-gurgaon-by-lighthouse-learning",
+    "snippet": "PRJ Ventures Private Limited, operating the Pathways School Gurgaon (now PSG-Clifton International School), has sold off 100% of the company's issued and paid-up equity share capital to Lighthouse Learning Private Limited. Shardul Amarchand Mangaldas & Co advised PRJ Ventures and its shareholders on this transaction. The transaction was led by Sadia Khan (Partner), with support from Ankit Goel (Counsel) and Talin Bhardwaj (Associate). The due diligence team was led by Khan, along with Ankit Goel",
+    "law_firms": [
+      "Shardul Amarchand Mangaldas & Co"
+    ],
+    "transaction_types": [
+      "acquisition"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Sadia Khan",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Ankit Goel",
+        "role": "Counsel",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Talin Bhardwaj",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Shaurya Jakher",
+        "role": "Senior Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Priscilla V",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      }
+    ]
+  },
+  {
+    "headline": "Ikigai Law, GameChanger Law Advisors, Khaitan & Co act on Venomics AI pre-seed fundraise",
+    "client": "Venomics AI pre-seed fundraise",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-07T06:24:17Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/ikigai-law-gamechanger-law-advisors-khaitan-co-act-on-venomics-ai-pre-seed-fundraise",
+    "snippet": "Venomics AI Private Limited has raised $2.7 million from a pre-seed fundraise led by Speciale Invest and South Park Commons, with participation from Operators Studio. Ikigai Law advised Venomics AI on this fundraise. GameChanger Law Advisors advised lead investor Speciale Invest on this fundraise. The transaction was led by Samheeta Rao (Senior Partner). Khaitan & Co advised lead investor South Park Commons on this fundraise. Venomics AI integrates venom biology, artificial intelligence and expe",
+    "law_firms": [
+      "Ikigai Law",
+      "GameChanger Law Advisors",
+      "Khaitan & Co"
+    ],
+    "transaction_types": [
+      "fundraise"
+    ],
+    "deal_value": {
+      "raw": "$2.7 million",
+      "currency": "USD",
+      "amount": 2700000,
+      "amount_inr": 237600000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "body"
+    },
+    "people": [
+      {
+        "name": "Samheeta Rao",
+        "role": "Senior Partner",
+        "firm": "GameChanger Law Advisors"
+      }
+    ]
+  },
+  {
+    "headline": "Khaitan & Co, NovoJuris Legal act on Giva $100 million Series D fundraise",
+    "client": "Giva",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-07T05:11:15Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-novojuris-legal-act-on-giva-100-million-series-d-fundraise",
+    "snippet": "Indiejewel Fashions Private Limited, dba Giva, has raised $100 million from a Series D fundraise led by Multiples, through a combination of primary and secondary. Existing investors Edelweiss, and Epiq also participated in the round. Khaitan & Co advised Giva on this fundraise. The Firm assisted Giva in drafting, review, negotiation, finalisation and execution of the transaction documents, and closing of the transaction. The core team consisted of Nidhi Killawala (Partner), Anupama Singh (Princi",
+    "law_firms": [
+      "Khaitan & Co",
+      "NovoJuris Legal"
+    ],
+    "transaction_types": [
+      "Series D",
+      "fundraise"
+    ],
+    "deal_value": {
+      "raw": "$100 million",
+      "currency": "USD",
+      "amount": 100000000,
+      "amount_inr": 8800000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Nidhi Killawala",
+        "role": "Partner",
+        "firm": "Khaitan & Co",
+        "client": "Giva"
+      },
+      {
+        "name": "Anupama Singh",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co",
+        "client": "Giva"
+      },
+      {
+        "name": "Aiyushi Sahani",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co",
+        "client": "Giva"
+      },
+      {
+        "name": "Sakshi Garg",
+        "role": "Associate",
+        "firm": "Khaitan & Co",
+        "client": "Giva"
+      },
+      {
+        "name": "Somanshu Shukla",
+        "role": "Associate",
+        "firm": "Khaitan & Co",
+        "client": "Giva"
+      },
+      {
+        "name": "Atul Pandey",
+        "role": "Partner",
+        "firm": "Khaitan & Co",
+        "client": "Giva"
+      },
+      {
+        "name": "Hirak Mukhopadhyay",
+        "role": "Partner",
+        "firm": "Khaitan & Co",
+        "client": "Giva"
+      },
+      {
+        "name": "Shruti Gupta",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co",
+        "client": "Giva"
+      },
+      {
+        "name": "Joseph Mario Ritvik",
+        "role": "Senior Associate",
+        "firm": "NovoJuris Legal",
+        "client": "India Quotient"
+      },
+      {
+        "name": "Nitin Thomas",
+        "role": "Associate",
+        "firm": "NovoJuris Legal",
+        "client": "India Quotient"
+      },
+      {
+        "name": "Manish Krishnagiri",
+        "role": "Associate",
+        "firm": "NovoJuris Legal",
+        "client": "India Quotient"
+      }
+    ]
+  },
+  {
+    "headline": "Trilegal acts on establishment of  dedicated separately managed account for Sumitomo Mitsui Trust Bank",
+    "client": "establishment of  dedicated separately managed account for Sumitomo Mitsui Trust Bank",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-07T05:10:19Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-establishment-of-dedicated-separately-managed-account-for-sumitomo-mitsui-trust-bank",
+    "snippet": "Trilegal advised One Planet Partners in relation to the establishment of a dedicated Separately Managed Account (SMA) for Sumitomo Mitsui Trust Bank, Japan (SMTB), to be managed by One Planet Partners. Trilegal acted as transaction counsel, undertaking drafting of all necessary fund documents, negotiations and closing. The transaction was led by Pallabi Ghosal (Partner) and Ananya Sonthalia (Partner), with support from Saad Khan (Senior Associate), Associates Monika Saxena, Tejas Kandalgaonkar, ",
+    "law_firms": [
+      "Trilegal"
+    ],
+    "transaction_types": [],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Pallabi Ghosal",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Ananya Sonthalia",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Saad Khan",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Monika Saxena",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Tejas Kandalgaonkar",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Suhani Gadhve",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Santoshi Shritha Pyda",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Praneeth Sricharan",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Ashima Joshi",
+        "role": "Associate",
+        "firm": "Trilegal"
+      }
+    ]
+  },
+  {
+    "headline": "Shardul Amarchand Mangaldas, Cyril Amarchand Mangaldas, Linklaters act on Edelweiss Alternatives ₹1,200 crore IPO",
+    "client": "Edelweiss Alternatives",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-07T05:09:29Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-cyril-amarchand-mangaldas-act-on-edelweiss-alternatives-1200-crore-ipo",
+    "snippet": "EAAA India Alternatives Limited has made an initial public offering of equity shares comprised an offer for sale of 7,207,207 equity shares aggregating to ₹1,200 crore. Shardul Amarchand Mangaldas & Co acted as the legal counsel to EAAA India Alternative and its promoters, Edelweiss Securities and Investments Private Limited and Edelweiss Financial Services Limited, on this IPO. The transaction team consisted of Nikhil Naredi (Partner), Harsh Loonker (Principal Associate), Rakshita Poddar (Senio",
+    "law_firms": [
+      "Shardul Amarchand Mangaldas & Co",
+      "Cyril Amarchand Mangaldas",
+      "Linklaters"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "deal_value": {
+      "raw": "₹1,200 crore",
+      "currency": "INR",
+      "amount": 12000000000,
+      "amount_inr": 12000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Nikhil Naredi",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Harsh Loonker",
+        "role": "Principal Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Rakshita Poddar",
+        "role": "Senior Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Najeeb Din",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Thejaswi Melarkode",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Devaki Mankad",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Tanushri More",
+        "role": "Principal Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Esha Gupta",
+        "role": "Senior Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Gaurav Lalwani",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Khushi Parekh",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Maushmi Wagle",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Tanvi Agarwal",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Yash J. Ashar",
+        "role": "Senior Partner",
+        "firm": "Cyril Amarchand Mangaldas",
+        "source": "ner"
+      }
+    ]
   }
 ]
