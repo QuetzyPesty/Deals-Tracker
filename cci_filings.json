@@ -5,7 +5,7 @@
   "kind": "Green Channel Notices",
   "form": "I",
   "parties": "Asia Initiatives 2 Pte. Ltd.",
-  "notified": "2026-11-30",
+  "notified": "2026-10-30",
   "decided": null,
   "status": "Deemed Approved (Section 6(5))",
   "summary_url": "https://www.cci.gov.in/combination/order/details/summary/1827/0/orders-section31",
@@ -21,6 +21,18 @@
   "decided": null,
   "status": "Deemed Approved (Section 6(5))",
   "summary_url": "https://www.cci.gov.in/combination/order/details/summary/1821/0/orders-section31",
+  "order_url": null
+ },
+ {
+  "combination_no": "C-2026/09/1477",
+  "cci_id": "1818",
+  "kind": "Under Section 31",
+  "form": "I",
+  "parties": "Rasmalai Limited",
+  "notified": "2026-09-29",
+  "decided": null,
+  "status": "Approved",
+  "summary_url": "https://www.cci.gov.in/combination/order/details/summary/1818/0/orders-section31",
   "order_url": null
  },
  {
@@ -141,7 +153,7 @@
   "decided": "2026-10-06",
   "status": "Approved",
   "summary_url": "https://www.cci.gov.in/combination/order/details/summary/1798/0/orders-section31",
-  "order_url": null
+  "order_url": "https://www.cci.gov.in/combination/order/details/order/1798/0/orders-section31"
  },
  {
   "combination_no": "C-2026/08/1457",
@@ -297,7 +309,7 @@
   "decided": "2026-09-17",
   "status": "Approved",
   "summary_url": "https://www.cci.gov.in/combination/order/details/summary/1783/0/orders-section31",
-  "order_url": null
+  "order_url": "https://www.cci.gov.in/combination/order/details/order/1783/1/orders-section31"
  },
  {
   "combination_no": "C-2026/07/1443",
@@ -405,7 +417,7 @@
   "decided": "2026-09-29",
   "status": "Approved",
   "summary_url": "https://www.cci.gov.in/combination/order/details/summary/1769/0/orders-section31",
-  "order_url": null
+  "order_url": "https://www.cci.gov.in/combination/order/details/order/1769/0/orders-section31"
  },
  {
   "combination_no": "C-2026/06/1434",

@@ -25801,5 +25801,281 @@
     "transaction_types": [],
     "deal_value": null,
     "people": []
+  },
+  {
+    "headline": "King Stubb & Kasiva advises Prestige Group on ₹524 crore acquisition of Allure Developers",
+    "client": "Prestige Group",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-11T05:44:10Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/king-stubb-kasiva-advises-prestige-group-on-524-crore-acquisition-of-allure-developers",
+    "snippet": "Prestige Estates Projects Limited has acquired 100% of the equity share capital of Allure Developers Private Limited for a consideration of approximately ₹524 crore. King Stubb & Kasiva advised Prestige Group on this acquisition. The Firm advised on all aspects of the transaction, including title and corporate due diligence on Allure and the project land, structuring of the acquisition, and the drafting and negotiation of the share purchase agreement and related transaction documents. The transa",
+    "law_firms": [
+      "King Stubb & Kasiva"
+    ],
+    "transaction_types": [
+      "acquisition"
+    ],
+    "deal_value": {
+      "raw": "₹524 crore",
+      "currency": "INR",
+      "amount": 5240000000,
+      "amount_inr": 5240000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Adnan Siddiqui",
+        "role": "Partner",
+        "firm": "King Stubb & Kasiva"
+      },
+      {
+        "name": "Surbhi Kapoor",
+        "role": "Partner",
+        "firm": "King Stubb & Kasiva"
+      }
+    ]
+  },
+  {
+    "headline": "CMS INDUSLAW advises Focus Prime on securing ₹145 crore investment; acquiring Foodexo Chennai",
+    "client": "Focus Prime",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-11T05:43:42Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/cms-induslaw-advises-focus-prime-on-securing-145-crore-investment-acquiring-foodexo-chennai",
+    "snippet": "Focus Prism Private Limited has secured a ₹145 crore investment from OAKS Asset Management, and has simultaneously acquired Foodexo Chennai Private Limited. CMS INDUSLAW advised Focus Prism and its promoter on both the transactions. The transaction team consisted of Rashi Bharadwaj (Partner), Shivani Singh (Principal Associate) and Rusha Ghosh Dastidar (Senior Associate), with Avimukt Dar (Founding Partner) providing strategic inputs. The corporate secretarial team comprised Ruhi Jain (Executive",
+    "law_firms": [
+      "CMS INDUSLAW"
+    ],
+    "transaction_types": [
+      "investment"
+    ],
+    "deal_value": {
+      "raw": "₹145 crore",
+      "currency": "INR",
+      "amount": 1450000000,
+      "amount_inr": 1450000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Rashi Bharadwaj",
+        "role": "Partner",
+        "firm": "CMS INDUSLAW"
+      },
+      {
+        "name": "Shivani Singh",
+        "role": "Principal Associate",
+        "firm": "CMS INDUSLAW"
+      },
+      {
+        "name": "Rusha Ghosh Dastidar",
+        "role": "Senior Associate",
+        "firm": "CMS INDUSLAW"
+      }
+    ]
+  },
+  {
+    "headline": "JSA acts on Two Point O Capital Series A fundraise",
+    "client": "Two Point O Capital Series A fundraise",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-11T05:43:12Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-two-point-o-capital-series-a-fundraise",
+    "snippet": "Two Point O Capital has raised $10 million from a Series A fundraise led by Transition Venture Capital Fund I, with participation from existing investor Omnivore Agritech & Climate Sustainability Fund 3, among others. JSA Advocates and Solicitors advised Two Point O Capital on this fundraise. The transaction was led by Nidhi Khadria (Partner), with support from Alby Joseph (Principal Associate) and Kishan B Nair (Junior Associate). If you would like your Deals, Columns, Press Releases to be publ",
+    "law_firms": [
+      "JSA Advocates & Solicitors"
+    ],
+    "transaction_types": [
+      "Series A",
+      "fundraise"
+    ],
+    "deal_value": {
+      "raw": "$10 million",
+      "currency": "USD",
+      "amount": 10000000,
+      "amount_inr": 880000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "body"
+    },
+    "people": [
+      {
+        "name": "Nidhi Khadria",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Alby Joseph",
+        "role": "Principal Associate",
+        "firm": "JSA Advocates & Solicitors"
+      }
+    ]
+  },
+  {
+    "headline": "Touchstone Partners advises Tencent on exit from Swiggy",
+    "client": "Tencent",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-10T08:40:45Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/touchstone-partners-advises-tencent-on-exit-from-swiggy",
+    "snippet": "Tencent Holdings has made an exit from Swiggy Limited by a block trade of its entire shareholding of 54.3 million shares for approx. $104 million. Touchstone Partners advised Tencent on this block trade. The transaction was led by Sameeksha Chowla (Partner) and Mahak Goyal (Associate). Karam Daulet-Singh (Managing Partner) provided support. If you would like your Deals, Columns, Press Releases to be published on Bar & Bench, please fill in the form available here . Follow Us Copyright © 2021 Bar",
+    "law_firms": [
+      "Touchstone Partners"
+    ],
+    "transaction_types": [],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Sameeksha Chowla",
+        "role": "Partner",
+        "firm": "Touchstone Partners",
+        "client": "Tencent"
+      },
+      {
+        "name": "Mahak Goyal",
+        "role": "Associate",
+        "firm": "Touchstone Partners",
+        "client": "Tencent"
+      },
+      {
+        "name": "Karam Daulet-Singh",
+        "role": "Managing Partner",
+        "firm": "Touchstone Partners",
+        "client": "Tencent"
+      }
+    ]
+  },
+  {
+    "headline": "Legacy Law Offices acts on HGS India IPO",
+    "client": "HGS India IPO",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-10T08:40:05Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-hgs-india-ipo",
+    "snippet": "HGS (India) Limited has successfully completed its Initial Public Offering on the NSE SME platform for a book-built offer for a fresh issue of 23,26,000 shares, and an offer for sale of 5,54,000 shares, with an offer size of approximately ₹35 crore. Legacy Law Offices advised and acted as the legal counsel for HGS India, the Book Running Lead Manager Hem Securities Limited, and the Selling Shareholders (Pawan Singh, Anjali Singh, Beena Dosija, Karan Singh, Preneet Kaur, Anil Seth, Archna Dosija,",
+    "law_firms": [
+      "Legacy Law Offices"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "deal_value": {
+      "raw": "approximately ₹35 crore",
+      "currency": "INR",
+      "amount": 350000000,
+      "amount_inr": 350000000,
+      "approx": true,
+      "fx_asof": null,
+      "source": "body"
+    },
+    "people": [
+      {
+        "name": "Priya Kataria",
+        "role": "Associate Partner",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Naman Anand",
+        "role": "Counsel",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Meghna Shukla",
+        "role": "Associate",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Pavitra Balgi",
+        "role": "Associate",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Surbhi Narang",
+        "role": "Partner",
+        "firm": "Legacy Law Offices"
+      },
+      {
+        "name": "Amarendra Gogoi",
+        "role": "Partner",
+        "firm": "Legacy Law Offices"
+      }
+    ]
+  },
+  {
+    "headline": "Kochhar & Co advises Sarda Mines on sale of its dairy business",
+    "client": "Sarda Mines",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-10T08:30:00Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/kochhar-co-advises-sarda-mines-on-sale-of-its-dairy-business",
+    "snippet": "Sarda Mines Private Limited has sold and transferred its dairy business undertaking to Kalkaji Food Processing Private Limited, as a going concern on a slump sale basis, pursuant to a Business Transfer Agreement. Kochhar & Co advised Sarda Mines on the legal structuring, negotiation and documentation of the transaction. The Firm’s mandate encompassed drafting, reviewing, negotiating and finalising the BTA and ancillary transaction documents, advising on the applicable legal and regulatory aspect",
+    "law_firms": [
+      "Kochhar & Co"
+    ],
+    "transaction_types": [],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Deepanshi Trivedi",
+        "role": "Senior Associate",
+        "firm": "Kochhar & Co",
+        "client": "Sarda Mines"
+      },
+      {
+        "name": "Anshu Gupta",
+        "role": "Associate",
+        "firm": "Kochhar & Co",
+        "client": "Sarda Mines"
+      }
+    ]
+  },
+  {
+    "headline": "Desai & Diwanji, Fox & Mandal act on Bombay Coated & Special Steels ₹185 crore IPO",
+    "client": "Bombay Coated & Special Steels",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-10T08:29:22Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/desai-diwanji-fox-mandal-bombay-coated-special-steels-185-crore-ipo",
+    "snippet": "Bombay Coated & Special Steels Limited has raised ₹185 crore from an initial public offering of equity shares comprised entirely of a fresh issue. Desai & Diwanji advised Bombay Coated & Special Steels on this IPO, according to the red herring prospectus. Fox & Mandal advised Smart Horizon Capital Advisors Private Limited, the book running lead manager on this IPO. The transaction team consisted of Prashaant Vikram Rajput (Partner), Rudresh Mandal (Principal Associate), Shrinwantu Choudhury (Ass",
+    "law_firms": [
+      "Desai & Diwanji",
+      "Fox Mandal & Associates"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "deal_value": {
+      "raw": "₹185 crore",
+      "currency": "INR",
+      "amount": 1850000000,
+      "amount_inr": 1850000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Prashaant Vikram Rajput",
+        "role": "Partner",
+        "firm": "Fox Mandal & Associates",
+        "client": "Smart Horizon Capital Advisors Private Limited"
+      },
+      {
+        "name": "Rudresh Mandal",
+        "role": "Principal Associate",
+        "firm": "Fox Mandal & Associates",
+        "client": "Smart Horizon Capital Advisors Private Limited"
+      },
+      {
+        "name": "Shrinwantu Choudhury",
+        "role": "Associate",
+        "firm": "Fox Mandal & Associates",
+        "client": "Smart Horizon Capital Advisors Private Limited"
+      },
+      {
+        "name": "Saumy Bhowmick",
+        "role": "Associate",
+        "firm": "Fox Mandal & Associates",
+        "client": "Smart Horizon Capital Advisors Private Limited"
+      }
+    ]
   }
 ]

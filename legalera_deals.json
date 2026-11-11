@@ -9997,5 +9997,65 @@
       "fx_asof": "2026-09-01",
       "source": "headline"
     }
+  },
+  {
+    "headline": "AZB & Partners Advised Shrem InvIT On INR 340 Crore Acquisition Of Chilakaluripet Bypass Private Limited",
+    "client": "Shrem InvIT",
+    "source": "Legal Era",
+    "source_id": "legalera",
+    "url": "https://www.legaleraonline.com/deal-street/azb-partners-advised-shrem-invit-acquisition-chilakaluripet-bypass-991421",
+    "snippet": "AZB & Partners advised Shrem InvIT on its acquisition of Chilakaluripet Bypass Private Limited from BSCPL Infrastructure Limited for INR 340 crore. AZB & Partners team comprised Ajay Sawhney (Senior Partner), Aditi Misra (Partner), Pulkit Zamindar (Senior Associate) and Tanmay Khandelwal (Associate).",
+    "law_firms": [
+      "AZB & Partners"
+    ],
+    "transaction_types": [
+      "acquisition"
+    ],
+    "people": [
+      {
+        "name": "Ajay Sawhney",
+        "role": "Senior Partner",
+        "firm": "AZB & Partners"
+      },
+      {
+        "name": "Aditi Misra",
+        "role": "Partner",
+        "firm": "AZB & Partners"
+      },
+      {
+        "name": "Pulkit Zamindar",
+        "role": "Senior Associate",
+        "firm": "AZB & Partners"
+      },
+      {
+        "name": "Tanmay Khandelwal",
+        "role": "Associate",
+        "firm": "AZB & Partners"
+      }
+    ],
+    "published_at": "2026-11-10T10:45:48+05:30",
+    "keywords": [
+      "AZB & Partners",
+      "Shrem InvIT",
+      "Chilakaluripet Bypass Private Limited",
+      "BSCPL Infrastructure Limited",
+      "INR 340 crore acquisition",
+      "infrastructure acquisition",
+      "infrastructure investment",
+      "Indian law firm",
+      "Ajay Sawhney",
+      "Aditi Misra",
+      "Pulkit Zamindar",
+      "Tanmay Khandelwal"
+    ],
+    "deal_value": {
+      "raw": "INR 340 Crore",
+      "currency": "INR",
+      "amount": 3400000000,
+      "amount_inr": 3400000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   }
 ]
