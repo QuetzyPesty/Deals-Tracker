@@ -1,6 +1,6 @@
 {
   "filings": 1477,
-  "deals": 799,
+  "deals": 808,
   "matched": [
     {
       "headline": "CAM advises Jindal Power on acquisition of 1320 MW thermal power plant in Haryana",
@@ -131,7 +131,7 @@
       "notified": "2026-09-02",
       "decided": "2026-10-13",
       "summary_url": "https://www.cci.gov.in/combination/order/details/summary/1801/0/orders-section31",
-      "order_url": null,
+      "order_url": "https://www.cci.gov.in/combination/order/details/order/1801/0/orders-section31",
       "parties": "GRT Jewellers (India) Private Limited​",
       "confidence": "high",
       "entities": [
@@ -148,7 +148,7 @@
       "notified": "2026-08-04",
       "decided": "2026-10-13",
       "summary_url": "https://www.cci.gov.in/combination/order/details/summary/1788/0/orders-section31",
-      "order_url": null,
+      "order_url": "https://www.cci.gov.in/combination/order/details/order/1788/0/orders-section31",
       "parties": "1. Impact Fund Denmark 2. Belgian Investment Company for Developing Countries SA/NV 3. Orios Fund IIIa",
       "confidence": "high",
       "entities": [
@@ -211,8 +211,8 @@
   ],
   "ambiguous": [],
   "reasons": {
-    "no-name-evidence": 234,
-    "type-gate": 483,
+    "no-name-evidence": 237,
+    "type-gate": 489,
     "evidence-below-threshold": 68,
     "matched": 14
   },

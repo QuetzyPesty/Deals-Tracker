@@ -2535,5 +2535,38 @@
       "fx_asof": null,
       "source": "headline"
     }
+  },
+  {
+    "headline": "Kochhar & Co. Advises Sarda Mines On Slump Sale Of Its Dairy Business To Kalkaji Food Processing",
+    "client": "Sarda Mines",
+    "source": "LiveLaw",
+    "source_id": "livelaw",
+    "url": "https://www.livelaw.in/law-firms/deals/kochhar-co-advises-sarda-mines-slump-sale-dairy-business-kalkaji-food-processing-558355",
+    "snippet": "Kochhar & Co. acted as transaction counsel to Sarda Mines Private Limited (Seller) in connection with the sale and transfer of its dairy business undertaking to Kalkaji Food Processing Private Limited (Purchaser), as a going concern on a slump sale basis, pursuant to a Business Transfer Agreement (BTA). Sarda Mines, an Indian company with diversified interests in mining, mineral processing and dairy operations, transferred its dairy business undertaking, comprising its milk processing and allied",
+    "law_firms": [
+      "Kochhar & Co"
+    ],
+    "transaction_types": [],
+    "people": [
+      {
+        "name": "Deepanshi Trivedi",
+        "role": "Senior Associate",
+        "firm": "Kochhar & Co"
+      },
+      {
+        "name": "Anshu Gupta",
+        "role": "Associate",
+        "firm": "Kochhar & Co"
+      }
+    ],
+    "published_at": "2026-11-13T16:08:10+05:30",
+    "keywords": [
+      "Kochhar & Co.",
+      "Sarda Mines",
+      "Slump Sale",
+      "Dairy Business",
+      "Kalkaji Food Processing",
+      "Business Transfer Agreement"
+    ]
   }
 ]

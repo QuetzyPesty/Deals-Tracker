@@ -1,12 +1,12 @@
 {
-  "input_records": 880,
-  "output_records": 799,
-  "removed_duplicates": 81,
+  "input_records": 891,
+  "output_records": 808,
+  "removed_duplicates": 83,
   "merges_by_rule": {
     "same-url": 1,
-    "headline-entities": 8,
+    "headline-entities": 9,
     "same-slug": 4,
-    "nested-same-type": 9,
+    "nested-same-type": 10,
     "same-core-headline": 8,
     "ipo-draft-then-final": 2,
     "same-team-same-issuer": 39,
@@ -916,6 +916,23 @@
     {
       "kept": {
         "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/kochhar-co-advises-sarda-mines-on-sale-of-its-dairy-business",
+        "headline": "Kochhar & Co advises Sarda Mines on sale of its dairy business"
+      },
+      "duplicates": [
+        {
+          "source": "LiveLaw",
+          "url": "https://www.livelaw.in/law-firms/deals/kochhar-co-advises-sarda-mines-slump-sale-dairy-business-kalkaji-food-processing-558355",
+          "headline": "Kochhar & Co. Advises Sarda Mines On Slump Sale Of Its Dairy Business To Kalkaji Food Processing",
+          "rules": [
+            "nested-same-type"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
         "url": "https://www.barandbench.com/law-firms/dealstreet/morrison-foerster-khaitan-co-advises-autodesk-on-acquisition-of-select-tech-assets-intellectual-property-from-bimdex",
         "headline": "Morrison Foerster, Khaitan & Co advises Autodesk on acquisition of select tech assets, intellectual property from BIMDeX"
       },
@@ -994,6 +1011,23 @@
           "headline": "Trilegal Advised BRLMs On Moneyview’s INR 10,916.80 Million IPO",
           "rules": [
             "same-team-same-issuer"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-trilegal-act-on-the-pant-project-109-crore-series-b-fundraise",
+        "headline": "Shardul Amarchand Mangaldas, Trilegal act on The Pant Project ₹109 crore Series B fundraise"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-mirae-asset-venture-opportunity-fund-pant-project-inr-109-crore-series-b-991438",
+          "headline": "Trilegal Advised Mirae Asset Venture Opportunity Fund II On The Pant Project’s INR 109 Crore Series B...",
+          "rules": [
+            "headline-entities"
           ]
         }
       ]

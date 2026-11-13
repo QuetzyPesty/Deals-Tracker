@@ -26077,5 +26077,195 @@
         "client": "Smart Horizon Capital Advisors Private Limited"
       }
     ]
+  },
+  {
+    "headline": "Shardul Amarchand Mangaldas & Co advises TKMS on joint venture with CFF Fluid Control",
+    "client": "TKMS",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-13T04:43:07Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-co-advises-tkms-on-joint-venture-with-cff-fluid-control",
+    "snippet": "TKMS ATLAS ELEKTRONIK GmbH has entered into a Joint Venture agreement with CFF Fluid Control Limited to establish TKMS CFF Defence Systems Private Limited in India. Shardul Amarchand Mangaldas & Co advised TKMS on this joint venture. The transaction team was led by Alina Arora (Partner) and Parth Singh (Partner), and comprised Anubhav Singh (Associate) and Priyanjali Malik (Associate). The intellectual property team comprised Dev Robinson (Partner), J.V. Abhay (Partner), Leoni Mahanta (Principal",
+    "law_firms": [
+      "Shardul Amarchand Mangaldas & Co"
+    ],
+    "transaction_types": [
+      "joint venture"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Alina Arora",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co",
+        "client": "TKMS"
+      },
+      {
+        "name": "Parth Singh",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co",
+        "client": "TKMS"
+      },
+      {
+        "name": "Anubhav Singh",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co",
+        "client": "TKMS"
+      },
+      {
+        "name": "Priyanjali Malik",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co",
+        "client": "TKMS"
+      },
+      {
+        "name": "Dev Robinson",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co",
+        "client": "TKMS"
+      },
+      {
+        "name": "Leoni Mahanta",
+        "role": "Principal Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co",
+        "client": "TKMS"
+      },
+      {
+        "name": "Aishwarya Chaturvedi",
+        "role": "Senior Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co",
+        "client": "TKMS"
+      },
+      {
+        "name": "Shivali Prasad",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co",
+        "client": "TKMS"
+      }
+    ]
+  },
+  {
+    "headline": "Saraf and Partners advises IvyCap Ventures on Live2.ai $13 million pre-Series B fundraise",
+    "client": "IvyCap Ventures",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-12T07:25:17Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/saraf-and-partners-advises-ivycap-ventures-on-live2ai-13-million-pre-series-b-fundraise",
+    "snippet": "Woovly India Private Limited, dba Live2.ai, has raised $13 million from a pre-Series B fundraise led by IvyCap Ventures. Saraf and Partners advised lead investor IvyCap Ventures on this fundraise. The transaction team was led by Vivek Pareek (Partner) and comprised Associates Kevin Davis and Tarun Ashok. Live2.ai offers software and AI products enabling enterprises to streamline their marketing and social media management. The Pre-Series B funding round will support the next phase of its growth ",
+    "law_firms": [
+      "Saraf and Partners"
+    ],
+    "transaction_types": [
+      "Series B",
+      "fundraise"
+    ],
+    "deal_value": {
+      "raw": "$13 million",
+      "currency": "USD",
+      "amount": 13000000,
+      "amount_inr": 1144000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Vivek Pareek",
+        "role": "Partner",
+        "firm": "Saraf and Partners"
+      },
+      {
+        "name": "Kevin Davis",
+        "role": "Associate",
+        "firm": "Saraf and Partners"
+      },
+      {
+        "name": "Tarun Ashok",
+        "role": "Associate",
+        "firm": "Saraf and Partners"
+      }
+    ]
+  },
+  {
+    "headline": "Pinac advises TagMango on joint venture with ClickFunnels to launch Backstage Pass",
+    "client": "TagMango",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-12T05:36:44Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/pinac-advises-tagmango-on-joint-venture-with-clickfunnels-to-launch-backstage-pass",
+    "snippet": "TagMango and ClickFunnels have jointly launched Backstage Pass, a creator platform that brings together live streaming, AI-powered content tools and monetisation features. Pinac advised and assisted TagMango on the transaction. The Firm’s role involved providing strategic advice and drafting and negotiating the transaction documents. The transaction was led by Utsav Lohia (Partner) and Eeshan Mohapatra (Senior Associate), with assistance on IP aspects from Raghu Vinayak Sinha (Of Counsel). TagMa",
+    "law_firms": [
+      "Pinac"
+    ],
+    "transaction_types": [
+      "joint venture"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Utsav Lohia",
+        "role": "Partner",
+        "firm": "Pinac"
+      },
+      {
+        "name": "Eeshan Mohapatra",
+        "role": "Senior Associate",
+        "firm": "Pinac"
+      },
+      {
+        "name": "Raghu Vinayak Sinha",
+        "role": "Of Counsel",
+        "firm": "Pinac"
+      }
+    ]
+  },
+  {
+    "headline": "Shardul Amarchand Mangaldas, Trilegal act on The Pant Project ₹109 crore Series B fundraise",
+    "client": "The Pant Project",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-12T05:35:23Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-trilegal-act-on-the-pant-project-109-crore-series-b-fundraise",
+    "snippet": "Aanswr Fashion Private Limited, dba The Pant Project, has raised ₹109 crore from a Series B fundraise led by Mirae Asset Venture Opportunity Fund II, with participation from existing investors Sorin Investments, and marquee angels like Hyperscale Ventures, MGA Ventures, B2V Ventures and B&K Securities. Shardul Amarchand Mangaldas & Co advised The Pant Project on this fundraise. The transaction was led by Navruz Vakil (Partner). Trilegal advised lead investor Mirae on this fundraise. The transact",
+    "law_firms": [
+      "Shardul Amarchand Mangaldas & Co",
+      "Trilegal"
+    ],
+    "transaction_types": [
+      "Series B",
+      "fundraise"
+    ],
+    "deal_value": {
+      "raw": "₹109 crore",
+      "currency": "INR",
+      "amount": 1090000000,
+      "amount_inr": 1090000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Navruz Vakil",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Vishruta Kaul",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Aayush Sood",
+        "role": "Counsel",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Harshit Meena",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Akshat Jain",
+        "role": "Associate",
+        "firm": "Trilegal"
+      }
+    ]
   }
 ]
