@@ -1,7 +1,7 @@
 {
-  "input_records": 891,
-  "output_records": 808,
-  "removed_duplicates": 83,
+  "input_records": 905,
+  "output_records": 821,
+  "removed_duplicates": 84,
   "merges_by_rule": {
     "same-url": 1,
     "headline-entities": 9,
@@ -9,7 +9,7 @@
     "nested-same-type": 10,
     "same-core-headline": 8,
     "ipo-draft-then-final": 2,
-    "same-team-same-issuer": 39,
+    "same-team-same-issuer": 40,
     "same-team-and-entities": 3,
     "same-headline": 2,
     "same-team-near-identical": 5,
@@ -1094,6 +1094,23 @@
           "source": "Legal Era",
           "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-lcc-projects-successful-ipo-listing-990131",
           "headline": "Trilegal Advised On The Successful Listing Of LCC Projects Aggregating To INR 4,271.41 Million",
+          "rules": [
+            "same-team-same-issuer"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-bodhi-tree-systems-on-180-million-majority-stake-acquisition-in-adyar-anand-bhavan",
+        "headline": "Trilegal advises Bodhi Tree Systems on $180 million majority stake acquisition in Adyar Anand Bhavan"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-bodhi-tree-systems-usd-180-million-investment-adyar-anand-bhavan-991610",
+          "headline": "Trilegal Advised Bodhi Tree Systems On USD 180 Million Investment In Adyar Anand Bhavan",
           "rules": [
             "same-team-same-issuer"
           ]

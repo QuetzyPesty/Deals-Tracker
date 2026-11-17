@@ -26267,5 +26267,356 @@
         "firm": "Trilegal"
       }
     ]
+  },
+  {
+    "headline": "Dentons Link Legal, Luthra act on Iris Global ₹200 crore+ proposed IPO",
+    "client": "Iris Global",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-17T13:00:00Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/dentons-link-legal-luthra-act-on-iris-global-200-crore-proposed-ipo",
+    "snippet": "Iris Global Services Limited has filed its draft red herring prospectus with SEBI and the Stock Exchanges with relation to an initial public offering comprising a fresh issue of equity shares aggregating up to ₹200 crore and an offer for sale of up to 50,000,000 equity shares. Dentons Link Legal is advising Iris Global on this IPO, according to the DRHP. Luthra and Luthra Law Offices is advising Pantomath Capital Advisors Private Limited, the book running lead manager on this IPO. This transacti",
+    "law_firms": [
+      "Dentons Link Legal",
+      "Luthra and Luthra"
+    ],
+    "transaction_types": [
+      "IPO"
+    ],
+    "deal_value": {
+      "raw": "₹200 crore+",
+      "currency": "INR",
+      "amount": 2000000000,
+      "amount_inr": 2000000000,
+      "approx": true,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Ashwin Singh",
+        "role": "Associate",
+        "firm": "Luthra and Luthra",
+        "client": "Pantomath Capital Advisors Private Limited"
+      },
+      {
+        "name": "Harshit Babbar",
+        "role": "Associate",
+        "firm": "Luthra and Luthra",
+        "client": "Pantomath Capital Advisors Private Limited"
+      },
+      {
+        "name": "Karan Kapoor",
+        "role": "Associate",
+        "firm": "Luthra and Luthra",
+        "client": "Pantomath Capital Advisors Private Limited"
+      },
+      {
+        "name": "Kumar Anant Ashish",
+        "role": "Associate",
+        "firm": "Luthra and Luthra",
+        "client": "Pantomath Capital Advisors Private Limited"
+      },
+      {
+        "name": "Manali Singh",
+        "role": "Associate",
+        "firm": "Luthra and Luthra",
+        "client": "Pantomath Capital Advisors Private Limited"
+      },
+      {
+        "name": "Savar Arora",
+        "role": "Associate",
+        "firm": "Luthra and Luthra",
+        "client": "Pantomath Capital Advisors Private Limited"
+      },
+      {
+        "name": "Swetapadma Priyadarshini",
+        "role": "Associate",
+        "firm": "Luthra and Luthra",
+        "client": "Pantomath Capital Advisors Private Limited"
+      },
+      {
+        "name": "Akshit Kapoor",
+        "role": "Partner",
+        "firm": "Luthra and Luthra",
+        "client": "Pantomath Capital Advisors Private Limited"
+      }
+    ]
+  },
+  {
+    "headline": "Trilegal advises Bodhi Tree Systems on $180 million majority stake acquisition in Adyar Anand Bhavan",
+    "client": "Bodhi Tree Systems",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-17T10:21:17Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-bodhi-tree-systems-on-180-million-majority-stake-acquisition-in-adyar-anand-bhavan",
+    "snippet": "Bodhi Tree Systems has made an investment of $180 million to acquire a majority stake in Adyar Ananda Bhavan Sweets India Private Limited (A2B), one of the leading QSR chains in southern India. Trilegal advised Bodhi Tree Systems on all aspects of the transaction, including legal due diligence, transaction structuring, leading the preparation and negotiation of the transaction documents and closing of the transaction. The transaction was led by Sanjam Arora (Partner) and Vishal Sagar (Partner), ",
+    "law_firms": [
+      "Trilegal"
+    ],
+    "transaction_types": [
+      "acquisition",
+      "stake acquisition"
+    ],
+    "deal_value": {
+      "raw": "$180 million",
+      "currency": "USD",
+      "amount": 180000000,
+      "amount_inr": 15840000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Sanjam Arora",
+        "role": "Partner",
+        "firm": "Trilegal",
+        "client": "Bodhi Tree Systems"
+      },
+      {
+        "name": "Vishal Sagar",
+        "role": "Partner",
+        "firm": "Trilegal",
+        "client": "Bodhi Tree Systems"
+      },
+      {
+        "name": "Niharika Choudhary",
+        "role": "Counsel",
+        "firm": "Trilegal",
+        "client": "Bodhi Tree Systems"
+      },
+      {
+        "name": "Anisha Bhattacharjee",
+        "role": "Counsel",
+        "firm": "Trilegal",
+        "client": "Bodhi Tree Systems"
+      },
+      {
+        "name": "Anadi Singh",
+        "role": "Associate",
+        "firm": "Trilegal",
+        "client": "Bodhi Tree Systems"
+      },
+      {
+        "name": "Kashish Khandelwal",
+        "role": "Associate",
+        "firm": "Trilegal",
+        "client": "Bodhi Tree Systems"
+      },
+      {
+        "name": "Akshat Kabra",
+        "role": "Associate",
+        "firm": "Trilegal",
+        "client": "Bodhi Tree Systems"
+      },
+      {
+        "name": "Vagmita Tiwari",
+        "role": "Associate",
+        "firm": "Trilegal",
+        "client": "Bodhi Tree Systems"
+      },
+      {
+        "name": "Shikhar Srivastava",
+        "role": "Associate",
+        "firm": "Trilegal",
+        "client": "Bodhi Tree Systems"
+      },
+      {
+        "name": "Gauri Chhabra",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Gargi Yadav",
+        "role": "Counsel",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Eesha Sheth",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Bhabya Mahapatra",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Shreya Chaudhary",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Veena Gopalakrishnan",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Vinduja Menon",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Suha R",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Kirti Balasubramanian",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Paarth Samdani",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Mridul Kumbalath",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Mythri Jonnala",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Shreya Kundu",
+        "role": "Partner",
+        "firm": "Trilegal"
+      }
+    ]
+  },
+  {
+    "headline": "Argus Partners advises altM on $10 million Series A fundraise",
+    "client": "altM",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-17T10:21:02Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/argus-partners-advises-altm-on-10-million-series-a-fundraise",
+    "snippet": "Alt Material Innovations Private Limited, dba altM, has raised $10.3 million from a Series A fundraise led by Rainmatter by Zerodha and Mela Ventures, with participation from existing investors Omnivore, Theia Ventures, Aureolis Ventures and Spectrum Impact, along with VC Grid and other strategic angel investors. Argus Partners advised altM on this fundraise. The transaction was led by Anantha Iyer (Partner), with support from Associates Aradhana Pandit, Ashuthosh V and Shruti Walzade. altM, fou",
+    "law_firms": [
+      "Argus Partners"
+    ],
+    "transaction_types": [
+      "Series A",
+      "fundraise"
+    ],
+    "deal_value": {
+      "raw": "$10 million",
+      "currency": "USD",
+      "amount": 10000000,
+      "amount_inr": 880000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Anantha Iyer",
+        "role": "Partner",
+        "firm": "Argus Partners"
+      },
+      {
+        "name": "Aradhana Pandit",
+        "role": "Associate",
+        "firm": "Argus Partners"
+      },
+      {
+        "name": "Ashuthosh V",
+        "role": "Associate",
+        "firm": "Argus Partners"
+      },
+      {
+        "name": "Shruti Walzade",
+        "role": "Associate",
+        "firm": "Argus Partners"
+      }
+    ]
+  },
+  {
+    "headline": "Verist Law advises KrazyBee on ₹500 crore NCD issuance",
+    "client": "KrazyBee",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-17T10:20:34Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/verist-law-advises-krazybee-on-500-crore-ncd-issuance",
+    "snippet": "KrazyBee Services Limited has made a ₹500 crore issuance of 50,000 senior secured listed  fully paid-up non-convertible debentures including a green shoe option of up to ₹250 crore. Verist Law advised KrazyBee Services on this NCD issuance. The transaction team consisted of Sudha Muddaiah (Partner), Megan Carvalho (Senior Associate) and Sruti Patra (Associate). KrazyBee Services is an RBI-registered NBFC associated with KreditBee, a unicorn digital lending platform in India. The issuance had a c",
+    "law_firms": [
+      "Verist Law"
+    ],
+    "transaction_types": [],
+    "deal_value": {
+      "raw": "₹500 crore",
+      "currency": "INR",
+      "amount": 5000000000,
+      "amount_inr": 5000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Sudha Muddaiah",
+        "role": "Partner",
+        "firm": "Verist Law",
+        "client": "KrazyBee Services"
+      },
+      {
+        "name": "Megan Carvalho",
+        "role": "Senior Associate",
+        "firm": "Verist Law",
+        "client": "KrazyBee Services"
+      },
+      {
+        "name": "Sruti Patra",
+        "role": "Associate",
+        "firm": "Verist Law",
+        "client": "KrazyBee Services"
+      }
+    ]
+  },
+  {
+    "headline": "Kanga & Co advises Anand Rathi Towers on ₹145 crore land acquisition in Worli, Mumbai",
+    "client": "Anand Rathi Towers",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-17T10:19:53Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/kanga-co-advises-anand-rathi-towers-on-145-crore-land-acquisition-in-worli-mumbai",
+    "snippet": "Anand Rathi Towers Limited has acquired a land parcel admeasuring approximately 37,800 sq. ft. (0.86 acres), located off Dr. Elijah Moses Road, Worli, Mumbai, from Oricon Enterprises Limited, for a total consideration of ₹145 crore. Kanga & Co advised Anand Rathi Towers throughout the transaction, including due diligence, title investigation of the property, drafting, structuring and negotiation of the transaction documents and completion of the acquisition. The transaction team consisted of Sha",
+    "law_firms": [
+      "Kanga & Co"
+    ],
+    "transaction_types": [
+      "acquisition"
+    ],
+    "deal_value": {
+      "raw": "₹145 crore",
+      "currency": "INR",
+      "amount": 1450000000,
+      "amount_inr": 1450000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Shailesh Vaidya",
+        "role": "Senior Partner",
+        "firm": "Kanga & Co"
+      },
+      {
+        "name": "Snehal Singh",
+        "role": "Principal Associate",
+        "firm": "Kanga & Co"
+      },
+      {
+        "name": "Shruti Samdaria",
+        "role": "Associate",
+        "firm": "Kanga & Co"
+      },
+      {
+        "name": "Drishik Behal",
+        "role": "Associate",
+        "firm": "Kanga & Co"
+      }
+    ]
   }
 ]
