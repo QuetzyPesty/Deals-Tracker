@@ -26618,5 +26618,724 @@
         "firm": "Kanga & Co"
       }
     ]
+  },
+  {
+    "headline": "Dr. Arvind Kapur, Rohan Yadav acquire minority stake in SeedWorks NeuVeg; Saraf and Partners, TLH Advocates advise",
+    "client": null,
+    "source": "Bar & Bench",
+    "published_at": "2026-11-19T04:06:44Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/dr-arvind-kapur-rohan-yadav-acquire-minority-stake-in-seedworks-neuveg-saraf-and-partners-tlh-advocates-advise",
+    "snippet": "Renowned vegetable seeds industry veteran Dr. Arvind Kapur and Mr. Rohan Yadav are set to acquire a significant minority stake of approximately 22% in SeedWorks NeuVeg Private Limited, the newly established vegetable crops platform of Hyderabad-based SeedWorks International Limited. Dr. Kapur will also serve as Chief Executive Officer of SeedWorks NeuVeg. Saraf and Partners acted for and advised the investors, Dr. Arvind Kapur and Mr. Rohan Yadav, on all aspects of the transaction. The Saraf tea",
+    "law_firms": [
+      "Saraf and Partners",
+      "TLH Advocates & Solicitors"
+    ],
+    "transaction_types": [],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Ishaan Gupta",
+        "role": "Associate",
+        "firm": "Saraf and Partners"
+      },
+      {
+        "name": "Soumya Dave",
+        "role": "Associate",
+        "firm": "Saraf and Partners"
+      },
+      {
+        "name": "Sahil Arora",
+        "role": "Partner",
+        "firm": "Saraf and Partners"
+      }
+    ]
+  },
+  {
+    "headline": "VERTICES PARTNERS advises Marico on ₹113 crore stake acquisition in Cosmix",
+    "client": "Marico",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-19T04:03:14Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/vertices-partners-advises-marico-on-113-crore-stake-acquisition-in-cosmix",
+    "snippet": "Marico Limited has acquired an additional 20% stake in Cosmix Wellness Limited for ₹113.65 crore. VERTICES PARTNERS advised Marico on this transaction. The transaction was led by Vinayak Burman (Founder and Managing Partner), along with a team that included Vikrant Anand (Partner), Sajal Jain (Associate Manager) and Nishtha Khandelwal (Associate Manager). The Firm had also advised Marico on their earlier stake acquisition in Cosmix this year. Marico has now increased its aggregate shareholding i",
+    "law_firms": [
+      "Vertices Partners"
+    ],
+    "transaction_types": [
+      "acquisition",
+      "stake acquisition"
+    ],
+    "deal_value": {
+      "raw": "₹113 crore",
+      "currency": "INR",
+      "amount": 1130000000,
+      "amount_inr": 1130000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Vikrant Anand",
+        "role": "Partner",
+        "firm": "Vertices Partners",
+        "client": "Marico"
+      }
+    ]
+  },
+  {
+    "headline": "JSA, Khaitan & Co act on Temasek's ₹2,500 crore investment in Godrej Capital",
+    "client": "Temasek's",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-19T04:01:56Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-godrej-capital-on-securing-2500-crore-investment-from-temasek",
+    "snippet": "Temasek Holdings is set to invest ₹2,500 crore in Godrej Capital Limited, the financial services arm of Godrej Industries Limited. JSA Advocates and Solicitors advised Temasek Holdings on this transaction. The JSA team was led by Vikram Raghani (Senior Partner), and assisted by Bir Bahadur Sachar (Partner), Farah Titina (Principal Associate), Vaishnavi Vyas (Senior Associate), Associates Yagnesh Sharma, Krishna Giri Nair, Samika Pachouly, Ankitaa Nair, Rashika Sharda, Sharanya Rangaraj, Aditi Ya",
+    "law_firms": [
+      "Khaitan & Co",
+      "JSA Advocates & Solicitors"
+    ],
+    "transaction_types": [
+      "investment"
+    ],
+    "deal_value": {
+      "raw": "₹2,500 crore",
+      "currency": "INR",
+      "amount": 25000000000,
+      "amount_inr": 25000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Vikram Raghani",
+        "role": "Senior Partner",
+        "firm": "JSA Advocates & Solicitors",
+        "client": "Temasek Holdings"
+      },
+      {
+        "name": "Bir Bahadur Sachar",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors",
+        "client": "Temasek Holdings"
+      },
+      {
+        "name": "Farah Titina",
+        "role": "Principal Associate",
+        "firm": "JSA Advocates & Solicitors",
+        "client": "Temasek Holdings"
+      },
+      {
+        "name": "Vaishnavi Vyas",
+        "role": "Senior Associate",
+        "firm": "JSA Advocates & Solicitors",
+        "client": "Temasek Holdings"
+      },
+      {
+        "name": "Yagnesh Sharma",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors",
+        "client": "Temasek Holdings"
+      },
+      {
+        "name": "Krishna Giri Nair",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors",
+        "client": "Temasek Holdings"
+      },
+      {
+        "name": "Samika Pachouly",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors",
+        "client": "Temasek Holdings"
+      },
+      {
+        "name": "Ankitaa Nair",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors",
+        "client": "Temasek Holdings"
+      },
+      {
+        "name": "Rashika Sharda",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors",
+        "client": "Temasek Holdings"
+      },
+      {
+        "name": "Sharanya Rangaraj",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors",
+        "client": "Temasek Holdings"
+      },
+      {
+        "name": "Aditi Yadav",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors",
+        "client": "Temasek Holdings"
+      },
+      {
+        "name": "Niki Shah",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors",
+        "client": "Temasek Holdings"
+      },
+      {
+        "name": "Vaibhav Choukse",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors",
+        "client": "Temasek Holdings"
+      },
+      {
+        "name": "Ela Bali",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors",
+        "client": "Temasek Holdings"
+      },
+      {
+        "name": "Aditi Khanna",
+        "role": "Principal Associate",
+        "firm": "JSA Advocates & Solicitors",
+        "client": "Temasek Holdings"
+      },
+      {
+        "name": "Aarathi R Menon",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors",
+        "client": "Temasek Holdings"
+      },
+      {
+        "name": "Shishir Jose Vayttaden",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Aditi Singhvi",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Kashish Gupta",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Bhaskar Vishwajeet",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Yastika Handa",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Atul Pandey",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Jimmy Bhatt",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Rahul Chatwani",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Subhayu Sen",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Anisha Chand",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Siddharth Bagul",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Ritika Ghosh",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Sameer Sah",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Harshita Jajodia",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      }
+    ]
+  },
+  {
+    "headline": "Khaitan & Co advises Persistent Systems on ₹7,600 crore acquisition financing",
+    "client": "Persistent Systems",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-19T04:00:49Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-persistent-systems-on-7600-crore-acquisition-financing",
+    "snippet": "Khaitan & Co acted as legal advisors to Persistent Systems Limited on its acquisition financing and general corporate purposes funding for the proposed acquisition of Nagarro SE, a German-listed digital engineering company. The financing package comprised: (i) Persistent's maiden issuance of listed, rated, unsecured, redeemable non-convertible debentures aggregating to ₹7,000 crore across six series; and (ii) an issuance of listed commercial papers aggregating ₹600 crore. The Khaitan & Co transa",
+    "law_firms": [
+      "Khaitan & Co"
+    ],
+    "transaction_types": [
+      "acquisition",
+      "financing"
+    ],
+    "deal_value": {
+      "raw": "₹7,600 crore",
+      "currency": "INR",
+      "amount": 76000000000,
+      "amount_inr": 76000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Manisha Shroff",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Rajshekhar Upadhyaya",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Akshansh Sharma",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Aastha Singh",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Khushboo Damakia",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Gyana Pathak",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Satyawati Sinha",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Nandini Arya",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Mohit Nad",
+        "role": "Counsel",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Sharad Abhyankar",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Bhavya Bhankharia",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Saranya Mishra",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      }
+    ]
+  },
+  {
+    "headline": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Bajaj Finance ₹11,700 crore QIP",
+    "client": "Bajaj Finance",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-18T09:34:29Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-linklaters-act-on-bajaj-finance-11700-crore-qip",
+    "snippet": "Bajaj Finance Limited has made a qualified institutions placement of equity shares aggregating to ₹11,700 crore. Cyril Amarchand Mangaldas advised Bajaj Finance on this QIP, as well as on the preferential issuance of fully convertible warrants to its promoter and holding company, Bajaj Finserv Limited aggregating to ₹5,800 crore. The transaction was led by S. Vivek (Partner), with support from Vishesh Jain (Senior Associate), Associates Dhruv Sharma, Mohnish Khandale, Namita Kaushik, Siddharth K",
+    "law_firms": [
+      "Cyril Amarchand Mangaldas",
+      "Trilegal",
+      "Linklaters"
+    ],
+    "transaction_types": [
+      "QIP"
+    ],
+    "deal_value": {
+      "raw": "₹11,700 crore",
+      "currency": "INR",
+      "amount": 117000000000,
+      "amount_inr": 117000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Vishesh Jain",
+        "role": "Senior Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Dhruv Sharma",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Mohnish Khandale",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Namita Kaushik",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Siddharth Kaushik",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Aditi Joshi",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Avani Hegde",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Manan Lahoty",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Bhakta Patnaik",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Albin Thomas",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Somya Jena",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Jahanvi Jain",
+        "role": "Senior Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Janhavi Shah",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Manasi Barve",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Avni Mishra",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Chaitali Chopdekar",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Rishab Taori",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Yash J. Ashar",
+        "role": "Senior Partner",
+        "firm": "Cyril Amarchand Mangaldas",
+        "source": "ner"
+      }
+    ]
+  },
+  {
+    "headline": "AZB, Hogan Lovells, CAM, Linklaters act on Aegis Logistics ₹3,500 crore QIP",
+    "client": "Aegis Logistics",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-18T09:34:04Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/azb-hlc-cam-linklaters-act-on-aegis-logistics-3500-crore-qip",
+    "snippet": "Aegis Logistics Limited has raised ₹3,500 crore from a Qualified Institutions Placement of 2,89,25,619 equity shares. AZB & Partners and Hogan Lovells Cadwalader acted as the Indian counsel and international counsel for Aegis Logistics on this QIP, respectively. Cyril Amarchand Mangaldas advised the Placement Agents on this QIP. J.P. Morgan India Private Limited, HSBC Securities and Capital Markets (India) Private Limited, Jefferies India Private Limited, JM Financial Limited, BNP Paribas, CLSA ",
+    "law_firms": [
+      "AZB & Partners",
+      "Hogan Lovells Cadwalader",
+      "Cyril Amarchand Mangaldas",
+      "Linklaters"
+    ],
+    "transaction_types": [
+      "QIP"
+    ],
+    "deal_value": {
+      "raw": "₹3,500 crore",
+      "currency": "INR",
+      "amount": 35000000000,
+      "amount_inr": 35000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Ravi Dubey",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Puneet Passi",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Sachin Santuka",
+        "role": "Senior Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Arjun Badola",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Abhinav Singh Chauhan",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Shvabh Chakarwarti",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Alok Antony",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Prishni Chakraborty",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Sajal Soni",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Shaktisena Kethiri",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Manan Lahoty",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      }
+    ]
+  },
+  {
+    "headline": "Trilegal advises SBI Funds International on launch of Signature CIO Funds from GIFT City",
+    "client": "SBI Funds International",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-18T09:33:13Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-sbi-funds-international-on-launch-of-signature-cio-funds-from-gift-city",
+    "snippet": "Trilegal acted as fund counsel to SBI Funds International (IFSC) Limited in connection with the launch of Signature CIO Funds from GIFT City, being open-ended retail schemes, designed to provide investors in India with access to overseas investment opportunities through investments in funds managed by Amundi Asset Management. Trilegal was engaged with the SBI Funds International (IFSC) from inception of the product such as advising on the structuring of the funds, including a comprehensive asses",
+    "law_firms": [
+      "Trilegal"
+    ],
+    "transaction_types": [],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Pallabi Ghosal",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Ananya Sonthalia",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Hetvi Doshi",
+        "role": "Counsel",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Debargha Mukherjee",
+        "role": "Associate",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Manya Thapliyal",
+        "role": "Associate",
+        "firm": "Trilegal"
+      }
+    ]
+  },
+  {
+    "headline": "JSA advises Jindal Power on $1 billion financing for power project in Botswana",
+    "client": "Jindal Power",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-18T09:32:40Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-jindal-power-on-1-billion-financing-for-power-project-in-botswana",
+    "snippet": "Jindal Energy (Botswana) Proprietary Limited, part of the Jindal Power group, has availed $1 billion financing from a consortium of lenders comprising Axis Bank Limited, ICICI Bank Limited, and Export-Import Bank of India, for the development of Phase I and Phase II of a greenfield thermal power plant in Botswana. As part of the financing, Jindal Power Ltd. has already signed an eight-year loan agreement of approximately $500 million with lenders. The remaining $500 million is expected to be rai",
+    "law_firms": [
+      "JSA Advocates & Solicitors"
+    ],
+    "transaction_types": [
+      "financing"
+    ],
+    "deal_value": {
+      "raw": "$1 billion",
+      "currency": "USD",
+      "amount": 1000000000,
+      "amount_inr": 88000000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Karan Mitroo",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Ankita Parasar",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Samarth Sharma",
+        "role": "Principal Associate",
+        "firm": "JSA Advocates & Solicitors"
+      },
+      {
+        "name": "Surbhi Jain",
+        "role": "Principal Associate",
+        "firm": "JSA Advocates & Solicitors"
+      }
+    ]
+  },
+  {
+    "headline": "Argus Partners advises MakeMyTrip on acquisition of majority stake in Quick Ride",
+    "client": "MakeMyTrip",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-18T09:32:16Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/argus-partners-advises-makemytrip-on-acquisition-of-majority-stake-in-quick-ride",
+    "snippet": "MakeMyTrip India has made a majority stake acquisition in Quick Ride, a Bengaluru-based, technology-led shared mobility platform. The transaction involved an internal restructuring of Quick Ride's business. As part of this restructuring, the ride pooling operations were separated from the electric vehicle taxi business. The Quick Ride brand and its ride pooling business were transferred to a new entity, Co Ride Mobility Private Limited, in which MakeMyTrip acquired a majority stake. The electric",
+    "law_firms": [
+      "Argus Partners"
+    ],
+    "transaction_types": [
+      "acquisition"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Jaidrath Zaveri",
+        "role": "Partner",
+        "firm": "Argus Partners",
+        "client": "MakeMyTrip"
+      },
+      {
+        "name": "Nivrithi Kailash Kumar",
+        "role": "Associate",
+        "firm": "Argus Partners",
+        "client": "MakeMyTrip"
+      },
+      {
+        "name": "Shruti Walzade",
+        "role": "Associate",
+        "firm": "Argus Partners",
+        "client": "MakeMyTrip"
+      },
+      {
+        "name": "Anindya Ghosh",
+        "role": "Partner",
+        "firm": "Argus Partners",
+        "client": "MakeMyTrip"
+      },
+      {
+        "name": "Udit Mendiratta",
+        "role": "Partner",
+        "firm": "Argus Partners",
+        "client": "MakeMyTrip"
+      },
+      {
+        "name": "Durga Manda",
+        "role": "Partner",
+        "firm": "Argus Partners",
+        "client": "MakeMyTrip"
+      },
+      {
+        "name": "Apeksha Singh",
+        "role": "Senior Associate",
+        "firm": "Argus Partners",
+        "client": "MakeMyTrip"
+      }
+    ]
+  },
+  {
+    "headline": "Khaitan & Co advises HarbourFront on RBI engagement on In-Specie distribution by a Category II AIF",
+    "client": "HarbourFront",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-18T09:31:35Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-harbourfront-on-rbi-engagement-on-in-specie-distribution-by-a-category-ii-aif",
+    "snippet": "Khaitan & Co has advised HarbourFront India Investment Advisory LLP in connection with its engagement with the Reserve Bank of India regarding the proposed in-specie distribution of assets by a Category II AIF, registered with the Securities and Exchange Board of India under the SEBI (Alternative Investment Funds) Regulations, 2012, to a non-resident investor. The transaction team consisted of Divaspati Singh (Partner) and Rohan Priyadarshi (Principal Associate). Rahul Jain (Partner) provided as",
+    "law_firms": [
+      "Khaitan & Co"
+    ],
+    "transaction_types": [],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Divaspati Singh",
+        "role": "Partner",
+        "firm": "Khaitan & Co",
+        "client": "HarbourFront India Investment Advisory LLP"
+      },
+      {
+        "name": "Rohan Priyadarshi",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co",
+        "client": "HarbourFront India Investment Advisory LLP"
+      },
+      {
+        "name": "Rahul Jain",
+        "role": "Partner",
+        "firm": "Khaitan & Co",
+        "client": "HarbourFront India Investment Advisory LLP"
+      }
+    ]
   }
 ]

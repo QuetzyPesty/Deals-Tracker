@@ -1,15 +1,15 @@
 {
-  "input_records": 905,
-  "output_records": 821,
-  "removed_duplicates": 84,
+  "input_records": 924,
+  "output_records": 836,
+  "removed_duplicates": 88,
   "merges_by_rule": {
     "same-url": 1,
-    "headline-entities": 9,
+    "headline-entities": 10,
     "same-slug": 4,
-    "nested-same-type": 10,
-    "same-core-headline": 8,
+    "nested-same-type": 11,
+    "same-core-headline": 9,
     "ipo-draft-then-final": 2,
-    "same-team-same-issuer": 40,
+    "same-team-same-issuer": 41,
     "same-team-and-entities": 3,
     "same-headline": 2,
     "same-team-near-identical": 5,
@@ -234,6 +234,23 @@
           "headline": "Trilegal, Khaitan act on INDO-MIM ₹1,000 crore+ proposed IPO - Bar and Bench",
           "rules": [
             "ipo-draft-then-final"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/azb-hlc-cam-linklaters-act-on-aegis-logistics-3500-crore-qip",
+        "headline": "AZB, Hogan Lovells, CAM, Linklaters act on Aegis Logistics ₹3,500 crore QIP"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/cyril-amarchand-mangaldas-advised-placement-agents-aegis-logistics-inr-3500-crore-qip-991684",
+          "headline": "Cyril Amarchand Mangaldas Advised Placement Agents On INR 3,500 Crore QIP By Aegis Logistics",
+          "rules": [
+            "headline-entities"
           ]
         }
       ]
@@ -627,6 +644,40 @@
           "headline": "Khaitan & Co Advised Dilip Buildcon On Transmission Asset Transaction",
           "rules": [
             "same-team-near-identical"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-godrej-capital-on-securing-2500-crore-investment-from-temasek",
+        "headline": "JSA, Khaitan & Co act on Temasek's ₹2,500 crore investment in Godrej Capital"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/khaitan-co-advised-godrej-capital-inr-2500-crore-temasek-investment-991699",
+          "headline": "Khaitan & Co Advised Godrej Capital On Proposed INR 2,500 Crore Investment By Temasek",
+          "rules": [
+            "same-team-same-issuer"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-persistent-systems-on-7600-crore-acquisition-financing",
+        "headline": "Khaitan & Co advises Persistent Systems on ₹7,600 crore acquisition financing"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/khaitan-co-advises-persistent-systems-on-inr-7600-crore-acquisition-financing-991611",
+          "headline": "Khaitan & Co Advised Persistent Systems On INR 7,600 Crore Acquisition Financing",
+          "rules": [
+            "same-core-headline"
           ]
         }
       ]
@@ -1164,6 +1215,23 @@
           "headline": "Trilegal Advised Remunance Services On Its Acquisition By The Hightekers Group",
           "rules": [
             "same-core-headline"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-sbi-funds-international-on-launch-of-signature-cio-funds-from-gift-city",
+        "headline": "Trilegal advises SBI Funds International on launch of Signature CIO Funds from GIFT City"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-sbi-funds-international-ifsc-launch-signature-cio-funds-gift-city-991686",
+          "headline": "Trilegal Advised SBI Funds International (IFSC) On Launch Of Signature CIO Funds From GIFT City",
+          "rules": [
+            "nested-same-type"
           ]
         }
       ]
@@ -1880,6 +1948,34 @@
       ],
       "shared_people": 2,
       "people_jaccard": 0.04,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Khaitan & Co Advised HarbourFront India Investment Advisory On RBI Engagement Regarding In-Specie...",
+      "a_url": "https://www.legaleraonline.com/deal-street/khaitan-co-harbourfront-rbi-in-specie-distribution-category-ii-aif-991514",
+      "b": "Khaitan & Co advises HarbourFront on RBI engagement on In-Specie distribution by a Category II AIF",
+      "b_url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-harbourfront-on-rbi-engagement-on-in-specie-distribution-by-a-category-ii-aif",
+      "date_gap_days": 5,
+      "head_sim": 0.57,
+      "lede_sim": 0.47,
+      "shared_rare": [
+        "engagement",
+        "harbourfront",
+        "rbi",
+        "specie"
+      ],
+      "a_only": [
+        "advisory",
+        "regarding"
+      ],
+      "b_only": [
+        "aif",
+        "category",
+        "distribution",
+        "ii"
+      ],
+      "shared_people": 3,
+      "people_jaccard": 1.0,
       "veto": "entity-clash"
     },
     {
