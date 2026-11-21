@@ -1,8 +1,8 @@
 {
   "stats": {
-    "people": 4524,
+    "people": 4525,
     "firms": 156,
-    "deals": 816,
+    "deals": 819,
     "practice_areas": 6
   },
   "firms": [
@@ -1672,7 +1672,6 @@
             710,
             19,
             18,
-            690,
             4330,
             26,
             1226,
@@ -1840,6 +1839,7 @@
             679,
             1227,
             657,
+            690,
             231,
             654,
             2555,
@@ -1847,6 +1847,7 @@
             636,
             512,
             1186,
+            3295,
             513,
             232,
             1836,
@@ -1864,6 +1865,7 @@
             4343,
             653,
             3286,
+            1884,
             465,
             2550,
             2552,
@@ -2232,45 +2234,45 @@
           "area": "Banking & Finance",
           "person_ids": [
             3454,
-            4471,
+            4473,
             3456,
             3451,
             3457,
             3452,
             3458,
             3455,
-            4470,
-            4469,
+            4472,
+            4471,
             3453
           ]
         },
         {
           "area": "Private Equity & Venture Capital",
           "person_ids": [
-            4472,
-            4471,
             4474,
+            4473,
+            4476,
             3451,
             3452,
-            4470,
-            4473,
+            4472,
+            4475,
             3453
           ]
         },
         {
           "area": "Capital Markets",
           "person_ids": [
+            4470,
+            4467,
             4468,
-            4465,
-            4466,
-            4467
+            4469
           ]
         },
         {
           "area": "Unclassified",
           "person_ids": [
-            4476,
-            4475
+            4478,
+            4477
           ]
         }
       ]
@@ -3444,12 +3446,12 @@
     },
     {
       "firm": "Khaitan & Co",
-      "people_count": 743,
+      "people_count": 744,
       "practice_groups": [
         {
           "area": "Mergers & Acquisitions",
           "person_ids": [
-            4431,
+            4433,
             1725,
             3718,
             903,
@@ -3507,7 +3509,7 @@
             1643,
             3595,
             53,
-            4477,
+            4479,
             1803,
             3535,
             1985,
@@ -3522,7 +3524,7 @@
             2427,
             1729,
             2690,
-            4421,
+            4423,
             4397,
             1801,
             3584,
@@ -3544,10 +3546,10 @@
             4386,
             597,
             4394,
-            4435,
+            4437,
             159,
-            4422,
-            4429,
+            4424,
+            4431,
             353,
             1730,
             602,
@@ -3562,7 +3564,7 @@
             4405,
             354,
             1792,
-            4432,
+            4434,
             3339,
             1799,
             160,
@@ -3578,9 +3580,9 @@
             4413,
             1924,
             2693,
-            4482,
+            4483,
             1858,
-            4425,
+            4427,
             1890,
             157,
             1920,
@@ -3594,7 +3596,7 @@
             60,
             201,
             3719,
-            4434,
+            4436,
             3662,
             1570,
             351,
@@ -3602,7 +3604,7 @@
             4407,
             3748,
             4130,
-            4428,
+            4430,
             601,
             1997,
             348,
@@ -3615,7 +3617,7 @@
             4387,
             56,
             1839,
-            4479,
+            4481,
             2033,
             356,
             2138,
@@ -3624,7 +3626,7 @@
             2504,
             1953,
             2039,
-            4478,
+            4480,
             2004,
             1470,
             2012,
@@ -3639,7 +3641,7 @@
             2008,
             202,
             1732,
-            4423,
+            4425,
             2413,
             3599,
             1959,
@@ -3649,18 +3651,18 @@
             3710,
             4401,
             1891,
-            4420,
+            4422,
             1938,
             61,
             3720,
-            4430,
+            4432,
             2588,
             1805,
             4404,
             3771,
             3774,
             2036,
-            4426,
+            4428,
             200,
             598,
             3725,
@@ -3723,11 +3725,11 @@
             2017,
             2023,
             1659,
-            4481,
+            4419,
             55,
             4403,
             1857,
-            4433,
+            4435,
             3659,
             1897,
             594,
@@ -3744,7 +3746,7 @@
             3335,
             4388,
             1996,
-            4480,
+            4482,
             3699,
             4390,
             2038,
@@ -3788,7 +3790,7 @@
             1567,
             2397,
             1797,
-            4424,
+            4426,
             4383,
             4392,
             4406,
@@ -3809,7 +3811,7 @@
             3779,
             1734,
             1925,
-            4427,
+            4429,
             4396,
             1571,
             3686,
@@ -3851,6 +3853,7 @@
             1898,
             3668,
             1894,
+            4420,
             3994,
             3761,
             1867,
@@ -3926,6 +3929,7 @@
             1679,
             3696,
             2026,
+            3719,
             351,
             3600,
             600,
@@ -3937,6 +3941,8 @@
             162,
             2218,
             1655,
+            1949,
+            2033,
             2138,
             1844,
             2689,
@@ -4007,6 +4013,7 @@
             2017,
             2217,
             1659,
+            4419,
             2899,
             1897,
             1654,
@@ -4321,7 +4328,7 @@
             2404,
             3379,
             1976,
-            4419
+            4421
           ]
         },
         {
@@ -4441,10 +4448,10 @@
           "area": "Private Equity & Venture Capital",
           "person_ids": [
             3808,
-            4483,
+            4484,
             2063,
             2062,
-            4484,
+            4485,
             3807
           ]
         },
@@ -4463,7 +4470,7 @@
             3805,
             3803,
             3804,
-            4485
+            4486
           ]
         },
         {
@@ -4477,8 +4484,8 @@
         {
           "area": "Restructuring & Insolvency",
           "person_ids": [
-            4464,
-            4463
+            4466,
+            4465
           ]
         }
       ]
@@ -4514,33 +4521,33 @@
         {
           "area": "Mergers & Acquisitions",
           "person_ids": [
+            4507,
             4506,
+            4493,
+            4500,
+            4501,
+            4497,
+            4502,
+            4504,
+            4495,
             4505,
             4492,
             4499,
-            4500,
-            4496,
-            4501,
-            4503,
             4494,
-            4504,
-            4491,
-            4498,
-            4493,
-            4489,
-            4507,
-            4502,
-            4495,
-            4486,
-            4497
+            4490,
+            4508,
+            4503,
+            4496,
+            4487,
+            4498
           ]
         },
         {
           "area": "Unclassified",
           "person_ids": [
+            4489,
+            4491,
             4488,
-            4490,
-            4487,
             3834,
             3833,
             3835
@@ -5219,9 +5226,9 @@
             2350,
             1023,
             2164,
-            4437,
-            1028,
             4439,
+            1028,
+            4441,
             2349,
             1029,
             2165,
@@ -5229,22 +5236,22 @@
             2545,
             2351,
             1030,
-            4438,
+            4440,
             2352
           ]
         },
         {
           "area": "Mergers & Acquisitions",
           "person_ids": [
-            4444,
-            4441,
-            4440,
-            4447,
-            4442,
-            4448,
-            4445,
             4446,
-            4443
+            4443,
+            4442,
+            4449,
+            4444,
+            4450,
+            4447,
+            4448,
+            4445
           ]
         },
         {
@@ -5253,8 +5260,8 @@
             3054,
             3057,
             4282,
-            4449,
-            4450,
+            4451,
+            4452,
             3055,
             3056
           ]
@@ -5827,7 +5834,7 @@
             2250,
             3483,
             611,
-            4436,
+            4438,
             2760,
             2042,
             2251,
@@ -6118,43 +6125,43 @@
         {
           "area": "Unclassified",
           "person_ids": [
+            4523,
             4522,
+            4519,
             4521,
-            4518,
-            4520,
-            4519
+            4520
           ]
         },
         {
           "area": "Capital Markets",
           "person_ids": [
+            4511,
             4510,
             4509,
-            4508,
-            4511
+            4512
           ]
         },
         {
           "area": "Mergers & Acquisitions",
           "person_ids": [
+            4518,
+            4515,
             4517,
-            4514,
-            4516,
-            4515
+            4516
           ]
         },
         {
           "area": "Private Equity & Venture Capital",
           "person_ids": [
-            4512,
-            4508,
-            4513
+            4513,
+            4509,
+            4514
           ]
         },
         {
           "area": "Corporate & Commercial",
           "person_ids": [
-            4516
+            4517
           ]
         }
       ]
@@ -6304,8 +6311,8 @@
           "area": "Unclassified",
           "person_ids": [
             4030,
+            4525,
             4524,
-            4523,
             4031
           ]
         }
@@ -6912,7 +6919,7 @@
             2617,
             2561,
             1710,
-            4458,
+            4460,
             364,
             2957,
             3001,
@@ -6929,18 +6936,18 @@
             565,
             3257,
             1057,
-            4453,
+            4455,
             3264,
             4157,
             3954,
-            4454,
+            4456,
             989,
             218,
             2671,
             2657,
             2528,
             2477,
-            4455,
+            4457,
             3004,
             2837,
             3948,
@@ -6970,7 +6977,7 @@
             2560,
             961,
             1067,
-            4457,
+            4459,
             3370,
             1121,
             2783,
@@ -6982,7 +6989,7 @@
             2562,
             1814,
             2593,
-            4462,
+            4464,
             3944,
             571,
             3002,
@@ -7010,7 +7017,7 @@
             215,
             2595,
             1849,
-            4459,
+            4461,
             2621,
             2793,
             1061,
@@ -7035,7 +7042,7 @@
             2872,
             206,
             3952,
-            4460,
+            4462,
             2558,
             4087,
             4141,
@@ -7049,7 +7056,7 @@
             2700,
             3946,
             2530,
-            4456,
+            4458,
             1987,
             3955,
             2708,
@@ -7108,7 +7115,7 @@
             1823,
             4081,
             962,
-            4461,
+            4463,
             438,
             951,
             4082,
@@ -7146,7 +7153,7 @@
             958,
             1699,
             3980,
-            4452,
+            4454,
             2788,
             1269,
             1120,
@@ -7166,7 +7173,7 @@
             1986,
             3979,
             2454,
-            4451,
+            4453,
             1275,
             957,
             3403,
@@ -8222,7 +8229,7 @@
       "snapshot": "JSA, Trilegal act on Apax Partners investing ₹1,500 crore in iD Fresh Food - Bar and Bench"
     },
     {
-      "id": 4431,
+      "id": 4433,
       "name": "Aakarsh Chandranahu",
       "firm": "Khaitan & Co",
       "role": "Associate",
@@ -8390,7 +8397,7 @@
       "snapshot": "Trilegal advises Iswarya Health on securing ₹355 crore investment from OrbiMed"
     },
     {
-      "id": 4464,
+      "id": 4466,
       "name": "Aakash Karekar",
       "firm": "Kochhar & Co",
       "role": "Associate",
@@ -21611,7 +21618,7 @@
       "snapshot": "Trilegal acts on Berry Street - Healthify merger"
     },
     {
-      "id": 4444,
+      "id": 4446,
       "name": "Advaita Kapoor",
       "firm": "S&R Associates",
       "role": "Associate",
@@ -23404,7 +23411,7 @@
       "snapshot": "JSA, Khaitan & Co act on IndiaRF acquiring majority stake in Ashok Iron Works' casting and machining business"
     },
     {
-      "id": 4506,
+      "id": 4507,
       "name": "Aishwarya Narasimhan",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Associate",
@@ -28422,7 +28429,7 @@
       "snapshot": "JSA acts on Two Point O Capital Series A fundraise"
     },
     {
-      "id": 4505,
+      "id": 4506,
       "name": "Alekhya Kanda",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Senior Associate",
@@ -30901,7 +30908,7 @@
       "snapshot": "JSA, ELP act on TravelPlus ₹250 crore+ IPO filing - Bar and Bench"
     },
     {
-      "id": 4522,
+      "id": 4523,
       "name": "Ambuja Jain",
       "firm": "Singhania & Co",
       "role": "Associate",
@@ -31320,7 +31327,7 @@
       "snapshot": "Trilegal, Verist Law, TT&A, Hogan Lovells act on Marri Retail ₹522 crore+ proposed IPO"
     },
     {
-      "id": 4521,
+      "id": 4522,
       "name": "Amit Bansal",
       "firm": "Singhania & Co",
       "role": "Partner",
@@ -31682,7 +31689,8 @@
         "Piramal Finance",
         "Capri Loans",
         "Bonfiglioli",
-        "IDFC FIRST Bank"
+        "IDFC FIRST Bank",
+        "Book-Running Lead Managers"
       ],
       "deals": [
         {
@@ -31907,6 +31915,26 @@
             "currency": "USD",
             "amount": 600000000,
             "amount_inr": 52800000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Linklaters Advised Book-Running Lead Managers On Bajaj Finance’s INR 117 Billion QIP",
+          "client": "Book-Running Lead Managers",
+          "url": "https://www.legaleraonline.com/deal-street/linklaters-bajaj-finance-inr-117-billion-qip-991820",
+          "source": "Legal Era",
+          "published_at": "2026-11-20",
+          "types": [
+            "QIP"
+          ],
+          "practice_areas": [
+            "Capital Markets"
+          ],
+          "value": {
+            "raw": "INR 117 Billion",
+            "currency": "INR",
+            "amount": 117000000000,
+            "amount_inr": 117000000000,
             "approx": false
           }
         }
@@ -34794,6 +34822,45 @@
       "snapshot": "SAM acts on Tractor Junction ₹200 crore fundraise - Bar and Bench"
     },
     {
+      "id": 4420,
+      "name": "Anasruta Roy",
+      "firm": "Khaitan & Co",
+      "role": "Associate",
+      "role_bucket": "Associate",
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
+      "clients": [
+        "Hero FinCorp"
+      ],
+      "deals": [
+        {
+          "headline": "Khaitan & Co Advised Hero FinCorp On INR 450 Crore Private Credit Investment In Shree Naman Group NCDs",
+          "client": "Hero FinCorp",
+          "url": "https://www.legaleraonline.com/deal-street/khaitan-herofincorp-shree-naman-ncd-investment-991827",
+          "source": "Legal Era",
+          "published_at": "2026-11-20",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "INR 450 Crore",
+            "currency": "INR",
+            "amount": 4500000000,
+            "amount_inr": 4500000000,
+            "approx": false
+          }
+        }
+      ],
+      "snapshot": "Khaitan & Co Advised Hero FinCorp On INR 450 Crore Private Credit Investment In Shree Naman Group NCDs"
+    },
+    {
       "id": 177,
       "name": "Anaya Jain",
       "firm": "Shardul Amarchand Mangaldas & Co",
@@ -35538,7 +35605,7 @@
       "snapshot": "Dua Associates advises Piramal Finance on ₹125 crore financing for residential projects in Bengaluru"
     },
     {
-      "id": 4472,
+      "id": 4474,
       "name": "Angad Verma",
       "firm": "Dua Associates",
       "role": "Partner",
@@ -36845,7 +36912,7 @@
       "snapshot": "NSE IPO: Which law firms are advising the stock exchange on its public listing?"
     },
     {
-      "id": 4458,
+      "id": 4460,
       "name": "Anirudh Banga",
       "firm": "Trilegal",
       "role": "Counsel",
@@ -36911,7 +36978,7 @@
       "snapshot": "CAM, SAM act on Devyani International – Sapphire Foods merger"
     },
     {
-      "id": 4468,
+      "id": 4470,
       "name": "Anirudh Jaiswal",
       "firm": "Dua Associates",
       "role": "Associate",
@@ -40393,7 +40460,7 @@
       "snapshot": "Advent International set to invest ~₹2,750 crore in Aditya Birla Housing Finance; CAM, AZB advise"
     },
     {
-      "id": 4488,
+      "id": 4489,
       "name": "Annanya Elhence",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Associate",
@@ -43499,7 +43566,7 @@
       "snapshot": "CAM, Trilegal act on SEDEMAC Mechatronics ~₹1,087 crore IPO - Bar and Bench"
     },
     {
-      "id": 4483,
+      "id": 4484,
       "name": "Anuj Kaila",
       "firm": "Kochhar & Co",
       "role": "Partner",
@@ -43981,7 +44048,7 @@
       "snapshot": "CAM advises Hiranandani Financial Services on raising ₹800 crore from Vitruvian"
     },
     {
-      "id": 4471,
+      "id": 4473,
       "name": "Anukriti Prakash",
       "firm": "Dua Associates",
       "role": "Senior Associate",
@@ -44128,7 +44195,7 @@
       "snapshot": "InsuranceDekho merges with RenewBuy; DSK, Khaitan, CAM, CMS INDUSLAW, TT&A, Bharucha, EVA Law advise"
     },
     {
-      "id": 4492,
+      "id": 4493,
       "name": "Anupam Misra",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Associate Partner",
@@ -46535,7 +46602,7 @@
       "snapshot": "Khaitan & Co assists RPG Life Sciences on carve-out of its API business"
     },
     {
-      "id": 4452,
+      "id": 4454,
       "name": "Anvita Sinha",
       "firm": "Trilegal",
       "role": "Associate",
@@ -47408,7 +47475,7 @@
       "snapshot": "CAM, AZB act on Warburg Pincus acquiring stake in Fleur Hotels - Bar and Bench"
     },
     {
-      "id": 4510,
+      "id": 4511,
       "name": "Apoorva Kuthiala",
       "firm": "Singhania & Co",
       "role": "Principal Associate",
@@ -47598,7 +47665,7 @@
       "snapshot": "CAM, Trilegal, SAM act on Bharti Airtel, Carlyle, Alpha Wave investing $1 billion in Airtel's Nxtra Data"
     },
     {
-      "id": 4436,
+      "id": 4438,
       "name": "Apoorva Tyagi",
       "firm": "Shardul Amarchand Mangaldas & Co",
       "role": "Associate",
@@ -48787,7 +48854,7 @@
       }
     },
     {
-      "id": 4517,
+      "id": 4518,
       "name": "Archita Chaturvedi",
       "firm": "Singhania & Co",
       "role": "Associate",
@@ -53177,7 +53244,8 @@
         "Hiranandani Financial Services & Founders",
         "Ministry of Petroleum and Natural Gas",
         "True North",
-        "L Catterton India Fund"
+        "L Catterton India Fund",
+        "Multiples Alternate Asset Management"
       ],
       "deals": [
         {
@@ -53239,6 +53307,26 @@
             "Private Equity & Venture Capital"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas Advised Multiples Alternate Asset Management On USD 100 Million Investment...",
+          "client": "Multiples Alternate Asset Management",
+          "url": "https://www.legaleraonline.com/deal-street/cam-multiples-giva-usd-100-million-investment-991815",
+          "source": "Legal Era",
+          "published_at": "2026-11-20",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "USD 100 Million",
+            "currency": "USD",
+            "amount": 100000000,
+            "amount_inr": 8800000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM advises Hiranandani Financial Services on raising ₹800 crore from Vitruvian"
@@ -53533,7 +53621,7 @@
       "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co, Latham & Watkins act on Dhoot Transmission ₹3,066 crore IPO"
     },
     {
-      "id": 4453,
+      "id": 4455,
       "name": "Aryan Bhatia",
       "firm": "Trilegal",
       "role": "Associate",
@@ -55859,7 +55947,7 @@
       "snapshot": "Cyril Amarchand Mangaldas, TT&A act on Adani's ₹3,050 crore acquisition of IntelliSmart"
     },
     {
-      "id": 4454,
+      "id": 4456,
       "name": "Astha Srivastava",
       "firm": "Trilegal",
       "role": "Partner",
@@ -55956,7 +56044,7 @@
       "snapshot": "TPG-led consortium to acquire Aseem Infra Finance; CAM, Linklaters, Trilegal, SAM advise"
     },
     {
-      "id": 4514,
+      "id": 4515,
       "name": "Atharv Gupta",
       "firm": "Singhania & Co",
       "role": "Senior Associate",
@@ -56396,7 +56484,7 @@
       "snapshot": "Khaitan & Co acts on Muthoot FinCorp ₹3,000 crore IPO"
     },
     {
-      "id": 4499,
+      "id": 4500,
       "name": "Atrijo Banerjee",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Associate",
@@ -57690,7 +57778,7 @@
       "snapshot": "Veritas Legal, Shardul Amarchand Mangaldas advise on 360 One Alternates ... - Bar and Bench"
     },
     {
-      "id": 4477,
+      "id": 4479,
       "name": "Avantika Singh",
       "firm": "Khaitan & Co",
       "role": "Associate",
@@ -66328,7 +66416,7 @@
       "snapshot": "TT&A, Paul Weiss, Avisen Legal act on Carrier acquiring 75F Inc."
     },
     {
-      "id": 4518,
+      "id": 4519,
       "name": "Chaishta Channan",
       "firm": "Singhania & Co",
       "role": "Associate",
@@ -66582,7 +66670,7 @@
       "snapshot": "Trilegal advises Continuum Green Energy on securing $67.5 million from Just Climate"
     },
     {
-      "id": 4421,
+      "id": 4423,
       "name": "Chaitanya Snehal Shah",
       "firm": "Khaitan & Co",
       "role": "Senior Associate",
@@ -66726,6 +66814,7 @@
       ],
       "clients": [
         "True North",
+        "Multiples Alternate Asset Management",
         "Sumitomo Mitsui Trust Bank"
       ],
       "deals": [
@@ -66742,6 +66831,26 @@
             "Private Equity & Venture Capital"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas Advised Multiples Alternate Asset Management On USD 100 Million Investment...",
+          "client": "Multiples Alternate Asset Management",
+          "url": "https://www.legaleraonline.com/deal-street/cam-multiples-giva-usd-100-million-investment-991815",
+          "source": "Legal Era",
+          "published_at": "2026-11-20",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "USD 100 Million",
+            "currency": "USD",
+            "amount": 100000000,
+            "amount_inr": 8800000000,
+            "approx": false
+          }
         },
         {
           "headline": "Cyril Amarchand Mangaldas Advised Sumitomo Mitsui Trust Bank On Minority Investment In One Planet...",
@@ -66992,7 +67101,7 @@
       "snapshot": "CAM, Trilegal act on MEIL Energy acquiring a 250 MW thermal power project in Tamil Nadu ..."
     },
     {
-      "id": 4500,
+      "id": 4501,
       "name": "Charms Mathews",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Senior Associate",
@@ -67025,7 +67134,7 @@
       "snapshot": "Lakshmikumaran & Sridharan Attorneys Advises Toyota Group On Acquisition Of Car Dealership Business From..."
     },
     {
-      "id": 4490,
+      "id": 4491,
       "name": "Charms Matthew",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Associate",
@@ -67137,7 +67246,7 @@
       "snapshot": "Khaitan & Co, JSA act on IIFL Finance updating its $1 billion Global Medium Term Note Programme"
     },
     {
-      "id": 4455,
+      "id": 4457,
       "name": "Charulatha Jagdish",
       "firm": "Trilegal",
       "role": "Senior Associate",
@@ -69859,7 +69968,7 @@
       "snapshot": "White & Case, AZB, Sullivan, Cyril Amarchand Mangaldas act on Sun Pharma's $11.75 ..."
     },
     {
-      "id": 4496,
+      "id": 4497,
       "name": "Debanik Bid",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Principal Associate",
@@ -76322,7 +76431,7 @@
       "snapshot": "Khaitan & Co, Trilegal, Linklaters act on JSW Infrastructure ₹7,502 crore QIP"
     },
     {
-      "id": 4501,
+      "id": 4502,
       "name": "Dinesh Babu Eedi",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Partner",
@@ -77409,7 +77518,7 @@
       "snapshot": "Khaitan, SAM act on VINCI Highways acquiring 700 km highway assets across AP and Gujarat"
     },
     {
-      "id": 4509,
+      "id": 4510,
       "name": "Diviay Chadha",
       "firm": "Singhania & Co",
       "role": "Partner",
@@ -78660,7 +78769,7 @@
       "snapshot": "Trilegal, Sheppard act on $310 million acquisition of iMerit by EXL - Bar and Bench"
     },
     {
-      "id": 4435,
+      "id": 4437,
       "name": "Dnyaneshwari Chincholikar",
       "firm": "Khaitan & Co",
       "role": "Senior Associate",
@@ -82323,7 +82432,7 @@
       "snapshot": null
     },
     {
-      "id": 4422,
+      "id": 4424,
       "name": "Farhanaz Hazari",
       "firm": "Khaitan & Co",
       "role": "Associate",
@@ -82405,7 +82514,7 @@
       "snapshot": "JSA advises Manipal Hospitals on ₹495 crore hospital acquisition in Mumbai"
     },
     {
-      "id": 4429,
+      "id": 4431,
       "name": "Farooq Al Rafeeq",
       "firm": "Khaitan & Co",
       "role": "Associate",
@@ -83141,7 +83250,7 @@
       "snapshot": "JSA, Lex Consult act on TPG NewQuest's exit from Forus Health"
     },
     {
-      "id": 4520,
+      "id": 4521,
       "name": "Garima Goel",
       "firm": "Singhania & Co",
       "role": "Associate",
@@ -87325,7 +87434,7 @@
       "snapshot": "AZB, JSA act on Canara Robeco ~₹1,326 crore IPO",
       "same_name_elsewhere": [
         {
-          "id": 4451,
+          "id": 4453,
           "firm": "Trilegal",
           "role": "Senior Associate",
           "deal_count": 1
@@ -87337,7 +87446,7 @@
       }
     },
     {
-      "id": 4451,
+      "id": 4453,
       "name": "Govind Roy",
       "firm": "Trilegal",
       "role": "Senior Associate",
@@ -87999,7 +88108,7 @@
       "snapshot": "Dhir & Dhir Associates assists in Powertronix Engineering proposed IPO"
     },
     {
-      "id": 4503,
+      "id": 4504,
       "name": "Guru Charan Anumula",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Associate",
@@ -90580,7 +90689,7 @@
       "snapshot": "AZB, JSA act on Canara Robeco ~₹1,326 crore IPO"
     },
     {
-      "id": 4432,
+      "id": 4434,
       "name": "Harsh Walia",
       "firm": "Khaitan & Co",
       "role": "Partner",
@@ -93459,7 +93568,7 @@
       "snapshot": "Trilegal advises SBI Funds International on launch of Signature CIO Funds from GIFT City"
     },
     {
-      "id": 4487,
+      "id": 4488,
       "name": "Hima Swetha",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Associate",
@@ -102382,7 +102491,7 @@
       "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech"
     },
     {
-      "id": 4494,
+      "id": 4495,
       "name": "Jeevesh Jain",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Associate",
@@ -105239,7 +105348,7 @@
       "snapshot": "Herbert Smith Freehills Kramer, Khaitan & Co advise the University of Western Australia on setting up a..."
     },
     {
-      "id": 4482,
+      "id": 4483,
       "name": "Joshua George",
       "firm": "Khaitan & Co",
       "role": "Associate",
@@ -106807,7 +106916,7 @@
       "snapshot": "Trilegal advises Allana Group on JV with Captain Fresh to launch India's largest ... - Bar and Bench"
     },
     {
-      "id": 4425,
+      "id": 4427,
       "name": "Kabir Bogra",
       "firm": "Khaitan & Co",
       "role": "Partner",
@@ -108514,7 +108623,7 @@
       "snapshot": "TLH Advocates advises Arete Hospitals on sale of hospital business to Aurevia Hospitals"
     },
     {
-      "id": 4474,
+      "id": 4476,
       "name": "Kapil Saxena",
       "firm": "Dua Associates",
       "role": "Principal Associate",
@@ -111128,7 +111237,7 @@
       }
     },
     {
-      "id": 4457,
+      "id": 4459,
       "name": "Kashish Jaitley",
       "firm": "Trilegal",
       "role": "Senior Associate",
@@ -111739,7 +111848,8 @@
       "clients": [
         "True North",
         "L Catterton",
-        "Novo Tellus Capital Partners"
+        "Novo Tellus Capital Partners",
+        "Multiples Alternate Asset Management"
       ],
       "deals": [
         {
@@ -111799,6 +111909,26 @@
             "currency": "USD",
             "amount": 75000000,
             "amount_inr": 6600000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas Advised Multiples Alternate Asset Management On USD 100 Million Investment...",
+          "client": "Multiples Alternate Asset Management",
+          "url": "https://www.legaleraonline.com/deal-street/cam-multiples-giva-usd-100-million-investment-991815",
+          "source": "Legal Era",
+          "published_at": "2026-11-20",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "USD 100 Million",
+            "currency": "USD",
+            "amount": 100000000,
+            "amount_inr": 8800000000,
             "approx": false
           }
         },
@@ -113921,14 +114051,17 @@
       "role_bucket": "Senior Associate",
       "transaction_types": [
         "acquisition",
-        "financing"
+        "financing",
+        "investment"
       ],
       "practice_areas": [
         "Banking & Finance",
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Persistent Systems"
+        "Persistent Systems",
+        "Hero FinCorp"
       ],
       "deals": [
         {
@@ -113956,6 +114089,26 @@
             "currency": "INR",
             "amount": 76000000000,
             "amount_inr": 76000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Khaitan & Co Advised Hero FinCorp On INR 450 Crore Private Credit Investment In Shree Naman Group NCDs",
+          "client": "Hero FinCorp",
+          "url": "https://www.legaleraonline.com/deal-street/khaitan-herofincorp-shree-naman-ncd-investment-991827",
+          "source": "Legal Era",
+          "published_at": "2026-11-20",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "INR 450 Crore",
+            "currency": "INR",
+            "amount": 4500000000,
+            "amount_inr": 4500000000,
             "approx": false
           }
         }
@@ -114645,7 +114798,7 @@
       "snapshot": "CAM, AZB, Hogan Lovells act on Park Hospitals ₹920 crore IPO"
     },
     {
-      "id": 4434,
+      "id": 4436,
       "name": "Khyati Goel",
       "firm": "Khaitan & Co",
       "role": "Senior Associate",
@@ -118805,7 +118958,7 @@
       "snapshot": "CAM advises Statkraft A.S. on 100% stake sale of wholly owned subsidiary, Mandakini Jal Urja"
     },
     {
-      "id": 4504,
+      "id": 4505,
       "name": "Kumar Panda",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Principal Associate",
@@ -118937,7 +119090,7 @@
       "snapshot": "SAM, Linklaters act on Biocon Limited ₹4,150 crore QIP - Bar and Bench",
       "same_name_elsewhere": [
         {
-          "id": 4516,
+          "id": 4517,
           "firm": "Singhania & Co",
           "role": "Principal Associate",
           "deal_count": 3
@@ -118949,7 +119102,7 @@
       }
     },
     {
-      "id": 4516,
+      "id": 4517,
       "name": "Kumar Shubham",
       "firm": "Singhania & Co",
       "role": "Principal Associate",
@@ -119229,7 +119382,7 @@
       "snapshot": "Capitaland sells ITPC Chennai to Mindspace, 360 One for ₹3000 crore - Bar and Bench"
     },
     {
-      "id": 4491,
+      "id": 4492,
       "name": "Kunal Arora",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Partner",
@@ -120901,7 +121054,7 @@
       "snapshot": "SAM, Rajani, Trilegal act on Aequs ₹1,100 crore IPO and pre-IPO placement"
     },
     {
-      "id": 4428,
+      "id": 4430,
       "name": "Laksh Manocha",
       "firm": "Khaitan & Co",
       "role": "Senior Associate",
@@ -120972,7 +121125,7 @@
       "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha..."
     },
     {
-      "id": 4462,
+      "id": 4464,
       "name": "Lakshaya Grover",
       "firm": "Trilegal",
       "role": "Associate",
@@ -121629,7 +121782,7 @@
       "snapshot": "Blackstone-backed Nexus shops for Kolkata mall Diamond Plaza; Khaitan, SAM advise"
     },
     {
-      "id": 4484,
+      "id": 4485,
       "name": "Lavanya Ambalkar",
       "firm": "Kochhar & Co",
       "role": "Associate",
@@ -128630,12 +128783,14 @@
       "transaction_types": [
         "acquisition",
         "financing",
+        "investment",
         "joint venture"
       ],
       "practice_areas": [
         "Banking & Finance",
         "Corporate & Commercial",
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
         "IIFL Finance",
@@ -128646,6 +128801,7 @@
         "Capri Loans",
         "Gabriel India",
         "National Bank",
+        "Hero FinCorp",
         "Godrej Finance Limited"
       ],
       "deals": [
@@ -128794,6 +128950,26 @@
             "currency": "USD",
             "amount": 4000000000,
             "amount_inr": 352000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Khaitan & Co Advised Hero FinCorp On INR 450 Crore Private Credit Investment In Shree Naman Group NCDs",
+          "client": "Hero FinCorp",
+          "url": "https://www.legaleraonline.com/deal-street/khaitan-herofincorp-shree-naman-ncd-investment-991827",
+          "source": "Legal Era",
+          "published_at": "2026-11-20",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "INR 450 Crore",
+            "currency": "INR",
+            "amount": 4500000000,
+            "amount_inr": 4500000000,
             "approx": false
           }
         },
@@ -131276,7 +131452,7 @@
       "snapshot": "SAM, CAM, Latham act on Groww ₹6,632 crore IPO - Bar and Bench"
     },
     {
-      "id": 4498,
+      "id": 4499,
       "name": "Mathanki Narayanan",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Associate",
@@ -132319,7 +132495,7 @@
       }
     },
     {
-      "id": 4524,
+      "id": 4525,
       "name": "Mayank Kumar",
       "firm": "TLH Advocates & Solicitors",
       "role": "Senior Associate",
@@ -134986,7 +135162,7 @@
       "snapshot": "SAM advises on ₹2,300 crore refinancing of Jayaswal Neco Industries - Bar and Bench"
     },
     {
-      "id": 4479,
+      "id": 4481,
       "name": "Mihir Gupte",
       "firm": "Khaitan & Co",
       "role": "Senior Associate",
@@ -135354,7 +135530,8 @@
         "Hiranandani Financial Services & Founders",
         "Ministry of Petroleum and Natural Gas",
         "True North",
-        "L Catterton India Fund"
+        "L Catterton India Fund",
+        "Multiples Alternate Asset Management"
       ],
       "deals": [
         {
@@ -135416,6 +135593,26 @@
             "Private Equity & Venture Capital"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas Advised Multiples Alternate Asset Management On USD 100 Million Investment...",
+          "client": "Multiples Alternate Asset Management",
+          "url": "https://www.legaleraonline.com/deal-street/cam-multiples-giva-usd-100-million-investment-991815",
+          "source": "Legal Era",
+          "published_at": "2026-11-20",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "USD 100 Million",
+            "currency": "USD",
+            "amount": 100000000,
+            "amount_inr": 8800000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM advises Hiranandani Financial Services on raising ₹800 crore from Vitruvian"
@@ -135949,7 +136146,7 @@
       "snapshot": "SAM advises Anzen India on acquisition of majority stake in 12 Solar"
     },
     {
-      "id": 4493,
+      "id": 4494,
       "name": "Mitushi Garg",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Principal Associate",
@@ -136581,19 +136778,22 @@
       "transaction_types": [
         "acquisition",
         "financing",
+        "investment",
         "joint venture"
       ],
       "practice_areas": [
         "Banking & Finance",
         "Corporate & Commercial",
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
         "VINCI Highways",
         "PwC US",
         "Persistent Systems",
         "Capri Loans",
-        "National Bank"
+        "National Bank",
+        "Hero FinCorp"
       ],
       "deals": [
         {
@@ -136687,6 +136887,26 @@
             "currency": "USD",
             "amount": 4000000000,
             "amount_inr": 352000000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Khaitan & Co Advised Hero FinCorp On INR 450 Crore Private Credit Investment In Shree Naman Group NCDs",
+          "client": "Hero FinCorp",
+          "url": "https://www.legaleraonline.com/deal-street/khaitan-herofincorp-shree-naman-ncd-investment-991827",
+          "source": "Legal Era",
+          "published_at": "2026-11-20",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "INR 450 Crore",
+            "currency": "INR",
+            "amount": 4500000000,
+            "amount_inr": 4500000000,
             "approx": false
           }
         }
@@ -136838,7 +137058,7 @@
       "snapshot": "CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise"
     },
     {
-      "id": 4437,
+      "id": 4439,
       "name": "Mohnish Mathew",
       "firm": "S&R Associates",
       "role": "Counsel",
@@ -138986,7 +139206,7 @@
       "snapshot": "Trilegal acts on GSP Crop Science ₹400 crore IPO - Bar and Bench"
     },
     {
-      "id": 4465,
+      "id": 4467,
       "name": "Munish Sharma",
       "firm": "Dua Associates",
       "role": "Partner",
@@ -142503,7 +142723,7 @@
       "snapshot": "DMD Advocates, JSA act on acquisition of Noble Seeds by BASF | Nunhems"
     },
     {
-      "id": 4478,
+      "id": 4480,
       "name": "Naresh Khanna",
       "firm": "Khaitan & Co",
       "role": "Associate",
@@ -142593,7 +142813,7 @@
       "snapshot": "Lex Consult, JSA act on Supply6 Series A fundraise"
     },
     {
-      "id": 4485,
+      "id": 4486,
       "name": "Narinder Kaul",
       "firm": "Kochhar & Co",
       "role": "Senior Associate",
@@ -143022,7 +143242,7 @@
       "snapshot": "JSA, ELP act on TravelPlus ₹250 crore+ IPO filing - Bar and Bench"
     },
     {
-      "id": 4439,
+      "id": 4441,
       "name": "Nathaniel Warjri",
       "firm": "S&R Associates",
       "role": "Associate",
@@ -144108,7 +144328,7 @@
       }
     },
     {
-      "id": 4489,
+      "id": 4490,
       "name": "Neelambera Sandeepan",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Partner",
@@ -145170,7 +145390,7 @@
       "snapshot": "Khaitan & Co, JSA act on Matel ₹130 crore Series B fundraise"
     },
     {
-      "id": 4507,
+      "id": 4508,
       "name": "Netri Agrawal",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Associate",
@@ -151220,7 +151440,7 @@
       "snapshot": "Aditya Birla acquires Sprng Energy from Shell for $1.8 billion; Khaitan & Co, Trilegal advise"
     },
     {
-      "id": 4459,
+      "id": 4461,
       "name": "Nishtha Shukla",
       "firm": "Trilegal",
       "role": "Senior Associate",
@@ -151681,7 +151901,7 @@
       "snapshot": "Trilegal, Khaitan & Co act on JBM Ecolife Mobility securing ₹750 crore from Motilal Oswal"
     },
     {
-      "id": 4512,
+      "id": 4513,
       "name": "Nitish Mawkin",
       "firm": "Singhania & Co",
       "role": "Associate Partner",
@@ -152403,7 +152623,7 @@
       "snapshot": "JSA, Khaitan act on Coforge's $2.35 billion acquisition of Encora - Bar and Bench"
     },
     {
-      "id": 4423,
+      "id": 4425,
       "name": "Nizel Pradhan",
       "firm": "Khaitan & Co",
       "role": "Associate",
@@ -153147,7 +153367,7 @@
       "snapshot": "CAM, Khaitan, SAM act on Clean Max Enviro Energy IPO"
     },
     {
-      "id": 4441,
+      "id": 4443,
       "name": "Oshika Nayak",
       "firm": "S&R Associates",
       "role": "Associate",
@@ -153994,7 +154214,7 @@
       "snapshot": "Trilegal advises Körber on acquiring 100% ownership of Godrej Körber Supply Chain"
     },
     {
-      "id": 4523,
+      "id": 4524,
       "name": "Palash Taing",
       "firm": "TLH Advocates & Solicitors",
       "role": "Principal Associate",
@@ -155408,7 +155628,7 @@
       "snapshot": "CAM, AZB act on Warburg Pincus acquiring stake in Fleur Hotels - Bar and Bench",
       "same_name_elsewhere": [
         {
-          "id": 4502,
+          "id": 4503,
           "firm": "Lakshmikumaran & Sridharan Attorneys",
           "role": "Principal Associate",
           "deal_count": 1
@@ -155420,7 +155640,7 @@
       }
     },
     {
-      "id": 4502,
+      "id": 4503,
       "name": "Parth Agrawal",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Principal Associate",
@@ -159069,7 +159289,7 @@
       "snapshot": "Aritra Partners, JSA act on Ethereal Machines $28.5 million Series B fundraise"
     },
     {
-      "id": 4420,
+      "id": 4422,
       "name": "Pragyansh Nigam",
       "firm": "Khaitan & Co",
       "role": "Senior Associate",
@@ -163593,7 +163813,7 @@
       "snapshot": "Khaitan, JSA act on Augmont ₹800 crore proposed IPO - Bar and Bench"
     },
     {
-      "id": 4440,
+      "id": 4442,
       "name": "Pratichi Mishra",
       "firm": "S&R Associates",
       "role": "Partner",
@@ -164466,7 +164686,7 @@
       "snapshot": "Trilegal, AZB & Partners act on BookMyShow securing investment from KKR"
     },
     {
-      "id": 4430,
+      "id": 4432,
       "name": "Pratyusha Dasgupta",
       "firm": "Khaitan & Co",
       "role": "Associate",
@@ -165112,7 +165332,7 @@
       "snapshot": "Khaitan & Co, JSA act on Matel ₹130 crore Series B fundraise"
     },
     {
-      "id": 4447,
+      "id": 4449,
       "name": "Prerana De",
       "firm": "S&R Associates",
       "role": "Associate",
@@ -168698,7 +168918,7 @@
       "snapshot": "IC RegFin Legal, CMS INDUSLAW, Trilegal act on Hyugalife ₹100 crore Series A fundraise"
     },
     {
-      "id": 4466,
+      "id": 4468,
       "name": "Punish Arora",
       "firm": "Dua Associates",
       "role": "Partner",
@@ -169664,7 +169884,7 @@
       "snapshot": "CAM advises QBE Holdings on acquiring Raheja QBE General Insurance Company"
     },
     {
-      "id": 4426,
+      "id": 4428,
       "name": "Raarah Gurjar",
       "firm": "Khaitan & Co",
       "role": "Principal Associate",
@@ -174130,7 +174350,8 @@
         "Private Equity & Venture Capital"
       ],
       "clients": [
-        "True North"
+        "True North",
+        "Multiples Alternate Asset Management"
       ],
       "deals": [
         {
@@ -174146,6 +174367,26 @@
             "Private Equity & Venture Capital"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas Advised Multiples Alternate Asset Management On USD 100 Million Investment...",
+          "client": "Multiples Alternate Asset Management",
+          "url": "https://www.legaleraonline.com/deal-street/cam-multiples-giva-usd-100-million-investment-991815",
+          "source": "Legal Era",
+          "published_at": "2026-11-20",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "USD 100 Million",
+            "currency": "USD",
+            "amount": 100000000,
+            "amount_inr": 8800000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Khaitan & Co, Cyril Amarchand Mangaldas act on Embio securing investment from True North"
@@ -181818,7 +182059,7 @@
       "snapshot": "Anagram, SAM, Trilegal, AZB act on Mensa Group reverse merger to India"
     },
     {
-      "id": 4460,
+      "id": 4462,
       "name": "Rishabh Garodia",
       "firm": "Trilegal",
       "role": "Senior Associate",
@@ -181994,7 +182235,7 @@
       "snapshot": "JSA acts on Goyaz Jewellery ₹130 crore Series A Fundraise"
     },
     {
-      "id": 4470,
+      "id": 4472,
       "name": "Rishabh Halwai",
       "firm": "Dua Associates",
       "role": "Principal Associate",
@@ -182499,7 +182740,7 @@
       "snapshot": "Khaitan & Co, Hogan Lovells Cadwalader act on Aditya Infotech ₹1,500 crore QIP"
     },
     {
-      "id": 4515,
+      "id": 4516,
       "name": "Rishev Andotra",
       "firm": "Singhania & Co",
       "role": "Associate",
@@ -185562,10 +185803,15 @@
       "firm": "Cyril Amarchand Mangaldas",
       "role": "Principal Associate",
       "role_bucket": "Principal Associate",
-      "transaction_types": [],
-      "practice_areas": [],
+      "transaction_types": [
+        "investment"
+      ],
+      "practice_areas": [
+        "Private Equity & Venture Capital"
+      ],
       "clients": [
-        "Dixon Technologies (India) Limited"
+        "Dixon Technologies (India) Limited",
+        "Multiples Alternate Asset Management"
       ],
       "deals": [
         {
@@ -185577,6 +185823,26 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas Advised Multiples Alternate Asset Management On USD 100 Million Investment...",
+          "client": "Multiples Alternate Asset Management",
+          "url": "https://www.legaleraonline.com/deal-street/cam-multiples-giva-usd-100-million-investment-991815",
+          "source": "Legal Era",
+          "published_at": "2026-11-20",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "USD 100 Million",
+            "currency": "USD",
+            "amount": 100000000,
+            "amount_inr": 8800000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM advises Dixon on acquiring 51% shareholding in QTech India - Bar and Bench"
@@ -185819,7 +186085,7 @@
       "snapshot": "Lex Consult, JSA act on Supply6 Series A fundraise",
       "same_name_elsewhere": [
         {
-          "id": 4508,
+          "id": 4509,
           "firm": "Singhania & Co",
           "role": "Managing Partner",
           "deal_count": 2
@@ -185831,7 +186097,7 @@
       }
     },
     {
-      "id": 4508,
+      "id": 4509,
       "name": "Rohit Jain",
       "firm": "Singhania & Co",
       "role": "Managing Partner",
@@ -190473,7 +190739,7 @@
       "snapshot": "Cyril Amarchand Mangaldas, Khaitan & Co act on Horizon Industrial Parks ₹2,600 crore IPO"
     },
     {
-      "id": 4513,
+      "id": 4514,
       "name": "Sagar Shrestha",
       "firm": "Singhania & Co",
       "role": "Senior Associate",
@@ -190935,7 +191201,7 @@
       "snapshot": "Capitaland sells ITPC Chennai to Mindspace, 360 One for ₹3000 crore - Bar and Bench"
     },
     {
-      "id": 4476,
+      "id": 4478,
       "name": "Sahil Dhawan",
       "firm": "Dua Associates",
       "role": "Partner",
@@ -192276,13 +192542,16 @@
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "investment"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
-        "Cerberus Capital"
+        "Cerberus Capital",
+        "Multiples Alternate Asset Management"
       ],
       "deals": [
         {
@@ -192302,6 +192571,26 @@
             "currency": "GBP",
             "amount": 1100000000,
             "amount_inr": 123200000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas Advised Multiples Alternate Asset Management On USD 100 Million Investment...",
+          "client": "Multiples Alternate Asset Management",
+          "url": "https://www.legaleraonline.com/deal-street/cam-multiples-giva-usd-100-million-investment-991815",
+          "source": "Legal Era",
+          "published_at": "2026-11-20",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "USD 100 Million",
+            "currency": "USD",
+            "amount": 100000000,
+            "amount_inr": 8800000000,
             "approx": false
           }
         }
@@ -192348,7 +192637,7 @@
       "snapshot": "SAM advises Sembcorp Green on ~₹1,700 crore acquisition of ReNew Sun Bright"
     },
     {
-      "id": 4456,
+      "id": 4458,
       "name": "Saksham Sharma",
       "firm": "Trilegal",
       "role": "Senior Associate",
@@ -193082,7 +193371,7 @@
       "snapshot": "Khaitan & Co, Trilegal act on ESDS ₹720 crore IPO"
     },
     {
-      "id": 4475,
+      "id": 4477,
       "name": "Salil Gulati",
       "firm": "Dua Associates",
       "role": "Partner",
@@ -194107,7 +194396,7 @@
       "snapshot": "DSK Legal, Troutman Pepper Locke advise Energage on merger with Engagedly"
     },
     {
-      "id": 4463,
+      "id": 4465,
       "name": "Sameena Jahangir",
       "firm": "Kochhar & Co",
       "role": "Partner",
@@ -195838,7 +196127,7 @@
       "snapshot": "Trilegal, CAM, Latham, AZB, Equilex, Macfarlanes advise on Mittal-Poonawalla consortium ...",
       "same_name_elsewhere": [
         {
-          "id": 4442,
+          "id": 4444,
           "firm": "S&R Associates",
           "role": "Associate",
           "deal_count": 1
@@ -195850,7 +196139,7 @@
       }
     },
     {
-      "id": 4442,
+      "id": 4444,
       "name": "Samyak Jain",
       "firm": "S&R Associates",
       "role": "Associate",
@@ -201866,7 +202155,7 @@
       "snapshot": "JSA acts on Shubham Housing Development Finance $96 million fundraise"
     },
     {
-      "id": 4495,
+      "id": 4496,
       "name": "Satwik Mohapatra",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Associate",
@@ -203429,7 +203718,7 @@
       "snapshot": "TT&A, Paul Weiss, Avisen Legal act on Carrier acquiring 75F Inc."
     },
     {
-      "id": 4467,
+      "id": 4469,
       "name": "Seema Salwan",
       "firm": "Dua Associates",
       "role": "Principal Associate",
@@ -203507,7 +203796,7 @@
       "snapshot": "Kanga & Co acts on Jai Parvati Forge ₹300 crore+ proposed IPO"
     },
     {
-      "id": 4448,
+      "id": 4450,
       "name": "Sehaj Mahajan",
       "firm": "S&R Associates",
       "role": "Associate",
@@ -209417,7 +209706,7 @@
       "snapshot": "OYO IPO 3.0: The law firms behind its ₹6650 crore public issue"
     },
     {
-      "id": 4449,
+      "id": 4451,
       "name": "Shiv Kumar Sharma",
       "firm": "S&R Associates",
       "role": "Associate",
@@ -210387,7 +210676,7 @@
       "snapshot": "Advent International set to invest ~₹2,750 crore in Aditya Birla Housing Finance; CAM, AZB advise"
     },
     {
-      "id": 4519,
+      "id": 4520,
       "name": "Shivangi Sharma",
       "firm": "Singhania & Co",
       "role": "Associate",
@@ -211109,21 +211398,44 @@
       "snapshot": "Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Piramal Finance ₹2,100 crore QIP"
     },
     {
-      "id": 4481,
+      "id": 4419,
       "name": "Shivansh Jain",
       "firm": "Khaitan & Co",
       "role": "Associate",
       "role_bucket": "Associate",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "investment"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
+        "Hero FinCorp",
         "Godrej Finance Limited"
       ],
       "deals": [
+        {
+          "headline": "Khaitan & Co Advised Hero FinCorp On INR 450 Crore Private Credit Investment In Shree Naman Group NCDs",
+          "client": "Hero FinCorp",
+          "url": "https://www.legaleraonline.com/deal-street/khaitan-herofincorp-shree-naman-ncd-investment-991827",
+          "source": "Legal Era",
+          "published_at": "2026-11-20",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "INR 450 Crore",
+            "currency": "INR",
+            "amount": 4500000000,
+            "amount_inr": 4500000000,
+            "approx": false
+          }
+        },
         {
           "headline": "Khaitan & Co advised Godrej Finance Limited (GFL) On Its acquisition Of Gold Loan business Of...",
           "client": "Godrej Finance Limited",
@@ -211145,7 +211457,7 @@
           }
         }
       ],
-      "snapshot": "Khaitan & Co advised Godrej Finance Limited (GFL) On Its acquisition Of Gold Loan business Of..."
+      "snapshot": "Khaitan & Co Advised Hero FinCorp On INR 450 Crore Private Credit Investment In Shree Naman Group NCDs"
     },
     {
       "id": 1954,
@@ -211586,7 +211898,7 @@
       "snapshot": "Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO"
     },
     {
-      "id": 4450,
+      "id": 4452,
       "name": "Shivesh Didwania",
       "firm": "S&R Associates",
       "role": "Associate",
@@ -212009,7 +212321,7 @@
       "snapshot": "Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies"
     },
     {
-      "id": 4433,
+      "id": 4435,
       "name": "Shobhit Chandra",
       "firm": "Khaitan & Co",
       "role": "Counsel",
@@ -215494,7 +215806,7 @@
       "snapshot": "Trilegal advises Muthoot Finance on issuance of $600 million bond listed on Gift City"
     },
     {
-      "id": 4445,
+      "id": 4447,
       "name": "Shreyans Parakh",
       "firm": "S&R Associates",
       "role": "Associate",
@@ -219726,7 +220038,7 @@
       "snapshot": "CAM advises Inox Clean Energy on acquisition of SkyPower MENA - BarandBench"
     },
     {
-      "id": 4480,
+      "id": 4482,
       "name": "Siddhant Shetty",
       "firm": "Khaitan & Co",
       "role": "Senior Associate",
@@ -226420,14 +226732,17 @@
       "role": "Senior Associate",
       "role_bucket": "Senior Associate",
       "transaction_types": [
-        "acquisition"
+        "acquisition",
+        "investment"
       ],
       "practice_areas": [
-        "Mergers & Acquisitions"
+        "Mergers & Acquisitions",
+        "Private Equity & Venture Capital"
       ],
       "clients": [
         "BNP Paribas Cardif acquiring stake in IndiaFirst Life Insurance",
-        "Cerberus Capital"
+        "Cerberus Capital",
+        "Multiples Alternate Asset Management"
       ],
       "deals": [
         {
@@ -226466,6 +226781,26 @@
             "currency": "GBP",
             "amount": 1100000000,
             "amount_inr": 123200000000,
+            "approx": false
+          }
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas Advised Multiples Alternate Asset Management On USD 100 Million Investment...",
+          "client": "Multiples Alternate Asset Management",
+          "url": "https://www.legaleraonline.com/deal-street/cam-multiples-giva-usd-100-million-investment-991815",
+          "source": "Legal Era",
+          "published_at": "2026-11-20",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "USD 100 Million",
+            "currency": "USD",
+            "amount": 100000000,
+            "amount_inr": 8800000000,
             "approx": false
           }
         }
@@ -226551,7 +226886,7 @@
       "snapshot": "Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO"
     },
     {
-      "id": 4446,
+      "id": 4448,
       "name": "Souparna Mukherjee",
       "firm": "S&R Associates",
       "role": "Associate",
@@ -227368,7 +227703,8 @@
         "Statkraft A.S.",
         "Both parties",
         "True North",
-        "Guardian Life Insurance Company of America"
+        "Guardian Life Insurance Company of America",
+        "Multiples Alternate Asset Management"
       ],
       "deals": [
         {
@@ -227460,6 +227796,26 @@
           "types": [],
           "practice_areas": [],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas Advised Multiples Alternate Asset Management On USD 100 Million Investment...",
+          "client": "Multiples Alternate Asset Management",
+          "url": "https://www.legaleraonline.com/deal-street/cam-multiples-giva-usd-100-million-investment-991815",
+          "source": "Legal Era",
+          "published_at": "2026-11-20",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "USD 100 Million",
+            "currency": "USD",
+            "amount": 100000000,
+            "amount_inr": 8800000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "Axis Finance secures ₹750 crore from Kedaara Capital; Cyril Amarchand Mangaldas ..."
@@ -227603,7 +227959,7 @@
       "snapshot": "CAM advises Cerberus and IFC on ₹1,600 crore NCD subscription - Bar and Bench"
     },
     {
-      "id": 4486,
+      "id": 4487,
       "name": "Srabonee Roy",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Partner",
@@ -234850,7 +235206,7 @@
       "snapshot": "Rajani Associates assists Associated Power Structures on securing ₹1,225 crore from ..."
     },
     {
-      "id": 4497,
+      "id": 4498,
       "name": "Sushmita Sharma",
       "firm": "Lakshmikumaran & Sridharan Attorneys",
       "role": "Associate",
@@ -235484,7 +235840,8 @@
         "Manipal Hospitals",
         "Hyundai/TVS",
         "Adar Poonawalla",
-        "L Catterton India Fund"
+        "L Catterton India Fund",
+        "Multiples Alternate Asset Management"
       ],
       "deals": [
         {
@@ -235592,6 +235949,26 @@
             "Private Equity & Venture Capital"
           ],
           "value": null
+        },
+        {
+          "headline": "Cyril Amarchand Mangaldas Advised Multiples Alternate Asset Management On USD 100 Million Investment...",
+          "client": "Multiples Alternate Asset Management",
+          "url": "https://www.legaleraonline.com/deal-street/cam-multiples-giva-usd-100-million-investment-991815",
+          "source": "Legal Era",
+          "published_at": "2026-11-20",
+          "types": [
+            "investment"
+          ],
+          "practice_areas": [
+            "Private Equity & Venture Capital"
+          ],
+          "value": {
+            "raw": "USD 100 Million",
+            "currency": "USD",
+            "amount": 100000000,
+            "amount_inr": 8800000000,
+            "approx": false
+          }
         }
       ],
       "snapshot": "CAM advises Dixon on acquiring 51% shareholding in QTech India - Bar and Bench"
@@ -236714,7 +237091,7 @@
       "snapshot": "AZB, JSA act on Canara Robeco ~₹1,326 crore IPO"
     },
     {
-      "id": 4443,
+      "id": 4445,
       "name": "Taneesh Shah",
       "firm": "S&R Associates",
       "role": "Associate",
@@ -242152,7 +242529,7 @@
       "snapshot": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha..."
     },
     {
-      "id": 4473,
+      "id": 4475,
       "name": "Toyesh Tewari",
       "firm": "Dua Associates",
       "role": "Partner",
@@ -242191,7 +242568,7 @@
       "snapshot": "Dua Associates Advises SWAMIH Investment Fund-I On ₹399.5 Crore Funding For Greater Noida Housing Project"
     },
     {
-      "id": 4469,
+      "id": 4471,
       "name": "Toyesh Tiwari",
       "firm": "Dua Associates",
       "role": "Partner",
@@ -244675,7 +245052,7 @@
       "snapshot": "SAM, CAM, Hogan Lovells act on Billdesk's acquisition of Worldline"
     },
     {
-      "id": 4511,
+      "id": 4512,
       "name": "Utkarsh Gaba",
       "firm": "Singhania & Co",
       "role": "Senior Associate",
@@ -244747,7 +245124,7 @@
       "snapshot": "Cyril Amarchand Mangaldas advises Kotak Mahindra Bank on acquisition of Private ..."
     },
     {
-      "id": 4438,
+      "id": 4440,
       "name": "Utkarsh Mani Tripathi",
       "firm": "S&R Associates",
       "role": "Associate",
@@ -247711,7 +248088,7 @@
       "snapshot": "CAM advises Hiranandani Financial Services on raising ₹800 crore from Vitruvian"
     },
     {
-      "id": 4424,
+      "id": 4426,
       "name": "Vanita Bhargava",
       "firm": "Khaitan & Co",
       "role": "Partner",
@@ -252961,7 +253338,7 @@
       "snapshot": "JSA, Cyril Amarchand Mangaldas act on Allianz - Jio General Insurance JV"
     },
     {
-      "id": 4461,
+      "id": 4463,
       "name": "Vidur Prabhakar",
       "firm": "Trilegal",
       "role": "Senior Associate",
@@ -255444,7 +255821,7 @@
       "snapshot": "Fox & Mandal, VERTICES PARTNERS, Shardul Amarchand Mangaldas act on Gnani.AI ..."
     },
     {
-      "id": 4419,
+      "id": 4421,
       "name": "Vinayak Sanjay Buckshee",
       "firm": "Khaitan & Co",
       "role": "Associate",
@@ -256826,7 +257203,7 @@
       "snapshot": "Trilegal, JSA act on strategic partnership between Jupiter Wagons and Lucchini RS"
     },
     {
-      "id": 4427,
+      "id": 4429,
       "name": "Vishal Shrivastava",
       "firm": "Khaitan & Co",
       "role": "Principal Associate",

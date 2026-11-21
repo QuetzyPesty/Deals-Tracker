@@ -11729,5 +11729,184 @@
       "fx_asof": null,
       "source": "headline"
     }
+  },
+  {
+    "headline": "Khaitan & Co Advised Hero FinCorp On INR 450 Crore Private Credit Investment In Shree Naman Group NCDs",
+    "client": "Hero FinCorp",
+    "source": "Legal Era",
+    "source_id": "legalera",
+    "url": "https://www.legaleraonline.com/deal-street/khaitan-herofincorp-shree-naman-ncd-investment-991827",
+    "snippet": "Khaitan & Co advised Hero FinCorp Limited on its private credit investment in secured, unrated and unlisted non-convertible debentures (NCDs) of up to INR 450 crore, issued on a private placement basis by Shree Naman Group. Khaitan & Co team was led by Manisha Shroff (Partner), with support from Mohit Nad (Counsel), Khushboo Damakia (Senior Associate), Shivansh Jain (Associate) and Anasruta Roy (Associate).",
+    "law_firms": [
+      "Khaitan & Co"
+    ],
+    "transaction_types": [
+      "investment"
+    ],
+    "people": [
+      {
+        "name": "Manisha Shroff",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Mohit Nad",
+        "role": "Counsel",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Khushboo Damakia",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Shivansh Jain",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Anasruta Roy",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      }
+    ],
+    "published_at": "2026-11-20T16:15:42+05:30",
+    "keywords": [
+      "Khaitan & Co",
+      "Hero FinCorp",
+      "Shree Naman Group",
+      "INR 450 crore NCDs",
+      "private credit investment"
+    ],
+    "deal_value": {
+      "raw": "INR 450 Crore",
+      "currency": "INR",
+      "amount": 4500000000,
+      "amount_inr": 4500000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
+  },
+  {
+    "headline": "Cyril Amarchand Mangaldas Advised Multiples Alternate Asset Management On USD 100 Million Investment...",
+    "client": "Multiples Alternate Asset Management",
+    "source": "Legal Era",
+    "source_id": "legalera",
+    "url": "https://www.legaleraonline.com/deal-street/cam-multiples-giva-usd-100-million-investment-991815",
+    "snippet": "Cyril Amarchand Mangaldas Advised Multiples Alternate Asset Management on USD 100 Million Investment Round in GIVA Cyril Amarchand Mangaldas advised Multiples Alternate Asset Management Private Limited in connection with its investment in GIVA (Indiejewels Fashion Private Limited), a jewellery brand, as part of the latest investment round of approximately USD 100 million led by Multiples Equity. The transaction contemplated a mix of fresh issuance and purchase of securities from certain existing",
+    "law_firms": [
+      "Cyril Amarchand Mangaldas"
+    ],
+    "transaction_types": [
+      "investment"
+    ],
+    "people": [
+      {
+        "name": "Chandni Ochani",
+        "role": "Principal Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Rajat Pareek",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Kaushik Raichura",
+        "role": "Senior Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Swati Sharma",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Rohin Koolwal",
+        "role": "Principal Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Sowmya Kumar",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Soumyashree Chowdhury",
+        "role": "Senior Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Saksham Kumar",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Arya Tripathy",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Milind Yadav",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      }
+    ],
+    "published_at": "2026-11-20T13:37:18+05:30",
+    "keywords": [
+      "Cyril Amarchand Mangaldas",
+      "Multiples Alternate Asset Management",
+      "GIVA investment",
+      "USD 100 million funding",
+      "private equity investment"
+    ],
+    "deal_value": {
+      "raw": "USD 100 Million",
+      "currency": "USD",
+      "amount": 100000000,
+      "amount_inr": 8800000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    }
+  },
+  {
+    "headline": "Linklaters Advised Book-Running Lead Managers On Bajaj Finance’s INR 117 Billion QIP",
+    "client": "Book-Running Lead Managers",
+    "source": "Legal Era",
+    "source_id": "legalera",
+    "url": "https://www.legaleraonline.com/deal-street/linklaters-bajaj-finance-inr-117-billion-qip-991820",
+    "snippet": "The leading international law firm, Linklaters, advised the book-running lead managers on Bajaj Finance Limited’s qualified institutional placement (QIP) of equity shares, raising approximately INR 117 billion. The transaction marks the largest QIP by a non-banking financial company (NBFC) in India to date. QIP attracted participation from domestic and international institutional investors, including ICICI Prudential Mutual Fund and Norway’s Government Pension Fund Global. Bajaj Finance is India",
+    "law_firms": [
+      "Linklaters"
+    ],
+    "transaction_types": [
+      "QIP"
+    ],
+    "people": [
+      {
+        "name": "Amit Singh",
+        "role": "Partner",
+        "firm": "Linklaters"
+      }
+    ],
+    "published_at": "2026-11-20T12:45:32+05:30",
+    "keywords": [
+      "Linklaters",
+      "Bajaj Finance QIP",
+      "INR 117 billion QIP",
+      "qualified institutional placement",
+      "capital markets India"
+    ],
+    "deal_value": {
+      "raw": "INR 117 Billion",
+      "currency": "INR",
+      "amount": 117000000000,
+      "amount_inr": 117000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   }
 ]
