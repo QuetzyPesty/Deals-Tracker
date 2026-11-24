@@ -1,15 +1,15 @@
 {
-  "input_records": 927,
-  "output_records": 839,
-  "removed_duplicates": 88,
+  "input_records": 933,
+  "output_records": 843,
+  "removed_duplicates": 90,
   "merges_by_rule": {
     "same-url": 1,
-    "headline-entities": 10,
+    "headline-entities": 11,
     "same-slug": 4,
     "nested-same-type": 11,
     "same-core-headline": 9,
     "ipo-draft-then-final": 2,
-    "same-team-same-issuer": 41,
+    "same-team-same-issuer": 42,
     "same-team-and-entities": 3,
     "same-headline": 2,
     "same-team-near-identical": 5,
@@ -625,6 +625,23 @@
     {
       "kept": {
         "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-blackstone-on-5000-crore-equity-investment-in-iifl-finance",
+        "headline": "Khaitan & Co advises Blackstone on ₹5,000 crore equity investment in IIFL Finance"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/khaitan-blackstone-iifl-finance-investment-991749",
+          "headline": "Khaitan & Co Advised Blackstone On Proposed ₹5,000 Crore Investment In IIFL Finance",
+          "rules": [
+            "same-team-same-issuer"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
         "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-dilip-buildcon-on-solar-portfolio-divestment",
         "headline": "Khaitan & Co advises Dilip Buildcon on Solar Portfolio divestment"
       },
@@ -797,6 +814,14 @@
           "headline": "Khaitan & Co Advised Entab Infotech On Acquisition By Nelnet Business Services",
           "rules": [
             "same-team-same-issuer"
+          ]
+        },
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/cam-nelnet-entab-infotech-acquisition-991897",
+          "headline": "Cyril Amarchand Mangaldas Advised Nelnet On Acquisition Of 100% Shareholding In Entab Infotech",
+          "rules": [
+            "headline-entities"
           ]
         }
       ]

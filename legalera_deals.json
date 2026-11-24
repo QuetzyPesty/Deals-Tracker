@@ -11908,5 +11908,156 @@
       "fx_asof": null,
       "source": "headline"
     }
+  },
+  {
+    "headline": "Khaitan & Co Advised Smartcoin Financials On INR 58 Crore Extended Series C Funding Round",
+    "client": "Smartcoin Financials",
+    "source": "Legal Era",
+    "source_id": "legalera",
+    "url": "https://www.legaleraonline.com/deal-street/khaitan-smartcoin-olyv-series-c-funding-991900",
+    "snippet": "Khaitan & Co advised Smartcoin Financials Private Limited (Olyv) on its extended Series C round of funding of INR 58 crores from Nippon India Digital Innovation and Fundamentum Partnership – Fund II. Firm assisted in the negotiation and finalisation of the transaction documents and conducted a vendor legal due diligence of Smartcoin Financials Private Limited and its subsidiaries. Khaitan & Co core team comprised Sanchit Agarwal (Partner), Jubin Jay (Principal Associate), Deepansh Goyal (Senior ",
+    "law_firms": [
+      "Khaitan & Co"
+    ],
+    "transaction_types": [
+      "Series C"
+    ],
+    "people": [
+      {
+        "name": "Sanchit Agarwal",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Jubin Jay",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Deepansh Goyal",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Aastha Agarwallaa",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Nidhi Gupta",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      }
+    ],
+    "published_at": "2026-11-23T16:45:50+05:30",
+    "keywords": [
+      "Khaitan & Co",
+      "Smartcoin Financials funding",
+      "Olyv Series C round",
+      "INR 58 crore funding",
+      "fintech investment"
+    ],
+    "deal_value": {
+      "raw": "INR 58 Crore",
+      "currency": "INR",
+      "amount": 580000000,
+      "amount_inr": 580000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
+  },
+  {
+    "headline": "Khaitan & Co Advised eClerx Services Limited On Acquisition Of RegEdge",
+    "client": "eClerx Services Limited",
+    "source": "Legal Era",
+    "source_id": "legalera",
+    "url": "https://www.legaleraonline.com/deal-street/khaitan-eclerx-regedge-acquisition-991898",
+    "snippet": "Khaitan & Co advised eClerx Services Limited (“eClerx”), a listed information technology company in India, on the acquisition of 100% of the membership interest of RegEdge LLC from its sole owner, Mr. Harshad Pitkar, through eClerx’s wholly-owned subsidiary in the USA, eClerx LLC. Khaitan & Co core team comprised Niren Patel (Partner), Abheepsita Purkayastha (Associate) and Vinita Jagtiani (Associate).",
+    "law_firms": [
+      "Khaitan & Co"
+    ],
+    "transaction_types": [
+      "acquisition"
+    ],
+    "people": [
+      {
+        "name": "Niren Patel",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Abheepsita Purkayastha",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Vinita Jagtiani",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      }
+    ],
+    "published_at": "2026-11-23T16:00:27+05:30",
+    "keywords": [
+      "Khaitan & Co",
+      "eClerx Services acquisition",
+      "RegEdge LLC acquisition",
+      "cross-border M&A",
+      "information technology acquisition"
+    ]
+  },
+  {
+    "headline": "Cyril Amarchand Mangaldas Advised Nelnet On Acquisition Of 100% Shareholding In Entab Infotech",
+    "client": "Nelnet",
+    "source": "Legal Era",
+    "source_id": "legalera",
+    "url": "https://www.legaleraonline.com/deal-street/cam-nelnet-entab-infotech-acquisition-991897",
+    "snippet": "Cyril Amarchand Mangaldas (CAM) advised Nelnet, Inc., a leading NASDAQ-listed technology-enabled financial services company focused on education-related services, including education technology, education loan servicing, payments and software solutions, on its acquisition of 100% of the share capital of Entab Infotech Private Limited from its existing promoters and strategic investor, Xiva Investments Limited (together, the “Sellers”). The acquisition was undertaken by NBS India Holdings, LLC. F",
+    "law_firms": [
+      "Cyril Amarchand Mangaldas"
+    ],
+    "transaction_types": [
+      "acquisition"
+    ],
+    "people": [
+      {
+        "name": "Anirban Mohapatra",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Anusha Rao",
+        "role": "Senior Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Shashank DR",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Dhruv Rajain",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Samridh Sinha",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Rishabh Shroff",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      }
+    ],
+    "published_at": "2026-11-23T13:30:06+05:30",
+    "keywords": [
+      "Cyril Amarchand Mangaldas",
+      "Nelnet acquisition of Entab Infotech",
+      "Entab Infotech shareholding acquisition",
+      "education technology acquisition",
+      "M&A legal advisory"
+    ]
   }
 ]

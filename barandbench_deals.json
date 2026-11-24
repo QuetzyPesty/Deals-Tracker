@@ -27337,5 +27337,301 @@
         "client": "HarbourFront India Investment Advisory LLP"
       }
     ]
+  },
+  {
+    "headline": "Shardul Amarchand Mangaldas advises IFC on $150 million financing to SBI GIFT City",
+    "client": "IFC",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-23T05:47:58Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-ifc-on-150-million-financing-to-sbi-gift-city",
+    "snippet": "Shardul Amarchand Mangaldas & Co acted as legal counsel to International Finance Corporation in connection with an unsecured USD-denominated term loan facility of up to $150 million availed by State Bank of India's GIFT City Branch. The transaction was led by Shubhangi Garg (Partner), and included Yashika Jain (Principal Associate) and Aryan Gupta (Associate). The financing is aimed at expanding access to credit for micro-entrepreneurs through the Self-Help Group (SHG) model, with at least 90% o",
+    "law_firms": [
+      "Shardul Amarchand Mangaldas & Co"
+    ],
+    "transaction_types": [
+      "financing"
+    ],
+    "deal_value": {
+      "raw": "$150 million",
+      "currency": "USD",
+      "amount": 150000000,
+      "amount_inr": 13200000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Shubhangi Garg",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co",
+        "client": "International Finance Corporation"
+      },
+      {
+        "name": "Yashika Jain",
+        "role": "Principal Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co",
+        "client": "International Finance Corporation"
+      },
+      {
+        "name": "Aryan Gupta",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co",
+        "client": "International Finance Corporation"
+      }
+    ]
+  },
+  {
+    "headline": "Khaitan & Co advises Blackstone on ₹5,000 crore equity investment in IIFL Finance",
+    "client": "Blackstone",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-23T05:22:30Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-blackstone-on-5000-crore-equity-investment-in-iifl-finance",
+    "snippet": "Blackstone, through its Singapore-based affiliate Ingot SG Pte. Ltd., is set to make a primary equity investment of ₹5,000 crore (approx. $535 million) in IIFL Finance Limited for an approximately 16% stake on a fully diluted basis. Khaitan & Co advised Blackstone on this investment. The Firm conducted due diligence on the Target, assisted with the drafting and negotiation of the transaction documents and advised on the regulatory aspects of the transaction. The core team consisted of Shishir Jo",
+    "law_firms": [
+      "Khaitan & Co"
+    ],
+    "transaction_types": [
+      "investment"
+    ],
+    "deal_value": {
+      "raw": "₹5,000 crore",
+      "currency": "INR",
+      "amount": 50000000000,
+      "amount_inr": 50000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Shishir Jose Vayttaden",
+        "role": "Partner",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Niyati Dholakia",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Radhika Naik",
+        "role": "Associate",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Haigreve Khaitan",
+        "role": "Managing Partner",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Reeti Agarwal",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Yastika Handa",
+        "role": "Associate",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Bhaskar Vishwajeet",
+        "role": "Associate",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Chaitanya Snehal Shah",
+        "role": "Associate",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Nirupam Lodha",
+        "role": "Partner",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Malika Nandkeolyar",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Rebecca Cardoso",
+        "role": "Associate",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Supratim Chakraborty",
+        "role": "Partner",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Himeli Chatterjee",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Avani Sasindran",
+        "role": "Associate",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Vinay Joy",
+        "role": "Partner",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Aditya J Nair",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Ajay Kranthi Kothwal",
+        "role": "Associate",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Shabnam Shaikh",
+        "role": "Partner",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Jimmy Bhatt",
+        "role": "Partner",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Saranya Mishra",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Harshita Jajodia",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Vishal Arvind Shah",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Devpriya Saswata",
+        "role": "Associate",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Gaurav Malhotra",
+        "role": "Partner",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Gaurang Mansinghka",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Trisha Shetty",
+        "role": "Associate",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Anshuman Sakle",
+        "role": "Partner",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Alisha Mehra",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Armaan Gupta",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Aditya Bhatia",
+        "role": "Associate",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Tomu Francis",
+        "role": "Partner",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Kingshuk Banerjee",
+        "role": "Partner",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      },
+      {
+        "name": "Tarun Tushar Toprani",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co",
+        "client": "Blackstone"
+      }
+    ]
+  },
+  {
+    "headline": "Universal Legal acts for DSP Designs on its sale to Anarock Group",
+    "client": null,
+    "source": "Bar & Bench",
+    "published_at": "2026-11-23T05:21:41Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/universal-legal-acts-for-dsp-designs-on-its-sale-to-anarock-group",
+    "snippet": "Anarock Group has acquired a majority stake in DSP Design Associates. Universal Legal advised the promoters of DSP Designs, Bimal Desai, Mehul Shah and Yatin Patel, on the sale of their stakes to Anarock. The firm provided end-to-end legal support on the transaction, including structuring, drafting and negotiation of legal documents, and closing assistance. The transaction team consisted of Mohit Kapoor (Senior Partner), Neha Sehgal (Partner) and Preksha Shah (Associate). DSP Design Associates i",
+    "law_firms": [
+      "Universal Legal"
+    ],
+    "transaction_types": [],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Mohit Kapoor",
+        "role": "Senior Partner",
+        "firm": "Universal Legal"
+      },
+      {
+        "name": "Neha Sehgal",
+        "role": "Partner",
+        "firm": "Universal Legal"
+      },
+      {
+        "name": "Preksha Shah",
+        "role": "Associate",
+        "firm": "Universal Legal"
+      }
+    ]
   }
 ]
