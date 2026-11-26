@@ -1,16 +1,16 @@
 {
-  "input_records": 933,
-  "output_records": 843,
-  "removed_duplicates": 90,
+  "input_records": 952,
+  "output_records": 860,
+  "removed_duplicates": 92,
   "merges_by_rule": {
     "same-url": 1,
-    "headline-entities": 11,
+    "headline-entities": 12,
     "same-slug": 4,
     "nested-same-type": 11,
     "same-core-headline": 9,
     "ipo-draft-then-final": 2,
     "same-team-same-issuer": 42,
-    "same-team-and-entities": 3,
+    "same-team-and-entities": 4,
     "same-headline": 2,
     "same-team-near-identical": 5,
     "copied-text": 3,
@@ -418,6 +418,23 @@
     {
       "kept": {
         "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/dmd-advocates-advises-ndr-auto-components-on-joint-venture-with-south-koreas-dya",
+        "headline": "DMD Advocates advises NDR Auto Components on Joint Venture with South Korea’s DYA"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/dmd-ndr-dya-passenger-car-joint-venture-991786",
+          "headline": "DMD Advocates Advised NDR Auto Components On Passenger Car Seating Joint Venture With South Korea’s DYA",
+          "rules": [
+            "headline-entities"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
         "url": "https://www.barandbench.com/law-firms/dealstreet/dsk-legal-advise-viyash-scientific-on-188-crore-acquisition-of-bioforlife-italia",
         "headline": "DSK Legal advises Viyash Scientific on ₹188 crore acquisition of BioForLife Italia"
       },
@@ -678,6 +695,23 @@
           "headline": "Khaitan & Co Advised Godrej Capital On Proposed INR 2,500 Crore Investment By Temasek",
           "rules": [
             "same-team-same-issuer"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Legal Era",
+        "url": "https://www.legaleraonline.com/deal-street/khaitan-smartcoin-olyv-series-c-funding-991900",
+        "headline": "Khaitan & Co Advised Smartcoin Financials On INR 58 Crore Extended Series C Funding Round"
+      },
+      "duplicates": [
+        {
+          "source": "Bar & Bench",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-olyv-on-extended-series-c-fundraise",
+          "headline": "Khaitan & Co advises Olyv on extended Series C fundraise",
+          "rules": [
+            "same-team-and-entities"
           ]
         }
       ]

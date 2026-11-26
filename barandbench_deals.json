@@ -27633,5 +27633,716 @@
         "firm": "Universal Legal"
       }
     ]
+  },
+  {
+    "headline": "Rajani Associates, Saraf and Partners act on Redbrick Offices ₹530 crore fundraise",
+    "client": "Redbrick Offices",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-25T14:12:57Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/rajani-associates-saraf-and-partners-act-on-redbrick-offices-530-crore-fundraise",
+    "snippet": "Redbrick Offices Limited has raised ₹530 crore through a combination of primary and secondary investments from a fundraise led by Abakkus Four2Eight Opportunities Fund, with participation from India SME, IIFL, Evolvence and UTI. Rajani Associates advised Redbrick on this fundraise. Saraf and Partners advised lead investor Abakkus on this fundraise. The transaction was led by Adil Ladha (Partner) and Rohan Shah (Partner), with support from Associates Rupam Das, Tanya Adani and Prantika Dutta. Fou",
+    "law_firms": [
+      "Rajani Associates",
+      "Saraf and Partners"
+    ],
+    "transaction_types": [
+      "fundraise"
+    ],
+    "deal_value": {
+      "raw": "₹530 crore",
+      "currency": "INR",
+      "amount": 5300000000,
+      "amount_inr": 5300000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Adil Ladha",
+        "role": "Partner",
+        "firm": "Saraf and Partners"
+      },
+      {
+        "name": "Rohan Shah",
+        "role": "Partner",
+        "firm": "Saraf and Partners"
+      },
+      {
+        "name": "Rupam Das",
+        "role": "Associate",
+        "firm": "Saraf and Partners"
+      },
+      {
+        "name": "Tanya Adani",
+        "role": "Associate",
+        "firm": "Saraf and Partners"
+      },
+      {
+        "name": "Prantika Dutta",
+        "role": "Associate",
+        "firm": "Saraf and Partners"
+      }
+    ]
+  },
+  {
+    "headline": "Cyril Amarchand Mangaldas, Linklaters advise Adani Ports on acquisition of Evos",
+    "client": "Adani Ports",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-25T05:49:54Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-linklaters-advise-adani-ports-on-acquisition-of-evos",
+    "snippet": "Adani Ports and Special Economic Zone Limited is set to acquire 100% of the share capital of Evos B.V. from F.S. Amelia S.à r.l. and Evos Manco B.V. (holding companies of Igneo Infrastructure Partners), through a competitive global auction process. Cyril Amarchand Mangaldas advised Adani Ports on this transaction. The firm's role included advising on transaction strategy, structuring and execution, coordinating the various legal and wider workstreams and providing Indian law advice. The transact",
+    "law_firms": [
+      "Cyril Amarchand Mangaldas",
+      "Linklaters"
+    ],
+    "transaction_types": [
+      "acquisition"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Cyril Shroff",
+        "role": "Managing Partner",
+        "firm": "Cyril Amarchand Mangaldas",
+        "client": "Adani Ports"
+      },
+      {
+        "name": "Paridhi Adani",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas",
+        "client": "Adani Ports"
+      },
+      {
+        "name": "Akshay Zaveri",
+        "role": "Principal Associate",
+        "firm": "Cyril Amarchand Mangaldas",
+        "client": "Adani Ports"
+      },
+      {
+        "name": "Tanuj Agarwal",
+        "role": "Senior Associate",
+        "firm": "Cyril Amarchand Mangaldas",
+        "client": "Adani Ports"
+      },
+      {
+        "name": "Juhi Mittal",
+        "role": "Senior Associate",
+        "firm": "Cyril Amarchand Mangaldas",
+        "client": "Adani Ports"
+      },
+      {
+        "name": "Karma Shah",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas",
+        "client": "Adani Ports"
+      },
+      {
+        "name": "Khushi Patel",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas",
+        "client": "Adani Ports"
+      },
+      {
+        "name": "Surya Sreenivasan",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Abhishek Khatri",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Shlok Shetty",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Avaantika Kakkar",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Dhruv Rajain",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Rasmani Raghuwansh",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Nidhi Asher",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Priyal Shah",
+        "role": "Senior Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Vidushi Trivedi",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Mehar Arora",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Amit Singh",
+        "role": "Partner",
+        "firm": "Linklaters"
+      },
+      {
+        "name": "Jan Willem de Boer",
+        "role": "Partner",
+        "firm": "Linklaters"
+      },
+      {
+        "name": "Namrata Shah",
+        "role": "Partner",
+        "firm": "Linklaters"
+      },
+      {
+        "name": "Lodewick Prompers",
+        "role": "Partner",
+        "firm": "Linklaters"
+      },
+      {
+        "name": "Mees Roelofs",
+        "role": "Partner",
+        "firm": "Linklaters"
+      },
+      {
+        "name": "Jeroen Smits",
+        "role": "Partner",
+        "firm": "Linklaters"
+      },
+      {
+        "name": "L. Viswanathan",
+        "role": "Senior Partner",
+        "firm": "Cyril Amarchand Mangaldas",
+        "source": "ner"
+      }
+    ]
+  },
+  {
+    "headline": "KIA to set up 2nd manufacturing unit in Andhra Pradesh; Shardul Amarchand Mangaldas, Latham & Watkins advise",
+    "client": null,
+    "source": "Bar & Bench",
+    "published_at": "2026-11-25T04:26:50Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/kia-to-set-up-2nd-manufacturing-unit-in-andhra-pradesh-shardul-amarchand-mangaldas-latham-watkins-advise",
+    "snippet": "Kia India Private Limited has signed a Memorandum of Understanding, dated November 12, 2026, with the Government of Andhra Pradesh, to establish the brand's second manufacturing facility in Andhra Pradesh. Shardul Amarchand Mangaldas & Co advised KIA on this transaction and assisted with the finalization of the transaction documents. The transaction was led by Shruti Kinra (Partner) and Rohan Sharda (Partner), with support from Pooja Oorath (Senior Associate). The incentives team comprised Sanji",
+    "law_firms": [
+      "Shardul Amarchand Mangaldas & Co",
+      "Latham & Watkins"
+    ],
+    "transaction_types": [],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Shruti Kinra",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co",
+        "client": "KIA"
+      },
+      {
+        "name": "Rohan Sharda",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co",
+        "client": "KIA"
+      },
+      {
+        "name": "Pooja Oorath",
+        "role": "Senior Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co",
+        "client": "KIA"
+      },
+      {
+        "name": "Aayush Nagpal",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      }
+    ]
+  },
+  {
+    "headline": "S&T Legal advises Fusion CX on acquisition of impacx",
+    "client": "Fusion CX",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-25T04:26:07Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/st-legal-advises-fusion-cx-on-acquisition-of-impacx",
+    "snippet": "Fusion CX Limited has acquired the entire share capital of impacx solutions GmbH, tel-inform solutions GmbH and impacx services GmbH (together, “impacx”), a customer experience company headquartered in Kleve, Germany. S&T Legal advised Fusion CX on this acquisition. The Firm’s mandate included legal due diligence on the German entities, transaction structuring, and the drafting and negotiation of the Share Purchase and Transfer Agreement and ancillary documents. The Firm is also advising on the ",
+    "law_firms": [
+      "S&T Legal"
+    ],
+    "transaction_types": [
+      "acquisition"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Ankit Pitti",
+        "role": "Associate Partner",
+        "firm": "S&T Legal",
+        "client": "Fusion CX"
+      },
+      {
+        "name": "Anusha Burman",
+        "role": "Associate",
+        "firm": "S&T Legal",
+        "client": "Fusion CX"
+      },
+      {
+        "name": "Rajan Maheshwari",
+        "role": "Associate",
+        "firm": "S&T Legal",
+        "client": "Fusion CX"
+      },
+      {
+        "name": "Nikita Kaushik",
+        "role": "Associate",
+        "firm": "S&T Legal",
+        "client": "Fusion CX"
+      }
+    ]
+  },
+  {
+    "headline": "Khaitan & Co advises Olyv on extended Series C fundraise",
+    "client": "Olyv",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-25T04:03:34Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-olyv-on-extended-series-c-fundraise",
+    "snippet": "Smartcoin Financials Private Limited, dba Olyv, has raised ₹58 crore from an extended Series C fundraise, securing investments from Nippon India Digital Innovation and Fundamentum Partnership – Fund II. Khaitan & Co advised Olyv on this fundraise. The Firm assisted in the negotiation and finalisation of the transaction documents, and conducting a vendor legal due diligence on Olyv and its subsidiaries. The transaction team consisted of Sanchit Agarwal (Partner), Jubin Jay (Principal Associate), ",
+    "law_firms": [
+      "Khaitan & Co"
+    ],
+    "transaction_types": [
+      "Series C",
+      "fundraise"
+    ],
+    "deal_value": {
+      "raw": "₹58 crore",
+      "currency": "INR",
+      "amount": 580000000,
+      "amount_inr": 580000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "body"
+    },
+    "people": [
+      {
+        "name": "Sanchit Agarwal",
+        "role": "Partner",
+        "firm": "Khaitan & Co",
+        "client": "Olyv"
+      },
+      {
+        "name": "Jubin Jay",
+        "role": "Principal Associate",
+        "firm": "Khaitan & Co",
+        "client": "Olyv"
+      },
+      {
+        "name": "Deepansh Goyal",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co",
+        "client": "Olyv"
+      },
+      {
+        "name": "Aastha Agarwallaa",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co",
+        "client": "Olyv"
+      },
+      {
+        "name": "Nidhi Gupta",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co",
+        "client": "Olyv"
+      }
+    ]
+  },
+  {
+    "headline": "Perry AI raises $2.2 million in seed funding to expand AI-powered legal platform",
+    "client": null,
+    "source": "Bar & Bench",
+    "published_at": "2026-11-24T10:10:00Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/perry-ai-raises-22-million-in-seed-funding-to-expand-ai-powered-legal-platform",
+    "snippet": "London-based legal technology startup Perry AI has raised $2.2 million in an oversubscribed seed funding round led by Haatch, with participation from Antler, Arāya Ventures, Syncorp Ventures and other international investors. Founded by former funds lawyers Shashwat Patel and Vaneesa Agrawal, Perry AI is developing an artificial intelligence-powered platform to automate legal workflows for private equity and venture capital funds, as well as the law firms advising them. The platform uses AI agen",
+    "law_firms": [],
+    "transaction_types": [],
+    "deal_value": {
+      "raw": "$2.2 million",
+      "currency": "USD",
+      "amount": 2200000,
+      "amount_inr": 193600000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    },
+    "people": []
+  },
+  {
+    "headline": "Shardul Amarchand Mangaldas, Cyril Amarchand Mangaldas, White & Case act on Urban Company ₹2,500 crore QIP",
+    "client": "Urban Company",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-24T06:12:23Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-cyril-amarchand-mangaldas-white-case-act-on-urban-company-2500-crore-qip",
+    "snippet": "Urban Company Limited has raised ₹2,500 crore from a Qualified Institutions Placement of equity shares. Shardul Amarchand Mangaldas & Co advised Urban Company on this QIP. The transaction team consisted of Prashant Gupta (Partner and National Practice Head – Capital Markets), Ruth Chenchiah (Partner), Romit Raja Srivastava (Principal Associate), Associates Bhoomika Gupta and Arjan Singh Pental. Cyril Amarchand Mangaldas advised Morgan Stanley India Company Private Limited, Kotak Mahindra Capital",
+    "law_firms": [
+      "Shardul Amarchand Mangaldas & Co",
+      "Cyril Amarchand Mangaldas",
+      "White & Case"
+    ],
+    "transaction_types": [
+      "QIP"
+    ],
+    "deal_value": {
+      "raw": "₹2,500 crore",
+      "currency": "INR",
+      "amount": 25000000000,
+      "amount_inr": 25000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Prashant Gupta",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Ruth Chenchiah",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Romit Raja Srivastava",
+        "role": "Principal Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Bhoomika Gupta",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Arjan Singh Pental",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co"
+      },
+      {
+        "name": "Gokul Rajan",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Puneet Passi",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Chinar Gupta",
+        "role": "Principal Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Prakhar Jain",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Abhinav Singh Chauhan",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Naman Kulshrestha",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      }
+    ]
+  },
+  {
+    "headline": "JSA advises Henfruit on its $15 million Series A fundraise",
+    "client": "Henfruit",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-24T06:11:10Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-henfruit-on-its-15-million-series-a-fundraise",
+    "snippet": "Henfruit Proteins Private Limited has raised $15 million from a Series A fundraise with investments from Lok Capital, RPSG Capital Ventures and DSG Consumer Partners. JSA Advocates & Solicitors advised Henfruit on this fundraise. The transaction was led by Lalit Kumar (Partner) and Amandeep Singh Virk (Partner), with support from Associates Muskaan Gupta and Rahul Kapoor. Kumarmanglam Vijay (Partner & Head of Practice - Direct Tax) and Surajkumar Shetty (Partner) advised on Direct Tax aspects. H",
+    "law_firms": [
+      "JSA Advocates & Solicitors"
+    ],
+    "transaction_types": [
+      "Series A",
+      "fundraise"
+    ],
+    "deal_value": {
+      "raw": "$15 million",
+      "currency": "USD",
+      "amount": 15000000,
+      "amount_inr": 1320000000,
+      "approx": false,
+      "fx_asof": "2026-09-01",
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "Lalit Kumar",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors",
+        "client": "Henfruit"
+      },
+      {
+        "name": "Amandeep Singh Virk",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors",
+        "client": "Henfruit"
+      },
+      {
+        "name": "Muskaan Gupta",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors",
+        "client": "Henfruit"
+      },
+      {
+        "name": "Rahul Kapoor",
+        "role": "Associate",
+        "firm": "JSA Advocates & Solicitors",
+        "client": "Henfruit"
+      },
+      {
+        "name": "Surajkumar Shetty",
+        "role": "Partner",
+        "firm": "JSA Advocates & Solicitors"
+      }
+    ]
+  },
+  {
+    "headline": "DMD Advocates advises NDR Auto Components on Joint Venture with South Korea’s DYA",
+    "client": "NDR Auto Components",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-24T06:10:43Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/dmd-advocates-advises-ndr-auto-components-on-joint-venture-with-south-koreas-dya",
+    "snippet": "NDR Auto Components Limited is forming a joint venture with DYA Co., Ltd., a South Korean manufacturer of automotive seating systems based in Gwangju and an established seat supplier to Hyundai and Kia in Korea. DMD Advocates advised NDR Auto Components on this JV. The transaction was led by Saiyam Chaturvedi (Partner) and Aishwarya Gupta (Principal Associate), with strategic inputs from Rashi Dhir (Senior Partner & Head of Corporate). NDR and DYA will hold shares in the joint venture company in",
+    "law_firms": [
+      "DMD Advocates"
+    ],
+    "transaction_types": [
+      "joint venture"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Saiyam Chaturvedi",
+        "role": "Partner",
+        "firm": "DMD Advocates",
+        "client": "NDR Auto Components"
+      },
+      {
+        "name": "Aishwarya Gupta",
+        "role": "Principal Associate",
+        "firm": "DMD Advocates",
+        "client": "NDR Auto Components"
+      }
+    ]
+  },
+  {
+    "headline": "Sarvaank Associates advises CAPGRID on fundraise",
+    "client": "CAPGRID",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-24T06:10:10Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/sarvaank-associates-advises-capgrid-on-fundraise",
+    "snippet": "CAPGRID has raised ₹50 crore (~$5.2 million) from a fundraise led by Hero Enterprise Venture Partners with participation from existing investors Axilor Ventures, Anicut Capital, Nexus Venture Partners and other investors. Sarvaank Associates advised CAPGRID on this fundraise. The transaction was led by Ankita Singh (Managing Partner), with support from Yash Vardhan Singh (Partner), Sanchita Gupta (Senior Associate), Dipanjana Das (Senior Associate), Associates Ishaan Chakraborty and Mansi Gupta.",
+    "law_firms": [
+      "Sarvaank Associates"
+    ],
+    "transaction_types": [
+      "fundraise"
+    ],
+    "deal_value": {
+      "raw": "₹50 crore",
+      "currency": "INR",
+      "amount": 500000000,
+      "amount_inr": 500000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "body"
+    },
+    "people": [
+      {
+        "name": "Ankita Singh",
+        "role": "Managing Partner",
+        "firm": "Sarvaank Associates",
+        "client": "CAPGRID"
+      },
+      {
+        "name": "Yash Vardhan Singh",
+        "role": "Partner",
+        "firm": "Sarvaank Associates",
+        "client": "CAPGRID"
+      },
+      {
+        "name": "Sanchita Gupta",
+        "role": "Senior Associate",
+        "firm": "Sarvaank Associates",
+        "client": "CAPGRID"
+      },
+      {
+        "name": "Dipanjana Das",
+        "role": "Senior Associate",
+        "firm": "Sarvaank Associates",
+        "client": "CAPGRID"
+      },
+      {
+        "name": "Ishaan Chakraborty",
+        "role": "Associate",
+        "firm": "Sarvaank Associates",
+        "client": "CAPGRID"
+      },
+      {
+        "name": "Mansi Gupta",
+        "role": "Associate",
+        "firm": "Sarvaank Associates",
+        "client": "CAPGRID"
+      }
+    ]
+  },
+  {
+    "headline": "Aritra Partners, GameChanger Law, Shardul Amarchand Mangaldas act on Arborum pre-Series fundraise",
+    "client": "Arborum pre-Series fundraise",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-24T06:09:42Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/aritra-partners-gamechanger-law-shardul-amarchand-mangaldas-act-on-arborum-pre-series-fundraise",
+    "snippet": "Arborum Labs Private Limited has raised capital from a pre-series fundraise co-led by Speciale Invest and Ideaspring Capital. Aritra Partners advised Arborum on this fundraise. GameChanger Law Advisors advised Speciale Invest on this fundraise. The Firm provided end-to-end support comprising legal due diligence, structuring, drafting, reviewing and negotiating the transaction documentation. The transaction team consisted of Amrut Joshi (Founder) and Sanjana Rao (Associate). Shardul Amarchand Man",
+    "law_firms": [
+      "GameChanger Law Advisors",
+      "Shardul Amarchand Mangaldas & Co",
+      "Aritra Partners"
+    ],
+    "transaction_types": [
+      "fundraise"
+    ],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Sanjana Rao",
+        "role": "Associate",
+        "firm": "GameChanger Law Advisors",
+        "client": "Speciale Invest"
+      },
+      {
+        "name": "KS Bhargava",
+        "role": "Partner",
+        "firm": "Shardul Amarchand Mangaldas & Co",
+        "client": "Ideaspring Capital"
+      },
+      {
+        "name": "Mithila Hari",
+        "role": "Principal Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co",
+        "client": "Ideaspring Capital"
+      },
+      {
+        "name": "C R Keertitha",
+        "role": "Associate",
+        "firm": "Shardul Amarchand Mangaldas & Co",
+        "client": "Ideaspring Capital"
+      }
+    ]
+  },
+  {
+    "headline": "ELP advises IHCL on strategic franchise arrangement with Lords Hotels & Resorts",
+    "client": "IHCL",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-24T05:51:32Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/elp-advises-ihcl-on-strategic-franchise-arrangement-with-lords-hotels-resorts",
+    "snippet": "The Indian Hotels Company Limited has entered into a strategic franchise arrangement with Lords Hotels & Resorts for IHCL's Ginger brand. Economic Laws Practice (ELP) advised IHCL on this arrangement. The firm advised on all aspects of the transaction, including the franchise structure, and drafted, reviewed and negotiated the transaction documents. The transaction was led by Sujjain Talwar (Co-founding Partner), with support from Kriti Bhattacharya (Senior Associate) and Isha Palas (Associate).",
+    "law_firms": [
+      "Economic Laws Practice"
+    ],
+    "transaction_types": [],
+    "deal_value": null,
+    "people": [
+      {
+        "name": "Kriti Bhattacharya",
+        "role": "Senior Associate",
+        "firm": "Economic Laws Practice",
+        "client": "IHCL"
+      },
+      {
+        "name": "Isha Palas",
+        "role": "Associate",
+        "firm": "Economic Laws Practice",
+        "client": "IHCL"
+      }
+    ]
+  },
+  {
+    "headline": "Fox Mandal & Associates advises Kotak Mahindra Investments on extending ₹300 crore+ to Nambiar Ensemble Residential Projects",
+    "client": "Kotak Mahindra Investments",
+    "source": "Bar & Bench",
+    "published_at": "2026-11-24T05:50:50Z",
+    "url": "https://www.barandbench.com/law-firms/dealstreet/fox-mandal-associates-advises-kotak-mahindra-investments-on-extending-300-crore-to-adarsh-developers",
+    "snippet": "Kotak Mahindra Investments Limited is set to extend project funding of approximately ₹300 crores+ to Nambiar Ensemble Residential Projects LLP for its residential project 'District 25 – Phase I'. Fox Mandal & Associates advised Kotak Mahindra Investments on this transaction. The Firm's role involved comprehensive legal due diligence, title verification, review of project-related approvals and documentation, and advisory support. The transaction was led by ST Prashantha Kumar (Senior Partner), un",
+    "law_firms": [
+      "Fox Mandal & Associates"
+    ],
+    "transaction_types": [
+      "investment"
+    ],
+    "deal_value": {
+      "raw": "₹300 crore+",
+      "currency": "INR",
+      "amount": 3000000000,
+      "amount_inr": 3000000000,
+      "approx": true,
+      "fx_asof": null,
+      "source": "headline"
+    },
+    "people": [
+      {
+        "name": "ST Prashantha Kumar",
+        "role": "Senior Partner",
+        "firm": "Fox Mandal & Associates",
+        "client": "Kotak Mahindra Investments"
+      },
+      {
+        "name": "Adesh S",
+        "role": "Senior Associate",
+        "firm": "Fox Mandal & Associates",
+        "client": "Kotak Mahindra Investments"
+      },
+      {
+        "name": "Anjana Uday",
+        "role": "Senior Associate",
+        "firm": "Fox Mandal & Associates",
+        "client": "Kotak Mahindra Investments"
+      },
+      {
+        "name": "Nitesh Rao",
+        "role": "Associate",
+        "firm": "Fox Mandal & Associates",
+        "client": "Kotak Mahindra Investments"
+      },
+      {
+        "name": "Yashaswini Shettigar",
+        "role": "Associate",
+        "firm": "Fox Mandal & Associates",
+        "client": "Kotak Mahindra Investments"
+      },
+      {
+        "name": "Assessment Trainee Lavanya",
+        "role": "Associate",
+        "firm": "Fox Mandal & Associates",
+        "client": "Kotak Mahindra Investments"
+      }
+    ]
   }
 ]
