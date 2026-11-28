@@ -1,6 +1,6 @@
 {
   "filings": 1478,
-  "deals": 860,
+  "deals": 869,
   "matched": [
     {
       "headline": "CAM advises Jindal Power on acquisition of 1320 MW thermal power plant in Haryana",
@@ -229,9 +229,9 @@
   ],
   "ambiguous": [],
   "reasons": {
-    "no-name-evidence": 256,
-    "type-gate": 519,
-    "evidence-below-threshold": 70,
+    "no-name-evidence": 260,
+    "type-gate": 522,
+    "evidence-below-threshold": 72,
     "matched": 15
   },
   "filing_claimed_by_several_deals": {

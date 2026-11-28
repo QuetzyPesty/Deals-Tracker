@@ -1,16 +1,16 @@
 {
-  "input_records": 952,
-  "output_records": 860,
-  "removed_duplicates": 92,
+  "input_records": 965,
+  "output_records": 869,
+  "removed_duplicates": 96,
   "merges_by_rule": {
     "same-url": 1,
-    "headline-entities": 12,
+    "headline-entities": 13,
     "same-slug": 4,
     "nested-same-type": 11,
     "same-core-headline": 9,
     "ipo-draft-then-final": 2,
-    "same-team-same-issuer": 42,
-    "same-team-and-entities": 4,
+    "same-team-same-issuer": 44,
+    "same-team-and-entities": 5,
     "same-headline": 2,
     "same-team-near-identical": 5,
     "copied-text": 3,
@@ -240,11 +240,19 @@
     },
     {
       "kept": {
-        "source": "Bar & Bench",
-        "url": "https://www.barandbench.com/law-firms/dealstreet/azb-hlc-cam-linklaters-act-on-aegis-logistics-3500-crore-qip",
-        "headline": "AZB, Hogan Lovells, CAM, Linklaters act on Aegis Logistics ₹3,500 crore QIP"
+        "source": "Legal Era",
+        "url": "https://www.legaleraonline.com/deal-street/azb-aegis-logistics-3500-crore-qip-992090",
+        "headline": "AZB & Partners Advised Aegis Logistics On INR 3,500 Crore QIP"
       },
       "duplicates": [
+        {
+          "source": "Bar & Bench",
+          "url": "https://www.barandbench.com/law-firms/dealstreet/azb-hlc-cam-linklaters-act-on-aegis-logistics-3500-crore-qip",
+          "headline": "AZB, Hogan Lovells, CAM, Linklaters act on Aegis Logistics ₹3,500 crore QIP",
+          "rules": [
+            "headline-entities"
+          ]
+        },
         {
           "source": "Legal Era",
           "url": "https://www.legaleraonline.com/deal-street/cyril-amarchand-mangaldas-advised-placement-agents-aegis-logistics-inr-3500-crore-qip-991684",
@@ -652,6 +660,23 @@
           "headline": "Khaitan & Co Advised Blackstone On Proposed ₹5,000 Crore Investment In IIFL Finance",
           "rules": [
             "same-team-same-issuer"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-dbs-bank-on-24-million-acquisition-financing-extended-to-delhi-international-cargo-terminal",
+        "headline": "Khaitan & Co advises DBS Bank on $24 million acquisition financing extended to Delhi International Cargo Terminal"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/khaitan-co-dbs-bank-usd-24-million-ecb-acquisition-financing-991977",
+          "headline": "Khaitan & Co Advised DBS Bank On USD 24 Million ECB Acquisition Financing",
+          "rules": [
+            "same-team-and-entities"
           ]
         }
       ]
@@ -1094,6 +1119,23 @@
     {
       "kept": {
         "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-cyril-amarchand-mangaldas-white-case-act-on-urban-company-2500-crore-qip",
+        "headline": "Shardul Amarchand Mangaldas, Cyril Amarchand Mangaldas, White & Case act on Urban Company ₹2,500 crore QIP"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/cyril-amarchand-mangaldas-advised-placement-agents-inr-2500-crore-qip-urban-company-992054",
+          "headline": "Cyril Amarchand Mangaldas Advised Placement Agents On INR 2,500 Crore QIP By Urban Company Limited",
+          "rules": [
+            "same-team-same-issuer"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
         "url": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-khaitan-co-act-on-bonfiglioli-2533-crore-ipo",
         "headline": "Shardul Amarchand Mangaldas, Khaitan & Co, Linklaters act on Bonfiglioli ₹2,533 crore IPO"
       },
@@ -1308,6 +1350,23 @@
           "headline": "Trilegal Advised J B Ecotex On Its Proposed IPO",
           "rules": [
             "same-core-headline"
+          ]
+        }
+      ]
+    },
+    {
+      "kept": {
+        "source": "Bar & Bench",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/trilegal-jsa-act-on-infineon-technologies-acquisition-of-c2i-semiconductors",
+        "headline": "Trilegal, JSA act on Infineon Technologies' acquisition of C2i Semiconductors"
+      },
+      "duplicates": [
+        {
+          "source": "Legal Era",
+          "url": "https://www.legaleraonline.com/deal-street/trilegal-infineon-technologies-c2i-semiconductors-100-percent-acquisition-991999",
+          "headline": "Trilegal Advised Infineon Technologies AG On The 100% Acquisition Of C2i Semiconductors",
+          "rules": [
+            "same-team-same-issuer"
           ]
         }
       ]
@@ -2007,6 +2066,35 @@
       ],
       "shared_people": 2,
       "people_jaccard": 0.04,
+      "veto": "entity-clash"
+    },
+    {
+      "a": "Khaitan & Co Advised Carbon Resources On JV For 104MW Dangchhu Hydropower Project In Bhutan",
+      "a_url": "https://www.legaleraonline.com/deal-street/khaitan-co-carbon-resources-104mw-dangchhu-hydropower-project-bhutan-jv-992012",
+      "b": "Khaitan & Co acts on Carbon Resources - Druk Green Power Corp 104MW hydropower project in Bhutan",
+      "b_url": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-carbon-resources-druk-green-power-corp-104mw-hydropower-project-in-bhutan",
+      "date_gap_days": 2,
+      "head_sim": 0.75,
+      "lede_sim": 0.26,
+      "shared_rare": [
+        "104mw",
+        "bhutan",
+        "carbon",
+        "hydropower",
+        "project",
+        "resources"
+      ],
+      "a_only": [
+        "dangchhu",
+        "jv"
+      ],
+      "b_only": [
+        "druk",
+        "green",
+        "power"
+      ],
+      "shared_people": 3,
+      "people_jaccard": 1.0,
       "veto": "entity-clash"
     },
     {

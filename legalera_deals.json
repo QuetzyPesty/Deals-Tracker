@@ -12435,5 +12435,588 @@
       "fx_asof": null,
       "source": "headline"
     }
+  },
+  {
+    "headline": "Cyril Amarchand Mangaldas Advised Placement Agents On INR 2,500 Crore QIP By Urban Company Limited",
+    "client": "Placement Agents",
+    "source": "Legal Era",
+    "source_id": "legalera",
+    "url": "https://www.legaleraonline.com/deal-street/cyril-amarchand-mangaldas-advised-placement-agents-inr-2500-crore-qip-urban-company-992054",
+    "snippet": "Cyril Amarchand Mangaldas represented the Placement Agents ( Morgan Stanley India Company Private Limited, Kotak Mahindra Capital Company Limited and Emkay Global Financial Services Limited ) on the qualified institutions placement (“QIP”) by Urban Company Limited. QIP comprises an issue of equity shares, aggregating to INR 25,000 million (INR 2,500 crore) by Urban Company Limited. Cyril Amarchand Mangaldas transaction team was led by Gokul Rajan (Partner, Regional Co-Head – Capital Markets – No",
+    "law_firms": [
+      "Cyril Amarchand Mangaldas"
+    ],
+    "transaction_types": [
+      "QIP"
+    ],
+    "people": [
+      {
+        "name": "Gokul Rajan",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Puneet Passi",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Chinar Gupta",
+        "role": "Principal Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Prakhar Jain",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Abhinav Singh Chauhan",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Naman Kulshrestha",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      }
+    ],
+    "published_at": "2026-11-26T16:45:43+05:30",
+    "keywords": [
+      "Cyril Amarchand Mangaldas",
+      "Urban Company Limited QIP",
+      "INR 2",
+      "500 crore QIP",
+      "qualified institutions placement",
+      "placement agents",
+      "Morgan Stanley India Company",
+      "Kotak Mahindra Capital Company",
+      "Emkay Global Financial Services",
+      "capital markets transaction",
+      "equity share issue",
+      "Indian capital markets"
+    ],
+    "deal_value": {
+      "raw": "INR 2,500 Crore",
+      "currency": "INR",
+      "amount": 25000000000,
+      "amount_inr": 25000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
+  },
+  {
+    "headline": "S&R Associates Advised Selling Shareholder On INR 1.13 Billion Sale Of 20% Stake In Cosmix Wellness To...",
+    "client": "Selling Shareholder",
+    "source": "Legal Era",
+    "source_id": "legalera",
+    "url": "https://www.legaleraonline.com/deal-street/s-and-r-associates-advised-selling-shareholder-cosmix-wellness-marico-20-percent-stake-sale-992057",
+    "snippet": "S&R Associates Advised Selling Shareholder on INR 1.13 Billion Sale of 20% Stake in Cosmix Wellness to Marico S&R Associates represented the selling shareholder in the INR 1.13 billion sale of a 20% stake in Cosmix Wellness, a nutrition and wellness brand, to Marico Limited, a listed Indian multinational consumer goods company, increasing Marico’s aggregate stake in Cosmix Wellness to 80% of its paid-up share capital. S&R Associates team was led by Swathi Girimaji (Partner), and included Bhanusr",
+    "law_firms": [
+      "S&R Associates"
+    ],
+    "transaction_types": [],
+    "people": [
+      {
+        "name": "Advised Selling Shareholder",
+        "role": "Associate",
+        "firm": "S&R Associates"
+      },
+      {
+        "name": "Swathi Girimaji",
+        "role": "Partner",
+        "firm": "S&R Associates"
+      },
+      {
+        "name": "Bhanusri S.",
+        "role": "Associate",
+        "firm": "S&R Associates",
+        "source": "ner"
+      },
+      {
+        "name": "Poorna Shree A.",
+        "role": "Associate",
+        "firm": "S&R Associates",
+        "source": "ner"
+      }
+    ],
+    "published_at": "2026-11-26T16:45:15+05:30",
+    "keywords": [
+      "S&R Associates advised selling shareholder",
+      "Cosmix Wellness stake sale",
+      "Marico acquisition",
+      "INR 1.13 billion transaction",
+      "20% stake sale",
+      "Marico 80% stake in Cosmix Wellness",
+      "Cosmix Wellness acquisition",
+      "Indian M&A deals",
+      "consumer goods transaction",
+      "nutrition and wellness brand",
+      "Swathi Girimaji",
+      "Bhanusri S",
+      "Poorna Shree A"
+    ],
+    "deal_value": {
+      "raw": "INR 1.13 Billion",
+      "currency": "INR",
+      "amount": 1130000000,
+      "amount_inr": 1130000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
+  },
+  {
+    "headline": "Khaitan & Co Advised Gentari Renewables India On The Divestment Of A Minority Stake",
+    "client": "Gentari Renewables India",
+    "source": "Legal Era",
+    "source_id": "legalera",
+    "url": "https://www.legaleraonline.com/deal-street/khaitan-co-advised-gentari-renewables-india-minority-stake-divestment-992053",
+    "snippet": "Khaitan & Co advised Gentari India, a clean energy solutions provider founded by PETRONAS, on the divestment of a minority stake in the company. The platform comprises approximately 8 GW of operating, under-construction and contracted Renewable Energy capacity. The firm advised and assisted in vendor due diligence, structuring the transaction, negotiating and finalisation of transaction documents. Khaitan & Co core deal team included Akhil Bhatnagar (Partner), Bhagirath Ashiya (Partner), Priyal ",
+    "law_firms": [
+      "Khaitan & Co"
+    ],
+    "transaction_types": [
+      "divestment"
+    ],
+    "people": [
+      {
+        "name": "Akhil Bhatnagar",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Bhagirath Ashiya",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Priyal Reddy",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Ayushi Gupta",
+        "role": "Associate",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Moin Ladha",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Atul Pandey",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Hirak Mukhopadhyay",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Anshuman Sakle",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Sudheer Madamaiah",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      }
+    ],
+    "published_at": "2026-11-26T16:30:10+05:30",
+    "keywords": [
+      "Khaitan & Co",
+      "Gentari Renewables India",
+      "Gentari India",
+      "minority stake divestment",
+      "renewable energy transaction",
+      "8 GW renewable energy capacity",
+      "clean energy investment",
+      "PETRONAS",
+      "vendor due diligence",
+      "transaction structuring",
+      "FEMA advisory",
+      "competition law",
+      "real estate advisory",
+      "Indian law firm"
+    ]
+  },
+  {
+    "headline": "Cyril Amarchand Mangaldas Advised Aamanya AG On The Acquisition Of 59.32% Stake In Dishman Carbogen Amcis ...",
+    "client": "Aamanya AG",
+    "source": "Legal Era",
+    "source_id": "legalera",
+    "url": "https://www.legaleraonline.com/deal-street/cyril-amarchand-mangaldas-advised-aamanya-ag-acquisition-dishman-carbogen-amcis-59-32-percent-stake-992051",
+    "snippet": "Cyril Amarchand Mangaldas Advised Aamanya AG on the Acquisition of 59.32% Stake in Dishman Carbogen Amcis Limited Cyril Amarchand Mangaldas acted as legal counsel to Aamanya AG (“Client”) in relation to its acquisition of a majority stake in Dishman Carbogen Amcis Limited (“Target”), a company listed on the National Stock Exchange of India Limited and BSE Limited, as part of the restructuring within the promoter and promoter group of the Target. The transaction involved the Client's acquisition ",
+    "law_firms": [
+      "Cyril Amarchand Mangaldas"
+    ],
+    "transaction_types": [
+      "acquisition"
+    ],
+    "people": [
+      {
+        "name": "Aditya Prasad",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Arundhati Diljit",
+        "role": "Senior Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Aamir Kapadia",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Radhika Gaggar",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Shaishavi Kadakia",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Radhika Parthasarathy",
+        "role": "Principal Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Lily Poonia",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Dhruv Rajain",
+        "role": "Partner",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Ananya Mahant",
+        "role": "Senior Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Ria Vora",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      },
+      {
+        "name": "Mayukha Parcha",
+        "role": "Associate",
+        "firm": "Cyril Amarchand Mangaldas"
+      }
+    ],
+    "published_at": "2026-11-26T15:22:32+05:30",
+    "keywords": [
+      "Cyril Amarchand Mangaldas",
+      "Aamanya AG",
+      "Dishman Carbogen Amcis Limited",
+      "59.32% stake acquisition",
+      "SEBI Regulation 10",
+      "promoter group restructuring",
+      "family settlement",
+      "share purchase agreement",
+      "listed company acquisition",
+      "competition law",
+      "private client advisory",
+      "Indian M&A transaction"
+    ]
+  },
+  {
+    "headline": "Trilegal Advised Blackstone-Backed ASK Property Investment Advisors On The Successful Final Closing Of...",
+    "client": "Blackstone-Backed ASK Property Investment Advisors",
+    "source": "Legal Era",
+    "source_id": "legalera",
+    "url": "https://www.legaleraonline.com/deal-street/trilegal-advised-ask-property-investment-advisors-real-estate-fund-iii-final-closing-992025",
+    "snippet": "Trilegal Advised Blackstone-Backed ASK Property Investment Advisors on the Successful Final Closing of Real Estate Fund III Trilegal acted as the sole legal counsel to Blackstone-backed ASK Property Investment Advisors Private Limited in connection with the establishment and successful final closing of ASK Real Estate Special Situations Fund – III (the “Fund”), a real estate-focused Category II alternative investment fund, registered with the Securities and Exchange Board of India. Trilegal advi",
+    "law_firms": [
+      "Trilegal"
+    ],
+    "transaction_types": [
+      "investment"
+    ],
+    "people": [
+      {
+        "name": "Sai Krishna Bharathan",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Pallabi Ghosal",
+        "role": "Partner",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Hetvi Doshi",
+        "role": "Counsel",
+        "firm": "Trilegal"
+      },
+      {
+        "name": "Debargha Mukherjee",
+        "role": "Associate",
+        "firm": "Trilegal"
+      }
+    ],
+    "published_at": "2026-11-26T12:30:31+05:30",
+    "keywords": [
+      "Trilegal advised ASK Property Investment Advisors",
+      "Blackstone-backed ASK",
+      "ASK Real Estate Special Situations Fund III",
+      "Real Estate Fund III",
+      "Indian real estate investments",
+      "Category II alternative investment fund",
+      "SEBI registered AIF",
+      "real estate fund closing",
+      "fund structuring",
+      "fund establishment",
+      "institutional investors",
+      "real estate fundraising",
+      "Trilegal Asset Management and Funds Team",
+      "Sai Krishna Bharathan",
+      "Pallabi Ghosal",
+      "Hetvi Doshi",
+      "Debargha Mukherjee"
+    ]
+  },
+  {
+    "headline": "Khaitan & Co Advised Carbon Resources On JV For 104MW Dangchhu Hydropower Project In Bhutan",
+    "client": "Carbon Resources",
+    "source": "Legal Era",
+    "source_id": "legalera",
+    "url": "https://www.legaleraonline.com/deal-street/khaitan-co-carbon-resources-104mw-dangchhu-hydropower-project-bhutan-jv-992012",
+    "snippet": "Khaitan & Co advised Carbon Resources Private Limited on its strategic joint venture with Druk Green Power Corporation, the state-owned hydropower company of Bhutan, for the development and operation of the 104MW Dangchhu Hydropower Project in Bhutan. Dangchhu project is expected to contribute to Bhutan’s energy security and sustainable economic growth. It also reflects Bhutan’s commitment to promote strategic partnerships through private sector participation in the development of its clean ener",
+    "law_firms": [
+      "Khaitan & Co"
+    ],
+    "transaction_types": [],
+    "people": [
+      {
+        "name": "Shourya Sengupta",
+        "role": "Partner",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Sneh Lata",
+        "role": "Counsel",
+        "firm": "Khaitan & Co"
+      },
+      {
+        "name": "Karishma Sethia",
+        "role": "Senior Associate",
+        "firm": "Khaitan & Co"
+      }
+    ],
+    "published_at": "2026-11-25T16:15:53+05:30",
+    "keywords": [
+      "Khaitan & Co",
+      "Carbon Resources Private Limited",
+      "Druk Green Power Corporation",
+      "104MW Dangchhu Hydropower Project",
+      "Bhutan hydropower project",
+      "Carbon Resources joint venture",
+      "Bhutan renewable energy",
+      "hydropower development",
+      "clean energy infrastructure",
+      "strategic joint venture",
+      "Shourya Sengupta",
+      "Sneh Lata",
+      "Karishma Sethia"
+    ]
+  },
+  {
+    "headline": "Clifford Chance Advised Lenders On The Financing Of 2.6GW Taweelah C Power Plant In Abu Dhabi",
+    "client": "Lenders",
+    "source": "Legal Era",
+    "source_id": "legalera",
+    "url": "https://www.legaleraonline.com/deal-street/clifford-chance-taweelah-c-power-plant-2-6gw-financing-abu-dhabi-992042",
+    "snippet": "The leading international law firm, Clifford Chance, advised the lenders on the financing of the Taweelah C greenfield project in Abu Dhabi, UAE. Taweelah C project comprises a 2.6GW combined cycle gas turbine (CCGT) power plant and is being developed under Abu Dhabi's independent power producer programme. The project was awarded by Emirates Water and Electricity Company (EWEC) to Abu Dhabi National Energy Company PJSC (TAQA), alongside an international consortium comprising Aljomaih Energy and ",
+    "law_firms": [
+      "Clifford Chance"
+    ],
+    "transaction_types": [
+      "financing"
+    ],
+    "people": [
+      {
+        "name": "Jeremy Barker",
+        "role": "Partner",
+        "firm": "Clifford Chance"
+      },
+      {
+        "name": "Gabriel Miranda",
+        "role": "Senior Associate",
+        "firm": "Clifford Chance"
+      },
+      {
+        "name": "Haeyoung Kim",
+        "role": "Associate",
+        "firm": "Clifford Chance"
+      },
+      {
+        "name": "Laith Najim",
+        "role": "Associate",
+        "firm": "Clifford Chance"
+      },
+      {
+        "name": "Richard Parris",
+        "role": "Partner",
+        "firm": "Clifford Chance"
+      },
+      {
+        "name": "Inaamul Laher",
+        "role": "Partner",
+        "firm": "Clifford Chance"
+      },
+      {
+        "name": "Qudeer Latif",
+        "role": "Partner",
+        "firm": "Clifford Chance"
+      },
+      {
+        "name": "Adam Wood",
+        "role": "Counsel",
+        "firm": "Clifford Chance"
+      },
+      {
+        "name": "Mel Chan",
+        "role": "Partner",
+        "firm": "Clifford Chance"
+      },
+      {
+        "name": "Didi Hu",
+        "role": "Associate",
+        "firm": "Clifford Chance"
+      }
+    ],
+    "published_at": "2026-11-24T15:11:33+05:30",
+    "keywords": [
+      "Clifford Chance",
+      "Taweelah C power plant financing",
+      "2.6GW power plant Abu Dhabi",
+      "Taweelah C project UAE",
+      "AED 7.76 billion project",
+      "US$2.1 billion financing",
+      "Abu Dhabi power infrastructure",
+      "project finance UAE",
+      "independent power producer programme",
+      "Emirates Water and Electricity Company",
+      "TAQA",
+      "Aljomaih Energy and Water Company",
+      "Sembcorp Industries",
+      "Jeremy Barker"
+    ]
+  },
+  {
+    "headline": "AZB & Partners Advised Aegis Logistics On INR 3,500 Crore QIP",
+    "client": "Aegis Logistics",
+    "source": "Legal Era",
+    "source_id": "legalera",
+    "url": "https://www.legaleraonline.com/deal-street/azb-aegis-logistics-3500-crore-qip-992090",
+    "snippet": "AZB & Partners advised Aegis Logistics Limited on its INR 3,500 crore qualified institutions placement (QIP) of equity shares. The book-running lead managers to the QIP were J.P. Morgan India Private Limited, HSBC Securities and Capital Markets (India) Private Limited, Jefferies India Private Limited, JM Financial Ltd, BNP Paribas, CLSA India Private Limited and DAM Capital Advisors Limited. AZB & Partners team was led by Varoon Chandra (Senior Partner) and comprised Agnik Bhattacharyya (Senior ",
+    "law_firms": [
+      "AZB & Partners"
+    ],
+    "transaction_types": [
+      "QIP"
+    ],
+    "people": [
+      {
+        "name": "Varoon Chandra",
+        "role": "Senior Partner",
+        "firm": "AZB & Partners"
+      },
+      {
+        "name": "Agnik Bhattacharyya",
+        "role": "Senior Partner",
+        "firm": "AZB & Partners"
+      },
+      {
+        "name": "Sweta Ananthanarayanan",
+        "role": "Partner",
+        "firm": "AZB & Partners"
+      },
+      {
+        "name": "Anusha Mehta",
+        "role": "Senior Associate",
+        "firm": "AZB & Partners"
+      },
+      {
+        "name": "Shivani Singh",
+        "role": "Associate",
+        "firm": "AZB & Partners"
+      },
+      {
+        "name": "Vaibhav Kumar Shah",
+        "role": "Associate",
+        "firm": "AZB & Partners"
+      },
+      {
+        "name": "Asit Singh Baghel",
+        "role": "Associate",
+        "firm": "AZB & Partners"
+      },
+      {
+        "name": "Udit Prajapat",
+        "role": "Associate",
+        "firm": "AZB & Partners"
+      },
+      {
+        "name": "Ishikaa Banot",
+        "role": "Associate",
+        "firm": "AZB & Partners"
+      },
+      {
+        "name": "Sourabh Singh",
+        "role": "Associate",
+        "firm": "AZB & Partners"
+      },
+      {
+        "name": "Anand Shah",
+        "role": "Senior Partner",
+        "firm": "AZB & Partners"
+      },
+      {
+        "name": "Hufriz Wadia",
+        "role": "Partner",
+        "firm": "AZB & Partners"
+      },
+      {
+        "name": "Shivani Agarwal",
+        "role": "Senior Associate",
+        "firm": "AZB & Partners"
+      },
+      {
+        "name": "Vanshika Mahana",
+        "role": "Associate",
+        "firm": "AZB & Partners"
+      }
+    ],
+    "published_at": "2026-11-23T16:46:42+05:30",
+    "keywords": [
+      "AZB & Partners",
+      "Aegis Logistics QIP",
+      "INR 3",
+      "500 crore QIP",
+      "qualified institutions placement",
+      "capital markets transaction"
+    ],
+    "deal_value": {
+      "raw": "INR 3,500 Crore",
+      "currency": "INR",
+      "amount": 35000000000,
+      "amount_inr": 35000000000,
+      "approx": false,
+      "fx_asof": null,
+      "source": "headline"
+    }
   }
 ]
